@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+	--font-cormorant: 'Cormorant Garamond', serif;
+}
+
+/* Hide scrollbars globally while keeping scroll functionality */
+* {
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE and Edge */
+}
+
+*::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Opera */
+}
+
+html,
+body {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+	display: none;
+}
