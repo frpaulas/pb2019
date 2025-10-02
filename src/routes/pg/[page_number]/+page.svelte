@@ -1,7 +1,7 @@
 <script>
 	import 'tailwindcss';
 	import { page } from '$app/stores';
-	import InfiniteScroll from '$lib/components/InfiniteScroll.svelte';
+	import InfiniteScroll from '$lib/page/InfiniteScroll.svelte';
 	import { browser } from '$app/environment';
 	// Check if user prefers infinite scroll (you can add a setting for this)
 	let useInfiniteScroll = $state(true);

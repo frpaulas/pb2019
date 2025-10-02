@@ -4,9 +4,7 @@
 	import { page } from '$app/stores';
 	import IntentionallyBlank from '$lib/page/intentionally_blank.svelte';
 	import { currentVisiblePage } from '$lib/stores/currentPage.js';
-	import { next_page, prev_page } from '$lib/page_helpers/nav_helpers.svelte';
-	//const { page, next, prev } = createCurrentPage();
-	const pageOrder = ['iii', 'iv', 'v', 'vi', 'vii'];
+	import { getNextPage, getPrevPage, sortPages } from '$lib/page_helpers/page_order';
 	let currentPageNumber = $page.params.page_number;
 	let loadedPages = $state([$page.params.page_number]);
 	$inspect(currentPageNumber, loadedPages);
@@ -17,24 +15,23 @@
 	let touchStartX = 0;
 	let lastScrollTop = 0;
 	let scrollDirection = 'none';
-	let hasScrolledFromTop = false;
 	let lastLoadTime = 0;
-	let canLoadPrevious = true;
 	let scrollTimeout;
-	console.log('Loaded Pages: ', $state.snapshot(loadedPages));
+	let justLoadedPrev = false; // Flag to prevent immediate re-trigger
+
 	async function loadNextPage() {
 		if (isLoading) return;
 
-		const lastPage = loadedPages[loadedPages.length - 1];
-		// const nextPage = getNextPage(lastPage);
-		const nextPage = next_page(lastPage);
+		const currentPages = $state.snapshot(loadedPages);
+		const lastPage = currentPages[currentPages.length - 1];
+		const nextPage = getNextPage(lastPage);
 
-		if (!nextPage || loadedPages.includes(nextPage)) return;
+		if (!nextPage || currentPages.includes(nextPage)) return;
 
 		isLoading = true;
 
 		// Add the next page to loadedPages
-		loadedPages = [...loadedPages, nextPage];
+		loadedPages = sortPages([...currentPages, nextPage]);
 
 		// Don't update URL immediately - let IntersectionObserver handle it
 		// when a valid page becomes visible
@@ -42,76 +39,124 @@
 		isLoading = false;
 	}
 
-	async function loadPrevPage() {
+	async function loadPrevPage(scrollToOriginal = false) {
 		console.log('loadPrevPage called - trigger source:', new Error().stack);
 
-		// Debounce: prevent loading if called within 500ms of last load
-		const now = Date.now();
-		if (now - lastLoadTime < 500) {
-			console.log('Debounced loadPrevPage call');
+		if (isLoading || justLoadedPrev) {
+			console.log('Skipped - isLoading:', isLoading, 'justLoadedPrev:', justLoadedPrev);
 			return;
 		}
 
-		if (isLoading) return;
-
-		const firstPage = loadedPages[0];
-		//const prevPage = getPrevPage(firstPage);
-		const prevPage = prev_page(firstPage);
-		if (!prevPage || loadedPages.includes(prevPage)) return;
+		const currentPages = $state.snapshot(loadedPages);
+		const firstPage = currentPages[0];
+		const prevPage = getPrevPage(firstPage);
+		if (!prevPage || currentPages.includes(prevPage)) return;
 
 		isLoading = true;
-		lastLoadTime = now;
+		justLoadedPrev = true;
+
+		// Store the page we want to scroll to if needed
+		const targetPage = scrollToOriginal ? firstPage : null;
 
 		// Add previous page to the beginning of loadedPages
-		loadedPages = [prevPage, ...loadedPages];
-		// Don't update URL immediately - let IntersectionObserver handle it
-		// when a valid page becomes visible
+		loadedPages = sortPages([prevPage, ...currentPages]);
+
+		// If we need to scroll to the original page, do it after DOM updates
+		if (targetPage) {
+			await new Promise((resolve) => setTimeout(resolve, 100));
+			const targetElement = container?.querySelector(`[data-page="${targetPage}"]`);
+			if (targetElement) {
+				targetElement.scrollIntoView({ block: 'start' });
+			}
+		}
 
 		isLoading = false;
+
+		// Reset the flag after a delay to allow future loads
+		setTimeout(() => {
+			justLoadedPrev = false;
+		}, 1000);
 	}
 
 	function handleScroll() {
 		if (!container) return;
 
 		const { scrollTop, scrollHeight, clientHeight } = container;
+		console.log('handleScroll called - scrollTop:', scrollTop, 'lastScrollTop:', lastScrollTop);
 		const scrollProgress = (scrollTop + clientHeight) / scrollHeight;
-
-		// Track if user has scrolled away from the top
-		if (scrollTop > 0) {
-			hasScrolledFromTop = true;
-		}
-
-		// Reset previous page loading permission when scrolling down
-		if (scrollDirection === 'down' && scrollTop > 100) {
-			canLoadPrevious = true;
-		}
+		const scrollTopProgress = scrollTop / scrollHeight; // Position from the top
 
 		// Determine scroll direction
 		if (scrollTop > lastScrollTop) {
 			scrollDirection = 'down';
+			console.log('Scroll DOWN - scrollTop:', scrollTop, 'lastScrollTop:', lastScrollTop);
 		} else if (scrollTop < lastScrollTop) {
 			scrollDirection = 'up';
+			console.log('Scroll UP - scrollTop:', scrollTop, 'lastScrollTop:', lastScrollTop);
 		}
 		lastScrollTop = scrollTop;
 
-		// Load next page when 80% scrolled down AND scrolling down
+		// Load next page when 80% scrolled down
 		if (scrollProgress > 0.8 && !isLoading && scrollDirection === 'down') {
 			loadNextPage();
 		}
 
-		// Load previous page with timeout-based debouncing
-		if (scrollTop === 0 && !isLoading && (scrollDirection === 'up' || !hasScrolledFromTop)) {
-			// Clear any existing timeout
-			if (scrollTimeout) {
-				clearTimeout(scrollTimeout);
-			}
+		// Load previous page when scrolling up and the first page is visible or nearly visible
+		// Get current snapshot of loadedPages to avoid stale closure
+		const currentLoadedPages = $state.snapshot(loadedPages);
+		const firstPageElement = container?.querySelector(`[data-page="${currentLoadedPages[0]}"]`);
 
-			// Set a timeout to load previous page after scroll stops
-			scrollTimeout = setTimeout(() => {
-				if (scrollTop === 0 && !isLoading) {
-					loadPrevPage();
-				}
-			}, 150);
+		if (scrollDirection === 'up') {
+			console.log(
+				'Scrolling up - firstPage:',
+				currentLoadedPages[0],
+				'scrollTop:',
+				scrollTop,
+				'element found:',
+				!!firstPageElement
+			);
+		}
+
+		if (firstPageElement && scrollDirection === 'up') {
+			const firstPageTop = firstPageElement.offsetTop;
+			const firstPageBottom = firstPageTop + firstPageElement.offsetHeight;
+			const viewportTop = scrollTop;
+			const viewportBottom = scrollTop + clientHeight;
+
+			// Trigger when the first page is visible in viewport or we're within 500px of it
+			const isFirstPageVisible = viewportBottom > firstPageTop && viewportTop < firstPageBottom;
+			const isNearFirstPage = viewportTop < firstPageBottom + 500;
+
+			console.log(
+				'Check loadPrev - scrollTop:',
+				scrollTop,
+				'firstPageTop:',
+				firstPageTop,
+				'firstPageBottom:',
+				firstPageBottom,
+				'isVisible:',
+				isFirstPageVisible,
+				'isNear:',
+				isNearFirstPage,
+				'isLoading:',
+				isLoading
+			);
+
+			if ((isFirstPageVisible || isNearFirstPage) && !isLoading) {
+				console.log(
+					'Triggering loadPrevPage - scrollTop:',
+					scrollTop,
+					'firstPageTop:',
+					firstPageTop,
+					'firstPageBottom:',
+					firstPageBottom,
+					'isVisible:',
+					isFirstPageVisible,
+					'firstPage:',
+					currentLoadedPages[0]
+				);
+				loadPrevPage(true);
+			}
 		}
 	}
 
@@ -140,7 +185,26 @@
 
 	onMount(() => {
 		if (container) {
-			container.addEventListener('scroll', handleScroll, { passive: true });
+			// Preload 2 previous pages on mount to ensure scrollable content
+			const currentPages = $state.snapshot(loadedPages);
+			const firstPage = currentPages[0];
+			const hasPrev = getPrevPage(firstPage);
+			const hasPrevPrev = hasPrev ? getPrevPage(hasPrev) : null;
+
+			if (container.scrollTop === 0 && hasPrev) {
+				loadPrevPage(true); // Load first previous page
+
+				// Load second previous page after waiting for first to complete
+				if (hasPrevPrev) {
+					setTimeout(() => {
+						justLoadedPrev = false; // Reset the flag to allow second load
+						loadPrevPage(true);
+					}, 1500);
+				}
+			}
+
+			// Scroll handler now attached via onscroll in template
+			// container.addEventListener('scroll', handleScroll, { passive: true });
 			container.addEventListener('touchstart', handleTouchStart, { passive: true });
 			container.addEventListener('touchend', handleTouchEnd, { passive: true });
 
@@ -229,9 +293,10 @@
 	$effect(() => {
 		const newPage = $page.params.page_number;
 		if (newPage && newPage !== currentPageNumber) {
+			const currentPages = $state.snapshot(loadedPages);
 			// Only reset loadedPages if this is a true navigation (not from infinite scroll)
 			// Check if the new page is adjacent to current loaded pages
-			const isAdjacent = loadedPages.some((page) => {
+			const isAdjacent = currentPages.some((page) => {
 				const pageNum = parseInt(page);
 				const newPageNum = parseInt(newPage);
 				if (!isNaN(pageNum) && !isNaN(newPageNum)) {
@@ -241,14 +306,14 @@
 			});
 
 			currentPageNumber = newPage;
-			if (!loadedPages.includes(newPage) && !isAdjacent) {
+			if (!currentPages.includes(newPage) && !isAdjacent) {
 				// Only reset if it's not an adjacent page (true navigation)
 				loadedPages = [newPage];
-			} else if (!loadedPages.includes(newPage)) {
+			} else if (!currentPages.includes(newPage)) {
 				// Add to existing pages if adjacent
 				const newPageNum = parseInt(newPage);
 				if (!isNaN(newPageNum)) {
-					const sortedPages = [...loadedPages, newPage].sort((a, b) => {
+					const sortedPages = [...currentPages, newPage].sort((a, b) => {
 						const aNum = parseInt(a);
 						const bNum = parseInt(b);
 						if (!isNaN(aNum) && !isNaN(bNum)) return aNum - bNum;
@@ -261,7 +326,14 @@
 	});
 </script>
 
-<div bind:this={container} class="h-screen overflow-auto">
+<div
+	bind:this={container}
+	class="h-screen overflow-auto"
+	onscroll={(e) => {
+		console.log('SCROLL EVENT FIRED!', e.target.scrollTop);
+		handleScroll();
+	}}
+>
 	{#each loadedPages as pageNum, index}
 		<div class="page-container pb-5" data-page={pageNum}>
 			{#await import(`../../lib/page/${pageNum}.svelte`)}
@@ -286,9 +358,5 @@
 <style>
 	.page-container {
 		scroll-snap-align: start;
-	}
-
-	div[bind\:this] {
-		scroll-snap-type: y mandatory;
 	}
 </style>
