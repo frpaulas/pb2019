@@ -1,5 +1,5 @@
 <script>
-	import { onMount } from 'svelte';
+	import { onMount, tick } from 'svelte';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 	import IntentionallyBlank from '$lib/page/intentionally_blank.svelte';
@@ -42,7 +42,9 @@
 		const currentPages = $state.snapshot(loadedPages);
 		const firstPage = currentPages[0];
 		const prevPage = getPrevPage(firstPage);
-		if (!prevPage || currentPages.includes(prevPage)) return;
+		if (!prevPage || currentPages.includes(prevPage)) {
+			return;
+		}
 
 		isLoading = true;
 		justLoadedPrev = true;
@@ -53,50 +55,65 @@
 			return;
 		}
 
-		// Store scroll info BEFORE adding new page
+		// Preload the component module before adding to DOM to eliminate async render delay
+		try {
+			await import(`../../lib/page/${prevPage}.svelte`);
+		} catch (e) {
+			// Component doesn't exist, will show IntentionallyBlank
+		}
+
+		// Store scroll info immediately BEFORE we start any blocking
 		const oldScrollHeight = container.scrollHeight;
 		const oldScrollTop = container.scrollTop;
+
+		// Immediately block all pointer events and user scrolling during adjustment
+		const oldPointerEvents = container.style.pointerEvents;
+		const oldUserSelect = container.style.userSelect;
+		const oldOverflow = container.style.overflow;
+
+		container.style.pointerEvents = 'none';
+		container.style.userSelect = 'none';
+		container.style.overflow = 'hidden';
+
+		// Immediately lock the scroll position to stop momentum
+		container.scrollTop = oldScrollTop;
+
+		// Force layout flush
+		void container.offsetHeight;
 
 		// Add previous page to the beginning of loadedPages
 		loadedPages = sortPages([prevPage, ...currentPages]);
 
-		// Function to adjust scroll position based on added content height
-		const adjustScroll = () => {
-			if (!container) return;
+		// Wait for Svelte to update DOM
+		await tick();
 
-			const newScrollHeight = container.scrollHeight;
-			const heightAdded = newScrollHeight - oldScrollHeight;
+		// Very short delay for component to render (minimize scroll blocking)
+		await new Promise((resolve) => setTimeout(resolve, 10));
 
-			// Adjust scroll position to maintain the same visual content
-			if (heightAdded > 0) {
-				container.scrollTop = oldScrollTop + heightAdded;
-			}
-		};
+		// Calculate final adjustment needed
+		const finalHeight = container.scrollHeight;
+		const totalHeightAdded = finalHeight - oldScrollHeight;
 
-		// Multi-strategy approach to catch DOM updates at different stages
-		// Immediate check (sync)
-		await Promise.resolve();
-		adjustScroll();
+		// Apply the adjustment in one go (round to avoid subpixel issues)
+		if (totalHeightAdded > 0) {
+			container.scrollTop = Math.round(oldScrollTop + totalHeightAdded);
+		}
 
-		// After microtask queue
-		setTimeout(() => {
-			adjustScroll();
-		}, 0);
+		// Wait one more frame to catch any late layout changes
+		await new Promise((resolve) => requestAnimationFrame(resolve));
 
-		// After next paint
-		requestAnimationFrame(() => {
-			adjustScroll();
-			// Double RAF for safety
-			requestAnimationFrame(() => {
-				adjustScroll();
-			});
-		});
+		const veryFinalHeight = container.scrollHeight;
+		if (veryFinalHeight !== finalHeight) {
+			const extraHeight = veryFinalHeight - finalHeight;
+			container.scrollTop += extraHeight;
+		}
 
-		// Final adjustment after async component loading
-		setTimeout(() => {
-			adjustScroll();
-			isLoading = false;
-		}, 150);
+		// Restore scrolling and pointer events
+		container.style.pointerEvents = oldPointerEvents;
+		container.style.userSelect = oldUserSelect;
+		container.style.overflow = oldOverflow;
+
+		isLoading = false;
 
 		// Reset the flag after a delay to allow future loads
 		setTimeout(() => {
@@ -337,11 +354,13 @@
 
 <style>
 	.page-container {
-		scroll-snap-align: start;
+		/* Removed scroll-snap-align to prevent snapping */
 		contain: layout style paint;
 	}
 
 	div[bind\:this] {
-		scroll-snap-type: y mandatory;
+		/* Scroll snap completely disabled */
+		/* overflow-anchor disabled - we handle scroll positioning manually */
+		overflow-anchor: none;
 	}
 </style>
