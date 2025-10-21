@@ -69,7 +69,7 @@ export function getPageName(num: string) {
 	}
 	return '';
 }
-
+// the number in pageNameMap is the LAST PAGE of the Section and not the first
 const pageNameMap = [
 	[5, 'preface'],
 	[10, 'concerning the divine service'],

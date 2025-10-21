@@ -39,7 +39,7 @@
 		{
 			title: 'Daily Prayers',
 			submenu: [
-				{ title: 'Morning Prayer', href: '/pg/9' },
+				{ title: 'Morning Prayer', href: '/pg/11' },
 				{ title: 'Midday Prayer', href: '/pg/33' },
 				{ title: 'Evening Prayer', href: '/pg/41' },
 				{ title: 'Compline', href: '/pg/57' },
