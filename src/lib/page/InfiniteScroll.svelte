@@ -185,7 +185,7 @@
 		// }
 	}
 
-	onMount(() => {
+	onMount(async () => {
 		if (container) {
 			// Preload 2 previous pages on mount to ensure scrollable content
 			const currentPages = $state.snapshot(loadedPages);
@@ -193,15 +193,36 @@
 			const hasPrev = getPrevPage(firstPage);
 			const hasPrevPrev = hasPrev ? getPrevPage(hasPrev) : null;
 
-			if (container.scrollTop === 0 && hasPrev) {
-				loadPrevPage(true); // Load first previous page
+			// Load previous pages but don't do any scroll adjustments yet
+			// since we're at the initial load position
+			if (hasPrev) {
+				// Preload components first
+				try {
+					await import(`../../lib/page/${hasPrev}.svelte`);
+					if (hasPrevPrev) {
+						await import(`../../lib/page/${hasPrevPrev}.svelte`);
+					}
+				} catch (e) {
+					// Components don't exist
+				}
 
-				// Load second previous page after waiting for first to complete
-				if (hasPrevPrev) {
-					setTimeout(() => {
-						justLoadedPrev = false; // Reset the flag to allow second load
-						loadPrevPage(true);
-					}, 1500);
+				// Add both pages at once to avoid multiple adjustments
+				const pagesToAdd = hasPrevPrev ? [hasPrevPrev, hasPrev] : [hasPrev];
+				loadedPages = sortPages([...pagesToAdd, ...currentPages]);
+
+				// Wait for rendering
+				await tick();
+				await new Promise((resolve) => setTimeout(resolve, 50));
+
+				// Scroll to show the original page with slight offset
+				const firstPageElement = container.querySelector(`[data-page="${firstPage}"]`);
+				if (firstPageElement) {
+					const targetScrollTop = firstPageElement.offsetTop - 50;
+					container.scrollTop = targetScrollTop;
+
+					// Set again after delay to override any interference from other components
+					await new Promise((resolve) => setTimeout(resolve, 100));
+					container.scrollTop = targetScrollTop;
 				}
 			}
 

@@ -1,7 +1,10 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { getPageName } from '$lib/page_helpers/nav_helpers.svelte';
-	let page_number: string = $page.params.page_number ?? 'iii';
+	import { currentVisiblePage } from '$lib/stores/currentPage.js';
+
+	// Use the currentVisiblePage store which updates during infinite scroll
+	let page_number = $derived($currentVisiblePage || $page.params.page_number || 'iii');
 	let isMenuOpen = false;
 	let openSubmenus = new Set();
 	let button_class =
