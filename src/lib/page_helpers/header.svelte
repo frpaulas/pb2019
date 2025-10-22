@@ -5,8 +5,9 @@
 
 	// Use the currentVisiblePage store which updates during infinite scroll
 	let page_number = $derived($currentVisiblePage || $page.params.page_number || 'iii');
-	let isMenuOpen = false;
-	let openSubmenus = new Set();
+
+	let isMenuOpen = $state(false);
+	let openSubmenus = $state(new Set());
 	let button_class =
 		'block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900';
 	let submenu_button_class =

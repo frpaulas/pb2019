@@ -8,6 +8,9 @@
 	let currentPageNumber = $page.params.page_number;
 	let loadedPages = $state([$page.params.page_number]);
 
+	// Initialize the visible page store with the current route page
+	currentVisiblePage.set($page.params.page_number);
+
 	let isLoading = $state(false);
 	let container;
 	let touchStartY = 0;
@@ -147,7 +150,7 @@
 		const firstPageElement = container?.querySelector(`[data-page="${currentLoadedPages[0]}"]`);
 
 		if (firstPageElement && scrollDirection === 'up') {
-			const firstPageTop = firstPageElement.offsetTop;
+			const firstPageTop = firstPageElement.offsetTop + 50;
 			const firstPageBottom = firstPageTop + firstPageElement.offsetHeight;
 			const viewportTop = scrollTop;
 			const viewportBottom = scrollTop + clientHeight;
@@ -187,42 +190,45 @@
 
 	onMount(async () => {
 		if (container) {
-			// Preload 2 previous pages on mount to ensure scrollable content
-			const currentPages = $state.snapshot(loadedPages);
-			const firstPage = currentPages[0];
-			const hasPrev = getPrevPage(firstPage);
-			const hasPrevPrev = hasPrev ? getPrevPage(hasPrev) : null;
+			// Only preload previous pages if we're at the top (scrollTop === 0)
+			// This means it's a fresh page load, not a navigation from hamburger menu
+			if (container.scrollTop === 0) {
+				const currentPages = $state.snapshot(loadedPages);
+				const firstPage = currentPages[0];
+				const hasPrev = getPrevPage(firstPage);
+				const hasPrevPrev = hasPrev ? getPrevPage(hasPrev) : null;
 
-			// Load previous pages but don't do any scroll adjustments yet
-			// since we're at the initial load position
-			if (hasPrev) {
-				// Preload components first
-				try {
-					await import(`../../lib/page/${hasPrev}.svelte`);
-					if (hasPrevPrev) {
-						await import(`../../lib/page/${hasPrevPrev}.svelte`);
+				// Load previous pages but don't do any scroll adjustments yet
+				// since we're at the initial load position
+				if (hasPrev) {
+					// Preload components first
+					try {
+						await import(`../../lib/page/${hasPrev}.svelte`);
+						if (hasPrevPrev) {
+							await import(`../../lib/page/${hasPrevPrev}.svelte`);
+						}
+					} catch (e) {
+						// Components don't exist
 					}
-				} catch (e) {
-					// Components don't exist
-				}
 
-				// Add both pages at once to avoid multiple adjustments
-				const pagesToAdd = hasPrevPrev ? [hasPrevPrev, hasPrev] : [hasPrev];
-				loadedPages = sortPages([...pagesToAdd, ...currentPages]);
+					// Add both pages at once to avoid multiple adjustments
+					const pagesToAdd = hasPrevPrev ? [hasPrevPrev, hasPrev] : [hasPrev];
+					loadedPages = sortPages([...pagesToAdd, ...currentPages]);
 
-				// Wait for rendering
-				await tick();
-				await new Promise((resolve) => setTimeout(resolve, 50));
+					// Wait for rendering
+					await tick();
+					await new Promise((resolve) => setTimeout(resolve, 50));
 
-				// Scroll to show the original page with slight offset
-				const firstPageElement = container.querySelector(`[data-page="${firstPage}"]`);
-				if (firstPageElement) {
-					const targetScrollTop = firstPageElement.offsetTop - 50;
-					container.scrollTop = targetScrollTop;
+					// Scroll to show the original page with slight offset
+					const firstPageElement = container.querySelector(`[data-page="${firstPage}"]`);
+					if (firstPageElement) {
+						const targetScrollTop = firstPageElement.offsetTop - 50;
+						container.scrollTop = targetScrollTop;
 
-					// Set again after delay to override any interference from other components
-					await new Promise((resolve) => setTimeout(resolve, 100));
-					container.scrollTop = targetScrollTop;
+						// Set again after delay to override any interference from other components
+						await new Promise((resolve) => setTimeout(resolve, 100));
+						container.scrollTop = targetScrollTop;
+					}
 				}
 			}
 
@@ -255,21 +261,11 @@
 					entries.forEach((entry) => {
 						if (entry.isIntersecting) {
 							const pageNum = entry.target.getAttribute('data-page');
-							if (pageNum && pageNum !== currentPageNumber) {
+							if (pageNum) {
+								// Always update the visible page store for the header
 								currentVisiblePage.set(pageNum);
-								// Only update URL if we're not loading and the page actually exists
-								// Check if this is an intentionally blank page by looking for the component
-								const pageContainer = entry.target;
-								const hasIntentionallyBlank = pageContainer.querySelector(
-									'[data-intentionally-blank]'
-								);
-
-								// Disable URL updates to prevent $effect from resetting loadedPages
-								// if (!isLoading && !hasIntentionallyBlank) {
-								// 	const newUrl = `/pg/${pageNum}`;
-								// 	window.history.replaceState({}, '', newUrl);
-								// 	currentPageNumber = pageNum;
-								// }
+								// Also update currentPageNumber so navigation detection works
+								currentPageNumber = pageNum;
 							}
 						}
 					});
@@ -317,6 +313,12 @@
 		const newPage = $page.params.page_number;
 		if (newPage && newPage !== currentPageNumber) {
 			const currentPages = $state.snapshot(loadedPages);
+
+			// Check if navigating to an already loaded but not currently visible page
+			const currentVisiblePageValue = $state.snapshot(currentVisiblePage);
+			const isNavigatingToLoadedPage =
+				currentPages.includes(newPage) && currentVisiblePageValue !== newPage;
+
 			// Only reset loadedPages if this is a true navigation (not from infinite scroll)
 			// Check if the new page is adjacent to current loaded pages
 			const isAdjacent = currentPages.some((page) => {
@@ -329,9 +331,39 @@
 			});
 
 			currentPageNumber = newPage;
-			if (!currentPages.includes(newPage) && !isAdjacent) {
-				// Only reset if it's not an adjacent page (true navigation)
-				loadedPages = [newPage];
+			if ((!currentPages.includes(newPage) && !isAdjacent) || isNavigatingToLoadedPage) {
+				// True navigation - load target page plus one previous for upward scrolling
+				const hasPrev = getPrevPage(newPage);
+				const pagesToLoad = hasPrev ? [hasPrev, newPage] : [newPage];
+				loadedPages = pagesToLoad;
+
+				// Scroll to show the target page at top
+				if (container) {
+					if (hasPrev) {
+						// First, reset scroll to 0 to establish consistent baseline
+						container.scrollTop = 0;
+
+						// Wait for DOM to render, then scroll to target page
+						tick().then(() => {
+							setTimeout(() => {
+								const targetPageElement = container?.querySelector(`[data-page="${newPage}"]`);
+								if (targetPageElement) {
+									// Subtract offset to show page higher on screen
+									const targetScroll = targetPageElement.offsetTop - 50;
+									container.scrollTop = targetScroll;
+
+									// Double-set to override any interference
+									setTimeout(() => {
+										container.scrollTop = targetScroll;
+									}, 100);
+								}
+							}, 50);
+						});
+					} else {
+						// No previous page, just scroll to top
+						container.scrollTop = 0;
+					}
+				}
 			} else if (!currentPages.includes(newPage)) {
 				// Add to existing pages if adjacent
 				const newPageNum = parseInt(newPage);
