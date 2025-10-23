@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 	import { getPageName } from '$lib/page_helpers/nav_helpers.svelte';
 	import { currentVisiblePage } from '$lib/stores/currentPage.js';
 
@@ -34,48 +35,54 @@
 	const menuStructure = [
 		{
 			title: 'Home',
-			href: '/pg/iii'
+			href: `${base}/pg/iii`
 		},
 		{
 			title: 'Table of Contents',
-			href: '/pg/v'
+			href: `${base}/pg/v`
 		},
 		{
 			title: 'Daily Prayers',
 			submenu: [
-				{ title: 'Morning Prayer', href: '/pg/11' },
-				{ title: 'Midday Prayer', href: '/pg/33' },
-				{ title: 'Evening Prayer', href: '/pg/41' },
-				{ title: 'Compline', href: '/pg/57' },
-				{ title: 'Family Prayer', href: '/pg/67' }
+				{ title: 'Morning Prayer', href: `${base}/pg/11` },
+				{ title: 'Midday Prayer', href: `${base}/pg/33` },
+				{ title: 'Evening Prayer', href: `${base}/pg/41` },
+				{ title: 'Compline', href: `${base}/pg/57` },
+				{ title: 'Family Prayer', href: `${base}/pg/67` }
 			]
 		},
 		{
 			title: 'Holy Eucharist',
 			submenu: [
-				{ title: 'Anglican Standard Text', href: '/to_do/HE: Anglican Standard Text' },
-				{ title: 'Renewed Ancient Text', href: '/to_do/HE: Renewed Ancient Text' },
-				{ title: 'Supplemental Eucharistic Text', href: '/to_do/Supplenetal Eucharistic Text' },
-				{ title: 'Seasonal Greetings', href: '/to_do/Seasonal Greetings' },
-				{ title: 'Exhortation', href: '/to_do/Exhoration' },
-				{ title: 'Offertory Sentences', href: '/to_do/Offertory Sentences' },
-				{ title: 'Proper Prefaces', href: '/to_do/Proper Prefaces' }
+				{ title: 'Anglican Standard Text', href: `${base}/to_do/HE: Anglican Standard Text` },
+				{ title: 'Renewed Ancient Text', href: `${base}/to_do/HE: Renewed Ancient Text` },
+				{
+					title: 'Supplemental Eucharistic Text',
+					href: `${base}/to_do/Supplenetal Eucharistic Text`
+				},
+				{ title: 'Seasonal Greetings', href: `${base}/to_do/Seasonal Greetings` },
+				{ title: 'Exhortation', href: `${base}/to_do/Exhoration` },
+				{ title: 'Offertory Sentences', href: `${base}/to_do/Offertory Sentences` },
+				{ title: 'Proper Prefaces', href: `${base}/to_do/Proper Prefaces` }
 			]
 		},
 		{
 			title: 'Pastoral Offices',
 			submenu: [
-				{ title: 'Holy Baptism', href: '/to_do/Holy Baptism' },
-				{ title: 'Confirmation', href: '/to_do/Confirmation' },
-				{ title: 'Baptism With Confirmation', href: '/to_do/Baptism With Confirmation' }
+				{ title: 'Holy Baptism', href: `${base}/to_do/Holy Baptism` },
+				{ title: 'Confirmation', href: `${base}/to_do/Confirmation` },
+				{ title: 'Baptism With Confirmation', href: `${base}/to_do/Baptism With Confirmation` }
 			]
 		},
 		{
 			title: 'Additional Resources',
 			submenu: [
-				{ title: 'Supplemental Canticles', href: '/to_do/Supplemental Canticles' },
-				{ title: 'Great Litany and Supplication', href: '/to_do/Great Litany and Supplication' },
-				{ title: 'Decalogue', href: '/to_do/Decalogue' }
+				{ title: 'Supplemental Canticles', href: `${base}/to_do/Supplemental Canticles` },
+				{
+					title: 'Great Litany and Supplication',
+					href: `${base}/to_do/Great Litany and Supplication`
+				},
+				{ title: 'Decalogue', href: `${base}/to_do/Decalogue` }
 			]
 		}
 	];
@@ -86,7 +93,7 @@
 		<div class="flex items-center justify-between py-4">
 			<!-- Logo/Title -->
 			<div class="flex-shrink-0">
-				<a href="/pg/iii" class="text-xl font-bold text-gray-900">PB2019</a>
+				<a href="{base}/pg/iii" class="text-xl font-bold text-gray-900">PB2019</a>
 			</div>
 			<div class="text-sm text-gray-500">
 				{getPageName(page_number)}

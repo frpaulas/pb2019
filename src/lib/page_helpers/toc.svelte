@@ -1,4 +1,6 @@
 <script>
+	import { base } from '$app/paths';
+
 	let { text, page = 0, indent = false } = $props();
 
 	let button_class =
@@ -13,7 +15,7 @@
 	{/if}
 
 	{#if page > 0}
-		<a href="/pg/{page}" class={button_class}>
+		<a href="{base}/pg/{page}" class={button_class}>
 			{page}
 		</a>
 	{/if}
