@@ -33,6 +33,10 @@
 			"deb": {
 				"depends": []
 			}
+		},
+		"android": {
+			"minSdkVersion": 24,
+			"targetSdkVersion": 36
 		}
 	}
 }
