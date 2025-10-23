@@ -88,7 +88,7 @@
 	];
 </script>
 
-<header class="fixed w-180 border-b bg-white shadow-md">
+<header class="fixed w-full max-w-180 border-b bg-white shadow-md">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="flex items-center justify-between py-4">
 			<!-- Logo/Title -->

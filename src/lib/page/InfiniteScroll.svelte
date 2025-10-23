@@ -20,6 +20,8 @@
 	let lastLoadTime = 0;
 	let scrollTimeout;
 	let justLoadedPrev = false; // Flag to prevent immediate re-trigger
+	let preventLoadPrev = false; // Flag to prevent loading when navigating from menu
+	let isUserScrolling = false; // Track active scrolling
 
 	async function loadNextPage() {
 		if (isLoading) return;
@@ -149,7 +151,7 @@
 		const currentLoadedPages = $state.snapshot(loadedPages);
 		const firstPageElement = container?.querySelector(`[data-page="${currentLoadedPages[0]}"]`);
 
-		if (firstPageElement && scrollDirection === 'up') {
+		if (firstPageElement && scrollDirection === 'up' && !preventLoadPrev) {
 			const firstPageTop = firstPageElement.offsetTop + 50;
 			const firstPageBottom = firstPageTop + firstPageElement.offsetHeight;
 			const viewportTop = scrollTop;
@@ -159,7 +161,15 @@
 			const isFirstPageVisible = viewportBottom > firstPageTop && viewportTop < firstPageBottom;
 			const isNearFirstPage = viewportTop < firstPageBottom + 500;
 
-			if ((isFirstPageVisible || isNearFirstPage) && !isLoading && !justLoadedPrev) {
+			// Only trigger if we're very close to the top (within 200px) to prevent accidental triggers
+			const isVeryNearTop = scrollTop < 200;
+
+			if (
+				isVeryNearTop &&
+				(isFirstPageVisible || isNearFirstPage) &&
+				!isLoading &&
+				!justLoadedPrev
+			) {
 				loadPrevPage(true);
 			}
 		}
@@ -168,6 +178,13 @@
 	function handleTouchStart(event) {
 		touchStartY = event.touches[0].clientY;
 		touchStartX = event.touches[0].clientX;
+		isUserScrolling = true;
+
+		// Reset the flag after scrolling settles (500ms of no touch)
+		clearTimeout(scrollTimeout);
+		scrollTimeout = setTimeout(() => {
+			isUserScrolling = false;
+		}, 500);
 	}
 
 	function handleTouchEnd(event) {
@@ -190,6 +207,17 @@
 
 	onMount(async () => {
 		if (container) {
+			// Detect if this is a navigation from menu (not at top of page)
+			const isMenuNavigation = container.scrollTop > 0;
+
+			if (isMenuNavigation) {
+				// Prevent auto-loading previous pages for 3 seconds after menu navigation
+				preventLoadPrev = true;
+				setTimeout(() => {
+					preventLoadPrev = false;
+				}, 3000);
+			}
+
 			// Only preload previous pages if we're at the top (scrollTop === 0)
 			// This means it's a fresh page load, not a navigation from hamburger menu
 			if (container.scrollTop === 0) {
