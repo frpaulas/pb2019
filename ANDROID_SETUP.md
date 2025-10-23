@@ -139,10 +139,11 @@ Common paths:
 The project is configured with:
 - **Package ID:** com.pb2019.app
 - **Min SDK Version:** 24 (Android 7.0)
-- **Target SDK Version:** 36 (Android 14)
 - **App Name:** PB2019 - Prayer Book
 
 These settings can be modified in `src-tauri/tauri.conf.json`.
+
+**Note:** The target SDK version is managed by Tauri and will be set automatically based on the Tauri version you're using.
 
 ## Next Steps
 
