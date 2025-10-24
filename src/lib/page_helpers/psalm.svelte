@@ -9,6 +9,6 @@
 			{ln1}
 			<span class="relative -top-1 text-xs">*</span>
 		</p>
-		<p class="indent-4 font-bold">{ln2}</p>
+		<p class="pl-4 font-bold">{ln2}</p>
 	</div>
 </div>
