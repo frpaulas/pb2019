@@ -1,11 +1,13 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
+	import { goto } from '$app/navigation';
 	import { getPageName } from '$lib/page_helpers/nav_helpers.svelte';
 	import { currentVisiblePage } from '$lib/stores/currentPage.js';
 
 	// Use the currentVisiblePage store which updates during infinite scroll
 	let page_number = $derived($currentVisiblePage || $page.params.page_number || 'iii');
+	let inputPageNumber = $state('');
 
 	let isMenuOpen = $state(false);
 	let openSubmenus = $state(new Set());
@@ -30,6 +32,13 @@
 			openSubmenus.add(category);
 		}
 		openSubmenus = new Set(openSubmenus);
+	}
+
+	function handlePageNavigation(event: KeyboardEvent) {
+		if (event.key === 'Enter' && inputPageNumber.trim()) {
+			goto(`${base}/pg/${inputPageNumber.trim()}`);
+			inputPageNumber = '';
+		}
 	}
 
 	const menuStructure = [
@@ -95,9 +104,15 @@
 			<div class="flex-shrink-0">
 				<a href="{base}/pg/iii" class="text-xl font-bold text-gray-900">PB2019</a>
 			</div>
-			<div class="text-sm text-gray-500">
-				{getPageName(page_number)}
-				{page_number}
+			<div class="flex items-center gap-2 text-sm text-gray-500">
+				<span>{getPageName(page_number)}</span>
+				<input
+					type="text"
+					bind:value={inputPageNumber}
+					onkeydown={handlePageNavigation}
+					placeholder={page_number}
+					class="w-16 rounded border border-gray-300 px-2 py-1 text-center text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+				/>
 			</div>
 
 			<!-- Hamburger Button -->
