@@ -15,10 +15,17 @@
 	display: none; /* Chrome, Safari, Opera */
 }
 
-html,
+html {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	overflow-y: scroll;
+}
+
 body {
 	scrollbar-width: none;
 	-ms-overflow-style: none;
+	min-height: 100vh;
+	height: auto;
 }
 
 html::-webkit-scrollbar,

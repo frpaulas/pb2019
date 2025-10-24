@@ -9,17 +9,19 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<div class="absolute top-0 left-0 z-9999 w-full max-w-180">
-	<Header />
-</div>
-<div
-	class="scrollbar-hidden absolute top-18 w-full max-w-180 rounded-md border-t-3 border-r-3 border-red-800 bg-neutral-100 font-serif"
->
+<div class="relative">
+	<div class="fixed top-0 left-0 z-9999 w-full max-w-180">
+		<Header />
+	</div>
 	<div
-		class="border-r-double scrollbar-hidden w-full max-w-178 border-r-3 border-double border-r-green-900"
+		class="scrollbar-hidden mt-18 w-full max-w-180 rounded-md border-t-3 border-r-3 border-red-800 bg-neutral-100 font-serif"
 	>
-		<div class="scrollbar-hidden p-4 sm:p-8">
-			{@render children?.()}
+		<div
+			class="border-r-double scrollbar-hidden w-full max-w-178 border-r-3 border-double border-r-green-900"
+		>
+			<div class="scrollbar-hidden p-4 sm:p-8">
+				{@render children?.()}
+			</div>
 		</div>
 	</div>
 </div>
