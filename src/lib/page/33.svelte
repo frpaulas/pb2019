@@ -16,16 +16,16 @@
 <Rubric text="One or more of the following, or some other suitable Psalm, is sung or said." />
 <SectionTitle text="psalm 119:105-112" />
 <SectionTitle fancy text="Lucerna pedibus meis" />
-<Psalm vs="105" ln1="Your word is a lantern to my feet *" ln2="and a light upon my path." />
+<Psalm vs="105" ln1="Your word is a lantern to my feet" ln2="and a light upon my path." />
 
 <Psalm
 	vs="106"
-	ln1="I have sworn and am steadfastly purposed *"
+	ln1="I have sworn and am steadfastly purposed"
 	ln2="to keep your righteous judgments."
 />
 <Psalm
 	vs="107"
-	ln1="I am troubled above measure; *"
+	ln1="I am troubled above measure;"
 	ln2="revive me, O Lord, according to your word."
 />
 <PageNumber page={33} text="Midday prayer" />

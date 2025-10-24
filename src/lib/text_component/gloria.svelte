@@ -13,7 +13,10 @@
 	<Versical officiant text={lines[0]} />
 	<Versical people text={lines[1]} />
 	<Versical text={lines[2]} />
+{:else}
+	<div class="mt-1">
+		<Line bold indent text={lines[0]} />
+		<Line bold indent text={lines[1]} />
+		<Line bold indent text={lines[2]} />
+	</div>
 {/if}
-<Line bold indent text={lines[0]} />
-<Line bold indent text={lines[1]} />
-<Line bold indent text={lines[2]} />
