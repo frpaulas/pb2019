@@ -7,11 +7,11 @@
 		'block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900 cursor-pointer';
 </script>
 
-<div class="grid break-after-all grid-cols-[575px_50px] gap-3 uppercase">
+<div class="flex break-after-all items-start justify-between gap-3 uppercase">
 	{#if indent}
-		<div class="ml-4">{text}</div>
+		<div class="flex-1 pl-4">{text}</div>
 	{:else}
-		<div>{text}</div>
+		<div class="flex-1">{text}</div>
 	{/if}
 
 	{#if page > 0}

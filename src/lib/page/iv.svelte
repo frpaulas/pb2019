@@ -6,12 +6,23 @@
 <p>Copyright © 2019 by the Anglican Church in North America</p>
 <p>The New Coverdale Psalter Copyright © 2019 by the Anglican Church in North America</p>
 
-<div class="mt-6 grid break-after-all grid-cols-[100px_600px] gap-3 leading-2">
-	<div>Published by</div>
-	<div>Anglican Liturgy Press</div>
-	<div class=" col-start-2">an imprint of Anglican House Media Ministry, Inc.</div>
-	<div class=" col-start-2">16332 Wildfire Circle</div>
-	<div class=" col-start-2">Huntington Beach, CA 92649</div>
+<div class="mt-6 break-after-all leading-relaxed">
+	<div class="flex gap-3">
+		<div class="w-[100px] flex-shrink-0">Published by</div>
+		<div class="flex-1">Anglican Liturgy Press</div>
+	</div>
+	<div class="flex gap-3">
+		<div class="w-[100px] flex-shrink-0"></div>
+		<div class="flex-1">an imprint of Anglican House Media Ministry, Inc.</div>
+	</div>
+	<div class="flex gap-3">
+		<div class="w-[100px] flex-shrink-0"></div>
+		<div class="flex-1">16332 Wildfire Circle</div>
+	</div>
+	<div class="flex gap-3">
+		<div class="w-[100px] flex-shrink-0"></div>
+		<div class="flex-1">Huntington Beach, CA 92649</div>
+	</div>
 </div>
 
 <p class="mt-6">

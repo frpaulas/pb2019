@@ -28,7 +28,7 @@
 		<p class=" text-center normal-case italic">{of}</p>
 	</div>
 {/snippet}
-<div class="mt-8 grid break-after-all grid-cols-2 gap-3">
+<div class="mt-8 flex break-after-all flex-col gap-3 sm:flex-row sm:gap-6">
 	{@render bishop(
 		'+Foley Beach',
 		'Archbishop',
