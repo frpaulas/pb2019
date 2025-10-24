@@ -22,16 +22,16 @@
 />
 <SectionTitle text="te deum laudamus" />
 <SectionTitle fancy text="We Praise You, O God" />
-<Line indent bold text="We praise you, O God; we acclaim you as Lord; * " />
-<Line bold text="all creation worships you, the Father everlasting. " />
-<Line indent bold text="To you all angels, all the powers of heaven, * " />
-<Line bold text="the cherubim and seraphim, sing in endless praise: " />
-<Line indent bold text="Holy, Holy, Holy, Lord God of power and might, * " />
-<Line bold text="heaven and earth are full of your glory. " />
-<Line indent bold text="The glorious company of apostles praise you. * " />
-<Line bold text="The noble fellowship of prophets praise you." />
-<Line indent bold text="The white-robed army of martyrs praise you. * " />
-<Line bold text="Throughout the world the holy Church acclaims you: " />
+<Line bold text="We praise you, O God; we acclaim you as Lord; * " />
+<Line indent bold text="all creation worships you, the Father everlasting. " />
+<Line bold text="To you all angels, all the powers of heaven, * " />
+<Line indent bold text="the cherubim and seraphim, sing in endless praise: " />
+<Line bold text="Holy, Holy, Holy, Lord God of power and might, * " />
+<Line indent bold text="heaven and earth are full of your glory. " />
+<Line bold text="The glorious company of apostles praise you. * " />
+<Line indent bold text="The noble fellowship of prophets praise you." />
+<Line bold text="The white-robed army of martyrs praise you. * " />
+<Line indent bold text="Throughout the world the holy Church acclaims you: " />
 <Line bold text="Father, of majesty unbounded, " />
 <Line bold text="your true and only Son, worthy of all praise, * " />
 <Line indent bold text="and the Holy Spirit, advocate and guide." />

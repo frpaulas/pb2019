@@ -7,9 +7,9 @@
 	import Gloria from '$lib/text_component/gloria.svelte';
 </script>
 
-<Line bold indent text="In the tender compassion of our God *" />
+<Line bold text="In the tender compassion of our God *" />
 <Line bold indent text="the dawn from on high shall break upon us," />
-<Line bold indent text="To shine on those who dwell in darkness" />
+<Line bold text="To shine on those who dwell in darkness" />
 <Line bold indent text="and in the shadow of death, *" />
 <Line bold indent text="and to guide our feet into the way of peace." />
 <Gloria />
