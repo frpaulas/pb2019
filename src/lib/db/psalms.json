@@ -1,0 +1,653 @@
+{
+  "1": {
+    "number": 1,
+    "name": "Beatus vir qui non abiit",
+    "title": "psalm 1",
+    "verses": [
+      {
+        "vs": 1,
+        "ln1": "Blessed is the man who has not walked in the counsel of the ungodly,",
+        "ln2": "nor stood in the way of sinners, and has not sat in the seat of the scornful;",
+        "hebrew": ""
+      },
+      {
+        "vs": 2,
+        "ln1": "But his delight is in the law of the Lord,",
+        "ln2": "and on his law will he meditate day and night.",
+        "hebrew": ""
+      },
+      {
+        "vs": 3,
+        "ln1": "And he shall be like a tree planted by the waterside,",
+        "ln2": "that will bring forth his fruit in due season.",
+        "hebrew": ""
+      },
+      {
+        "vs": 4,
+        "ln1": "His leaf also shall not wither;",
+        "ln2": "and look, whatever he does, it shall prosper.",
+        "hebrew": ""
+      },
+      {
+        "vs": 5,
+        "ln1": "As for the ungodly, it is not so with them;",
+        "ln2": "but they are like the chaff, which the wind scatters away from the face of the earth.",
+        "hebrew": ""
+      },
+      {
+        "vs": 6,
+        "ln1": "Therefore the ungodly shall not be able to stand in the judgment,",
+        "ln2": "neither the sinners in the congregation of the righteous.",
+        "hebrew": ""
+      },
+      {
+        "vs": 7,
+        "ln1": "For the Lord knows the way of the righteous,",
+        "ln2": "but the way of the ungodly shall perish.",
+        "hebrew": ""
+      }
+    ]
+  },
+  "2": {
+    "number": 2,
+    "name": "Quare fremuerunt gentes?",
+    "title": "psalm 2",
+    "verses": [
+      {
+        "vs": 1,
+        "ln1": "Why do the nations so furiously rage together?",
+        "ln2": "And why do the peoples devise a vain thing?",
+        "hebrew": ""
+      },
+      {
+        "vs": 2,
+        "ln1": "The kings of the earth stand up, and the rulers take counsel together,",
+        "ln2": "against the Lord and against his Anointed:",
+        "hebrew": ""
+      },
+      {
+        "vs": 3,
+        "ln1": "\"Let us break their bonds asunder",
+        "ln2": "and cast away their cords from us.\"",
+        "hebrew": ""
+      },
+      {
+        "vs": 4,
+        "ln1": "He who dwells in heaven shall laugh them to scorn;",
+        "ln2": "the Lord shall hold them in derision.",
+        "hebrew": ""
+      },
+      {
+        "vs": 5,
+        "ln1": "Then shall he speak to them in his wrath",
+        "ln2": "and terrify them in his great anger:",
+        "hebrew": ""
+      },
+      {
+        "vs": 6,
+        "ln1": "\"I myself have set my King",
+        "ln2": "upon my holy hill of Zion.\"",
+        "hebrew": ""
+      },
+      {
+        "vs": 7,
+        "ln1": "I will proclaim the decree of the Lord;",
+        "ln2": "he said to me, \"You are my Son; this day have I begotten you.\"",
+        "hebrew": ""
+      },
+      {
+        "vs": 8,
+        "ln1": "Ask of me, and I shall give you the nations for your inheritance",
+        "ln2": "and the ends of the earth for your possession.",
+        "hebrew": ""
+      },
+      {
+        "vs": 9,
+        "ln1": "You shall bruise them with a rod of iron",
+        "ln2": "and break them in pieces like a potter's vessel.\"",
+        "hebrew": ""
+      },
+      {
+        "vs": 10,
+        "ln1": "Be wise now, O you kings;",
+        "ln2": "be warned, you judges of the earth.",
+        "hebrew": ""
+      },
+      {
+        "vs": 11,
+        "ln1": "Serve the Lord in fear,",
+        "ln2": "and rejoice with trembling.",
+        "hebrew": ""
+      },
+      {
+        "vs": 12,
+        "ln1": "Kiss the Son, lest he be angry, and you perish in the way; for his wrath is quickly kindled.",
+        "ln2": "Blessed are all those who put their trust in him.",
+        "hebrew": ""
+      }
+    ]
+  },
+  "3": {
+    "number": 3,
+    "name": "Domine, quid multiplicati?",
+    "title": "psalm 3",
+    "verses": [
+      {
+        "vs": 1,
+        "ln1": "Lord, how they are increased who trouble me;",
+        "ln2": "many are those who rise against me.",
+        "hebrew": ""
+      },
+      {
+        "vs": 2,
+        "ln1": "Many there are who say of my soul,",
+        "ln2": "\"There is no help for him in his God.\"",
+        "hebrew": ""
+      },
+      {
+        "vs": 3,
+        "ln1": "But you, O Lord, are my defender;",
+        "ln2": "you are my glory, and the one who lifts up my head.",
+        "hebrew": ""
+      },
+      {
+        "vs": 4,
+        "ln1": "I called upon the Lord with my voice,",
+        "ln2": "and he heard me from his holy hill.",
+        "hebrew": ""
+      },
+      {
+        "vs": 5,
+        "ln1": "I lay down and slept, and rose up again,",
+        "ln2": "for the Lord sustained me.",
+        "hebrew": ""
+      },
+      {
+        "vs": 6,
+        "ln1": "I will not be afraid of ten thousands of the people",
+        "ln2": "who have set themselves against me round about.",
+        "hebrew": ""
+      },
+      {
+        "vs": 7,
+        "ln1": "Rise up, O Lord, and help me, O my God;",
+        "ln2": "for you smite all my enemies on the cheek-bone; you have broken the teeth of the ungodly.",
+        "hebrew": ""
+      },
+      {
+        "vs": 8,
+        "ln1": "Salvation belongs to the Lord;",
+        "ln2": "may your blessing be upon your people.",
+        "hebrew": ""
+      }
+    ]
+  },
+  "4": {
+    "number": 4,
+    "name": "Cum invocarem",
+    "title": "psalm 4",
+    "verses": [
+      {
+        "vs": 1,
+        "ln1": "Hear me when I call, O God of my righteousness;",
+        "ln2": "you set me free when I was in trouble; have mercy upon me, and hear my prayer.",
+        "hebrew": ""
+      },
+      {
+        "vs": 2,
+        "ln1": "O you children of men, how long will you blaspheme my honor,",
+        "ln2": "and have such pleasure in vanity, and seek after falsehood?",
+        "hebrew": ""
+      },
+      {
+        "vs": 3,
+        "ln1": "Know this also, that the Lord has chosen for himself the one that is godly;",
+        "ln2": "when I call upon the Lord, he will hear me.",
+        "hebrew": ""
+      },
+      {
+        "vs": 4,
+        "ln1": "Stand in awe, and sin not;",
+        "ln2": "commune with your own heart upon your bed, and be still.",
+        "hebrew": ""
+      },
+      {
+        "vs": 5,
+        "ln1": "Offer the sacrifice of righteousness",
+        "ln2": "and put your trust in the Lord.",
+        "hebrew": ""
+      },
+      {
+        "vs": 6,
+        "ln1": "There are many that say, \"Who will show us any good?\"",
+        "ln2": "Lord, lift up the light of your countenance upon us.",
+        "hebrew": ""
+      },
+      {
+        "vs": 7,
+        "ln1": "You have put gladness in my heart,",
+        "ln2": "more than when others' grain and wine and oil increased.",
+        "hebrew": ""
+      },
+      {
+        "vs": 8,
+        "ln1": "I will lay me down in peace, and take my rest;",
+        "ln2": "for you, Lord, only, make me dwell in safety.",
+        "hebrew": ""
+      }
+    ]
+  },
+  "5": {
+    "number": 5,
+    "name": "Verba mea auribus",
+    "title": "psalm 5",
+    "verses": [
+      {
+        "vs": 1,
+        "ln1": "Give ear to my words, O Lord;",
+        "ln2": "consider my meditation.",
+        "hebrew": ""
+      },
+      {
+        "vs": 2,
+        "ln1": "O hearken unto the voice of my calling, my",
+        "ln2": "King and my God,* for unto you will I make my prayer.",
+        "hebrew": ""
+      },
+      {
+        "vs": 3,
+        "ln1": "My voice shall you hear in the morning, O Lord;",
+        "ln2": "early in the morning will I direct my prayer unto you, and will look up.",
+        "hebrew": ""
+      },
+      {
+        "vs": 4,
+        "ln1": "For you are not a god who has pleasure in wickedness,",
+        "ln2": "neither shall any evil dwell with you.",
+        "hebrew": ""
+      },
+      {
+        "vs": 5,
+        "ln1": "The boastful shall not stand in your sight,",
+        "ln2": "for you hate all those who work iniquity.",
+        "hebrew": ""
+      },
+      {
+        "vs": 6,
+        "ln1": "You shall destroy those who speak lies;",
+        "ln2": "the Lord will abhor the bloodthirsty and the deceitful.",
+        "hebrew": ""
+      },
+      {
+        "vs": 7,
+        "ln1": "But as for me, through the multitude of your mercies I will come into your house,",
+        "ln2": "and in reverence will I bow myself toward your holy temple.",
+        "hebrew": ""
+      },
+      {
+        "vs": 8,
+        "ln1": "Lead me, O Lord, in your righteousness, because of my enemies;",
+        "ln2": "make your way straight before my face.",
+        "hebrew": ""
+      },
+      {
+        "vs": 9,
+        "ln1": "For there is no faithfulness in their mouth;",
+        "ln2": "their heart is eaten up with wickedness.",
+        "hebrew": ""
+      },
+      {
+        "vs": 10,
+        "ln1": "Their throat is an open sepulcher;",
+        "ln2": "they flatter with their tongue.",
+        "hebrew": ""
+      },
+      {
+        "vs": 11,
+        "ln1": "Declare them guilty, O God; let them fall because of their own devices;",
+        "ln2": "because of the multitude of their transgressions cast them out, for they have rebelled against you.",
+        "hebrew": ""
+      },
+      {
+        "vs": 12,
+        "ln1": "But let all those who put their trust in you rejoice;",
+        "ln2": "let them ever give thanks because you defend them; those who love your Name shall be joyful in you.",
+        "hebrew": ""
+      },
+      {
+        "vs": 13,
+        "ln1": "For you, Lord, will give your blessing unto the righteous,",
+        "ln2": "and with your favorable kindness you will defend him as with a shield.",
+        "hebrew": ""
+      }
+    ]
+  },
+  "6": {
+    "number": 6,
+    "name": "Domine, ne in furore",
+    "title": "psalm 6",
+    "verses": [
+      {
+        "vs": 1,
+        "ln1": "O Lord, rebuke me not in your indignation,",
+        "ln2": "neither chasten me in your displeasure.",
+        "hebrew": ""
+      },
+      {
+        "vs": 2,
+        "ln1": "Have mercy upon me, O Lord, for I am weak;",
+        "ln2": "O Lord, heal me, for my bones are racked.",
+        "hebrew": ""
+      },
+      {
+        "vs": 3,
+        "ln1": "My soul also is greatly troubled;",
+        "ln2": "but, Lord, how long will you punish me?",
+        "hebrew": ""
+      },
+      {
+        "vs": 4,
+        "ln1": "Turn, O Lord, and deliver my soul;",
+        "ln2": "O save me for your mercy's sake.",
+        "hebrew": ""
+      },
+      {
+        "vs": 5,
+        "ln1": "For in death no one remembers you,",
+        "ln2": "and who will give you thanks in the grave?",
+        "hebrew": ""
+      },
+      {
+        "vs": 6,
+        "ln1": "I am weary with my groaning;",
+        "ln2": "every night I flood my bed and drench my couch with my tears.",
+        "hebrew": ""
+      },
+      {
+        "vs": 7,
+        "ln1": "My eyes have become dim because of trouble,",
+        "ln2": "and worn away because of all my enemies.",
+        "hebrew": ""
+      },
+      {
+        "vs": 8,
+        "ln1": "Away from me, all you who work wickedness,",
+        "ln2": "for the Lord has heard the voice of my weeping.",
+        "hebrew": ""
+      },
+      {
+        "vs": 9,
+        "ln1": "The Lord has heard my petition;",
+        "ln2": "the Lord will receive my prayer.",
+        "hebrew": ""
+      },
+      {
+        "vs": 10,
+        "ln1": "All my enemies shall be confounded and greatly vexed;",
+        "ln2": "they shall be turned back and put to shame suddenly.",
+        "hebrew": ""
+      }
+    ]
+  },
+  "7": {
+    "number": 7,
+    "name": "Domine, Deus meus",
+    "title": "psalm 7",
+    "verses": [
+      {
+        "vs": 1,
+        "ln1": "O Lord my God, in you have I put my trust;",
+        "ln2": "save me from all those who persecute me, and deliver me,",
+        "hebrew": ""
+      },
+      {
+        "vs": 2,
+        "ln1": "Lest they devour me like a lion and tear me in pieces",
+        "ln2": "while there is none to help.",
+        "hebrew": ""
+      },
+      {
+        "vs": 3,
+        "ln1": "O Lord my God, if I have done any such thing,",
+        "ln2": "if there be any wickedness in my hands,",
+        "hebrew": ""
+      },
+      {
+        "vs": 4,
+        "ln1": "If I have repaid evil to him who has dealt with me as a friend,",
+        "ln2": "or plundered him who without any cause is my enemy,",
+        "hebrew": ""
+      },
+      {
+        "vs": 5,
+        "ln1": "Then let my enemy pursue me and overtake me,",
+        "ln2": "let him trample my life into the ground, and lay my honor in the dust.",
+        "hebrew": ""
+      },
+      {
+        "vs": 6,
+        "ln1": "Stand up, O Lord, in your wrath, and lift yourself up against the fury of my enemies;",
+        "ln2": "rise up for me in the judgment that you have commanded.",
+        "hebrew": ""
+      },
+      {
+        "vs": 7,
+        "ln1": "Then shall the assembly of the peoples be gathered about you;",
+        "ln2": "lift yourself up again, O Lord, O judge of all the nations.",
+        "hebrew": ""
+      },
+      {
+        "vs": 8,
+        "ln1": "Give sentence for me, O Lord, according to my righteousness,",
+        "ln2": "and according to the innocence that is in me.",
+        "hebrew": ""
+      },
+      {
+        "vs": 9,
+        "ln1": "O let the wickedness of the ungodly come to an end,",
+        "ln2": "but establish the just.",
+        "hebrew": ""
+      },
+      {
+        "vs": 10,
+        "ln1": "For the righteous God",
+        "ln2": "tries the very hearts and minds.",
+        "hebrew": ""
+      },
+      {
+        "vs": 11,
+        "ln1": "God is my shield and my defense;",
+        "ln2": "he preserves those who are true of heart.",
+        "hebrew": ""
+      },
+      {
+        "vs": 12,
+        "ln1": "God is a righteous judge, strong and patient;",
+        "ln2": "and God is provoked every day.",
+        "hebrew": ""
+      },
+      {
+        "vs": 13,
+        "ln1": "If a man will not repent, God will whet his sword;",
+        "ln2": "he will bend his bow, and make it ready.",
+        "hebrew": ""
+      },
+      {
+        "vs": 14,
+        "ln1": "He has prepared for him the instruments of death;",
+        "ln2": "he makes his arrows shafts of fire.",
+        "hebrew": ""
+      },
+      {
+        "vs": 15,
+        "ln1": "Behold, the ungodly is in labor with mischief;",
+        "ln2": "he has conceived wickedness and brought forth lies.",
+        "hebrew": ""
+      },
+      {
+        "vs": 16,
+        "ln1": "He has made a pit and dug it out,",
+        "ln2": "but will himself fall into the trap that he made for others.",
+        "hebrew": ""
+      },
+      {
+        "vs": 17,
+        "ln1": "For his malice shall come upon his own head,",
+        "ln2": "and his wickedness shall fall on his own scalp.",
+        "hebrew": ""
+      },
+      {
+        "vs": 18,
+        "ln1": "I will give thanks unto the Lord, according to his righteousness,",
+        "ln2": "and I will praise the Name of the Lord Most High.",
+        "hebrew": ""
+      }
+    ]
+  },
+  "8": {
+    "number": 8,
+    "name": "Domine, Dominus noster",
+    "title": "psalm 8",
+    "verses": [
+      {
+        "vs": 1,
+        "ln1": "O Lord our Governor, how excellent is your Name in all the world;",
+        "ln2": "you have set your glory above the heavens!",
+        "hebrew": ""
+      },
+      {
+        "vs": 2,
+        "ln1": "Out of the mouth of babes and infants you have ordained strength, because of your enemies,",
+        "ln2": "that you might still the enemy and the avenger.",
+        "hebrew": ""
+      },
+      {
+        "vs": 3,
+        "ln1": "When I consider your heavens, even the works of your fingers,",
+        "ln2": "the moon and the stars, which you have ordained,",
+        "hebrew": ""
+      },
+      {
+        "vs": 4,
+        "ln1": "What is man, that you are mindful of him,",
+        "ln2": "the son of man, that you visit him?",
+        "hebrew": ""
+      },
+      {
+        "vs": 5,
+        "ln1": "You made him little lower than the angels,",
+        "ln2": "to crown him with glory and honor.",
+        "hebrew": ""
+      },
+      {
+        "vs": 6,
+        "ln1": "You made him to have dominion over the works of your hands,*",
+        "ln2": "and you have put all things in subjection under his feet:",
+        "hebrew": ""
+      },
+      {
+        "vs": 7,
+        "ln1": "All sheep and oxen,",
+        "ln2": "even the beasts of the field,",
+        "hebrew": ""
+      },
+      {
+        "vs": 8,
+        "ln1": "The birds of the air, and the fish of the sea,",
+        "ln2": "and whatsoever walks through the paths of the seas.",
+        "hebrew": ""
+      },
+      {
+        "vs": 9,
+        "ln1": "O Lord our Governor,",
+        "ln2": "how excellent is your Name in all the world!",
+        "hebrew": ""
+      }
+    ]
+  },
+  "9": {
+    "number": 9,
+    "name": "Confitebor tibi",
+    "title": "psalm 9",
+    "verses": [
+      {
+        "vs": 1,
+        "ln1": "I will give thanks unto you, O Lord, with my whole heart;",
+        "ln2": "I will speak of all your marvelous works.",
+        "hebrew": ""
+      },
+      {
+        "vs": 2,
+        "ln1": "I will be glad and rejoice in you;",
+        "ln2": "indeed, my songs will I sing of your Name, O Most High.",
+        "hebrew": ""
+      },
+      {
+        "vs": 3,
+        "ln1": "When my enemies are driven back,",
+        "ln2": "they shall fall and perish at your presence;",
+        "hebrew": ""
+      },
+      {
+        "vs": 4,
+        "ln1": "For you have maintained my right and my cause;",
+        "ln2": "you sit on your throne judging right.",
+        "hebrew": ""
+      },
+      {
+        "vs": 5,
+        "ln1": "You have rebuked the nations and destroyed the ungodly;",
+        "ln2": "you have blotted out their name for ever and ever.",
+        "hebrew": ""
+      },
+      {
+        "vs": 6,
+        "ln1": "As for the enemy, their destruction has come; they are in perpetual ruin;",
+        "ln2": "like the cities which you have destroyed, their memory has perished with them.",
+        "hebrew": ""
+      },
+      {
+        "vs": 7,
+        "ln1": "But the Lord sits enthroned for ever;",
+        "ln2": "he has prepared his seat for judgment.",
+        "hebrew": ""
+      },
+      {
+        "vs": 8,
+        "ln1": "For he shall judge the world in righteousness,",
+        "ln2": "and minister true judgment to the peoples.",
+        "hebrew": ""
+      },
+      {
+        "vs": 9,
+        "ln1": "The Lord will be a defense for the oppressed,",
+        "ln2": "even a refuge in the time of trouble;",
+        "hebrew": ""
+      },
+      {
+        "vs": 10,
+        "ln1": "And those who know your Name will put their trust in you,",
+        "ln2": "for you, Lord, have never failed those who seek you.",
+        "hebrew": ""
+      },
+      {
+        "vs": 11,
+        "ln1": "O praise the Lord who dwells in Zion;",
+        "ln2": "tell the peoples what things he has done.",
+        "hebrew": ""
+      },
+      {
+        "vs": 12,
+        "ln1": "For when he takes vengeance for blood, he remembers them,",
+        "ln2": "and forgets not the cry of the poor.",
+        "hebrew": ""
+      },
+      {
+        "vs": 13,
+        "ln1": "Have mercy upon me, O Lord; consider the trouble I suffer from those who hate me,",
+        "ln2": "O you who lift me up from the gates of death,",
+        "hebrew": ""
+      }
+    ]
+  }
+}
