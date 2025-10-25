@@ -3,7 +3,7 @@
 
 	let { text, page } = $props();
 
-	let this_class = $state('mt-8 tracking-[.15em] uppercase');
+	let this_class = $state('mt-8 tracking-[.15em] uppercase text-sm');
 	if (page % 2 === 1) {
 		this_class += ' text-right';
 	}

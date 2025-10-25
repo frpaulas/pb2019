@@ -1,0 +1,10 @@
+[
+	{
+		"label": "Format Psalm",
+		"command": "node",
+		"args": ["${ZED_WORKTREE_ROOT}/.zed/format-psalm.cjs"],
+		"use_new_terminal": false,
+		"allow_concurrent_runs": false,
+		"reveal": "never"
+	}
+]

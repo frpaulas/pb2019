@@ -4,7 +4,6 @@
 	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 </script>
 
-7 8
 <Psalm
 	vs="7"
 	ln1="You have put gladness in my heart, *"
