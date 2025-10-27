@@ -537,8 +537,7 @@ My flesh also shall rest in hope.
 For you shall not leave my soul in the grave, *
 neither shall you allow your Holy One to see corruption.
 12
-You shall show me the path of life; in your presence
-is the fullness of joy, *
+You shall show me the path of life; in your presence is the fullness of joy, *
 and at your right hand there is pleasure for evermore.
 === 17|Exaudi, Domine|psalm 17
 1
@@ -770,8 +769,7 @@ The law of the Lord is perfect, reviving the soul; *
 the testimony of the Lord is sure, and gives wisdom to the simple.
 8
 The statutes of the Lord are right, and rejoice the heart; *
-the commandment of the Lord is pure, and gives light
-to the eyes.
+the commandment of the Lord is pure, and gives light to the eyes.
 9
 The fear of the Lord is clean, and endures for ever; *
 the judgments of the Lord are true, and righteous altogether.
@@ -851,8 +849,7 @@ Their offspring you shall root out of the earth, *
 and their seed from among the children of men.
 11
 For they intended evil against you, *
-and imagined wicked schemes, which they are not able
-to perform.
+and imagined wicked schemes, which they are not able to perform.
 12
 Therefore you shall put them to flight, *
 and the strings of your bow you shall aim at their faces.
@@ -1171,8 +1168,7 @@ Deliver me not over to the will of my adversaries, *
 for there are false witnesses who have risen up against me, and those who speak wrong.
 16
 I would utterly have fainted, *
-had I not believed that I would see the goodness of the
-Lord in the land of the living.
+had I not believed that I would see the goodness of the Lord in the land of the living.
 17
 O wait for the Lord; be strong, and he shall comfort your heart. *
 O put your trust in the Lord.
@@ -1182,8 +1178,7 @@ Unto you will I cry, O Lord my rock; do not be deaf to my prayer; *
 lest, if you do not answer, I become like those who go down into the pit.
 2
 Hear the voice of my humble petitions when I cry unto you, *
-when I hold up my hands toward the sanctuary of your holy
-temple.
+when I hold up my hands toward the sanctuary of your holy temple.
 3
 O cast me not away, neither destroy me with the ungodly and evildoers, *
 who speak as friends to their neighbors, but imagine evil in their hearts.
@@ -1209,6 +1204,7 @@ and he is the sure defense of his Anointed.
 O save your people, and give your blessing to your inheritance; *
 feed them, and lift them up for ever.
 === 29|Afferte Domino|psalm 29
+1
 Ascribe unto the Lord, O you mighty, *
 ascribe unto the Lord worship and strength.
 2
@@ -1239,6 +1235,7 @@ and the Lord remains King for ever.
 The Lord shall give strength to his people; *
 the Lord shall give his people the blessing of peace.
 === 30|Exaltabo te, Domine|psalm 30
+1
 I will magnify you, O Lord, for you have lifted me up, *
 and have not let my foes triumph over me.
 2
@@ -1432,8 +1429,7 @@ The counsel of the Lord shall endure for ever, *
 and the thoughts of his heart from generation to generation.
 12
 Blessed is the nation whose God is the Lord, *
-and blessed are the people he has chosen for himself
-to be his inheritance.
+and blessed are the people he has chosen for himself to be his inheritance.
 13
 The Lord looks down from heaven and beholds all the children of men; *
 from the habitation of his dwelling he considers all those who dwell on the earth.
@@ -1504,7 +1500,8 @@ and your lips from speaking lies.
 14
 Turn from evil and do good; *
 seek peace and pursue it.
-15 The eyes of the Lord are upon the righteous, *
+15
+The eyes of the Lord are upon the righteous, *
 and his ears are open to their prayers.
 16
 The countenance of the Lord is against those who do evil, *
@@ -1547,10 +1544,8 @@ and let the angel of the Lord scatter them.
 Let their way be dark and slippery, *
 and let the angel of the Lord pursue them.
 7
-For they have secretly laid their net to destroy me
-without a cause; *
-indeed, without a cause have they made a pit
-to take away my life.
+For they have secretly laid their net to destroy me without a cause; *
+indeed, without a cause have they made a pit to take away my life.
 8
 Let sudden destruction come upon them unawares, and the net, which they have laid secretly, catch themselves, *
 that they may fall into their own trouble.
@@ -1903,8 +1898,7 @@ Many shall see and fear, *
 and shall put their trust in the Lord.
 5
 Blessed is the man who has set his hope in the Lord, *
-and has not turned to the proud, or to those
-who go about lying.
+and has not turned to the proud, or to those who go about lying.
 6
 O Lord my God, great are the wondrous works which you have done, and also your thoughts toward us; *
 there is none who can be compared with you.
@@ -2557,8 +2551,7 @@ Hear my prayer, O God, *
 and hearken to the words of my mouth.
 3
 For the arrogant have risen up against me, *
-and tyrants, who do not have God before their eyes, seek
-after my life.
+and tyrants, who do not have God before their eyes, seek after my life.
 4
 Behold, God is my helper; *
 the Lord is he who upholds my life.
@@ -2865,8 +2858,7 @@ You shall grant the king a long life, *
 that his years may endure throughout all generations.
 7
 His throne shall abide before God for ever; *
-O prepare your loving mercy and faithfulness, that they
-may preserve him.
+O prepare your loving mercy and faithfulness, that they may preserve him.
 8
 So will I always sing praise unto your Name, *
 that I may daily perform my vows.
@@ -2944,7 +2936,7 @@ that they may be a portion for jackals.
 12
 But the King shall rejoice in God; all those who swear by him shall be commended, *
 for the mouth of those who speak lies shall be stopped.
-== 64|Exaudi, Deus|psalm 64
+=== 64|Exaudi, Deus|psalm 64
 1
 Hear my voice, O God, in my prayer; *
 preserve my life from fear of the enemy.
@@ -3112,8 +3104,7 @@ let them also be merry and joyful.
 O sing unto God, and sing praises unto his Name; magnify
 him who rides upon the heavens. *
 5
-The Lord is his Name; rejoice before him.
-He is a father of the fatherless and defends the cause of the widows, *
+The Lord is his Name; rejoice before him. ||He is a father of the fatherless and defends the cause of the widows, *
 God in his holy habitation.
 6
 He is the God who gives the solitary a home, and brings the prisoners out of captivity, *
@@ -3326,8 +3317,7 @@ Hasten, O God, to deliver me; *
 make haste to help me, O Lord.
 2
 Let them be ashamed and confounded who seek after my life; *
-let them be turned back and put to confusion who wish
-me evil.
+let them be turned back and put to confusion who wish me evil.
 3
 Let them be soon brought to shame *
 who cry over me, “Aha! Aha!”
@@ -3469,6 +3459,7 @@ who alone does wondrous things;
 And blessed be the Name of his majesty for ever; *
 and all the earth shall be filled with his majesty. Amen, Amen.
 === 73|Quam bonus Isræl!|psalm 73
+1
 Truly, God is loving to Israel, *
 even to those who have a clean heart.
 2
@@ -3553,6 +3544,7 @@ you destroy all those who are unfaithful to you.
 But it is good for me to hold fast to God, to put my trust in the Lord God, *
 and to speak of all your works in the gates of the city of Zion.
 === 74|Ut quid, Deus?|psalm 74
+1
 O God, why have you utterly cast us off ? *
 Why is your wrath so hot against the sheep of your pasture?
 2
@@ -3885,8 +3877,7 @@ They turned back, and tested God, *
 and provoked the Holy One of Israel.
 43
 They remembered not his power, *
-nor the day when he delivered them from the hand
-of the enemy,
+nor the day when he delivered them from the hand of the enemy,
 44
 How he had wrought his miracles in Egypt *
 and his wonders in the field of Zoan.
@@ -4079,6 +4070,7 @@ O let us live, and we shall call upon your Name.
 Restore us again, O Lord God of hosts; *
 show the light of your countenance, and we shall be whole.
 === 81|Exultate Deo|psalm 81
+1
 O sing merrily unto God our strength; *
 make a cheerful noise unto the God of Jacob.
 2
@@ -4877,6 +4869,7 @@ then shall all the trees of the wood rejoice before the Lord.
 For he comes, for he comes to judge the earth, *
 and with righteousness to judge the world, and the peoples with his truth.
 === 97|Dominus regnavitpsalm 97
+1
 The Lord is King; let the earth be glad. *
 Indeed, let the multitude of the isles be glad.
 2
@@ -5947,8 +5940,7 @@ Who turned the hard rock into a pool of water, *
 and the flint stone into a springing well.
 === 115|Non nobis, Domine|psalm 115
 1
-Not unto us, O Lord, not unto us, but unto your Name
-give the praise, *
+Not unto us, O Lord, not unto us, but unto your Name give the praise, *
 for your loving mercy and for your truth’s sake.
 2
 Why shall the nations say, *
@@ -6146,6 +6138,7 @@ you are my God, and I will exalt you.
 O give thanks unto the Lord, for he is gracious; *
 his mercy endures for ever.
 === 119|Beati immaculati|psalm 119
+Beati immaculati
 Aleph
 1
 Blessed are those who are undefiled in their ways, *
@@ -6173,6 +6166,7 @@ I will keep your statutes; *
 O do not forsake me utterly.
 In quo corrigit?
 Beth
+9
 How shall a young man cleanse his way? *
 By ruling himself according to your word.
 10
@@ -6224,6 +6218,7 @@ For your testimonies are my delight, *
 and they are my counselors.
 Adhæsit pavimento
 Daleth
+25
 My soul cleaves to the dust; *
 O revive me, according to your word.
 26
@@ -6249,6 +6244,7 @@ I will run the way of your commandments *
 when you enlarge my heart with understanding.
 Legem pone
 He
+33
 Teach me, O Lord, the way of your statutes, *
 and I shall keep it to the end.
 34
@@ -6274,6 +6270,7 @@ Behold, my delight is in your precepts; *
 O revive me in your righteousness.
 Et veniat super me
 Waw
+41
 Let your loving mercy come to me, O Lord, *
 even your salvation, according to your word.
 42
@@ -6297,7 +6294,6 @@ which I have loved exceedingly.
 48
 My hands also will I lift up to your commandments, *
 and I will meditate on your statutes.
-41
 Memor esto verbi tui
 Zayin
 49
@@ -6404,6 +6400,7 @@ O let my heart be sound in your statutes, *
 that I may never be put to shame.
 Defecit anima mea
 Kaph
+81
 My soul has longed for your salvation, *
 and I have a good hope because of your word.
 82
@@ -6427,7 +6424,6 @@ but I have not forsaken your commandments.
 88
 O revive me with your loving-kindness, *
 and so shall I keep the testimonies of your mouth.
-81
 In æternum, Domine
 Lamedh
 89
@@ -6810,8 +6806,7 @@ if the Lord himself had not been on our side, when men rose up against us,
 Then would they have swallowed us up alive, *
 when they were so wrathfully displeased with us;
 3
-Then the waters would have drowned us, and the torrent
-gone over us; *
+Then the waters would have drowned us, and the torrent gone over us; *
 then the raging waters would have gone clean over us.
 4
 But praised be the Lord, *
