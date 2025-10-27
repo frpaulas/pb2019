@@ -9,6 +9,7 @@ export interface Verse {
 	ln1: string;
 	ln2: string;
 	hebrew: string;
+	latin: string;
 }
 
 export interface Psalm {
@@ -38,9 +39,7 @@ export function psalm(psalmNumber: number, vs_from: number, vs_to: number): Vers
 		throw new Error(`Psalm ${psalmNumber} not found in database`);
 	}
 
-	const verses = psalmData.verses.filter(
-		(verse) => verse.vs >= vs_from && verse.vs <= vs_to
-	);
+	const verses = psalmData.verses.filter((verse) => verse.vs >= vs_from && verse.vs <= vs_to);
 
 	return verses;
 }
@@ -107,5 +106,7 @@ export function getVerse(psalmNumber: number, verseNumber: number): Verse {
  * @returns Array of psalm numbers
  */
 export function listPsalms(): number[] {
-	return Object.keys(db).map(Number).sort((a, b) => a - b);
+	return Object.keys(db)
+		.map(Number)
+		.sort((a, b) => a - b);
 }

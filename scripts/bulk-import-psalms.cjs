@@ -37,6 +37,7 @@ function parseFile(input) {
 	let lineBuffer = [];
 	let lineNum = 0;
 	let currentHebrew = ''; // Track current Hebrew letter section
+	let currentLatin = ''; // Track current Latin section title
 
 	for (const line of lines) {
 		lineNum++;
@@ -65,6 +66,7 @@ function parseFile(input) {
 			currentVerses = [];
 			lineBuffer = [];
 			currentHebrew = ''; // Reset Hebrew section for new entry
+			currentLatin = ''; // Reset Latin section for new entry
 			continue;
 		}
 
@@ -77,11 +79,27 @@ function parseFile(input) {
 		if (currentEntry) {
 			const trimmed = line.trim();
 
-			// Check for Hebrew letter section marker (all uppercase, alphabetic)
-			if (trimmed && /^[A-Z]+$/.test(trimmed) && trimmed.length > 1) {
+			// Check for Hebrew letter section marker (all uppercase, alphabetic, single word)
+			if (trimmed && /^[A-Z][a-z]+$/.test(trimmed) && trimmed.length > 1) {
 				currentHebrew = trimmed;
 				console.log(`  Found Hebrew section: ${currentHebrew} in ${currentEntry.key}`);
 				continue;
+			}
+
+			// Check for Latin section title (line that's not a number and contains letters)
+			// This should come before the Hebrew marker
+			if (
+				trimmed &&
+				!/^\d+$/.test(trimmed) &&
+				/[a-zA-Z]/.test(trimmed) &&
+				!/^[A-Z][a-z]+$/.test(trimmed)
+			) {
+				// Make sure this isn't part of a verse (line buffer should be empty)
+				if (lineBuffer.length === 0) {
+					currentLatin = trimmed;
+					console.log(`  Found Latin section: ${currentLatin} in ${currentEntry.key}`);
+					continue;
+				}
 			}
 
 			if (trimmed !== '') {
@@ -105,7 +123,8 @@ function parseFile(input) {
 					vs,
 					ln1,
 					ln2,
-					hebrew: currentHebrew // Use current Hebrew section (empty string if none)
+					hebrew: currentHebrew, // Use current Hebrew section (empty string if none)
+					latin: currentLatin // Use current Latin section (empty string if none)
 				});
 
 				lineBuffer = [];

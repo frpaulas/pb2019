@@ -17,53 +17,61 @@ const path = require('path');
 const DB_PATH = path.join(__dirname, '../src/lib/db/psalms.json');
 
 function main() {
-  // Load database
-  const db = JSON.parse(fs.readFileSync(DB_PATH, 'utf-8'));
+	// Load database
+	const db = JSON.parse(fs.readFileSync(DB_PATH, 'utf-8'));
 
-  // Sort keys numerically where possible, then alphabetically
-  const sortedKeys = Object.keys(db).sort((a, b) => {
-    const aNum = parseInt(a);
-    const bNum = parseInt(b);
+	// Sort keys numerically where possible, then alphabetically
+	const sortedKeys = Object.keys(db).sort((a, b) => {
+		const aNum = parseInt(a);
+		const bNum = parseInt(b);
 
-    if (!isNaN(aNum) && !isNaN(bNum)) {
-      return aNum - bNum; // Both numbers, sort numerically
-    }
-    if (!isNaN(aNum)) return -1; // a is number, b is not - numbers first
-    if (!isNaN(bNum)) return 1;  // b is number, a is not - numbers first
-    return a.localeCompare(b);   // Both non-numbers, sort alphabetically
-  });
+		if (!isNaN(aNum) && !isNaN(bNum)) {
+			return aNum - bNum; // Both numbers, sort numerically
+		}
+		if (!isNaN(aNum)) return -1; // a is number, b is not - numbers first
+		if (!isNaN(bNum)) return 1; // b is number, a is not - numbers first
+		return a.localeCompare(b); // Both non-numbers, sort alphabetically
+	});
 
-  let output = [];
-  let currentHebrew = '';
+	let output = [];
+	let currentHebrew = '';
+	let currentLatin = '';
 
-  for (const key of sortedKeys) {
-    const entry = db[key];
+	for (const key of sortedKeys) {
+		const entry = db[key];
 
-    // Entry header
-    output.push(`=== ${key}|${entry.name}|${entry.title}`);
+		// Entry header
+		output.push(`=== ${key}|${entry.name}|${entry.title}`);
 
-    // Process verses
-    for (const verse of entry.verses) {
-      // Check if Hebrew section changed
-      if (verse.hebrew !== currentHebrew) {
-        if (verse.hebrew) {
-          output.push(verse.hebrew);
-        }
-        currentHebrew = verse.hebrew;
-      }
+		// Process verses
+		for (const verse of entry.verses) {
+			// Check if Latin section changed
+			if (verse.latin && verse.latin !== currentLatin) {
+				output.push(verse.latin);
+				currentLatin = verse.latin;
+			}
 
-      // Verse data
-      output.push(verse.vs.toString());
-      output.push(verse.ln1);
-      output.push(verse.ln2);
-    }
+			// Check if Hebrew section changed
+			if (verse.hebrew !== currentHebrew) {
+				if (verse.hebrew) {
+					output.push(verse.hebrew);
+				}
+				currentHebrew = verse.hebrew;
+			}
 
-    // Reset Hebrew for next entry
-    currentHebrew = '';
-  }
+			// Verse data
+			output.push(verse.vs.toString());
+			output.push(verse.ln1);
+			output.push(verse.ln2);
+		}
 
-  // Output to stdout
-  console.log(output.join('\n'));
+		// Reset for next entry
+		currentHebrew = '';
+		currentLatin = '';
+	}
+
+	// Output to stdout
+	console.log(output.join('\n'));
 }
 
 main();
