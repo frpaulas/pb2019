@@ -969,7 +969,7 @@ you have anointed my head with oil, and my cup shall be full.
 6
 Surely your goodness and mercy shall follow me all the days of my life, *
 and I will dwell in the house of the Lord for ever.
-=== 23kjv|King James Version
+=== 23kjv|King James Version|psalm 23
 1
 The Lord is my shepherd; *
 I shall not want.
@@ -3457,7 +3457,7 @@ Blessed be the Lord God, even the God of Israel, *
 who alone does wondrous things;
 19
 And blessed be the Name of his majesty for ever; *
-and all the earth shall be filled with his majesty. Amen, Amen.
+and all the earth shall be filled with his majesty. ||Amen, Amen.
 === 73|Quam bonus Isræl!|psalm 73
 1
 Truly, God is loving to Israel, *
@@ -4868,7 +4868,7 @@ then shall all the trees of the wood rejoice before the Lord.
 13
 For he comes, for he comes to judge the earth, *
 and with righteousness to judge the world, and the peoples with his truth.
-=== 97|Dominus regnavitpsalm 97
+=== 97|Dominus regnavit|psalm 97
 1
 The Lord is King; let the earth be glad. *
 Indeed, let the multitude of the isles be glad.
@@ -4972,15 +4972,13 @@ serve the Lord with gladness, and come before his presence with a song.
 Be assured that the Lord, he is God; *
 it is he that has made us, and not we ourselves; we are his people, and the sheep of his pasture.
 3
-3
-4
-O go your way into his gates with thanksgiving, and into
-his courts with praise; *
+O go your way into his gates with thanksgiving, and into his courts with praise; *
 be thankful unto him, and speak good of his Name.
+4
 For the Lord is gracious, his mercy is everlasting, *
 and his truth endures from generation to generation.
-101
-Misericordiam et judicium
+=== 101|Misericordiam et judicium|psalm 101
+1
 My song shall be of mercy and judgment; *
 unto you, O Lord, will I sing.
 2

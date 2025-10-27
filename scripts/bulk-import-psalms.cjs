@@ -79,27 +79,42 @@ function parseFile(input) {
 		if (currentEntry) {
 			const trimmed = line.trim();
 
-			// Check for Hebrew letter section marker (all uppercase, alphabetic, single word)
+			// Check for Title Case pattern (could be either Latin title or Hebrew marker)
 			if (trimmed && /^[A-Z][a-z]+$/.test(trimmed) && trimmed.length > 1) {
-				currentHebrew = trimmed;
-				console.log(`  Found Hebrew section: ${currentHebrew} in ${currentEntry.key}`);
+				// Look ahead to see if next non-empty line is also Title Case
+				// If yes, current line is Latin title and next is Hebrew marker
+				let nextLineIdx = lineNum;
+				let nextTrimmed = '';
+				while (nextLineIdx < lines.length) {
+					nextTrimmed = lines[nextLineIdx].trim();
+					if (nextTrimmed) break;
+					nextLineIdx++;
+				}
+
+				if (nextTrimmed && /^[A-Z][a-z]+$/.test(nextTrimmed)) {
+					// Current line is Latin title
+					currentLatin = trimmed;
+					console.log(`  Found Latin section: ${currentLatin} in ${currentEntry.key}`);
+				} else {
+					// Current line is Hebrew marker (no Title Case following)
+					currentHebrew = trimmed;
+					console.log(`  Found Hebrew section: ${currentHebrew} in ${currentEntry.key}`);
+				}
 				continue;
 			}
 
-			// Check for Latin section title (line that's not a number and contains letters)
-			// This should come before the Hebrew marker
+			// Check for Latin section title (multi-word, punctuation, etc)
+			// This catches Latin titles that don't match Title Case pattern
 			if (
 				trimmed &&
 				!/^\d+$/.test(trimmed) &&
 				/[a-zA-Z]/.test(trimmed) &&
-				!/^[A-Z][a-z]+$/.test(trimmed)
+				!/\*/.test(trimmed) &&
+				lineBuffer.length === 0
 			) {
-				// Make sure this isn't part of a verse (line buffer should be empty)
-				if (lineBuffer.length === 0) {
-					currentLatin = trimmed;
-					console.log(`  Found Latin section: ${currentLatin} in ${currentEntry.key}`);
-					continue;
-				}
+				currentLatin = trimmed;
+				console.log(`  Found Latin section: ${currentLatin} in ${currentEntry.key}`);
+				continue;
 			}
 
 			if (trimmed !== '') {
