@@ -3,6 +3,7 @@
 	import { base } from '$app/paths';
 
 	let hoveredPsalm = $state<number | null>(null);
+	let isTouchDevice = $state(false);
 
 	// Simple 15x10 grid (150 psalms)
 	const COLS = 15;
@@ -12,7 +13,20 @@
 		hoveredPsalm = psalmNumber;
 	}
 
+	function handleTouchStart(psalmNumber: number, event: TouchEvent) {
+		event.preventDefault(); // Prevent mouse events from firing
+		isTouchDevice = true;
+		hoveredPsalm = psalmNumber;
+	}
+
 	function handleCellClick(psalmNumber: number) {
+		// On touch devices, first tap shows the number, second tap navigates
+		// On mouse, single click navigates
+		if (isTouchDevice && hoveredPsalm !== psalmNumber) {
+			hoveredPsalm = psalmNumber;
+			return;
+		}
+
 		// Navigate to the psalm page - we'll need to determine which page
 		// For now, just log it
 		console.log('Navigate to Psalm', psalmNumber);
@@ -38,13 +52,13 @@
 		{#each Array(ROWS * COLS) as _, index}
 			{@const psalmNumber = index + 1}
 			<button
-				class="aspect-square rounded border border-gray-300 bg-white hover:bg-blue-50 active:bg-blue-100 transition-colors {hoveredPsalm ===
+				class="aspect-square rounded border border-gray-300 bg-white transition-colors hover:bg-blue-50 active:bg-blue-100 {hoveredPsalm ===
 				psalmNumber
-					? 'bg-blue-100 border-blue-500'
+					? 'border-blue-500 bg-blue-100'
 					: ''}"
 				onmouseenter={() => handleCellHover(psalmNumber)}
-				onmouseleave={() => (hoveredPsalm = null)}
-				ontouchstart={() => handleCellHover(psalmNumber)}
+				onmouseleave={() => !isTouchDevice && (hoveredPsalm = null)}
+				ontouchstart={(e) => handleTouchStart(psalmNumber, e)}
 				onclick={() => handleCellClick(psalmNumber)}
 			>
 				<span class="text-xs text-gray-400">{psalmNumber}</span>
