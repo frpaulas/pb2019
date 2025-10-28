@@ -30,8 +30,8 @@
 	});
 
 	// Track previous Latin and Hebrew sections to detect changes
-	let prevLatin = '';
-	let prevHebrew = '';
+	let prevLatin = $state('');
+	let prevHebrew = $state('');
 </script>
 
 {#each verses as verse}
