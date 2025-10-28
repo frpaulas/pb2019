@@ -5,9 +5,9 @@
 	let hoveredPsalm = $state<number | null>(null);
 	let isTouchDevice = $state(false);
 
-	// Simple 15x10 grid (150 psalms)
-	const COLS = 15;
-	const ROWS = 10;
+	// Simple 10x15 grid (150 psalms)
+	const COLS = 10;
+	const ROWS = 15;
 
 	function handleCellHover(psalmNumber: number) {
 		hoveredPsalm = psalmNumber;
