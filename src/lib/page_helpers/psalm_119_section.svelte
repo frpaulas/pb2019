@@ -1,12 +1,24 @@
 <script lang="ts">
 	import SectionTitle from './section_title.svelte';
+	import { getVerse } from '$lib/db/psalms';
 
 	interface Props {
-		latin?: string;
-		hebrew?: string;
+		vs: number;
 	}
 
-	let { latin = '', hebrew = '' }: Props = $props();
+	let { vs }: Props = $props();
+
+	// Get the verse from Psalm 119 to extract latin and hebrew
+	let verse = $derived.by(() => {
+		try {
+			return getVerse(119, vs);
+		} catch {
+			return null;
+		}
+	});
+
+	let latin = $derived(verse?.latin || '');
+	let hebrew = $derived(verse?.hebrew || '');
 </script>
 
 {#if latin}
