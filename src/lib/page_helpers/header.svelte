@@ -51,6 +51,10 @@
 			href: `${base}/pg/v`
 		},
 		{
+			title: 'Psalter',
+			href: `${base}/psalter`
+		},
+		{
 			title: 'Daily Prayers',
 			submenu: [
 				{ title: 'Morning Prayer', href: `${base}/pg/11` },
