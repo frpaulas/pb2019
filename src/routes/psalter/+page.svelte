@@ -53,11 +53,11 @@
 	</div>
 
 	<!-- Grid Navigator -->
-	<div class="grid gap-1" style="grid-template-columns: repeat({COLS}, minmax(0, 1fr));">
+	<div class="grid" style="grid-template-columns: repeat({COLS}, minmax(0, 1fr));">
 		{#each Array(ROWS * COLS) as _, index}
 			{@const psalmNumber = index + 1}
 			<button
-				class="aspect-square rounded border border-gray-300 bg-white transition-colors hover:bg-blue-50 active:bg-blue-100 {hoveredPsalm ===
+				class="aspect-square border border-gray-300 bg-white transition-colors hover:bg-blue-50 active:bg-blue-100 {hoveredPsalm ===
 				psalmNumber
 					? 'border-blue-500 bg-blue-100'
 					: ''}"
