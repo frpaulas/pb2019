@@ -23,20 +23,27 @@
 		hoveredPsalm = psalmNumber;
 	}
 
-	function handleCellClick(psalmNumber: number) {
-		// On touch devices, first tap shows the number, second tap navigates
-		// On mouse, single click navigates
-		if (isTouchDevice && hoveredPsalm !== psalmNumber) {
-			hoveredPsalm = psalmNumber;
-			return;
+	function handleTouchEnd() {
+		// On touch devices, navigate when finger lifts off
+		if (isTouchDevice && hoveredPsalm) {
+			const pageNumber = getPsalmPage(hoveredPsalm);
+			if (pageNumber) {
+				goto(`${base}/pg/${pageNumber}`);
+			} else {
+				console.warn(`No page found for Psalm ${hoveredPsalm}`);
+			}
 		}
+	}
 
-		// Navigate to the psalm page
-		const pageNumber = getPsalmPage(psalmNumber);
-		if (pageNumber) {
-			goto(`${base}/pg/${pageNumber}`);
-		} else {
-			console.warn(`No page found for Psalm ${psalmNumber}`);
+	function handleCellClick(psalmNumber: number) {
+		// On mouse (desktop), single click navigates
+		if (!isTouchDevice) {
+			const pageNumber = getPsalmPage(psalmNumber);
+			if (pageNumber) {
+				goto(`${base}/pg/${pageNumber}`);
+			} else {
+				console.warn(`No page found for Psalm ${psalmNumber}`);
+			}
 		}
 	}
 </script>
@@ -68,6 +75,7 @@
 				onmouseenter={() => handleCellHover(psalmNumber)}
 				onmouseleave={() => !isTouchDevice && (hoveredPsalm = null)}
 				ontouchstart={(e) => handleTouchStart(psalmNumber, e)}
+				ontouchend={handleTouchEnd}
 				onclick={() => handleCellClick(psalmNumber)}
 			>
 				<span class="text-xs text-gray-400">{psalmNumber}</span>
