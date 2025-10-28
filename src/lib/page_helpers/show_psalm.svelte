@@ -4,7 +4,7 @@
 	import { psalm, getPsalm } from '$lib/db/psalms';
 
 	interface Props {
-		ps: number;
+		ps: number | string;
 		from?: number;
 		to?: number;
 	}

@@ -13,4 +13,4 @@
 
 <ShowPsalm ps={7} to={14} />
 
-<PageNumber page={275} text="Day 1: Morning Prayer | Psalm 7 |" />
+<PageNumber page={275} text="Day 1: Evening Prayer | Psalm 7 |" />
