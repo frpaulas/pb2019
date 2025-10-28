@@ -4,18 +4,21 @@
 
 	let hoveredPsalm = $state<number | null>(null);
 	let isTouchDevice = $state(false);
+	let hasInteracted = $state(false);
 
 	// Simple 10x15 grid (150 psalms)
 	const COLS = 10;
 	const ROWS = 15;
 
 	function handleCellHover(psalmNumber: number) {
+		hasInteracted = true;
 		hoveredPsalm = psalmNumber;
 	}
 
 	function handleTouchStart(psalmNumber: number, event: TouchEvent) {
 		event.preventDefault(); // Prevent mouse events from firing
 		isTouchDevice = true;
+		hasInteracted = true;
 		hoveredPsalm = psalmNumber;
 	}
 
@@ -42,8 +45,10 @@
 				{hoveredPsalm}
 			</div>
 			<div class="text-sm text-gray-500">Psalm {hoveredPsalm}</div>
-		{:else}
+		{:else if !hasInteracted}
 			<div class="text-2xl text-gray-400">Point to a psalm</div>
+		{:else}
+			<div class="text-2xl text-gray-400">&nbsp;</div>
 		{/if}
 	</div>
 
