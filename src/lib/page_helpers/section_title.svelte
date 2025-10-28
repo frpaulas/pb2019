@@ -7,13 +7,15 @@
 		fancy = false,
 		fancyOf = false,
 		fancyAnd = false,
-		latin_size = false
+		latin_size = false,
+		hebrew = false
 	} = $props();
 	let this_class =
 		'text-center tracking-[.3em] uppercase ' +
 		size +
 		(fancy ? ' italic' : '') +
-		(latin_size ? ' text-xs' : '');
+		(latin_size ? ' text-xs' : '') +
+		(hebrew ? ' uppercase' : '');
 	let fancy_class = 'italic font-cormorant lowercase ';
 	if (fancyOf) {
 		text = text.replace('of', `<span class="${fancy_class}">of</span>`);

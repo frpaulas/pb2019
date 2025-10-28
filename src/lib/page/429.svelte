@@ -1,17 +1,16 @@
 <script>
-	import PageNumber from '$lib/page_helpers/page_number.svelte';
-	import PsalmNumber from '$lib/page_helpers/psalm_number.svelte';
 	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 	import ShowPsalm from '$lib/page_helpers/show_psalm.svelte';
 	import { getPsalmMeta } from '$lib/db/psalms';
-
-	const psalm9 = getPsalmMeta(9);
+	const psalm119 = getPsalmMeta(119);
 </script>
 
-<SectionTitle text="day 2 : morning prayer" />
-<PsalmNumber n={psalm9.number} />
-<SectionTitle fancy text={psalm9.name} latin_size />
+<ShowPsalm ps={119} from={23} to={24} />
 
-<ShowPsalm ps={9} />
+<SectionTitle fancy text={psalm119.name} latin_size />
+<SectionTitle fancy text={psalm119.hebrew} latin_size hebrew />
+<ShowPsalm ps={119} from={25} to={32} />
 
-<PageNumber page={275} text="Day 1: Morning Prayer | Psalm 7 |" />
+<SectionTitle fancy text={psalm119.name} latin_size />
+<SectionTitle fancy text={psalm119.hebrew} latin_size hebrew />
+<ShowPsalm ps={119} from={33} to={35} />
