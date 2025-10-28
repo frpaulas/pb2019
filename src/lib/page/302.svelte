@@ -4,6 +4,11 @@
 	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 	import ShowPsalm from '$lib/page_helpers/show_psalm.svelte';
 	import { getPsalmMeta } from '$lib/db/psalms';
+	const psalm29 = getPsalmMeta(29);
 </script>
 
-<PageNumber page={276} text="the psalter" />
+<PsalmNumber n={psalm29.number} />
+<SectionTitle fancy text={psalm29.name} latin_size />
+<ShowPsalm ps={29} />
+
+<PageNumber page={302} text="the psalter" />

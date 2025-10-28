@@ -6,4 +6,6 @@
 	import { getPsalmMeta } from '$lib/db/psalms';
 </script>
 
-<PageNumber page={276} text="the psalter" />
+<ShowPsalm ps={35} from={17} to={28} />
+
+<PageNumber page={312} text="the psalter" />

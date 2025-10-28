@@ -1,8 +1,12 @@
 <script lang="ts">
-	let { n = '' } = $props();
+	interface Props {
+		n?: number | string;
+	}
+
+	let { n = '' }: Props = $props();
 </script>
 
-{#if n != ''}
+{#if n !== ''}
 	<p class="text-center text-4xl">
 		{n}
 	</p>
