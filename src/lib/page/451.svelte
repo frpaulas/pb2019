@@ -5,13 +5,12 @@
 	import ShowPsalm from '$lib/page_helpers/show_psalm.svelte';
 	import { getPsalmMeta } from '$lib/db/psalms';
 
-	const psalm9 = getPsalmMeta(9);
+	const psalm136 = getPsalmMeta(136);
 </script>
 
-<SectionTitle text="day 2 : morning prayer" />
-<PsalmNumber n={psalm9.number} />
-<SectionTitle fancy text={psalm9.name} latin_size />
+<SectionTitle text="day 28 : evening prayer" />
+<PsalmNumber n={psalm136.number} />
+<SectionTitle fancy text={psalm136.name} latin_size />
+<ShowPsalm ps={136} to={14} />
 
-<ShowPsalm ps={9} />
-
-<PageNumber page={275} text="Day 1: Morning Prayer | Psalm 7 |" />
+<PageNumber page={451} text="Day 28: Evening Prayer | Psalm 136 |" />

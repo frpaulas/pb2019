@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import { base } from '$app/paths';
+	import { getPsalmPage } from '$lib/db/psalm_page_map';
 
 	let hoveredPsalm = $state<number | null>(null);
 	let isTouchDevice = $state(false);
@@ -30,10 +31,13 @@
 			return;
 		}
 
-		// Navigate to the psalm page - we'll need to determine which page
-		// For now, just log it
-		console.log('Navigate to Psalm', psalmNumber);
-		// TODO: Map psalm number to page number
+		// Navigate to the psalm page
+		const pageNumber = getPsalmPage(psalmNumber);
+		if (pageNumber) {
+			goto(`${base}/pg/${pageNumber}`);
+		} else {
+			console.warn(`No page found for Psalm ${psalmNumber}`);
+		}
 	}
 </script>
 

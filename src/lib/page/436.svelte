@@ -1,9 +1,15 @@
 <script>
 	import PageNumber from '$lib/page_helpers/page_number.svelte';
-	import PsalmNumber from '$lib/page_helpers/psalm_number.svelte';
-	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 	import ShowPsalm from '$lib/page_helpers/show_psalm.svelte';
-	import { getPsalmMeta } from '$lib/db/psalms';
+	import Psalm119Section from '$lib/page_helpers/psalm_119_section.svelte';
 </script>
 
-<PageNumber page={276} text="the psalter" />
+<ShowPsalm ps={119} from={118} to={120} />
+
+<Psalm119Section vs={121} />
+<ShowPsalm ps={119} from={121} to={128} />
+
+<Psalm119Section vs={129} />
+<ShowPsalm ps={119} from={129} to={130} />
+
+<PageNumber page={436} text="the psalter" />
