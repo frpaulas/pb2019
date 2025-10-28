@@ -6,13 +6,12 @@
 	import { getPsalmMeta } from '$lib/db/psalms';
 
 	const psalm20 = getPsalmMeta(20);
-
 </script>
 
 <ShowPsalm ps={19} from={7} />
 
 <PsalmNumber n={psalm20.number} />
-<SectionTitle fancy text={psalm20.name} latin_size /
+<SectionTitle fancy text={psalm20.name} latin_size />
 <ShowPsalm ps={20} to={4} />
 
 <PageNumber page={276} text="the psalter" />
