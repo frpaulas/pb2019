@@ -27,7 +27,7 @@
 		<div>
 			<PsalmNumber n={psalm23kjv.number} />
 			<SectionTitle fancy text={psalm23kjv.name} latin_size />
-			<ShowPsalm ps={23} />
+			<ShowPsalm ps="23kjv" />
 		</div>
 	{:else}
 		<div>
@@ -38,4 +38,4 @@
 	{/if}
 </div>
 
-<PageNumber page={295} text="Day 4: Evening Prayer | Psalm 7 |" />
+<PageNumber page={295} text="Day 4: Evening Prayer | Psalm 23 |" />
