@@ -2,12 +2,15 @@
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import Header from '$lib/page_helpers/header.svelte';
+	import DragNav from '$lib/page_helpers/drag_nav.svelte';
 	let { children } = $props();
 </script>
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
+
+<DragNav />
 
 <div class="relative">
 	<div class="fixed top-0 left-0 z-9999 w-full max-w-180">
