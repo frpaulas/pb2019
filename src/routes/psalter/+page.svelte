@@ -23,6 +23,25 @@
 		hoveredPsalm = psalmNumber;
 	}
 
+	function handleTouchMove(event: TouchEvent) {
+		// Track which cell the finger is over while dragging
+		if (!isTouchDevice) return;
+
+		event.preventDefault();
+		const touch = event.touches[0];
+		const element = document.elementFromPoint(touch.clientX, touch.clientY);
+
+		if (element) {
+			const button = element.closest('button');
+			if (button) {
+				const psalmAttr = button.getAttribute('data-psalm');
+				if (psalmAttr) {
+					hoveredPsalm = parseInt(psalmAttr);
+				}
+			}
+		}
+	}
+
 	function handleTouchEnd() {
 		// On touch devices, navigate when finger lifts off
 		if (isTouchDevice && hoveredPsalm) {
@@ -68,6 +87,7 @@
 		{#each Array(ROWS * COLS) as _, index}
 			{@const psalmNumber = index + 1}
 			<button
+				data-psalm={psalmNumber}
 				class="aspect-square border border-gray-300 bg-white transition-colors hover:bg-blue-50 active:bg-blue-100 {hoveredPsalm ===
 				psalmNumber
 					? 'border-blue-500 bg-blue-100'
@@ -75,6 +95,7 @@
 				onmouseenter={() => handleCellHover(psalmNumber)}
 				onmouseleave={() => !isTouchDevice && (hoveredPsalm = null)}
 				ontouchstart={(e) => handleTouchStart(psalmNumber, e)}
+				ontouchmove={handleTouchMove}
 				ontouchend={handleTouchEnd}
 				onclick={() => handleCellClick(psalmNumber)}
 			>
