@@ -72,11 +72,14 @@
 	let hoveredMainItem = $state<number | null>(null);
 	let hoveredSubItem = $state<number | null>(null);
 	let touchStartX = $state(0);
+	let touchStartY = $state(0);
+	let lastTouchX = $state(0);
 	let hasInteracted = $state(false);
 	let isDraggingFromEdge = $state(false);
 	let scrollY = 0;
 
 	const EDGE_THRESHOLD = 30; // pixels from left edge
+	const HORIZONTAL_DRAG_THRESHOLD = 5; // pixels of horizontal movement to detect drag
 
 	// Setup non-passive event listeners on mount
 	onMount(() => {
@@ -119,42 +122,65 @@
 	function handleTouchStart(event: TouchEvent) {
 		const touch = event.touches[0];
 		touchStartX = touch.clientX;
+		touchStartY = touch.clientY;
+		lastTouchX = touch.clientX;
 
 		// Only open menu if touch starts near left edge
 		if (touchStartX <= EDGE_THRESHOLD) {
-			event.preventDefault();
-			event.stopPropagation();
+			// Don't prevent default yet - let Chrome process it first
+			// We'll handle it in touchmove
 			isDraggingFromEdge = true;
 
-			// Immediately lock body scroll synchronously and preserve scroll position
-			if (typeof window !== 'undefined') {
-				scrollY = window.scrollY;
-				document.body.style.position = 'fixed';
-				document.body.style.top = `-${scrollY}px`;
-				document.body.style.left = '0';
-				document.body.style.right = '0';
-				document.body.style.width = '100%';
-				document.body.style.overflow = 'hidden';
-				document.body.style.overscrollBehaviorX = 'none';
-				document.documentElement.style.overflow = 'hidden';
-				document.documentElement.style.overscrollBehaviorX = 'none';
-			}
-
-			isMenuOpen = true;
-			hasInteracted = false;
+			// Don't open menu immediately - wait for vertical drag confirmation in touchmove
 		}
 	}
 
 	function handleTouchMove(event: TouchEvent) {
-		// Prevent default for ANY movement if we started from edge
-		if (isDraggingFromEdge || isMenuOpen) {
+		const touch = event.touches[0];
+
+		// If we're dragging from edge but menu not yet open, check drag direction
+		if (isDraggingFromEdge && !isMenuOpen) {
+			const deltaX = touch.clientX - touchStartX;
+			const deltaY = Math.abs(touch.clientY - touchStartY);
+
+			// If dragging more horizontally right than vertically, cancel - it's a browser back gesture
+			if (deltaX > HORIZONTAL_DRAG_THRESHOLD && deltaX > deltaY) {
+				isDraggingFromEdge = false;
+				return; // Let browser handle it
+			}
+
+			// If dragging vertically or left, open the menu
+			if (deltaY > HORIZONTAL_DRAG_THRESHOLD || deltaX < 0) {
+				event.preventDefault();
+				event.stopPropagation();
+
+				// Lock body now
+				if (typeof window !== 'undefined') {
+					scrollY = window.scrollY;
+					document.body.style.position = 'fixed';
+					document.body.style.top = `-${scrollY}px`;
+					document.body.style.left = '0';
+					document.body.style.right = '0';
+					document.body.style.width = '100%';
+					document.body.style.overflow = 'hidden';
+					document.body.style.overscrollBehaviorX = 'none';
+					document.documentElement.style.overflow = 'hidden';
+					document.documentElement.style.overscrollBehaviorX = 'none';
+				}
+
+				isMenuOpen = true;
+				hasInteracted = false;
+			}
+		}
+
+		// Prevent default for ANY movement if menu is open
+		if (isMenuOpen) {
 			event.preventDefault();
 			event.stopPropagation();
 		}
 
 		if (!isMenuOpen) return;
 
-		const touch = event.touches[0];
 		const element = document.elementFromPoint(touch.clientX, touch.clientY);
 
 		if (element) {
@@ -172,6 +198,8 @@
 				hasInteracted = true;
 			}
 		}
+
+		lastTouchX = touch.clientX;
 	}
 
 	function handleTouchEnd(event: TouchEvent) {
