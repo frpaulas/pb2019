@@ -157,9 +157,12 @@
 />
 
 {#if isMenuOpen}
-	<div class="fixed inset-0 z-50 flex bg-white">
+	<div class="fixed inset-0 z-50 flex bg-white" style="touch-action: none;">
 		<!-- Display Area -->
-		<div class="absolute top-0 left-0 right-0 flex h-20 items-center justify-center border-b bg-gray-50">
+		<div
+			class="absolute top-0 right-0 left-0 flex h-20 items-center justify-center border-b bg-gray-50"
+			style="touch-action: none;"
+		>
 			<div class="text-center">
 				{#if getDisplayText()}
 					<div class="text-2xl font-bold text-gray-900">
@@ -178,14 +181,24 @@
 					data-main-index={index}
 					class="flex-1 border-b border-gray-200 px-3 text-left text-sm transition-colors {hoveredMainItem ===
 					index
-						? 'bg-blue-100 border-blue-500'
+						? 'border-blue-500 bg-blue-100'
 						: 'bg-white hover:bg-gray-50'}"
 				>
 					<div class="flex items-center justify-between">
 						<span class="truncate">{item.title}</span>
 						{#if item.submenu}
-							<svg class="h-4 w-4 flex-shrink-0 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+							<svg
+								class="h-4 w-4 flex-shrink-0 text-gray-400"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke="currentColor"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									stroke-width="2"
+									d="M9 5l7 7-7 7"
+								/>
 							</svg>
 						{/if}
 					</div>
@@ -201,7 +214,7 @@
 						data-sub-index={subIndex}
 						class="flex-1 border-b border-gray-200 px-3 text-left text-sm transition-colors {hoveredSubItem ===
 						subIndex
-							? 'bg-blue-100 border-blue-500'
+							? 'border-blue-500 bg-blue-100'
 							: 'bg-white hover:bg-gray-50'}"
 					>
 						<span class="truncate">{subitem.title}</span>
