@@ -74,6 +74,7 @@
 	let touchStartX = $state(0);
 	let hasInteracted = $state(false);
 	let isDraggingFromEdge = $state(false);
+	let scrollY = 0;
 
 	const EDGE_THRESHOLD = 30; // pixels from left edge
 
@@ -92,22 +93,17 @@
 		};
 	});
 
-	// Lock/unlock body scroll when menu opens/closes
+	// Unlock body scroll when menu closes and restore scroll position
 	$effect(() => {
-		if (typeof document !== 'undefined') {
-			if (isMenuOpen) {
-				document.body.style.overflow = 'hidden';
-				document.body.style.position = 'fixed';
-				document.body.style.width = '100%';
-				document.body.style.height = '100%';
-				document.documentElement.style.overflow = 'hidden';
-			} else {
-				document.body.style.overflow = '';
-				document.body.style.position = '';
-				document.body.style.width = '';
-				document.body.style.height = '';
-				document.documentElement.style.overflow = '';
-			}
+		if (typeof window !== 'undefined' && !isMenuOpen) {
+			document.body.style.position = '';
+			document.body.style.top = '';
+			document.body.style.left = '';
+			document.body.style.right = '';
+			document.body.style.width = '';
+			document.body.style.overflow = '';
+			document.documentElement.style.overflow = '';
+			window.scrollTo(0, scrollY);
 		}
 	});
 
@@ -121,12 +117,15 @@
 			event.stopPropagation();
 			isDraggingFromEdge = true;
 
-			// Immediately lock body scroll synchronously
-			if (typeof document !== 'undefined') {
-				document.body.style.overflow = 'hidden';
+			// Immediately lock body scroll synchronously and preserve scroll position
+			if (typeof window !== 'undefined') {
+				scrollY = window.scrollY;
 				document.body.style.position = 'fixed';
+				document.body.style.top = `-${scrollY}px`;
+				document.body.style.left = '0';
+				document.body.style.right = '0';
 				document.body.style.width = '100%';
-				document.body.style.height = '100%';
+				document.body.style.overflow = 'hidden';
 				document.documentElement.style.overflow = 'hidden';
 			}
 
