@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
 
 	interface MenuItem {
 		title: string;
@@ -75,6 +76,21 @@
 	let isDraggingFromEdge = $state(false);
 
 	const EDGE_THRESHOLD = 30; // pixels from left edge
+
+	// Setup non-passive event listeners on mount
+	onMount(() => {
+		// Add event listeners with { passive: false } to allow preventDefault
+		window.addEventListener('touchstart', handleTouchStart, { passive: false });
+		window.addEventListener('touchmove', handleTouchMove, { passive: false });
+		window.addEventListener('touchend', handleTouchEnd, { passive: false });
+
+		return () => {
+			// Cleanup
+			window.removeEventListener('touchstart', handleTouchStart);
+			window.removeEventListener('touchmove', handleTouchMove);
+			window.removeEventListener('touchend', handleTouchEnd);
+		};
+	});
 
 	// Lock/unlock body scroll when menu opens/closes
 	$effect(() => {
@@ -185,12 +201,6 @@
 		return hasInteracted ? '' : 'Drag to navigate';
 	}
 </script>
-
-<svelte:window
-	ontouchstart={handleTouchStart}
-	ontouchmove={handleTouchMove}
-	ontouchend={handleTouchEnd}
-/>
 
 {#if isMenuOpen}
 	<div
