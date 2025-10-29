@@ -93,17 +93,26 @@
 		};
 	});
 
-	// Unlock body scroll when menu closes and restore scroll position
+	// Lock/unlock body and disable Chrome's swipe-to-navigate
 	$effect(() => {
-		if (typeof window !== 'undefined' && !isMenuOpen) {
-			document.body.style.position = '';
-			document.body.style.top = '';
-			document.body.style.left = '';
-			document.body.style.right = '';
-			document.body.style.width = '';
-			document.body.style.overflow = '';
-			document.documentElement.style.overflow = '';
-			window.scrollTo(0, scrollY);
+		if (typeof window !== 'undefined') {
+			if (isMenuOpen) {
+				// Disable Chrome's swipe-to-navigate gesture
+				document.body.style.overscrollBehaviorX = 'none';
+				document.documentElement.style.overscrollBehaviorX = 'none';
+			} else {
+				// Restore scroll position and styles when menu closes
+				document.body.style.position = '';
+				document.body.style.top = '';
+				document.body.style.left = '';
+				document.body.style.right = '';
+				document.body.style.width = '';
+				document.body.style.overflow = '';
+				document.body.style.overscrollBehaviorX = '';
+				document.documentElement.style.overflow = '';
+				document.documentElement.style.overscrollBehaviorX = '';
+				window.scrollTo(0, scrollY);
+			}
 		}
 	});
 
@@ -126,7 +135,9 @@
 				document.body.style.right = '0';
 				document.body.style.width = '100%';
 				document.body.style.overflow = 'hidden';
+				document.body.style.overscrollBehaviorX = 'none';
 				document.documentElement.style.overflow = 'hidden';
+				document.documentElement.style.overscrollBehaviorX = 'none';
 			}
 
 			isMenuOpen = true;
