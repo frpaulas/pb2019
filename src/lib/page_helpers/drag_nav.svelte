@@ -157,7 +157,18 @@
 />
 
 {#if isMenuOpen}
-	<div class="fixed inset-0 z-50 flex bg-white" style="touch-action: none;">
+	<svelte:head>
+		<style>
+			html, body {
+				overflow: hidden !important;
+				position: fixed !important;
+				width: 100% !important;
+				height: 100% !important;
+			}
+		</style>
+	</svelte:head>
+
+	<div class="fixed inset-0 z-50 flex overflow-hidden bg-white" style="touch-action: none; overscroll-behavior: none;">
 		<!-- Display Area -->
 		<div
 			class="absolute top-0 right-0 left-0 flex h-20 items-center justify-center border-b bg-gray-50"
