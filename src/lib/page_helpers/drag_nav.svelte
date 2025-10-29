@@ -71,163 +71,106 @@
 	let isMenuOpen = $state(false);
 	let hoveredMainItem = $state<number | null>(null);
 	let hoveredSubItem = $state<number | null>(null);
-	let touchStartX = $state(0);
 	let touchStartY = $state(0);
-	let lastTouchX = $state(0);
+	let isDraggingHeader = $state(false);
 	let hasInteracted = $state(false);
-	let isDraggingFromEdge = $state(false);
-	let scrollY = 0;
 
-	const EDGE_THRESHOLD = 30; // pixels from left edge
-	const HORIZONTAL_DRAG_THRESHOLD = 5; // pixels of horizontal movement to detect drag
+	const PULL_DOWN_THRESHOLD = 50; // pixels to drag down before opening menu
 
 	// Setup non-passive event listeners on mount
 	onMount(() => {
-		// Add event listeners with { passive: false } to allow preventDefault
 		window.addEventListener('touchstart', handleTouchStart, { passive: false });
 		window.addEventListener('touchmove', handleTouchMove, { passive: false });
 		window.addEventListener('touchend', handleTouchEnd, { passive: false });
 
 		return () => {
-			// Cleanup
 			window.removeEventListener('touchstart', handleTouchStart);
 			window.removeEventListener('touchmove', handleTouchMove);
 			window.removeEventListener('touchend', handleTouchEnd);
 		};
 	});
 
-	// Lock/unlock body and disable Chrome's swipe-to-navigate
-	$effect(() => {
-		if (typeof window !== 'undefined') {
-			if (isMenuOpen) {
-				// Disable Chrome's swipe-to-navigate gesture
-				document.body.style.overscrollBehaviorX = 'none';
-				document.documentElement.style.overscrollBehaviorX = 'none';
-			} else {
-				// Restore scroll position and styles when menu closes
-				document.body.style.position = '';
-				document.body.style.top = '';
-				document.body.style.left = '';
-				document.body.style.right = '';
-				document.body.style.width = '';
-				document.body.style.overflow = '';
-				document.body.style.overscrollBehaviorX = '';
-				document.documentElement.style.overflow = '';
-				document.documentElement.style.overscrollBehaviorX = '';
-				window.scrollTo(0, scrollY);
-			}
-		}
-	});
-
 	function handleTouchStart(event: TouchEvent) {
 		const touch = event.touches[0];
-		touchStartX = touch.clientX;
-		touchStartY = touch.clientY;
-		lastTouchX = touch.clientX;
+		const target = event.target as HTMLElement;
 
-		// Only open menu if touch starts near left edge
-		if (touchStartX <= EDGE_THRESHOLD) {
-			// Prevent default immediately to block Chrome's gesture
-			event.preventDefault();
-			event.stopPropagation();
-			event.stopImmediatePropagation();
-
-			isDraggingFromEdge = true;
-
-			// Lock the body immediately
-			if (typeof window !== 'undefined') {
-				scrollY = window.scrollY;
-				document.body.style.position = 'fixed';
-				document.body.style.top = `-${scrollY}px`;
-				document.body.style.left = '0';
-				document.body.style.right = '0';
-				document.body.style.width = '100%';
-				document.body.style.overflow = 'hidden';
-				document.body.style.overscrollBehaviorX = 'none';
-				document.documentElement.style.overflow = 'hidden';
-				document.documentElement.style.overscrollBehaviorX = 'none';
-			}
-
-			// Don't open menu immediately - wait for drag direction confirmation
+		// Check if touch started on the header
+		const header = target.closest('header');
+		if (header) {
+			touchStartY = touch.clientY;
+			isDraggingHeader = true;
 		}
 	}
 
 	function handleTouchMove(event: TouchEvent) {
-		const touch = event.touches[0];
+		if (!isDraggingHeader) return;
 
-		// If we're dragging from edge but menu not yet open, open it now
-		if (isDraggingFromEdge && !isMenuOpen) {
+		const touch = event.touches[0];
+		const deltaY = touch.clientY - touchStartY;
+
+		// If dragging down enough, open menu
+		if (deltaY > PULL_DOWN_THRESHOLD && !isMenuOpen) {
 			event.preventDefault();
 			event.stopPropagation();
-			event.stopImmediatePropagation();
-
 			isMenuOpen = true;
 			hasInteracted = false;
+			isDraggingHeader = false; // Stop tracking header drag
 		}
 
-		// Prevent default for ANY movement if menu is open or dragging from edge
-		if (isMenuOpen || isDraggingFromEdge) {
+		// Once menu is open, track item selection
+		if (isMenuOpen) {
 			event.preventDefault();
 			event.stopPropagation();
-			event.stopImmediatePropagation();
-		}
 
-		if (!isMenuOpen) return;
+			const element = document.elementFromPoint(touch.clientX, touch.clientY);
 
-		const element = document.elementFromPoint(touch.clientX, touch.clientY);
+			if (element) {
+				const mainItem = element.closest('[data-main-index]');
+				const subItem = element.closest('[data-sub-index]');
 
-		if (element) {
-			const mainItem = element.closest('[data-main-index]');
-			const subItem = element.closest('[data-sub-index]');
-
-			if (subItem) {
-				const subIndex = parseInt(subItem.getAttribute('data-sub-index') || '-1');
-				hoveredSubItem = subIndex;
-				hasInteracted = true;
-			} else if (mainItem) {
-				const mainIndex = parseInt(mainItem.getAttribute('data-main-index') || '-1');
-				hoveredMainItem = mainIndex;
-				hoveredSubItem = null;
-				hasInteracted = true;
+				if (subItem) {
+					const subIndex = parseInt(subItem.getAttribute('data-sub-index') || '-1');
+					hoveredSubItem = subIndex;
+					hasInteracted = true;
+				} else if (mainItem) {
+					const mainIndex = parseInt(mainItem.getAttribute('data-main-index') || '-1');
+					hoveredMainItem = mainIndex;
+					hoveredSubItem = null;
+					hasInteracted = true;
+				}
 			}
 		}
-
-		lastTouchX = touch.clientX;
 	}
 
 	function handleTouchEnd(event: TouchEvent) {
-		if (isDraggingFromEdge || isMenuOpen) {
+		if (isMenuOpen) {
 			event.preventDefault();
 			event.stopPropagation();
-		}
 
-		if (!isMenuOpen) {
-			isDraggingFromEdge = false;
-			return;
-		}
-
-		// Navigate to the hovered item
-		if (hoveredSubItem !== null && hoveredMainItem !== null) {
-			const mainItem = menuStructure[hoveredMainItem];
-			if (mainItem.submenu) {
-				const subItem = mainItem.submenu[hoveredSubItem];
-				if (subItem.href) {
-					goto(subItem.href);
+			// Navigate to the hovered item
+			if (hoveredSubItem !== null && hoveredMainItem !== null) {
+				const mainItem = menuStructure[hoveredMainItem];
+				if (mainItem.submenu) {
+					const subItem = mainItem.submenu[hoveredSubItem];
+					if (subItem.href) {
+						goto(subItem.href);
+					}
+				}
+			} else if (hoveredMainItem !== null) {
+				const mainItem = menuStructure[hoveredMainItem];
+				if (mainItem.href) {
+					goto(mainItem.href);
 				}
 			}
-		} else if (hoveredMainItem !== null) {
-			const mainItem = menuStructure[hoveredMainItem];
-			if (mainItem.href) {
-				goto(mainItem.href);
-			}
+
+			// Reset state
+			isMenuOpen = false;
+			hoveredMainItem = null;
+			hoveredSubItem = null;
+			hasInteracted = false;
 		}
 
-		// Reset state
-		isMenuOpen = false;
-		hoveredMainItem = null;
-		hoveredSubItem = null;
-		hasInteracted = false;
-		isDraggingFromEdge = false;
+		isDraggingHeader = false;
 	}
 
 	function getDisplayText(): string {
@@ -244,14 +187,10 @@
 </script>
 
 {#if isMenuOpen}
-	<div
-		class="fixed inset-0 z-50 flex overflow-hidden bg-white"
-		style="touch-action: none; overscroll-behavior: none;"
-	>
+	<div class="fixed inset-0 top-18 z-40 flex overflow-hidden bg-white" style="touch-action: none;">
 		<!-- Display Area -->
 		<div
 			class="absolute top-0 right-0 left-0 flex h-20 items-center justify-center border-b bg-gray-50"
-			style="touch-action: none;"
 		>
 			<div class="text-center">
 				{#if getDisplayText()}
