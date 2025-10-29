@@ -127,56 +127,49 @@
 
 		// Only open menu if touch starts near left edge
 		if (touchStartX <= EDGE_THRESHOLD) {
-			// Don't prevent default yet - let Chrome process it first
-			// We'll handle it in touchmove
+			// Prevent default immediately to block Chrome's gesture
+			event.preventDefault();
+			event.stopPropagation();
+			event.stopImmediatePropagation();
+
 			isDraggingFromEdge = true;
 
-			// Don't open menu immediately - wait for vertical drag confirmation in touchmove
+			// Lock the body immediately
+			if (typeof window !== 'undefined') {
+				scrollY = window.scrollY;
+				document.body.style.position = 'fixed';
+				document.body.style.top = `-${scrollY}px`;
+				document.body.style.left = '0';
+				document.body.style.right = '0';
+				document.body.style.width = '100%';
+				document.body.style.overflow = 'hidden';
+				document.body.style.overscrollBehaviorX = 'none';
+				document.documentElement.style.overflow = 'hidden';
+				document.documentElement.style.overscrollBehaviorX = 'none';
+			}
+
+			// Don't open menu immediately - wait for drag direction confirmation
 		}
 	}
 
 	function handleTouchMove(event: TouchEvent) {
 		const touch = event.touches[0];
 
-		// If we're dragging from edge but menu not yet open, check drag direction
+		// If we're dragging from edge but menu not yet open, open it now
 		if (isDraggingFromEdge && !isMenuOpen) {
-			const deltaX = touch.clientX - touchStartX;
-			const deltaY = Math.abs(touch.clientY - touchStartY);
-
-			// If dragging more horizontally right than vertically, cancel - it's a browser back gesture
-			if (deltaX > HORIZONTAL_DRAG_THRESHOLD && deltaX > deltaY) {
-				isDraggingFromEdge = false;
-				return; // Let browser handle it
-			}
-
-			// If dragging vertically or left, open the menu
-			if (deltaY > HORIZONTAL_DRAG_THRESHOLD || deltaX < 0) {
-				event.preventDefault();
-				event.stopPropagation();
-
-				// Lock body now
-				if (typeof window !== 'undefined') {
-					scrollY = window.scrollY;
-					document.body.style.position = 'fixed';
-					document.body.style.top = `-${scrollY}px`;
-					document.body.style.left = '0';
-					document.body.style.right = '0';
-					document.body.style.width = '100%';
-					document.body.style.overflow = 'hidden';
-					document.body.style.overscrollBehaviorX = 'none';
-					document.documentElement.style.overflow = 'hidden';
-					document.documentElement.style.overscrollBehaviorX = 'none';
-				}
-
-				isMenuOpen = true;
-				hasInteracted = false;
-			}
-		}
-
-		// Prevent default for ANY movement if menu is open
-		if (isMenuOpen) {
 			event.preventDefault();
 			event.stopPropagation();
+			event.stopImmediatePropagation();
+
+			isMenuOpen = true;
+			hasInteracted = false;
+		}
+
+		// Prevent default for ANY movement if menu is open or dragging from edge
+		if (isMenuOpen || isDraggingFromEdge) {
+			event.preventDefault();
+			event.stopPropagation();
+			event.stopImmediatePropagation();
 		}
 
 		if (!isMenuOpen) return;
