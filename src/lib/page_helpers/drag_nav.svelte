@@ -97,21 +97,27 @@
 		// Check if touch started on the header
 		const header = target.closest('header');
 		if (header) {
+			event.preventDefault();
+			event.stopPropagation();
 			touchStartY = touch.clientY;
 			isDraggingHeader = true;
 		}
 	}
 
 	function handleTouchMove(event: TouchEvent) {
-		if (!isDraggingHeader) return;
+		if (!isDraggingHeader && !isMenuOpen) return;
+
+		// Always prevent default when dragging header to stop pull-to-refresh
+		if (isDraggingHeader) {
+			event.preventDefault();
+			event.stopPropagation();
+		}
 
 		const touch = event.touches[0];
 		const deltaY = touch.clientY - touchStartY;
 
 		// If dragging down enough, open menu
 		if (deltaY > PULL_DOWN_THRESHOLD && !isMenuOpen) {
-			event.preventDefault();
-			event.stopPropagation();
 			isMenuOpen = true;
 			hasInteracted = false;
 			isDraggingHeader = false; // Stop tracking header drag
