@@ -75,6 +75,25 @@
 
 	const EDGE_THRESHOLD = 30; // pixels from left edge
 
+	// Lock/unlock body scroll when menu opens/closes
+	$effect(() => {
+		if (typeof document !== 'undefined') {
+			if (isMenuOpen) {
+				document.body.style.overflow = 'hidden';
+				document.body.style.position = 'fixed';
+				document.body.style.width = '100%';
+				document.body.style.height = '100%';
+				document.documentElement.style.overflow = 'hidden';
+			} else {
+				document.body.style.overflow = '';
+				document.body.style.position = '';
+				document.body.style.width = '';
+				document.body.style.height = '';
+				document.documentElement.style.overflow = '';
+			}
+		}
+	});
+
 	function handleTouchStart(event: TouchEvent) {
 		const touch = event.touches[0];
 		touchStartX = touch.clientX;
@@ -157,18 +176,10 @@
 />
 
 {#if isMenuOpen}
-	<svelte:head>
-		<style>
-			html, body {
-				overflow: hidden !important;
-				position: fixed !important;
-				width: 100% !important;
-				height: 100% !important;
-			}
-		</style>
-	</svelte:head>
-
-	<div class="fixed inset-0 z-50 flex overflow-hidden bg-white" style="touch-action: none; overscroll-behavior: none;">
+	<div
+		class="fixed inset-0 z-50 flex overflow-hidden bg-white"
+		style="touch-action: none; overscroll-behavior: none;"
+	>
 		<!-- Display Area -->
 		<div
 			class="absolute top-0 right-0 left-0 flex h-20 items-center justify-center border-b bg-gray-50"
