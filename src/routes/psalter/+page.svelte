@@ -48,7 +48,17 @@
 	}
 </script>
 
-<div class="flex h-screen flex-col items-center justify-center gap-8 p-4">
+<svelte:head>
+	<style>
+		body {
+			overflow: hidden;
+		}
+	</style>
+</svelte:head>
+
+<div
+	class="fixed inset-0 flex flex-col items-center justify-center gap-8 overflow-hidden bg-white p-4"
+>
 	<!-- Display Area -->
 	<div class="text-center">
 		{#if hoveredPsalm}
