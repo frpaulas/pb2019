@@ -120,6 +120,16 @@
 			event.preventDefault();
 			event.stopPropagation();
 			isDraggingFromEdge = true;
+
+			// Immediately lock body scroll synchronously
+			if (typeof document !== 'undefined') {
+				document.body.style.overflow = 'hidden';
+				document.body.style.position = 'fixed';
+				document.body.style.width = '100%';
+				document.body.style.height = '100%';
+				document.documentElement.style.overflow = 'hidden';
+			}
+
 			isMenuOpen = true;
 			hasInteracted = false;
 		}
