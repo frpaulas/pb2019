@@ -72,6 +72,7 @@
 	let hoveredSubItem = $state<number | null>(null);
 	let touchStartX = $state(0);
 	let hasInteracted = $state(false);
+	let isDraggingFromEdge = $state(false);
 
 	const EDGE_THRESHOLD = 30; // pixels from left edge
 
@@ -101,15 +102,22 @@
 		// Only open menu if touch starts near left edge
 		if (touchStartX <= EDGE_THRESHOLD) {
 			event.preventDefault();
+			event.stopPropagation();
+			isDraggingFromEdge = true;
 			isMenuOpen = true;
 			hasInteracted = false;
 		}
 	}
 
 	function handleTouchMove(event: TouchEvent) {
+		// Prevent default for ANY movement if we started from edge
+		if (isDraggingFromEdge || isMenuOpen) {
+			event.preventDefault();
+			event.stopPropagation();
+		}
+
 		if (!isMenuOpen) return;
 
-		event.preventDefault();
 		const touch = event.touches[0];
 		const element = document.elementFromPoint(touch.clientX, touch.clientY);
 
@@ -130,8 +138,16 @@
 		}
 	}
 
-	function handleTouchEnd() {
-		if (!isMenuOpen) return;
+	function handleTouchEnd(event: TouchEvent) {
+		if (isDraggingFromEdge || isMenuOpen) {
+			event.preventDefault();
+			event.stopPropagation();
+		}
+
+		if (!isMenuOpen) {
+			isDraggingFromEdge = false;
+			return;
+		}
 
 		// Navigate to the hovered item
 		if (hoveredSubItem !== null && hoveredMainItem !== null) {
@@ -154,6 +170,7 @@
 		hoveredMainItem = null;
 		hoveredSubItem = null;
 		hasInteracted = false;
+		isDraggingFromEdge = false;
 	}
 
 	function getDisplayText(): string {
