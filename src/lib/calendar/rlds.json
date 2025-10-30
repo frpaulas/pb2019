@@ -1,0 +1,1145 @@
+{
+  "1-1": {
+    "type": "RLD",
+    "name": "The Circumcision and Holy Name of Our Lord Jesus Christ"
+  },
+  "1-6": {
+    "type": "RLD",
+    "name": "The Epiphany of Our Lord Jesus Christ"
+  },
+  "1-10": {
+    "type": "ANG",
+    "name": "William Laud",
+    "subtitle": "Archbishop of Canterbury, Martyr",
+    "year": "1645",
+    "tags": "martyr"
+  },
+  "1-13": {
+    "type": "ECU",
+    "name": "Hilary of Poitiers",
+    "subtitle": "Bishop and Teacher of the Faith",
+    "year": "367"
+  },
+  "1-2": {
+    "type": "ANG",
+    "name": "Vedanayagam Samuel Azariah",
+    "subtitle": "Bishop in South India, Evangelist",
+    "year": "1945"
+  },
+  "1-14": {
+    "type": "ANG",
+    "name": "Kentigern",
+    "subtitle": "Missionary to Strathclyde and Cumbria",
+    "year": "603"
+  },
+  "1-18": {
+    "type": "RLD",
+    "name": "Confession of Peter the Apostle"
+  },
+  "1-19": {
+    "type": "ANG",
+    "name": "Wulfstan",
+    "subtitle": "Bishop of Worcester",
+    "year": "1095"
+  },
+  "1-25": {
+    "type": "RLD",
+    "name": "Conversion of Paul the Apostle"
+  },
+  "1-17": {
+    "type": "ECU",
+    "name": "Anthony",
+    "subtitle": "Hermit in Egypt",
+    "year": "356"
+  },
+  "1-29": {
+    "type": "ANG",
+    "name": "Lesslie Newbigin",
+    "subtitle": "Bishop and Ecumenist",
+    "year": "1998"
+  },
+  "1-30": {
+    "type": "ANG",
+    "name": "Charles",
+    "subtitle": "King and Martyr",
+    "year": "1649",
+    "tags": "martyr"
+  },
+  "1-31": {
+    "type": "ANG",
+    "name": "Samuel Shoemaker",
+    "subtitle": "Priest and Renewer of Society",
+    "year": "1963"
+  },
+  "1-20": {
+    "type": "ECU",
+    "name": "Fabian",
+    "subtitle": "Bishop of Rome and Martyr",
+    "year": "250",
+    "tags": "martyr"
+  },
+  "1-21": {
+    "type": "ECU",
+    "name": "Agnes",
+    "subtitle": "Martyr at Rome",
+    "year": "304",
+    "tags": "martyr"
+  },
+  "2-15": {
+    "type": "ANG",
+    "name": "Thomas Bray",
+    "subtitle": "Priest and Missionary, founder of SPG and SPCK",
+    "year": "1730"
+  },
+  "2-17": {
+    "type": "ANG",
+    "name": "Janani Luwum",
+    "subtitle": "Archbishop of Uganda and Martyr",
+    "year": "1977",
+    "tags": "martyr"
+  },
+  "2-14": {
+    "type": "ECU",
+    "name": "Cyril and Methodius",
+    "subtitle": "Apostles to the Slavs",
+    "year": "869, 885"
+  },
+  "2-18": {
+    "type": "ECU",
+    "name": "Martin Luther",
+    "subtitle": "Reformer of the Church",
+    "year": "1546"
+  },
+  "2-21": {
+    "type": "ECU",
+    "name": "William \"Billy\" Graham",
+    "subtitle": "Evangelist",
+    "year": "2018"
+  },
+  "2-23": {
+    "type": "ECU",
+    "name": "Polycarp",
+    "subtitle": "Bishop of Smyrna, Martyr",
+    "year": "156",
+    "tags": "martyr"
+  },
+  "2-24": {
+    "type": "RLD",
+    "name": "Matthias the Apostle"
+  },
+  "2-27": {
+    "type": "ANG",
+    "name": "George Herbert",
+    "subtitle": "Priest and Poet",
+    "year": "1633"
+  },
+  "3-1": {
+    "type": "ANG",
+    "name": "David",
+    "subtitle": "Bishop and Apostle of Wales",
+    "year": "601"
+  },
+  "3-2": {
+    "type": "ANG",
+    "name": "Chad",
+    "subtitle": "Bishop of Lichfield and Missionary",
+    "year": "672"
+  },
+  "3-3": {
+    "type": "ANG",
+    "name": "John and Charles Wesley",
+    "subtitle": "Priests and Reformers of the Church",
+    "year": "1791, 1788"
+  },
+  "2-28": {
+    "type": "ECU",
+    "name": "John Cassian",
+    "subtitle": "Monk and Teacher of the Faith",
+    "year": "453"
+  },
+  "3-8": {
+    "type": "ANG",
+    "name": "Felix",
+    "subtitle": "Bishop and Missionary to the Angles",
+    "year": "647"
+  },
+  "3-7": {
+    "type": "ECU",
+    "name": "Perpetua and Her Companions",
+    "subtitle": "Martyrs at Carthage",
+    "year": "203",
+    "tags": "martyr"
+  },
+  "3-12": {
+    "type": "ECU",
+    "name": "Gregory the Great",
+    "subtitle": "Bishop of Rome and Teacher of the Faith",
+    "year": "604"
+  },
+  "3-17": {
+    "type": "ANG",
+    "name": "Patrick",
+    "subtitle": "Bishop and Apostle to the Irish",
+    "year": "461"
+  },
+  "3-10": {
+    "type": "ANG",
+    "name": "Robert Machray",
+    "subtitle": "First Primate of Canada",
+    "year": "1904"
+  },
+  "3-18": {
+    "type": "ECU",
+    "name": "Cyril",
+    "subtitle": "Bishop of Jerusalem and Teacher of the Faith",
+    "year": "386"
+  },
+  "3-19": {
+    "type": "RLD",
+    "name": "Joseph",
+    "subtitle": "Husband of the Virgin Mary and Guardian of Jesus"
+  },
+  "3-20": {
+    "type": "ANG",
+    "name": "Cuthbert",
+    "subtitle": "Bishop-Abbot of Lindisfarne and Missionary",
+    "year": "687"
+  },
+  "3-21": {
+    "type": "ANG",
+    "name": "Thomas Cranmer",
+    "subtitle": "Archbishop of Canterbury and Martyr",
+    "year": "1556",
+    "tags": "martyr"
+  },
+  "3-22": {
+    "type": "ANG",
+    "name": "James DeKoven",
+    "subtitle": "Priest",
+    "year": "1879"
+  },
+  "3-23": {
+    "type": "ECU",
+    "name": "Gregory the Illuminator",
+    "subtitle": "Missionary to Armenia",
+    "year": "333"
+  },
+  "3-25": {
+    "type": "RLD",
+    "name": "The Annunciation of our Lord Jesus Christ to the Virgin Mary"
+  },
+  "3-29": {
+    "type": "ANG",
+    "name": "John Keble",
+    "subtitle": "Priest and Reformer of the Church",
+    "year": "1866"
+  },
+  "3-31": {
+    "type": "ANG",
+    "name": "John Donne",
+    "subtitle": "Priest and Poet",
+    "year": "1631"
+  },
+  "3-27": {
+    "type": "ANG",
+    "name": "Charles Henry Brent",
+    "subtitle": "Bishop and Missionary to the Philippines",
+    "year": "1929"
+  },
+  "4-1": {
+    "type": "ANG",
+    "name": "Frederick Denison Maurice",
+    "subtitle": "Priest and Renewer of Society",
+    "year": "1872"
+  },
+  "4-2": {
+    "type": "ANG",
+    "name": "Henry Budd",
+    "subtitle": "First Native Priest in Canada",
+    "year": "1850"
+  },
+  "4-4": {
+    "type": "ECU",
+    "name": "Martin Luther King, Jr.",
+    "subtitle": "Renewer of Society",
+    "year": "1968"
+  },
+  "4-7": {
+    "type": "ECU",
+    "name": "Tikhon",
+    "subtitle": "Bishop and Ecumenist",
+    "year": "1925"
+  },
+  "4-8": {
+    "type": "ANG",
+    "name": "William Augustus Muhlenberg",
+    "subtitle": "Priest, Reformer of the Church, and Renewer of Society",
+    "year": "1877"
+  },
+  "4-19": {
+    "type": "ANG",
+    "name": "Alphege",
+    "subtitle": "Archbishop of Canterbury and Martyr",
+    "year": "1012",
+    "tags": "martyr"
+  },
+  "4-21": {
+    "type": "ANG",
+    "name": "Anselm",
+    "subtitle": "Archbishop of Canterbury and Teacher of the Faith",
+    "year": "1109"
+  },
+  "4-10": {
+    "type": "ANG",
+    "name": "William Law",
+    "subtitle": "Priest and Teacher of the Faith",
+    "year": "1761"
+  },
+  "4-11": {
+    "type": "ANG",
+    "name": "George Augustus Selwyn",
+    "subtitle": "Bishop and Missionary to New Zealand",
+    "year": "1878"
+  },
+  "4-25": {
+    "type": "RLD",
+    "name": "Mark the Evangelist"
+  },
+  "4-24": {
+    "type": "ANG",
+    "name": "Arthur Michael Ramsey",
+    "subtitle": "Archbishop of Canterbury, Ecumenist, and Teacher of the Faith",
+    "year": "1988"
+  },
+  "4-23": {
+    "type": "ECU",
+    "name": "George",
+    "subtitle": "Martyr",
+    "year": "c. 304",
+    "tags": "martyr"
+  },
+  "5-1": {
+    "type": "RLD",
+    "name": "Philip and James",
+    "subtitle": "Apostles"
+  },
+  "5-2": {
+    "type": "ECU",
+    "name": "Athanasius",
+    "subtitle": "Bishop of Alexandria and Teacher of the Faith",
+    "year": "373"
+  },
+  "5-8": {
+    "type": "ANG",
+    "name": "Julian of Norwich",
+    "subtitle": "Anchoress, c. 1417"
+  },
+  "4-29": {
+    "type": "ECU",
+    "name": "Catherine of Siena",
+    "subtitle": "Reformer of the Church",
+    "year": "1380"
+  },
+  "5-16": {
+    "type": "ANG",
+    "name": "The Martyrs of the Sudan",
+    "year": "2011",
+    "tags": "martyr"
+  },
+  "5-9": {
+    "type": "ECU",
+    "name": "Gregory of Nazianzus",
+    "subtitle": "Bishop of Constantinople and Teacher of the Faith",
+    "year": "389"
+  },
+  "5-15": {
+    "type": "ECU",
+    "name": "Pachomius",
+    "subtitle": "Abbot and Organizer of Monasticism",
+    "year": "346"
+  },
+  "5-19": {
+    "type": "ANG",
+    "name": "Dunstan",
+    "subtitle": "Archbishop of Canterbury and Reformer of the Church",
+    "year": "988"
+  },
+  "5-20": {
+    "type": "ANG",
+    "name": "Alcuin",
+    "subtitle": "Deacon and Abbot of Tours",
+    "year": "804"
+  },
+  "5-24": {
+    "type": "ANG",
+    "name": "Jackson Kemper",
+    "subtitle": "First Missionary Bishop in the United States",
+    "year": "1870"
+  },
+  "5-25": {
+    "type": "ANG",
+    "name": "Bede the Venerable",
+    "subtitle": "Priest and Monk of Jarrow, Teacher of the Faith",
+    "year": "735"
+  },
+  "5-26": {
+    "type": "ANG",
+    "name": "Augustine",
+    "subtitle": "First Archbishop of Canterbury and Missionary",
+    "year": "605"
+  },
+  "5-31": {
+    "type": "RLD",
+    "name": "The Visitation of the Virgin Mary to Elizabeth and Zechariah"
+  },
+  "5-21": {
+    "type": "ECU",
+    "name": "Helena",
+    "subtitle": "Mother of Constantine and Protector of the Holy Places",
+    "year": "330"
+  },
+  "5-27": {
+    "type": "ECU",
+    "name": "John Calvin",
+    "subtitle": "Reformer of the Church",
+    "year": "1564"
+  },
+  "5-30": {
+    "type": "ANG",
+    "name": "Josephine Butler",
+    "subtitle": "Renewer of Society",
+    "year": "1906"
+  },
+  "6-3": {
+    "type": "ANG",
+    "name": "The Martyrs of Uganda",
+    "year": "1886, 1977",
+    "tags": "martyr"
+  },
+  "6-5": {
+    "type": "ANG",
+    "name": "Boniface",
+    "subtitle": "Archbishop of Mainz, Missionary to the Germans, and Martyr",
+    "year": "754",
+    "tags": "martyr"
+  },
+  "6-6": {
+    "type": "ANG",
+    "name": "William Grant Broughton",
+    "subtitle": "Bishop and Missionary to Australia",
+    "year": "1853"
+  },
+  "6-8": {
+    "type": "ANG",
+    "name": "Thomas Ken",
+    "subtitle": "Bishop of Bath and Wells, Non-juror",
+    "year": "1711"
+  },
+  "6-9": {
+    "type": "ANG",
+    "name": "Columba",
+    "subtitle": "Abbot of Iona and Missionary to the Scots",
+    "year": "597"
+  },
+  "6-11": {
+    "type": "RLD",
+    "name": "Barnabas the Apostle"
+  },
+  "6-15": {
+    "type": "ANG",
+    "name": "Evelyn Underhill",
+    "subtitle": "Teacher of the Faith",
+    "year": "1941"
+  },
+  "6-1": {
+    "type": "ECU",
+    "name": "Justin",
+    "subtitle": "Teacher of the Faith and Martyr at Rome, c. 165",
+    "tags": "martyr"
+  },
+  "6-2": {
+    "type": "ECU",
+    "name": "Blandina and Her Companions",
+    "subtitle": "Martyrs at Lyons",
+    "year": "177",
+    "tags": "martyr"
+  },
+  "6-4": {
+    "type": "ECU",
+    "name": "John XXIII",
+    "subtitle": "Bishop of Rome, Ecumenist, and Reformer of the Church",
+    "year": "1963"
+  },
+  "6-10": {
+    "type": "ECU",
+    "name": "Ephrem of Edessa",
+    "subtitle": "Deacon and Teacher of the Faith",
+    "year": "373"
+  },
+  "6-24": {
+    "type": "RLD",
+    "name": "The Nativity of John the Baptist"
+  },
+  "6-27": {
+    "type": "ECU",
+    "name": "Cyril of Alexandria",
+    "subtitle": "Bishop and Teacher of the Faith",
+    "year": "444"
+  },
+  "6-28": {
+    "type": "ECU",
+    "name": "Irenaeus",
+    "subtitle": "Bishop of Lyons and Teacher of the Faith",
+    "year": "200"
+  },
+  "6-22": {
+    "type": "ANG",
+    "name": "Alban",
+    "subtitle": "First Martyr of Britain, c. 250",
+    "tags": "martyr"
+  },
+  "6-18": {
+    "type": "ANG",
+    "name": "Bernard Mizeki",
+    "subtitle": "Catechist and Martyr in Rhodesia",
+    "year": "1896",
+    "tags": "martyr"
+  },
+  "6-19": {
+    "type": "ANG",
+    "name": "Sundar Singh",
+    "subtitle": "Evangelist in India and Teacher of the Faith",
+    "year": "1929"
+  },
+  "6-29": {
+    "type": "RLD",
+    "name": "Peter and Paul, Apostles"
+  },
+  "7-1": {
+    "type": "ECU",
+    "name": "Canada Day"
+  },
+  "7-4": {
+    "type": "ECU",
+    "name": "Independence Day (USA)"
+  },
+  "7-14": {
+    "type": "ECU",
+    "name": "Bonaventure",
+    "subtitle": "Friar, Bishop, and Teacher of the Faith",
+    "year": "1274"
+  },
+  "7-15": {
+    "type": "ECU",
+    "name": "Olga and Vladimir",
+    "subtitle": "Patrons of the Church in Russia",
+    "year": "969, 1016"
+  },
+  "7-17": {
+    "type": "ECU",
+    "name": "William White",
+    "subtitle": "Bishop of Pennsylvania and First Presiding Bishop of the Church in the USA",
+    "year": "1836"
+  },
+  "7-11": {
+    "type": "ECU",
+    "name": "Benedict of Nursia",
+    "subtitle": "Abbot and Founder of the Benedictine Order, c. 550"
+  },
+  "7-12": {
+    "type": "ECU",
+    "name": "Nathan Soderblom",
+    "subtitle": "Archbishop of Uppsala and Ecumenist",
+    "year": "1931"
+  },
+  "7-22": {
+    "type": "RLD",
+    "name": "Mary Magdalene"
+  },
+  "7-18": {
+    "type": "ECU",
+    "name": "Macrina",
+    "subtitle": "Nun and Teacher of the Faith",
+    "year": "379"
+  },
+  "7-19": {
+    "type": "ECU",
+    "name": "Gregory, Bishop of Nyssa and Teacher of the Faith",
+    "year": "396"
+  },
+  "7-20": {
+    "type": "ECU",
+    "name": "Margaret of Antioch",
+    "subtitle": "Martyr",
+    "year": "4th c.",
+    "tags": "martyr"
+  },
+  "7-25": {
+    "type": "RLD",
+    "name": "James the Elder",
+    "subtitle": "Apostle"
+  },
+  "7-27": {
+    "type": "ANG",
+    "name": "William Reed Huntington",
+    "subtitle": "Priest and Ecumenist",
+    "year": "1909"
+  },
+  "7-30": {
+    "type": "ANG",
+    "name": "William Wilberforce",
+    "subtitle": "Renewer of Society",
+    "year": "1833"
+  },
+  "8-6": {
+    "type": "RLD",
+    "name": "The Transfiguration of Our Lord Jesus Christ"
+  },
+  "7-24": {
+    "type": "ECU",
+    "name": "Thomas à Kempis",
+    "subtitle": "Priest and Teacher of the Faith",
+    "year": "1471"
+  },
+  "7-26": {
+    "type": "ECU",
+    "name": "The Parents of the Virgin Mary"
+  },
+  "7-29": {
+    "type": "ECU",
+    "name": "Lazarus, Mary, and Martha of Bethany",
+    "subtitle": "Companions of our Lord"
+  },
+  "8-1": {
+    "type": "ECU",
+    "name": "Joseph of Arimathea"
+  },
+  "8-5": {
+    "type": "ANG",
+    "name": "Oswald",
+    "subtitle": "King of Northumbria and Martyr",
+    "year": "642",
+    "tags": "martyr"
+  },
+  "8-7": {
+    "type": "ANG",
+    "name": "John Mason Neale",
+    "subtitle": "Priest and Reformer of the Church",
+    "year": "1866"
+  },
+  "8-8": {
+    "type": "ECU",
+    "name": "Dominic",
+    "subtitle": "Priest and Friar",
+    "year": "1221"
+  },
+  "8-9": {
+    "type": "ANG",
+    "name": "Mary Sumner",
+    "subtitle": "Founder of the Mothers' Union and Renewer of Society",
+    "year": "1921"
+  },
+  "8-12": {
+    "type": "ANG",
+    "name": "Charles Inglis",
+    "subtitle": "First Bishop of Canada",
+    "year": "1787"
+  },
+  "8-13": {
+    "type": "ANG",
+    "name": "Jeremy Taylor",
+    "subtitle": "Bishop of Down and Connor, Teacher of the Faith",
+    "year": "1667"
+  },
+  "8-15": {
+    "type": "RLD",
+    "name": "The Virgin Mary",
+    "subtitle": "Mother of Our Lord Jesus Christ"
+  },
+  "8-21": {
+    "type": "ANG",
+    "name": "Jonathan Myrick Daniels",
+    "subtitle": "Martyr",
+    "year": "1965",
+    "tags": "martyr"
+  },
+  "8-10": {
+    "type": "ECU",
+    "name": "Laurence",
+    "subtitle": "Deacon and Martyr at Rome",
+    "year": "258",
+    "tags": "martyr"
+  },
+  "8-11": {
+    "type": "ECU",
+    "name": "Clare",
+    "subtitle": "Abbess of Assisi",
+    "year": "1253"
+  },
+  "8-14": {
+    "type": "ECU",
+    "name": "Roger Schutz",
+    "subtitle": "Monk of Taizé and Ecumenist",
+    "year": "2005"
+  },
+  "8-20": {
+    "type": "ECU",
+    "name": "Bernard",
+    "subtitle": "Abbot of Clairvaux and Teacher of the Faith",
+    "year": "1153"
+  },
+  "8-25": {
+    "type": "ECU",
+    "name": "Louis",
+    "subtitle": "King of France",
+    "year": "1270"
+  },
+  "8-30": {
+    "type": "ANG",
+    "name": "Charles Chapman Grafton",
+    "subtitle": "Bishop of Fond du Lac and Ecumenist",
+    "year": "1912"
+  },
+  "8-31": {
+    "type": "ANG",
+    "name": "Aidan",
+    "subtitle": "Abbot-Bishop of Lindisfarne, Missionary to Northumbria",
+    "year": "651"
+  },
+  "9-2": {
+    "type": "ANG",
+    "name": "The Martyrs of Papua New Guinea",
+    "year": "1901 and 1942",
+    "tags": "martyr"
+  },
+  "8-4": {
+    "type": "ANG",
+    "name": "Birinus",
+    "subtitle": "Bishop of Dorchester and Evangelist to Wessex",
+    "year": "650"
+  },
+  "8-27": {
+    "type": "ECU",
+    "name": "Monica",
+    "subtitle": "Mother of Augustine of Hippo",
+    "year": "387"
+  },
+  "8-28": {
+    "type": "ECU",
+    "name": "Augustine",
+    "subtitle": "Bishop of Hippo and Teacher of the Faith",
+    "year": "430"
+  },
+  "8-29": {
+    "type": "ECU",
+    "name": "The Beheading of John the Baptist"
+  },
+  "9-6": {
+    "type": "ANG",
+    "name": "Alan Gardiner",
+    "subtitle": "Missionary and Founder of SAMS",
+    "year": "1851"
+  },
+  "9-7": {
+    "type": "ANG",
+    "name": "Hannah More",
+    "subtitle": "Renewer of Society and Founder of Sunday Schools",
+    "year": "1833"
+  },
+  "9-5": {
+    "type": "ECU",
+    "name": "Mother Teresa of Calcutta",
+    "subtitle": "Renewer of Society",
+    "year": "1997"
+  },
+  "9-12": {
+    "type": "ANG",
+    "name": "John Henry Hobart",
+    "subtitle": "Bishop of New York and Reformer of the Church",
+    "year": "1830"
+  },
+  "9-14": {
+    "type": "RLD",
+    "name": "Holy Cross Day"
+  },
+  "9-16": {
+    "type": "ANG",
+    "name": "Ninian",
+    "subtitle": "Bishop of Galloway and Missionary to the Picts",
+    "year": "432"
+  },
+  "9-17": {
+    "type": "ANG",
+    "name": "Edward Bouverie Pusey",
+    "subtitle": "Priest and Teacher of the Faith",
+    "year": "1882"
+  },
+  "9-21": {
+    "type": "RLD",
+    "name": "Matthew, Apostle and Evangelist"
+  },
+  "9-13": {
+    "type": "ECU",
+    "name": "John Chrysostom",
+    "subtitle": "Bishop of Constantinople and Teacher of the Faith",
+    "year": "407"
+  },
+  "9-15": {
+    "type": "ECU",
+    "name": "Cyprian",
+    "subtitle": "Bishop of Carthage and Martyr",
+    "year": "258",
+    "tags": "martyr"
+  },
+  "9-19": {
+    "type": "ANG",
+    "name": "Theodore of Tarsus",
+    "subtitle": "Archbishop of Canterbury",
+    "year": "690"
+  },
+  "9-20": {
+    "type": "ANG",
+    "name": "John Coleridge Patteson",
+    "subtitle": "Bishop of Melanesia, and his Companions, Martyrs",
+    "year": "1871",
+    "tags": "martyr"
+  },
+  "9-26": {
+    "type": "ANG",
+    "name": "Lancelot Andrewes",
+    "subtitle": "Bishop of Winchester and Teacher of the Faith",
+    "year": "1626"
+  },
+  "9-25": {
+    "type": "ECU",
+    "name": "Sergius",
+    "subtitle": "Monk and Reformer of the Church in Russia",
+    "year": "1392"
+  },
+  "9-27": {
+    "type": "ANG",
+    "name": "Wilson Carlile",
+    "subtitle": "Evangelist and Founder of the Church Army",
+    "year": "1942"
+  },
+  "9-29": {
+    "type": "RLD",
+    "name": "Holy Michael and All Angels"
+  },
+  "10-3": {
+    "type": "ANG",
+    "name": "George Bell",
+    "subtitle": "Advocate for the Confessing Church, Bishop and Ecumenist",
+    "year": "1958"
+  },
+  "9-30": {
+    "type": "ECU",
+    "name": "Jerome",
+    "subtitle": "Monk of Bethlehem and Translator of the Bible",
+    "year": "420"
+  },
+  "10-1": {
+    "type": "ECU",
+    "name": "Remigius",
+    "subtitle": "Bishop of Reims and Missionary to the Franks",
+    "year": "533"
+  },
+  "10-4": {
+    "type": "ECU",
+    "name": "Francis of Assisi",
+    "subtitle": "Friar and Deacon, Reformer of the Church",
+    "year": "1226"
+  },
+  "10-9": {
+    "type": "ANG",
+    "name": "Robert Grosseteste",
+    "subtitle": "Bishop of Lincoln",
+    "year": "1253"
+  },
+  "10-10": {
+    "type": "ANG",
+    "name": "Paulinus",
+    "subtitle": "Bishop of York and Missionary",
+    "year": "644"
+  },
+  "10-11": {
+    "type": "ANG",
+    "name": "Philip",
+    "subtitle": "Deacon and Evangelist"
+  },
+  "10-12": {
+    "type": "ANG",
+    "name": "Cecil Frances Alexander",
+    "subtitle": "Hymn-writer and Teacher of the Faith",
+    "year": "1895"
+  },
+  "10-13": {
+    "type": "ANG",
+    "name": "Edward the Confessor",
+    "subtitle": "King of England",
+    "year": "1066"
+  },
+  "10-14": {
+    "type": "ANG",
+    "name": "Samuel Isaac Joseph Schereschewsky",
+    "subtitle": "Bishop of Shanghai",
+    "year": "1906"
+  },
+  "10-16": {
+    "type": "ANG",
+    "name": "Hugh Latimer and Nicholas Ridley",
+    "subtitle": "Bishops and Martyrs",
+    "year": "1555",
+    "tags": "martyr"
+  },
+  "10-18": {
+    "type": "RLD",
+    "name": "Luke the Evangelist and Companion of Paul"
+  },
+  "10-19": {
+    "type": "ANG",
+    "name": "Henry Martyn",
+    "subtitle": "Priest and Missionary to India and Persia",
+    "year": "1812"
+  },
+  "10-23": {
+    "type": "RLD",
+    "name": "James of Jerusalem",
+    "subtitle": "Bishop and Martyr, Brother of Our Lord",
+    "tags": "martyr"
+  },
+  "10-15": {
+    "type": "ECU",
+    "name": "Teresa of Ávila",
+    "subtitle": "Nun and Reformer of the Church",
+    "year": "1582"
+  },
+  "10-17": {
+    "type": "ECU",
+    "name": "Ignatius",
+    "subtitle": "Bishop of Antioch and Martyr, ca. 115",
+    "tags": "martyr"
+  },
+  "10-28": {
+    "type": "RLD",
+    "name": "Simon and Jude",
+    "subtitle": "Apostles"
+  },
+  "10-26": {
+    "type": "ANG",
+    "name": "Alfred the Great",
+    "subtitle": "King of the West Saxons and Reformer of the Church",
+    "year": "899"
+  },
+  "11-1": {
+    "type": "RLD",
+    "name": "All Saints' Day"
+  },
+  "11-3": {
+    "type": "ANG",
+    "name": "Richard Hooker",
+    "subtitle": "Priest and Teacher of the Faith",
+    "year": "1600"
+  },
+  "10-29": {
+    "type": "ANG",
+    "name": "James Hannington",
+    "subtitle": "Bishop of Eastern Equatorial Africa, and his Companions, Martyrs",
+    "year": "1885",
+    "tags": "martyr"
+  },
+  "11-6": {
+    "type": "ANG",
+    "name": "William Temple",
+    "subtitle": "Archbishop of Canterbury and Teacher of the Faith",
+    "year": "1944"
+  },
+  "11-2": {
+    "type": "ECU",
+    "name": "Commemoration of the Faithful Departed"
+  },
+  "11-5": {
+    "type": "ECU",
+    "name": "Elizabeth and Zechariah",
+    "subtitle": "Parents of John the Baptist"
+  },
+  "11-7": {
+    "type": "ECU",
+    "name": "Willibrord",
+    "subtitle": "Archbishop of Utrecht and Missionary to Frisia",
+    "year": "739"
+  },
+  "11-10": {
+    "type": "ECU",
+    "name": "Leo the Great",
+    "subtitle": "Bishop of Rome and Teacher of the Faith",
+    "year": "461"
+  },
+  "11-13": {
+    "type": "ANG",
+    "name": "Charles Simeon",
+    "subtitle": "Priest and Evangelist",
+    "year": "1836"
+  },
+  "11-14": {
+    "type": "ANG",
+    "name": "Consecration of Samuel Seabury",
+    "subtitle": "First Bishop in the United States",
+    "year": "1784"
+  },
+  "11-16": {
+    "type": "ANG",
+    "name": "Margaret",
+    "subtitle": "Queen of Scotland, Reformer of the Church, and Renewer of Society",
+    "year": "1093"
+  },
+  "11-17": {
+    "type": "ANG",
+    "name": "Hugh",
+    "subtitle": "Bishop of Lincoln and Renewer of Society",
+    "year": "1200"
+  },
+  "11-19": {
+    "type": "ANG",
+    "name": "Hilda",
+    "subtitle": "Abbess of Whitby",
+    "year": "680"
+  },
+  "11-20": {
+    "type": "ANG",
+    "name": "Edmund",
+    "subtitle": "King of Eastanglia and Martyr",
+    "year": "870",
+    "tags": "martyr"
+  },
+  "11-11": {
+    "type": "ECU",
+    "name": "Martin",
+    "subtitle": "Bishop of Tours",
+    "year": "397"
+  },
+  "11-15": {
+    "type": "ECU",
+    "name": "Herman",
+    "subtitle": "Monk and Missionary to the Native Alaskans",
+    "year": "1837"
+  },
+  "11-18": {
+    "type": "ECU",
+    "name": "Elizabeth of Hungary",
+    "subtitle": "Renewer of Society",
+    "year": "1231"
+  },
+  "11-22": {
+    "type": "ECU",
+    "name": "Cecilia",
+    "subtitle": "Martyr at Rome, c. 230",
+    "tags": "martyr"
+  },
+  "11-23": {
+    "type": "ECU",
+    "name": "Clement",
+    "subtitle": "Bishop of Rome and Martyr, c. 100",
+    "tags": "martyr"
+  },
+  "11-25": {
+    "type": "ECU",
+    "name": "Catherine of Alexandria",
+    "subtitle": "Martyr, c. 305",
+    "tags": "martyr"
+  },
+  "11-30": {
+    "type": "RLD",
+    "name": "Andrew the Apostle"
+  },
+  "11-29": {
+    "type": "ANG",
+    "name": "Clive Staples Lewis",
+    "subtitle": "Teacher of the Faith",
+    "year": "1963"
+  },
+  "12-1": {
+    "type": "ANG",
+    "name": "Nicholas Ferrar",
+    "subtitle": "Deacon and Founder of the Little Gidding Community",
+    "year": "1637"
+  },
+  "12-2": {
+    "type": "ANG",
+    "name": "Channing Moore Williams",
+    "subtitle": "Missionary Bishop in China and Japan",
+    "year": "1910"
+  },
+  "12-8": {
+    "type": "ANG",
+    "name": "Richard Baxter",
+    "subtitle": "Pastor and Teacher of the Faith",
+    "year": "1691"
+  },
+  "12-4": {
+    "type": "ECU",
+    "name": "John of Damascus",
+    "subtitle": "Priest and Teacher of the Faith",
+    "year": "760"
+  },
+  "12-5": {
+    "type": "ECU",
+    "name": "Clement of Alexandria",
+    "subtitle": "Priest and Teacher of the Faith",
+    "year": "210"
+  },
+  "12-6": {
+    "type": "ECU",
+    "name": "Nicholas",
+    "subtitle": "Bishop of Myra, c.326"
+  },
+  "12-7": {
+    "type": "ECU",
+    "name": "Ambrose",
+    "subtitle": "Bishop of Milan and Teacher of the Faith",
+    "year": "397"
+  },
+  "12-13": {
+    "type": "ECU",
+    "name": "Lucy",
+    "subtitle": "Martyr at Syracuse",
+    "year": "304",
+    "tags": "martyr"
+  },
+  "12-21": {
+    "type": "RLD",
+    "name": "Thomas the Apostle"
+  },
+  "12-25": {
+    "type": "RLD",
+    "name": "The Nativity of our Lord Jesus Christ Christmas"
+  },
+  "12-26": {
+    "type": "RLD",
+    "name": "Stephen",
+    "subtitle": "Deacon and Martyr",
+    "tags": "martyr"
+  },
+  "12-27": {
+    "type": "RLD",
+    "name": "John",
+    "subtitle": "Apostle and Evangelist"
+  },
+  "12-28": {
+    "type": "RLD",
+    "name": "The Holy Innocents"
+  },
+  "12-29": {
+    "type": "ANG",
+    "name": "Thomas Becket",
+    "subtitle": "Archbishop of Canterbury, Martyr",
+    "year": "1170",
+    "tags": "martyr"
+  },
+  "12-32": {
+    "type": "ANG",
+    "name": "John Wyclif",
+    "subtitle": "Priest and Translator of the Bible into English",
+    "year": "1384"
+  }
+}
