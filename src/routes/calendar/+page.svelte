@@ -347,10 +347,11 @@
 	<!-- Calendar Grid -->
 	<div class="overflow-hidden rounded-lg border border-gray-300 bg-white shadow">
 		<!-- Day Headers - More compact on mobile -->
-		<div class="grid grid-cols-7 border-b border-gray-300 bg-gray-50">
+		<div class="grid grid-cols-7 gap-0 border-b border-gray-300 bg-gray-50">
 			{#each dayNames as day}
 				<div
-					class="border-r border-gray-300 px-1 py-2 text-center text-xs font-semibold text-gray-900 last:border-r-0 md:px-2 md:py-3 md:text-sm"
+					class="px-1 py-2 text-center text-xs font-semibold text-gray-900 md:px-2 md:py-3 md:text-sm"
+					style="border-right: 1px solid rgb(209 213 219); border-right: 1px solid rgb(209 213 219);"
 				>
 					{day}
 				</div>
@@ -358,14 +359,14 @@
 		</div>
 
 		<!-- Calendar Days -->
-		<div class="grid grid-cols-7">
+		<div class="grid grid-cols-7 gap-0">
 			{#each calendarDays as day}
 				<a
 					href={getDayLink(day)}
 					onmouseenter={() => handleDayHover(day)}
 					onmouseleave={handleDayLeave}
 					ontouchstart={() => handleDayHover(day)}
-					class="relative aspect-square border-r border-b border-gray-300 p-1 transition-colors md:min-h-24 md:p-2
+					class="relative aspect-square p-1 transition-colors md:min-h-24 md:p-2
 						{day.liturgicalColor === 'red'
 						? 'bg-red-50 hover:bg-red-100'
 						: day.liturgicalColor === 'purple'
@@ -373,8 +374,9 @@
 							: day.liturgicalColor === 'white'
 								? 'bg-white hover:bg-gray-50'
 								: 'bg-green-50 hover:bg-green-100'}
-						{day.isToday ? 'ring-2 ring-blue-500 ring-inset' : ''}
-						{hoveredDay === day ? 'ring-2 ring-blue-400 ring-inset' : ''}"
+						{day.isToday ? 'z-10 ring-2 ring-blue-500 ring-inset' : ''}
+						{hoveredDay === day ? 'z-10 ring-2 ring-blue-400 ring-inset' : ''}"
+					style="border-right: 1px solid rgb(209 213 219); border-bottom: 1px solid rgb(209 213 219);"
 				>
 					<!-- Mobile: Just day number and color -->
 					<div class="flex h-full flex-col md:hidden">
