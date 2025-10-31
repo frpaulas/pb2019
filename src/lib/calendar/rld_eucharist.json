@@ -1,0 +1,233 @@
+{
+	"11-30": {
+		"name": "St. Andrew",
+		"ot": "Deut 30:11-14",
+		"psalm": "Ps 19 or 19:1-6",
+		"epistle": "Rom 10:8b-18",
+		"gospel": "Matt 4:18-22"
+	},
+	"12-21": {
+		"name": "St. Thomas",
+		"ot": "Hab 2:1-4",
+		"psalm": "Ps 126",
+		"epistle": "Heb 10:35—11:1",
+		"gospel": "John 20:19-29"
+	},
+	"12-26": {
+		"name": "St. Stephen",
+		"ot": "Jer 26:1-9(10-11)12-15",
+		"psalm": "Ps 31:1-6(7-27)v",
+		"epistle": "Acts 6:8—7:2a,51-60",
+		"gospel": "Matt 23:29-39"
+	},
+	"12-27": {
+		"name": "St. John",
+		"ot": "Ex 33:18-23",
+		"psalm": "Ps 92:1-4(5-10)11-14",
+		"epistle": "1 John 1",
+		"gospel": "John 21:9-25 or John 1:1-18"
+	},
+	"12-28": {
+		"name": "Holy Innocents",
+		"ot": "Jer 31:15-17",
+		"psalm": "Ps 124",
+		"epistle": "Rev 21:1-7",
+		"gospel": "Matt 2:13-18"
+	},
+	"1-1": {
+		"name": "Circumcision & Holy Name",
+		"ot": "Ex 34:1-9",
+		"psalm": "Ps 8",
+		"epistle": "Rom 1:1-7",
+		"gospel": "Luke 2:15-21"
+	},
+	"1-18": {
+		"name": "Confession of St. Peter",
+		"ot": "Acts 4:8-13",
+		"psalm": "Ps 23",
+		"epistle": "1 Pet 5:1-11",
+		"gospel": "Matt 16:13-19"
+	},
+	"1-25": {
+		"name": "Conversion of St. Paul",
+		"ot": "Acts 26:9-21",
+		"psalm": "Ps 67",
+		"epistle": "Gal 1:11-24",
+		"gospel": "Matt 10:16-25"
+	},
+	"2-2": {
+		"name": "The Presentation of Christ in the Temple",
+		"ot": "Mal 3:1-4",
+		"psalm": "Ps 84",
+		"epistle": "Heb 2:14-18",
+		"gospel": "Luke 2:22-40"
+	},
+	"2-24": {
+		"name": "St. Matthias",
+		"ot": "Acts 1:15-26",
+		"psalm": "Ps 15",
+		"epistle": "Phil 3:12-21",
+		"gospel": "John 15:1-16"
+	},
+	"3-19": {
+		"name": "St. Joseph",
+		"ot": "2 Sam 7:4,8-16",
+		"psalm": "Ps 89:1-4(5-18)19-29v",
+		"epistle": "Rom 4:13-18",
+		"gospel": "Luke 2:41-52"
+	},
+	"3-25": {
+		"name": "The Annunciation",
+		"ot": "Isa 7:10-14",
+		"psalm": "Ps 40:1-13v or Magnificat",
+		"epistle": "Heb 10:5-10",
+		"gospel": "Luke 1:26-38"
+	},
+	"4-25": {
+		"name": "St. Mark",
+		"ot": "Isa 52:7-10",
+		"psalm": "Ps 2",
+		"epistle": "Eph 4:7-8,11-16",
+		"gospel": "Mark 16:15-20"
+	},
+	"5-1": {
+		"name": "St. Philip & St. James",
+		"ot": "Isa 30:18-21",
+		"psalm": "Ps 119:33-40",
+		"epistle": "2 Cor 4:1-7",
+		"gospel": "John 14:6-14"
+	},
+	"5-31": {
+		"name": "The Visitation",
+		"ot": "Zeph 3:14-18",
+		"psalm": "Ps 113 or Ecce Deus",
+		"epistle": "Col 3:12-17",
+		"gospel": "Luke 1:39-56"
+	},
+	"6-11": {
+		"name": "St. Barnabas",
+		"ot": "Isa 42:5-12",
+		"psalm": "Ps 112",
+		"epistle": "Acts 11:19-30,13:1-3",
+		"gospel": "Matt 10:7-16"
+	},
+	"6-24": {
+		"name": "Nativity of St. John the Baptist",
+		"ot": "Isa 40:1-11",
+		"psalm": "Ps 85:7-13",
+		"epistle": "Acts 13:14b-26",
+		"gospel": "Luke 1:57-80"
+	},
+	"6-29": {
+		"name": "St. Peter & St. Paul",
+		"ot": "Ezek 34:11-16",
+		"psalm": "Ps 87",
+		"epistle": "2 Tim 4:1-8",
+		"gospel": "John 21:15-19"
+	},
+	"7-22": {
+		"name": "St. Mary Magdalene",
+		"ot": "Judg 4:4-10 or Judith 9:1,11-14",
+		"psalm": "Ps 42:1-7(8-15)",
+		"epistle": "2 Cor 5:14-20a",
+		"gospel": "John 20:11-18"
+	},
+	"7-25": {
+		"name": "St. James",
+		"ot": "Jer 45:1-5",
+		"psalm": "Ps 7:1-11(12-18)",
+		"epistle": "Acts 11:27—12:3",
+		"gospel": "Matt 20:20-28"
+	},
+	"8-6": {
+		"name": "The Transfiguration",
+		"ot": "Ex 34:29-35",
+		"psalm": "Ps 99",
+		"epistle": "2 Pet 1:13-21",
+		"gospel": "Luke 9:28-36"
+	},
+	"8-15": {
+		"name": "St. Mary the Virgin",
+		"ot": "Isa 61:10-11",
+		"psalm": "Ps 34",
+		"epistle": "Gal 4:4-7",
+		"gospel": "Luke 1:46-55"
+	},
+	"8-24": {
+		"name": "St. Bartholomew",
+		"ot": "Deut 18:15-18",
+		"psalm": "Ps 91",
+		"epistle": "1 Cor 4:9-16",
+		"gospel": "Luke 22:24-30"
+	},
+	"9-14": {
+		"name": "Holy Cross Day",
+		"ot": "Isa 45:21-25",
+		"psalm": "Ps 98",
+		"epistle": "Phil 2:5-11",
+		"gospel": "John 12:31-36a"
+	},
+	"9-21": {
+		"name": "St. Matthew",
+		"ot": "Prov 3:1-12",
+		"psalm": "Ps 119:33-40",
+		"epistle": "2 Tim 3:1-17",
+		"gospel": "Matt 9:9-13"
+	},
+	"9-29": {
+		"name": "Holy Michael & All Angels",
+		"ot": "Gen 28:10-17",
+		"psalm": "Ps 103",
+		"epistle": "Rev 12:7-12",
+		"gospel": "John 1:47-51"
+	},
+	"10-18": {
+		"name": "St. Luke",
+		"ot": "Ecclesiasticus 38:1-14",
+		"psalm": "Ps 147:1-11v",
+		"epistle": "2 Tim 4:1-13",
+		"gospel": "Luke 4:14-21"
+	},
+	"10-23": {
+		"name": "St. James of Jerusalem",
+		"ot": "Acts 15:12-22a",
+		"psalm": "Ps 1",
+		"epistle": "1 Cor 15:1-11",
+		"gospel": "Matt 13:54-58"
+	},
+	"10-28": {
+		"name": "St. Simon & St. Jude",
+		"ot": "Deut 32:1-4",
+		"psalm": "Ps 119:89-96",
+		"epistle": "Eph 2:13-22",
+		"gospel": "John 15:17-27"
+	},
+	"11-1": {
+		"name": "All Saints' Day",
+		"ot": "Ecclesiasticus 44:1-14 or Rev 7:9-17",
+		"psalm": "Ps 149",
+		"epistle": "Rev 7:9-17 or Eph 1:(11-14)15-23",
+		"gospel": "Matt 5:1-12 or Luke 6:20-26(27-36)"
+	},
+	"ascension": {
+		"name": "Ascension",
+		"ot": "Acts 1:1-11",
+		"psalm": "Ps 47 or 110:1-5",
+		"epistle": "Eph 1:15-23",
+		"gospel": "Luke 24:44-53 or Mark 16:14-20"
+	},
+	"pentecost": {
+		"name": "Pentecost",
+		"ot": "Acts 2:1-11 or Isa 11:1-9",
+		"psalm": "Ps 104:25-37 or 104:25-32 or 33:12-22",
+		"epistle": "1 Cor 12:4-13",
+		"gospel": "John 20:19-23 or John 14:15-26"
+	},
+	"ash-wednesday": {
+		"name": "Ash Wednesday",
+		"ot": "Joel 2:12-19 or Isa 58:1-12",
+		"psalm": "Ps 103 or 103:8-14",
+		"epistle": "2 Cor 5:20b—6:10",
+		"gospel": "Matt 6:1-6,16-21"
+	}
+}

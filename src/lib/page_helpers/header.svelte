@@ -51,6 +51,10 @@
 			href: `${base}/pg/v`
 		},
 		{
+			title: 'Calendar',
+			href: `${base}/calendar`
+		},
+		{
 			title: 'Psalter',
 			href: `${base}/psalter`
 		},
