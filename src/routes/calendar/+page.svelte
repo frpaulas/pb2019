@@ -351,7 +351,6 @@
 			{#each dayNames as day}
 				<div
 					class="px-1 py-2 text-center text-xs font-semibold text-gray-900 md:px-2 md:py-3 md:text-sm"
-					style="border-right: 1px solid rgb(209 213 219); border-right: 1px solid rgb(209 213 219);"
 				>
 					{day}
 				</div>
@@ -366,7 +365,7 @@
 					onmouseenter={() => handleDayHover(day)}
 					onmouseleave={handleDayLeave}
 					ontouchstart={() => handleDayHover(day)}
-					class="relative aspect-square p-1 transition-colors md:min-h-24 md:p-2
+					class="relative aspect-square border-t border-b border-gray-300 p-1 transition-colors md:min-h-24 md:p-2
 						{day.liturgicalColor === 'red'
 						? 'bg-red-50 hover:bg-red-100'
 						: day.liturgicalColor === 'purple'
@@ -376,7 +375,6 @@
 								: 'bg-green-50 hover:bg-green-100'}
 						{day.isToday ? 'z-10 ring-2 ring-blue-500 ring-inset' : ''}
 						{hoveredDay === day ? 'z-10 ring-2 ring-blue-400 ring-inset' : ''}"
-					style="border-right: 1px solid rgb(209 213 219); border-bottom: 1px solid rgb(209 213 219);"
 				>
 					<!-- Mobile: Just day number and color -->
 					<div class="flex h-full flex-col md:hidden">
