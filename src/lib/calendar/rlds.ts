@@ -8,6 +8,7 @@ import antiphonsData from './antiphons.json';
 export interface FeastDay {
 	type: 'RLD' | 'ANG' | 'ECU';
 	name: string;
+	color: 'red' | 'purple' | 'white' | 'green';
 	subtitle?: string;
 	year?: string;
 	tags?: string;
@@ -105,7 +106,10 @@ export function getAllAntiphons(): Array<[string, Antiphon]> {
  * @param day - Day of month (1-31)
  * @returns { feastDay, antiphon } with one or both present
  */
-export function getObservances(month: number, day: number): {
+export function getObservances(
+	month: number,
+	day: number
+): {
 	feastDay: FeastDay | null;
 	antiphon: Antiphon | null;
 } {

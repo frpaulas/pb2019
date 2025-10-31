@@ -6,7 +6,7 @@
 import sundayLectionaryData from './sunday_lectionary.json';
 
 export interface Reading {
-	ot: string;      // Old Testament (or Acts in Easter season)
+	ot: string; // Old Testament (or Acts in Easter season)
 	psalm: string;
 	epistle: string;
 	gospel: string;
@@ -15,6 +15,7 @@ export interface Reading {
 export interface SundayLectionary {
 	name: string;
 	season: 'advent' | 'christmas' | 'epiphany' | 'lent' | 'easter' | 'pentecost';
+	color: 'red' | 'purple' | 'white' | 'green';
 	yearA: Reading;
 	yearB: Reading;
 	yearC: Reading;
@@ -93,9 +94,7 @@ export function getAllSundayKeys(): string[] {
  */
 export function searchSundays(searchTerm: string): Array<[string, SundayLectionary]> {
 	const term = searchTerm.toLowerCase();
-	return Object.entries(db).filter(([_, sunday]) =>
-		sunday.name.toLowerCase().includes(term)
-	);
+	return Object.entries(db).filter(([_, sunday]) => sunday.name.toLowerCase().includes(term));
 }
 
 /**

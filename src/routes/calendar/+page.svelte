@@ -1,12 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { getFeastDay, isRedLetterDay } from '$lib/calendar/rlds';
-	import {
-		getSundayLectionaryKey,
-		calculateEaster,
-		calculateLiturgicalDates,
-		getLiturgicalSeason
-	} from '$lib/calendar/sunday_key_mapping';
+	import { getSundayLectionaryKey, calculateEaster } from '$lib/calendar/sunday_key_mapping';
 	import { getSundayReadings } from '$lib/calendar/sunday_lectionary';
 
 	// Get current date and navigate between months
@@ -179,54 +174,46 @@
 		day: number,
 		sundayKey: string | null
 	): 'red' | 'purple' | 'white' | 'green' {
-		// RLDs are always red
-		if (isRedLetterDay(month, day)) {
-			return 'red';
+		// 1. Check if this is a feast day with its own color
+		const feastDay = getFeastDay(month, day);
+		if (feastDay?.color) {
+			return feastDay.color;
 		}
 
-		// Check for specific feast days that are white
-		// Epiphany (Jan 6) and Sunday following Epiphany if Epiphany is not Sunday
-		if (month === 1 && day === 6) {
-			return 'white';
-		}
-
-		const date = new Date(year, month - 1, day);
-		const liturgicalDates = calculateLiturgicalDates(year);
-
-		// Sunday following Epiphany if Epiphany is not Sunday
-		if (date.getDay() === 0 && month === 1 && day > 6 && day <= 13) {
-			const epiphany = new Date(year, 0, 6);
-			if (epiphany.getDay() !== 0) {
-				return 'white';
+		// 2. Check if this is a Sunday with its own color
+		if (sundayKey) {
+			const sundayLectionary = getSundayReadings(sundayKey);
+			if (sundayLectionary?.color) {
+				return sundayLectionary.color;
 			}
 		}
 
-		// Get the liturgical season
-		const season = getLiturgicalSeason(year, month, day);
-		if (!season) return 'green'; // Default
+		// 3. For weekdays, inherit color from previous Sunday
+		const date = new Date(year, month - 1, day);
+		const currentDayOfWeek = date.getDay(); // 0 = Sunday
 
-		// Palm Sunday is red (lent-6)
-		if (sundayKey === 'lent-6') {
-			return 'red';
+		if (currentDayOfWeek !== 0) {
+			// Go back to find the most recent Sunday
+			const daysBack = currentDayOfWeek;
+			const previousSunday = new Date(date);
+			previousSunday.setDate(date.getDate() - daysBack);
+
+			const sundayMonth = previousSunday.getMonth() + 1;
+			const sundayDay = previousSunday.getDate();
+			const sundayYear = previousSunday.getFullYear();
+
+			// Get the Sunday lectionary key for the previous Sunday
+			const prevSundayKey = getSundayLectionaryKey(sundayYear, sundayMonth, sundayDay);
+			if (prevSundayKey) {
+				const prevSundayLectionary = getSundayReadings(prevSundayKey);
+				if (prevSundayLectionary?.color) {
+					return prevSundayLectionary.color;
+				}
+			}
 		}
 
-		// Season-based colors
-		switch (season.season) {
-			case 'advent':
-				return 'purple';
-			case 'lent':
-				return 'purple';
-			case 'easter':
-				return 'white';
-			case 'christmas':
-				return 'white';
-			case 'epiphany':
-				return 'green';
-			case 'pentecost':
-				return 'green';
-			default:
-				return 'green';
-		}
+		// 4. Default fallback
+		return 'green';
 	}
 
 	function previousMonth() {
