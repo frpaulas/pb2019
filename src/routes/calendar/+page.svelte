@@ -287,7 +287,7 @@
 
 		<!-- Selected Date Display - Fixed height to prevent layout shift -->
 		<div
-			class="mt-3 min-h-[80px] rounded-lg border-2 border-blue-500 bg-blue-50 p-3 text-center md:mt-4"
+			class="mt-3 min-h-[68px] rounded-lg border-2 border-blue-500 bg-blue-50 px-3 py-2 text-center md:mt-4"
 		>
 			{#if displayDay}
 				<div class="text-sm font-semibold text-blue-900">
@@ -299,13 +299,15 @@
 					})}
 				</div>
 				{#if displayDay.sundayName}
-					<div class="mt-1 text-sm font-medium text-blue-700">
+					<div class="mt-0.5 text-xs font-medium text-blue-700">
 						{displayDay.sundayName}
 					</div>
 				{/if}
 				{#if displayDay.feastDay}
 					<div
-						class="mt-1 text-sm {displayDay.isRLD ? 'font-semibold text-red-700' : 'text-gray-700'}"
+						class="mt-0.5 text-xs {displayDay.isRLD
+							? 'font-semibold text-red-700'
+							: 'text-gray-700'}"
 					>
 						{displayDay.feastDay}
 					</div>
@@ -343,12 +345,12 @@
 	</div>
 
 	<!-- Calendar Grid -->
-	<div class="overflow-hidden rounded-lg border border-gray-200 bg-white shadow">
+	<div class="overflow-hidden rounded-lg border border-gray-300 bg-white shadow">
 		<!-- Day Headers - More compact on mobile -->
-		<div class="grid grid-cols-7 border-b bg-gray-50">
+		<div class="grid grid-cols-7 border-b border-gray-300 bg-gray-50">
 			{#each dayNames as day}
 				<div
-					class="border-r px-1 py-2 text-center text-xs font-semibold text-gray-900 last:border-r-0 md:px-2 md:py-3 md:text-sm"
+					class="border-r border-gray-300 px-1 py-2 text-center text-xs font-semibold text-gray-900 last:border-r-0 md:px-2 md:py-3 md:text-sm"
 				>
 					{day}
 				</div>
@@ -363,7 +365,7 @@
 					onmouseenter={() => handleDayHover(day)}
 					onmouseleave={handleDayLeave}
 					ontouchstart={() => handleDayHover(day)}
-					class="relative aspect-square border-r border-b border-gray-200 p-1 transition-colors md:min-h-24 md:p-2
+					class="relative aspect-square border-r border-b border-gray-300 p-1 transition-colors md:min-h-24 md:p-2
 						{day.liturgicalColor === 'red'
 						? 'bg-red-50 hover:bg-red-100'
 						: day.liturgicalColor === 'purple'
