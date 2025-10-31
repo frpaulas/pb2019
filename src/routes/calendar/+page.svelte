@@ -365,7 +365,7 @@
 					onmouseenter={() => handleDayHover(day)}
 					onmouseleave={handleDayLeave}
 					ontouchstart={() => handleDayHover(day)}
-					class="relative aspect-square border-t border-b border-gray-300 p-1 transition-colors md:min-h-24 md:p-2
+					class="relative aspect-square border-t border-b border-gray-300 p-1 transition-colors md:min-h-32 md:p-3
 						{day.liturgicalColor === 'red'
 						? 'bg-red-50 hover:bg-red-100'
 						: day.liturgicalColor === 'purple'
@@ -413,30 +413,6 @@
 					</div>
 				</a>
 			{/each}
-		</div>
-	</div>
-
-	<!-- Legend - Hide on mobile, show on desktop -->
-	<div class="mt-4 hidden flex-wrap justify-center gap-4 text-sm text-gray-600 md:flex md:gap-6">
-		<div class="flex items-center gap-2">
-			<div class="h-4 w-4 rounded border border-gray-300 bg-purple-50"></div>
-			<span>Advent/Lent</span>
-		</div>
-		<div class="flex items-center gap-2">
-			<div class="h-4 w-4 rounded border border-gray-300 bg-white"></div>
-			<span>Christmas/Easter</span>
-		</div>
-		<div class="flex items-center gap-2">
-			<div class="h-4 w-4 rounded border border-gray-300 bg-green-50"></div>
-			<span>Ordinary Time</span>
-		</div>
-		<div class="flex items-center gap-2">
-			<div class="h-4 w-4 rounded border border-gray-300 bg-red-50"></div>
-			<span>Red Letter Day</span>
-		</div>
-		<div class="flex items-center gap-2">
-			<div class="h-4 w-4 rounded border-2 border-blue-500 bg-white"></div>
-			<span>Today</span>
 		</div>
 	</div>
 </div>
