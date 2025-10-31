@@ -250,21 +250,41 @@
 		const dayNum = day.date.getDate();
 		return `${base}/readings/${month}/${dayNum}`;
 	}
+
+	// Touch/hover state for mobile
+	let hoveredDay = $state<CalendarDay | null>(null);
+
+	function handleDayHover(day: CalendarDay) {
+		hoveredDay = day;
+	}
+
+	function handleDayLeave() {
+		// Keep the hovered day visible briefly
+		setTimeout(() => {
+			hoveredDay = null;
+		}, 100);
+	}
+
+	// Get display info for hovered or today
+	let displayDay = $derived(hoveredDay || calendarDays.find((d) => d.isToday) || null);
 </script>
 
-<div class="mx-auto max-w-5xl px-4 py-6">
+<div class="mx-auto max-w-5xl px-2 py-4 md:px-4 md:py-6">
 	<!-- Calendar Header -->
-	<div class="mb-6 flex items-center justify-between">
-		<h1 class="text-3xl font-bold text-gray-900">
+	<div class="mb-4 md:mb-6">
+		<!-- Month/Year - Centered on mobile -->
+		<h1 class="text-center text-2xl font-bold text-gray-900 md:text-3xl">
 			{monthNames[currentMonth]}
 			{currentYear}
 		</h1>
-		<div class="flex gap-2">
+
+		<!-- Navigation Buttons - Stack on mobile, row on desktop -->
+		<div class="mt-3 flex flex-col gap-2 md:mt-4 md:flex-row md:justify-center">
 			<button
 				onclick={previousMonth}
 				class="rounded-md border bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow hover:bg-gray-50"
 			>
-				Previous
+				← Previous Month
 			</button>
 			<button
 				onclick={goToToday}
@@ -282,18 +302,44 @@
 				onclick={nextMonth}
 				class="rounded-md border bg-white px-4 py-2 text-sm font-medium text-gray-700 shadow hover:bg-gray-50"
 			>
-				Next
+				Next Month →
 			</button>
 		</div>
+
+		<!-- Selected Date Display - Shows on hover/touch or defaults to today -->
+		{#if displayDay}
+			<div class="mt-4 rounded-lg border-2 border-blue-500 bg-blue-50 p-3 text-center">
+				<div class="text-sm font-semibold text-blue-900">
+					{displayDay.date.toLocaleDateString('en-US', {
+						weekday: 'long',
+						month: 'long',
+						day: 'numeric',
+						year: 'numeric'
+					})}
+				</div>
+				{#if displayDay.sundayName}
+					<div class="mt-1 text-sm font-medium text-blue-700">
+						{displayDay.sundayName}
+					</div>
+				{/if}
+				{#if displayDay.feastDay}
+					<div
+						class="mt-1 text-sm {displayDay.isRLD ? 'font-semibold text-red-700' : 'text-gray-700'}"
+					>
+						{displayDay.feastDay}
+					</div>
+				{/if}
+			</div>
+		{/if}
 	</div>
 
 	<!-- Calendar Grid -->
 	<div class="overflow-hidden rounded-lg border border-gray-200 bg-white shadow">
-		<!-- Day Headers -->
+		<!-- Day Headers - More compact on mobile -->
 		<div class="grid grid-cols-7 border-b bg-gray-50">
 			{#each dayNames as day}
 				<div
-					class="border-r px-2 py-3 text-center text-sm font-semibold text-gray-900 last:border-r-0"
+					class="border-r px-1 py-2 text-center text-xs font-semibold text-gray-900 last:border-r-0 md:px-2 md:py-3 md:text-sm"
 				>
 					{day}
 				</div>
@@ -305,7 +351,10 @@
 			{#each calendarDays as day}
 				<a
 					href={getDayLink(day)}
-					class="min-h-24 border-r border-b p-2 transition-colors last:border-r-0
+					onmouseenter={() => handleDayHover(day)}
+					onmouseleave={handleDayLeave}
+					ontouchstart={() => handleDayHover(day)}
+					class="relative aspect-square border-r border-b p-1 transition-colors last:border-r-0 md:min-h-24 md:p-2
 						{day.liturgicalColor === 'red'
 						? 'bg-red-50 hover:bg-red-100'
 						: day.liturgicalColor === 'purple'
@@ -313,9 +362,22 @@
 							: day.liturgicalColor === 'white'
 								? 'bg-white hover:bg-gray-50'
 								: 'bg-green-50 hover:bg-green-100'}
-						{day.isToday ? 'ring-2 ring-blue-500 ring-inset' : ''}"
+						{day.isToday ? 'ring-2 ring-blue-500 ring-inset' : ''}
+						{hoveredDay === day ? 'ring-2 ring-blue-400 ring-inset' : ''}"
 				>
-					<div class="flex h-full flex-col">
+					<!-- Mobile: Just day number and color -->
+					<div class="flex h-full flex-col md:hidden">
+						<span
+							class="text-xs font-medium text-gray-900
+							{day.isToday ? 'flex h-5 w-5 items-center justify-center rounded-full bg-blue-600 text-white' : ''}
+							{day.isRLD ? 'font-bold text-red-600' : ''}"
+						>
+							{day.dayOfMonth}
+						</span>
+					</div>
+
+					<!-- Desktop: Full details -->
+					<div class="hidden h-full flex-col md:flex">
 						<div class="mb-1 flex items-center justify-between">
 							<span
 								class="text-sm font-medium text-gray-900
@@ -343,11 +405,19 @@
 		</div>
 	</div>
 
-	<!-- Legend -->
-	<div class="mt-4 flex gap-6 text-sm text-gray-600">
+	<!-- Legend - Hide on mobile, show on desktop -->
+	<div class="mt-4 hidden flex-wrap justify-center gap-4 text-sm text-gray-600 md:flex md:gap-6">
+		<div class="flex items-center gap-2">
+			<div class="h-4 w-4 rounded border border-gray-300 bg-purple-50"></div>
+			<span>Advent/Lent</span>
+		</div>
 		<div class="flex items-center gap-2">
 			<div class="h-4 w-4 rounded border border-gray-300 bg-white"></div>
-			<span>Regular Day</span>
+			<span>Christmas/Easter</span>
+		</div>
+		<div class="flex items-center gap-2">
+			<div class="h-4 w-4 rounded border border-gray-300 bg-green-50"></div>
+			<span>Ordinary Time</span>
 		</div>
 		<div class="flex items-center gap-2">
 			<div class="h-4 w-4 rounded border border-gray-300 bg-red-50"></div>
