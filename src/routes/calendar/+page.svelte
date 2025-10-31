@@ -345,12 +345,12 @@
 	</div>
 
 	<!-- Calendar Grid -->
-	<div class="overflow-hidden rounded-lg border border-gray-300 bg-white shadow">
+	<div class="rounded-lg border-r border-l border-gray-300 bg-white shadow">
 		<!-- Day Headers - More compact on mobile -->
 		<div class="grid grid-cols-7 gap-0 border-b border-gray-300 bg-gray-50">
 			{#each dayNames as day}
 				<div
-					class="px-1 py-2 text-center text-xs font-semibold text-gray-900 md:px-2 md:py-3 md:text-sm"
+					class="overflow-hidden px-1 py-2 text-center text-xs font-semibold text-gray-900 md:px-2 md:py-3 md:text-sm"
 				>
 					{day}
 				</div>
@@ -365,7 +365,7 @@
 					onmouseenter={() => handleDayHover(day)}
 					onmouseleave={handleDayLeave}
 					ontouchstart={() => handleDayHover(day)}
-					class="relative aspect-square border-t border-b border-gray-300 p-1 transition-colors md:min-h-32 md:p-3
+					class="relative aspect-square overflow-hidden border-t border-b border-gray-300 p-1 transition-colors md:min-h-32 md:p-3
 						{day.liturgicalColor === 'red'
 						? 'bg-red-50 hover:bg-red-100'
 						: day.liturgicalColor === 'purple'
@@ -399,13 +399,15 @@
 							</span>
 						</div>
 						{#if day.sundayName}
-							<div class="mt-1 text-xs font-medium text-blue-700">
+							<div class="mt-1 text-xs leading-tight font-medium break-words text-blue-700">
 								{day.sundayName}
 							</div>
 						{/if}
 						{#if day.feastDay}
 							<div
-								class="mt-1 text-xs {day.isRLD ? 'font-semibold text-red-700' : 'text-gray-600'}"
+								class="mt-1 text-xs leading-tight break-words {day.isRLD
+									? 'font-semibold text-red-700'
+									: 'text-gray-600'}"
 							>
 								{day.feastDay}
 							</div>
