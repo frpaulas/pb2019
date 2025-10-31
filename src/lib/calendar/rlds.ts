@@ -8,7 +8,7 @@ import antiphonsData from './antiphons.json';
 export interface FeastDay {
 	type: 'RLD' | 'ANG' | 'ECU';
 	name: string;
-	color: 'red' | 'purple' | 'white' | 'green';
+	color?: 'red' | 'purple' | 'white' | 'green'; // Only RLDs have color; commemorations inherit from Sunday
 	subtitle?: string;
 	year?: string;
 	tags?: string;
