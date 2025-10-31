@@ -253,30 +253,65 @@
 
 	// Touch/hover state for mobile
 	let hoveredDay = $state<CalendarDay | null>(null);
+	let selectedDay = $state<CalendarDay | null>(null);
 
 	function handleDayHover(day: CalendarDay) {
 		hoveredDay = day;
 	}
 
 	function handleDayLeave() {
-		// Keep the hovered day visible briefly
-		setTimeout(() => {
-			hoveredDay = null;
-		}, 100);
+		hoveredDay = null;
 	}
 
-	// Get display info for hovered or today
-	let displayDay = $derived(hoveredDay || calendarDays.find((d) => d.isToday) || null);
+	// Get display info - prioritize hovered, then selected, then today
+	let displayDay = $derived(
+		hoveredDay || selectedDay || calendarDays.find((d) => d.isToday) || null
+	);
+
+	// Update selected day when display day changes (for persistence)
+	$effect(() => {
+		if (displayDay && !hoveredDay) {
+			selectedDay = displayDay;
+		}
+	});
 </script>
 
 <div class="mx-auto max-w-5xl px-2 py-4 md:px-4 md:py-6">
 	<!-- Calendar Header -->
 	<div class="mb-4 md:mb-6">
-		<!-- Month/Year - Centered on mobile -->
+		<!-- Month/Year - Centered -->
 		<h1 class="text-center text-2xl font-bold text-gray-900 md:text-3xl">
 			{monthNames[currentMonth]}
 			{currentYear}
 		</h1>
+
+		<!-- Selected Date Display - Fixed height to prevent layout shift -->
+		<div
+			class="mt-3 min-h-[80px] rounded-lg border-2 border-blue-500 bg-blue-50 p-3 text-center md:mt-4"
+		>
+			{#if displayDay}
+				<div class="text-sm font-semibold text-blue-900">
+					{displayDay.date.toLocaleDateString('en-US', {
+						weekday: 'long',
+						month: 'long',
+						day: 'numeric',
+						year: 'numeric'
+					})}
+				</div>
+				{#if displayDay.sundayName}
+					<div class="mt-1 text-sm font-medium text-blue-700">
+						{displayDay.sundayName}
+					</div>
+				{/if}
+				{#if displayDay.feastDay}
+					<div
+						class="mt-1 text-sm {displayDay.isRLD ? 'font-semibold text-red-700' : 'text-gray-700'}"
+					>
+						{displayDay.feastDay}
+					</div>
+				{/if}
+			{/if}
+		</div>
 
 		<!-- Navigation Buttons - Stack on mobile, row on desktop -->
 		<div class="mt-3 flex flex-col gap-2 md:mt-4 md:flex-row md:justify-center">
@@ -305,32 +340,6 @@
 				Next Month →
 			</button>
 		</div>
-
-		<!-- Selected Date Display - Shows on hover/touch or defaults to today -->
-		{#if displayDay}
-			<div class="mt-4 rounded-lg border-2 border-blue-500 bg-blue-50 p-3 text-center">
-				<div class="text-sm font-semibold text-blue-900">
-					{displayDay.date.toLocaleDateString('en-US', {
-						weekday: 'long',
-						month: 'long',
-						day: 'numeric',
-						year: 'numeric'
-					})}
-				</div>
-				{#if displayDay.sundayName}
-					<div class="mt-1 text-sm font-medium text-blue-700">
-						{displayDay.sundayName}
-					</div>
-				{/if}
-				{#if displayDay.feastDay}
-					<div
-						class="mt-1 text-sm {displayDay.isRLD ? 'font-semibold text-red-700' : 'text-gray-700'}"
-					>
-						{displayDay.feastDay}
-					</div>
-				{/if}
-			</div>
-		{/if}
 	</div>
 
 	<!-- Calendar Grid -->
@@ -354,7 +363,7 @@
 					onmouseenter={() => handleDayHover(day)}
 					onmouseleave={handleDayLeave}
 					ontouchstart={() => handleDayHover(day)}
-					class="relative aspect-square border-r border-b p-1 transition-colors last:border-r-0 md:min-h-24 md:p-2
+					class="relative aspect-square border-r border-b border-gray-200 p-1 transition-colors md:min-h-24 md:p-2
 						{day.liturgicalColor === 'red'
 						? 'bg-red-50 hover:bg-red-100'
 						: day.liturgicalColor === 'purple'
