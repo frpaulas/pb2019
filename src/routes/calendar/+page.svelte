@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { goto } from '$app/navigation';
 	import { base } from '$app/paths';
 	import { getFeastDay, isRedLetterDay } from '$lib/calendar/rlds';
 	import { getSundayLectionaryKey, calculateEaster } from '$lib/calendar/sunday_key_mapping';
@@ -278,8 +279,11 @@
 		hoveredDay = null;
 	}
 
+	let touchStartDay = $state<CalendarDay | null>(null);
+
 	function handleTouchStart(event: TouchEvent, day: CalendarDay) {
 		event.preventDefault();
+		touchStartDay = day;
 		handleDayHover(day);
 	}
 
@@ -309,6 +313,12 @@
 				}
 			}
 		}
+	}
+
+	function handleTouchEnd(event: TouchEvent, day: CalendarDay) {
+		event.preventDefault();
+		// Navigate to the day where finger lifted
+		goto(getDayLink(day));
 	}
 
 	// Get display info - prioritize hovered, then selected, then today
@@ -393,11 +403,7 @@
 	</div>
 
 	<!-- Calendar Grid -->
-	<div
-		class="rounded-lg border border-gray-300 bg-white shadow"
-		style="touch-action: none;"
-		ontouchmove={handleTouchMove}
-	>
+	<div class="rounded-lg border border-gray-300 bg-white shadow" style="touch-action: none;">
 		<!-- Day Headers - More compact on mobile -->
 		<div class="grid grid-cols-7 gap-0 border-b border-gray-300 bg-gray-50">
 			{#each dayNames as day}
@@ -419,6 +425,8 @@
 					onmouseenter={() => handleDayHover(day)}
 					onmouseleave={handleDayLeave}
 					ontouchstart={(e) => handleTouchStart(e, day)}
+					ontouchmove={handleTouchMove}
+					ontouchend={(e) => handleTouchEnd(e, day)}
 					class="relative block p-1 transition-colors md:h-24 md:p-1.5
 						{day.liturgicalColor === 'red'
 						? 'bg-red-50 hover:bg-red-100'
