@@ -285,6 +285,30 @@
 
 	function handleTouchMove(event: TouchEvent) {
 		event.preventDefault();
+		const touch = event.touches[0];
+		const element = document.elementFromPoint(touch.clientX, touch.clientY);
+		if (element) {
+			// Find the closest calendar day link
+			const dayLink = element.closest('a[href*="/readings/"]');
+			if (dayLink) {
+				// Extract the date from the href to find the matching day
+				const href = dayLink.getAttribute('href');
+				if (href) {
+					const match = href.match(/\/readings\/(\d+)\/(\d+)/);
+					if (match) {
+						const month = parseInt(match[1]);
+						const dayNum = parseInt(match[2]);
+						// Find the matching day in calendarDays
+						const day = calendarDays.find(
+							(d) => d.date.getMonth() + 1 === month && d.date.getDate() === dayNum
+						);
+						if (day) {
+							handleDayHover(day);
+						}
+					}
+				}
+			}
+		}
 	}
 
 	// Get display info - prioritize hovered, then selected, then today
