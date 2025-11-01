@@ -14,6 +14,7 @@ export interface Reading {
 
 export interface SundayLectionary {
 	name: string;
+	altName: string;
 	season: 'advent' | 'christmas' | 'epiphany' | 'lent' | 'easter' | 'pentecost';
 	color: 'red' | 'purple' | 'white' | 'green';
 	yearA: Reading;

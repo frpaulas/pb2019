@@ -37,7 +37,8 @@
 		isSunday: boolean;
 		isRLD: boolean;
 		feastDay: string | null;
-		sundayName: string | null;
+		sundayName: string | null; // Short name for calendar cells
+		sundayFullName: string | null; // Full name for header display
 		liturgicalColor: 'red' | 'purple' | 'white' | 'green';
 	}
 
@@ -66,6 +67,7 @@
 			const isSunday = date.getDay() === 0;
 			const sundayKey = isSunday ? getSundayLectionaryKey(year, month, dayNum) : null;
 			const sundayName = sundayKey ? formatSundayName(sundayKey) : null;
+			const sundayFullName = sundayKey ? formatSundayFullName(sundayKey) : null;
 
 			days.push({
 				date,
@@ -78,6 +80,7 @@
 				isRLD: isRedLetterDay(month, dayNum),
 				feastDay: feastDay?.name || null,
 				sundayName,
+				sundayFullName,
 				liturgicalColor: getLiturgicalColor(year, month, dayNum, sundayKey)
 			});
 		}
@@ -90,6 +93,7 @@
 			const isSunday = date.getDay() === 0;
 			const sundayKey = isSunday ? getSundayLectionaryKey(currentYear, month, day) : null;
 			const sundayName = sundayKey ? formatSundayName(sundayKey) : null;
+			const sundayFullName = sundayKey ? formatSundayFullName(sundayKey) : null;
 
 			days.push({
 				date,
@@ -102,6 +106,7 @@
 				isRLD: isRedLetterDay(month, day),
 				feastDay: feastDay?.name || null,
 				sundayName,
+				sundayFullName,
 				liturgicalColor: getLiturgicalColor(currentYear, month, day, sundayKey)
 			});
 		}
@@ -119,6 +124,7 @@
 				const isSunday = date.getDay() === 0;
 				const sundayKey = isSunday ? getSundayLectionaryKey(year, month, day) : null;
 				const sundayName = sundayKey ? formatSundayName(sundayKey) : null;
+				const sundayFullName = sundayKey ? formatSundayFullName(sundayKey) : null;
 
 				days.push({
 					date,
@@ -131,6 +137,7 @@
 					isRLD: isRedLetterDay(month, day),
 					feastDay: feastDay?.name || null,
 					sundayName,
+					sundayFullName,
 					liturgicalColor: getLiturgicalColor(year, month, day, sundayKey)
 				});
 			}
@@ -149,15 +156,23 @@
 	}
 
 	function formatSundayName(sundayKey: string): string {
-		// Format Sunday names for display
-		if (sundayKey.startsWith('proper-')) {
-			const properNum = sundayKey.split('-')[1];
-			return `Proper ${properNum}`;
+		// Get short name from Sunday lectionary
+		const sundayData = getSundayReadings(sundayKey);
+		if (sundayData?.altName) {
+			return sundayData.altName;
 		}
 
+		// Fallback: capitalize and format the key
+		return sundayKey
+			.split('-')
+			.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+			.join(' ');
+	}
+
+	function formatSundayFullName(sundayKey: string): string {
 		// Get full name from Sunday lectionary
 		const sundayData = getSundayReadings(sundayKey);
-		if (sundayData) {
+		if (sundayData?.name) {
 			return sundayData.name;
 		}
 
@@ -263,6 +278,11 @@
 		hoveredDay = null;
 	}
 
+	function handleTouchStart(event: TouchEvent, day: CalendarDay) {
+		event.preventDefault();
+		handleDayHover(day);
+	}
+
 	// Get display info - prioritize hovered, then selected, then today
 	let displayDay = $derived(
 		hoveredDay || selectedDay || calendarDays.find((d) => d.isToday) || null
@@ -298,9 +318,9 @@
 						year: 'numeric'
 					})}
 				</div>
-				{#if displayDay.sundayName}
+				{#if displayDay.sundayFullName}
 					<div class="mt-0.5 text-xs font-medium text-blue-700">
-						{displayDay.sundayName}
+						{displayDay.sundayFullName}
 					</div>
 				{/if}
 				{#if displayDay.feastDay}
@@ -345,7 +365,7 @@
 	</div>
 
 	<!-- Calendar Grid -->
-	<div class="rounded-lg border-r border-l border-gray-300 bg-white shadow">
+	<div class="rounded-lg border border-gray-300 bg-white shadow">
 		<!-- Day Headers - More compact on mobile -->
 		<div class="grid grid-cols-7 gap-0 border-b border-gray-300 bg-gray-50">
 			{#each dayNames as day}
@@ -359,13 +379,15 @@
 
 		<!-- Calendar Days -->
 		<div class="grid grid-cols-7 gap-0">
-			{#each calendarDays as day}
+			{#each calendarDays as day, index}
+				{@const isFirstInRow = index % 7 === 0}
+				{@const isLastInRow = index % 7 === 6}
 				<a
 					href={getDayLink(day)}
 					onmouseenter={() => handleDayHover(day)}
 					onmouseleave={handleDayLeave}
-					ontouchstart={() => handleDayHover(day)}
-					class="relative aspect-square overflow-hidden border-t border-b border-gray-300 p-1 transition-colors md:min-h-32 md:p-3
+					ontouchstart={(e) => handleTouchStart(e, day)}
+					class="relative block p-1 transition-colors md:h-24 md:p-1.5
 						{day.liturgicalColor === 'red'
 						? 'bg-red-50 hover:bg-red-100'
 						: day.liturgicalColor === 'purple'
@@ -373,8 +395,13 @@
 							: day.liturgicalColor === 'white'
 								? 'bg-white hover:bg-gray-50'
 								: 'bg-green-50 hover:bg-green-100'}
-						{day.isToday ? 'z-10 ring-2 ring-blue-500 ring-inset' : ''}
-						{hoveredDay === day ? 'z-10 ring-2 ring-blue-400 ring-inset' : ''}"
+						{day.isToday ? 'z-10' : ''}
+						{hoveredDay === day ? 'z-10' : ''}"
+					style="border: 1px solid rgb(209 213 219); {day.isToday
+						? 'box-shadow: inset 0 0 0 2px rgb(59 130 246);'
+						: hoveredDay === day
+							? 'box-shadow: inset 0 0 0 2px rgb(96 165 250);'
+							: ''}"
 				>
 					<!-- Mobile: Just day number and color -->
 					<div class="flex h-full flex-col md:hidden">
@@ -388,7 +415,7 @@
 					</div>
 
 					<!-- Desktop: Full details -->
-					<div class="hidden h-full flex-col md:flex">
+					<div class="hidden h-full flex-col overflow-hidden md:flex">
 						<div class="mb-1 flex items-center justify-between">
 							<span
 								class="text-sm font-medium text-gray-900
@@ -399,15 +426,19 @@
 							</span>
 						</div>
 						{#if day.sundayName}
-							<div class="mt-1 text-xs leading-tight font-medium break-words text-blue-700">
+							<div
+								class="mt-0 overflow-hidden text-xs leading-tight font-medium text-blue-700"
+								style="word-break: break-word; overflow-wrap: break-word;"
+							>
 								{day.sundayName}
 							</div>
 						{/if}
 						{#if day.feastDay}
 							<div
-								class="mt-1 text-xs leading-tight break-words {day.isRLD
+								class="mt-1 overflow-hidden text-xs leading-tight {day.isRLD
 									? 'font-semibold text-red-700'
 									: 'text-gray-600'}"
+								style="word-break: break-word; overflow-wrap: break-word;"
 							>
 								{day.feastDay}
 							</div>
