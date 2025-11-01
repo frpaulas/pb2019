@@ -283,6 +283,10 @@
 		handleDayHover(day);
 	}
 
+	function handleTouchMove(event: TouchEvent) {
+		event.preventDefault();
+	}
+
 	// Get display info - prioritize hovered, then selected, then today
 	let displayDay = $derived(
 		hoveredDay || selectedDay || calendarDays.find((d) => d.isToday) || null
@@ -296,7 +300,7 @@
 	});
 </script>
 
-<div class="mx-auto max-w-5xl px-2 py-4 md:px-4 md:py-6">
+<div class="mx-auto max-w-5xl px-2 py-4 md:px-4 md:py-6" style="overscroll-behavior: contain;">
 	<!-- Calendar Header -->
 	<div class="mb-4 md:mb-6">
 		<!-- Month/Year - Centered -->
@@ -365,7 +369,11 @@
 	</div>
 
 	<!-- Calendar Grid -->
-	<div class="rounded-lg border border-gray-300 bg-white shadow">
+	<div
+		class="rounded-lg border border-gray-300 bg-white shadow"
+		style="touch-action: none;"
+		ontouchmove={handleTouchMove}
+	>
 		<!-- Day Headers - More compact on mobile -->
 		<div class="grid grid-cols-7 gap-0 border-b border-gray-300 bg-gray-50">
 			{#each dayNames as day}
