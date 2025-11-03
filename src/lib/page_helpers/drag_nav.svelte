@@ -101,6 +101,12 @@
 		// Check if touch started on the header
 		const header = target.closest('header');
 		if (header) {
+			// Don't prevent default on links - let them work normally
+			const link = (event.target as HTMLElement).closest('a');
+			if (link) {
+				return;
+			}
+
 			event.preventDefault();
 			event.stopPropagation();
 			touchStartY = touch.clientY;

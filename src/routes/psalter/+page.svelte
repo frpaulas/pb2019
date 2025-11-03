@@ -6,6 +6,7 @@
 	let hoveredPsalm = $state<number | null>(null);
 	let isTouchDevice = $state(false);
 	let hasInteracted = $state(false);
+	let isFingerOverGrid = $state(true);
 
 	// Simple 10x15 grid (150 psalms)
 	const COLS = 10;
@@ -21,6 +22,7 @@
 		isTouchDevice = true;
 		hasInteracted = true;
 		hoveredPsalm = psalmNumber;
+		isFingerOverGrid = true;
 	}
 
 	function handleTouchMove(event: TouchEvent) {
@@ -37,14 +39,21 @@
 				const psalmAttr = button.getAttribute('data-psalm');
 				if (psalmAttr) {
 					hoveredPsalm = parseInt(psalmAttr);
+					isFingerOverGrid = true;
 				}
+			} else {
+				// Finger moved outside the grid
+				isFingerOverGrid = false;
 			}
+		} else {
+			// Finger moved outside the grid
+			isFingerOverGrid = false;
 		}
 	}
 
 	function handleTouchEnd() {
-		// On touch devices, navigate when finger lifts off
-		if (isTouchDevice && hoveredPsalm) {
+		// On touch devices, navigate when finger lifts off - only if still over grid
+		if (isTouchDevice && hoveredPsalm && isFingerOverGrid) {
 			const pageNumber = getPsalmPage(hoveredPsalm);
 			if (pageNumber) {
 				goto(`${base}/pg/${pageNumber}`);
@@ -52,6 +61,8 @@
 				console.warn(`No page found for Psalm ${hoveredPsalm}`);
 			}
 		}
+		// Reset state
+		isFingerOverGrid = true;
 	}
 
 	function handleCellClick(psalmNumber: number) {
@@ -68,6 +79,9 @@
 </script>
 
 <div class="flex h-full w-full flex-col items-center justify-center gap-8 bg-white p-4">
+	<!-- Header -->
+	<h1 class="text-3xl font-bold text-gray-900">Psalter</h1>
+
 	<!-- Display Area -->
 	<div class="text-center">
 		{#if hoveredPsalm}
@@ -90,7 +104,7 @@
 				data-psalm={psalmNumber}
 				class="aspect-square border border-gray-300 bg-white transition-colors hover:bg-blue-50 active:bg-blue-100 {hoveredPsalm ===
 				psalmNumber
-					? 'border-blue-500 bg-blue-100'
+					? 'border-blue-600 bg-blue-400 font-bold'
 					: ''}"
 				onmouseenter={() => handleCellHover(psalmNumber)}
 				onmouseleave={() => !isTouchDevice && (hoveredPsalm = null)}

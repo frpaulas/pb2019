@@ -270,6 +270,7 @@
 	// Touch/hover state for mobile
 	let hoveredDay = $state<CalendarDay | null>(null);
 	let selectedDay = $state<CalendarDay | null>(null);
+	let isFingerOverGrid = $state(true);
 
 	function handleDayHover(day: CalendarDay) {
 		hoveredDay = day;
@@ -285,6 +286,7 @@
 		event.preventDefault();
 		touchStartDay = day;
 		handleDayHover(day);
+		isFingerOverGrid = true;
 	}
 
 	function handleTouchMove(event: TouchEvent) {
@@ -308,17 +310,28 @@
 						);
 						if (day) {
 							handleDayHover(day);
+							isFingerOverGrid = true;
 						}
 					}
 				}
+			} else {
+				// Finger moved outside the grid
+				isFingerOverGrid = false;
 			}
+		} else {
+			// Finger moved outside the grid
+			isFingerOverGrid = false;
 		}
 	}
 
 	function handleTouchEnd(event: TouchEvent, day: CalendarDay) {
 		event.preventDefault();
-		// Navigate to the day where finger lifted
-		goto(getDayLink(day));
+		// Navigate to the day where finger lifted - only if still over grid
+		if (isFingerOverGrid) {
+			goto(getDayLink(day));
+		}
+		// Reset state
+		isFingerOverGrid = true;
 	}
 
 	// Get display info - prioritize hovered, then selected, then today
@@ -438,9 +451,9 @@
 						{day.isToday ? 'z-10' : ''}
 						{hoveredDay === day ? 'z-10' : ''}"
 					style="border: 1px solid rgb(209 213 219); {day.isToday
-						? 'box-shadow: inset 0 0 0 2px rgb(59 130 246);'
+						? 'box-shadow: inset 0 0 0 3px rgb(59 130 246); background-color: rgba(59, 130, 246, 0.2);'
 						: hoveredDay === day
-							? 'box-shadow: inset 0 0 0 2px rgb(96 165 250);'
+							? 'box-shadow: inset 0 0 0 3px rgb(37, 99, 235); background-color: rgba(37, 99, 235, 0.3);'
 							: ''}"
 				>
 					<!-- Mobile: Just day number and color -->
