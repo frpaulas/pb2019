@@ -70,9 +70,11 @@ function addWeeks(date: Date, weeks: number): Date {
  * Check if two dates are the same day
  */
 function isSameDay(date1: Date, date2: Date): boolean {
-	return date1.getFullYear() === date2.getFullYear() &&
+	return (
+		date1.getFullYear() === date2.getFullYear() &&
 		date1.getMonth() === date2.getMonth() &&
-		date1.getDate() === date2.getDate();
+		date1.getDate() === date2.getDate()
+	);
 }
 
 /**
@@ -263,20 +265,57 @@ export function getSundayLectionaryKey(year: number, month: number, day: number)
 
 	// Check if we're in Proper season (after Trinity Sunday)
 	if (date > dates.trinitySunday) {
-		// Calculate which Proper this is
-		const weeksSinceTrinity = Math.floor((date.getTime() - dates.trinitySunday.getTime()) / (7 * 24 * 60 * 60 * 1000));
-		const properNumber = weeksSinceTrinity;
+		// Propers are mapped to specific date ranges
+		// Each Proper corresponds to a specific week in the calendar year
+		const properDateRanges = [
+			{ proper: 1, start: [5, 8], end: [5, 14] }, // May 8-14
+			{ proper: 2, start: [5, 15], end: [5, 21] }, // May 15-21
+			{ proper: 3, start: [5, 22], end: [5, 28] }, // May 22-28
+			{ proper: 4, start: [5, 29], end: [6, 4] }, // May 29 - June 4
+			{ proper: 5, start: [6, 5], end: [6, 11] }, // June 5-11
+			{ proper: 6, start: [6, 12], end: [6, 18] }, // June 12-18
+			{ proper: 7, start: [6, 19], end: [6, 25] }, // June 19-25
+			{ proper: 8, start: [6, 26], end: [7, 2] }, // June 26 - July 2
+			{ proper: 9, start: [7, 3], end: [7, 9] }, // July 3-9
+			{ proper: 10, start: [7, 10], end: [7, 16] }, // July 10-16
+			{ proper: 11, start: [7, 17], end: [7, 23] }, // July 17-23
+			{ proper: 12, start: [7, 24], end: [7, 30] }, // July 24-30
+			{ proper: 13, start: [7, 31], end: [8, 6] }, // July 31 - Aug 6
+			{ proper: 14, start: [8, 7], end: [8, 13] }, // Aug 7-13
+			{ proper: 15, start: [8, 14], end: [8, 20] }, // Aug 14-20
+			{ proper: 16, start: [8, 21], end: [8, 27] }, // Aug 21-27
+			{ proper: 17, start: [8, 28], end: [9, 3] }, // Aug 28 - Sept 3
+			{ proper: 18, start: [9, 4], end: [9, 10] }, // Sept 4-10
+			{ proper: 19, start: [9, 11], end: [9, 17] }, // Sept 11-17
+			{ proper: 20, start: [9, 18], end: [9, 24] }, // Sept 18-24
+			{ proper: 21, start: [9, 25], end: [10, 1] }, // Sept 25 - Oct 1
+			{ proper: 22, start: [10, 2], end: [10, 8] }, // Oct 2-8
+			{ proper: 23, start: [10, 9], end: [10, 15] }, // Oct 9-15
+			{ proper: 24, start: [10, 16], end: [10, 22] }, // Oct 16-22
+			{ proper: 25, start: [10, 23], end: [10, 29] }, // Oct 23-29
+			{ proper: 26, start: [10, 30], end: [11, 5] }, // Oct 30 - Nov 5
+			{ proper: 27, start: [11, 6], end: [11, 12] }, // Nov 6-12
+			{ proper: 28, start: [11, 13], end: [11, 19] }, // Nov 13-19
+			{ proper: 29, start: [11, 20], end: [11, 26] } // Nov 20-26
+		];
 
-		// Propers go from 1 to 29
-		if (properNumber >= 1 && properNumber <= 29) {
-			return `proper-${properNumber}`;
+		// Find which Proper date range this Sunday falls into
+		for (const range of properDateRanges) {
+			const startDate = new Date(year, range.start[0] - 1, range.start[1]);
+			const endDate = new Date(year, range.end[0] - 1, range.end[1]);
+
+			if (date >= startDate && date <= endDate) {
+				return `proper-${range.proper}`;
+			}
 		}
 	}
 
 	// Check Christmas season (between Christmas and Epiphany)
 	if (date > dates.christmasDay && date < dates.epiphany) {
 		// Sundays after Christmas
-		const weeksSinceChristmas = Math.floor((date.getTime() - dates.christmasDay.getTime()) / (7 * 24 * 60 * 60 * 1000));
+		const weeksSinceChristmas = Math.floor(
+			(date.getTime() - dates.christmasDay.getTime()) / (7 * 24 * 60 * 60 * 1000)
+		);
 		if (weeksSinceChristmas === 1) return 'christmas-1';
 		if (weeksSinceChristmas === 2) return 'christmas-2';
 	}
@@ -287,7 +326,11 @@ export function getSundayLectionaryKey(year: number, month: number, day: number)
 /**
  * Get information about the liturgical season for a given date
  */
-export function getLiturgicalSeason(year: number, month: number, day: number): {
+export function getLiturgicalSeason(
+	year: number,
+	month: number,
+	day: number
+): {
 	season: 'advent' | 'christmas' | 'epiphany' | 'lent' | 'easter' | 'pentecost';
 	week?: number;
 } | null {

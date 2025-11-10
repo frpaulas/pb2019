@@ -94,7 +94,7 @@
 	const lectionaryKey = getDailyLectionaryKey();
 	const dailyReadings = lectionaryKey ? db[lectionaryKey] : null;
 
-	// Find the previous Sunday for Eucharist readings
+	// Find the previous Sunday for Eucharist readings (or current Sunday if today is Sunday)
 	function getPreviousSundayInfo(): {
 		date: Date;
 		month: number;
@@ -105,8 +105,8 @@
 		const currentDate = new Date(year, month - 1, day);
 		const currentDayOfWeek = currentDate.getDay(); // 0 = Sunday
 
-		// Go back to find the most recent Sunday
-		let daysBack = currentDayOfWeek === 0 ? 7 : currentDayOfWeek; // If today is Sunday, go back to last Sunday
+		// Go back to find the most recent Sunday (if today is Sunday, use today)
+		let daysBack = currentDayOfWeek === 0 ? 0 : currentDayOfWeek; // If today is Sunday, use today
 		const previousSunday = new Date(currentDate);
 		previousSunday.setDate(currentDate.getDate() - daysBack);
 
