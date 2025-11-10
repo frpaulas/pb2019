@@ -7,7 +7,7 @@
 </script>
 
 {#if n !== ''}
-	<p class="text-center text-4xl">
+	<p id="psalm-{n}" class="text-center text-4xl">
 		{n}
 	</p>
 {/if}

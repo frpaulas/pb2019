@@ -339,6 +339,43 @@
 	// Watch for page parameter changes from navigation
 	$effect(() => {
 		const newPage = $page.params.page_number;
+		const hash = $page.url.hash; // Get the URL hash (e.g., #psalm-77)
+
+		// Handle hash anchor even if we're already on the page
+		if (hash && newPage === currentPageNumber && container) {
+			tick().then(() => {
+				// Function to try scrolling to anchor with retries
+				const tryScrollToAnchor = (attempt = 0, maxAttempts = 10) => {
+					const anchorElement = container?.querySelector(hash);
+					if (anchorElement) {
+						// Use getBoundingClientRect to get accurate position relative to viewport
+						const anchorRect = anchorElement.getBoundingClientRect();
+						const containerRect = container.getBoundingClientRect();
+
+						// Calculate the scroll position: current scroll + distance from container top to anchor
+						const targetScroll = container.scrollTop + anchorRect.top - containerRect.top - 50;
+
+						container.scrollTop = targetScroll;
+
+						// Double-set to override any interference
+						setTimeout(() => {
+							container.scrollTop = targetScroll;
+						}, 100);
+
+						// Triple-set for extra persistence
+						setTimeout(() => {
+							container.scrollTop = targetScroll;
+						}, 300);
+					} else if (attempt < maxAttempts) {
+						// Retry after delay
+						setTimeout(() => tryScrollToAnchor(attempt + 1, maxAttempts), 100);
+					}
+				};
+
+				setTimeout(() => tryScrollToAnchor(), 50);
+			});
+		}
+
 		if (newPage && newPage !== currentPageNumber) {
 			const currentPages = $state.snapshot(loadedPages);
 
@@ -365,15 +402,41 @@
 				const pagesToLoad = hasPrev ? [hasPrev, newPage] : [newPage];
 				loadedPages = pagesToLoad;
 
-				// Scroll to show the target page at top
+				// Scroll to show the target page at top, or to hash anchor if present
 				if (container) {
 					if (hasPrev) {
 						// First, reset scroll to 0 to establish consistent baseline
 						container.scrollTop = 0;
 
-						// Wait for DOM to render, then scroll to target page
+						// Wait for DOM to render, then scroll to target page or anchor
 						tick().then(() => {
-							setTimeout(() => {
+							// Function to try scrolling to anchor with retries
+							const tryScrollToAnchor = (attempt = 0, maxAttempts = 10) => {
+								if (hash) {
+									const anchorElement = container?.querySelector(hash);
+									if (anchorElement) {
+										// Scroll to the anchor element
+										const targetScroll = anchorElement.offsetTop - 50;
+										container.scrollTop = targetScroll;
+
+										// Double-set to override any interference
+										setTimeout(() => {
+											container.scrollTop = targetScroll;
+										}, 100);
+
+										// Triple-set for extra persistence
+										setTimeout(() => {
+											container.scrollTop = targetScroll;
+										}, 300);
+										return;
+									} else if (attempt < maxAttempts) {
+										// Retry after delay
+										setTimeout(() => tryScrollToAnchor(attempt + 1, maxAttempts), 100);
+										return;
+									}
+								}
+
+								// No hash or anchor not found, scroll to page top
 								const targetPageElement = container?.querySelector(`[data-page="${newPage}"]`);
 								if (targetPageElement) {
 									// Subtract offset to show page higher on screen
@@ -385,7 +448,9 @@
 										container.scrollTop = targetScroll;
 									}, 100);
 								}
-							}, 50);
+							};
+
+							setTimeout(() => tryScrollToAnchor(), 50);
 						});
 					} else {
 						// No previous page, just scroll to top

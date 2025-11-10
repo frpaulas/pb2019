@@ -56,7 +56,7 @@
 		if (isTouchDevice && hoveredPsalm && isFingerOverGrid) {
 			const pageNumber = getPsalmPage(hoveredPsalm);
 			if (pageNumber) {
-				goto(`${base}/pg/${pageNumber}`);
+				goto(`${base}/pg/${pageNumber}#psalm-${hoveredPsalm}`);
 			} else {
 				console.warn(`No page found for Psalm ${hoveredPsalm}`);
 			}
@@ -70,7 +70,7 @@
 		if (!isTouchDevice) {
 			const pageNumber = getPsalmPage(psalmNumber);
 			if (pageNumber) {
-				goto(`${base}/pg/${pageNumber}`);
+				goto(`${base}/pg/${pageNumber}#psalm-${psalmNumber}`);
 			} else {
 				console.warn(`No page found for Psalm ${psalmNumber}`);
 			}
