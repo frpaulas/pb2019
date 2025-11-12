@@ -1,5 +1,5 @@
 <script>
-	let { text, amen = false } = $props();
+	let { text, amen = false, bold = false } = $props();
 </script>
 
 {#snippet this_block()}

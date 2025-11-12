@@ -1,5 +1,9 @@
 export const PAGE_ORDER = [
-	'iii', 'iv', 'v', 'vi', 'vii',
+	'iii',
+	'iv',
+	'v',
+	'vi',
+	'vii',
 	'1',
 	'2',
 	'3',
@@ -60,6 +64,18 @@ export const PAGE_ORDER = [
 	'58',
 	'59',
 	'60',
+	'61',
+	'62',
+	'63',
+	'64',
+	'65',
+	'66',
+	'67',
+	'68',
+	'69',
+	'70',
+	'71',
+	'72',
 	'270',
 	'271',
 	'272',
@@ -257,7 +273,7 @@ export const PAGE_ORDER = [
 	'464',
 	'465',
 	'466',
-	'467',
+	'467'
 ] as const;
 
 export function getNextPage(currentPage: string): string | null {
