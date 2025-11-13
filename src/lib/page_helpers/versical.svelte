@@ -1,6 +1,6 @@
 <script lang="ts">
-	let { text, officiant = false, people = true } = $props();
-	let who = officiant ? 'Officiant' : people ? 'People' : '';
+	let { text, officiant = false, celebrant = false, people = true } = $props();
+	let who = officiant ? 'Officiant' : people ? 'People' : celebrant ? 'Celebrant' : '';
 	let textClass = officiant ? '' : 'font-bold';
 </script>
 
