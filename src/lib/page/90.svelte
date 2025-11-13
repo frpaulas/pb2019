@@ -2,4 +2,4 @@
 	import IntentionallyBlank from '$lib/page_helpers/intentionally_blank.svelte';
 </script>
 
-<IntentionallyBlank pg="10" />
+<IntentionallyBlank pg="90" />

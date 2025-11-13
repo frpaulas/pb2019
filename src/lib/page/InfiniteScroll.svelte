@@ -2,7 +2,7 @@
 	import { onMount, tick } from 'svelte';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
-	import IntentionallyBlank from '$lib/page/intentionally_blank.svelte';
+	import IntentionallyBlank from '$lib/page_helpers/intentionally_blank.svelte';
 	import { currentVisiblePage } from '$lib/stores/currentPage.js';
 	import { getNextPage, getPrevPage, sortPages } from '$lib/page_helpers/page_order';
 	let currentPageNumber = $page.params.page_number;
