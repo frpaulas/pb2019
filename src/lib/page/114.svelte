@@ -23,7 +23,7 @@ ours only, but also for the sins of the whole world."
 <SectionTitle text="the peace" />
 
 <Versical celebrant text="The Peace of the Lord be always with you." />
-<Versical celebrant text="And with your spirit." />
+<Versical people text="And with your spirit." />
 <Rubric text="Then the Ministers and People may greet one another in the Name of the Lord." />
 <SectionTitle text="the offertory" />
 <Rubric

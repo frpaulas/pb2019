@@ -28,8 +28,8 @@ unity and godly love."
 <PopResponse />
 <TextBlock
 	text="We pray that you will lead the nations of the world in the way
-of righteousness; and so guide and direct their leaders, especial-
-ly _N_, our _President/Sovereign/Prime Minister_, that your people
+of righteousness; and so guide and direct their leaders, especially
+_N_, our _President/Sovereign/Prime Minister_, that your people
 may enjoy the blessings of freedom and peace. Grant that our
 leaders may impartially administer justice, uphold integrity and
 truth, restrain wickedness and vice, and protect true religion
@@ -39,7 +39,7 @@ and virtue."
 <PopResponse />
 <TextBlock
 	text="Give grace, heavenly Father, to all Bishops, Priests, and Deacons,
-_and especially to your servant(s) N, our Archbishop/Bishop/Priest/
+_and especially to your servant(s) _N_, our Archbishop/Bishop/Priest/
 Deacon, etc._, that by their life and teaching, they may proclaim
 your true and life-giving Word, and rightly and duly administer"
 />

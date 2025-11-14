@@ -5,11 +5,11 @@
 </script>
 
 <Rubric text="Celebrant and People" />
-<Line indent bold text="We believe in one God," />
+<Line bold text="We believe in one God," />
 <Line indent bold text="the Father, the Almighty," />
 <Line indent bold text="maker of heaven and earth," />
 <Line indent bold text="of all that is, visible and invisible." />
-<Line indent bold text="We believe in one Lord, Jesus Christ," />
+<Line bold text="We believe in one Lord, Jesus Christ," />
 <Line indent bold text="the only-begotten Son of God," />
 <Line indent bold text="eternally begotten of the Father," />
 <Line indent bold text="God from God, Light from Light," />
@@ -27,7 +27,7 @@
 <Line indent bold text="and is seated at the right hand of the Father." />
 <Line indent bold text="He will come again in glory to judge the living and the dead," />
 <Line indent bold text="and his kingdom will have no end." />
-<Line indent bold text="We believe in the Holy Spirit, the Lord, the giver of life," />
+<Line bold text="We believe in the Holy Spirit, the Lord, the giver of life," />
 <Line indent bold text="who proceeds from the Father [and the Son],†" />
 <Line indent bold text="who with the Father and the Son is worshiped and glorified," />
 <Line indent bold text="who has spoken through the prophets." />
