@@ -1,7 +1,7 @@
 <script lang="ts">
 	let { text, officiant = false, celebrant = false, people = true } = $props();
 	let who = officiant ? 'Officiant' : people ? 'People' : celebrant ? 'Celebrant' : '';
-	let textClass = officiant ? '' : 'font-bold';
+	let textClass = people ? 'font-bold' : '';
 </script>
 
 <div class="mt-3 flex break-after-all gap-4 leading-normal">
