@@ -4,5 +4,4 @@
 </script>
 
 <EucharistPg2 />
-
-<PageNumber page={106} text="the holy eucharist" />
+<PageNumber page={124} text="the holy eucharist" />

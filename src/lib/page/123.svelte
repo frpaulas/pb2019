@@ -3,6 +3,5 @@
 	import PageNumber from '$lib/page_helpers/page_number.svelte';
 </script>
 
-<EucharistTitlePage anglican_standard />
-
-<PageNumber page={105} text="holy eucharist | anglican standard text" />
+<EucharistTitlePage renewed_ancient />
+<PageNumber page={123} text="holy eucharist | Renewed ancient text" />

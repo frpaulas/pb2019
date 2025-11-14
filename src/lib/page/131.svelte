@@ -8,5 +8,4 @@
 <ComfortableWords from={3} />
 <ThePeace />
 <Offertory />
-
-<PageNumber page={114} text="the holy eucharist" />
+<PageNumber page={129} text="holy eucharist | Renewed ancient text" />

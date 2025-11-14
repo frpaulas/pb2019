@@ -4,5 +4,4 @@
 </script>
 
 <EucharistPg3 />
-
-<PageNumber page={107} text="holy eucharist | anglican standard text" />
+<PageNumber page={125} text="holy eucharist | Renewed ancient text" />
