@@ -1,11 +1,14 @@
 <script lang="ts">
-	let { text, ref = '', indent = false, bold = false, amen = false } = $props();
+	let { text, ref = '', indent = false, bold = false, amen = false, italic = false } = $props();
 	let this_class = $state('');
 	if (indent) {
 		this_class += ' pl-4';
 	}
 	if (bold) {
 		this_class += ' font-bold';
+	}
+	if (italic) {
+		this_class += ' italic';
 	}
 </script>
 

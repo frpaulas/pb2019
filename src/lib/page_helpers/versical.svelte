@@ -5,7 +5,8 @@
 		celebrant = false,
 		reader = false,
 		people = false,
-		deacon = false
+		deacon = false,
+		bold = false
 	} = $props();
 	let who = officiant
 		? 'Officiant'
@@ -18,7 +19,7 @@
 					: deacon
 						? 'Deacon'
 						: '';
-	let textClass = people ? 'font-bold' : '';
+	let textClass = people || bold ? 'font-bold' : '';
 </script>
 
 <div class="flex break-after-all gap-4 leading-normal">

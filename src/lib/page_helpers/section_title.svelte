@@ -1,5 +1,6 @@
 <script>
 	import 'tailwindcss';
+	import { parseMarkdown } from '$lib/utils/parseMarkdown.js';
 
 	let {
 		text,
@@ -17,14 +18,19 @@
 		(latin_size ? ' text-xs' : '') +
 		(hebrew ? ' uppercase' : '');
 	let fancy_class = 'italic font-cormorant lowercase ';
-	if (fancyOf) {
-		text = text.replace('of', `<span class="${fancy_class}">of</span>`);
-	}
-	if (fancyAnd) {
-		text = text.replace('and', `<span class="${fancy_class}">and</span>`);
-	}
+
+	let parsedText = $derived.by(() => {
+		let result = parseMarkdown(text);
+		if (fancyOf) {
+			result = result.replace('of', `<span class="${fancy_class}">of</span>`);
+		}
+		if (fancyAnd) {
+			result = result.replace('and', `<span class="${fancy_class}">and</span>`);
+		}
+		return result;
+	});
 </script>
 
 <p class={this_class}>
-	{@html text}
+	{@html parsedText}
 </p>

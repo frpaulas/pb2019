@@ -9,14 +9,14 @@
 
 <Rubric text="The Deacon and People kneel as able and pray" />
 <Silence />
-<Line indent text="Most merciful God," />
+<Line text="Most merciful God," />
 <Line indent text="we confess that we have sinned against you" />
 <Line indent text="in thought, word, and deed," />
 <Line indent text="by what we have done, and by what we have left undone." />
-<Line indent text="We have not loved you with our whole heart;" />
+<Line text="We have not loved you with our whole heart;" />
 <Line indent text="we have not loved our neighbors as ourselves." />
-<Line indent text="We are truly sorry and we humbly repent." />
-<Line indent text="For the sake of your Son Jesus Christ," />
+<Line text="We are truly sorry and we humbly repent." />
+<Line text="For the sake of your Son Jesus Christ," />
 <Line indent text="have mercy on us and forgive us;" />
 <Line indent text="that we may delight in your will, and walk in your ways," />
 <Line indent text="to the glory of your Name. Amen." />

@@ -1,43 +1,20 @@
 <script>
-	let { text, amen = false, bold = false, optional = false } = $props();
+	import { parseMarkdown } from '$lib/utils/parseMarkdown.js';
 
-	// Parse markdown for bold (**text** or __text__) and italic (*text* or _text_)
-	function parseMarkdown(input) {
-		if (!input) return '';
-
-		let result = input;
-
-		// Handle bold first: **text** or __text__
-		result = result.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-		result = result.replace(/__(.+?)__/g, '<strong>$1</strong>');
-
-		// Handle italic: *text* or _text_
-		// Use negative lookbehind/lookahead to avoid matching ** or __ (bold markers)
-		result = result.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>');
-		result = result.replace(/(?<!_)_([^_]+?)_(?!_)/g, '<em>$1</em>');
-
-		return result;
-	}
+	let { text, amen = false, bold = false, optional = false, indent = false } = $props();
+	let this_class =
+		'mb-4 ' + (indent ? ' pl-4 ' : optional ? 'border-l-2 border-gray-900 pl-4' : '');
 
 	let parsedText = $derived(parseMarkdown(text));
 </script>
 
 {#snippet this_block()}
-	{#if optional}
-		<p class="mb-4 border-l-2 border-gray-900 pl-4">
-			{@html parsedText}
-			{#if amen}
-				<span class="font-bold"> Amen.</span>
-			{/if}
-		</p>
-	{:else}
-		<p class="mb-4">
-			{@html parsedText}
-			{#if amen}
-				<span class="font-bold"> Amen.</span>
-			{/if}
-		</p>
-	{/if}
+	<p class={this_class}>
+		{@html parsedText}
+		{#if amen}
+			<span class="font-bold"> Amen.</span>
+		{/if}
+	</p>
 {/snippet}
 
 {@render this_block()}
