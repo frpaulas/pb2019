@@ -1,9 +1,9 @@
 <script>
-	import Line from './line.svelte';
-	import Rubric from './rubric.svelte';
-	import SectionTitle from './section_title.svelte';
-	import ShowContent from './show_content.svelte';
-	import Versical from './versical.svelte';
+	import Line from '$lib/page_helpers/line.svelte';
+	import Rubric from '$lib/page_helpers/rubric.svelte';
+	import SectionTitle from '$lib/page_helpers/section_title.svelte';
+	import ShowContent from '$lib/page_helpers/show_content.svelte';
+	import Versical from '$lib/page_helpers/versical.svelte';
 </script>
 
 <SectionTitle text="the lessons" />
@@ -32,7 +32,9 @@
 
 <Versical text="The Gospel of the Lord." />
 <Versical people text="Praise to you, Lord Christ." />
+<br />
 <SectionTitle text="the sermon" />
+<br />
 <SectionTitle text="the nicene creed" />
 <Rubric
 	text="On Sundays, other Major Feast Days, and other times as appointed, all stand to

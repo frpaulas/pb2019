@@ -1,5 +1,5 @@
 <script>
-	import EucharistTitlePage from '$lib/page_helpers/eucharist_title_page.svelte';
+	import EucharistTitlePage from '$lib/text_component/eucharist_title_page.svelte';
 	import PageNumber from '$lib/page_helpers/page_number.svelte';
 </script>
 

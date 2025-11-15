@@ -1,5 +1,5 @@
 <script>
-	import EucharistPg3 from '$lib/page_helpers/eucharist_pg3.svelte';
+	import EucharistPg3 from '$lib/text_component/eucharist_pg3.svelte';
 	import PageNumber from '$lib/page_helpers/page_number.svelte';
 </script>
 

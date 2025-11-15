@@ -1,7 +1,7 @@
 <script>
-	import Rubric from './rubric.svelte';
-	import SectionTitle from './section_title.svelte';
-	import Versical from './versical.svelte';
+	import Rubric from '$lib/page_helpers/rubric.svelte';
+	import SectionTitle from '$lib/page_helpers/section_title.svelte';
+	import Versical from '$lib/page_helpers/versical.svelte';
 
 	let { renewed_ancient = false, anglican_standard = false } = $props();
 	let this_order = anglican_standard

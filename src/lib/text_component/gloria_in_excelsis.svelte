@@ -1,7 +1,15 @@
 <script>
 	import Line from '$lib/page_helpers/line.svelte';
+	import Rubric from '$lib/page_helpers/rubric.svelte';
+	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 </script>
 
+<SectionTitle text="the gloria in excelsis" />
+<Rubric
+	text="Gloria or some other song of praise may be sung or said, all standing. It
+is appropriate to omit the song of praise during penitential seasons and days
+appointed for fasting."
+/>
 <Line bold text="Glory to God in the highest," />
 <Line indent bold text="and peace to his people on earth." />
 <Line bold text="Lord God, heavenly King," />

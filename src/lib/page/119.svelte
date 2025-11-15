@@ -1,9 +1,9 @@
 <script>
 	import PageNumber from '$lib/page_helpers/page_number.svelte';
 	import Rubric from '$lib/page_helpers/rubric.svelte';
-	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 	import HumbleAccess from '$lib/prayers/humble_access.svelte';
 	import AgnusDei from '$lib/text_component/agnus_dei.svelte';
+	import Communion from '$lib/text_component/communion.svelte';
 </script>
 
 <Rubric
@@ -12,8 +12,6 @@
 />
 <HumbleAccess />
 <AgnusDei />
-
-<SectionTitle text="t h e m inist rat ion of communion" />
-<Rubric text="Facing the People, the Celebrant may say the following invitation" />
+<Communion pg={119} />
 
 <PageNumber page={119} text="holy eucharist | anglican standard text" />
