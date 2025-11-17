@@ -10,8 +10,8 @@
 	const psalm113 = getPsalmMeta(113);
 </script>
 
-<SectionTitle size="3xl" text="at midday" />
-<Rubric text="The following or some other verse of Scripture is said" />
+<SectionTitle size="3xl">at midday</SectionTitle>
+<Rubric>The following or some other verse of Scripture is said</Rubric>
 <Scripture
 	text="Blessed be the God and Father of our Lord Jesus Christ, who
 has blessed us in Christ with every spiritual blessing in the
@@ -19,12 +19,12 @@ heavenly places."
 	ref="ephesians 1:3"
 />
 
-<SectionTitle size="2xl" text="Psalm 113:1-4" />
-<SectionTitle fancy text={psalm113.name} latin_size />
+<SectionTitle size="2xl">Psalm 113:1-4</SectionTitle>
+<SectionTitle fancy latin_size>{psalm113.name}</SectionTitle>
 <ShowPsalm ps={149} to={4} />
 <Gloria />
 
-<SectionTitle size="2xl" text="a reading from holy scripture" />
+<SectionTitle size="2xl">a reading from holy scripture</SectionTitle>
 <Scripture
 	text="Abide in me, and I in you. As the branch cannot bear fruit by
 itself, unless it abides in the vine, neither can you, unless you

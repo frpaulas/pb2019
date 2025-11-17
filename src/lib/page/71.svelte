@@ -8,12 +8,12 @@
 	import PhosHilaron from '$lib/canticle/phos_hilaron.svelte';
 </script>
 
-<SectionTitle size="3xl" text="in the early evening" />
-<Rubric text="This devotion may be used before or after the evening meal." />
-<Rubric text="The following or some other verse of Scripture is said" />
+<SectionTitle size="3xl">in the early evening</SectionTitle>
+<Rubric>This devotion may be used before or after the evening meal.</Rubric>
+<Rubric>The following or some other verse of Scripture is said</Rubric>
 <ShowPsalmVerses ps={36} verses={[7, 9]} />
 <PhosHilaron />
-<SectionTitle size="sxl" text="a reading from holy scripture" />
+<SectionTitle size="sxl">a reading from holy scripture</SectionTitle>
 <Scripture
 	text="For what we proclaim is not ourselves, but Jesus Christ as Lord,
 with ourselves as your servants for Jesus’ sake. For God, who

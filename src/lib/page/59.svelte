@@ -14,8 +14,8 @@
 	ln1="I will lay me down in peace, and take my rest;"
 	ln2="for you, Lord, only, make me dwell in safety."
 />
-<SectionTitle text="psalm 31:1-6" />
-<SectionTitle fancy text="In te, Domine, speravi" />
+<SectionTitle>psalm 31:1-6</SectionTitle>
+<SectionTitle fancy>In te, Domine, speravi</SectionTitle>
 <Psalm
 	vs="1"
 	ln1=" In you, O Lord, have I put my trust; *"
@@ -39,8 +39,8 @@ deliver me in your righteousness."
 	ln1=" Into your hands I commend my spirit, *"
 	ln2="for you have redeemed me, O Lord, O God of truth."
 />
-<SectionTitle text="psalm 91" />
-<SectionTitle fancy text="Qui habitat" />
+<SectionTitle>psalm 91</SectionTitle>
+<SectionTitle fancy>Qui habitat</SectionTitle>
 <Psalm
 	vs="1"
 	ln1=" Whoever dwells under the defense of the Most High *"

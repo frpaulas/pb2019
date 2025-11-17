@@ -4,6 +4,6 @@
 	import QuaeriteDominum from '$lib/canticle/quaerite_dominum.svelte';
 </script>
 
-<Rubric text="Canticle 3, Surge Illuminare is on page 81" />
+<Rubric>Canticle 3, Surge Illuminare is on page 81</Rubric>
 <QuaeriteDominum />
 <PageNumber page={82} text="daily office" />

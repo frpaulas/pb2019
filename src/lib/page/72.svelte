@@ -20,19 +20,16 @@ hears my voice and opens the door, I will come in to him and
 eat with him, and he with me.”"
 	ref="revelation 3:20"
 />
-<Rubric text="A period of silence may follow." />
-<Rubric text="A hymn or canticle may be used; the Apostles’ Creed (page 75) may be said." />
-<Rubric text="Prayers may be offered for ourselves and others." />
-<SectionTitle size="2xl" text="the lord’s prayer" />
-<SectionTitle size="2xl" text="the collect" />
+<Rubric>A period of silence may follow.</Rubric>
+<Rubric>A hymn or canticle may be used; the Apostles’ Creed (page 75) may be said.</Rubric>
+<Rubric>Prayers may be offered for ourselves and others.</Rubric>
+<SectionTitle size="2xl">the lord’s prayer</SectionTitle>
+<SectionTitle size="2xl">the collect</SectionTitle>
 
-<TextBlock
-	text="Lord Jesus, stay with us, for evening is at hand and the day
+<TextBlock amen>Lord Jesus, stay with us, for evening is at hand and the day
 is past; be our companion in the way, kindle our hearts, and
 awaken hope, that we may know you as you are revealed in
 Scripture and the breaking of bread. Grant this for the sake of
-your love."
-	amen
-/>
+your love.</TextBlock>
 
 <PageNumber page={72} text="Daily Office" />

@@ -11,7 +11,7 @@
 <ShowPsalm ps={51} from={18} />
 
 <PsalmNumber n={psalm52.number} />
-<SectionTitle fancy text={psalm52.name} latin_size />
+<SectionTitle fancy latin_size>{psalm52.name}</SectionTitle>
 <ShowPsalm ps={52} />
 
 <PageNumber page={335} text="Day 10: Morning Prayer | Psalm 52 |" />

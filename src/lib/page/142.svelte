@@ -5,8 +5,7 @@
 	import TextBlock from '$lib/page_helpers/text_block.svelte';
 </script>
 
-<TextBlock
-	text="In the absence of a Priest, the Bishop may, at his discretion,
+<TextBlock>In the absence of a Priest, the Bishop may, at his discretion,
 authorize a Deacon to distribute Holy Communion to the
 Congregation from consecrated Bread and Wine. In this
 situation, the Deacon may say all that is appointed through the
@@ -15,15 +14,12 @@ after the Confession. After the Offertory, the Deacon reverently
 places the consecrated Sacrament on the Holy Table. The
 Deacon then leads the people in the Lord’s Prayer. Omitting the
 breaking of the bread, the Deacon proceeds with the rest of the
-liturgy. There is no blessing at the end of the liturgy."
-/>
-<SectionTitle text="the order of holy communion" />
-<SectionTitle text="according to" />
-<SectionTitle text="the book of common prayer 1662" />
-<TextBlock
-	text="The Anglican Standard Text may be re-arranged to reflect the
-1662 ordering as follows:"
-/>
+liturgy. There is no blessing at the end of the liturgy.</TextBlock>
+<SectionTitle>the order of holy communion</SectionTitle>
+<SectionTitle>according to</SectionTitle>
+<SectionTitle>the book of common prayer 1662</SectionTitle>
+<TextBlock>The Anglican Standard Text may be re-arranged to reflect the
+1662 ordering as follows:</TextBlock>
 <Line indent text="The Lord’s Prayer" />
 <Line indent text="The Collect for Purity" />
 <Line indent text="The Decalogue" />

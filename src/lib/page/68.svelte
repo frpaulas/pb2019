@@ -31,18 +31,15 @@ God. When Christ who is your life appears, then you also will
 appear with him in glory."
 	ref="colossians 3:1-4"
 />
-<Rubric text="A period of silence may follow." />
-<Rubric text="A hymn or canticle may be used; the Apostles’ Creed (page 75) may be said." />
-<Rubric text="Prayers may be offered for ourselves and others." />
-<SectionTitle size="2xl" text="the lord’s prayer" />
-<SectionTitle size="2xl" text="the collect" />
-<TextBlock
-	text="O Lord, our heavenly Father, almighty and everlasting God, you
+<Rubric>A period of silence may follow.</Rubric>
+<Rubric>A hymn or canticle may be used; the Apostles’ Creed (page 75) may be said.</Rubric>
+<Rubric>Prayers may be offered for ourselves and others.</Rubric>
+<SectionTitle size="2xl">the lord’s prayer</SectionTitle>
+<SectionTitle size="2xl">the collect</SectionTitle>
+<TextBlock amen>O Lord, our heavenly Father, almighty and everlasting God, you
 have brought us safely to the beginning of this day: Defend us
 by your mighty power, that we may not fall into sin nor run into
 any danger; and that, guided by your Spirit, we may do what is
-righteous in your sight; through Jesus Christ our Lord."
-	amen
-/>
+righteous in your sight; through Jesus Christ our Lord.</TextBlock>
 
 <PageNumber page={68} text="Daily Office" />

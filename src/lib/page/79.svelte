@@ -4,8 +4,8 @@
 	import MagnaEtMirabilia from '$lib/canticle/magna_et_mirabilia.svelte';
 </script>
 
-<SectionTitle size="3xl" text="supplemental canticles" />
-<SectionTitle size="3xl" text="for worship" />
+<SectionTitle size="3xl">supplemental canticles</SectionTitle>
+<SectionTitle size="3xl">for worship</SectionTitle>
 <MagnaEtMirabilia />
 
 <PageNumber page={79} text="supplemental canticles" />

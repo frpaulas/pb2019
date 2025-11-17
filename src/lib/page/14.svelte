@@ -7,11 +7,11 @@
 	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 </script>
 
-<Rubric text="Then follows the Venite. Alternatively, the Jubilate may be used." />
+<Rubric>Then follows the Venite. Alternatively, the Jubilate may be used.</Rubric>
 <Rubric
-	text="One of these antiphons, or one from the seasonal antiphons provided at the end of
-the Office (pages 29-30), may be sung or said before and after the Invitatory Psalm."
-/>
+	>One of these antiphons, or one from the seasonal antiphons provided at the end of the Office
+	(pages 29-30), may be sung or said before and after the Invitatory Psalm.</Rubric
+>
 <Antiphon call="The earth is the Lord’s for he made it: *" response="O come, let us adore him." />
 <OrThis />
 <Antiphon
@@ -20,8 +20,8 @@ the Office (pages 29-30), may be sung or said before and after the Invitatory Ps
 />
 <OrThis />
 <Antiphon call="The mercy of the Lord is everlasting: *" response="O come, let us adore him." />
-<SectionTitle size="1xl" text="venite" />
-<SectionTitle size="1xl" fancy text="O Come" />
+<SectionTitle size="1xl">venite</SectionTitle>
+<SectionTitle size="1xl" fancy>O Come</SectionTitle>
 <Line text="O come, let us sing unto the Lord; * " bold />
 <Line indent text="let us heartily rejoice in the strength of our salvation. " bold />
 <Line text="Let us come before his presence with thanksgiving * " bold />

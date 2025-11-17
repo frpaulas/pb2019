@@ -7,12 +7,10 @@
 	import OrThis from '$lib/text_component/or_this.svelte';
 </script>
 
-<SectionTitle size="4xl" text="daily evening prayer" />
-<Rubric
-	text="The Officiant may begin Evening Prayer by reading an opening sentence of
+<SectionTitle size="4xl">daily evening prayer</SectionTitle>
+<Rubric>The Officiant may begin Evening Prayer by reading an opening sentence of
 Scripture. One of the following, or a sentence from among those provided at the
-end of the Office (pages 54-56), is customary."
-/>
+end of the Office (pages 54-56), is customary.</Rubric>
 <Scripture
 	text="Jesus spoke to them, saying, “I am the light of the world.
 Whoever follows me will not walk in darkness, but will have
@@ -31,12 +29,10 @@ the light of life.”"
     lifting up of my hands be an evening sacrifice."
 	ref="psalm 141:2"
 />
-<SectionTitle text="confession of sin" />
-<Rubric text="The Officiant says to the People" />
-<TextBlock
-	text="Dearly beloved, the Scriptures teach us to acknowledge our
+<SectionTitle>confession of sin</SectionTitle>
+<Rubric>The Officiant says to the People</Rubric>
+<TextBlock>Dearly beloved, the Scriptures teach us to acknowledge our
 many sins and offenses, not concealing them from our heavenly
 Father, but confessing them with humble and obedient hearts
-that we may obtain forgiveness by his infinite goodness and"
-/>
+that we may obtain forgiveness by his infinite goodness and</TextBlock>
 <PageNumber page={41} text="Daily Evening prayer" />

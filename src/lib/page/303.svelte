@@ -8,9 +8,9 @@
 	const psalm30 = getPsalmMeta(30);
 </script>
 
-<SectionTitle text="day 6 : morning prayer" />
+<SectionTitle>day 6 : morning prayer</SectionTitle>
 <PsalmNumber n={psalm30.number} />
-<SectionTitle fancy text={psalm30.name} latin_size />
+<SectionTitle fancy latin_size>{psalm30.name}</SectionTitle>
 <ShowPsalm ps={30} to={13} />
 
 <PageNumber page={303} text="Day 6: Morning Prayer | Psalm 30 |" />

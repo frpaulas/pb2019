@@ -9,8 +9,8 @@
 
 <ForQuietConfidence />
 
-<SectionTitle size="2xl" text="family responses before meals" />
-<SectionTitle text="Traditional" fancy latin_size />
+<SectionTitle size="2xl">family responses before meals</SectionTitle>
+<SectionTitle fancy latin_size>Traditional</SectionTitle>
 
 <Line text="The eyes of all wait upon thee, O Lord;" />
 <Line indent bold text="And thou givest them their meat in due season." />

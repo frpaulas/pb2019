@@ -15,8 +15,8 @@ on pages 598-640. It is traditional to pray the Collects for Peace and Aid again
 Perils daily. Alternatively, one may pray the Collects on a weekly rotation, using
 the suggestions in italics."
 />
-<SectionTitle text="the collect of the day" />
-<SectionTitle text="From the Collects of the Christian Year" />
+<SectionTitle>the collect of the day</SectionTitle>
+<SectionTitle>From the Collects of the Christian Year</SectionTitle>
 <ResurrectionHopeEp />
 <PeaceEp />
 <AgainstPerilsEp />

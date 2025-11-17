@@ -9,25 +9,19 @@
 	import Line from '$lib/page_helpers/line.svelte';
 </script>
 
-<SectionTitle size="3xl" text="concerning family prayer" />
-<TextBlock
-	text="These devotions follow the basic structure of the Daily Office
+<SectionTitle size="3xl">concerning family prayer</SectionTitle>
+<TextBlock>These devotions follow the basic structure of the Daily Office
 of the Church and are particularly appropriate for families with
-young children."
-/>
+young children.</TextBlock>
 
-<TextBlock
-	text="The Reading and the Collect may be read by one person, and the
-other parts said in unison, or in some other convenient manner."
-/>
-<TextBlock
-	text="Appropriate Opening Sentences, Psalms, Readings, and Collects
+<TextBlock>The Reading and the Collect may be read by one person, and the
+other parts said in unison, or in some other convenient manner.</TextBlock>
+<TextBlock>Appropriate Opening Sentences, Psalms, Readings, and Collects
 are provided in each service. When desired, however, the Collect
 of the Day, or any of the Collects appointed in the Daily Office,
 may be used instead. The Opening Sentences may be replaced by
 those appointed for various seasons in the liturgies for Morning
-and Evening Prayer."
-/>
+and Evening Prayer.</TextBlock>
 <Line indent text="The Psalms and Readings may be replaced by those appointed in:" />
 <Line indent text="the Sunday, Holy Days and Commemoration Lectionary; or" />
 <Line indent text="the Daily Office Lectionary; or" />
@@ -36,9 +30,7 @@ and Evening Prayer."
 	text="some other manual of devotion which provides daily selections for the Church Year."
 />
 
-<TextBlock
-	text="A concluding sentence from Morning or Evening Prayer may be
-    used at the end of any of these devotions."
-/>
+<TextBlock>A concluding sentence from Morning or Evening Prayer may be
+    used at the end of any of these devotions.</TextBlock>
 
 <PageNumber page={66} text="Daily Office" />

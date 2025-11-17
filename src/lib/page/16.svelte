@@ -8,8 +8,8 @@
 	import Gloria from '$lib/text_component/gloria.svelte';
 </script>
 
-<SectionTitle size="1xl" text="pascha nostrum" />
-<SectionTitle size="1xl" fancy text="Christ our Passover" />
+<SectionTitle size="1xl">pascha nostrum</SectionTitle>
+<SectionTitle size="1xl" fancy>Christ our Passover</SectionTitle>
 <Line bold text="Alleluia. Christ our Passover has been sacrificed for us; *" />
 <Line bold indent text="therefore let us keep the feast," />
 <Line bold text="Not with the old leaven, the leaven of malice and evil, *" />
@@ -28,7 +28,7 @@
 <Line bold indent text="so also in Christ shall all be made alive. Alleluia." />
 <Ref text="1 corinthians 5:7-8; romans 6:9-11; 1 corinthians 15:20-22" />
 <ThenFollows />
-<SectionTitle text="the psalm or psalms appointed" />
-<Rubric text="At the end of the Psalms the Gloria Patri (Glory be...) is sung or said" />
+<SectionTitle>the psalm or psalms appointed</SectionTitle>
+<Rubric>At the end of the Psalms the Gloria Patri (Glory be...) is sung or said</Rubric>
 <Gloria />
 <PageNumber page={16} text="daily office" />

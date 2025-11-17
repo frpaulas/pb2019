@@ -8,17 +8,17 @@
 	import PhosHilaron from '$lib/canticle/phos_hilaron.svelte';
 </script>
 
-<Rubric text="The following or some other suitable hymn or Psalm may be sung or said." />
+<Rubric>The following or some other suitable hymn or Psalm may be sung or said.</Rubric>
 <PhosHilaron />
-<Rubric text="Then follows" />
-<SectionTitle text="the psalm or psalms appointed" />
-<Rubric text="At the end of the Psalms the Gloria Patri (Glory be...) is sung or said" />
+<Rubric>Then follows</Rubric>
+<SectionTitle>the psalm or psalms appointed</SectionTitle>
+<Rubric>At the end of the Psalms the Gloria Patri (Glory be...) is sung or said</Rubric>
 <Gloria />
-<SectionTitle text="the lessons" />
-<Rubric text="One or more Lessons, as appointed, are read, the Reader first saying" />
+<SectionTitle>the lessons</SectionTitle>
+<Rubric>One or more Lessons, as appointed, are read, the Reader first saying</Rubric>
 <Versical text="A Reading from _____________." />
-<Rubric text="A citation giving chapter and verse may be added." />
-<Rubric text="After each Lesson the Reader may say" />
+<Rubric>A citation giving chapter and verse may be added.</Rubric>
+<Rubric>After each Lesson the Reader may say</Rubric>
 <Versical text="The Word of the Lord." />
 <Versical people text="Thanks be to God." />
 <PageNumber page={44} text="Daily office" />

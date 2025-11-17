@@ -4,20 +4,20 @@
 	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 </script>
 
-<SectionTitle text="holy week" />
+<SectionTitle>holy week</SectionTitle>
 <Scripture
 	text="All we like sheep have gone astray; we have turned every one to
 his own way; and the Lord has laid on him the iniquity of us
 all."
 	ref="isaiah 53:6"
 />
-<SectionTitle text="easter" />
+<SectionTitle>easter</SectionTitle>
 <Scripture
 	text="Thanks be to God, who gives us the victory through our Lord
 Jesus Christ."
 	ref="1 corinthians 15:57"
 />
-<SectionTitle text="ascension" />
+<SectionTitle>ascension</SectionTitle>
 <Scripture
 	text="For Christ has entered, not into holy places made
 with hands, which are copies of the true things, but
@@ -25,7 +25,7 @@ into heaven itself, now to appear in the presence of God
 on our behalf."
 	ref="hebrews 9:24"
 />
-<SectionTitle text="pentecost" />
+<SectionTitle>pentecost</SectionTitle>
 <Scripture
 	text="The Spirit and the Bride say, “Come.” And let the one
 who hears say, “Come.” And let the one who is thirsty
@@ -38,13 +38,13 @@ without price."
 the holy dwelling place of the Most High."
 	ref="psalm 46:4"
 />
-<SectionTitle text="trinity sunday" />
+<SectionTitle>trinity sunday</SectionTitle>
 <Scripture
 	text="Holy, holy, holy is the Lord of Hosts; the whole earth is full of
     his glory!"
 	ref="isaiah 6:3"
 />
-<SectionTitle text="days of thanksgiving" />
+<SectionTitle>days of thanksgiving</SectionTitle>
 <Scripture
 	text="The Lord by wisdom founded the earth; by understanding he
 established the heavens; by his knowledge the deeps broke open,

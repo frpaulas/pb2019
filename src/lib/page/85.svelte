@@ -4,6 +4,6 @@
 	import Rubric from '$lib/page_helpers/rubric.svelte';
 </script>
 
-<Rubric text="Canticle 7, Cantate Domino, is on page 84" />
+<Rubric>Canticle 7, Cantate Domino, is on page 84</Rubric>
 <EcceDeus />
 <PageNumber page={85} text="supplemental canticles" />

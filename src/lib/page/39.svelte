@@ -17,13 +17,9 @@
 	ref="2 corinthians 13:14"
 	t
 />
-<SectionTitle size="3xl" text="additional directions" />
-<TextBlock
-	text="Other suitable selections from the Psalter include Psalms 19, 67, one or
-    more sections of Psalm 119, or a selection from Psalms 120 through 133."
-/>
-<TextBlock
-	text="Either version of the Lord’s Prayer may be ended with, “deliver us from
-    evil. Amen.” omitting the concluding doxology."
-/>
+<SectionTitle size="3xl">additional directions</SectionTitle>
+<TextBlock>Other suitable selections from the Psalter include Psalms 19, 67, one or
+    more sections of Psalm 119, or a selection from Psalms 120 through 133.</TextBlock>
+<TextBlock>Either version of the Lord’s Prayer may be ended with, “deliver us from
+    evil. Amen.” omitting the concluding doxology.</TextBlock>
 <PageNumber page={39} text="Midday prayer" />

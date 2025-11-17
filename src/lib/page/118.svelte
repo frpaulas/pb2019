@@ -8,15 +8,15 @@
 	import OrThis from '$lib/text_component/or_this.svelte';
 </script>
 
-<SectionTitle text="the lord’s prayer" />
-<Rubric text="The Celebrant then says" />
+<SectionTitle>the lord’s prayer</SectionTitle>
+<Rubric>The Celebrant then says</Rubric>
 <Line text="And now as our Savior Christ has taught us, we are bold to pray:" />
-<Rubric text="Celebrant and People together pray" />
+<Rubric>Celebrant and People together pray</Rubric>
 <LordsPrayer />
-<SectionTitle text="the fraction" />
-<Rubric text="If the consecrated Bread was not broken earlier, the Celebrant breaks it now." />
-<Rubric text="A period of silence is kept." />
-<Rubric text="Then may be sung or said" />
+<SectionTitle>the fraction</SectionTitle>
+<Rubric>If the consecrated Bread was not broken earlier, the Celebrant breaks it now.</Rubric>
+<Rubric>A period of silence is kept.</Rubric>
+<Rubric>Then may be sung or said</Rubric>
 <Versical celebrant text="[Alleluia.] Christ our Passover is sacrificed for us." />
 <Versical people text="Therefore let us keep the feast. [Alleluia.]" />
 <OrThis />

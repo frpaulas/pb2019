@@ -12,14 +12,14 @@
 	const psalm134 = getPsalmMeta(134);
 </script>
 
-<SectionTitle size="3xl" text="at the close of day" />
-<Rubric text="The following or some other verse of Scripture is said" />
+<SectionTitle size="3xl">at the close of day</SectionTitle>
+<Rubric>The following or some other verse of Scripture is said</Rubric>
 <ShowPsalmVerses ps={4} verses={[8]} />
 <PsalmNumber n={psalm134.number} />
-<SectionTitle fancy text={psalm134.name} latin_size />
+<SectionTitle fancy latin_size>{psalm134.name}</SectionTitle>
 
 <ShowPsalm ps={134} bold />
-<SectionTitle size="2xl" text="a reading from holy scripture" />
+<SectionTitle size="2xl">a reading from holy scripture</SectionTitle>
 <Scripture
 	text="You keep them in perfect peace whose minds are stayed on you,
 because they trust in you. Trust in the Lord for ever, for the
@@ -34,11 +34,9 @@ and may your whole spirit and soul and body be kept blameless
 at the coming of our Lord Jesus Christ."
 	ref="1 thessalonians 5:23"
 />
-<Rubric text="A period of silence may follow." />
-<Rubric text="A hymn or canticle may be used." />
-<Rubric
-	text="Prayers may be offered for ourselves and others. It is appropriate that prayers of
-    thanksgiving for the blessings of the day, and penitence for our sins, be included."
-/>
+<Rubric>A period of silence may follow.</Rubric>
+<Rubric>A hymn or canticle may be used.</Rubric>
+<Rubric>Prayers may be offered for ourselves and others. It is appropriate that prayers of
+    thanksgiving for the blessings of the day, and penitence for our sins, be included.</Rubric>
 
 <PageNumber page={73} text="Family Prayer | at the close of day" />

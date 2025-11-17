@@ -8,33 +8,24 @@
 	import Gloria from '$lib/text_component/gloria.svelte';
 </script>
 
-<TextBlock
-	text="wickedness and live. He has empowered and commanded
+<TextBlock amen>wickedness and live. He has empowered and commanded
 his ministers to pronounce to his people, being penitent, the
 absolution and remission of their sins. He pardons and absolves
 all who truly repent and genuinely believe his holy Gospel. For
 this reason, we beseech him to grant us true repentance and his
 Holy Spirit, that our present deeds may please him, the rest of
 our lives may be pure and holy, and that at the last we may come
-to his eternal joy; through Jesus Christ our Lord."
-	amen
-/>
+to his eternal joy; through Jesus Christ our Lord.</TextBlock>
 <OrThis />
-<TextBlock
-	text="The Almighty and merciful Lord grant you absolution and
+<TextBlock amen>The Almighty and merciful Lord grant you absolution and
 remission of all your sins, true repentance, amendment of life,
-and the grace and consolation of his Holy Spirit."
-	amen
-/>
-<Rubric text="A Deacon or layperson remains kneeling and prays" />
-<TextBlock
-	text="Grant to your faithful people, merciful Lord, pardon and peace;
+and the grace and consolation of his Holy Spirit.</TextBlock>
+<Rubric>A Deacon or layperson remains kneeling and prays</Rubric>
+<TextBlock amen>Grant to your faithful people, merciful Lord, pardon and peace;
 that we may be cleansed from all our sins, and serve you with a
-quiet mind; through Jesus Christ our Lord."
-	amen
-/>
-<SectionTitle text="the invitatory" />
-<Rubric text="All stand." />
+quiet mind; through Jesus Christ our Lord.</TextBlock>
+<SectionTitle>the invitatory</SectionTitle>
+<Rubric>All stand.</Rubric>
 <Versical officiant text="O Lord, open our lips;" />
 <Versical people text="And our mouth shall proclaim your praise." />
 <Versical officiant text="O God, make speed to save us;" />

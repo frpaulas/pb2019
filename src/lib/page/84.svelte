@@ -5,7 +5,7 @@
 	import CantateDomino from '$lib/canticle/cantate_domino.svelte';
 </script>
 
-<Rubric text="Canticle 5, Cantate Domino is on page 83" />
+<Rubric>Canticle 5, Cantate Domino is on page 83</Rubric>
 <DignuEs />
 <CantateDomino />
 <PageNumber page={84} text="daily office" />

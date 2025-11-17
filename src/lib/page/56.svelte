@@ -6,7 +6,7 @@
 	import Gloria from '$lib/text_component/gloria.svelte';
 </script>
 
-<SectionTitle text="at any time" />
+<SectionTitle>at any time</SectionTitle>
 <Scripture
 	text="O worship the Lord in the beauty of holiness;
     let the whole earth stand in awe of him."
@@ -19,27 +19,17 @@ I have set the Lord always before me;
 he is at my right hand, therefore I shall not fall."
 	ref="psalm 16:8-9"
 />
-<SectionTitle size="3xl" text="additional directions" />
-<TextBlock
-	text="The Confession and Apostles’ Creed may be omitted, provided each is
-    said at least once during the course of the day."
-/>
-<TextBlock
-	text="The Gloria Patri (Glory be...) in the opening versicles may be said in
-    unison. The following form of the Gloria Patri may alternatively be used:"
-/>
+<SectionTitle size="3xl">additional directions</SectionTitle>
+<TextBlock>The Confession and Apostles’ Creed may be omitted, provided each is
+    said at least once during the course of the day.</TextBlock>
+<TextBlock>The Gloria Patri (Glory be...) in the opening versicles may be said in
+    unison. The following form of the Gloria Patri may alternatively be used:</TextBlock>
 <Gloria />
-<TextBlock
-	text="The Officiant and People may join in saying “Alleluia” (except in Lent)
+<TextBlock>The Officiant and People may join in saying “Alleluia” (except in Lent)
 as an alternative to the versicles “Praise the Lord. The Lord’s Name be
-praised.”"
-/>
-<TextBlock
-	text="If an offering is to be received, it is appropriate to do so during the hymn
-    or anthem following the Collects."
-/>
-<TextBlock
-	text="A sermon may be preached after the lessons, after the hymn or anthem
-    following the Collects, or after the conclusion of the Office."
-/>
+praised.”</TextBlock>
+<TextBlock>If an offering is to be received, it is appropriate to do so during the hymn
+    or anthem following the Collects.</TextBlock>
+<TextBlock>A sermon may be preached after the lessons, after the hymn or anthem
+    following the Collects, or after the conclusion of the Office.</TextBlock>
 <PageNumber page={56} text="Daily office" />

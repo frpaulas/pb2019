@@ -60,8 +60,8 @@
 	vs="16"
 />
 <Psalm ln1="With long life I will satisfy him, *" ln2="and show him my salvation.”" vs="5" />
-<SectionTitle text="psalm 134" />
-<SectionTitle fancy text="Ecce nunc" />
+<SectionTitle>psalm 134</SectionTitle>
+<SectionTitle fancy>Ecce nunc</SectionTitle>
 
 <Psalm vs="1" ln1="Behold now, praise the Lord, *" ln2="all you servants of the Lord," />
 

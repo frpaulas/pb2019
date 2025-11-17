@@ -9,7 +9,7 @@
 </script>
 
 <PsalmNumber n={psalm28.number} />
-<SectionTitle fancy text={psalm28.name} latin_size />
+<SectionTitle fancy latin_size>{psalm28.name}</SectionTitle>
 <ShowPsalm ps={28} />
 
 <PageNumber page={301} text="Day 5: Evening Prayer | Psalm 28 |" />

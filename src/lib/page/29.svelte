@@ -24,16 +24,16 @@ will worship the Father in spirit and truth, for the Father is
 seeking such people to worship him."
 	ref="john 4:23"
 />
-<SectionTitle size="3xl" text="seasonal antiphons" />
-<SectionTitle text="advent" />
+<SectionTitle size="3xl">seasonal antiphons</SectionTitle>
+<SectionTitle>advent</SectionTitle>
 Our King and Savior now draws near: * O come, let us adore him.
-<SectionTitle text="christmas" />
+<SectionTitle>christmas</SectionTitle>
 <Line text="Alleluia, to us a child is born: *" />
 <Line indent bold text="O come, let us adore him. Alleluia." />
-<SectionTitle text="epiphany, and the feast of the transfiguration" />
+<SectionTitle>epiphany, and the feast of the transfiguration</SectionTitle>
 <Line text="The Lord has shown forth his glory: *" />
 <Line indent bold text="O come, let us adore him." />
-<SectionTitle text="presentation and annunciation" fancyAnd />
+<SectionTitle fancyAnd>presentation and annunciation</SectionTitle>
 <Line text="The Word was made flesh and dwelt among us: *" />
 <Line indent bold text="O come, let us adore him." />
 <PageNumber page={29} text="daily morning prayer" />

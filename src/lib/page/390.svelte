@@ -10,7 +10,7 @@
 <ShowPsalm ps={91} from={7} />
 
 <PsalmNumber n={psalm92.number} />
-<SectionTitle fancy text={psalm92.name} latin_size />
+<SectionTitle fancy latin_size>{psalm92.name}</SectionTitle>
 <ShowPsalm ps={92} to={2} />
 
 <PageNumber page={390} text="the psalter" />

@@ -10,27 +10,23 @@
 
 <Line text="O Lord, show us your love and mercy;" />
 <Line indent bold text="For we have put our trust in you." />
-<Rubric text="The Officiant says the following" />
+<Rubric>The Officiant says the following</Rubric>
 Almighty God, you have promised to hear the petitions of those who ask in the Name of your Son: Mercifully
 incline your ear to us who have made our prayers and supplications to you; and grant that what we have
 asked faithfully, according to your will, we may obtain effectually, for the relief of our necessities
 and the setting forth of your glory; through Jesus Christ our Lord. Amen.
-<Rubric text="The Officiant may add other prayers, and may end the Litany, saying" />
+<Rubric>The Officiant may add other prayers, and may end the Litany, saying</Rubric>
 <GraceOfOurLord />
-<SectionTitle text="the supplication" />
-<Rubric
-	text="For use in the Litany in place of the Versicle and Collect which follows the Lord’s
+<SectionTitle>the supplication</SectionTitle>
+<Rubric>For use in the Litany in place of the Versicle and Collect which follows the Lord’s
  Prayer; or at the end of Morning or Evening Prayer; or as a separate devotion.
  The Supplication is especially appropriate in times of war, or of great anxiety, or
- of disaster."
-/>
+ of disaster.</Rubric>
 <Line text="O Lord, arise and help us;" />
 <Line indent bold text="And deliver us for your Name’s sake." />
-<TextBlock
-	text="O God, we have heard with our ears, and our forebears have
+<TextBlock>O God, we have heard with our ears, and our forebears have
  declared to us, the noble works that you did in their days, and in
- the time before them."
-/>
+ the time before them.</TextBlock>
 <Line text="O Lord, arise and help us;" />
 <Line indent bold text="And deliver us for your Name’s sake." />
 <Gloria />

@@ -7,7 +7,7 @@
 	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 </script>
 
-<Rubric text="The following verses may be omitted, except in Lent." />
+<Rubric>The following verses may be omitted, except in Lent.</Rubric>
 <Line bold text="Today, if you will hear his voice, harden not your hearts *" />
 <Line bold indent text="as in the provocation, and as in the day of temptation in 		" />
 <Line bold indent text="the wilderness," />
@@ -20,8 +20,8 @@
 <Line bold indent text="that they should not enter into my rest." />
 <Ref text="psalm 95:1-7, 8-11" />
 <OrThis />
-<SectionTitle size="1xl" text="jubilate" />
-<SectionTitle size="1xl" fancy text="Be Joyful" />
+<SectionTitle size="1xl">jubilate</SectionTitle>
+<SectionTitle size="1xl" fancy>Be Joyful</SectionTitle>
 <Line bold text="O be joyful in the Lord, all you lands; *" />
 <Line indent bold text="serve the Lord with gladness," />
 <Line indent bold text="and come before his presence with a song." />
@@ -35,7 +35,7 @@
 <Line indent bold text="and his truth endures from generation to generation." />
 <Ref text="psalm 100" />
 <Rubric
-	text="During the first week of Easter, the Pascha Nostrum, without antiphons, is used
-    in place of the Invitatory Psalm, and it may be used throughout Eastertide."
-/>
+	>During the first week of Easter, the Pascha Nostrum, without antiphons, is used in place of the
+	Invitatory Psalm, and it may be used throughout Eastertide.</Rubric
+>
 <PageNumber page={15} text="daily morning prayer" />

@@ -7,7 +7,7 @@
 	import EpiscopalAbsolution from '$lib/text_component/episcopal_absolution.svelte';
 </script>
 
-<Rubric text="The Deacon and People kneel as able and pray" />
+<Rubric>The Deacon and People kneel as able and pray</Rubric>
 <Silence />
 <Line text="Most merciful God," />
 <Line indent text="we confess that we have sinned against you" />

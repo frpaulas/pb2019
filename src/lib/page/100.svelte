@@ -5,7 +5,7 @@
 	import InclineOurHearts from '$lib/text_component/incline_our_hearts.svelte';
 </script>
 
-<SectionTitle text="the decalogue" />
+<SectionTitle>the decalogue</SectionTitle>
 <Versical celebrant text="God spoke these words and said:" />
 <Versical text="I am the Lord your God." />
 <Versical text="You shall have no other gods but me." />

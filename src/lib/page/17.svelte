@@ -6,22 +6,23 @@
 	import Line from '$lib/page_helpers/line.svelte';
 </script>
 
-<SectionTitle text="the lessons" />
+<SectionTitle>the lessons</SectionTitle>
 
-<Rubric text="One or more Lessons, as appointed, are read, the Reader first saying" />
+<Rubric>One or more Lessons, as appointed, are read, the Reader first saying</Rubric>
 <Line text="A Reading from _____________." />
-<Rubric text="A citation giving chapter and verse may be added." />
-<Rubric text="After each lesson the Reader may say" />
+<Rubric>A citation giving chapter and verse may be added.</Rubric>
+<Rubric>After each lesson the Reader may say</Rubric>
 <Versical text="The Word of the Lord." />
 <Versical people text="Thanks be to God." />
-<Rubric text="Or the Reader may say" />
+<Rubric>Or the Reader may say</Rubric>
 <Versical text="Here ends the Reading." />
 <Rubric
-	text="The following Canticles are normally sung or said after each of the lessons. The Officiant may also use
-    a Canticle drawn from the Supplemental Canticles (pages 79-88) or an appropriate song of praise."
-/>
-<SectionTitle text="te deum laudamus" />
-<SectionTitle fancy text="We Praise You, O God" />
+	>The following Canticles are normally sung or said after each of the lessons. The Officiant may
+	also use a Canticle drawn from the Supplemental Canticles (pages 79-88) or an appropriate song of
+	praise.</Rubric
+>
+<SectionTitle>te deum laudamus</SectionTitle>
+<SectionTitle fancy>We Praise You, O God</SectionTitle>
 <Line bold text="We praise you, O God; we acclaim you as Lord; * " />
 <Line indent bold text="all creation worships you, the Father everlasting. " />
 <Line bold text="To you all angels, all the powers of heaven, * " />

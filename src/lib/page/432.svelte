@@ -8,7 +8,7 @@
 <Psalm119Section vs={65} />
 <ShowPsalm ps={119} from={65} to={72} />
 
-<SectionTitle text="day 25 : evening prayer" />
+<SectionTitle>day 25 : evening prayer</SectionTitle>
 <Psalm119Section vs={73} />
 <ShowPsalm ps={119} from={73} to={76} />
 

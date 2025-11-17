@@ -16,9 +16,9 @@
 	ln2="shall doubtless come again with joy, and bring
     his sheaves with him."
 />
-<Rubric text="At the end of the Psalms the Gloria Patri (Glory be...) is sung or said" />
+<Rubric>At the end of the Psalms the Gloria Patri (Glory be...) is sung or said</Rubric>
 <Gloria />
-<Rubric text="One of the following, or some other suitable passage of Scripture, is read" />
+<Rubric>One of the following, or some other suitable passage of Scripture, is read</Rubric>
 <Scripture
 	text="Jesus said, “Now is the judgment of this world; now will the
 ruler of this world be cast out. And I, when I am lifted up from
@@ -39,8 +39,8 @@ my name, and a pure offering. For my name will be great among
 the nations, says the Lord of Hosts. "
 	ref="malachi 1:11"
 />
-<Rubric text="At the end of the reading is said" />
+<Rubric>At the end of the reading is said</Rubric>
 <Versical text="The Word of the Lord." />
 <Versical text="Thanks be to God." />
-<Rubric text="A meditation, silent or spoken, may follow." />
+<Rubric>A meditation, silent or spoken, may follow.</Rubric>
 <PageNumber page={36} text="daily office" />

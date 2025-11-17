@@ -7,25 +7,21 @@
 	import { text } from '@sveltejs/kit';
 </script>
 
-<SectionTitle
-	text="from ash wednesday _to_ the eve of palm sunday
-    _or_ penitential occasions"
-/>
+<SectionTitle>from ash wednesday _to_ the eve of palm sunday
+    _or_ penitential occasions</SectionTitle>
 <Versical celebrant text="Bless the Lord who forgives all our sins." />
 <Versical people text="His mercy endures for ever." />
 <br />
-<SectionTitle text="for holy week" />
+<SectionTitle>for holy week</SectionTitle>
 <Versical celebrant text="Blessed be our God." />
 <Versical people text="Now and for ever. Amen." />
 <br />
-<SectionTitle text="from easterday _until_ the eve of pentecost" />
+<SectionTitle>from easterday _until_ the eve of pentecost</SectionTitle>
 <Versical celebrant text="Alleluia! Christ is risen!" />
 <Versical people text="The Lord is risen indeed! Alleluia!" />
 <br />
-<SectionTitle
-	text="for the day of pentecost, _and_
-    occasions of confirmation _and_ ordination"
-/>
+<SectionTitle>for the day of pentecost, _and_
+    occasions of confirmation _and_ ordination</SectionTitle>
 <Versical celebrant text="The Lord will pour out his Spirit upon all flesh," />
 <Versical people text="And your sons and daughters shall prophesy." />
 <Versical celebrant text="Your old men shall dream dreams," />
@@ -38,10 +34,8 @@
 	<Ref text="joel 2:27-28, 32" t nr /><Ref text="acts 2:17, 21" t continued />
 </div>
 <br />
-<SectionTitle
-	text="for all saints’ day and
-    other appropriate occasions"
-/>
+<SectionTitle>for all saints’ day and
+    other appropriate occasions</SectionTitle>
 <Versical celebrant text=" is the Lord our God," />
 <Versical people text="To receive glory and honor and power." />
 <Ref text="revelation 4:11 t" />

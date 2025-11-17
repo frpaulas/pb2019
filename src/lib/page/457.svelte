@@ -10,9 +10,9 @@
 
 <ShowPsalm ps={140} from={5} />
 
-<SectionTitle text="day 29 : evening prayer" />
+<SectionTitle>day 29 : evening prayer</SectionTitle>
 <PsalmNumber n={psalm141.number} />
-<SectionTitle fancy text={psalm141.name} latin_size />
+<SectionTitle fancy latin_size>{psalm141.name}</SectionTitle>
 <ShowPsalm ps={141} to={3} />
 
 <PageNumber page={457} text="Day 29: Evening Prayer | Psalm 141 |" />

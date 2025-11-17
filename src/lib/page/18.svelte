@@ -17,7 +17,7 @@
 <Line bold indent text="bought with the price of your own blood," />
 <Line bold text="and bring us with your saints *" />
 <Line bold indent text="to glory everlasting." />
-<Rubric text="The following verses may be omitted" />
+<Rubric>The following verses may be omitted</Rubric>
 <Line bold text="Save your people, Lord, and bless your inheritance; *" />
 <Line bold indent text="govern and uphold them now and always." />
 <Line bold text="Day by day we bless you; *" />
@@ -29,11 +29,11 @@
 <Line bold text="In you, Lord, is our hope; *" />
 <Line bold indent text="let us never be put to shame." />
 <Rubric
-	text="During Lent the Benedictus es, Domine usually replaces the Te Deum, and it may
-    be used at other times."
-/>
-<SectionTitle text="benedictuses, domine" />
-<SectionTitle fancy text="A Song of Praise" />
+	>During Lent the Benedictus es, Domine usually replaces the Te Deum, and it may be used at other
+	times.</Rubric
+>
+<SectionTitle>benedictuses, domine</SectionTitle>
+<SectionTitle fancy>A Song of Praise</SectionTitle>
 <Line bold text="Glory to you, Lord God of our fathers; *" />
 <Line bold indent text="you are worthy of praise; glory to you." />
 <PageNumber page={18} text="daily office" />

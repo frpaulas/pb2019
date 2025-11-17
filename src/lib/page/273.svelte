@@ -9,7 +9,7 @@
 </script>
 
 <PsalmNumber n={psalm5.number} />
-<SectionTitle fancy text={psalm5.name} />
+<SectionTitle fancy>{psalm5.name}</SectionTitle>
 
 <ShowPsalm ps={5} to={12} />
 

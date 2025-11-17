@@ -6,17 +6,14 @@
 	import Line from '$lib/page_helpers/line.svelte';
 </script>
 
-<TextBlock
-	text="we, reaching forth our hands in love, may bring those who do
+<TextBlock amen>we, reaching forth our hands in love, may bring those who do
 not know you to the knowledge and love of you; for the honor
-of your Name."
-	amen
-/>
-<Rubric text="The Officiant may invite the People to offer intercessions and thanksgivings." />
-<Rubric text="A hymn or anthem may be sung." />
-<Rubric text="Before the close of the Office one or both of the following prayers may be used." />
-<SectionTitle text="the general thanksgiving" />
-<Rubric text="Officiant and People" />
+of your Name.</TextBlock>
+<Rubric>The Officiant may invite the People to offer intercessions and thanksgivings.</Rubric>
+<Rubric>A hymn or anthem may be sung.</Rubric>
+<Rubric>Before the close of the Office one or both of the following prayers may be used.</Rubric>
+<SectionTitle>the general thanksgiving</SectionTitle>
+<Rubric>Officiant and People</Rubric>
 <Line bold text="Almighty God, Father of all mercies," />
 <Line bold indent text="we your unworthy servants give you humble thanks" />
 <Line bold indent text="for all your goodness and loving-kindness" />

@@ -8,16 +8,14 @@
 	import Gloria from '$lib/text_component/gloria.svelte';
 </script>
 
-<Rubric text="Or the Reader may say" />
+<Rubric>Or the Reader may say</Rubric>
 
 <Versical text="Here ends the Reading." />
-<Rubric
-	text="The following Canticles are normally sung or said after each of the lessons. The
+<Rubric>The following Canticles are normally sung or said after each of the lessons. The
  Officiant may also use a Canticle drawn from the Supplemental Canticles (pages
- 79-88) or an appropriate song of praise."
-/>
-<SectionTitle text="magnificat" />
-<SectionTitle fancy text="The Song of Mary" />
+ 79-88) or an appropriate song of praise.</Rubric>
+<SectionTitle>magnificat</SectionTitle>
+<SectionTitle fancy>The Song of Mary</SectionTitle>
 <Line bold text="My soul magnifies the Lord, *" />
 <Line bold indent text="and my spirit rejoices in God my Savior;" />
 <Line bold indent text="For he has regarded *" />

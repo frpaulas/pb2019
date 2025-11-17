@@ -25,8 +25,8 @@
 	ln1="I have applied my heart to fulfill your statutes always, "
 	ln2="even unto the end."
 />
-<SectionTitle text="psalm 121" />
-<SectionTitle fancy text="Levavi oculos" />
+<SectionTitle>psalm 121</SectionTitle>
+<SectionTitle fancy>Levavi oculos</SectionTitle>
 <Psalm vs="1" ln1="I will lift up my eyes unto the hills; " ln2="from whence comes my help?" />
 <Psalm vs="2" ln1="My help comes from the Lord, " ln2="who has made heaven and earth." />
 <Psalm

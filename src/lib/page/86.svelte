@@ -4,6 +4,6 @@
 	import DeusMisereatur from '$lib/canticle/deus_misereatur.svelte';
 </script>
 
-<Rubric text="Canticle 8, Ecce, Deus is on page 85" />
+<Rubric>Canticle 8, Ecce, Deus is on page 85</Rubric>
 <DeusMisereatur />
 <PageNumber page={86} text="daily office" />

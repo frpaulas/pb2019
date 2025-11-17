@@ -15,17 +15,14 @@ Christ Jesus."
 	ref="philippians 4:6-7"
 />
 
-<Rubric text="A period of silence may follow." />
-<Rubric text="Prayers may be offered for ourselves and others." />
+<Rubric>A period of silence may follow.</Rubric>
+<Rubric>Prayers may be offered for ourselves and others.</Rubric>
 
-<SectionTitle size="2xl" text="the lord’s prayer" />
-<SectionTitle size="2xl" text="the collect" />
+<SectionTitle size="2xl">the lord’s prayer</SectionTitle>
+<SectionTitle size="2xl">the collect</SectionTitle>
 
-<TextBlock
-	text="Blessed Savior, at this hour you hung upon the Cross, stretching
+<TextBlock amen>Blessed Savior, at this hour you hung upon the Cross, stretching
 out your loving arms: Grant that all the peoples of the earth
-may look to you and be saved; for your tender mercies’ sake."
-	amen
-/>
+may look to you and be saved; for your tender mercies’ sake.</TextBlock>
 
 <PageNumber page={70} text="Daily Office" />

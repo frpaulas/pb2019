@@ -7,15 +7,15 @@
 	import Gloria from '$lib/text_component/gloria.svelte';
 </script>
 
-<SectionTitle size="3xl" text="midday prayer" />
+<SectionTitle size="3xl">midday prayer</SectionTitle>
 <Versical officiant text="O God, make speed to save us;" />
 <Versical people text="O Lord, make haste to help us." />
 <Gloria versical />
-<Rubric text="Except in Lent, add" add_on=" Alleluia." />
-<Rubric text="A suitable hymn may be sung." />
-<Rubric text="One or more of the following, or some other suitable Psalm, is sung or said." />
-<SectionTitle text="psalm 119:105-112" />
-<SectionTitle fancy text="Lucerna pedibus meis" />
+<Rubric add_on=" Alleluia.">Except in Lent, add</Rubric>
+<Rubric>A suitable hymn may be sung.</Rubric>
+<Rubric>One or more of the following, or some other suitable Psalm, is sung or said.</Rubric>
+<SectionTitle>psalm 119:105-112</SectionTitle>
+<SectionTitle fancy>Lucerna pedibus meis</SectionTitle>
 <Psalm vs="105" ln1="Your word is a lantern to my feet" ln2="and a light upon my path." />
 
 <Psalm

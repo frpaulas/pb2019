@@ -10,22 +10,15 @@
 
 <GuideUs />
 <LetUsBless />
-<Rubric text="The Officiant concludes with the following" />
-<TextBlock
-	text="The almighty and merciful Lord, Father, Son, and Holy Spirit,
-    bless us and keep us, this night and evermore."
-	amen
-/>
-<SectionTitle size="3xl" text="additional directions" />
-<TextBlock
-	text="A Bishop or Priest, if present, may pronounce absolution after the
-    confession."
-/>
-<TextBlock
-	text="For those saying Compline every day, particularly in families or other
+<Rubric>The Officiant concludes with the following</Rubric>
+<TextBlock amen>The almighty and merciful Lord, Father, Son, and Holy Spirit,
+    bless us and keep us, this night and evermore.</TextBlock>
+<SectionTitle size="3xl">additional directions</SectionTitle>
+<TextBlock>A Bishop or Priest, if present, may pronounce absolution after the
+    confession.</TextBlock>
+<TextBlock>For those saying Compline every day, particularly in families or other
 communities, additional short Scriptural readings may be desired. Some
-appropriate readings include:"
-/>
+appropriate readings include:</TextBlock>
 <Line indent text="isaiah 26:3-4" />
 <Line indent text="isaiah 30:15" />
 <Line indent text="matthew 6:31-34" />
@@ -33,9 +26,7 @@ appropriate readings include:"
 <Line indent text="1 thessalonians 5:9-10" />
 <Line indent text="1 thessalonians 5:23" />
 <Line indent text="ephesians 4:26-27" />
-<TextBlock
-	text="Either version of the Lord’s Prayer may be ended with, “deliver us from
-    evil. Amen.” omitting the concluding doxology."
-/>
+<TextBlock>Either version of the Lord’s Prayer may be ended with, “deliver us from
+    evil. Amen.” omitting the concluding doxology.</TextBlock>
 
 <PageNumber page={65} text="Compline" />

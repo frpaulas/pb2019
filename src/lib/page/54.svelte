@@ -4,8 +4,8 @@
 	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 </script>
 
-<SectionTitle size="3xl" text="opening sentences of scripture" />
-<SectionTitle text="advent" />
+<SectionTitle size="3xl">opening sentences of scripture</SectionTitle>
+<SectionTitle>advent</SectionTitle>
 <Scripture
 	text="Therefore stay awake—for you do not know when the master of
 the house will come, in the evening, or at midnight, or when the
@@ -13,20 +13,20 @@ rooster crows, or in the morning—lest he come suddenly and
 find you asleep."
 	ref="mark 13:35-36"
 />
-<SectionTitle text="christmas" />
+<SectionTitle>christmas</SectionTitle>
 <Scripture
 	text="Behold, the dwelling place of God is with man. He will dwell
 with them, and they will be his people, and God himself will be
 with them as their God."
 	ref="revelation 21:3"
 />
-<SectionTitle text="epiphany" />
+<SectionTitle>epiphany</SectionTitle>
 <Scripture
 	text="Nations shall come to your light, and kings to the brightness of
     your rising."
 	ref="isaiah 60:3"
 />
-<SectionTitle text="lent and other penitential occasions" fancyAnd />
+<SectionTitle fancyAnd>lent and other penitential occasions</SectionTitle>
 <Scripture
 	text="If we say we have no sin, we deceive ourselves, and the truth is
 not in us. If we confess our sins, he is faithful and

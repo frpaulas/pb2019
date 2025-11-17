@@ -12,11 +12,11 @@
 <ShowPsalm ps={116} from={16} />
 
 <PsalmNumber n={psalm117.number} />
-<SectionTitle fancy text={psalm117.name} latin_size />
+<SectionTitle fancy latin_size>{psalm117.name}</SectionTitle>
 <ShowPsalm ps={117} />
 
 <PsalmNumber n={psalm118.number} />
-<SectionTitle fancy text={psalm118.name} latin_size />
+<SectionTitle fancy latin_size>{psalm118.name}</SectionTitle>
 <ShowPsalm ps={118} to={8} />
 
 <PageNumber page={425} text="Day 24: Morning Prayer | Psalm 118 |" />

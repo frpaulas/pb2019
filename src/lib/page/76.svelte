@@ -8,10 +8,10 @@
 	import ForRelativesAndFriends from '$lib/prayers/for_relatives_and_friends.svelte';
 </script>
 
-<SectionTitle size="2xl" text="additional prayers" />
+<SectionTitle size="2xl">additional prayers</SectionTitle>
 <SpiritOfPrayer />
 <ForThoseWeLove />
 <ForTheFamily />
 <ForRelativesAndFriends />
-<Rubric text="The Prayer for Relatives and Friends is repeated on page 77" />
+<Rubric>The Prayer for Relatives and Friends is repeated on page 77</Rubric>
 <PageNumber page={76} text="Daily Office" />

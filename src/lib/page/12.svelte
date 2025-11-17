@@ -6,18 +6,16 @@
 	import OrThis from '$lib/text_component/or_this.svelte';
 </script>
 
-<TextBlock
-	text="mercy. We ought at all times humbly to acknowledge our sins
+<TextBlock>mercy. We ought at all times humbly to acknowledge our sins
 before Almighty God, but especially when we come together
 in his presence to give thanks for the great benefits we have
 received at his hands, to declare his most worthy praise, to hear
 his holy Word, and to ask, for ourselves and on behalf of others,
 those things which are necessary for our life and our salvation.
-Therefore, draw near with me to the throne of heavenly grace."
-/>
+Therefore, draw near with me to the throne of heavenly grace.</TextBlock>
 <OrThis />
-<TextBlock text="Let us humbly confess our sins to Almighty God." />
-<Rubric text="Silence is kept. All kneeling, the Officiant and People say" />
+<TextBlock>Let us humbly confess our sins to Almighty God.</TextBlock>
+<Rubric>Silence is kept. All kneeling, the Officiant and People say</Rubric>
 <Line text="Almighty and most merciful Father," bold />
 <Line text="we have erred and strayed from your ways like lost sheep." bold indent />
 <Line text="We have followed too much the devices and desires" bold />
@@ -34,9 +32,7 @@ Therefore, draw near with me to the throne of heavenly grace."
 <Line text="And grant, O most merciful Father, for his sake," bold />
 <Line text="that we may now live a godly, righteous, and sober life," bold indent />
 <Line text="to the glory of your holy Name. Amen." bold indent />
-<Rubric text="The Priest alone stands and says" />
-<TextBlock
-	text="Almighty God, the Father of our Lord Jesus Christ, desires
-    not the death of sinners, but that they may turn from their"
-/>
+<Rubric>The Priest alone stands and says</Rubric>
+<TextBlock>Almighty God, the Father of our Lord Jesus Christ, desires
+    not the death of sinners, but that they may turn from their</TextBlock>
 <PageNumber page={12} text="daily office" />

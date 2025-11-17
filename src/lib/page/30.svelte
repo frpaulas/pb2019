@@ -4,22 +4,22 @@
 	import Line from '$lib/page_helpers/line.svelte';
 </script>
 
-<SectionTitle text="lent" />
+<SectionTitle>lent</SectionTitle>
 <Line text="The Lord is full of compassion and mercy: *" />
 <Line indent bold text="O come, let us adore him." />
-<SectionTitle text="easter until ascension" />
+<SectionTitle>easter until ascension</SectionTitle>
 <Line text="Alleluia. The Lord is risen indeed: *" />
 <Line indent bold text="O come, let us adore him. Alleluia." />
-<SectionTitle text="ascension until pentecost" />
+<SectionTitle>ascension until pentecost</SectionTitle>
 <Line text="Alleluia. Christ the Lord has ascended into heaven: *" />
 <Line indent bold text="O come, let us adore him. Alleluia." />
-<SectionTitle text="day of pentecost" />
+<SectionTitle>day of pentecost</SectionTitle>
 <Line text="Alleluia. The Spirit of the Lord renews the face of the earth: *" />
 <Line indent bold text="O come, let us adore him. Alleluia." />
-<SectionTitle text="trinity sunday" />
+<SectionTitle>trinity sunday</SectionTitle>
 <Line text="Father, Son, and Holy Spirit, one God: *" />
 <Line indent bold text="O come, let us adore him." />
-<SectionTitle text="all saints’ and other major saints’ days" />
+<SectionTitle>all saints’ and other major saints’ days</SectionTitle>
 <Line text="The Lord is glorious in his saints: *" />
 <Line indent bold text="O come, let us adore him." />
 <PageNumber page={30} text="daily office" />

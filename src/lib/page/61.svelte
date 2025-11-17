@@ -20,9 +20,9 @@
 />
 <Psalm vs="3" ln1="Lift up your hands in the sanctuary *" ln2="and sing praises unto the Lord." />
 <Psalm vs="4" ln1="The Lord who made heaven and earth *" ln2="give you blessing out of Zion." />
-<Rubric text="At the end of the Psalms the Gloria Patri (Glory be...) is sung or said" />
+<Rubric>At the end of the Psalms the Gloria Patri (Glory be...) is sung or said</Rubric>
 <Gloria />
-<Rubric text="One of the following, or some other suitable passage of Scripture, is read" />
+<Rubric>One of the following, or some other suitable passage of Scripture, is read</Rubric>
 <Scripture
 	text="You, O Lord, are in the midst of us, and we are called by your name; do not leave
     us."

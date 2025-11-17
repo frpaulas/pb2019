@@ -6,17 +6,17 @@
 	import Versical from '$lib/page_helpers/versical.svelte';
 </script>
 
-<SectionTitle size="3xl" text="compline" />
-<Rubric text="The Officiant begins" />
+<SectionTitle size="3xl">compline</SectionTitle>
+<Rubric>The Officiant begins</Rubric>
 
 <Line text="The Lord Almighty grant us a peaceful" amen />
 <Line indent text="and a perfect end." amen />
 Officiant People
 <Versical officiant text="Our help is in the Name of the Lord;" />
 <Versical people text="The maker of heaven and earth." />
-<Rubric text="The Officiant continues" />
+<Rubric>The Officiant continues</Rubric>
 <Line text="Let us humbly confess our sins to Almighty God." />
-<Rubric text="Silence may be kept. The Officiant and People then say" />
+<Rubric>Silence may be kept. The Officiant and People then say</Rubric>
 <Line bold text="Almighty God and Father, we confess to you," />
 <Line bold text="to one another, and to the whole company of heaven," />
 <Line bold indent text="that we have sinned, through our own fault," />

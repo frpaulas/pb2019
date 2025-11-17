@@ -20,19 +20,14 @@
 	text="Graciously hear us, O Christ; graciously hear us,
     O Lord Christ."
 />
-<Rubric text="The Officiant prays" />
+<Rubric>The Officiant prays</Rubric>
 <Line text="Let us pray." />
-<TextBlock
-	text="Look mercifully, O Father, on our infirmities; and, for the glory
+<TextBlock amen>Look mercifully, O Father, on our infirmities; and, for the glory
 of your Name, rescue us from all those evils we now endure; and
 grant that in all our troubles we may put our whole trust and
 confidence in your mercy, serving you in holiness and purity of
 life, to your honor and glory; through our only Mediator and
-Advocate, Jesus Christ our Lord."
-	amen
-/>
-<Rubric
-	text="The Supplication may end here, or may conclude with the prayer of St. John
-    Chrysostom and the Grace (page 52)."
-/>
+Advocate, Jesus Christ our Lord.</TextBlock>
+<Rubric>The Supplication may end here, or may conclude with the prayer of St. John
+    Chrysostom and the Grace (page 52).</Rubric>
 <PageNumber page={98} text="great litany & decalogue" />

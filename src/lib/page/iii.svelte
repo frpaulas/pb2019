@@ -4,17 +4,17 @@
 </script>
 
 <NewPage />
-<SectionTitle size="4xl" text="the book of" />
-<SectionTitle size="5xl" text="common prayer" />
-<SectionTitle fancy size="2xl" text="and" />
-<SectionTitle size="3xl" text="administration of the" />
-<SectionTitle size="3xl" text="sacraments" />
-<SectionTitle fancy size="sxl" text="with" />
-<SectionTitle size="2xl" text="other rites and ceremonies of the church" />
-<SectionTitle fancy size="2xl" text="According to the use of the" />
-<SectionTitle size="3xl" text="anglican church in north america" />
-<SectionTitle fancy size="2xl" text="Together with" />
-<SectionTitle size="2xl" text="the new cover dale psalter" />
-<SectionTitle size="2xl" text="anno domini 2019" />
-<SectionTitle size="2xl" text="anglican liturgy press" />
+<SectionTitle size="4xl">the book of</SectionTitle>
+<SectionTitle size="5xl">common prayer</SectionTitle>
+<SectionTitle fancy size="2xl">and</SectionTitle>
+<SectionTitle size="3xl">administration of the</SectionTitle>
+<SectionTitle size="3xl">sacraments</SectionTitle>
+<SectionTitle fancy size="sxl">with</SectionTitle>
+<SectionTitle size="2xl">other rites and ceremonies of the church</SectionTitle>
+<SectionTitle fancy size="2xl">According to the use of the</SectionTitle>
+<SectionTitle size="3xl">anglican church in north america</SectionTitle>
+<SectionTitle fancy size="2xl">Together with</SectionTitle>
+<SectionTitle size="2xl">the new cover dale psalter</SectionTitle>
+<SectionTitle size="2xl">anno domini 2019</SectionTitle>
+<SectionTitle size="2xl">anglican liturgy press</SectionTitle>
 <NewPage />

@@ -11,7 +11,7 @@
 <ShowPsalm ps={75} from={3} />
 
 <PsalmNumber n={psalm76.number} />
-<SectionTitle fancy text={psalm76.name} latin_size />
+<SectionTitle fancy latin_size>{psalm76.name}</SectionTitle>
 <ShowPsalm ps={76} to={3} />
 
 <PageNumber page={365} text="Day 15: Morning Prayer | Psalm 76 |" />

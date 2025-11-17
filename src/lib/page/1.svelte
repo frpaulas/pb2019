@@ -4,16 +4,13 @@
 	import TextBlock from '$lib/page_helpers/text_block.svelte';
 </script>
 
-<SectionTitle text="preface" />
-<TextBlock
-	text="
+<SectionTitle>preface</SectionTitle>
+<TextBlock>
 	Christianity—the fullness of the good news about Jesus Christ—came very early to what would
 	eventually be called Anglia (England) through the witness of soldiers, sailors, merchants, and
 	missionaries. Legend holds that the biblical tomb-giver, Joseph of Arimathea, was among the first
-	of those scattered evangelists."
-/>
-<TextBlock
-	text="
+	of those scattered evangelists.</TextBlock>
+<TextBlock>
 	The early Christian mission in the British Isles was an encounter with pagan tribes and societies.
 	Converts banded together, and in this context communities of common prayer, learning, and
 	Christ-like service emerged, living under agreed rules. Thus “monasteries” became centers of the
@@ -24,6 +21,5 @@
 	grace, was a Church that saw herself, in each of her local manifestations, as part of the One,
 	Holy, Catholic, and Apostolic Church: culturally attuned and missionally adaptive, but ever
 	committed to and always propagating “the faith that was once for all delivered to the saints”
-	(jude 1:3)."
-/>
+	(jude 1:3).</TextBlock>
 <PageNumber text="preface" page={1} />

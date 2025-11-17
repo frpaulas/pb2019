@@ -4,10 +4,10 @@
 	import NewPage from '$lib/page_helpers/new_page.svelte';
 </script>
 
-<SectionTitle size="4xl" fancyOf text="table of contents" />
+<SectionTitle size="4xl" fancyOf>table of contents</SectionTitle>
 <TOC text="preface" page={1} />
 <TOC text="concerning the divine service of the church" page={6} />
-<SectionTitle size="3xl" text="daily office" />
+<SectionTitle size="3xl">daily office</SectionTitle>
 <TOC text="morning prayer" page={11} />
 <TOC text="midday prayer" page={33} />
 <TOC text="evening prayer" page={41} />
@@ -16,7 +16,7 @@
 <TOC text="supplemental canticles for worship" page={79} />
 <TOC text="great litany and supplication" page={91} />
 <TOC text="decalogue" page={100} />
-<SectionTitle size="3xl" text="holy eucharist" />
+<SectionTitle size="3xl">holy eucharist</SectionTitle>
 <TOC text="holy eucharist: Anglican Standard Text" page={105} />
 <TOC text="holy eucharist: Renewed Ancient Text" page={123} />
 <TOC text="additional directions" page={139} />

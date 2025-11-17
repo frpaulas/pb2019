@@ -7,25 +7,19 @@
 	import GuideUs from '$lib/text_component/guide_us.svelte';
 </script>
 
-<TextBlock
-	text="Keep watch, dear Lord, with those who work, or watch, or weep
+<TextBlock amen>Keep watch, dear Lord, with those who work, or watch, or weep
 this night, and give your angels charge over those who sleep.
 Tend the sick, Lord Christ; give rest to the weary, bless the
 dying, soothe the suffering, pity the afflicted, shield the joyous;
-and all for your love’s sake."
-	amen
-/>
+and all for your love’s sake.</TextBlock>
 <OrThis />
-<TextBlock
-	text="O God, your unfailing providence sustains the world we live in
+<TextBlock amen>O God, your unfailing providence sustains the world we live in
 and the life we live: Watch over those, both night and day, who
 work while others sleep, and grant that we may never forget that
 our common life depends upon each other’s toil; through Jesus
-Christ our Lord."
-	amen
-/>
-<Rubric text="Silence may be kept, and other intercessions and thanksgivings may be offered." />
-<Rubric text="The Officiant and People say or sing the Song of Simeon with this Antiphon" />
+Christ our Lord.</TextBlock>
+<Rubric>Silence may be kept, and other intercessions and thanksgivings may be offered.</Rubric>
+<Rubric>The Officiant and People say or sing the Song of Simeon with this Antiphon</Rubric>
 <GuideUs />
 <NuncDimittis />
 

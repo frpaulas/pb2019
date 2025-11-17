@@ -26,13 +26,13 @@
 	{#if kjv}
 		<div>
 			<PsalmNumber n={psalm23kjv.number} />
-			<SectionTitle fancy text={psalm23kjv.name} latin_size />
+			<SectionTitle fancy latin_size>{psalm23kjv.name}</SectionTitle>
 			<ShowPsalm ps="23kjv" />
 		</div>
 	{:else}
 		<div>
 			<PsalmNumber n={psalm23.number} />
-			<SectionTitle fancy text={psalm23.name} latin_size />
+			<SectionTitle fancy latin_size>{psalm23.name}</SectionTitle>
 			<ShowPsalm ps={23} />
 		</div>
 	{/if}

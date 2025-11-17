@@ -7,12 +7,9 @@
 	import Versical from '$lib/page_helpers/versical.svelte';
 </script>
 
-<Rubric text="The Officiant alone says" />
-<TextBlock
-	text="May Almighty God grant us forgiveness of all our sins,
-    and the grace and comfort of the Holy Spirit."
-	amen
-/>
+<Rubric>The Officiant alone says</Rubric>
+<TextBlock amen>May Almighty God grant us forgiveness of all our sins,
+    and the grace and comfort of the Holy Spirit.</TextBlock>
 <Versical officiant text="O God, make speed to save us;" />
 <Versical people text="O Lord, make haste to help us." />
 <Versical officiant text="Glory be to the Father, and to the Son, and to the Holy Spirit;" />
@@ -20,10 +17,10 @@
 	people
 	text="As it was in the beginning, is now, and ever shall be, world without end. Amen."
 />
-<Rubric text="Except in Lent, add" add_on="Alleluia." />
-<Rubric text="One or more of the following, or some other suitable Psalm, is sung or said." />
-<SectionTitle text="psalm 4" />
-<SectionTitle fancy text="Cum invocarem" />
+<Rubric add_on="Alleluia.">Except in Lent, add</Rubric>
+<Rubric>One or more of the following, or some other suitable Psalm, is sung or said.</Rubric>
+<SectionTitle>psalm 4</SectionTitle>
+<SectionTitle fancy>Cum invocarem</SectionTitle>
 <Psalm
 	vs="1"
 	ln1="Hear me when I call, O God of my righteousness; *"

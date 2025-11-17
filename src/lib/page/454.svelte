@@ -9,12 +9,12 @@
 </script>
 
 <PsalmNumber n={psalm138.number} />
-<SectionTitle fancy text={psalm138.name} latin_size />
+<SectionTitle fancy latin_size>{psalm138.name}</SectionTitle>
 <ShowPsalm ps={138} />
 
-<SectionTitle text="day 29 : morning prayer" />
+<SectionTitle>day 29 : morning prayer</SectionTitle>
 <PsalmNumber n={psalm139.number} />
-<SectionTitle fancy text={psalm139.name} latin_size />
+<SectionTitle fancy latin_size>{psalm139.name}</SectionTitle>
 <ShowPsalm ps={139} to={1} />
 
 <PageNumber page={454} text="the psalter" />

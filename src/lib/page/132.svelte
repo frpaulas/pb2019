@@ -9,8 +9,8 @@
 
 <SursumCorda />
 <Sanctus />
-<SectionTitle text="The prayer of consecration" />
-<Rubric text="The People stand or kneel. The Celebrant continues" />
+<SectionTitle>The prayer of consecration</SectionTitle>
+<Rubric>The People stand or kneel. The Celebrant continues</Rubric>
 <p class="mb-4">
 	Holy and gracious Father: In your infinite love you made us for yourself; and when we had sinned
 	against you and become<PageNumber page={132} text="the holy eucharist" />subject to evil and
@@ -21,9 +21,7 @@
 	Satan under his feet. As our great high priest, he ascended to your right hand in glory, that we
 	might come with confidence before the throne of grace.
 </p>
-<Rubric
-	text="At the following words concerning the bread, the Celebrant is to hold it, or lay
+<Rubric>At the following words concerning the bread, the Celebrant is to hold it, or lay
 a hand upon it, and here* may break the bread; and at the words concerning the
 cup, to hold or place a hand upon the cup and any other vessel containing the wine
-to be consecrated."
-/>
+to be consecrated.</Rubric>

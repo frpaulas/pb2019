@@ -9,11 +9,11 @@
 </script>
 
 <PsalmNumber n={psalm99.number} />
-<SectionTitle fancy text={psalm99.name} latin_size />
+<SectionTitle fancy latin_size>{psalm99.name}</SectionTitle>
 <ShowPsalm ps={99} />
 
 <PsalmNumber n={psalm100.number} />
-<SectionTitle fancy text={psalm100.name} latin_size />
+<SectionTitle fancy latin_size>{psalm100.name}</SectionTitle>
 <ShowPsalm ps={100} to={2} />
 
 <PageNumber page={398} text="the psalter" />

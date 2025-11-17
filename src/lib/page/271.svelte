@@ -13,7 +13,7 @@
 
 <br />
 <PsalmNumber n={psalm3.number} />
-<SectionTitle fancy text={psalm3.name} latin_size />
+<SectionTitle fancy latin_size>{psalm3.name}</SectionTitle>
 
 <ShowPsalm ps={3} to={4} />
 

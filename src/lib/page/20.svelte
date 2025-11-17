@@ -14,7 +14,7 @@
 <Line bold indent text="and to guide our feet into the way of peace." />
 <Gloria />
 <Ref text="luke 1:68-79" />
-<Rubric text="Officiant and People together, all standing" />
+<Rubric>Officiant and People together, all standing</Rubric>
 <ApostlesCreed />
 
 <PageNumber page={20} text="daily office" />

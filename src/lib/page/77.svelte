@@ -8,7 +8,7 @@
 </script>
 
 <ForRelativesAndFriends />
-<Rubric text="The Prayer for Relatives and Friends is repeated on page 76" />
+<Rubric>The Prayer for Relatives and Friends is repeated on page 76</Rubric>
 <ForChildren />
 <InTheMorning />
 <AtNight />

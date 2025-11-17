@@ -8,11 +8,11 @@
 	import LordsPrayer from '$lib/text_component/lords_prayer.svelte';
 </script>
 
-<SectionTitle text="the prayers" />
+<SectionTitle>the prayers</SectionTitle>
 <LordBeWithYou />
 <Kyrie />
 <LordsPrayer />
-<Rubric text="Then follows one of these sets of Suffrages" />
+<Rubric>Then follows one of these sets of Suffrages</Rubric>
 <Versical officiant text="O Lord, show your mercy upon us;" />
 <Versical people text="And grant us your salvation." />
 <Versical officiant text="O Lord, guide those who govern us;" />

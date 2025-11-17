@@ -5,7 +5,7 @@
 	import Psalm119Section from '$lib/page_helpers/psalm_119_section.svelte';
 </script>
 
-<SectionTitle text="day 26 : evening prayer" />
+<SectionTitle>day 26 : evening prayer</SectionTitle>
 
 <Psalm119Section vs={145} />
 <ShowPsalm ps={119} from={145} to={152} />

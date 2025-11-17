@@ -6,12 +6,12 @@
 	import Kyrie from '$lib/text_component/kyrie.svelte';
 </script>
 
-<Rubric text="The Officiant then begins the Prayers" />
+<Rubric>The Officiant then begins the Prayers</Rubric>
 Officiant People
 <Versical officiant text="I will bless the Lord at all times." />
 <Versical people text="His praise shall continually be in my mouth." />
 <Kyrie />
-<Rubric text="Officiant and People" />
+<Rubric>Officiant and People</Rubric>
 <LordsPrayer />
 <Versical officiant text="O Lord, hear our prayer;" />
 <Versical people text="And let our cry come to you." />

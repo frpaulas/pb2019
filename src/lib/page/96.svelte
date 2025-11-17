@@ -16,12 +16,10 @@
 <Line text="Lord, have mercy upon us." />
 <Line indent bold text="Christ, have mercy upon us." />
 <Line text="Lord, have mercy upon us." />
-<Rubric
-	text="When the Litany is sung or said immediately before the Eucharist, the Litany
+<Rubric>When the Litany is sung or said immediately before the Eucharist, the Litany
 concludes here, and the Eucharist begins with the Salutation (“The Lord be with
-you”) and the Collect of the Day."
-/>
-<Rubric text="On all other occasions, the Officiant and People say or sing together" />
+you”) and the Collect of the Day.</Rubric>
+<Rubric>On all other occasions, the Officiant and People say or sing together</Rubric>
 
 <LordsPrayer />
 

@@ -16,8 +16,8 @@
 <Line bold text="Glory to you, Father, Son, and Holy Spirit; *" />
 <Line bold indent text="we will praise you and highly exalt you for ever." />
 <Ref text="song of the three young men, 29-34" />
-<SectionTitle text="benedictus" />
-<SectionTitle fancy text="The Song of Zechariah" />
+<SectionTitle>benedictus</SectionTitle>
+<SectionTitle fancy>The Song of Zechariah</SectionTitle>
 <Line bold text="Blessed be the Lord, the God of Israel; *" />
 <Line bold indent text="he has come to his people and set them free." />
 <Line bold text="He has raised up for us a mighty savior, *" />

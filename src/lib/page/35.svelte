@@ -4,8 +4,8 @@
 	import Psalm from '$lib/page_helpers/psalm.svelte';
 </script>
 
-<SectionTitle text="psalm 124" />
-<SectionTitle fancy text="Nisi quia Dominus" />
+<SectionTitle>psalm 124</SectionTitle>
+<SectionTitle fancy>Nisi quia Dominus</SectionTitle>
 <Psalm
 	vs="1"
 	ln1="If the Lord himself had not been on our side, now may Israel say: "
@@ -32,8 +32,8 @@
 	ln2="the snare is broken, and we have been delivered."
 />
 <Psalm vs="6" ln1="Our help is in the Name of the Lord, *" ln2="the maker of heaven and earth." />
-<SectionTitle text="psalm 126" />
-<SectionTitle fancy text="In convertendo" />
+<SectionTitle>psalm 126</SectionTitle>
+<SectionTitle fancy>In convertendo</SectionTitle>
 <Psalm
 	vs="1"
 	ln1="When the Lord overturned the captivity of Zion, "

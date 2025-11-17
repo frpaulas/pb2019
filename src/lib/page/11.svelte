@@ -7,12 +7,12 @@
 	import OrThis from '$lib/text_component/or_this.svelte';
 </script>
 
-<SectionTitle size="3xl" text="daily morning prayer" />
+<SectionTitle size="3xl">daily morning prayer</SectionTitle>
 <Rubric
-	text="The Officiant may begin Morning Prayer by reading an opening sentence of
-Scripture. One of the following, or a sentence from among those provided at the
-end of the Office (pages 27-29), is customary."
-/>
+	>The Officiant may begin Morning Prayer by reading an opening sentence of Scripture. One of the
+	following, or a sentence from among those provided at the end of the Office (pages 27-29), is
+	customary.</Rubric
+>
 <Scripture
 	text="Grace to you and peace from God our Father and the Lord
     Jesus Christ."
@@ -31,12 +31,10 @@ be always acceptable in your sight, O Lord, my rock and my
 redeemer."
 	ref="psalm 19:14"
 />
-<SectionTitle size="1xl" text="confession of sin" />
-<Rubric text="The Officiant says to the People" />
-<TextBlock
-	text="Dearly beloved, the Scriptures teach us to acknowledge our
+<SectionTitle size="1xl">confession of sin</SectionTitle>
+<Rubric>The Officiant says to the People</Rubric>
+<TextBlock>Dearly beloved, the Scriptures teach us to acknowledge our
 many sins and offenses, not concealing them from our heavenly
 Father, but confessing them with humble and obedient hearts
-that we may obtain forgiveness by his infinite goodness and"
-/>
+that we may obtain forgiveness by his infinite goodness and</TextBlock>
 <PageNumber text="daily morning prayer" page={11} />

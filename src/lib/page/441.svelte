@@ -9,11 +9,11 @@
 </script>
 
 <PsalmNumber n={psalm121.number} />
-<SectionTitle fancy text={psalm121.name} latin_size />
+<SectionTitle fancy latin_size>{psalm121.name}</SectionTitle>
 <ShowPsalm ps={121} />
 
 <PsalmNumber n={psalm122.number} />
-<SectionTitle fancy text={psalm122.name} latin_size />
+<SectionTitle fancy latin_size>{psalm122.name}</SectionTitle>
 <ShowPsalm ps={122} to={4} />
 
 <PageNumber page={441} text="Day 27: Morning Prayer | Psalm 122 |" />

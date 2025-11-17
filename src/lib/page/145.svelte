@@ -6,26 +6,26 @@
 	import Versical from '$lib/page_helpers/versical.svelte';
 </script>
 
-<SectionTitle text="supplemental" />
-<SectionTitle text="eucharistic texts" />
-<SectionTitle text="seasonal greetings" />
+<SectionTitle>supplemental</SectionTitle>
+<SectionTitle>eucharistic texts</SectionTitle>
+<SectionTitle>seasonal greetings</SectionTitle>
 <Rubric
 	text="The opening Acclamation may be replaced by a greeting appropriate to the season
     or the occasion, such as the following"
 />
-<SectionTitle text="for advent" />
+<SectionTitle>for advent</SectionTitle>
 <br />
 <Versical celebrant text="Surely the Lord is coming soon." />
 <Versical people text="Amen. Come Lord Jesus!" />
 <Ref text="revelation 22:20" />
 <br />
-<SectionTitle text="for christmastide ~_and_~ the feast of the presentation of christ" />
+<SectionTitle>for christmastide ~_and_~ the feast of the presentation of christ</SectionTitle>
 <br />
 <Versical celebrant text="For unto us a child is born," />
 <Versical people text="Unto us a son is given." />
 <Ref text="isaiah 9:6" t />
 <br />
-<SectionTitle text="from the feast of the epiphany ~_to_~ the end of the epiphany season" />
+<SectionTitle>from the feast of the epiphany ~_to_~ the end of the epiphany season</SectionTitle>
 <br />
 <Versical celebrant text="I will make you as a light for the nations," />
 <Versical people text="That my salvation may reach to the end of the earth." />
