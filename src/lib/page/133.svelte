@@ -37,9 +37,9 @@ drink it, do this in remembrance of me.”"
 />
 <Line text="Therefore we proclaim the mystery of faith:" />
 <Rubric text="Celebrant and People" />
-<Line indent bold text="Christ has died." />
-<Line indent bold text="Christ is risen." />
-<Line indent bold text="Christ will come again." />
+<Line indent text="**Christ has died.**" />
+<Line indent text="**Christ is risen.**" />
+<Line indent text="**Christ will come again.**" />
 <TextBlock
 	text="We celebrate the memorial of our redemption, O Father, in this
 sacrifice of praise and thanksgiving, and we offer you these gifts."
