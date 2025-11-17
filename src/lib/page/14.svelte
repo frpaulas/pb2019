@@ -22,19 +22,19 @@
 <Antiphon call="The mercy of the Lord is everlasting: *" response="O come, let us adore him." />
 <SectionTitle size="1xl">venite</SectionTitle>
 <SectionTitle size="1xl" fancy>O Come</SectionTitle>
-<Line text="O come, let us sing unto the Lord; * " bold />
-<Line indent text="let us heartily rejoice in the strength of our salvation. " bold />
-<Line text="Let us come before his presence with thanksgiving * " bold />
-<Line indent text="and show ourselves glad in him with psalms. " bold />
-<Line text="For the Lord is a great God * " bold />
-<Line indent text="and a great King above all gods. " bold />
-<Line text="In his hand are all the depths of the earth, * " bold />
-<Line indent text="and the heights of the hills are his also. " bold />
-<Line text="The sea is his, for he made it, * " bold />
-<Line indent text="and his hands prepared the dry land. " bold />
-<Line text="O come, let us worship and fall down, * " bold />
-<Line indent text="and kneel before the Lord our Maker. " bold />
-<Line text="For he is our God, * " bold />
-<Line indent text="and we are the people of his pasture," />
-<Line indent text="and the sheep of his hand." bold />
+<Line bold>O come, let us sing unto the Lord; *</Line>
+<Line indent bold>let us heartily rejoice in the strength of our salvation.</Line>
+<Line bold>Let us come before his presence with thanksgiving *</Line>
+<Line indent bold>and show ourselves glad in him with psalms.</Line>
+<Line bold>For the Lord is a great God *</Line>
+<Line indent bold>and a great King above all gods.</Line>
+<Line bold>In his hand are all the depths of the earth, *</Line>
+<Line indent bold>and the heights of the hills are his also.</Line>
+<Line bold>The sea is his, for he made it, *</Line>
+<Line indent bold>and his hands prepared the dry land.</Line>
+<Line bold>O come, let us worship and fall down, *</Line>
+<Line indent bold>and kneel before the Lord our Maker.</Line>
+<Line bold>For he is our God, *</Line>
+<Line indent>and we are the people of his pasture,</Line>
+<Line indent bold>and the sheep of his hand.</Line>
 <PageNumber page={14} text="daily office" />

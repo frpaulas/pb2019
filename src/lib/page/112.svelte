@@ -24,11 +24,11 @@ new life, following the commandments of God, and walking
 in his holy ways: draw near with faith and make your humble
 confession to Almighty God.</TextBlock>
 <Rubric>or</Rubric>
-<Line text="Let us humbly confess our sins to Almighty God." />
+<Line>Let us humbly confess our sins to Almighty God.</Line>
 <Silence />
 <Rubric>The Deacon and People kneel as able and pray</Rubric>
-<Line bold text="Almighty God, Father of our Lord Jesus Christ," />
-<Line indent bold text="maker and judge of us all:" />
-<Line bold text="We acknowledge and lament our many sins and offenses," />
-<Line indent bold text="which we have committed by thought, word, and deed" />
+<Line bold>Almighty God, Father of our Lord Jesus Christ,</Line>
+<Line indent bold>maker and judge of us all:</Line>
+<Line bold>We acknowledge and lament our many sins and offenses,</Line>
+<Line indent bold>which we have committed by thought, word, and deed</Line>
 <PageNumber page={112} text="the holy eucharist" />

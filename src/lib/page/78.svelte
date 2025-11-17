@@ -12,15 +12,11 @@
 <SectionTitle size="2xl">family responses before meals</SectionTitle>
 <SectionTitle fancy latin_size>Traditional</SectionTitle>
 
-<Line text="The eyes of all wait upon thee, O Lord;" />
-<Line indent bold text="And thou givest them their meat in due season." />
-<Line text="Thou openest thine hand;" />
-<Line indent bold text="And fillest all things living with plenteousness." />
-<Line
-	text="Bless us, O Lord, and these thy gifts, which we are about to
-    receive from thy bounty, through Christ our Lord."
-	amen
-/>
+<Line>The eyes of all wait upon thee, O Lord;</Line>
+<Line indent bold>And thou givest them their meat in due season.</Line>
+<Line>Thou openest thine hand;</Line>
+<Line indent bold>And fillest all things living with plenteousness.</Line>
+<Line amen>Bless us, O Lord, and these thy gifts, which we are about to receive from thy bounty, through Christ our Lord.</Line>
 <GraceBeforeMeals />
 <Rubric
 	text="In Advent, using the Antiphons found in the Calendar of Holy Days and

@@ -5,23 +5,19 @@
 	import TextBlock from '$lib/page_helpers/text_block.svelte';
 </script>
 
-<Line text="O Lord, arise and help us;" />
-<Line indent bold text="And deliver us for your Name’s sake." />
-<Line text="From our enemies defend us, O Christ;" />
-<Line indent bold text="Graciously behold our afflictions." />
-<Line text="With pity behold the sorrows of our hearts;" />
-<Line indent bold text="Mercifully forgive the sins of your people." />
-<Line text="With favor hear our prayers;" />
-<Line indent bold text="O Son of David, have mercy upon us." />
-<Line text="Be pleased to hear us, O Christ;" />
-<Line
-	indent
-	bold
-	text="Graciously hear us, O Christ; graciously hear us,
-    O Lord Christ."
-/>
+<Line>O Lord, arise and help us;</Line>
+<Line indent bold>And deliver us for your Name’s sake.</Line>
+<Line>From our enemies defend us, O Christ;</Line>
+<Line indent bold>Graciously behold our afflictions.</Line>
+<Line>With pity behold the sorrows of our hearts;</Line>
+<Line indent bold>Mercifully forgive the sins of your people.</Line>
+<Line>With favor hear our prayers;</Line>
+<Line indent bold>O Son of David, have mercy upon us.</Line>
+<Line>Be pleased to hear us, O Christ;</Line>
+<Line indent
+	bold>Graciously hear us, O Christ; graciously hear us, O Lord Christ.</Line>
 <Rubric>The Officiant prays</Rubric>
-<Line text="Let us pray." />
+<Line>Let us pray.</Line>
 <TextBlock amen>Look mercifully, O Father, on our infirmities; and, for the glory
 of your Name, rescue us from all those evils we now endure; and
 grant that in all our troubles we may put our whole trust and

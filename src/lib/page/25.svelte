@@ -14,23 +14,23 @@ of your Name.</TextBlock>
 <Rubric>Before the close of the Office one or both of the following prayers may be used.</Rubric>
 <SectionTitle>the general thanksgiving</SectionTitle>
 <Rubric>Officiant and People</Rubric>
-<Line bold text="Almighty God, Father of all mercies," />
-<Line bold indent text="we your unworthy servants give you humble thanks" />
-<Line bold indent text="for all your goodness and loving-kindness" />
-<Line bold indent text="to us and to all whom you have made." />
-<Line bold text="We bless you for our creation, preservation," />
-<Line bold indent text="and all the blessings of this life;" />
-<Line bold indent text="but above all for your immeasurable love" />
-<Line bold indent text="in the redemption of the world by our Lord Jesus Christ;" />
-<Line bold indent text="for the means of grace, and for the hope of glory." />
-<Line bold text="And, we pray, give us such an awareness of your mercies," />
-<Line bold indent text="that with truly thankful hearts" />
-<Line bold indent text="we may show forth your praise," />
-<Line bold indent text="not only with our lips, but in our lives," />
-<Line bold indent text="by giving up our selves to your service," />
-<Line bold indent text="and by walking before you" />
-<Line bold indent text="in holiness and righteousness all our days;" />
-<Line bold text="Through Jesus Christ our Lord," />
-<Line bold indent text="to whom, with you and the Holy Spirit," />
-<Line bold indent text="be honor and glory throughout all ages. Amen." />
+<Line bold>Almighty God, Father of all mercies,</Line>
+<Line bold indent>we your unworthy servants give you humble thanks</Line>
+<Line bold indent>for all your goodness and loving-kindness</Line>
+<Line bold indent>to us and to all whom you have made.</Line>
+<Line bold>We bless you for our creation, preservation,</Line>
+<Line bold indent>and all the blessings of this life;</Line>
+<Line bold indent>but above all for your immeasurable love</Line>
+<Line bold indent>in the redemption of the world by our Lord Jesus Christ;</Line>
+<Line bold indent>for the means of grace, and for the hope of glory.</Line>
+<Line bold>And, we pray, give us such an awareness of your mercies,</Line>
+<Line bold indent>that with truly thankful hearts</Line>
+<Line bold indent>we may show forth your praise,</Line>
+<Line bold indent>not only with our lips, but in our lives,</Line>
+<Line bold indent>by giving up our selves to your service,</Line>
+<Line bold indent>and by walking before you</Line>
+<Line bold indent>in holiness and righteousness all our days;</Line>
+<Line bold>Through Jesus Christ our Lord,</Line>
+<Line bold indent>to whom, with you and the Holy Spirit,</Line>
+<Line bold indent>be honor and glory throughout all ages. Amen.</Line>
 <PageNumber page={25} text="daily morning prayer" />

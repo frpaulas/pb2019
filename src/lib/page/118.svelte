@@ -10,7 +10,7 @@
 
 <SectionTitle>the lord’s prayer</SectionTitle>
 <Rubric>The Celebrant then says</Rubric>
-<Line text="And now as our Savior Christ has taught us, we are bold to pray:" />
+<Line>And now as our Savior Christ has taught us, we are bold to pray:</Line>
 <Rubric>Celebrant and People together pray</Rubric>
 <LordsPrayer />
 <SectionTitle>the fraction</SectionTitle>

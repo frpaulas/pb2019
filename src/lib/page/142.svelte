@@ -20,19 +20,19 @@ liturgy. There is no blessing at the end of the liturgy.</TextBlock>
 <SectionTitle>the book of common prayer 1662</SectionTitle>
 <TextBlock>The Anglican Standard Text may be re-arranged to reflect the
 1662 ordering as follows:</TextBlock>
-<Line indent text="The Lord’s Prayer" />
-<Line indent text="The Collect for Purity" />
-<Line indent text="The Decalogue" />
-<Line indent text="The Collect of the Day" />
-<Line indent text="The Lessons" />
-<Line indent text="The Nicene Creed" />
-<Line indent text="The Sermon" />
-<Line indent text="The Offertory" />
-<Line indent text="The Prayers of the People" />
-<Line indent text="The Exhortation" />
-<Line indent text="The Confession and Absolution of Sin" />
-<Line indent text="The Comfortable Words" />
-<Line indent text="The Sursum Corda" />
-<Line indent text="The Sanctus" />
+<Line indent>The Lord’s Prayer</Line>
+<Line indent>The Collect for Purity</Line>
+<Line indent>The Decalogue</Line>
+<Line indent>The Collect of the Day</Line>
+<Line indent>The Lessons</Line>
+<Line indent>The Nicene Creed</Line>
+<Line indent>The Sermon</Line>
+<Line indent>The Offertory</Line>
+<Line indent>The Prayers of the People</Line>
+<Line indent>The Exhortation</Line>
+<Line indent>The Confession and Absolution of Sin</Line>
+<Line indent>The Comfortable Words</Line>
+<Line indent>The Sursum Corda</Line>
+<Line indent>The Sanctus</Line>
 
 <PageNumber page={142} text="the holy eucharist" />

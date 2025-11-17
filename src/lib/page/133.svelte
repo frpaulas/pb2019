@@ -27,11 +27,11 @@ given thanks, he gave it to them, saying, “Drink this, all of you;
 for this is my Blood of the New Covenant, which is shed for
 you, and for many, for the forgiveness of sins: Whenever you
 drink it, do this in remembrance of me.”</TextBlock>
-<Line text="Therefore we proclaim the mystery of faith:" />
+<Line>Therefore we proclaim the mystery of faith:</Line>
 <Rubric>Celebrant and People</Rubric>
-<Line indent text="**Christ has died.**" />
-<Line indent text="**Christ is risen.**" />
-<Line indent text="**Christ will come again.**" />
+<Line indent>**Christ has died.**</Line>
+<Line indent>**Christ is risen.**</Line>
+<Line indent>**Christ will come again.**</Line>
 <TextBlock>We celebrate the memorial of our redemption, O Father, in this
 sacrifice of praise and thanksgiving, and we offer you these gifts.</TextBlock>
 

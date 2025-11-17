@@ -22,13 +22,10 @@ of the Day, or any of the Collects appointed in the Daily Office,
 may be used instead. The Opening Sentences may be replaced by
 those appointed for various seasons in the liturgies for Morning
 and Evening Prayer.</TextBlock>
-<Line indent text="The Psalms and Readings may be replaced by those appointed in:" />
-<Line indent text="the Sunday, Holy Days and Commemoration Lectionary; or" />
-<Line indent text="the Daily Office Lectionary; or" />
-<Line
-	indent
-	text="some other manual of devotion which provides daily selections for the Church Year."
-/>
+<Line indent>The Psalms and Readings may be replaced by those appointed in:</Line>
+<Line indent>the Sunday, Holy Days and Commemoration Lectionary; or</Line>
+<Line indent>the Daily Office Lectionary; or</Line>
+<Line indent>some other manual of devotion which provides daily selections for the Church Year.</Line>
 
 <TextBlock>A concluding sentence from Morning or Evening Prayer may be
     used at the end of any of these devotions.</TextBlock>

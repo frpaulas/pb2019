@@ -10,19 +10,19 @@
 <SectionTitle>concerning holy communion</SectionTitle>
 <TextBlock>Before the celebration of Holy Communion, the Holy Table
     should be covered with a clean white cloth.</TextBlock>
-<Line text="Rubrics indicating standing or kneeling imply “as able.”" />
+<Line>Rubrics indicating standing or kneeling imply “as able.”</Line>
 <TextBlock>Where the greeting “The Lord be with you” is used, the response
     “And also with you” may be used in place of “And with your spirit.”</TextBlock>
 <TextBlock>A Penitential Order, for use at the opening of the liturgy, or for
     use on other occasions, may be arranged as follows:</TextBlock>
-<Line indent text="The Acclamation" />
-<Line indent text="The Collect for Purity" />
+<Line indent>The Acclamation</Line>
+<Line indent>The Collect for Purity</Line>
 <Rubric>Then kneeling as able:</Rubric>
-<Line indent text="The Decalogue or The Summary of the Law" />
-<Line indent text="[The Exhortation]" />
-<Line indent text="The Confession and Absolution [and Comfortable Words]" />
-<Line indent text="The Kyrie" />
-<Line indent text="The Collect of the Day" />
+<Line indent>The Decalogue or The Summary of the Law</Line>
+<Line indent>[The Exhortation]</Line>
+<Line indent>The Confession and Absolution [and Comfortable Words]</Line>
+<Line indent>The Kyrie</Line>
+<Line indent>The Collect of the Day</Line>
 <TextBlock>The Athanasian Creed (page 769) may be used in place of the
     Nicene Creed on Trinity Sunday and other occasions as appropriate.</TextBlock>
 <TextBlock>The Prayers of the People in the Anglican Standard Text may be

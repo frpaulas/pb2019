@@ -13,8 +13,8 @@
 People in the Anglican Standard Text. The reader pauses after each bidding, and
 the people may add petitions, either silently or aloud."
 />
-<Line text="Let us pray for the Church and for the world, saying," />
-<Line text="“hear our prayer.”" />
+<Line>Let us pray for the Church and for the world, saying,</Line>
+<Line>“hear our prayer.”</Line>
 <TextBlock>For the peace of the whole world, and for the well-being and
     unity of the people of God.</TextBlock>
 <PopResponse />

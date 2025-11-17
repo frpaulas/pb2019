@@ -9,7 +9,7 @@
 <SectionTitle>the lessons</SectionTitle>
 
 <Rubric>One or more Lessons, as appointed, are read, the Reader first saying</Rubric>
-<Line text="A Reading from _____________." />
+<Line>A Reading from _____________.</Line>
 <Rubric>A citation giving chapter and verse may be added.</Rubric>
 <Rubric>After each lesson the Reader may say</Rubric>
 <Versical text="The Word of the Lord." />
@@ -23,17 +23,17 @@
 >
 <SectionTitle>te deum laudamus</SectionTitle>
 <SectionTitle fancy>We Praise You, O God</SectionTitle>
-<Line bold text="We praise you, O God; we acclaim you as Lord; * " />
-<Line indent bold text="all creation worships you, the Father everlasting. " />
-<Line bold text="To you all angels, all the powers of heaven, * " />
-<Line indent bold text="the cherubim and seraphim, sing in endless praise: " />
-<Line bold text="Holy, Holy, Holy, Lord God of power and might, * " />
-<Line indent bold text="heaven and earth are full of your glory. " />
-<Line bold text="The glorious company of apostles praise you. * " />
-<Line indent bold text="The noble fellowship of prophets praise you." />
-<Line bold text="The white-robed army of martyrs praise you. * " />
-<Line indent bold text="Throughout the world the holy Church acclaims you: " />
-<Line bold text="Father, of majesty unbounded, " />
-<Line bold text="your true and only Son, worthy of all praise, * " />
-<Line indent bold text="and the Holy Spirit, advocate and guide." />
+<Line bold>We praise you, O God; we acclaim you as Lord; *</Line>
+<Line indent bold>all creation worships you, the Father everlasting.</Line>
+<Line bold>To you all angels, all the powers of heaven, *</Line>
+<Line indent bold>the cherubim and seraphim, sing in endless praise:</Line>
+<Line bold>Holy, Holy, Holy, Lord God of power and might, *</Line>
+<Line indent bold>heaven and earth are full of your glory.</Line>
+<Line bold>The glorious company of apostles praise you. *</Line>
+<Line indent bold>The noble fellowship of prophets praise you.</Line>
+<Line bold>The white-robed army of martyrs praise you. *</Line>
+<Line indent bold>Throughout the world the holy Church acclaims you:</Line>
+<Line bold>Father, of majesty unbounded,</Line>
+<Line bold>your true and only Son, worthy of all praise, *</Line>
+<Line indent bold>and the Holy Spirit, advocate and guide.</Line>
 <PageNumber page={17} text="daily morning prayer" />

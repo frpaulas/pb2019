@@ -5,15 +5,12 @@
 	import TextBlock from '$lib/page_helpers/text_block.svelte';
 </script>
 
-<Line indent text="The Prayer of Humble Access" />
-<Line
-	indent
-	text="The Prayer of Consecration and the Ministration of Communion (ordered according to the footnote)"
-/>
-<Line indent text="The Lord’s Prayer" />
-<Line indent text="The Post Communion Prayer" />
-<Line indent text="The Gloria in Excelsis" />
-<Line indent text="The Blessing" />
+<Line indent>The Prayer of Humble Access</Line>
+<Line indent>The Prayer of Consecration and the Ministration of Communion (ordered according to the footnote)</Line>
+<Line indent>The Lord’s Prayer</Line>
+<Line indent>The Post Communion Prayer</Line>
+<Line indent>The Gloria in Excelsis</Line>
+<Line indent>The Blessing</Line>
 <SectionTitle>concerning discipline at</SectionTitle>
 <SectionTitle>holy communion</SectionTitle>
 <TextBlock>If the Priest knows that a person who is living a notoriously evil

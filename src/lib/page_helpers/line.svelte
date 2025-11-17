@@ -1,10 +1,8 @@
 <script lang="ts">
 	import { parseMarkdown } from '$lib/utils/parseMarkdown.js';
 
-	let { text, ref = '', indent = false, children } = $props();
+	let { ref = '', indent = false, children } = $props();
 	let this_class = indent ? ' pl-4' : '';
-
-	let parsedText = $derived(text ? parseMarkdown(text) : null);
 
 	// For slot content, we need to extract and parse it
 	let slotContentElement;
@@ -16,9 +14,7 @@
 </script>
 
 <p class={this_class}>
-	{#if parsedText}
-		{@html parsedText}
-	{:else if parsedSlotContent}
+	{#if parsedSlotContent}
 		{@html parsedSlotContent}
 	{:else}
 		<span bind:this={slotContentElement} style="display: none;">

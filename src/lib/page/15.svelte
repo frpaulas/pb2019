@@ -8,31 +8,31 @@
 </script>
 
 <Rubric>The following verses may be omitted, except in Lent.</Rubric>
-<Line bold text="Today, if you will hear his voice, harden not your hearts *" />
-<Line bold indent text="as in the provocation, and as in the day of temptation in 		" />
-<Line bold indent text="the wilderness," />
-<Line bold text="When your fathers tested me, *" />
-<Line bold indent text="and put me to the proof, though they had seen my works." />
-<Line bold text="Forty years long was I grieved with this generation and said, *" />
-<Line bold indent text="“It is a people that err in their hearts," />
-<Line bold indent text="for they have not known my ways,”" />
-<Line bold text="Of whom I swore in my wrath *" />
-<Line bold indent text="that they should not enter into my rest." />
+<Line bold>Today, if you will hear his voice, harden not your hearts *</Line>
+<Line bold indent>as in the provocation, and as in the day of temptation in</Line>
+<Line bold indent>the wilderness,</Line>
+<Line bold>When your fathers tested me, *</Line>
+<Line bold indent>and put me to the proof, though they had seen my works.</Line>
+<Line bold>Forty years long was I grieved with this generation and said, *</Line>
+<Line bold indent>“It is a people that err in their hearts,</Line>
+<Line bold indent>for they have not known my ways,”</Line>
+<Line bold>Of whom I swore in my wrath *</Line>
+<Line bold indent>that they should not enter into my rest.</Line>
 <Ref text="psalm 95:1-7, 8-11" />
 <OrThis />
 <SectionTitle size="1xl">jubilate</SectionTitle>
 <SectionTitle size="1xl" fancy>Be Joyful</SectionTitle>
-<Line bold text="O be joyful in the Lord, all you lands; *" />
-<Line indent bold text="serve the Lord with gladness," />
-<Line indent bold text="and come before his presence with a song." />
-<Line bold text="Be assured that the Lord, he is God; *" />
-<Line indent bold text="it is he that has made us, and not we ourselves;" />
-<Line indent bold text="we are his people, and the sheep of his pasture." />
-<Line bold text="O go your way into his gates with thanksgiving," />
-<Line bold text="and into his courts with praise; *" />
-<Line indent bold text="be thankful unto him, and speak good of his Name." />
-<Line bold text="For the Lord is gracious, his mercy is everlasting, *" />
-<Line indent bold text="and his truth endures from generation to generation." />
+<Line bold>O be joyful in the Lord, all you lands; *</Line>
+<Line indent bold>serve the Lord with gladness,</Line>
+<Line indent bold>and come before his presence with a song.</Line>
+<Line bold>Be assured that the Lord, he is God; *</Line>
+<Line indent bold>it is he that has made us, and not we ourselves;</Line>
+<Line indent bold>we are his people, and the sheep of his pasture.</Line>
+<Line bold>O go your way into his gates with thanksgiving,</Line>
+<Line bold>and into his courts with praise; *</Line>
+<Line indent bold>be thankful unto him, and speak good of his Name.</Line>
+<Line bold>For the Lord is gracious, his mercy is everlasting, *</Line>
+<Line indent bold>and his truth endures from generation to generation.</Line>
 <Ref text="psalm 100" />
 <Rubric
 	>During the first week of Easter, the Pascha Nostrum, without antiphons, is used in place of the

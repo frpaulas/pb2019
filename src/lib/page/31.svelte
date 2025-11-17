@@ -11,8 +11,8 @@
     said at least once during the course of the day.</TextBlock>
 <TextBlock>The Gloria Patri (Glory be...) in the opening versicles may be said in
     unison. The following form of the Gloria Patri may alternatively be used:</TextBlock>
-<Line bold text="Glory to the Father, and to the Son, and to the Holy Spirit:" />
-<Line bold indent text="As it was in the beginning, is now, and will be for ever. Amen." />
+<Line bold>Glory to the Father, and to the Son, and to the Holy Spirit:</Line>
+<Line bold indent>As it was in the beginning, is now, and will be for ever. Amen.</Line>
 <TextBlock>The Officiant and People may join in saying “Alleluia” (except in Lent)
 as an alternative to the versicles “Praise the Lord. The Lord’s Name be
 praised.</TextBlock>

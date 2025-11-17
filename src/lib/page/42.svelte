@@ -14,24 +14,24 @@ his holy Word, and to ask, for ourselves and on behalf of others,
 those things which are necessary for our life and our salvation.
 Therefore, draw near with me to the throne of heavenly grace.</TextBlock>
 <OrThis />
-<Line text="Let us humbly confess our sins to Almighty God." />
+<Line>Let us humbly confess our sins to Almighty God.</Line>
 <Rubric>Silence is kept. All kneeling, the Officiant and People say</Rubric>
-<Line bold text="Almighty and most merciful Father," />
-<Line bold indent text="we have erred and strayed from your ways like lost sheep." />
-<Line bold text="We have followed too much the devices and desires" />
-<Line bold indent text="of our own hearts." />
-<Line bold text="We have offended against your holy laws." />
-<Line bold text="We have left undone those things which we ought to have done," />
-<Line bold indent text="and we have done those things which we ought not" />
-<Line bold indent text="to have done;" />
-<Line bold text="and apart from your grace, there is no health in us." />
-<Line bold text="O Lord, have mercy upon us." />
-<Line bold text="Spare all those who confess their faults." />
-<Line bold text="Restore all those who are penitent, according to your promises" />
-<Line bold indent text="declared to all people in Christ Jesus our Lord." />
-<Line bold text="And grant, O most merciful Father, for his sake," />
-<Line bold indent text="that we may now live a godly, righteous, and sober life," />
-<Line bold indent text="to the glory of your holy Name. Amen." />
+<Line bold>Almighty and most merciful Father,</Line>
+<Line bold indent>we have erred and strayed from your ways like lost sheep.</Line>
+<Line bold>We have followed too much the devices and desires</Line>
+<Line bold indent>of our own hearts.</Line>
+<Line bold>We have offended against your holy laws.</Line>
+<Line bold>We have left undone those things which we ought to have done,</Line>
+<Line bold indent>and we have done those things which we ought not</Line>
+<Line bold indent>to have done;</Line>
+<Line bold>and apart from your grace, there is no health in us.</Line>
+<Line bold>O Lord, have mercy upon us.</Line>
+<Line bold>Spare all those who confess their faults.</Line>
+<Line bold>Restore all those who are penitent, according to your promises</Line>
+<Line bold indent>declared to all people in Christ Jesus our Lord.</Line>
+<Line bold>And grant, O most merciful Father, for his sake,</Line>
+<Line bold indent>that we may now live a godly, righteous, and sober life,</Line>
+<Line bold indent>to the glory of your holy Name. Amen.</Line>
 
 <Rubric>The Priest alone stands and says</Rubric>
 <TextBlock>Almighty God, the Father of our Lord Jesus Christ, desires

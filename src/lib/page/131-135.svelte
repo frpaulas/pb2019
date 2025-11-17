@@ -50,11 +50,11 @@ given thanks, he gave it to them, saying, &quot;Drink this, all of you;
 for this is my Blood of the New Covenant, which is shed for
 you, and for many, for the forgiveness of sins: Whenever you
 drink it, do this in remembrance of me.&quot;</TextBlock>
-<Line text="Therefore we proclaim the mystery of faith:" />
+<Line>Therefore we proclaim the mystery of faith:</Line>
 <Rubric>Celebrant and People</Rubric>
-<Line indent bold text="Christ has died." />
-<Line indent bold text="Christ is risen." />
-<Line indent bold text="Christ will come again." />
+<Line indent bold>Christ has died.</Line>
+<Line indent bold>Christ is risen.</Line>
+<Line indent bold>Christ will come again.</Line>
 <TextBlock>We celebrate the memorial of our redemption, O Father, in this
 sacrifice of praise and thanksgiving, and we offer you these gifts.</TextBlock>
 <PageMarker page={133} text="holy eucharist | Renewed ancient text" />
@@ -72,7 +72,7 @@ him, and in him, in the unity of the Holy Spirit, all honor and
 glory is yours, Almighty Father, now and for ever. Amen.</TextBlock>
 <SectionTitle>the lord's prayer</SectionTitle>
 <Rubric>The Celebrant then says</Rubric>
-<Line text="And now as our Savior Christ has taught us, we are bold to pray:" />
+<Line>And now as our Savior Christ has taught us, we are bold to pray:</Line>
 <Rubric>Celebrant and People together pray</Rubric>
 <LordsPrayer />
 <PageMarker page={134} text="the holy eucharist" />

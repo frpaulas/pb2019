@@ -5,21 +5,21 @@
 </script>
 
 <SectionTitle>lent</SectionTitle>
-<Line text="The Lord is full of compassion and mercy: *" />
-<Line indent bold text="O come, let us adore him." />
+<Line>The Lord is full of compassion and mercy: *</Line>
+<Line indent bold>O come, let us adore him.</Line>
 <SectionTitle>easter until ascension</SectionTitle>
-<Line text="Alleluia. The Lord is risen indeed: *" />
-<Line indent bold text="O come, let us adore him. Alleluia." />
+<Line>Alleluia. The Lord is risen indeed: *</Line>
+<Line indent bold>O come, let us adore him. Alleluia.</Line>
 <SectionTitle>ascension until pentecost</SectionTitle>
-<Line text="Alleluia. Christ the Lord has ascended into heaven: *" />
-<Line indent bold text="O come, let us adore him. Alleluia." />
+<Line>Alleluia. Christ the Lord has ascended into heaven: *</Line>
+<Line indent bold>O come, let us adore him. Alleluia.</Line>
 <SectionTitle>day of pentecost</SectionTitle>
-<Line text="Alleluia. The Spirit of the Lord renews the face of the earth: *" />
-<Line indent bold text="O come, let us adore him. Alleluia." />
+<Line>Alleluia. The Spirit of the Lord renews the face of the earth: *</Line>
+<Line indent bold>O come, let us adore him. Alleluia.</Line>
 <SectionTitle>trinity sunday</SectionTitle>
-<Line text="Father, Son, and Holy Spirit, one God: *" />
-<Line indent bold text="O come, let us adore him." />
+<Line>Father, Son, and Holy Spirit, one God: *</Line>
+<Line indent bold>O come, let us adore him.</Line>
 <SectionTitle>all saints’ and other major saints’ days</SectionTitle>
-<Line text="The Lord is glorious in his saints: *" />
-<Line indent bold text="O come, let us adore him." />
+<Line>The Lord is glorious in his saints: *</Line>
+<Line indent bold>O come, let us adore him.</Line>
 <PageNumber page={30} text="daily office" />

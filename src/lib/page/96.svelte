@@ -5,17 +5,17 @@
 	import LordsPrayer from '$lib/text_component/lords_prayer.svelte';
 </script>
 
-<Line text="O Lamb of God, you take away the sin of the world;" />
-<Line indent bold text="Have mercy upon us." />
-<Line text="O Lamb of God, you take away the sin of the world;" />
-<Line indent bold text="Have mercy upon us." />
-<Line text="O Lamb of God, you take away the sin of the world;" />
-<Line indent bold text="Grant us your peace." />
-<Line text="O Christ, hear us." />
-<Line indent bold text="O Christ, hear us." />
-<Line text="Lord, have mercy upon us." />
-<Line indent bold text="Christ, have mercy upon us." />
-<Line text="Lord, have mercy upon us." />
+<Line>O Lamb of God, you take away the sin of the world;</Line>
+<Line indent bold>Have mercy upon us.</Line>
+<Line>O Lamb of God, you take away the sin of the world;</Line>
+<Line indent bold>Have mercy upon us.</Line>
+<Line>O Lamb of God, you take away the sin of the world;</Line>
+<Line indent bold>Grant us your peace.</Line>
+<Line>O Christ, hear us.</Line>
+<Line indent bold>O Christ, hear us.</Line>
+<Line>Lord, have mercy upon us.</Line>
+<Line indent bold>Christ, have mercy upon us.</Line>
+<Line>Lord, have mercy upon us.</Line>
 <Rubric>When the Litany is sung or said immediately before the Eucharist, the Litany
 concludes here, and the Eucharist begins with the Salutation (“The Lord be with
 you”) and the Collect of the Day.</Rubric>

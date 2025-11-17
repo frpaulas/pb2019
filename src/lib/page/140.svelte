@@ -7,16 +7,13 @@
 <TextBlock>In both the Anglican Standard and Renewed Ancient Texts,
 other forms of the Prayers of the People may be used, provided
 the following concerns are included:</TextBlock>
-<Line indent text="The universal Church, the clergy and people" />
-<Line indent text="The mission of the Church" />
-<Line indent text="The nation and all in authority" />
-<Line indent text="The peoples of the world" />
-<Line indent text="The local community" />
-<Line indent text="Those who suffer and those in any need or trouble" />
-<Line
-	indent
-	text="Thankful remembrance of the faithful departed and of all the blessings of our lives."
-/>
+<Line indent>The universal Church, the clergy and people</Line>
+<Line indent>The mission of the Church</Line>
+<Line indent>The nation and all in authority</Line>
+<Line indent>The peoples of the world</Line>
+<Line indent>The local community</Line>
+<Line indent>Those who suffer and those in any need or trouble</Line>
+<Line indent>Thankful remembrance of the faithful departed and of all the blessings of our lives.</Line>
 <TextBlock>The Exhortation is traditionally read on the First Sunday of
     Advent, the First Sunday in Lent, and Trinity Sunday.</TextBlock>
 <TextBlock>The Confession from Morning Prayer, or from either
@@ -29,11 +26,11 @@ add a little water to the wine.</TextBlock>
 <TextBlock>In the Anglican Standard Text, it is permissible to replace the
 paragraph that begins “Therefore, O Lord and heavenly Father,”
 with this memorial acclamation:</TextBlock>
-<Line indent italic text="Celebrant" />
-<Line indent bold text="Therefore we proclaim the mystery of faith:" />
+<Line indent italic>Celebrant</Line>
+<Line indent bold>Therefore we proclaim the mystery of faith:</Line>
 <br />
-<Line indent italic text="Celebrant and People" />
-<Line indent bold text="Christ has died." />
-<Line indent bold text="Christ is risen." />
-<Line indent bold text="Christ will come again." />
+<Line indent italic>Celebrant and People</Line>
+<Line indent bold>Christ has died.</Line>
+<Line indent bold>Christ is risen.</Line>
+<Line indent bold>Christ will come again.</Line>
 <PageNumber page={140} text="the holy eucharist" />

@@ -19,13 +19,13 @@
 <TextBlock>For those saying Compline every day, particularly in families or other
 communities, additional short Scriptural readings may be desired. Some
 appropriate readings include:</TextBlock>
-<Line indent text="isaiah 26:3-4" />
-<Line indent text="isaiah 30:15" />
-<Line indent text="matthew 6:31-34" />
-<Line indent text="2 corinthians 4:6" />
-<Line indent text="1 thessalonians 5:9-10" />
-<Line indent text="1 thessalonians 5:23" />
-<Line indent text="ephesians 4:26-27" />
+<Line indent>isaiah 26:3-4</Line>
+<Line indent>isaiah 30:15</Line>
+<Line indent>matthew 6:31-34</Line>
+<Line indent>2 corinthians 4:6</Line>
+<Line indent>1 thessalonians 5:9-10</Line>
+<Line indent>1 thessalonians 5:23</Line>
+<Line indent>ephesians 4:26-27</Line>
 <TextBlock>Either version of the Lord’s Prayer may be ended with, “deliver us from
     evil. Amen.” omitting the concluding doxology.</TextBlock>
 

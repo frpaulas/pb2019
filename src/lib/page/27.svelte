@@ -30,8 +30,8 @@ the nations, says the Lord of hosts."
 />
 <SectionTitle fancyAnd>lent and other penitential occasions</SectionTitle>
 <Scripture text="Repent, for the kingdom of heaven is at hand." ref="matthew 3:2" />
-<Line indent text="Turn your face from my sins," />
-<Line indent text="and blot out all my misdeeds." />
+<Line indent>Turn your face from my sins,</Line>
+<Line indent>and blot out all my misdeeds.</Line>
 <Ref text="psalm 51:9" />
 <Scripture
 	text="If anyone would come after me, let him deny himself and take

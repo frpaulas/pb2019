@@ -8,8 +8,8 @@
 
 <AgnusDei />
 <Communion />
-<Line text="The Body of Christ, the bread of heaven." />
-<Line text="The Blood of Christ, the cup of salvation." />
+<Line>The Body of Christ, the bread of heaven.</Line>
+<Line>The Blood of Christ, the cup of salvation.</Line>
 <Rubric>During the ministration of Communion, hymns, psalms, or anthems may be sung.</Rubric>
 <Rubric>The Celebrant may offer a sentence of Scripture at the conclusion of the Communion.</Rubric>
 <PageNumber page={136} text="the holy eucharist" />

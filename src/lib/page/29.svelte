@@ -28,12 +28,12 @@ seeking such people to worship him."
 <SectionTitle>advent</SectionTitle>
 Our King and Savior now draws near: * O come, let us adore him.
 <SectionTitle>christmas</SectionTitle>
-<Line text="Alleluia, to us a child is born: *" />
-<Line indent bold text="O come, let us adore him. Alleluia." />
+<Line>Alleluia, to us a child is born: *</Line>
+<Line indent bold>O come, let us adore him. Alleluia.</Line>
 <SectionTitle>epiphany, and the feast of the transfiguration</SectionTitle>
-<Line text="The Lord has shown forth his glory: *" />
-<Line indent bold text="O come, let us adore him." />
+<Line>The Lord has shown forth his glory: *</Line>
+<Line indent bold>O come, let us adore him.</Line>
 <SectionTitle fancyAnd>presentation and annunciation</SectionTitle>
-<Line text="The Word was made flesh and dwelt among us: *" />
-<Line indent bold text="O come, let us adore him." />
+<Line>The Word was made flesh and dwelt among us: *</Line>
+<Line indent bold>O come, let us adore him.</Line>
 <PageNumber page={29} text="daily morning prayer" />

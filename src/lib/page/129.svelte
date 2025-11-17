@@ -23,6 +23,6 @@ ever. **Amen.**</TextBlock>
 <Rubric>The Celebrant may then say the Exhortation.</Rubric>
 <SectionTitle>the confession and absolution of sin</SectionTitle>
 <Rubric>The Deacon or other person appointed says the following</Rubric>
-<Line text="Let us humbly confess our sins to Almighty God." />
+<Line>Let us humbly confess our sins to Almighty God.</Line>
 <Silence />
 <PageNumber page={129} text="holy eucharist | Renewed ancient text" />

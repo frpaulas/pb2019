@@ -14,7 +14,7 @@
     People in the Renewed Ancient Text."
 />
 
-<Line text="Let us pray for the Church and for the world." />
+<Line>Let us pray for the Church and for the world.</Line>
 <TextBlock>Almighty and everliving God, we are taught by your holy Word
 to offer prayers and supplications and to give thanks for all
 people. We humbly ask you mercifully to receive our prayers.

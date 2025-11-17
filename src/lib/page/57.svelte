@@ -9,23 +9,23 @@
 <SectionTitle size="3xl">compline</SectionTitle>
 <Rubric>The Officiant begins</Rubric>
 
-<Line text="The Lord Almighty grant us a peaceful" amen />
-<Line indent text="and a perfect end." amen />
+<Line amen>The Lord Almighty grant us a peaceful</Line>
+<Line indent amen>and a perfect end.</Line>
 Officiant People
 <Versical officiant text="Our help is in the Name of the Lord;" />
 <Versical people text="The maker of heaven and earth." />
 <Rubric>The Officiant continues</Rubric>
-<Line text="Let us humbly confess our sins to Almighty God." />
+<Line>Let us humbly confess our sins to Almighty God.</Line>
 <Rubric>Silence may be kept. The Officiant and People then say</Rubric>
-<Line bold text="Almighty God and Father, we confess to you," />
-<Line bold text="to one another, and to the whole company of heaven," />
-<Line bold indent text="that we have sinned, through our own fault," />
-<Line bold indent text="in thought, and word, and deed," />
-<Line bold indent text="and in what we have left undone." />
-<Line bold text="For the sake of your Son our Lord Jesus Christ," />
-<Line bold indent text="have mercy upon us, forgive us our sins," />
-<Line bold indent text="and by the power of your Holy Spirit" />
-<Line bold indent text="raise us up to serve you in newness of life," />
-<Line bold indent text="to the glory of your Name. Amen." />
+<Line bold>Almighty God and Father, we confess to you,</Line>
+<Line bold>to one another, and to the whole company of heaven,</Line>
+<Line bold indent>that we have sinned, through our own fault,</Line>
+<Line bold indent>in thought, and word, and deed,</Line>
+<Line bold indent>and in what we have left undone.</Line>
+<Line bold>For the sake of your Son our Lord Jesus Christ,</Line>
+<Line bold indent>have mercy upon us, forgive us our sins,</Line>
+<Line bold indent>and by the power of your Holy Spirit</Line>
+<Line bold indent>raise us up to serve you in newness of life,</Line>
+<Line bold indent>to the glory of your Name. Amen.</Line>
 />
 <PageNumber page={57} text="Compline" />

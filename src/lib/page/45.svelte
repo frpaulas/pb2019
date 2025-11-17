@@ -16,24 +16,24 @@
  79-88) or an appropriate song of praise.</Rubric>
 <SectionTitle>magnificat</SectionTitle>
 <SectionTitle fancy>The Song of Mary</SectionTitle>
-<Line bold text="My soul magnifies the Lord, *" />
-<Line bold indent text="and my spirit rejoices in God my Savior;" />
-<Line bold indent text="For he has regarded *" />
-<Line bold text="the lowliness of his handmaiden." />
-<Line bold indent text="For behold, from now on, *" />
-<Line bold text="all generations will call me blessed;" />
-<Line bold indent text="For he that is mighty has magnified me, *" />
-<Line bold text="and holy is his Name." />
-<Line bold indent text="And his mercy is on those who fear him, *" />
-<Line bold text="throughout all generations." />
-<Line bold indent text="He has shown the strength of his arm; *" />
-<Line bold text="he has scattered the proud in the imagination of their hearts." />
-<Line bold indent text="He has brought down the mighty from their thrones, *" />
-<Line bold text="and has exalted the humble and meek." />
-<Line bold indent text="He has filled the hungry with good things, *" />
-<Line bold text="and the rich he has sent empty away." />
-<Line bold indent text="He, remembering his mercy, has helped his servant Israel, *" />
-<Line bold text="as he promised to our fathers, Abraham and his seed for ever." />
+<Line bold>My soul magnifies the Lord, *</Line>
+<Line bold indent>and my spirit rejoices in God my Savior;</Line>
+<Line bold indent>For he has regarded *</Line>
+<Line bold>the lowliness of his handmaiden.</Line>
+<Line bold indent>For behold, from now on, *</Line>
+<Line bold>all generations will call me blessed;</Line>
+<Line bold indent>For he that is mighty has magnified me, *</Line>
+<Line bold>and holy is his Name.</Line>
+<Line bold indent>And his mercy is on those who fear him, *</Line>
+<Line bold>throughout all generations.</Line>
+<Line bold indent>He has shown the strength of his arm; *</Line>
+<Line bold>he has scattered the proud in the imagination of their hearts.</Line>
+<Line bold indent>He has brought down the mighty from their thrones, *</Line>
+<Line bold>and has exalted the humble and meek.</Line>
+<Line bold indent>He has filled the hungry with good things, *</Line>
+<Line bold>and the rich he has sent empty away.</Line>
+<Line bold indent>He, remembering his mercy, has helped his servant Israel, *</Line>
+<Line bold>as he promised to our fathers, Abraham and his seed for ever.</Line>
 <Gloria />
 <Ref text="luke 1:46-55" />
 <PageNumber page={45} text="Daily Evening prayer" />

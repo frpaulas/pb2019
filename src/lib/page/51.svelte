@@ -29,7 +29,7 @@ increase among us; through Jesus Christ our Lord.</TextBlock>
 <Rubric>Before the close of the Office one or both of the following prayers may be used.</Rubric>
 <SectionTitle>the general thanksgiving</SectionTitle>
 <Rubric>Officiant and People</Rubric>
-<Line bold indent text="we your unworthy servants give you humble thanks" />
-<Line bold indent text="for all your goodness and loving-kindness" />
-<Line bold indent text="to us and to all whom you have made." />
+<Line bold indent>we your unworthy servants give you humble thanks</Line>
+<Line bold indent>for all your goodness and loving-kindness</Line>
+<Line bold indent>to us and to all whom you have made.</Line>
 <PageNumber page={51} text="Daily Evening prayer" />
