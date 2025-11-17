@@ -10,10 +10,12 @@
 
 <Rubric>Or the Reader may say</Rubric>
 
-<Versical text="Here ends the Reading." />
-<Rubric>The following Canticles are normally sung or said after each of the lessons. The
- Officiant may also use a Canticle drawn from the Supplemental Canticles (pages
- 79-88) or an appropriate song of praise.</Rubric>
+<Versical>Here ends the Reading.</Versical>
+<Rubric
+	>The following Canticles are normally sung or said after each of the lessons. The Officiant may
+	also use a Canticle drawn from the Supplemental Canticles (pages 79-88) or an appropriate song of
+	praise.</Rubric
+>
 <SectionTitle>magnificat</SectionTitle>
 <SectionTitle fancy>The Song of Mary</SectionTitle>
 <Line bold>My soul magnifies the Lord, *</Line>

@@ -10,10 +10,10 @@
 <Kyrie />
 <Rubric>Officiant and People</Rubric>
 <LordsPrayer />
-<Versical officiant text="O Lord, show your mercy upon us;" />
-<Versical people text="And grant us your salvation." />
-<Versical officiant text="O Lord, guide those who govern us;" />
-<Versical people text="And lead us in the way of justice and truth." />
-<Versical officiant text="Clothe your ministers with righteousness;" />
-<Versical people text="And let your people sing with joy." />
+<Versical officiant>O Lord, show your mercy upon us;</Versical>
+<Versical people>And grant us your salvation.</Versical>
+<Versical officiant>O Lord, guide those who govern us;</Versical>
+<Versical people>And lead us in the way of justice and truth.</Versical>
+<Versical officiant>Clothe your ministers with righteousness;</Versical>
+<Versical people>And let your people sing with joy.</Versical>
 <PageNumber page={21} text="daily morning prayer" />

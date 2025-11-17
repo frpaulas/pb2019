@@ -6,16 +6,16 @@
 	import Line from '$lib/page_helpers/line.svelte';
 </script>
 
-<Versical officiant text="Clothe your ministers with righteousness;" />
-<Versical people text="And let your people sing with joy." />
-<Versical officiant text="O Lord, save your people;" />
-<Versical people text="And bless your inheritance." />
-<Versical officiant text="Give peace in our time, O Lord;" />
-<Versical people text="And defend us by your mighty power." />
-<Versical officiant text="Let not the needy, O Lord, be forgotten;" />
-<Versical people text="Nor the hope of the poor be taken away." />
-<Versical officiant text="Create in us clean hearts, O God;" />
-<Versical people text="And take not your Holy Spirit from us." />
+<Versical officiant>Clothe your ministers with righteousness;</Versical>
+<Versical people>And let your people sing with joy.</Versical>
+<Versical officiant>O Lord, save your people;</Versical>
+<Versical people>And bless your inheritance.</Versical>
+<Versical officiant>Give peace in our time, O Lord;</Versical>
+<Versical people>And defend us by your mighty power.</Versical>
+<Versical officiant>Let not the needy, O Lord, be forgotten;</Versical>
+<Versical people>Nor the hope of the poor be taken away.</Versical>
+<Versical officiant>Create in us clean hearts, O God;</Versical>
+<Versical people>And take not your Holy Spirit from us.</Versical>
 <OrThis />
 <Line>That this evening may be holy, good, and peaceful,</Line>
 <WeEntreatYou />

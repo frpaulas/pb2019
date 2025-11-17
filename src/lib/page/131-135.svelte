@@ -37,39 +37,45 @@
 	Satan under his feet. As our great high priest, he ascended to your right hand in glory, that we
 	might come with confidence before the throne of grace.
 </p>
-<Rubric>At the following words concerning the bread, the Celebrant is to hold it, or lay
-a hand upon it, and here* may break the bread; and at the words concerning the
-cup, to hold or place a hand upon the cup and any other vessel containing the wine
-to be consecrated.</Rubric>
-<TextBlock>On the night that he was betrayed, our Lord Jesus Christ took
-bread; and when he had given thanks, he broke it,* and gave
-it to his disciples, saying, &quot;Take, eat; this is my Body, which is
-given for you: Do this in remembrance of me.&quot;</TextBlock>
-<TextBlock>Likewise, after supper, Jesus took the cup, and when he had
-given thanks, he gave it to them, saying, &quot;Drink this, all of you;
-for this is my Blood of the New Covenant, which is shed for
-you, and for many, for the forgiveness of sins: Whenever you
-drink it, do this in remembrance of me.&quot;</TextBlock>
+<Rubric
+	>At the following words concerning the bread, the Celebrant is to hold it, or lay a hand upon it,
+	and here* may break the bread; and at the words concerning the cup, to hold or place a hand upon
+	the cup and any other vessel containing the wine to be consecrated.</Rubric
+>
+<TextBlock
+	>On the night that he was betrayed, our Lord Jesus Christ took bread; and when he had given
+	thanks, he broke it,* and gave it to his disciples, saying, &quot;Take, eat; this is my Body,
+	which is given for you: Do this in remembrance of me.&quot;</TextBlock
+>
+<TextBlock
+	>Likewise, after supper, Jesus took the cup, and when he had given thanks, he gave it to them,
+	saying, &quot;Drink this, all of you; for this is my Blood of the New Covenant, which is shed for
+	you, and for many, for the forgiveness of sins: Whenever you drink it, do this in remembrance of
+	me.&quot;</TextBlock
+>
 <Line>Therefore we proclaim the mystery of faith:</Line>
 <Rubric>Celebrant and People</Rubric>
 <Line indent bold>Christ has died.</Line>
 <Line indent bold>Christ is risen.</Line>
 <Line indent bold>Christ will come again.</Line>
-<TextBlock>We celebrate the memorial of our redemption, O Father, in this
-sacrifice of praise and thanksgiving, and we offer you these gifts.</TextBlock>
+<TextBlock
+	>We celebrate the memorial of our redemption, O Father, in this sacrifice of praise and
+	thanksgiving, and we offer you these gifts.</TextBlock
+>
 <PageMarker page={133} text="holy eucharist | Renewed ancient text" />
 
 <!-- Content from page 134 -->
-<TextBlock>Sanctify them by your Word and Holy Spirit to be for your
-people the Body and Blood of your Son Jesus Christ. Sanctify
-us also, that we may worthily receive this holy Sacrament, and
-be made one body with him, that he may dwell in us and we in
-him. In the fullness of time, put all things in subjection under
-your Christ, and bring us with all your saints into the joy of your
-heavenly kingdom, where we shall see our Lord face to face.</TextBlock>
-<TextBlock>All this we ask through your Son Jesus Christ: By him, and with
-him, and in him, in the unity of the Holy Spirit, all honor and
-glory is yours, Almighty Father, now and for ever. Amen.</TextBlock>
+<TextBlock
+	>Sanctify them by your Word and Holy Spirit to be for your people the Body and Blood of your Son
+	Jesus Christ. Sanctify us also, that we may worthily receive this holy Sacrament, and be made one
+	body with him, that he may dwell in us and we in him. In the fullness of time, put all things in
+	subjection under your Christ, and bring us with all your saints into the joy of your heavenly
+	kingdom, where we shall see our Lord face to face.</TextBlock
+>
+<TextBlock
+	>All this we ask through your Son Jesus Christ: By him, and with him, and in him, in the unity of
+	the Holy Spirit, all honor and glory is yours, Almighty Father, now and for ever. Amen.</TextBlock
+>
 <SectionTitle>the lord's prayer</SectionTitle>
 <Rubric>The Celebrant then says</Rubric>
 <Line>And now as our Savior Christ has taught us, we are bold to pray:</Line>
@@ -82,14 +88,15 @@ glory is yours, Almighty Father, now and for ever. Amen.</TextBlock>
 <Rubric>If the consecrated Bread was not broken earlier, the Celebrant breaks it now.</Rubric>
 <Rubric>A period of silence is kept.</Rubric>
 <Rubric>Then may be sung or said</Rubric>
-<Versical celebrant text="[Alleluia.] Christ our Passover is sacrificed for us." />
+<Versical celebrant>[Alleluia.] Christ our Passover is sacrificed for us.</Versical>
 <KeepTheFeast />
 <OrThis />
-<Versical
-	celebrant
-	text="[Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross."
-/>
+<Versical celebrant
+	>[Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross.</Versical
+>
 <KeepTheFeast />
-<Rubric>In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season.</Rubric>
+<Rubric
+	>In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season.</Rubric
+>
 <HumbleAccess />
 <PageMarker page={135} text="holy eucharist | Renewed ancient text" />

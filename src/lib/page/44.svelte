@@ -16,9 +16,9 @@
 <Gloria />
 <SectionTitle>the lessons</SectionTitle>
 <Rubric>One or more Lessons, as appointed, are read, the Reader first saying</Rubric>
-<Versical text="A Reading from _____________." />
+<Versical>A Reading from _____________.</Versical>
 <Rubric>A citation giving chapter and verse may be added.</Rubric>
 <Rubric>After each Lesson the Reader may say</Rubric>
-<Versical text="The Word of the Lord." />
-<Versical people text="Thanks be to God." />
+<Versical>The Word of the Lord.</Versical>
+<Versical people>Thanks be to God.</Versical>
 <PageNumber page={44} text="Daily office" />

@@ -8,12 +8,12 @@
 
 <Rubric>The Officiant then begins the Prayers</Rubric>
 Officiant People
-<Versical officiant text="I will bless the Lord at all times." />
-<Versical people text="His praise shall continually be in my mouth." />
+<Versical officiant>I will bless the Lord at all times.</Versical>
+<Versical people>His praise shall continually be in my mouth.</Versical>
 <Kyrie />
 <Rubric>Officiant and People</Rubric>
 <LordsPrayer />
-<Versical officiant text="O Lord, hear our prayer;" />
-<Versical people text="And let our cry come to you." />
-<Versical officiant text="Let us pray." />
+<Versical officiant>O Lord, hear our prayer;</Versical>
+<Versical people>And let our cry come to you.</Versical>
+<Versical officiant>Let us pray.</Versical>
 <PageNumber page={37} text="Midday prayer" />

@@ -17,12 +17,11 @@
 <Rubric>If the consecrated Bread was not broken earlier, the Celebrant breaks it now.</Rubric>
 <Rubric>A period of silence is kept.</Rubric>
 <Rubric>Then may be sung or said</Rubric>
-<Versical celebrant text="[Alleluia.] Christ our Passover is sacrificed for us." />
-<Versical people text="Therefore let us keep the feast. [Alleluia.]" />
+<Versical celebrant>[Alleluia.] Christ our Passover is sacrificed for us.</Versical>
+<Versical people>Therefore let us keep the feast. [Alleluia.]</Versical>
 <OrThis />
-<Versical
-	celebrant
-	text="[Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross."
-/>
-<Versical celebrant text="People Therefore let us keep the feast. [Alleluia.]" />
+<Versical celebrant
+	>[Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross.</Versical
+>
+<Versical celebrant>People Therefore let us keep the feast. [Alleluia.]</Versical>
 <PageNumber page={118} text="the holy eucharist" />

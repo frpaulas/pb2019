@@ -7,8 +7,8 @@
 </script>
 
 <Chrysostom />
-<Versical officiant text="Let us bless the Lord." />
-<Versical people text="Thanks be to God." />
+<Versical officiant>Let us bless the Lord.</Versical>
+<Versical people>Thanks be to God.</Versical>
 <Rubric
 	text="From Easter Day through the Day of Pentecost, “Alleluia, alleluia” may be added
     to the preceding versicle and response."

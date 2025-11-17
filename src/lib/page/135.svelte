@@ -12,14 +12,15 @@
 <Rubric>If the consecrated Bread was not broken earlier, the Celebrant breaks it now.</Rubric>
 <Rubric>A period of silence is kept.</Rubric>
 <Rubric>Then may be sung or said</Rubric>
-<Versical celebrant text="[Alleluia.] Christ our Passover is sacrificed for us." />
+<Versical celebrant>[Alleluia.] Christ our Passover is sacrificed for us.</Versical>
 <KeepTheFeast />
 <OrThis />
-<Versical
-	celebrant
-	text="[Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross."
-/>
+<Versical celebrant
+	>[Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross.</Versical
+>
 <KeepTheFeast />
-<Rubric>In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season.</Rubric>
+<Rubric
+	>In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season.</Rubric
+>
 <HumbleAccess />
 <PageNumber page={135} text="holy eucharist | Renewed ancient text" />

@@ -12,8 +12,8 @@
 <Line amen>The Lord Almighty grant us a peaceful</Line>
 <Line indent amen>and a perfect end.</Line>
 Officiant People
-<Versical officiant text="Our help is in the Name of the Lord;" />
-<Versical people text="The maker of heaven and earth." />
+<Versical officiant>Our help is in the Name of the Lord;</Versical>
+<Versical people>The maker of heaven and earth.</Versical>
 <Rubric>The Officiant continues</Rubric>
 <Line>Let us humbly confess our sins to Almighty God.</Line>
 <Rubric>Silence may be kept. The Officiant and People then say</Rubric>

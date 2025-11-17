@@ -2,7 +2,6 @@
 	import { parseMarkdown } from '$lib/utils/parseMarkdown.js';
 
 	let {
-		text,
 		officiant = false,
 		celebrant = false,
 		reader = false,
@@ -23,8 +22,6 @@
 						: '';
 	let textClass = people ? 'font-bold' : '';
 
-	let parsedText = $derived(text ? parseMarkdown(text) : null);
-
 	// For slot content, we need to extract and parse it
 	let slotContentElement;
 	let parsedSlotContent = $derived.by(() => {
@@ -37,9 +34,7 @@
 <div class="flex break-after-all gap-4 leading-normal">
 	<div class="w-[70px] flex-shrink-0 text-right italic">{who}</div>
 	<div class="flex-1 {textClass}">
-		{#if parsedText}
-			{@html parsedText}
-		{:else if parsedSlotContent}
+		{#if parsedSlotContent}
 			{@html parsedSlotContent}
 		{:else}
 			<span bind:this={slotContentElement} style="display: none;">

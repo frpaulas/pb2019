@@ -40,7 +40,7 @@ the nations, says the Lord of Hosts. "
 	ref="malachi 1:11"
 />
 <Rubric>At the end of the reading is said</Rubric>
-<Versical text="The Word of the Lord." />
-<Versical text="Thanks be to God." />
+<Versical>The Word of the Lord.</Versical>
+<Versical>Thanks be to God.</Versical>
 <Rubric>A meditation, silent or spoken, may follow.</Rubric>
 <PageNumber page={36} text="daily office" />

@@ -8,15 +8,16 @@
 </script>
 
 <Rubric>The Officiant alone says</Rubric>
-<TextBlock amen>May Almighty God grant us forgiveness of all our sins,
-    and the grace and comfort of the Holy Spirit.</TextBlock>
-<Versical officiant text="O God, make speed to save us;" />
-<Versical people text="O Lord, make haste to help us." />
-<Versical officiant text="Glory be to the Father, and to the Son, and to the Holy Spirit;" />
-<Versical
-	people
-	text="As it was in the beginning, is now, and ever shall be, world without end. Amen."
-/>
+<TextBlock amen
+	>May Almighty God grant us forgiveness of all our sins, and the grace and comfort of the Holy
+	Spirit.</TextBlock
+>
+<Versical officiant>O God, make speed to save us;</Versical>
+<Versical people>O Lord, make haste to help us.</Versical>
+<Versical officiant>Glory be to the Father, and to the Son, and to the Holy Spirit;</Versical>
+<Versical people
+	>As it was in the beginning, is now, and ever shall be, world without end. Amen.</Versical
+>
 <Rubric add_on="Alleluia.">Except in Lent, add</Rubric>
 <Rubric>One or more of the following, or some other suitable Psalm, is sung or said.</Rubric>
 <SectionTitle>psalm 4</SectionTitle>

@@ -2,5 +2,5 @@
 	import Versical from '$lib/page_helpers/versical.svelte';
 </script>
 
-<Versical officiant text="Let us bless the Lord." />
-<Versical people text="Thanks be to God." />
+<Versical officiant>Let us bless the Lord.</Versical>
+<Versical people>Thanks be to God.</Versical>

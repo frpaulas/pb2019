@@ -6,19 +6,19 @@
 </script>
 
 <SectionTitle>the decalogue</SectionTitle>
-<Versical celebrant text="God spoke these words and said:" />
-<Versical text="I am the Lord your God." />
-<Versical text="You shall have no other gods but me." />
+<Versical celebrant>God spoke these words and said:</Versical>
+<Versical>I am the Lord your God.</Versical>
+<Versical>You shall have no other gods but me.</Versical>
 <InclineOurHearts />
-<Versical celebrant text="You shall not make for yourself any idol." />
+<Versical celebrant>You shall not make for yourself any idol.</Versical>
 <InclineOurHearts />
-<Versical celebrant text="You shall not take the Name of the Lord your God in vain." />
+<Versical celebrant>You shall not take the Name of the Lord your God in vain.</Versical>
 <InclineOurHearts />
-<Versical celebrant text="Remember the Sabbath day and keep it holy." />
+<Versical celebrant>Remember the Sabbath day and keep it holy.</Versical>
 <InclineOurHearts />
-<Versical celebrant text="Honor your father and your mother." />
+<Versical celebrant>Honor your father and your mother.</Versical>
 <InclineOurHearts />
-<Versical celebrant text="You shall not murder." />
+<Versical celebrant>You shall not murder.</Versical>
 <InclineOurHearts />
 
 <PageNumber page={100} text="great litany & decalogue" />

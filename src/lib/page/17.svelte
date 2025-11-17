@@ -12,10 +12,10 @@
 <Line>A Reading from _____________.</Line>
 <Rubric>A citation giving chapter and verse may be added.</Rubric>
 <Rubric>After each lesson the Reader may say</Rubric>
-<Versical text="The Word of the Lord." />
-<Versical people text="Thanks be to God." />
+<Versical>The Word of the Lord.</Versical>
+<Versical people>Thanks be to God.</Versical>
 <Rubric>Or the Reader may say</Rubric>
-<Versical text="Here ends the Reading." />
+<Versical>Here ends the Reading.</Versical>
 <Rubric
 	>The following Canticles are normally sung or said after each of the lessons. The Officiant may
 	also use a Canticle drawn from the Supplemental Canticles (pages 79-88) or an appropriate song of

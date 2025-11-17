@@ -8,8 +8,8 @@
 </script>
 
 <SectionTitle size="3xl">midday prayer</SectionTitle>
-<Versical officiant text="O God, make speed to save us;" />
-<Versical people text="O Lord, make haste to help us." />
+<Versical officiant>O God, make speed to save us;</Versical>
+<Versical people>O Lord, make haste to help us.</Versical>
 <Gloria versical />
 <Rubric add_on=" Alleluia.">Except in Lent, add</Rubric>
 <Rubric>A suitable hymn may be sung.</Rubric>

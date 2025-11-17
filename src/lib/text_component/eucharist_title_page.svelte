@@ -23,11 +23,11 @@
 <Rubric
 	text="The People standing, the Celebrant says this or a seasonal greeting (pages 145-146)"
 />
-<Versical text="Blessed be God: the Father, the Son, and the Holy Spirit." />
-<Versical people text="And blessed be his kingdom, now and for ever. Amen." />
+<Versical>Blessed be God: the Father, the Son, and the Holy Spirit.</Versical>
+<Versical people>And blessed be his kingdom, now and for ever. Amen.</Versical>
 <Rubric text="In the season of Lent" />
-<Versical celebrant text="Bless the Lord who forgives all our sins." />
-<Versical people text="His mercy endures for ever." />
+<Versical celebrant>Bless the Lord who forgives all our sins.</Versical>
+<Versical people>His mercy endures for ever.</Versical>
 <Rubric text="From Easter Day until the Eve of Pentecost" />
-<Versical celebrant text="Alleluia! Christ is risen!" />
-<Versical people text="The Lord is risen indeed! Alleluia!" />
+<Versical celebrant>Alleluia! Christ is risen!</Versical>
+<Versical people>The Lord is risen indeed! Alleluia!</Versical>

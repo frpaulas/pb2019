@@ -11,10 +11,10 @@
 <Rubric>At the end of the reading is said</Rubric>
 <WordOfTheLord />
 <Rubric>A period of silence may follow. A suitable hymn may be sung.</Rubric>
-<Versical officiant text="Into your hands, O Lord, I commend my spirit;" />
-<Versical people text="For you have redeemed me, O Lord, O God of truth." />
-<Versical officiant text="Keep me, O Lord, as the apple of your eye;" />
-<Versical people text="Hide me under the shadow of your wings." />
+<Versical officiant>Into your hands, O Lord, I commend my spirit;</Versical>
+<Versical people>For you have redeemed me, O Lord, O God of truth.</Versical>
+<Versical officiant>Keep me, O Lord, as the apple of your eye;</Versical>
+<Versical people>Hide me under the shadow of your wings.</Versical>
 <Kyrie />
 <Rubric>Officiant and People</Rubric>
 <PageNumber page={62} text="Daily Office" />

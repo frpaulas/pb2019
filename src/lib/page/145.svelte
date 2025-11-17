@@ -15,20 +15,20 @@
 />
 <SectionTitle>for advent</SectionTitle>
 <br />
-<Versical celebrant text="Surely the Lord is coming soon." />
-<Versical people text="Amen. Come Lord Jesus!" />
+<Versical celebrant>Surely the Lord is coming soon.</Versical>
+<Versical people>Amen. Come Lord Jesus!</Versical>
 <Ref text="revelation 22:20" />
 <br />
 <SectionTitle>for christmastide ~_and_~ the feast of the presentation of christ</SectionTitle>
 <br />
-<Versical celebrant text="For unto us a child is born," />
-<Versical people text="Unto us a son is given." />
+<Versical celebrant>For unto us a child is born,</Versical>
+<Versical people>Unto us a son is given.</Versical>
 <Ref text="isaiah 9:6" t />
 <br />
 <SectionTitle>from the feast of the epiphany ~_to_~ the end of the epiphany season</SectionTitle>
 <br />
-<Versical celebrant text="I will make you as a light for the nations," />
-<Versical people text="That my salvation may reach to the end of the earth." />
+<Versical celebrant>I will make you as a light for the nations,</Versical>
+<Versical people>That my salvation may reach to the end of the earth.</Versical>
 <Ref text="isaiah 49:6" />
 
 <PageNumber page={145} text="additional directions" />

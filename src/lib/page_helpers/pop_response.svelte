@@ -2,5 +2,5 @@
 	import Versical from './versical.svelte';
 </script>
 
-<Versical reader text="Lord, in your mercy" />
-<Versical people text="Hear our prayer." />
+<Versical reader>Lord, in your mercy</Versical>
+<Versical people>Hear our prayer.</Versical>
