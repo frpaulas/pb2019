@@ -5,6 +5,7 @@
 	import IntentionallyBlank from '$lib/page_helpers/intentionally_blank.svelte';
 	import { currentVisiblePage } from '$lib/stores/currentPage.js';
 	import { getNextPage, getPrevPage, sortPages } from '$lib/page_helpers/page_order';
+	import { deduplicatePageLoads, getContentFile } from '$lib/page_helpers/page_content_map';
 	let currentPageNumber = $page.params.page_number;
 	let loadedPages = $state([$page.params.page_number]);
 
@@ -481,12 +482,12 @@
 		handleScroll();
 	}}
 >
-	{#each loadedPages as pageNum, index (pageNum)}
-		<div class="page-container pb-5" data-page={pageNum}>
-			{#await import(`../../lib/page/${pageNum}.svelte`) then Component}
+	{#each deduplicatePageLoads(loadedPages) as { file, displayPage } (file)}
+		<div class="page-container" data-page={displayPage}>
+			{#await import(`../../lib/page/${file}.svelte`) then Component}
 				<Component.default />
 			{:catch}
-				<IntentionallyBlank pg={pageNum} />
+				<IntentionallyBlank pg={displayPage} />
 			{/await}
 		</div>
 	{/each}

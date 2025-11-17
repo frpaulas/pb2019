@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { parseMarkdown } from '$lib/utils/parseMarkdown.js';
+
 	let {
 		text,
 		officiant = false,
@@ -6,7 +8,7 @@
 		reader = false,
 		people = false,
 		deacon = false,
-		bold = false
+		children
 	} = $props();
 	let who = officiant
 		? 'Officiant'
@@ -19,10 +21,30 @@
 					: deacon
 						? 'Deacon'
 						: '';
-	let textClass = people || bold ? 'font-bold' : '';
+	let textClass = people ? 'font-bold' : '';
+
+	let parsedText = $derived(text ? parseMarkdown(text) : null);
+
+	// For slot content, we need to extract and parse it
+	let slotContentElement;
+	let parsedSlotContent = $derived.by(() => {
+		if (!slotContentElement) return null;
+		const textContent = slotContentElement.textContent || '';
+		return parseMarkdown(textContent);
+	});
 </script>
 
 <div class="flex break-after-all gap-4 leading-normal">
 	<div class="w-[70px] flex-shrink-0 text-right italic">{who}</div>
-	<div class="flex-1 {textClass}">{text}</div>
+	<div class="flex-1 {textClass}">
+		{#if parsedText}
+			{@html parsedText}
+		{:else if parsedSlotContent}
+			{@html parsedSlotContent}
+		{:else}
+			<span bind:this={slotContentElement} style="display: none;">
+				{@render children()}
+			</span>
+		{/if}
+	</div>
 </div>

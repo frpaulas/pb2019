@@ -1,16 +1,15 @@
 <script>
-	import NewPage from './new_page.svelte';
-
 	let { text, page } = $props();
 
-	let this_class = $state('mt-8 tracking-[.15em] uppercase text-sm');
-	if (page % 2 === 1) {
-		this_class += ' text-right';
-	}
+	// Floating page marker - appears in margin, doesn't break flow
+	let position_class = page % 2 === 1 ? 'right-0' : 'left-0';
 </script>
 
-<div class={this_class}>
-	{text}
-	{page}
+<div id="page-{page}" class="relative">
+	<div
+		class="absolute {position_class} -mx-16 text-xs tracking-[.15em] text-gray-400 uppercase opacity-50"
+	>
+		{text}
+		{page}
+	</div>
 </div>
-<NewPage />
