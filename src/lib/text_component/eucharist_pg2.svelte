@@ -10,8 +10,8 @@
 
 <ForPurity />
 <SummaryOfTheLaw />
-<SectionTitle text="the kyrie" />
-<Rubric text="The Celebrant and People pray" />
+<SectionTitle>the kyrie</SectionTitle>
+<Rubric>The Celebrant and People pray</Rubric>
 <Kyrie latin />
 <OrThis />
 <Trisagion />

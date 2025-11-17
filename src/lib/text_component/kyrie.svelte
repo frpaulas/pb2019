@@ -6,16 +6,16 @@
 
 <div class="mt-8 flex break-after-all flex-col gap-3 sm:flex-row sm:gap-6">
 	<div>
-		<Line text="Lord, have mercy [upon us]." />
-		<Line bold text="Christ, have mercy [upon us]." />
-		<Line text="Lord, have mercy [upon us]." />
+		<Line>Lord, have mercy [upon us].</Line>
+		<Line bold>Christ, have mercy [upon us].</Line>
+		<Line>Lord, have mercy [upon us].</Line>
 	</div>
 	{#if latin}
 		<div>
-			<Rubric text="or" />
-			<Line text="Kyrie eleison." />
-			<Line bold text="Christe eleison." />
-			<Line text="Kyrie eleison." />
+			<Rubric>or</Rubric>
+			<Line>Kyrie eleison.</Line>
+			<Line bold>Christe eleison.</Line>
+			<Line>Kyrie eleison.</Line>
 		</div>
 	{/if}
 </div>

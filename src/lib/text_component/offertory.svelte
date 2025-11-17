@@ -5,15 +5,14 @@
 	import Versical from '$lib/page_helpers/versical.svelte';
 </script>
 
-<SectionTitle text="the offertory" />
+<SectionTitle>the offertory</SectionTitle>
 <Rubric
-	text="The Celebrant may begin the Offertory with one of the provided sentences of Scripture.
-During the Offertory a hymn, psalm, or anthem may be sung. The Deacon
-or Priest prepares the Holy Table for the celebration. Representatives of the
-Congregation may bring the People’s offerings of bread and wine, and money or
-other gifts, to the Deacon or Priest."
-/>
-<Rubric text="The People stand while the offerings are presented. The following may be said." />
+	>The Celebrant may begin the Offertory with one of the provided sentences of Scripture. During the
+	Offertory a hymn, psalm, or anthem may be sung. The Deacon or Priest prepares the Holy Table for
+	the celebration. Representatives of the Congregation may bring the People's offerings of bread and
+	wine, and money or other gifts, to the Deacon or Priest.</Rubric
+>
+<Rubric>The People stand while the offerings are presented. The following may be said.</Rubric>
 <Versical celebrant
 	>Yours, O Lord, is the greatness, and the power, and the glory, and the victory, and the majesty:
 	for everything in heaven and on earth is yours; yours is the Kingdom, O Lord, and you are exalted

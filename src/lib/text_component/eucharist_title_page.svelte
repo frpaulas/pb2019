@@ -11,23 +11,21 @@
 			: '';
 </script>
 
-<SectionTitle text="the order for the administration of" />
-<SectionTitle text="the lord’s supper" />
-<SectionTitle fancy text="or" />
-<SectionTitle text="holy communion," />
-<SectionTitle text="commonly called" />
-<SectionTitle text="the holy eucharist" />
-<SectionTitle fancy text={this_order} />
-<Rubric text="A hymn, psalm, or anthem may be sung." />
-<SectionTitle text="the acclamation" />
-<Rubric
-	text="The People standing, the Celebrant says this or a seasonal greeting (pages 145-146)"
-/>
+<SectionTitle>the order for the administration of</SectionTitle>
+<SectionTitle>the lord's supper</SectionTitle>
+<SectionTitle fancy>or</SectionTitle>
+<SectionTitle>holy communion,</SectionTitle>
+<SectionTitle>commonly called</SectionTitle>
+<SectionTitle>the holy eucharist</SectionTitle>
+<SectionTitle fancy>{this_order}</SectionTitle>
+<Rubric>A hymn, psalm, or anthem may be sung.</Rubric>
+<SectionTitle>the acclamation</SectionTitle>
+<Rubric>The People standing, the Celebrant says this or a seasonal greeting (pages 145-146)</Rubric>
 <Versical>Blessed be God: the Father, the Son, and the Holy Spirit.</Versical>
 <Versical people>And blessed be his kingdom, now and for ever. Amen.</Versical>
-<Rubric text="In the season of Lent" />
+<Rubric>In the season of Lent</Rubric>
 <Versical celebrant>Bless the Lord who forgives all our sins.</Versical>
 <Versical people>His mercy endures for ever.</Versical>
-<Rubric text="From Easter Day until the Eve of Pentecost" />
+<Rubric>From Easter Day until the Eve of Pentecost</Rubric>
 <Versical celebrant>Alleluia! Christ is risen!</Versical>
 <Versical people>The Lord is risen indeed! Alleluia!</Versical>

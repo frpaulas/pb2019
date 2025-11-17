@@ -9,16 +9,15 @@
 </script>
 
 {#if pg != 120}
-	<SectionTitle text="the ministration of communion" />
-	<Rubric text="Facing the People, the Celebrant may say the following invitation" />
+	<SectionTitle>the ministration of communion</SectionTitle>
+	<Rubric>Facing the People, the Celebrant may say the following invitation</Rubric>
 {/if}
 
 {#if pg != 119}
 	<TextBlock
-		text="The gifts of God for the people of God. [Take them in
-remembrance that Christ died for you and feed on him in your
-hearts by faith, with thanksgiving.]"
-	/>
+		>The gifts of God for the people of God. [Take them in remembrance that Christ died for you and
+		feed on him in your hearts by faith, with thanksgiving.]</TextBlock
+	>
 	<OrThis />
 	<Scripture
 		text="Behold the Lamb of God, behold him who takes away the sins
@@ -28,8 +27,8 @@ supper of the Lamb."
 		t
 	/>
 	<Rubric
-		text="The Ministers receive the Sacrament in both kinds, and then immediately deliver
-    it to the People."
-	/>
-	<Rubric text="The Bread and Cup are given to the communicants with these words" />
+		>The Ministers receive the Sacrament in both kinds, and then immediately deliver it to the
+		People.</Rubric
+	>
+	<Rubric>The Bread and Cup are given to the communicants with these words</Rubric>
 {/if}

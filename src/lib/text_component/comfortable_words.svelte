@@ -35,9 +35,9 @@
 </script>
 
 {#if from === 1}
-	<SectionTitle text="the comfortable words" />
-	<Rubric text="The Celebrant may then say one or more of the following sentences, first saying" />
-	<Line text="Hear the Word of God to all who truly turn to him." />
+	<SectionTitle>the comfortable words</SectionTitle>
+	<Rubric>The Celebrant may then say one or more of the following sentences, first saying</Rubric>
+	<Line>Hear the Word of God to all who truly turn to him.</Line>
 {/if}
 
 {#each lines as ln (ln.id)}

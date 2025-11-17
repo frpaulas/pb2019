@@ -15,8 +15,8 @@
 	<Versical>{lines[2]}</Versical>
 {:else}
 	<div class="mt-1">
-		<Line bold text={lines[0]} />
-		<Line bold indent text={lines[1]} />
-		<Line bold indent text={lines[2]} />
+		<Line bold>{lines[0]}</Line>
+		<Line bold indent>{lines[1]}</Line>
+		<Line bold indent>{lines[2]}</Line>
 	</div>
 {/if}
