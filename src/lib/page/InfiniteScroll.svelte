@@ -3,9 +3,12 @@
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 	import IntentionallyBlank from '$lib/page_helpers/intentionally_blank.svelte';
+	import PsalmPageRenderer from '$lib/page/PsalmPageRenderer.svelte';
 	import { currentVisiblePage } from '$lib/stores/currentPage.js';
 	import { getNextPage, getPrevPage, sortPages } from '$lib/page_helpers/page_order';
 	import { deduplicatePageLoads, getContentFile } from '$lib/page_helpers/page_content_map';
+	import psalmPagesData from '$lib/data/psalm_pages.json';
+
 	let currentPageNumber = $page.params.page_number;
 	let loadedPages = $state([$page.params.page_number]);
 
@@ -23,6 +26,14 @@
 	let justLoadedPrev = false; // Flag to prevent immediate re-trigger
 	let preventLoadPrev = false; // Flag to prevent loading when navigating from menu
 	let isUserScrolling = false; // Track active scrolling
+	let isInfiniteScrollActive = false; // Track if we're actively using infinite scroll
+	let hasUserScrolled = false; // Track if user has scrolled at all
+	let isUpdatingUrlFromScroll = false; // Flag to prevent $effect from triggering during scroll-based URL updates
+	let observerUpdateTimeout = null; // Debounce timeout for IntersectionObserver updates
+
+	// DISABLED: Windowing was causing scroll position issues when trimming pages
+	// With JSON-based rendering for psalm pages, we don't need windowing anymore
+	// The lightweight JSON data doesn't cause performance issues like component mounting did
 
 	async function loadNextPage() {
 		if (isLoading) return;
@@ -33,102 +44,126 @@
 
 		if (!nextPage || currentPages.includes(nextPage)) return;
 
+		console.log('[LOAD] Loading next page:', nextPage, 'Current pages:', currentPages);
 		isLoading = true;
+
+		const oldScrollTop = container?.scrollTop || 0;
+		const oldScrollHeight = container?.scrollHeight || 0;
 
 		// Add the next page to loadedPages
 		loadedPages = sortPages([...currentPages, nextPage]);
 
-		// Don't update URL immediately - let IntersectionObserver handle it
-		// when a valid page becomes visible
+		// Wait for DOM to update
+		await tick();
+
+		// Check if browser reset our scroll position and restore it
+		const newScrollTop = container?.scrollTop || 0;
+		if (newScrollTop !== oldScrollTop && oldScrollTop > 0) {
+			console.log('[LOAD] Restoring scrollTop from', newScrollTop, 'to', oldScrollTop);
+			container.scrollTop = oldScrollTop;
+
+			// Multiple restoration attempts to ensure it sticks
+			requestAnimationFrame(() => {
+				if (container.scrollTop !== oldScrollTop) {
+					console.log('[LOAD] Re-restoring scrollTop (frame 1)');
+					container.scrollTop = oldScrollTop;
+				}
+			});
+
+			setTimeout(() => {
+				if (container.scrollTop !== oldScrollTop) {
+					console.log('[LOAD] Re-restoring scrollTop (timeout 10ms)');
+					container.scrollTop = oldScrollTop;
+				}
+			}, 10);
+
+			setTimeout(() => {
+				if (container.scrollTop !== oldScrollTop) {
+					console.log('[LOAD] Re-restoring scrollTop (timeout 50ms)');
+					container.scrollTop = oldScrollTop;
+				}
+			}, 50);
+		}
 
 		isLoading = false;
 	}
 
-	async function loadPrevPage(scrollToOriginal = false) {
+	async function loadPrevPage() {
+		if (isLoading) return;
+
 		const currentPages = $state.snapshot(loadedPages);
 		const firstPage = currentPages[0];
 		const prevPage = getPrevPage(firstPage);
-		if (!prevPage || currentPages.includes(prevPage)) {
-			return;
-		}
 
+		if (!prevPage || currentPages.includes(prevPage)) return;
+
+		console.log('[LOAD] Loading previous page:', prevPage, 'Current pages:', currentPages);
 		isLoading = true;
 		justLoadedPrev = true;
 
-		if (!container) {
-			loadedPages = sortPages([prevPage, ...currentPages]);
-			isLoading = false;
-			return;
-		}
+		// Capture current scroll position and height
+		const oldScrollTop = container?.scrollTop || 0;
+		const oldScrollHeight = container?.scrollHeight || 0;
 
-		// Preload the component module before adding to DOM to eliminate async render delay
-		try {
-			await import(`../../lib/page/${prevPage}.svelte`);
-		} catch (e) {
-			// Component doesn't exist, will show IntentionallyBlank
-		}
-
-		// Store scroll info immediately BEFORE we start any blocking
-		const oldScrollHeight = container.scrollHeight;
-		const oldScrollTop = container.scrollTop;
-
-		// Immediately block all pointer events and user scrolling during adjustment
-		const oldPointerEvents = container.style.pointerEvents;
-		const oldUserSelect = container.style.userSelect;
-		const oldOverflow = container.style.overflow;
-
-		container.style.pointerEvents = 'none';
-		container.style.userSelect = 'none';
-		container.style.overflow = 'hidden';
-
-		// Immediately lock the scroll position to stop momentum
-		container.scrollTop = oldScrollTop;
-
-		// Force layout flush
-		void container.offsetHeight;
-
-		// Add previous page to the beginning of loadedPages
+		// Add the previous page to loadedPages
 		loadedPages = sortPages([prevPage, ...currentPages]);
 
-		// Wait for Svelte to update DOM
+		// Wait for DOM to update
 		await tick();
 
-		// Very short delay for component to render (minimize scroll blocking)
-		await new Promise((resolve) => setTimeout(resolve, 10));
+		// Calculate how much height was added and adjust scroll position
+		const newScrollHeight = container?.scrollHeight || 0;
+		const heightAdded = newScrollHeight - oldScrollHeight;
 
-		// Calculate final adjustment needed
-		const finalHeight = container.scrollHeight;
-		const totalHeightAdded = finalHeight - oldScrollHeight;
+		if (heightAdded > 0) {
+			// Adjust scroll position to maintain visual position
+			const targetScrollTop = oldScrollTop + heightAdded;
+			console.log(
+				'[LOAD] Adjusting scrollTop by',
+				heightAdded,
+				'from',
+				oldScrollTop,
+				'to',
+				targetScrollTop
+			);
+			container.scrollTop = targetScrollTop;
 
-		// Apply the adjustment in one go (round to avoid subpixel issues)
-		if (totalHeightAdded > 0) {
-			container.scrollTop = Math.round(oldScrollTop + totalHeightAdded);
+			// Multiple restoration attempts to ensure it sticks
+			requestAnimationFrame(() => {
+				if (container.scrollTop !== targetScrollTop) {
+					console.log('[LOAD] Re-adjusting scrollTop (frame 1)');
+					container.scrollTop = targetScrollTop;
+				}
+			});
+
+			setTimeout(() => {
+				if (container.scrollTop !== targetScrollTop) {
+					console.log('[LOAD] Re-adjusting scrollTop (timeout 10ms)');
+					container.scrollTop = targetScrollTop;
+				}
+			}, 10);
+
+			setTimeout(() => {
+				if (container.scrollTop !== targetScrollTop) {
+					console.log('[LOAD] Re-adjusting scrollTop (timeout 50ms)');
+					container.scrollTop = targetScrollTop;
+				}
+			}, 50);
 		}
-
-		// Wait one more frame to catch any late layout changes
-		await new Promise((resolve) => requestAnimationFrame(resolve));
-
-		const veryFinalHeight = container.scrollHeight;
-		if (veryFinalHeight !== finalHeight) {
-			const extraHeight = veryFinalHeight - finalHeight;
-			container.scrollTop += extraHeight;
-		}
-
-		// Restore scrolling and pointer events
-		container.style.pointerEvents = oldPointerEvents;
-		container.style.userSelect = oldUserSelect;
-		container.style.overflow = oldOverflow;
 
 		isLoading = false;
 
-		// Reset the flag after a delay to allow future loads
+		// Reset the flag after a short delay to allow future loads
 		setTimeout(() => {
 			justLoadedPrev = false;
-		}, 1000);
+		}, 100);
 	}
 
 	function handleScroll() {
 		if (!container) return;
+
+		// Mark that user has scrolled
+		hasUserScrolled = true;
 
 		const { scrollTop, scrollHeight, clientHeight } = container;
 		const scrollProgress = (scrollTop + clientHeight) / scrollHeight;
@@ -152,26 +187,31 @@
 		const currentLoadedPages = $state.snapshot(loadedPages);
 		const firstPageElement = container?.querySelector(`[data-page="${currentLoadedPages[0]}"]`);
 
+		console.log(
+			'[SCROLL] Direction:',
+			scrollDirection,
+			'First page:',
+			currentLoadedPages[0],
+			'ScrollTop:',
+			scrollTop
+		);
+
+		// Load previous page when scrolling up near the top
 		if (firstPageElement && scrollDirection === 'up' && !preventLoadPrev) {
-			const firstPageTop = firstPageElement.offsetTop + 50;
+			const firstPageTop = firstPageElement.offsetTop;
 			const firstPageBottom = firstPageTop + firstPageElement.offsetHeight;
 			const viewportTop = scrollTop;
 			const viewportBottom = scrollTop + clientHeight;
 
-			// Trigger when the first page is visible in viewport or we're within 500px of it
+			// Trigger when the first page is visible in viewport
 			const isFirstPageVisible = viewportBottom > firstPageTop && viewportTop < firstPageBottom;
-			const isNearFirstPage = viewportTop < firstPageBottom + 500;
 
-			// Only trigger if we're very close to the top (within 200px) to prevent accidental triggers
-			const isVeryNearTop = scrollTop < 200;
+			// Trigger when we're within 300px of the first page
+			const isNearFirstPage = viewportTop < firstPageBottom + 300;
 
-			if (
-				isVeryNearTop &&
-				(isFirstPageVisible || isNearFirstPage) &&
-				!isLoading &&
-				!justLoadedPrev
-			) {
-				loadPrevPage(true);
+			if ((isFirstPageVisible || isNearFirstPage) && !isLoading && !justLoadedPrev) {
+				console.log('[SCROLL] Triggering loadPrevPage - near top of first page');
+				loadPrevPage();
 			}
 		}
 	}
@@ -207,7 +247,29 @@
 	}
 
 	onMount(async () => {
+		console.log('=== INFINITE SCROLL COMPONENT MOUNTED ===');
 		if (container) {
+			console.log('[MOUNT] Container found, scrollTop:', container.scrollTop);
+
+			// Intercept ALL scrollTop assignments
+			const originalDescriptor = Object.getOwnPropertyDescriptor(Element.prototype, 'scrollTop');
+			let realScrollTop = container.scrollTop;
+			Object.defineProperty(container, 'scrollTop', {
+				get() {
+					return originalDescriptor.get.call(this);
+				},
+				set(value) {
+					if (value === 0 && originalDescriptor.get.call(this) > 100) {
+						console.error(
+							'[INTERCEPTOR] Something is setting scrollTop to 0! Current:',
+							originalDescriptor.get.call(this)
+						);
+						console.trace();
+					}
+					originalDescriptor.set.call(this, value);
+				},
+				configurable: true
+			});
 			// Detect if this is a navigation from menu (not at top of page)
 			const isMenuNavigation = container.scrollTop > 0;
 
@@ -248,15 +310,19 @@
 					await tick();
 					await new Promise((resolve) => setTimeout(resolve, 50));
 
-					// Scroll to show the original page with slight offset
+					// Scroll to show the original page at the top (not previous pages)
 					const firstPageElement = container.querySelector(`[data-page="${firstPage}"]`);
 					if (firstPageElement) {
-						const targetScrollTop = firstPageElement.offsetTop - 50;
+						// Scroll to show the target page clearly at top
+						const targetScrollTop = firstPageElement.offsetTop;
 						container.scrollTop = targetScrollTop;
 
 						// Set again after delay to override any interference from other components
 						await new Promise((resolve) => setTimeout(resolve, 100));
 						container.scrollTop = targetScrollTop;
+
+						// Ensure the visible page store shows the correct initial page
+						currentVisiblePage.set(firstPage);
 					}
 				}
 			}
@@ -287,21 +353,53 @@
 			// Intersection observer to track which page is currently visible
 			const observer = new IntersectionObserver(
 				(entries) => {
-					entries.forEach((entry) => {
-						if (entry.isIntersecting) {
-							const pageNum = entry.target.getAttribute('data-page');
-							if (pageNum) {
-								// Always update the visible page store for the header
-								currentVisiblePage.set(pageNum);
-								// Also update currentPageNumber so navigation detection works
-								currentPageNumber = pageNum;
+					// Debounce observer updates to prevent rapid firing during DOM changes
+					if (observerUpdateTimeout) {
+						clearTimeout(observerUpdateTimeout);
+					}
+
+					observerUpdateTimeout = setTimeout(() => {
+						// Find the most visible page (highest intersection ratio)
+						let mostVisible = null;
+						let highestRatio = 0;
+
+						entries.forEach((entry) => {
+							if (entry.isIntersecting && entry.intersectionRatio > highestRatio) {
+								highestRatio = entry.intersectionRatio;
+								mostVisible = entry.target.getAttribute('data-page');
+							}
+						});
+
+						// Only update if we found a most visible page and it's significantly visible
+						if (mostVisible && highestRatio > 0.5) {
+							// Only mark infinite scroll as active if user has actually scrolled
+							// This prevents the initial page load from triggering infinite scroll mode
+							if (hasUserScrolled) {
+								isInfiniteScrollActive = true;
+							}
+							// Always update the visible page store for the header
+							currentVisiblePage.set(mostVisible);
+							// Don't update currentPageNumber until user has scrolled
+							// This prevents the $effect from triggering during initial load
+							if (hasUserScrolled && mostVisible !== currentPageNumber) {
+								console.log(
+									'[OBSERVER] Updating to most visible page:',
+									mostVisible,
+									'from:',
+									currentPageNumber
+								);
+								currentPageNumber = mostVisible;
+
+								// DISABLED: URL update during scroll - causes jump to scrollTop: 0
+								// Keep the header updated via currentVisiblePage store
+								// TODO: Find a way to update URL without breaking scroll
 							}
 						}
-					});
+					}, 150); // 150ms debounce - wait for DOM to settle
 				},
 				{
 					root: container,
-					threshold: 0.7, // Increase threshold to be more conservative
+					threshold: [0.0, 0.25, 0.5, 0.75, 1.0], // Multiple thresholds to track visibility ratio
 					rootMargin: '0px'
 				}
 			);
@@ -339,8 +437,23 @@
 
 	// Watch for page parameter changes from navigation
 	$effect(() => {
+		// CRITICAL: Only run this effect when infinite scroll is NOT active
+		// Running this effect during infinite scroll triggers SvelteKit navigation somehow
+		if (isInfiniteScrollActive) {
+			console.log('[EFFECT] Skipping entirely - infinite scroll is active');
+			return;
+		}
+
 		const newPage = $page.params.page_number;
 		const hash = $page.url.hash; // Get the URL hash (e.g., #psalm-77)
+
+		console.log('[EFFECT] URL changed to:', newPage, {
+			isUpdatingUrlFromScroll,
+			isInfiniteScrollActive,
+			currentPageNumber,
+			loadedPages: $state.snapshot(loadedPages),
+			hash
+		});
 
 		// Handle hash anchor even if we're already on the page
 		if (hash && newPage === currentPageNumber && container) {
@@ -380,12 +493,6 @@
 		if (newPage && newPage !== currentPageNumber) {
 			const currentPages = $state.snapshot(loadedPages);
 
-			// Check if navigating to an already loaded but not currently visible page
-			const currentVisiblePageValue = $state.snapshot(currentVisiblePage);
-			const isNavigatingToLoadedPage =
-				currentPages.includes(newPage) && currentVisiblePageValue !== newPage;
-
-			// Only reset loadedPages if this is a true navigation (not from infinite scroll)
 			// Check if the new page is adjacent to current loaded pages
 			const isAdjacent = currentPages.some((page) => {
 				const pageNum = parseInt(page);
@@ -396,9 +503,19 @@
 				return false;
 			});
 
+			// If page is already loaded and infinite scroll is active, just update tracking
+			// Don't reset or scroll - the user is actively browsing through infinite scroll
+			if (isInfiniteScrollActive && currentPages.includes(newPage)) {
+				currentPageNumber = newPage;
+				return;
+			}
+
 			currentPageNumber = newPage;
-			if ((!currentPages.includes(newPage) && !isAdjacent) || isNavigatingToLoadedPage) {
-				// True navigation - load target page plus one previous for upward scrolling
+			if (!currentPages.includes(newPage) && !isAdjacent) {
+				console.log('[EFFECT] TRUE NAVIGATION - Resetting pages to:', newPage);
+				// True navigation - reset infinite scroll state and load target page
+				isInfiniteScrollActive = false;
+				hasUserScrolled = false;
 				const hasPrev = getPrevPage(newPage);
 				const pagesToLoad = hasPrev ? [hasPrev, newPage] : [newPage];
 				loadedPages = pagesToLoad;
@@ -477,18 +594,25 @@
 
 <div
 	bind:this={container}
-	class="h-screen overflow-auto"
+	class="scroll-container h-screen overflow-auto"
+	data-sveltekit-noscroll
 	onscroll={(e) => {
 		handleScroll();
 	}}
 >
 	{#each deduplicatePageLoads(loadedPages) as { file, displayPage } (file)}
 		<div class="page-container" data-page={displayPage}>
-			{#await import(`../../lib/page/${file}.svelte`) then Component}
-				<Component.default />
-			{:catch}
-				<IntentionallyBlank pg={displayPage} />
-			{/await}
+			{#if psalmPagesData[displayPage]}
+				<!-- Render psalm page from JSON data -->
+				<PsalmPageRenderer pageData={psalmPagesData[displayPage]} />
+			{:else}
+				<!-- Render regular page component -->
+				{#await import(`../../lib/page/${file}.svelte`) then Component}
+					<Component.default />
+				{:catch}
+					<IntentionallyBlank pg={displayPage} />
+				{/await}
+			{/if}
 		</div>
 	{/each}
 
@@ -505,7 +629,7 @@
 		contain: layout style paint;
 	}
 
-	div[bind\:this] {
+	.scroll-container {
 		/* Scroll snap completely disabled */
 		/* overflow-anchor disabled - we handle scroll positioning manually */
 		overflow-anchor: none;

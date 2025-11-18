@@ -1,29 +1,29 @@
 <script>
 	import { parseMarkdown } from '$lib/utils/parseMarkdown.js';
 	import Ref from './ref.svelte';
+	import { onMount } from 'svelte';
 
-	let { text, ref, t = false, children } = $props();
-
-	let parsedText = $derived(text ? parseMarkdown(text) : null);
+	let { ref, t = false, children } = $props();
 
 	// For slot content, we need to extract and parse it
-	let slotContentElement;
-	let parsedSlotContent = $derived.by(() => {
-		if (!slotContentElement) return null;
-		const textContent = slotContentElement.textContent || '';
-		return parseMarkdown(textContent);
+	let slotContentElement = $state();
+	let parsedSlotContent = $state(null);
+
+	onMount(() => {
+		if (slotContentElement) {
+			const textContent = slotContentElement.textContent || '';
+			parsedSlotContent = parseMarkdown(textContent);
+		}
 	});
 </script>
 
-<div class="text-normal relative">
-	{#if parsedText}
-		{@html parsedText}
-	{:else if parsedSlotContent}
+<p class="mt-2 mb-2 text-red-900 italic">
+	{#if parsedSlotContent}
 		{@html parsedSlotContent}
-	{:else}
+	{:else if children}
 		<span bind:this={slotContentElement} style="display: none;">
 			{@render children()}
 		</span>
 	{/if}
 	<Ref text={ref} {t} />
-</div>
+</p>
