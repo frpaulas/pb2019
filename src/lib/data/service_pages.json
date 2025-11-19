@@ -1,0 +1,508 @@
+{
+  "11": {
+    "pageNumber": 11,
+    "headerText": "daily morning prayer",
+    "content": [
+      {
+        "type": "section_title",
+        "size": "3xl",
+        "text": "daily morning prayer"
+      },
+      {
+        "type": "rubric",
+        "text": "The Officiant may begin Morning Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office (pages 27-29), is customary."
+      },
+      {
+        "type": "scripture",
+        "ref": "philippians 1:2",
+        "text": "Grace to you and peace from God our Father and the Lord Jesus Christ.\""
+      },
+      {
+        "type": "or_this"
+      },
+      {
+        "type": "scripture",
+        "ref": "psalm 122:1",
+        "text": "I was glad when they said unto me, \"We will go into the house of the Lord.\""
+      },
+      {
+        "type": "or_this"
+      },
+      {
+        "type": "scripture",
+        "ref": "psalm 19:14",
+        "text": "Let the words of my mouth and the meditation of my heart be always acceptable in your sight, O Lord, my rock and my redeemer."
+      },
+      {
+        "type": "section_title",
+        "size": "1xl",
+        "text": "confession of sin"
+      },
+      {
+        "type": "rubric",
+        "text": "The Officiant says to the People"
+      },
+      {
+        "type": "text_block",
+        "text": "Dearly beloved, the Scriptures teach us to acknowledge our many sins and offenses, not concealing them from our heavenly Father, but confessing them with humble and obedient hearts that we may obtain forgiveness by his infinite goodness and"
+      }
+    ]
+  },
+  "12": {
+    "pageNumber": 12,
+    "headerText": "daily office",
+    "content": [
+      {
+        "type": "text_block",
+        "text": "mercy. We ought at all times humbly to acknowledge our sins before Almighty God, but especially when we come together in his presence to give thanks for the great benefits we have received at his hands, to declare his most worthy praise, to hear his holy Word, and to ask, for ourselves and on behalf of others, those things which are necessary for our life and our salvation. Therefore, draw near with me to the throne of heavenly grace."
+      },
+      {
+        "type": "or_this"
+      },
+      {
+        "type": "text_block",
+        "text": "Let us humbly confess our sins to Almighty God."
+      },
+      {
+        "type": "rubric",
+        "text": "Silence is kept. All kneeling, the Officiant and People say"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "Almighty and most merciful Father,"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "we have erred and strayed from your ways like lost sheep."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "We have followed too much the devices and desires"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "of our own hearts."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "We have offended against your holy laws."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "We have left undone those things which we ought to have done,"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "and we have done those things which we ought not"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "to have done;"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "and apart from your grace, there is no health in us."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "O Lord, have mercy upon us."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "Spare all those who confess their faults."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "Restore all those who are penitent, according to your promises"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "declared to all people in Christ Jesus our Lord."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "And grant, O most merciful Father, for his sake,"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "that we may now live a godly, righteous, and sober life,"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "to the glory of your holy Name. Amen."
+      },
+      {
+        "type": "rubric",
+        "text": "The Priest alone stands and says"
+      },
+      {
+        "type": "text_block",
+        "text": "Almighty God, the Father of our Lord Jesus Christ, desires not the death of sinners, but that they may turn from their"
+      }
+    ]
+  },
+  "13": {
+    "pageNumber": 13,
+    "headerText": "daily morning prayer",
+    "content": [
+      {
+        "type": "text_block",
+        "text": "wickedness and live. He has empowered and commanded his ministers to pronounce to his people, being penitent, the absolution and remission of their sins. He pardons and absolves all who truly repent and genuinely believe his holy Gospel. For this reason, we beseech him to grant us true repentance and his Holy Spirit, that our present deeds may please him, the rest of our lives may be pure and holy, and that at the last we may come to his eternal joy; through Jesus Christ our Lord. Amen."
+      },
+      {
+        "type": "or_this"
+      },
+      {
+        "type": "text_block",
+        "text": "The Almighty and merciful Lord grant you absolution and remission of all your sins, true repentance, amendment of life, and the grace and consolation of his Holy Spirit. Amen. A Deacon or layperson remains kneeling and prays Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. Amen."
+      },
+      {
+        "type": "section_title",
+        "size": "1xl",
+        "text": "invitatory"
+      },
+      {
+        "type": "rubric",
+        "text": "All stand."
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "O Lord, open our lips;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And our mouth shall proclaim your praise."
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "O God, make speed to save us;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "O Lord, make haste to help us."
+      },
+      {
+        "type": "gloria",
+        "versical": true
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "Praise the Lord."
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "The Lord's Name be praised."
+      }
+    ]
+  },
+  "14": {
+    "pageNumber": 14,
+    "headerText": "daily office",
+    "content": [
+      {
+        "type": "rubric",
+        "text": "Then follows the Venite. Alternatively, the Jubilate may be used."
+      },
+      {
+        "type": "rubric",
+        "text": "One of these antiphons, or one from the seasonal antiphons provided at the end of the Office (pages 29-30), may be sung or said before and after the Invitatory Psalm."
+      },
+      {
+        "type": "antiphon",
+        "call": "The earth is the Lord's for he made it: *",
+        "response": "O come, let us adore him."
+      },
+      {
+        "type": "or_this"
+      },
+      {
+        "type": "antiphon",
+        "call": "Worship the Lord in the beauty of holiness: *",
+        "response": "O come, let us adore him."
+      },
+      {
+        "type": "or_this"
+      },
+      {
+        "type": "antiphon",
+        "call": "The mercy of the Lord is everlasting: *",
+        "response": "O come, let us adore him."
+      },
+      {
+        "type": "section_title",
+        "size": "1xl",
+        "text": "venite"
+      },
+      {
+        "type": "section_title",
+        "size": "1xl",
+        "fancy": true,
+        "text": "O Come"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "O come, let us sing unto the Lord; *"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "let us heartily rejoice in the strength of our salvation."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "Let us come before his presence with thanksgiving *"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "and show ourselves glad in him with psalms."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "For the Lord is a great God *"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "and a great King above all gods."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "In his hand are all the depths of the earth, *"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "and the heights of the hills are his also."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "The sea is his, for he made it, *"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "and his hands prepared the dry land."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "O come, let us worship and fall down, *"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "and kneel before the Lord our Maker."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "For he is our God, *"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "text": "and we are the people of his pasture,"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "and the sheep of his hand."
+      }
+    ]
+  },
+  "15": {
+    "pageNumber": 15,
+    "headerText": "daily morning prayer",
+    "content": [
+      {
+        "type": "rubric",
+        "text": "The following verses may be omitted, except in Lent."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "Today, if you will hear his voice, harden not your hearts *"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "as in the provocation, and as in the day of temptation in"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "the wilderness,"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "When your fathers tested me, *"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "and put me to the proof, though they had seen my works."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "Forty years long was I grieved with this generation and said, *"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "\"It is a people that err in their hearts,"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "for they have not known my ways,\""
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "Of whom I swore in my wrath *"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "indent": true,
+        "text": "that they should not enter into my rest."
+      },
+      {
+        "type": "ref",
+        "text": "psalm 95:1-7, 8-11"
+      },
+      {
+        "type": "or_this"
+      },
+      {
+        "type": "section_title",
+        "size": "1xl",
+        "text": "jubilate"
+      },
+      {
+        "type": "section_title",
+        "size": "1xl",
+        "fancy": true,
+        "text": "Be Joyful"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "O be joyful in the Lord, all you lands; *"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "serve the Lord with gladness,"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "and come before his presence with a song."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "Be assured that the Lord, he is God; *"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "it is he that has made us, and not we ourselves;"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "we are his people, and the sheep of his pasture."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "O go your way into his gates with thanksgiving,"
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "and into his courts with praise; *"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "be thankful unto him, and speak good of his Name."
+      },
+      {
+        "type": "line",
+        "bold": true,
+        "text": "For the Lord is gracious, his mercy is everlasting, *"
+      },
+      {
+        "type": "line",
+        "indent": true,
+        "bold": true,
+        "text": "and his truth endures from generation to generation."
+      },
+      {
+        "type": "ref",
+        "text": "psalm 100"
+      },
+      {
+        "type": "rubric",
+        "text": "During the first week of Easter, the Pascha Nostrum, without antiphons, is used in place of the Invitatory Psalm, and it may be used throughout Eastertide."
+      }
+    ]
+  }
+}

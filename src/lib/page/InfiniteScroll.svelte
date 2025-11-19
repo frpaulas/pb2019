@@ -4,10 +4,12 @@
 	import { page } from '$app/stores';
 	import IntentionallyBlank from '$lib/page_helpers/intentionally_blank.svelte';
 	import PsalmPageRenderer from '$lib/page/PsalmPageRenderer.svelte';
+	import ServicePageRenderer from '$lib/page/ServicePageRenderer.svelte';
 	import { currentVisiblePage } from '$lib/stores/currentPage.js';
 	import { getNextPage, getPrevPage, sortPages } from '$lib/page_helpers/page_order';
 	import { deduplicatePageLoads, getContentFile } from '$lib/page_helpers/page_content_map';
 	import psalmPagesData from '$lib/data/psalm_pages.json';
+	import servicePagesData from '$lib/data/service_pages.json';
 
 	let currentPageNumber = $page.params.page_number;
 	let loadedPages = $state([$page.params.page_number]);
@@ -605,6 +607,9 @@
 			{#if psalmPagesData[displayPage]}
 				<!-- Render psalm page from JSON data -->
 				<PsalmPageRenderer pageData={psalmPagesData[displayPage]} />
+			{:else if servicePagesData[displayPage]}
+				<!-- Render service page from JSON data -->
+				<ServicePageRenderer pageData={servicePagesData[displayPage]} />
 			{:else}
 				<!-- Render regular page component -->
 				{#await import(`../../lib/page/${file}.svelte`) then Component}
