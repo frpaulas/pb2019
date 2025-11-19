@@ -1,0 +1,322 @@
+{
+  "structure": {
+    "daily_office": {
+      "title": "Daily Office",
+      "slug": "daily-office",
+      "services": {
+        "morning_prayer": {
+          "title": "Morning Prayer",
+          "slug": "morning-prayer",
+          "pb_page_start": 11,
+          "pb_page_end": 32
+        },
+        "midday_prayer": {
+          "title": "Midday Prayer",
+          "slug": "midday-prayer",
+          "pb_page_start": 33,
+          "pb_page_end": 40
+        },
+        "evening_prayer": {
+          "title": "Evening Prayer",
+          "slug": "evening-prayer",
+          "pb_page_start": 41,
+          "pb_page_end": 56
+        },
+        "compline": {
+          "title": "Compline",
+          "slug": "compline",
+          "pb_page_start": 57,
+          "pb_page_end": 66
+        },
+        "family_prayer": {
+          "title": "Family Prayer",
+          "slug": "family-prayer",
+          "pb_page_start": 67,
+          "pb_page_end": 78
+        },
+        "supplemental_canticles": {
+          "title": "Supplemental Canticles for Worship",
+          "slug": "supplemental-canticles",
+          "pb_page_start": 79,
+          "pb_page_end": 90
+        },
+        "great_litany": {
+          "title": "Great Litany and Supplication",
+          "slug": "great-litany",
+          "pb_page_start": 91,
+          "pb_page_end": 99
+        },
+        "decalogue": {
+          "title": "Decalogue",
+          "slug": "decalogue",
+          "pb_page_start": 100,
+          "pb_page_end": 104
+        }
+      }
+    },
+    "holy_eucharist": {
+      "title": "Holy Eucharist",
+      "slug": "holy-eucharist",
+      "services": {
+        "anglican_standard": {
+          "title": "Holy Eucharist: Anglican Standard Text",
+          "slug": "anglican-standard",
+          "pb_page_start": 105,
+          "pb_page_end": 122
+        },
+        "renewed_ancient": {
+          "title": "Holy Eucharist: Renewed Ancient Text",
+          "slug": "renewed-ancient",
+          "pb_page_start": 123,
+          "pb_page_end": 138
+        },
+        "additional_directions": {
+          "title": "Additional Directions",
+          "slug": "additional-directions",
+          "pb_page_start": 139,
+          "pb_page_end": 144
+        }
+      },
+      "supplemental": {
+        "seasonal_greetings": {
+          "title": "Seasonal Greetings",
+          "slug": "seasonal-greetings",
+          "pb_page_start": 145,
+          "pb_page_end": 146
+        },
+        "exhortation": {
+          "title": "The Exhortation",
+          "slug": "exhortation",
+          "pb_page_start": 147,
+          "pb_page_end": 148
+        },
+        "offertory_sentences": {
+          "title": "Offertory Sentences",
+          "slug": "offertory-sentences",
+          "pb_page_start": 149,
+          "pb_page_end": 151
+        },
+        "proper_prefaces": {
+          "title": "Proper Prefaces",
+          "slug": "proper-prefaces",
+          "pb_page_start": 152,
+          "pb_page_end": 160
+        }
+      }
+    },
+    "baptism_confirmation": {
+      "title": "Baptism & Confirmation",
+      "slug": "baptism-confirmation",
+      "services": {
+        "holy_baptism": {
+          "title": "Holy Baptism",
+          "slug": "holy-baptism",
+          "pb_page_start": 161,
+          "pb_page_end": 174
+        },
+        "confirmation": {
+          "title": "Confirmation, Reception, and Reaffirmation",
+          "slug": "confirmation",
+          "pb_page_start": 175,
+          "pb_page_end": 182
+        },
+        "baptism_with_confirmation": {
+          "title": "Baptism with Confirmation",
+          "slug": "baptism-with-confirmation",
+          "pb_page_start": 183,
+          "pb_page_end": 193
+        },
+        "renewal_baptismal_vows": {
+          "title": "Renewal of Baptismal Vows",
+          "slug": "renewal-baptismal-vows",
+          "pb_page_start": 194,
+          "pb_page_end": 200
+        }
+      }
+    },
+    "pastoral_rites": {
+      "title": "Pastoral Rites",
+      "slug": "pastoral-rites",
+      "services": {
+        "holy_matrimony": {
+          "title": "Holy Matrimony",
+          "slug": "holy-matrimony",
+          "pb_page_start": 201,
+          "pb_page_end": 214
+        },
+        "thanksgiving_birth": {
+          "title": "Thanksgiving for the Birth or Adoption of a Child",
+          "slug": "thanksgiving-birth",
+          "pb_page_start": 215,
+          "pb_page_end": 222
+        },
+        "reconciliation_penitents": {
+          "title": "Reconciliation of Penitents",
+          "slug": "reconciliation-penitents",
+          "pb_page_start": 223,
+          "pb_page_end": 224
+        },
+        "ministry_sick": {
+          "title": "Ministry to the Sick",
+          "slug": "ministry-sick",
+          "pb_page_start": 225,
+          "pb_page_end": 226
+        },
+        "communion_sick": {
+          "title": "Communion of the Sick",
+          "slug": "communion-sick",
+          "pb_page_start": 227,
+          "pb_page_end": 230
+        },
+        "additional_prayers_sick": {
+          "title": "Additional Prayers for the Sick",
+          "slug": "additional-prayers-sick",
+          "pb_page_start": 231,
+          "pb_page_end": 236
+        },
+        "ministry_dying": {
+          "title": "Ministry to the Dying",
+          "slug": "ministry-dying",
+          "pb_page_start": 237,
+          "pb_page_end": 242
+        },
+        "prayers_vigil": {
+          "title": "Prayers for a Vigil",
+          "slug": "prayers-vigil",
+          "pb_page_start": 243,
+          "pb_page_end": 248
+        },
+        "burial_dead": {
+          "title": "Burial of the Dead",
+          "slug": "burial-dead",
+          "pb_page_start": 249,
+          "pb_page_end": 268
+        }
+      }
+    },
+    "psalter": {
+      "title": "The Psalter",
+      "slug": "psalter",
+      "sections": {
+        "selections": {
+          "title": "Selections of Psalms",
+          "slug": "selections",
+          "pb_page_start": 269,
+          "pb_page_end": 269
+        },
+        "psalms": {
+          "title": "Psalms 1-150",
+          "slug": "psalms",
+          "pb_page_start": 270,
+          "pb_page_end": 467
+        }
+      }
+    },
+    "episcopal_services": {
+      "title": "Episcopal Services",
+      "slug": "episcopal-services",
+      "services": {
+        "ordination_deacon": {
+          "title": "Ordination of a Deacon",
+          "slug": "ordination-deacon",
+          "pb_page_start": 472,
+          "pb_page_end": 482
+        },
+        "ordination_priest": {
+          "title": "Ordination of a Priest",
+          "slug": "ordination-priest",
+          "pb_page_start": 483,
+          "pb_page_end": 496
+        },
+        "ordination_bishop": {
+          "title": "Ordination and Confirmation of a Bishop",
+          "slug": "ordination-bishop",
+          "pb_page_start": 497,
+          "pb_page_end": 509
+        },
+        "litany_ordinations": {
+          "title": "Litany for Ordinations",
+          "slug": "litany-ordinations",
+          "pb_page_start": 510,
+          "pb_page_end": 514
+        },
+        "institution_rector": {
+          "title": "Institution of a Rector",
+          "slug": "institution-rector",
+          "pb_page_start": 515,
+          "pb_page_end": 524
+        },
+        "consecration_worship": {
+          "title": "Consecration and Dedication of a Place of Worship",
+          "slug": "consecration-worship",
+          "pb_page_start": 525,
+          "pb_page_end": 542
+        }
+      }
+    },
+    "special_liturgies": {
+      "title": "Special Liturgies",
+      "slug": "special-liturgies",
+      "lent_holy_week": {
+        "title": "Of Lent & Holy Week",
+        "slug": "lent-holy-week",
+        "services": {
+          "ash_wednesday": {
+            "title": "Ash Wednesday",
+            "slug": "ash-wednesday",
+            "pb_page_start": 543,
+            "pb_page_end": 553
+          },
+          "palm_sunday": {
+            "title": "Palm Sunday",
+            "slug": "palm-sunday",
+            "pb_page_start": 554,
+            "pb_page_end": 559
+          },
+          "maundy_thursday": {
+            "title": "Maundy Thursday",
+            "slug": "maundy-thursday",
+            "pb_page_start": 560,
+            "pb_page_end": 564
+          },
+          "good_friday": {
+            "title": "Good Friday",
+            "slug": "good-friday",
+            "pb_page_start": 565,
+            "pb_page_end": 577
+          },
+          "holy_saturday": {
+            "title": "Holy Saturday",
+            "slug": "holy-saturday",
+            "pb_page_start": 578,
+            "pb_page_end": 581
+          },
+          "great_vigil_easter": {
+            "title": "Great Vigil of Easter",
+            "slug": "great-vigil-easter",
+            "pb_page_start": 582,
+            "pb_page_end": 597
+          }
+        }
+      }
+    },
+    "collects_prayers": {
+      "title": "Collects & Occasional Prayers",
+      "slug": "collects-prayers",
+      "sections": {
+        "collects_christian_year": {
+          "title": "Collects of the Christian Year",
+          "slug": "collects-christian-year",
+          "pb_page_start": 598,
+          "pb_page_end": 642
+        },
+        "occasional_prayers": {
+          "title": "Occasional Prayers",
+          "slug": "occasional-prayers",
+          "pb_page_start": 643,
+          "pb_page_end": 686
+        }
+      }
+    }
+  }
+}
