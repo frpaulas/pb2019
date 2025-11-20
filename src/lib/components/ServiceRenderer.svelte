@@ -17,6 +17,8 @@
 	import Footnote from '$lib/page_helpers/footnote.svelte';
 	import Silence from '$lib/page_helpers/silence.svelte';
 	import IntentionallyBlank from '$lib/page_helpers/intentionally_blank.svelte';
+	import SignatureBlock from '$lib/page_helpers/signature_block.svelte';
+	import SectionPage from '$lib/page_helpers/section_page.svelte';
 
 	let { serviceData } = $props();
 </script>
@@ -78,6 +80,14 @@
 					<Silence />
 				{:else if block.type === 'intentionally_blank'}
 					<IntentionallyBlank />
+				{:else if block.type === 'signature_block'}
+					<SignatureBlock
+						signatures={block.signatures}
+						date={block.date}
+						dateRoman={block.dateRoman}
+					/>
+				{:else if block.type === 'section_page'}
+					<SectionPage text={block.text} />
 				{/if}
 			{/each}
 		</section>
