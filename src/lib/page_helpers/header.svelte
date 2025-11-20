@@ -34,6 +34,11 @@
 		openSubmenus = new Set(openSubmenus);
 	}
 
+	function navigate(href: string) {
+		toggleMenu();
+		goto(href, { invalidateAll: true });
+	}
+
 	function handlePageNavigation(event: KeyboardEvent) {
 		if (event.key === 'Enter' && inputPageNumber.trim()) {
 			goto(`${base}/pg/${inputPageNumber.trim()}`);
@@ -61,11 +66,11 @@
 		{
 			title: 'Daily Prayers',
 			submenu: [
-				{ title: 'Morning Prayer', href: `${base}/pg/11` },
-				{ title: 'Midday Prayer', href: `${base}/pg/33` },
-				{ title: 'Evening Prayer', href: `${base}/pg/41` },
-				{ title: 'Compline', href: `${base}/pg/57` },
-				{ title: 'Family Prayer', href: `${base}/pg/67` }
+				{ title: 'Morning Prayer', href: `${base}/daily-office/morning-prayer` },
+				{ title: 'Midday Prayer', href: `${base}/daily-office/midday-prayer` },
+				{ title: 'Evening Prayer', href: `${base}/daily-office/evening-prayer` },
+				{ title: 'Compline', href: `${base}/daily-office/compline` },
+				{ title: 'Family Prayer', href: `${base}/daily-office/family-prayer` }
 			]
 		},
 		{
@@ -159,9 +164,9 @@
 				{#each menuStructure as item}
 					{#if item.href}
 						<!-- Direct link -->
-						<a href={item.href} class={button_class} onclick={toggleMenu}>
+						<button class={button_class} onclick={() => navigate(item.href)}>
 							{item.title}
-						</a>
+						</button>
 					{:else if item.submenu}
 						<!-- Submenu parent -->
 						<div class="relative">
@@ -193,13 +198,12 @@
 								>
 									<div class="py-2">
 										{#each item.submenu as subitem}
-											<a
-												href={subitem.href}
-												class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
-												onclick={toggleMenu}
+											<button
+												class="block w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+												onclick={() => navigate(subitem.href)}
 											>
 												{subitem.title}
-											</a>
+											</button>
 										{/each}
 									</div>
 								</div>

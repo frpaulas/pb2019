@@ -439,14 +439,21 @@
 
 	// Watch for page parameter changes from navigation
 	$effect(() => {
-		// CRITICAL: Only run this effect when infinite scroll is NOT active
-		// Running this effect during infinite scroll triggers SvelteKit navigation somehow
-		if (isInfiniteScrollActive) {
-			console.log('[EFFECT] Skipping entirely - infinite scroll is active');
+		const newPage = $page.params.page_number;
+
+		// If infinite scroll is active but user hasn't scrolled recently (navigating via menu),
+		// treat it as true navigation
+		if (isInfiniteScrollActive && isUserScrolling) {
+			console.log('[EFFECT] Skipping - user is actively scrolling');
 			return;
 		}
 
-		const newPage = $page.params.page_number;
+		// If infinite scroll was active but user stopped scrolling, reset the flag
+		// This allows menu navigation to work properly
+		if (isInfiniteScrollActive && !isUserScrolling) {
+			console.log('[EFFECT] Resetting infinite scroll - user not scrolling');
+			isInfiniteScrollActive = false;
+		}
 		const hash = $page.url.hash; // Get the URL hash (e.g., #psalm-77)
 
 		console.log('[EFFECT] URL changed to:', newPage, {
@@ -505,9 +512,15 @@
 				return false;
 			});
 
-			// If page is already loaded and infinite scroll is active, just update tracking
-			// Don't reset or scroll - the user is actively browsing through infinite scroll
-			if (isInfiniteScrollActive && currentPages.includes(newPage)) {
+			// If page is already loaded, infinite scroll is active, AND user is scrolling
+			// just update tracking. Don't reset or scroll - they're actively browsing.
+			// But if they're NOT scrolling (e.g., navigating via menu), reset everything.
+			if (
+				isInfiniteScrollActive &&
+				currentPages.includes(newPage) &&
+				hasUserScrolled &&
+				isUserScrolling
+			) {
 				currentPageNumber = newPage;
 				return;
 			}
