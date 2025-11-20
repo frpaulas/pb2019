@@ -1,0 +1,269 @@
+{
+  "seasonal_greetings": {
+    "title": "Seasonal Greetings",
+    "slug": "seasonal-greetings",
+    "pb_pages": [145, 146],
+    "sections": [
+      {
+        "id": "title",
+        "title": "Supplemental Eucharistic Texts",
+        "pb_page_start": 145,
+        "pb_page_end": 145,
+        "content": [
+          {
+            "type": "section_title",
+            "text": "supplemental"
+          },
+          {
+            "type": "section_title",
+            "text": "eucharistic texts"
+          },
+          {
+            "type": "section_title",
+            "text": "seasonal greetings"
+          },
+          {
+            "type": "rubric",
+            "text": "The opening Acclamation may be replaced by a greeting appropriate to the season or the occasion, such as the following"
+          }
+        ]
+      },
+      {
+        "id": "advent",
+        "title": "For Advent",
+        "pb_page_start": 145,
+        "pb_page_end": 145,
+        "content": [
+          {
+            "type": "section_title",
+            "text": "for advent"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "Surely the Lord is coming soon."
+          },
+          {
+            "type": "versical",
+            "people": true,
+            "text": "Amen. Come Lord Jesus!"
+          },
+          {
+            "type": "ref",
+            "text": "revelation 22:20"
+          }
+        ]
+      },
+      {
+        "id": "christmastide",
+        "title": "For Christmastide and the Feast of the Presentation of Christ",
+        "pb_page_start": 145,
+        "pb_page_end": 145,
+        "content": [
+          {
+            "type": "section_title",
+            "text": "for christmastide ~_and_~ the feast of the presentation of christ"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "For unto us a child is born,"
+          },
+          {
+            "type": "versical",
+            "people": true,
+            "text": "Unto us a son is given."
+          },
+          {
+            "type": "ref",
+            "t": true,
+            "text": "isaiah 9:6"
+          }
+        ]
+      },
+      {
+        "id": "epiphany",
+        "title": "From the Feast of the Epiphany to the End of the Epiphany Season",
+        "pb_page_start": 145,
+        "pb_page_end": 145,
+        "content": [
+          {
+            "type": "section_title",
+            "text": "from the feast of the epiphany ~_to_~ the end of the epiphany season"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "I will make you as a light for the nations,"
+          },
+          {
+            "type": "versical",
+            "people": true,
+            "text": "That my salvation may reach to the end of the earth."
+          },
+          {
+            "type": "ref",
+            "text": "isaiah 49:6"
+          }
+        ]
+      },
+      {
+        "id": "lent",
+        "title": "From Ash Wednesday to the Eve of Palm Sunday or Penitential Occasions",
+        "pb_page_start": 146,
+        "pb_page_end": 146,
+        "content": [
+          {
+            "type": "section_title",
+            "text": "from ash wednesday _to_ the eve of palm sunday _or_ penitential occasions"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "Bless the Lord who forgives all our sins."
+          },
+          {
+            "type": "versical",
+            "people": true,
+            "text": "His mercy endures for ever."
+          }
+        ]
+      },
+      {
+        "id": "holy_week",
+        "title": "For Holy Week",
+        "pb_page_start": 146,
+        "pb_page_end": 146,
+        "content": [
+          {
+            "type": "section_title",
+            "text": "for holy week"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "Blessed be our God."
+          },
+          {
+            "type": "versical",
+            "people": true,
+            "text": "Now and for ever. Amen."
+          }
+        ]
+      },
+      {
+        "id": "eastertide",
+        "title": "From Easterday Until the Eve of Pentecost",
+        "pb_page_start": 146,
+        "pb_page_end": 146,
+        "content": [
+          {
+            "type": "section_title",
+            "text": "from easterday _until_ the eve of pentecost"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "Alleluia! Christ is risen!"
+          },
+          {
+            "type": "versical",
+            "people": true,
+            "text": "The Lord is risen indeed! Alleluia!"
+          }
+        ]
+      },
+      {
+        "id": "pentecost",
+        "title": "For the Day of Pentecost, and Occasions of Confirmation and Ordination",
+        "pb_page_start": 146,
+        "pb_page_end": 146,
+        "content": [
+          {
+            "type": "section_title",
+            "text": "for the day of pentecost, _and_ occasions of confirmation _and_ ordination"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "The Lord will pour out his Spirit upon all flesh,"
+          },
+          {
+            "type": "versical",
+            "people": true,
+            "text": "And your sons and daughters shall prophesy."
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "Your old men shall dream dreams,"
+          },
+          {
+            "type": "versical",
+            "people": true,
+            "text": "And your young men shall see visions."
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "You shall know that the Lord is in the midst of his people,"
+          },
+          {
+            "type": "versical",
+            "people": true,
+            "text": "That he is the Lord and there is none else."
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "And it shall come to pass"
+          },
+          {
+            "type": "versical",
+            "people": true,
+            "text": "That everyone who calls on the Name of the Lord shall be saved."
+          },
+          {
+            "type": "ref",
+            "t": true,
+            "nr": true,
+            "text": "joel 2:27-28, 32"
+          },
+          {
+            "type": "ref",
+            "t": true,
+            "continued": true,
+            "text": "acts 2:17, 21"
+          }
+        ]
+      },
+      {
+        "id": "all_saints",
+        "title": "For All Saints' Day and Other Appropriate Occasions",
+        "pb_page_start": 146,
+        "pb_page_end": 146,
+        "content": [
+          {
+            "type": "section_title",
+            "text": "for all saints' day and other appropriate occasions"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "Worthy is the Lord our God,"
+          },
+          {
+            "type": "versical",
+            "people": true,
+            "text": "To receive glory and honor and power."
+          },
+          {
+            "type": "ref",
+            "t": true,
+            "text": "revelation 4:11"
+          }
+        ]
+      }
+    ]
+  }
+}

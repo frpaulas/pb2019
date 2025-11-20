@@ -14,6 +14,9 @@
 	import LordsPrayer from '$lib/text_component/lords_prayer.svelte';
 	import Kyrie from '$lib/text_component/kyrie.svelte';
 	import Chrysostom from '$lib/canticle/chrysostom.svelte';
+	import Footnote from '$lib/page_helpers/footnote.svelte';
+	import Silence from '$lib/page_helpers/silence.svelte';
+	import IntentionallyBlank from '$lib/page_helpers/intentionally_blank.svelte';
 
 	let { serviceData } = $props();
 </script>
@@ -34,33 +37,25 @@
 				{:else if block.type === 'rubric'}
 					<Rubric add_on={block.add_on || ''}>{block.text}</Rubric>
 				{:else if block.type === 'scripture'}
-					<Scripture
-						ref={block.ref}
-						t={block.t || false}
-					>
-						{block.text}{#if block.amen} Amen.{/if}
+					<Scripture ref={block.ref} t={block.t || false}>
+						{block.text}{#if block.amen}
+							Amen.{/if}
 					</Scripture>
 				{:else if block.type === 'text_block'}
-					<TextBlock>{block.text}{#if block.amen} Amen.{/if}</TextBlock>
-				{:else if block.type === 'line'}
-					<Line
-						bold={block.bold || false}
-						indent={block.indent || false}
+					<TextBlock
+						>{block.text}{#if block.amen}
+							Amen.{/if}</TextBlock
 					>
+				{:else if block.type === 'line'}
+					<Line bold={block.bold || false} indent={block.indent || false}>
 						{block.text}
 					</Line>
 				{:else if block.type === 'versical'}
-					<Versical
-						officiant={block.officiant || false}
-						people={block.people || false}
-					>
+					<Versical officiant={block.officiant || false} people={block.people || false}>
 						{block.text}
 					</Versical>
 				{:else if block.type === 'antiphon'}
-					<Antiphon
-						call={block.call}
-						response={block.response}
-					/>
+					<Antiphon call={block.call} response={block.response} />
 				{:else if block.type === 'ref'}
 					<Ref text={block.text} t={block.t || false} />
 				{:else if block.type === 'then_follows'}
@@ -77,6 +72,12 @@
 					<Kyrie />
 				{:else if block.type === 'chrysostom'}
 					<Chrysostom />
+				{:else if block.type === 'footnote'}
+					<Footnote text={block.text} />
+				{:else if block.type === 'silence'}
+					<Silence />
+				{:else if block.type === 'intentionally_blank'}
+					<IntentionallyBlank />
 				{/if}
 			{/each}
 		</section>
