@@ -76,14 +76,12 @@
 		{
 			title: 'Holy Eucharist',
 			submenu: [
-				{ title: 'Anglican Standard Text', href: `${base}/to_do/HE: Anglican Standard Text` },
-				{ title: 'Renewed Ancient Text', href: `${base}/to_do/HE: Renewed Ancient Text` },
-				{
-					title: 'Supplemental Eucharistic Text',
-					href: `${base}/to_do/Supplenetal Eucharistic Text`
-				},
-				{ title: 'Seasonal Greetings', href: `${base}/to_do/Seasonal Greetings` },
-				{ title: 'Exhortation', href: `${base}/to_do/Exhoration` },
+				{ title: 'Concerning the Eucharist', href: `${base}/eucharist/concerning` },
+				{ title: 'Anglican Standard Text', href: `${base}/eucharist/anglican-standard` },
+				{ title: 'Renewed Ancient Text', href: `${base}/eucharist/renewed-ancient` },
+				{ title: 'Additional Directions', href: `${base}/eucharist/additional-directions` },
+				{ title: 'Seasonal Greetings', href: `${base}/eucharist/seasonal-greetings` },
+				{ title: 'Exhortation', href: `${base}/eucharist/exhortation` },
 				{ title: 'Offertory Sentences', href: `${base}/to_do/Offertory Sentences` },
 				{ title: 'Proper Prefaces', href: `${base}/to_do/Proper Prefaces` }
 			]
