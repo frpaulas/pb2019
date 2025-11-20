@@ -5,15 +5,17 @@
 	import middayPrayerData from '$lib/data/services/midday_prayer.json';
 	import eveningPrayerData from '$lib/data/services/evening_prayer.json';
 	import complineData from '$lib/data/services/compline.json';
+	import familyPrayerData from '$lib/data/services/family_prayer.json';
 
 	// Service order for Daily Office
-	const serviceOrder = ['morning', 'midday', 'evening', 'compline'];
+	const serviceOrder = ['morning', 'midday', 'evening', 'compline', 'family'];
 
 	const serviceData = {
 		morning: morningPrayerData.morning_prayer,
 		midday: middayPrayerData.midday_prayer,
 		evening: eveningPrayerData.evening_prayer,
-		compline: complineData.compline
+		compline: complineData.compline,
+		family: familyPrayerData.family_prayer
 	};
 
 	// Determine starting service based on time of day
@@ -34,7 +36,7 @@
 	}
 
 	let loadedServices = $state([]);
-	let container = $state(null);
+	let scrollContainer = $state(null);
 	let isLoading = $state(false);
 
 	onMount(() => {
@@ -42,22 +44,21 @@
 		const initialService = getServiceForTime();
 		loadedServices = [initialService];
 
-		// Setup scroll listener
-		if (container) {
-			container.addEventListener('scroll', handleScroll);
-		}
+		// Use window scroll instead of container scroll
+		window.addEventListener('scroll', handleScroll);
 
 		return () => {
-			if (container) {
-				container.removeEventListener('scroll', handleScroll);
-			}
+			window.removeEventListener('scroll', handleScroll);
 		};
 	});
 
 	async function handleScroll() {
-		if (!container || isLoading) return;
+		if (isLoading || !scrollContainer) return;
 
-		const { scrollTop, scrollHeight, clientHeight } = container;
+		const scrollTop = window.scrollY;
+		const scrollHeight = document.documentElement.scrollHeight;
+		const clientHeight = window.innerHeight;
+
 		const scrollProgress = (scrollTop + clientHeight) / scrollHeight;
 		const scrollTopProgress = scrollTop / scrollHeight;
 
@@ -89,7 +90,7 @@
 		console.log('[LAZY] Loading next service:', nextService);
 		isLoading = true;
 
-		const oldScrollTop = container?.scrollTop || 0;
+		const oldScrollTop = window.scrollY;
 
 		// Add the next service
 		loadedServices = [...loadedServices, nextService];
@@ -97,8 +98,8 @@
 		await tick();
 
 		// Restore scroll position if it changed
-		if (container && container.scrollTop !== oldScrollTop) {
-			container.scrollTop = oldScrollTop;
+		if (window.scrollY !== oldScrollTop) {
+			window.scrollTo(0, oldScrollTop);
 		}
 
 		isLoading = false;
@@ -121,10 +122,8 @@
 		console.log('[LAZY] Loading previous service:', prevService);
 		isLoading = true;
 
-		// Get current scroll position and the first service element
-		const firstServiceElement = container?.querySelector('[data-service]');
-		const oldScrollTop = container?.scrollTop || 0;
-		const oldScrollHeight = container?.scrollHeight || 0;
+		const oldScrollTop = window.scrollY;
+		const oldScrollHeight = document.documentElement.scrollHeight;
 
 		// Add the previous service at the beginning
 		loadedServices = [prevService, ...loadedServices];
@@ -132,12 +131,9 @@
 		await tick();
 
 		// Adjust scroll position to maintain user's view
-		// The new content was added above, so we need to add that height to scroll position
-		if (container) {
-			const newScrollHeight = container.scrollHeight;
-			const addedHeight = newScrollHeight - oldScrollHeight;
-			container.scrollTop = oldScrollTop + addedHeight;
-		}
+		const newScrollHeight = document.documentElement.scrollHeight;
+		const addedHeight = newScrollHeight - oldScrollHeight;
+		window.scrollTo(0, oldScrollTop + addedHeight);
 
 		isLoading = false;
 	}
@@ -147,27 +143,13 @@
 	<title>Daily Office - Prayer Book 2019</title>
 </svelte:head>
 
-<div
-	bind:this={container}
-	class="fixed inset-0 overflow-y-auto"
-	style="margin-top: 4.5rem;"
->
-	<div class="container">
-		{#each loadedServices as service (service)}
-			<div data-service={service} id={service}>
-				<ServiceRenderer serviceData={serviceData[service]} />
-				{#if service !== loadedServices[loadedServices.length - 1]}
-					<div class="service-divider my-8 border-t-2 border-gray-300"></div>
-				{/if}
-			</div>
-		{/each}
-	</div>
+<div bind:this={scrollContainer}>
+	{#each loadedServices as service (service)}
+		<div data-service={service} id={service}>
+			<ServiceRenderer serviceData={serviceData[service]} />
+			{#if service !== loadedServices[loadedServices.length - 1]}
+				<div class="service-divider my-8 border-t-2 border-gray-300"></div>
+			{/if}
+		</div>
+	{/each}
 </div>
-
-<style>
-	.container {
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 2rem 1rem;
-	}
-</style>

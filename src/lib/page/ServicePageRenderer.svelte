@@ -30,24 +30,15 @@
 	{:else if block.type === 'text_block'}
 		<TextBlock>{block.text}</TextBlock>
 	{:else if block.type === 'line'}
-		<Line
-			bold={block.bold || false}
-			indent={block.indent || false}
-		>
+		<Line bold={block.bold || false} indent={block.indent || false}>
 			{block.text}
 		</Line>
 	{:else if block.type === 'versical'}
-		<Versical
-			officiant={block.officiant || false}
-			people={block.people || false}
-		>
+		<Versical officiant={block.officiant || false} people={block.people || false}>
 			{block.text}
 		</Versical>
 	{:else if block.type === 'antiphon'}
-		<Antiphon
-			call={block.call}
-			response={block.response}
-		/>
+		<Antiphon call={block.call} response={block.response} />
 	{:else if block.type === 'ref'}
 		<Ref text={block.text} />
 	{:else if block.type === 'or_this'}
