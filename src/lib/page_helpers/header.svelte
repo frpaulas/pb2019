@@ -66,6 +66,7 @@
 		{
 			title: 'Daily Prayers',
 			submenu: [
+				{ title: 'Daily Office (Time-based)', href: `${base}/daily-office-continuous` },
 				{ title: 'Morning Prayer', href: `${base}/daily-office/morning-prayer` },
 				{ title: 'Midday Prayer', href: `${base}/daily-office/midday-prayer` },
 				{ title: 'Evening Prayer', href: `${base}/daily-office/evening-prayer` },
