@@ -4,7 +4,6 @@
 	import { onMount } from 'svelte';
 
 	onMount(() => {
-		// Redirect to the infinite scroll page starting at iii
 		goto(`${base}/pg/iii`);
 	});
 </script>

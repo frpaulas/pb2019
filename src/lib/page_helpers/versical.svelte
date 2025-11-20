@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { parseMarkdown } from '$lib/utils/parseMarkdown.js';
+	import { onMount } from 'svelte';
 
 	let {
 		officiant = false,
@@ -23,11 +24,14 @@
 	let textClass = people ? 'font-bold' : '';
 
 	// For slot content, we need to extract and parse it
-	let slotContentElement;
-	let parsedSlotContent = $derived.by(() => {
-		if (!slotContentElement) return null;
-		const textContent = slotContentElement.textContent || '';
-		return parseMarkdown(textContent);
+	let slotContentElement = $state();
+	let parsedSlotContent = $state(null);
+
+	onMount(() => {
+		if (slotContentElement) {
+			const textContent = slotContentElement.textContent || '';
+			parsedSlotContent = parseMarkdown(textContent);
+		}
 	});
 </script>
 

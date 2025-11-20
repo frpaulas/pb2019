@@ -1,0 +1,124 @@
+{
+  "decalogue": {
+    "title": "The Decalogue",
+    "slug": "decalogue",
+    "pb_pages": [100, 101],
+    "sections": [
+      {
+        "id": "ten_commandments",
+        "title": "The Ten Commandments",
+        "pb_page_start": 100,
+        "pb_page_end": 101,
+        "content": [
+          {
+            "type": "section_title",
+            "text": "the decalogue"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "God spoke these words and said:"
+          },
+          {
+            "type": "versical",
+            "text": "I am the Lord your God."
+          },
+          {
+            "type": "versical",
+            "text": "You shall have no other gods but me."
+          },
+          {
+            "type": "incline_our_hearts"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "You shall not make for yourself any idol."
+          },
+          {
+            "type": "incline_our_hearts"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "You shall not take the Name of the Lord your God in vain."
+          },
+          {
+            "type": "incline_our_hearts"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "Remember the Sabbath day and keep it holy."
+          },
+          {
+            "type": "incline_our_hearts"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "Honor your father and your mother."
+          },
+          {
+            "type": "incline_our_hearts"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "You shall not murder."
+          },
+          {
+            "type": "incline_our_hearts"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "You shall not commit adultery."
+          },
+          {
+            "type": "incline_our_hearts"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "You shall not steal."
+          },
+          {
+            "type": "incline_our_hearts"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "You shall not bear false witness against your neighbor."
+          },
+          {
+            "type": "incline_our_hearts"
+          },
+          {
+            "type": "versical",
+            "celebrant": true,
+            "text": "You shall not covet."
+          },
+          {
+            "type": "versical",
+            "people": true,
+            "text": "Lord, have mercy upon us,"
+          },
+          {
+            "type": "versical",
+            "text": "and write all these, your laws,"
+          },
+          {
+            "type": "versical",
+            "text": "in our hearts, we beseech you."
+          },
+          {
+            "type": "ref",
+            "text": "exodus 20:1-17 t; deuteronomy 5:6-21",
+            "t": true
+          }
+        ]
+      }
+    ]
+  }
+}

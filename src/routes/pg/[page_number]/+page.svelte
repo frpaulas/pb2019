@@ -1,11 +1,21 @@
 <script>
-	import 'tailwindcss';
 	import { page } from '$app/stores';
 	import InfiniteScroll from '$lib/page/InfiniteScroll.svelte';
 	import { browser } from '$app/environment';
-	// Check if user prefers infinite scroll (you can add a setting for this)
+	import { onMount } from 'svelte';
+
+	// Use windowed infinite scroll by default
 	let useInfiniteScroll = $state(true);
 	let page_number = $page.params.page_number;
+
+	onMount(() => {
+		console.log(
+			'[PAGE] Component mounted - useInfiniteScroll:',
+			useInfiniteScroll,
+			'browser:',
+			browser
+		);
+	});
 </script>
 
 {#if useInfiniteScroll && browser}

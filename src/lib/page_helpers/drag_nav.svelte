@@ -107,8 +107,6 @@
 				return;
 			}
 
-			event.preventDefault();
-			event.stopPropagation();
 			touchStartY = touch.clientY;
 			isDraggingHeader = true;
 		}
@@ -117,20 +115,17 @@
 	function handleTouchMove(event: TouchEvent) {
 		if (!isDraggingHeader && !isMenuOpen) return;
 
-		// Always prevent default when dragging header to stop pull-to-refresh
-		if (isDraggingHeader) {
-			event.preventDefault();
-			event.stopPropagation();
-		}
-
 		const touch = event.touches[0];
 		const deltaY = touch.clientY - touchStartY;
 
 		// If dragging down enough, open menu
-		if (deltaY > PULL_DOWN_THRESHOLD && !isMenuOpen) {
+		if (isDraggingHeader && deltaY > PULL_DOWN_THRESHOLD && !isMenuOpen) {
+			event.preventDefault();
+			event.stopPropagation();
 			isMenuOpen = true;
 			hasInteracted = false;
 			isDraggingHeader = false; // Stop tracking header drag
+			return;
 		}
 
 		// Once menu is open, track item selection

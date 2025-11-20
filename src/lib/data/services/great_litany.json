@@ -1,0 +1,671 @@
+{
+  "great_litany": {
+    "title": "The Great Litany",
+    "slug": "great-litany",
+    "pb_pages": [91, 92, 93, 94, 95, 96, 97, 98, 99],
+    "sections": [
+      {
+        "id": "litany",
+        "title": "The Great Litany",
+        "pb_page_start": 91,
+        "pb_page_end": 96,
+        "content": [
+          {
+            "type": "section_title",
+            "size": "3xl",
+            "text": "the great litany"
+          },
+          {
+            "type": "rubric",
+            "text": "To be said or sung, kneeling, standing, or in procession."
+          },
+          {
+            "type": "line",
+            "text": "O God the Father, Creator of heaven and earth,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Have mercy upon us."
+          },
+          {
+            "type": "line",
+            "text": "O God the Son, Redeemer of the world,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Have mercy upon us."
+          },
+          {
+            "type": "line",
+            "text": "O God the Holy Spirit, Sanctifier of the faithful,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Have mercy upon us."
+          },
+          {
+            "type": "line",
+            "text": "O holy, blessed, and glorious Trinity, one God,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Have mercy upon us."
+          },
+          {
+            "type": "text_block",
+            "text": "Remember not, Lord Jesus, our offenses, nor the offenses of our forebears; neither reward us according to our sins. Spare us, good Lord, spare your people, whom you have redeemed with your most precious blood, and by your mercy preserve us forever."
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Spare us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "From all evil and wickedness; from sin, from the works and assaults of the devil; from your wrath and everlasting condemnation,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Good Lord, deliver us."
+          },
+          {
+            "type": "text_block",
+            "text": "From all blindness of heart; from pride, vanity, and hypocrisy; from envy, hatred, and malice; and from all lack of charity,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Good Lord, deliver us."
+          },
+          {
+            "type": "text_block",
+            "text": "From all disordered and sinful affections; and from all the deceits of the world, the flesh, and the devil,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Good Lord, deliver us."
+          },
+          {
+            "type": "text_block",
+            "text": "From all false doctrine, heresy, and schism; from hardness of heart, and contempt of your Word and commandments,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Good Lord, deliver us."
+          },
+          {
+            "type": "text_block",
+            "text": "From lightning and tempest; from earthquake, fire, and flood; from plague, pestilence, and famine,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Good Lord, deliver us."
+          },
+          {
+            "type": "text_block",
+            "text": "From all oppression, conspiracy, and rebellion; from violence, battle, and murder; and from dying suddenly and unprepared,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Good Lord, deliver us."
+          },
+          {
+            "type": "text_block",
+            "text": "By the mystery of your holy incarnation; by your holy nativity and submission to the Law; by your baptism, fasting, and temptation,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Good Lord, deliver us."
+          },
+          {
+            "type": "text_block",
+            "text": "By your agony and bloody sweat; by your Cross and passion; by your precious death and burial,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Good Lord, deliver us."
+          },
+          {
+            "type": "text_block",
+            "text": "By your glorious resurrection and ascension; by the sending of the Holy Spirit; by your heavenly intercession; and by your coming again in power and great glory,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Good Lord, deliver us."
+          },
+          {
+            "type": "text_block",
+            "text": "In all times of tribulation; in all times of prosperity; in the hour of death, and in the day of judgment,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Good Lord, deliver us."
+          },
+          {
+            "type": "text_block",
+            "text": "We sinners beseech you to hear us, O Lord God: That it may please you to rule and govern your holy Church universal in the right way,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To illumine all Bishops, Priests, and Deacons, with true knowledge and understanding of your Word; and that, both by their preaching and living, they may show it accordingly,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To send forth laborers into your harvest; to prosper their work by your Holy Spirit; to make your saving health known unto all nations; and to hasten the coming of your kingdom,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To give all your people increase of grace to hear your Word with humility, to receive it with pure affection, and to bring forth the fruit of the Spirit,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To bring into the way of truth all who have erred and are deceived,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To give us a heart to love and fear you, and diligently to keep your commandments,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To bless and keep all your people,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "That it may please you to rule the hearts of your servant N, the President/Sovereign/Prime Minister, and all others in authority, that they may do justice, and show mercy, and walk humbly before you,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To bless and guide all judges, giving them grace to execute justice, and to maintain truth,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To bless and keep our armed forces by sea, and land, and air, and to shield them in all dangers and adversities,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To bless and protect all who serve their communities by their labor and learning,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To give and preserve for us and for others the bountiful fruits of the earth, so that at the harvest we all may enjoy them,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To make wars to cease in all the world, and to give to all nations unity, peace, and concord,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "That it may please you to show mercy on all prisoners and captives; refugees, the homeless, and the hungry; and all those who are desolate and oppressed,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To preserve all who are in danger by reason of their work or travel,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To strengthen the bonds of those in Holy Matrimony; to uphold the widowed and abandoned; and to comfort all whose homes are torn by strife,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To protect the unborn and their parents, and to preserve all women in childbirth;"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To care for those who have lost children or face infertility, and to provide for young children and orphans,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To visit the lonely and those who grieve; to strengthen all who suffer in mind, body, or spirit; and to comfort with your presence those who are failing and infirm,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To support, help, and deliver all who are in danger, necessity, and tribulation,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To have mercy upon all people,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "That it may please you to give us true repentance; to forgive us all our sin, negligence, and ignorance; and to endue us with the grace of your Holy Spirit to amend our lives according to your holy Word,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To forgive our enemies, persecutors, and slanderers, and to turn their hearts,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To strengthen those who stand; to encourage the faint-hearted; to raise up those who fall; and finally to beat down Satan under our feet,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To grant to all the faithful departed eternal life and peace,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "To grant that, in the fellowship of [_____________ and] all the saints, we may attain to your heavenly kingdom,"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "We beseech you to hear us, good Lord."
+          },
+          {
+            "type": "text_block",
+            "text": "Son of God, we beseech you to hear us."
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Son of God, we beseech you to hear us."
+          },
+          {
+            "type": "line",
+            "text": "O Lamb of God, you take away the sin of the world;"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Have mercy upon us."
+          },
+          {
+            "type": "line",
+            "text": "O Lamb of God, you take away the sin of the world;"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Have mercy upon us."
+          },
+          {
+            "type": "line",
+            "text": "O Lamb of God, you take away the sin of the world;"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Grant us your peace."
+          },
+          {
+            "type": "line",
+            "text": "O Christ, hear us."
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "O Christ, hear us."
+          },
+          {
+            "type": "line",
+            "text": "Lord, have mercy upon us."
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Christ, have mercy upon us."
+          },
+          {
+            "type": "line",
+            "text": "Lord, have mercy upon us."
+          },
+          {
+            "type": "rubric",
+            "text": "When the Litany is sung or said immediately before the Eucharist, the Litany concludes here, and the Eucharist begins with the Salutation (\"The Lord be with you\") and the Collect of the Day."
+          },
+          {
+            "type": "rubric",
+            "text": "On all other occasions, the Officiant and People say or sing together"
+          },
+          {
+            "type": "lords_prayer"
+          },
+          {
+            "type": "line",
+            "text": "O Lord, show us your love and mercy;"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "For we have put our trust in you."
+          },
+          {
+            "type": "rubric",
+            "text": "The Officiant says the following"
+          },
+          {
+            "type": "text_block",
+            "amen": true,
+            "text": "Almighty God, you have promised to hear the petitions of those who ask in the Name of your Son: Mercifully incline your ear to us who have made our prayers and supplications to you; and grant that what we have asked faithfully, according to your will, we may obtain effectually, for the relief of our necessities and the setting forth of your glory; through Jesus Christ our Lord."
+          },
+          {
+            "type": "rubric",
+            "text": "The Officiant may add other prayers, and may end the Litany, saying"
+          },
+          {
+            "type": "grace_of_our_lord"
+          }
+        ]
+      },
+      {
+        "id": "supplication",
+        "title": "The Supplication",
+        "pb_page_start": 97,
+        "pb_page_end": 98,
+        "content": [
+          {
+            "type": "section_title",
+            "text": "the supplication"
+          },
+          {
+            "type": "rubric",
+            "text": "For use in the Litany in place of the Versicle and Collect which follows the Lord's Prayer; or at the end of Morning or Evening Prayer; or as a separate devotion. The Supplication is especially appropriate in times of war, or of great anxiety, or of disaster."
+          },
+          {
+            "type": "line",
+            "text": "O Lord, arise and help us;"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "And deliver us for your Name's sake."
+          },
+          {
+            "type": "text_block",
+            "text": "O God, we have heard with our ears, and our forebears have declared to us, the noble works that you did in their days, and in the time before them."
+          },
+          {
+            "type": "line",
+            "text": "O Lord, arise and help us;"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "And deliver us for your Name's sake."
+          },
+          {
+            "type": "gloria"
+          },
+          {
+            "type": "line",
+            "text": "O Lord, arise and help us;"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "And deliver us for your Name's sake."
+          },
+          {
+            "type": "line",
+            "text": "From our enemies defend us, O Christ;"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Graciously behold our afflictions."
+          },
+          {
+            "type": "line",
+            "text": "With pity behold the sorrows of our hearts;"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Mercifully forgive the sins of your people."
+          },
+          {
+            "type": "line",
+            "text": "With favor hear our prayers;"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "O Son of David, have mercy upon us."
+          },
+          {
+            "type": "line",
+            "text": "Be pleased to hear us, O Christ;"
+          },
+          {
+            "type": "line",
+            "indent": true,
+            "bold": true,
+            "text": "Graciously hear us, O Christ; graciously hear us, O Lord Christ."
+          },
+          {
+            "type": "rubric",
+            "text": "The Officiant prays"
+          },
+          {
+            "type": "line",
+            "text": "Let us pray."
+          },
+          {
+            "type": "text_block",
+            "amen": true,
+            "text": "Look mercifully, O Father, on our infirmities; and, for the glory of your Name, rescue us from all those evils we now endure; and grant that in all our troubles we may put our whole trust and confidence in your mercy, serving you in holiness and purity of life, to your honor and glory; through our only Mediator and Advocate, Jesus Christ our Lord."
+          },
+          {
+            "type": "rubric",
+            "text": "The Supplication may end here, or may conclude with the prayer of St. John Chrysostom and the Grace (page 52)."
+          }
+        ]
+      },
+      {
+        "id": "additional_directions",
+        "title": "Additional Directions",
+        "pb_page_start": 99,
+        "pb_page_end": 99,
+        "content": [
+          {
+            "type": "section_title",
+            "text": "additional directions"
+          },
+          {
+            "type": "text_block",
+            "text": "The Great Litany may be used before the Eucharist, after the Collects of Morning or Evening Prayer, or separately."
+          },
+          {
+            "type": "text_block",
+            "text": "It is particularly appropriate to use the Great Litany on the First Sunday of Advent and the First Sunday in Lent. It is also appropriate for Rogation days, other days of fasting or thanksgiving, and occasions of solemn and comprehensive entreaty."
+          },
+          {
+            "type": "text_block",
+            "text": "Where local circumstance or pastoral need dictates, the Officiant may reduce the number of petitions and responses prayed."
+          }
+        ]
+      }
+    ]
+  }
+}

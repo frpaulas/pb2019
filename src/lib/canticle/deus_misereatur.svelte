@@ -4,24 +4,24 @@
 	import Rubric from '$lib/page_helpers/rubric.svelte';
 </script>
 
-<SectionTitle text="9" />
-<SectionTitle text="deus misereatur" />
-<SectionTitle fancy text="God be merciful" />
-<Rubric text="Suitable for use at any time" />
+<SectionTitle>9</SectionTitle>
+<SectionTitle>deus misereatur</SectionTitle>
+<SectionTitle fancy>God be merciful</SectionTitle>
+<Rubric>Suitable for use at any time</Rubric>
 
-<Line bold text="May God be merciful unto us, and bless us, *" />
-<Line indent bold text="and show us the light of his countenance, and be merciful" />
-<Line indent bold text="unto us." />
-<Line bold text="Let your way be known upon earth, *" />
-<Line indent bold text="your saving health among all nations." />
-<Line bold text="Let the peoples praise you, O God; *" />
-<Line indent bold text="indeed, let all the peoples praise you." />
-<Line bold text="O let the nations rejoice and be glad, *" />
-<Line indent bold text="for you shall judge the peoples righteously, and govern" />
-<Line indent bold text="the nations upon earth." />
-<Line bold text="Let the peoples praise you, O God; *" />
-<Line indent bold text="let all the peoples praise you." />
-<Line bold text="Then shall the earth bring forth her increase, *" />
-<Line indent bold text="and God, even our own God, shall give us his blessing." />
-<Line bold text="God shall bless us, *" />
-<Line indent bold text="and all the ends of the world shall fear him." ref="psalm 67" />
+<Line bold>May God be merciful unto us, and bless us, *</Line>
+<Line indent bold>and show us the light of his countenance, and be merciful</Line>
+<Line indent bold>unto us.</Line>
+<Line bold>Let your way be known upon earth, *</Line>
+<Line indent bold>your saving health among all nations.</Line>
+<Line bold>Let the peoples praise you, O God; *</Line>
+<Line indent bold>indeed, let all the peoples praise you.</Line>
+<Line bold>O let the nations rejoice and be glad, *</Line>
+<Line indent bold>for you shall judge the peoples righteously, and govern</Line>
+<Line indent bold>the nations upon earth.</Line>
+<Line bold>Let the peoples praise you, O God; *</Line>
+<Line indent bold>let all the peoples praise you.</Line>
+<Line bold>Then shall the earth bring forth her increase, *</Line>
+<Line indent bold>and God, even our own God, shall give us his blessing.</Line>
+<Line bold>God shall bless us, *</Line>
+<Line indent bold ref="psalm 67">and all the ends of the world shall fear him.</Line>
