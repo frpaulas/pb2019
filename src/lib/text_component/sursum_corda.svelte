@@ -9,11 +9,11 @@
 <SectionTitle>the sursum corda</SectionTitle>
 <Rubric>The People remain standing. The Celebrant faces them and sings or says</Rubric>
 <Versical>The Lord be with you.</Versical>
-<Versical people>And with your spirit.</Versical>
-<Versical celebrant>Lift up your hearts.</Versical>
-<Versical people>We lift them up to the Lord.</Versical>
-<Versical celebrant>Let us give thanks to the Lord our God.</Versical>
-<Versical people>It is right to give him thanks and praise.</Versical>
+<Versical who="people">And with your spirit.</Versical>
+<Versical who="celebrant">Lift up your hearts.</Versical>
+<Versical who="people">We lift them up to the Lord.</Versical>
+<Versical who="celebrant">Let us give thanks to the Lord our God.</Versical>
+<Versical who="people">It is right to give him thanks and praise.</Versical>
 <Rubric>The Celebrant continues</Rubric>
 <TextBlock
 	>It is right, our duty and our joy, always and everywhere to give thanks to you, Father Almighty,

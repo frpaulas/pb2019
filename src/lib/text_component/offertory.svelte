@@ -13,10 +13,10 @@
 	wine, and money or other gifts, to the Deacon or Priest.</Rubric
 >
 <Rubric>The People stand while the offerings are presented. The following may be said.</Rubric>
-<Versical celebrant
+<Versical who="celebrant"
 	>Yours, O Lord, is the greatness, and the power, and the glory, and the victory, and the majesty:
 	for everything in heaven and on earth is yours; yours is the Kingdom, O Lord, and you are exalted
 	as Head above all. All things come from you, O Lord,</Versical
 >
-<Versical people>And of your own have we given you.</Versical>
+<Versical who="people">And of your own have we given you.</Versical>
 <Ref text="1 chronicles 29:11, 14" t />

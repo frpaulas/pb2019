@@ -7,7 +7,7 @@
 <SectionTitle>the collect of the day</SectionTitle>
 <Rubric>The Celebrant says to the People</Rubric>
 <Versical>The Lord be with you.</Versical>
-<Versical people>And with your spirit.</Versical>
-<Versical officiant>Let us pray.</Versical>
+<Versical who="people">And with your spirit.</Versical>
+<Versical who="officiant">Let us pray.</Versical>
 <Rubric>The Celebrant prays the Collect.</Rubric>
-<Versical people>Amen.</Versical>
+<Versical who="people">Amen.</Versical>

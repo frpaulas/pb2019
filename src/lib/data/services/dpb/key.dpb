@@ -1,0 +1,23 @@
+button: add button usage->
+l: line usage-> l:text
+lords_prayer:
+pb: page break usage-> pb:n (pb:n indicates the beginning of page n)
+pg: pages usage-> pg:n | pg:n-n
+r: rubric usage-> r:text (text may be multiple lines)
+ref: biblical_reference
+ref+: biblical_reference:additional_text
+st: section title usage-> st: text | st:(1|2|3): text (where 1,2,3 indicates relative text size)
+tb: text block usage-> tb: text (text may be multiple lines)
+tp: title page usage-> tp:text
+v: versical usage->
+    v::text (no speaker)
+    v:b: (no speaker, bold text)
+    v:speaker:text (speaker proceeds text, bold if speaker is "people"
+
+    button:link: text (create button with link to location in DPB, text = text for button)
+    button::text (create place holder button, text = text for button)
+
+global arguments:
+    b: make the text bold
+    o: text is optional gettingleft hand border
+    i: indent

@@ -1,0 +1,13 @@
+{
+	"grammars": [
+		{
+			"name": "dpb",
+			"scope": "source.dpb",
+			"file-types": ["dpb"],
+			"path": "."
+		}
+	],
+	"metadata": {
+		"version": "0.1.0"
+	}
+}

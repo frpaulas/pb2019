@@ -6,6 +6,6 @@
 
 <SectionTitle>the peace</SectionTitle>
 <Rubric add_on="Alleluia, alleluia, alleluia.">In Easter Season, add</Rubric>
-<Versical celebrant>The Peace of the Lord be always with you.</Versical>
-<Versical people>And with your spirit.</Versical>
+<Versical who="celebrant">The Peace of the Lord be always with you.</Versical>
+<Versical who="people">And with your spirit.</Versical>
 <Rubric>Then the Ministers and People may greet one another in the Name of the Lord.</Rubric>

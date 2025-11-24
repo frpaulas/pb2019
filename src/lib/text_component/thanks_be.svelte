@@ -6,7 +6,7 @@
 </script>
 
 {#if no_speaker}
-	<Versical bold>{response}</Versical>
+	<Versical bold={true}>{response}</Versical>
 {:else}
-	<Versical people>{response}</Versical>
+	<Versical who="people">{response}</Versical>
 {/if}

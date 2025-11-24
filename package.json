@@ -16,7 +16,9 @@
 		"test": "npm run test:unit -- --run",
 		"tauri": "./node_modules/.bin/tauri",
 		"tauri:dev": "./node_modules/.bin/tauri dev",
-		"tauri:build": "./node_modules/.bin/tauri build"
+		"tauri:build": "./node_modules/.bin/tauri build",
+		"validate:source": "node scripts/validate-raw-format.cjs src/lib/data/services/source/",
+		"convert:source": "node scripts/convert-raw-to-json.cjs src/lib/data/services/source/"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",

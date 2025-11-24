@@ -15,7 +15,7 @@
 <Rubric>A citation giving chapter and verse may be added.</Rubric>
 <Rubric>After each Lesson the Reader may say</Rubric>
 <Versical>The Word of the Lord.</Versical>
-<Versical people>Thanks be to God.</Versical>
+<Versical who="people">Thanks be to God.</Versical>
 <Rubric add_on="Here ends the Reading.">Or the Reader may say</Rubric>
 <Rubric>Silence may follow.</Rubric>
 <Rubric>A psalm, hymn, or anthem may follow each reading.</Rubric>
@@ -24,11 +24,11 @@
 <Rubric>All standing, the Deacon or Priest reads the Gospel, first saying</Rubric>
 <Versical>The Holy Gospel of our Lord Jesus Christ according to _____________.</Versical>
 
-<Versical people>Glory to you, Lord Christ.</Versical>
+<Versical who="people">Glory to you, Lord Christ.</Versical>
 <Rubric>After the Gospel, the Reader says</Rubric>
 
 <Versical>The Gospel of the Lord.</Versical>
-<Versical people>Praise to you, Lord Christ.</Versical>
+<Versical who="people">Praise to you, Lord Christ.</Versical>
 <br />
 <SectionTitle>the sermon</SectionTitle>
 <br />

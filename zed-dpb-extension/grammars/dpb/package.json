@@ -1,0 +1,15 @@
+{
+  "name": "tree-sitter-dpb",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for Digital Prayer Book files",
+  "main": "bindings/node",
+  "scripts": {
+    "build": "tree-sitter generate && node-gyp build"
+  },
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.8"
+  }
+}

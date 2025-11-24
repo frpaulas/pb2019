@@ -1,0 +1,12 @@
+id = "dpb"
+name = "DPB (Digital Prayer Book)"
+version = "0.1.3"
+schema_version = 1
+authors = ["Prayer Book 2019"]
+description = "Syntax highlighting for Digital Prayer Book source files (.dpb)"
+repository = "https://github.com/frpaulas/pb2019"
+
+[grammars.dpb]
+repository = "https://github.com/frpaulas/pb2019"
+rev = "main"
+path = "zed-dpb-extension/grammars/dpb"

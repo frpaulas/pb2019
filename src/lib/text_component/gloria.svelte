@@ -10,8 +10,8 @@
 </script>
 
 {#if versical}
-	<Versical officiant>{lines[0]}</Versical>
-	<Versical people>{lines[1]}</Versical>
+	<Versical who="officiant">{lines[0]}</Versical>
+	<Versical who="people">{lines[1]}</Versical>
 	<Versical>{lines[2]}</Versical>
 {:else}
 	<div class="mt-1">

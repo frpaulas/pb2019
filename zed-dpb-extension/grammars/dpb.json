@@ -1,0 +1,173 @@
+{
+  "name": "dpb",
+  "scopeName": "source.dpb",
+  "fileTypes": ["dpb"],
+  "patterns": [
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#page-range"
+    },
+    {
+      "include": "#title-page"
+    },
+    {
+      "include": "#section-title"
+    },
+    {
+      "include": "#text-block"
+    },
+    {
+      "include": "#rubric"
+    },
+    {
+      "include": "#reference"
+    },
+    {
+      "include": "#reference-plus"
+    },
+    {
+      "include": "#versical"
+    },
+    {
+      "include": "#page-break"
+    },
+    {
+      "include": "#line"
+    },
+    {
+      "include": "#button"
+    },
+    {
+      "include": "#lords-prayer"
+    }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.number-sign.dpb",
+          "match": "^\\s*#.*$"
+        }
+      ]
+    },
+    "page-range": {
+      "name": "meta.page-range.dpb",
+      "match": "^(pg)(:)\\s*(\\d+(?:-\\d+)?)",
+      "captures": {
+        "1": { "name": "keyword.control.dpb" },
+        "2": { "name": "punctuation.separator.dpb" },
+        "3": { "name": "constant.numeric.dpb" }
+      }
+    },
+    "title-page": {
+      "name": "meta.title-page.dpb",
+      "match": "^(tp)(:)\\s*(.+)$",
+      "captures": {
+        "1": { "name": "keyword.control.dpb" },
+        "2": { "name": "punctuation.separator.dpb" },
+        "3": { "name": "entity.name.type.dpb" }
+      }
+    },
+    "section-title": {
+      "name": "meta.section-title.dpb",
+      "match": "^(st)(:[123])?(:(?:[bio]:)*)\\s*(.+)$",
+      "captures": {
+        "1": { "name": "keyword.control.dpb" },
+        "2": { "name": "constant.numeric.dpb" },
+        "3": { "name": "storage.modifier.dpb" },
+        "4": { "name": "entity.name.section.dpb" }
+      }
+    },
+    "text-block": {
+      "name": "meta.text-block.dpb",
+      "match": "^(tb|bt)(:[bio]*)?(:)\\s*(.*)$",
+      "captures": {
+        "1": { "name": "keyword.control.dpb" },
+        "2": { "name": "storage.modifier.dpb" },
+        "3": { "name": "punctuation.separator.dpb" },
+        "4": { "name": "string.unquoted.dpb" }
+      }
+    },
+    "rubric": {
+      "name": "meta.rubric.dpb",
+      "match": "^(r)(:[bio]*)?(:)\\s*(.*)$",
+      "captures": {
+        "1": { "name": "keyword.control.dpb" },
+        "2": { "name": "storage.modifier.dpb" },
+        "3": { "name": "punctuation.separator.dpb" },
+        "4": { "name": "markup.italic.dpb" }
+      }
+    },
+    "reference": {
+      "name": "meta.reference.dpb",
+      "match": "^(ref)(:)\\s*(.+)$",
+      "captures": {
+        "1": { "name": "keyword.control.dpb" },
+        "2": { "name": "punctuation.separator.dpb" },
+        "3": { "name": "string.quoted.dpb" }
+      }
+    },
+    "reference-plus": {
+      "name": "meta.reference-plus.dpb",
+      "match": "^(ref\\+)(:)\\s*([^:]+)(:)\\s*(.+)$",
+      "captures": {
+        "1": { "name": "keyword.control.dpb" },
+        "2": { "name": "punctuation.separator.dpb" },
+        "3": { "name": "string.quoted.dpb" },
+        "4": { "name": "punctuation.separator.dpb" },
+        "5": { "name": "markup.italic.dpb" }
+      }
+    },
+    "versical": {
+      "name": "meta.versical.dpb",
+      "match": "^(v)(:)([^:]*)?(:)\\s*(.*)$",
+      "captures": {
+        "1": { "name": "keyword.control.dpb" },
+        "2": { "name": "punctuation.separator.dpb" },
+        "3": { "name": "variable.parameter.dpb" },
+        "4": { "name": "punctuation.separator.dpb" },
+        "5": { "name": "string.unquoted.dpb" }
+      }
+    },
+    "page-break": {
+      "name": "meta.page-break.dpb",
+      "match": "^(pb)(:)\\s*(\\d+)",
+      "captures": {
+        "1": { "name": "keyword.control.dpb" },
+        "2": { "name": "punctuation.separator.dpb" },
+        "3": { "name": "constant.numeric.dpb" }
+      }
+    },
+    "line": {
+      "name": "meta.line.dpb",
+      "match": "^(l)(:[bio]*)?(:)\\s*(.*)$",
+      "captures": {
+        "1": { "name": "keyword.control.dpb" },
+        "2": { "name": "storage.modifier.dpb" },
+        "3": { "name": "punctuation.separator.dpb" },
+        "4": { "name": "string.unquoted.dpb" }
+      }
+    },
+    "button": {
+      "name": "meta.button.dpb",
+      "match": "^(button)(:)([^:]*)?(:)\\s*(.*)$",
+      "captures": {
+        "1": { "name": "keyword.control.dpb" },
+        "2": { "name": "punctuation.separator.dpb" },
+        "3": { "name": "entity.name.function.dpb" },
+        "4": { "name": "punctuation.separator.dpb" },
+        "5": { "name": "string.unquoted.dpb" }
+      }
+    },
+    "lords-prayer": {
+      "name": "meta.lords-prayer.dpb",
+      "match": "^(lords_prayer)(:)",
+      "captures": {
+        "1": { "name": "support.function.dpb" },
+        "2": { "name": "punctuation.separator.dpb" }
+      }
+    }
+  }
+}

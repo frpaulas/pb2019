@@ -11,15 +11,15 @@
 <Versical>Let us go forth in the Name of Christ.</Versical>
 <ThanksBe />
 <OrThis />
-<Versical deacon>Go in peace to love and serve the Lord.</Versical>
+<Versical who="deacon">Go in peace to love and serve the Lord.</Versical>
 <ThanksBe />
 <OrThis />
-<Versical deacon
+<Versical who="deacon"
 	>Let us go forth into the world, rejoicing in the power of the Holy Spirit.</Versical
 >
 <ThanksBe />
 <OrThis />
-<Versical deacon>Let us bless the Lord.</Versical>
+<Versical who="deacon">Let us bless the Lord.</Versical>
 <ThanksBe />
 <Rubric
 	>From the Easter Vigil through the Day of Pentecost, "Alleluia, alleluia" is added to any of the
