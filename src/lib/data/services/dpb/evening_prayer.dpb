@@ -1,0 +1,260 @@
+pg: 41-56
+tp: Daily Evening Prayer
+
+st:2: daily evening prayer
+r: The Officiant may begin Evening Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office (pages 54-56), is customary.
+scripture:john 8:12:: Jesus spoke to them, saying, "I am the light of the world. Whoever follows me will not walk in darkness, but will have the light of life."
+r: or this
+scripture:psalm 26:8:: Lord, I have loved the habitation of your house and the place where your honor dwells.
+r: or this
+scripture:psalm 141:2:: Let my prayer be set forth in your sight as incense, and let the lifting up of my hands be an evening sacrifice.
+
+st: confession of sin
+r: The Officiant says to the People
+tb: Dearly beloved, the Scriptures teach us to acknowledge our many sins and offenses, not concealing them from our heavenly Father, but confessing them with humble and obedient hearts that we may obtain forgiveness by his infinite goodness and mercy. We ought at all times humbly to acknowledge our sins before Almighty God, but especially when we come together in his presence to give thanks for the great benefits we have received at his hands, to declare his most worthy praise, to hear his holy Word, and to ask, for ourselves and on behalf of others, those things which are necessary for our life and our salvation. Therefore, draw near with me to the throne of heavenly grace.
+r: or this
+l: Let us humbly confess our sins to Almighty God.
+r: Silence is kept. All kneeling, the Officiant and People say
+l:b: Almighty and most merciful Father,
+l:b:i: we have erred and strayed from your ways like lost sheep.
+l:b: We have followed too much the devices and desires
+l:b:i: of our own hearts.
+l:b: We have offended against your holy laws.
+l:b: We have left undone those things which we ought to have done,
+l:b:i: and we have done those things which we ought not
+l:b:i: to have done;
+l:b: and apart from your grace, there is no health in us.
+l:b: O Lord, have mercy upon us.
+l:b: Spare all those who confess their faults.
+l:b: Restore all those who are penitent, according to your promises
+l:b:i: declared to all people in Christ Jesus our Lord.
+l:b: And grant, O most merciful Father, for his sake,
+l:b:i: that we may now live a godly, righteous, and sober life,
+l:b:i: to the glory of your holy Name. Amen.
+r: The Priest alone stands and says
+tb: Almighty God, the Father of our Lord Jesus Christ, desires not the death of sinners,
+but that they may turn from their wickedness and live. He has empowered and commanded
+his ministers to pronounce to his people, being penitent, the absolution and remission
+of their sins. He pardons and absolves all who truly repent and genuinely believe his holy Gospel.
+For this reason, we beseech him to grant us true repentance and his Holy Spirit,
+that our present deeds may please him, the rest of our lives may be pure and holy,
+and that at the last we may come to his eternal joy; through Jesus Christ our Lord. __Amen.__
+r: or this
+tb: The Almighty and merciful Lord grant you absolution and remission of all your sins,
+true repentance, amendment of life, and the grace and consolation of his Holy Spirit. __Amen.__
+r: A Deacon or layperson remains kneeling and prays
+tb: Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed
+from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. __Amen.__
+
+st: the invitatory
+r: All stand.
+v:officiant: O Lord, open our lips;
+v:people: And our mouth shall proclaim your praise.
+v:officiant: O God, make speed to save us;
+v:people: O Lord, make haste to help us.
+use:gloria:
+v:officiant: Officiant Praise the Lord.
+v:people: The Lord's Name be praised.
+r: The following or some other suitable hymn or Psalm may be sung or said.
+st:lc: _phos hilaron_
+st: O Gladsome Light
+l:b: O gladsome light,
+l:b: pure brightness of the everliving Father in heaven, *
+l:b:i: O Jesus Christ, holy and blessed!
+l:b: Now as we come to the setting of the sun,
+l:b: and our eyes behold the vesper light, *
+l:b:i: we sing your praises, O God: Father, Son, and Holy Spirit.
+l:b: You are worthy at all times to be praised by happy voices, *
+l:b:i: O Son of God, O Giver of Life,
+l:b:i: and to be glorified through all the worlds.
+r: Then follows
+st: the psalm or psalms appointed
+r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
+use:gloria:
+
+st: the lessons
+r: One or more Lessons, as appointed, are read, the Reader first saying
+v: A Reading from ___11___.
+r: A citation giving chapter and verse may be added.
+r: After each Lesson the Reader may say
+v: The Word of the Lord.
+v:people: Thanks be to God.
+r: Or the Reader may say
+v: Here ends the Reading.
+r: The following Canticles are normally sung or said after each of the lessons. The Officiant may also use a Canticle drawn from the Supplemental Canticles (pages 79-88) or an appropriate song of praise.
+st: magnificat
+st:lc: _The Song of Mary_
+l:b: My soul magnifies the Lord, *
+l:b:i: and my spirit rejoices in God my Savior;
+l:b:i: For he has regarded *
+l:b: the lowliness of his handmaiden.
+l:b:i: For behold, from now on, *
+l:b: all generations will call me blessed;
+l:b:i: For he that is mighty has magnified me, *
+l:b: and holy is his Name.
+l:b:i: And his mercy is on those who fear him, *
+l:b: throughout all generations.
+l:b:i: He has shown the strength of his arm; *
+l:b: he has scattered the proud in the imagination of their hearts.
+l:b:i: He has brought down the mighty from their thrones, *
+l:b: and has exalted the humble and meek.
+l:b:i: He has filled the hungry with good things, *
+l:b: and the rich he has sent empty away.
+l:b:i: He, remembering his mercy, has helped his servant Israel, *
+l:b: as he promised to our fathers, Abraham and his seed for ever.
+use:gloria:
+ref: luke 1:46-55
+st: nunc dimittis
+st:lc: _The Song of Simeon_
+l:b: Lord, now let your servant depart in peace, *
+l:b:i: according to your word.
+l:b: For my eyes have seen your salvation, *
+l:b:i: which you have prepared before the face of all people;
+l:b: To be a light to lighten the Gentiles, *
+l:b:i: and to be the glory of your people Israel.
+use:gloria:
+ref: luke 2:29-32
+use:apostles_creed:
+
+st: the prayers
+v:officiant: The Lord be with you.
+v:people: And with your spirit.
+v:officiant: Let us pray.
+use:kyrie:
+r:Officient and People
+use:lords_prayer:
+r: Then follows one of these sets of Suffrages
+v:officiant: O Lord, show your mercy upon us;
+v:people: And grant us your salvation.
+v:officiant: O Lord, guide those who govern us;
+v:people: And lead us in the way of justice and truth.
+v:officiant: Clothe your ministers with righteousness;
+v:people: And let your people sing with joy.
+v:officiant: O Lord, save your people;
+v:people: And bless your inheritance.
+v:officiant: Give peace in our time, O Lord;
+v:people: And defend us by your mighty power.
+v:officiant: Let not the needy, O Lord, be forgotten;
+v:people: Nor the hope of the poor be taken away.
+v:officiant: Create in us clean hearts, O God;
+v:people: And take not your Holy Spirit from us.
+r: or this
+l: That this evening may be holy, good, and peaceful,
+l:b:i: We entreat you, O Lord.
+l: That your holy angels may lead us in paths of peace and goodwill,
+l:b:i: We entreat you, O Lord.
+l: That we may be pardoned and forgiven for our sins and offenses,
+l:b:i: We entreat you, O Lord.
+l: That there may be peace in your Church and in the whole world,
+l:b:i: We entreat you, O Lord.
+l: That we may depart this life in your faith and fear, and not be
+l:i: condemned before the great judgment seat of Christ,
+l:b:i: We entreat you, O Lord.
+l: That we may be bound together by your Holy Spirit in the
+l:i: communion of [ ___11___ and] all your saints, entrusting
+l:i: one another and all our life to Christ,
+l:b:i: We entreat you, O Lord.
+r: The Officiant then prays one or more of the following Collects, always beginning with the Collect of the Day (usually the Collect of the Sunday or Principal Feast and of any of the weekdays following, or of the Holy Day being observed) found on pages 598-640. It is traditional to pray the Collects for Peace and Aid against Perils daily. Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics.
+st: the collect of the day
+st:lc: _From the Collects of the Christian Year_
+st: a collect for resurrection hope
+st:lc: _Sunday_
+tb: Lord God, whose Son our Savior Jesus Christ triumphed over the powers of death and prepared for us our place in the new Jerusalem: Grant that we, who have this day given thanks for his resurrection, may praise you in that City of which he is the light, and where he lives and reigns for ever and ever.
+st: a collect for peace
+st:lc: _Monday_
+tb: O God, the source of all holy desires, all good counsels, and all just works: Give to your servants that peace which the world cannot give, that our hearts may be set to obey your commandments, and that we, being defended from the fear of our enemies, may pass our time in rest and quietness; through the merits of Jesus Christ our Savior.
+st: a collect for aid against perils
+st:lc: _Tuesday_
+tb: Lighten our darkness, we beseech you, O Lord; and by your great mercy defend us from all perils and dangers of this night; for the love of your only Son, our Savior Jesus Christ.
+st: a collect for protection
+st:lc: _Wednesday_
+tb: O God, the life of all who live, the light of the faithful, the strength of those who labor, and the repose of the dead: We thank you for the blessings of the day that is past, and humbly ask for your protection through the coming night. Bring us in safety to the morning hours; through him who died and rose again for us, your Son our Savior Jesus Christ.
+st: a collect for the presence of christ
+st:lc: _Thursday_
+tb: Lord Jesus, stay with us, for evening is at hand and the day is past; be our companion in the way, kindle our hearts, and awaken hope, that we may know you as you are revealed in Scripture and the breaking of bread. Grant this for the sake of your love.
+st: a collect for faith
+st:lc: _Friday_
+tb: Lord Jesus Christ, by your death you took away the sting of death: Grant to us your servants so to follow in faith where you have led the way, that we may at length fall asleep peacefully in you and wake up in your likeness; for your tender mercies' sake.
+st: a collect for the eve of worship
+st:lc: _Saturday_
+tb: O God, the source of eternal light: Shed forth your unending day upon us who watch for you, that our lips may praise you, our lives may bless you, and our worship on the morrow give you glory; through Jesus Christ our Lord.
+st: prayer for mission
+tb: O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you,
+all nations obey you, all tongues confess and bless you, and men, women, and children everywhere
+love you and serve you in peace; through Jesus Christ our Lord. __Amen.__
+r: or this
+tb: Keep watch, dear Lord, with those who work, or watch, or weep this night,
+and give your angels charge over those who sleep. Tend the sick, Lord Christ;
+give rest to the weary, bless the dying, soothe the suffering, pity the afflicted,
+shield the joyous; and all for your love's sake. __Amen.__
+r: or this
+tb: O God, you manifest in your servants the signs of your presence:
+Send forth upon us the Spirit of love, that in companionship with one another your
+abounding grace may increase among us; through Jesus Christ our Lord. __Amen.__
+r: The Officiant may invite the People to offer intercessions and thanksgivings.
+r: A hymn or anthem may be sung.
+r: Before the close of the Office one or both of the following prayers may be used.
+st: the general thanksgiving
+r: Officiant and People
+l:b: Almighty God, Father of all mercies,
+l:b:i: we your unworthy servants give you humble thanks
+l:b:i: for all your goodness and loving-kindness
+l:b:i: to us and to all whom you have made.
+l:b: We bless you for our creation, preservation,
+l:b:i: and all the blessings of this life;
+l:b:i: but above all for your immeasurable love
+l:b:i: in the redemption of the world by our Lord Jesus Christ;
+l:b:i: for the means of grace, and for the hope of glory.
+l:b: And, we pray, give us such an awareness of your mercies,
+l:b:i: that with truly thankful hearts we may show forth your praise,
+l:b:i: not only with our lips, but in our lives,
+l:b:i: by giving up our selves to your service,
+l:b:i: and by walking before you
+l:b:i: in holiness and righteousness all our days;
+l:b: Through Jesus Christ our Lord,
+l:b:i: to whom, with you and the Holy Spirit,
+l:b:i: be honor and glory throughout all ages. Amen.
+use:canticle:chrysostom:
+v:officiant: Let us bless the Lord.
+v:people: Thanks be to God.
+r: From Easter Day through the Day of Pentecost, "Alleluia, alleluia" may be added to the preceding versicle and response.
+r: The Officiant says one of these concluding sentences (and the People may be invited to join)
+scripture:2 corinthians 13:14:: The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore.
+scripture:romans 15:13:: May the God of hope fill us with all joy and peace in believing through the power of the Holy Spirit.
+scripture:ephesians 3:20-21:: Glory to God whose power, working in us, can do infinitely more than we can ask or imagine: Glory to him from generation to generation in the Church, and in Christ Jesus for ever and ever.
+
+st: opening sentences of scripture
+st: advent
+scripture:mark 13:35-36:: Therefore stay awake—for you do not know when the master of the house will come, in the evening, or at midnight, or when the rooster crows, or in the morning—lest he come suddenly and find you asleep.
+st: christmas
+scripture:revelation 21:3:: Behold, the dwelling place of God is with man. He will dwell with them, and they will be his people, and God himself will be with them as their God.
+st: epiphany
+scripture:isaiah 60:3:: Nations shall come to your light, and kings to the brightness of your rising.
+st: lent and other penitential occasions
+scripture:1 john 1:8-9:: If we say we have no sin, we deceive ourselves, and the truth is not in us. If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.
+scripture:psalm 51:3:: For I acknowledge my faults, and my sin is ever before me.
+scripture:daniel 9:9:: To the Lord our God belong mercy and forgiveness, for we have rebelled against him.
+st: holy week
+scripture:isaiah 53:6:: All we like sheep have gone astray; we have turned every one to his own way; and the Lord has laid on him the iniquity of us all.
+st: easter
+scripture:1 corinthians 15:57:: Thanks be to God, who gives us the victory through our Lord Jesus Christ.
+st: ascension
+scripture:hebrews 9:24:: For Christ has entered, not into holy places made with hands, which are copies of the true things, but into heaven itself, now to appear in the presence of God on our behalf.
+st: pentecost
+scripture:revelation 22:17:: The Spirit and the Bride say, "Come." And let the one who hears say, "Come." And let the one who is thirsty come; let the one who desires take the water of life without price.
+scripture:psalm 46:4:: There is a river whose streams make glad the city of God, the holy dwelling place of the Most High.
+st: trinity sunday
+scripture:isaiah 6:3:: Holy, holy, holy is the Lord of Hosts; the whole earth is full of his glory!
+st: days of thanksgiving
+scripture:proverbs 3:19-20:: The Lord by wisdom founded the earth; by understanding he established the heavens; by his knowledge the deeps broke open, and the clouds drop down the dew.
+st: at any time
+scripture:psalm 96:9:: O worship the Lord in the beauty of holiness; let the whole earth stand in awe of him.
+scripture:psalm 16:8-9:: I will thank the Lord for giving me counsel; my heart also chastens me in the night season. I have set the Lord always before me; he is at my right hand, therefore I shall not fall.
+
+st:1: additional directions
+tb: The Confession and Apostles' Creed may be omitted, provided each is said at least once during the course of the day.
+tb: The Gloria Patri (Glory be...) in the opening versicles may be said in unison. The following form of the Gloria Patri may alternatively be used:
+use:gloria:
+tb: The Officiant and People may join in saying "Alleluia" (except in Lent) as an alternative to the versicles "Praise the Lord. The Lord's Name be praised."
+tb: If an offering is to be received, it is appropriate to do so during the hymn or anthem following the Collects.
+tb: A sermon may be preached after the lessons, after the hymn or anthem following the Collects, or after the conclusion of the Office.

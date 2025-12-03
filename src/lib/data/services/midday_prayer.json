@@ -1,19 +1,20 @@
 {
 	"midday_prayer": {
 		"title": "Midday Prayer",
-		"slug": "midday-prayer",
-		"pb_pages": [33, 34, 35, 36, 37, 38, 39, 40],
+		"slug": "midday_prayer",
+		"pb_pages": [
+			33,
+			40
+		],
 		"sections": [
 			{
-				"id": "opening",
-				"title": "Opening",
-				"pb_page_start": 33,
-				"pb_page_end": 33,
+				"id": "content",
+				"title": "Content",
 				"content": [
 					{
 						"type": "section_title",
-						"size": "3xl",
-						"text": "midday prayer"
+						"text": "midday prayer",
+						"size": "3xl"
 					},
 					{
 						"type": "versical",
@@ -26,13 +27,18 @@
 						"text": "O Lord, make haste to help us."
 					},
 					{
-						"type": "gloria",
-						"versical": true
+						"type": "versical",
+						"officiant": true,
+						"text": "Glory be to the Father, and to the Son, and to the Holy Spirit;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "As it was in the beginning, is now, and ever shall be,"
 					},
 					{
 						"type": "rubric",
-						"add_on": " Alleluia.",
-						"text": "Except in Lent, add"
+						"text": "Except in Lent, add __Alleluia__"
 					},
 					{
 						"type": "rubric",
@@ -41,71 +47,22 @@
 					{
 						"type": "rubric",
 						"text": "One or more of the following, or some other suitable Psalm, is sung or said."
-					}
-				]
-			},
-			{
-				"id": "psalms",
-				"title": "The Psalms",
-				"pb_page_start": 33,
-				"pb_page_end": 36,
-				"content": [
+					},
 					{
 						"type": "section_title",
 						"text": "psalm 119:105-112"
 					},
 					{
 						"type": "section_title",
-						"fancy": true,
-						"text": "Lucerna pedibus meis"
+						"text": "_Lucerna pedibus meis_",
+						"lowercase": true
 					},
 					{
-						"type": "psalm",
-						"vs": "105",
-						"ln1": "Your word is a lantern to my feet",
-						"ln2": "and a light upon my path."
-					},
-					{
-						"type": "psalm",
-						"vs": "106",
-						"ln1": "I have sworn and am steadfastly purposed",
-						"ln2": "to keep your righteous judgments."
-					},
-					{
-						"type": "psalm",
-						"vs": "107",
-						"ln1": "I am troubled above measure;",
-						"ln2": "revive me, O Lord, according to your word."
-					},
-					{
-						"type": "psalm",
-						"vs": "108",
-						"ln1": "Let the freewill offerings of my mouth please you, O Lord;",
-						"ln2": "and teach me your judgments."
-					},
-					{
-						"type": "psalm",
-						"vs": "109",
-						"ln1": "My life is always in my hand, ",
-						"ln2": "yet I do not forget your law."
-					},
-					{
-						"type": "psalm",
-						"vs": "110",
-						"ln1": "The ungodly have laid a snare for me, ",
-						"ln2": "yet I have not strayed from your commandments."
-					},
-					{
-						"type": "psalm",
-						"vs": "111",
-						"ln1": "Your testimonies have I claimed as my heritage for ever, ",
-						"ln2": "and why? They are the very joy of my heart."
-					},
-					{
-						"type": "psalm",
-						"vs": "112",
-						"ln1": "I have applied my heart to fulfill your statutes always, ",
-						"ln2": "even unto the end."
+						"type": "show_psalm",
+						"ps": 119,
+						"from": 105,
+						"to": 112,
+						"bold": true
 					},
 					{
 						"type": "section_title",
@@ -113,56 +70,14 @@
 					},
 					{
 						"type": "section_title",
-						"fancy": true,
-						"text": "Levavi oculos"
+						"text": "_Levavi oculos_",
+						"lowercase": true
 					},
 					{
-						"type": "psalm",
-						"vs": "1",
-						"ln1": "I will lift up my eyes unto the hills; ",
-						"ln2": "from whence comes my help?"
-					},
-					{
-						"type": "psalm",
-						"vs": "2",
-						"ln1": "My help comes from the Lord, ",
-						"ln2": "who has made heaven and earth."
-					},
-					{
-						"type": "psalm",
-						"vs": "3",
-						"ln1": "He will not let your foot be moved, ",
-						"ln2": "and he who keeps you will not sleep."
-					},
-					{
-						"type": "psalm",
-						"vs": "4",
-						"ln1": "Behold, he who keeps Israel ",
-						"ln2": "shall neither slumber nor sleep."
-					},
-					{
-						"type": "psalm",
-						"vs": "5",
-						"ln1": "The Lord himself is your keeper; ",
-						"ln2": "the Lord is your defense upon your right hand,"
-					},
-					{
-						"type": "psalm",
-						"vs": "6",
-						"ln1": "So that the sun shall not burn you by day, ",
-						"ln2": "neither the moon by night."
-					},
-					{
-						"type": "psalm",
-						"vs": "7",
-						"ln1": "The Lord shall preserve you from all evil; ",
-						"ln2": "indeed, it is he who shall keep your soul."
-					},
-					{
-						"type": "psalm",
-						"vs": "8",
-						"ln1": "The Lord shall preserve your going out and your coming in, ",
-						"ln2": "from this time forth for evermore."
+						"type": "show_psalm",
+						"ps": 121,
+						"to": 8,
+						"bold": true
 					},
 					{
 						"type": "section_title",
@@ -170,44 +85,14 @@
 					},
 					{
 						"type": "section_title",
-						"fancy": true,
-						"text": "Nisi quia Dominus"
+						"text": "_Nisi quia Dominus_",
+						"lowercase": true
 					},
 					{
-						"type": "psalm",
-						"vs": "1",
-						"ln1": "If the Lord himself had not been on our side, now may Israel say: ",
-						"ln2": "if the Lord himself had not been on our side, when men rose up against us,"
-					},
-					{
-						"type": "psalm",
-						"vs": "2",
-						"ln1": "Then would they have swallowed us up alive, *",
-						"ln2": "when they were so wrathfully displeased with us;"
-					},
-					{
-						"type": "psalm",
-						"vs": "3",
-						"ln1": "Then the waters would have drowned us, and the torrent gone over us; ",
-						"ln2": "then the raging waters would have gone clean over us."
-					},
-					{
-						"type": "psalm",
-						"vs": "4",
-						"ln1": "But praised be the Lord, *",
-						"ln2": "who has not given us over to be prey for their teeth."
-					},
-					{
-						"type": "psalm",
-						"vs": "5",
-						"ln1": "We escaped like a bird out of the snare of the fowler; *",
-						"ln2": "the snare is broken, and we have been delivered."
-					},
-					{
-						"type": "psalm",
-						"vs": "6",
-						"ln1": "Our help is in the Name of the Lord, *",
-						"ln2": "the maker of heaven and earth."
+						"type": "show_psalm",
+						"ps": 124,
+						"to": 6,
+						"bold": true
 					},
 					{
 						"type": "section_title",
@@ -215,50 +100,14 @@
 					},
 					{
 						"type": "section_title",
-						"fancy": true,
-						"text": "In convertendo"
+						"text": "_In convertendo_",
+						"lowercase": true
 					},
 					{
-						"type": "psalm",
-						"vs": "1",
-						"ln1": "When the Lord overturned the captivity of Zion, ",
-						"ln2": "then were we like those who dream."
-					},
-					{
-						"type": "psalm",
-						"vs": "2",
-						"ln1": "Then was our mouth filled with laughter ",
-						"ln2": "and our tongue with shouts of joy."
-					},
-					{
-						"type": "psalm",
-						"vs": "3",
-						"ln1": "Then they said among the nations, ",
-						"ln2": "\"The Lord has done great things for them.\""
-					},
-					{
-						"type": "psalm",
-						"vs": "4",
-						"ln1": "Indeed, the Lord has done great things for us already, ",
-						"ln2": "whereof we rejoice."
-					},
-					{
-						"type": "psalm",
-						"vs": "5",
-						"ln1": "Overturn our captivity, O Lord, ",
-						"ln2": "as when streams refresh the deserts of the south."
-					},
-					{
-						"type": "psalm",
-						"vs": "6",
-						"ln1": "Those who sow in tears ",
-						"ln2": "shall reap with songs of joy."
-					},
-					{
-						"type": "psalm",
-						"vs": "7",
-						"ln1": "He who goes on his way weeping and bears good seed ",
-						"ln2": "shall doubtless come again with joy, and bring his sheaves with him."
+						"type": "show_psalm",
+						"ps": 126,
+						"to": 7,
+						"bold": true
 					},
 					{
 						"type": "rubric",
@@ -266,15 +115,7 @@
 					},
 					{
 						"type": "gloria"
-					}
-				]
-			},
-			{
-				"id": "reading",
-				"title": "The Reading",
-				"pb_page_start": 36,
-				"pb_page_end": 36,
-				"content": [
+					},
 					{
 						"type": "rubric",
 						"text": "One of the following, or some other suitable passage of Scripture, is read"
@@ -282,7 +123,7 @@
 					{
 						"type": "scripture",
 						"ref": "john 12:31-32",
-						"text": "Jesus said, \"Now is the judgment of this world; now will the ruler of this world be cast out. And I, when I am lifted up from the earth, will draw all people to myself.\" "
+						"text": "Jesus said, \"Now is the judgment of this world; now will the ruler of this world be cast out. And I, when I am lifted up from the earth, will draw all people to myself.\""
 					},
 					{
 						"type": "scripture",
@@ -292,7 +133,7 @@
 					{
 						"type": "scripture",
 						"ref": "malachi 1:11",
-						"text": "From the rising of the sun to its setting my name will be great among the nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the nations, says the Lord of Hosts. "
+						"text": "From the rising of the sun to its setting my name will be great among the nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the nations, says the Lord of Hosts."
 					},
 					{
 						"type": "rubric",
@@ -304,20 +145,13 @@
 					},
 					{
 						"type": "versical",
+						"people": true,
 						"text": "Thanks be to God."
 					},
 					{
 						"type": "rubric",
 						"text": "A meditation, silent or spoken, may follow."
-					}
-				]
-			},
-			{
-				"id": "prayers",
-				"title": "The Prayers",
-				"pb_page_start": 37,
-				"pb_page_end": 38,
-				"content": [
+					},
 					{
 						"type": "rubric",
 						"text": "The Officiant then begins the Prayers"
@@ -363,23 +197,19 @@
 					},
 					{
 						"type": "text_block",
-						"amen": true,
-						"text": "Blessed Savior, at this hour you hung upon the Cross, stretching out your loving arms: Grant that all the peoples of the earth may look to you and be saved; for your tender mercies' sake."
+						"text": "Blessed Savior, at this hour you hung upon the Cross, stretching out your loving arms: Grant that all the peoples of the earth may look to you and be saved; for your tender mercies' sake. __Amen.__"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
-						"text": "Almighty Savior, who at mid-day called your servant Saint Paul to be an apostle to the Gentiles: We pray you to illumine the world with the radiance of your glory, that all nations may come and worship you; for you live and reign with the Father and the Holy Spirit, one God, for ever and ever."
+						"text": "Almighty Savior, who at mid-day called your servant Saint Paul to be an apostle to the Gentiles: We pray you to illumine the world with the radiance of your glory, that all nations may come and worship you; for you live and reign with the Father and the Holy Spirit, one God, for ever and ever. __Amen.__"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
-						"text": "Father of all mercies, you revealed your boundless compassion to your apostle Saint Peter in a three-fold vision: Forgive our unbelief, we pray, and so strengthen our hearts and enkindle our zeal, that we may fervently desire the salvation of all people, and diligently labor in the extension of your kingdom; through him who gave himself for the life of the world, your Son our Savior Jesus Christ."
+						"text": "Father of all mercies, you revealed your boundless compassion to your apostle Saint Peter in a three-fold vision: Forgive our unbelief, we pray, and so strengthen our hearts and enkindle our zeal, that we may fervently desire the salvation of all people, and diligently labor in the extension of your kingdom; through him who gave himself for the life of the world, your Son our Savior Jesus Christ. __Amen.__"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
-						"text": "Pour your grace into our hearts, O Lord, that we who have known the incarnation of your Son Jesus Christ, announced by an angel to the Virgin Mary, may by his Cross and passion be brought to the glory of his resurrection; who lives and reigns with you, in the unity of the Holy Spirit, one God, now and for ever."
+						"text": "Pour your grace into our hearts, O Lord, that we who have known the incarnation of your Son Jesus Christ, announced by an angel to the Virgin Mary, may by his Cross and passion be brought to the glory of his resurrection; who lives and reigns with you, in the unity of the Holy Spirit, one God, now and for ever. __Amen.__"
 					},
 					{
 						"type": "rubric",
@@ -398,15 +228,7 @@
 					{
 						"type": "rubric",
 						"text": "From Easter Day through the Day of Pentecost, \"Alleluia, alleluia\" may be added to the preceding versicle and response."
-					}
-				]
-			},
-			{
-				"id": "conclusion",
-				"title": "Conclusion",
-				"pb_page_start": 39,
-				"pb_page_end": 39,
-				"content": [
+					},
 					{
 						"type": "rubric",
 						"text": "The Officiant may conclude with this, or one of the other concluding sentences from Morning and Evening Prayer."
@@ -414,22 +236,12 @@
 					{
 						"type": "scripture",
 						"ref": "2 corinthians 13:14",
-						"t": true,
-						"amen": true,
-						"text": "The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore."
-					}
-				]
-			},
-			{
-				"id": "additional_directions",
-				"title": "Additional Directions",
-				"pb_page_start": 39,
-				"pb_page_end": 39,
-				"content": [
+						"text": "The grace of our Lord Jesus Christ, and the love of God,"
+					},
 					{
 						"type": "section_title",
-						"size": "3xl",
-						"text": "additional directions"
+						"text": "additional directions",
+						"size": "xl"
 					},
 					{
 						"type": "text_block",
@@ -439,7 +251,9 @@
 						"type": "text_block",
 						"text": "Either version of the Lord's Prayer may be ended with, \"deliver us from evil. Amen.\" omitting the concluding doxology."
 					}
-				]
+				],
+				"pb_page_start": 33,
+				"pb_page_end": 40
 			}
 		]
 	}

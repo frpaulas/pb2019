@@ -20,7 +20,8 @@ const VALID_TYPES = new Set([
 	'pb',
 	'l',
 	'button',
-	'lords_prayer'
+	'use',
+	'scripture'
 ]);
 
 // Global modifiers
@@ -42,8 +43,8 @@ function validateLine(line, lineNum) {
 	const errors = [];
 	const trimmed = line.trim();
 
-	// Skip empty lines and comments
-	if (!trimmed || trimmed.startsWith('#')) {
+	// Skip empty lines and comments (# or //)
+	if (!trimmed || trimmed.startsWith('#') || trimmed.startsWith('//')) {
 		return errors;
 	}
 
@@ -57,6 +58,9 @@ function validateLine(line, lineNum) {
 	const typeWithModifiers = trimmed.substring(0, colonIndex);
 	const parts = typeWithModifiers.split(':');
 	const type = parts[0];
+
+	// For 'use:' type, also parse the full line to get component name and parameters
+	const fullParts = type === 'use' ? trimmed.split(':') : parts;
 
 	// Validate type
 	if (!VALID_TYPES.has(type)) {
@@ -156,10 +160,51 @@ function validateLine(line, lineNum) {
 				}
 			}
 			break;
+
+		case 'use':
+			// use:component_name: or use:psalm:number:start:end:
+			if (fullParts.length < 2 || !fullParts[1]) {
+				errors.push(
+					new ValidationError(
+						line,
+						lineNum,
+						'Invalid use format. Expected: use:component_name: or use:psalm:number:start:end:'
+					)
+				);
+			}
+
+			// Additional validation for psalm format
+			if (fullParts[1] === 'psalm') {
+				if (fullParts.length < 3 || !fullParts[2]) {
+					errors.push(
+						new ValidationError(
+							line,
+							lineNum,
+							'use:psalm: requires psalm number. Expected: use:psalm:number:start:end:'
+						)
+					);
+				}
+			}
+			break;
+
+		case 'scripture':
+			// scripture:reference:: text
+			// Example: scripture:psalm 122:1:: I was glad...
+			const scriptureContent = trimmed.substring(colonIndex + 1);
+			if (!scriptureContent.includes('::')) {
+				errors.push(
+					new ValidationError(
+						line,
+						lineNum,
+						'Invalid scripture format. Expected: scripture:reference:: text (note double colon)'
+					)
+				);
+			}
+			break;
 	}
 
 	// Check for content (except for page breaks and special markers)
-	if (!['pb', 'pg'].includes(type)) {
+	if (!['pb', 'pg', 'use'].includes(type)) {
 		const contentStart = trimmed.indexOf(':', colonIndex + 1);
 		const content =
 			contentStart > -1

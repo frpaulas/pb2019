@@ -17,7 +17,7 @@
 	});
 </script>
 
-<p class="mt-2 mb-2 text-red-900 italic">
+<p class="mt-2 mb-2">
 	{#if parsedSlotContent}
 		{@html parsedSlotContent}
 	{:else if children}

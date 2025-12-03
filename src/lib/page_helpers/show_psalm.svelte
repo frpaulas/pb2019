@@ -29,24 +29,18 @@
 			return [];
 		}
 	});
-
-	// Track previous Latin and Hebrew sections to detect changes
-	let prevLatin = $state('');
-	let prevHebrew = $state('');
 </script>
 
-{#each verses as verse}
-	<!-- Show Latin section title if it changed -->
-	{#if verse.latin && verse.latin !== prevLatin}
-		{@const _ = prevLatin = verse.latin}
+{#each verses as verse, i}
+	<!-- Show Latin section title if it changed from previous verse -->
+	{#if verse.latin && (i === 0 || verse.latin !== verses[i - 1]?.latin)}
 		<SectionTitle fancy text={verse.latin} latin_size />
 	{/if}
 
-	<!-- Show Hebrew section marker if it changed -->
-	{#if verse.hebrew && verse.hebrew !== prevHebrew}
-		{@const _ = prevHebrew = verse.hebrew}
+	<!-- Show Hebrew section marker if it changed from previous verse -->
+	{#if verse.hebrew && (i === 0 || verse.hebrew !== verses[i - 1]?.hebrew)}
 		<SectionTitle text={verse.hebrew} />
 	{/if}
 
-	<Psalm vs={verse.vs.toString()} ln1={verse.ln1} ln2={verse.ln2} />
+	<Psalm vs={verse.vs.toString()} ln1={verse.ln1} ln2={verse.ln2} {bold} />
 {/each}

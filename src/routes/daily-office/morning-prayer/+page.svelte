@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div class="container">
-	<ServiceRenderer serviceData={morningPrayerData.morning_prayer} />
+	<ServiceRenderer serviceData={morningPrayerData.daily_morning_prayer} />
 </div>
 
 <style>

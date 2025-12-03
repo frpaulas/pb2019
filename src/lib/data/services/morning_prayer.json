@@ -1,1824 +1,1838 @@
 {
-  "morning_prayer": {
-    "title": "Daily Morning Prayer",
-    "slug": "morning-prayer",
-    "pb_pages": [11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
-    "sections": [
-      {
-        "id": "opening_sentences",
-        "title": "Opening Sentences",
-        "pb_page_start": 11,
-        "pb_page_end": 11,
-        "content": [
-          {
-            "type": "section_title",
-            "size": "3xl",
-            "text": "daily morning prayer"
-          },
-          {
-            "type": "rubric",
-            "text": "The Officiant may begin Morning Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office (pages 27-29), is customary."
-          },
-          {
-            "type": "scripture",
-            "ref": "philippians 1:2",
-            "text": "Grace to you and peace from God our Father and the Lord Jesus Christ.\""
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "scripture",
-            "ref": "psalm 122:1",
-            "text": "I was glad when they said unto me, \"We will go into the house of the Lord.\""
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "scripture",
-            "ref": "psalm 19:14",
-            "text": "Let the words of my mouth and the meditation of my heart be always acceptable in your sight, O Lord, my rock and my redeemer."
-          }
-        ]
-      },
-      {
-        "id": "confession",
-        "title": "Confession of Sin",
-        "pb_page_start": 11,
-        "pb_page_end": 13,
-        "content": [
-          {
-            "type": "section_title",
-            "size": "1xl",
-            "text": "confession of sin"
-          },
-          {
-            "type": "rubric",
-            "text": "The Officiant says to the People"
-          },
-          {
-            "type": "text_block",
-            "text": "Dearly beloved, the Scriptures teach us to acknowledge our many sins and offenses, not concealing them from our heavenly Father, but confessing them with humble and obedient hearts that we may obtain forgiveness by his infinite goodness and mercy. We ought at all times humbly to acknowledge our sins before Almighty God, but especially when we come together in his presence to give thanks for the great benefits we have received at his hands, to declare his most worthy praise, to hear his holy Word, and to ask, for ourselves and on behalf of others, those things which are necessary for our life and our salvation. Therefore, draw near with me to the throne of heavenly grace."
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "text_block",
-            "text": "Let us humbly confess our sins to Almighty God."
-          },
-          {
-            "type": "rubric",
-            "text": "Silence is kept. All kneeling, the Officiant and People say"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Almighty and most merciful Father,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "we have erred and strayed from your ways like lost sheep."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "We have followed too much the devices and desires"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "of our own hearts."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "We have offended against your holy laws."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "We have left undone those things which we ought to have done,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and we have done those things which we ought not"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "to have done;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "and apart from your grace, there is no health in us."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "O Lord, have mercy upon us."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Spare all those who confess their faults."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Restore all those who are penitent, according to your promises"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "declared to all people in Christ Jesus our Lord."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "And grant, O most merciful Father, for his sake,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "that we may now live a godly, righteous, and sober life,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "to the glory of your holy Name. Amen."
-          },
-          {
-            "type": "rubric",
-            "text": "The Priest alone stands and says"
-          },
-          {
-            "type": "text_block",
-            "text": "Almighty God, the Father of our Lord Jesus Christ, desires not the death of sinners, but that they may turn from their wickedness and live. He has empowered and commanded his ministers to pronounce to his people, being penitent, the absolution and remission of their sins. He pardons and absolves all who truly repent and genuinely believe his holy Gospel. For this reason, we beseech him to grant us true repentance and his Holy Spirit, that our present deeds may please him, the rest of our lives may be pure and holy, and that at the last we may come to his eternal joy; through Jesus Christ our Lord. Amen."
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "text_block",
-            "text": "The Almighty and merciful Lord grant you absolution and remission of all your sins, true repentance, amendment of life, and the grace and consolation of his Holy Spirit. Amen. A Deacon or layperson remains kneeling and prays Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. Amen."
-          }
-        ]
-      },
-      {
-        "id": "invitatory",
-        "title": "Invitatory",
-        "pb_page_start": 13,
-        "pb_page_end": 16,
-        "content": [
-          {
-            "type": "section_title",
-            "size": "1xl",
-            "text": "invitatory"
-          },
-          {
-            "type": "rubric",
-            "text": "All stand."
-          },
-          {
-            "type": "versical",
-            "officiant": true,
-            "text": "O Lord, open our lips;"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "And our mouth shall proclaim your praise."
-          },
-          {
-            "type": "versical",
-            "officiant": true,
-            "text": "O God, make speed to save us;"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "O Lord, make haste to help us."
-          },
-          {
-            "type": "gloria",
-            "versical": true
-          },
-          {
-            "type": "versical",
-            "officiant": true,
-            "text": "Praise the Lord."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "The Lord's Name be praised."
-          },
-          {
-            "type": "rubric",
-            "text": "Then follows the Venite. Alternatively, the Jubilate may be used."
-          },
-          {
-            "type": "rubric",
-            "text": "One of these antiphons, or one from the seasonal antiphons provided at the end of the Office (pages 29-30), may be sung or said before and after the Invitatory Psalm."
-          },
-          {
-            "type": "antiphon",
-            "call": "The earth is the Lord's for he made it: *",
-            "response": "O come, let us adore him."
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "antiphon",
-            "call": "Worship the Lord in the beauty of holiness: *",
-            "response": "O come, let us adore him."
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "antiphon",
-            "call": "The mercy of the Lord is everlasting: *",
-            "response": "O come, let us adore him."
-          },
-          {
-            "type": "section_title",
-            "size": "1xl",
-            "text": "venite"
-          },
-          {
-            "type": "section_title",
-            "size": "1xl",
-            "fancy": true,
-            "text": "O Come"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "O come, let us sing unto the Lord; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "let us heartily rejoice in the strength of our salvation."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Let us come before his presence with thanksgiving *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and show ourselves glad in him with psalms."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "For the Lord is a great God *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and a great King above all gods."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "In his hand are all the depths of the earth, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and the heights of the hills are his also."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "The sea is his, for he made it, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and his hands prepared the dry land."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "O come, let us worship and fall down, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and kneel before the Lord our Maker."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "For he is our God, *"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "and we are the people of his pasture,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and the sheep of his hand."
-          },
-          {
-            "type": "rubric",
-            "text": "The following verses may be omitted, except in Lent."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Today, if you will hear his voice, harden not your hearts *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "as in the provocation, and as in the day of temptation in"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "the wilderness,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "When your fathers tested me, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and put me to the proof, though they had seen my works."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Forty years long was I grieved with this generation and said, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "\"It is a people that err in their hearts,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "for they have not known my ways,\""
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Of whom I swore in my wrath *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "that they should not enter into my rest."
-          },
-          {
-            "type": "ref",
-            "text": "psalm 95:1-7, 8-11"
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "section_title",
-            "size": "1xl",
-            "text": "jubilate"
-          },
-          {
-            "type": "section_title",
-            "size": "1xl",
-            "fancy": true,
-            "text": "Be Joyful"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "O be joyful in the Lord, all you lands; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "serve the Lord with gladness,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and come before his presence with a song."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Be assured that the Lord, he is God; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "it is he that has made us, and not we ourselves;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "we are his people, and the sheep of his pasture."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "O go your way into his gates with thanksgiving,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "and into his courts with praise; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "be thankful unto him, and speak good of his Name."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "For the Lord is gracious, his mercy is everlasting, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and his truth endures from generation to generation."
-          },
-          {
-            "type": "ref",
-            "text": "psalm 100"
-          },
-          {
-            "type": "rubric",
-            "text": "During the first week of Easter, the Pascha Nostrum, without antiphons, is used in place of the Invitatory Psalm, and it may be used throughout Eastertide."
-          },
-          {
-            "type": "section_title",
-            "size": "1xl",
-            "text": "pascha nostrum"
-          },
-          {
-            "type": "section_title",
-            "size": "1xl",
-            "fancy": true,
-            "text": "Christ our Passover"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Alleluia. Christ our Passover has been sacrificed for us; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "therefore let us keep the feast,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Not with the old leaven, the leaven of malice and evil, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "but with the unleavened bread of sincerity and truth. Alleluia."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Christ being raised from the dead will never die again; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "death no longer has dominion over him."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "The death that he died, he died to sin, once for all; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "but the life he lives, he lives to God."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "So also consider yourselves dead to sin, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and alive to God in Jesus Christ our Lord. Alleluia."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Christ has been raised from the dead, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "the firstfruits of those who have fallen asleep."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "For since by a man came death, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "by a man has come also the resurrection of the dead."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "For as in Adam all die, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "so also in Christ shall all be made alive. Alleluia."
-          },
-          {
-            "type": "ref",
-            "text": "1 corinthians 5:7-8; romans 6:9-11; 1 corinthians 15:20-22"
-          },
-          {
-            "type": "then_follows"
-          },
-          {
-            "type": "section_title",
-            "text": "the psalm or psalms appointed"
-          },
-          {
-            "type": "rubric",
-            "text": "At the end of the Psalms the Gloria Patri (Glory be...) is sung or said"
-          },
-          {
-            "type": "gloria"
-          }
-        ]
-      },
-      {
-        "id": "lessons",
-        "title": "The Lessons",
-        "pb_page_start": 17,
-        "pb_page_end": 20,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the lessons"
-          },
-          {
-            "type": "rubric",
-            "text": "One or more Lessons, as appointed, are read, the Reader first saying"
-          },
-          {
-            "type": "line",
-            "text": "A Reading from _____________."
-          },
-          {
-            "type": "rubric",
-            "text": "A citation giving chapter and verse may be added."
-          },
-          {
-            "type": "rubric",
-            "text": "After each lesson the Reader may say"
-          },
-          {
-            "type": "versical",
-            "text": "The Word of the Lord."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Thanks be to God."
-          },
-          {
-            "type": "rubric",
-            "text": "Or the Reader may say"
-          },
-          {
-            "type": "versical",
-            "text": "Here ends the Reading."
-          },
-          {
-            "type": "rubric",
-            "text": "The following Canticles are normally sung or said after each of the lessons. The Officiant may also use a Canticle drawn from the Supplemental Canticles (pages 79-88) or an appropriate song of praise."
-          },
-          {
-            "type": "section_title",
-            "text": "te deum laudamus"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "We Praise You, O God"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "We praise you, O God; we acclaim you as Lord; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "all creation worships you, the Father everlasting."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "To you all angels, all the powers of heaven, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "the cherubim and seraphim, sing in endless praise:"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Holy, Holy, Holy, Lord God of power and might, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "heaven and earth are full of your glory."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "The glorious company of apostles praise you. *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "The noble fellowship of prophets praise you."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "The white-robed army of martyrs praise you. *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "Throughout the world the holy Church acclaims you:"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Father, of majesty unbounded,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "your true and only Son, worthy of all praise, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and the Holy Spirit, advocate and guide."
-          },
-          {
-            "type": "line",
-            "text": "__You, Christ, are the king of glory, *__"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "__the eternal Son of the Father.__"
-          },
-          {
-            "type": "line",
-            "text": "When you took our flesh to set us free *__"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "__you humbly chose the Virgin's womb.__"
-          },
-          {
-            "type": "line",
-            "text": "You overcame the sting of death *__"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "__and opened the kingdom of heaven to all believers.__"
-          },
-          {
-            "type": "line",
-            "text": "You are seated at God's right hand in glory. *__"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "__We believe that you will come to be our judge.__"
-          },
-          {
-            "type": "line",
-            "text": "Come then, Lord, and help your people, *__"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "__bought with the price of your own blood,__"
-          },
-          {
-            "type": "line",
-            "text": "and bring us with your saints *__"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "__to glory everlasting.__"
-          },
-          {
-            "type": "rubric",
-            "text": "The following verses may be omitted"
-          },
-          {
-            "type": "line",
-            "text": "__Save your people, Lord, and bless your inheritance; *__"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "__govern and uphold them now and always.__"
-          },
-          {
-            "type": "line",
-            "text": "__Day by day we bless you; *__"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "__we praise your Name for ever.__"
-          },
-          {
-            "type": "line",
-            "text": "__Keep us today, Lord, from all sin; *__"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "__have mercy on us, Lord, have mercy.__"
-          },
-          {
-            "type": "line",
-            "text": "__Lord, show us your love and mercy, *__"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "__for we have put our trust in you.__"
-          },
-          {
-            "type": "line",
-            "text": "__In you, Lord, is our hope; *__"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "__let us never be put to shame.__"
-          },
-          {
-            "type": "rubric",
-            "text": "During Lent the Benedictus es, Domine usually replaces the Te Deum, and it may be used at other times."
-          },
-          {
-            "type": "section_title",
-            "text": "benedictuses, domine"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "A Song of Praise"
-          },
-          {
-            "type": "line",
-            "text": "__Glory to you, Lord God of our fathers; *__"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "__you are worthy of praise; glory to you.__"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Glory to you for the radiance of your holy Name; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "we will praise you and highly exalt you for ever."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Glory to you in the splendor of your temple; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "on the throne of your majesty, glory to you."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Glory to you, seated between the Cherubim; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "we will praise you and highly exalt you for ever."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Glory to you, beholding the depths; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "in the high vault of heaven, glory to you."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Glory to you, Father, Son, and Holy Spirit; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "we will praise you and highly exalt you for ever."
-          },
-          {
-            "type": "ref",
-            "text": "song of the three young men, 29-34"
-          },
-          {
-            "type": "section_title",
-            "text": "benedictus"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "The Song of Zechariah"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Blessed be the Lord, the God of Israel; *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "he has come to his people and set them free."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "He has raised up for us a mighty savior, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "born of the house of his servant David."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Through his holy prophets he promised of old"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "that he would save us from our enemies, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "from the hands of all who hate us."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "He promised to show mercy to our fathers *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and to remember his holy covenant."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "This was the oath he swore to our father Abraham, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "to set us free from the hands of our enemies,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Free to worship him without fear, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "holy and righteous in his sight"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "all the days of our life."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "You, my child, shall be called the prophet of the Most High, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "for you will go before the Lord to prepare his way,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "To give his people knowledge of salvation *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "by the forgiveness of their sins."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "In the tender compassion of our God *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "the dawn from on high shall break upon us,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "To shine on those who dwell in darkness"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and in the shadow of death, *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and to guide our feet into the way of peace."
-          },
-          {
-            "type": "gloria"
-          },
-          {
-            "type": "ref",
-            "text": "luke 1:68-79"
-          },
-          {
-            "type": "rubric",
-            "text": "Officiant and People together, all standing"
-          },
-          {
-            "type": "apostles_creed"
-          }
-        ]
-      },
-      {
-        "id": "prayers",
-        "title": "The Prayers",
-        "pb_page_start": 21,
-        "pb_page_end": 26,
-        "content": [
-          {
-            "type": "rubric",
-            "text": ""
-          },
-          {
-            "type": "kyrie"
-          },
-          {
-            "type": "rubric",
-            "text": "Officiant and People"
-          },
-          {
-            "type": "lords_prayer"
-          },
-          {
-            "type": "versical",
-            "officiant": true,
-            "text": "O Lord, show your mercy upon us;"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "And grant us your salvation."
-          },
-          {
-            "type": "versical",
-            "officiant": true,
-            "text": "O Lord, guide those who govern us;"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "And lead us in the way of justice and truth."
-          },
-          {
-            "type": "versical",
-            "officiant": true,
-            "text": "Clothe your ministers with righteousness;"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "And let your people sing with joy."
-          },
-          {
-            "type": "versical",
-            "officiant": true,
-            "text": "O Lord, save your people;"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "And bless your inheritance."
-          },
-          {
-            "type": "versical",
-            "officiant": true,
-            "text": "Give peace in our time, O Lord;"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "And defend us by your mighty power."
-          },
-          {
-            "type": "versical",
-            "officiant": true,
-            "text": "Let not the needy, O Lord, be forgotten;"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Nor the hope of the poor be taken away."
-          },
-          {
-            "type": "versical",
-            "officiant": true,
-            "text": "Create in us clean hearts, O God;"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "And take not your Holy Spirit from us."
-          },
-          {
-            "type": "rubric",
-            "text": "The Officiant then prays one or more of the following Collects, always beginning with the Collect of the Day (usually the Collect of the Sunday or Principal Feast and of any of the weekdays following, or of the Holy Day being observed), found on pages 598-640. It is traditional to pray the Collects for Peace and Grace daily. Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics."
-          },
-          {
-            "type": "section_title",
-            "text": "the collect of the day"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "From the Collects of the Christian Year"
-          },
-          {
-            "type": "section_title",
-            "text": "a collect for strength to await christ's return"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "Sunday"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "O God our King, by the resurrection of your Son Jesus Christ on the first day of the week, you conquered sin, put death to flight, and gave us the hope of everlasting life: Redeem all our days by this victory; forgive our sins, banish our fears, make us bold to praise you and to do your will; and steel us to wait for the consummation of your kingdom on the last great Day; through Jesus Christ our Lord."
-          },
-          {
-            "type": "section_title",
-            "text": "a collect for the renewal of life"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "Monday"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "O God, the King eternal, whose light divides the day from the night and turns the shadow of death into the morning: Drive far from us all wrong desires, incline our hearts to keep your law, and guide our feet into the way of peace; that, having done your will with cheerfulness during the day, we may, when night comes, rejoice to give you thanks; through Jesus Christ our Lord."
-          },
-          {
-            "type": "section_title",
-            "text": "a collect for peace"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "Tuesday"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "O God, the author of peace and lover of concord, to know you is eternal life and to serve you is perfect freedom: Defend us, your humble servants, in all assaults of our enemies; that we, surely trusting in your defense, may not fear the power of any adversaries, through the might of Jesus Christ our Lord."
-          },
-          {
-            "type": "section_title",
-            "text": "a collect for grace"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "Wednesday"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "O Lord, our heavenly Father, almighty and everlasting God, you have brought us safely to the beginning of this day: Defend us by your mighty power, that we may not fall into sin nor run into any danger; and that, guided by your Spirit, we may do what is righteous in your sight; through Jesus Christ our Lord."
-          },
-          {
-            "type": "section_title",
-            "text": "a collect for guidance"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "Thursday"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "Heavenly Father, in you we live and move and have our being: We humbly pray you so to guide and govern us by your Holy Spirit, that in all the cares and occupations of our life we may not forget you, but may remember that we are ever walking in your sight; through Jesus Christ our Lord."
-          },
-          {
-            "type": "section_title",
-            "text": "a collect for endurance"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "Friday"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "Almighty God, whose most dear Son went not up to joy but first he suffered pain, and entered not into glory before he was crucified: Mercifully grant that we, walking in the way of the Cross, may find it none other than the way of life and peace; through Jesus Christ your Son our Lord."
-          },
-          {
-            "type": "section_title",
-            "text": "a collect for sabbath rest"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "Saturday"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "Almighty God, who after the creation of the world rested from all your works and sanctified a day of rest for all your creatures: Grant that we, putting away all earthly anxieties, may be duly prepared for the service of your sanctuary, and that our rest here upon earth may be a preparation for the eternal rest promised to your people in heaven; through Jesus Christ our Lord."
-          },
-          {
-            "type": "rubric",
-            "text": "Unless the Great Litany or the Eucharist is to follow, one of the following prayers for mission is added. If the Great Litany is used, it follows here, or after a hymn or anthem, and concludes the Office."
-          },
-          {
-            "type": "section_title",
-            "text": "prayer for mission"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "Almighty and everlasting God, who alone works great marvels: Send down upon our clergy and the congregations committed to their charge the life-giving Spirit of your grace, shower them with the continual dew of your blessing, and ignite in them a zealous love of your Gospel; through Jesus Christ our Lord."
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "O God, you have made of one blood all the peoples of the earth, and sent your blessed Son to preach peace to those who are far off and to those who are near: Grant that people everywhere may seek after you and find you; bring the nations into your fold; pour out your Spirit upon all flesh; and hasten the coming of your kingdom; through Jesus Christ our Lord."
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "Lord Jesus Christ, you stretched out your arms of love on the hard wood of the Cross that everyone might come within the reach of your saving embrace: So clothe us in your Spirit that we, reaching forth our hands in love, may bring those who do not know you to the knowledge and love of you; for the honor of your Name."
-          },
-          {
-            "type": "rubric",
-            "text": "The Officiant may invite the People to offer intercessions and thanksgivings."
-          },
-          {
-            "type": "rubric",
-            "text": "A hymn or anthem may be sung."
-          },
-          {
-            "type": "rubric",
-            "text": "Before the close of the Office one or both of the following prayers may be used."
-          },
-          {
-            "type": "section_title",
-            "text": "the general thanksgiving"
-          },
-          {
-            "type": "rubric",
-            "text": "Officiant and People"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Almighty God, Father of all mercies,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "we your unworthy servants give you humble thanks"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "for all your goodness and loving-kindness"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "to us and to all whom you have made."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "We bless you for our creation, preservation,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and all the blessings of this life;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "but above all for your immeasurable love"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "in the redemption of the world by our Lord Jesus Christ;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "for the means of grace, and for the hope of glory."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "And, we pray, give us such an awareness of your mercies,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "that with truly thankful hearts"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "we may show forth your praise,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "not only with our lips, but in our lives,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "by giving up our selves to your service,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and by walking before you"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "in holiness and righteousness all our days;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Through Jesus Christ our Lord,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "to whom, with you and the Holy Spirit,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "be honor and glory throughout all ages. Amen."
-          },
-          {
-            "type": "chrysostom"
-          },
-          {
-            "type": "versical",
-            "officiant": true,
-            "text": "Let us bless the Lord."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Thanks be to God."
-          },
-          {
-            "type": "rubric",
-            "text": "From Easter Day through the Day of Pentecost, \"Alleluia, alleluia\" may be added to the preceding versicle and response."
-          },
-          {
-            "type": "rubric",
-            "text": "The Officiant says one of these concluding sentences (and the People may be invited to join)"
-          },
-          {
-            "type": "scripture",
-            "ref": "2 corinthians 13:14",
-            "t": true,
-            "amen": true,
-            "text": "The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore."
-          },
-          {
-            "type": "scripture",
-            "ref": "romans 15:13",
-            "t": true,
-            "amen": true,
-            "text": "May the God of hope fill us with all joy and peace in believing through the power of the Holy Spirit."
-          },
-          {
-            "type": "scripture",
-            "ref": "ephesians 3:20-21",
-            "t": true,
-            "amen": true,
-            "text": "Glory to God whose power, working in us, can do infinitely more than we can ask or imagine: Glory to him from generation to generation in the Church, and in Christ Jesus for ever and ever."
-          }
-        ]
-      },
-      {
-        "id": "supplemental_opening_sentences",
-        "title": "Opening Sentences of Scripture",
-        "pb_page_start": 27,
-        "pb_page_end": 29,
-        "content": [
-          {
-            "type": "section_title",
-            "size": "3xl",
-            "text": "opening sentences of scripture"
-          },
-          {
-            "type": "section_title",
-            "text": "advent"
-          },
-          {
-            "type": "scripture",
-            "ref": "isaiah 40:3",
-            "text": "In the wilderness prepare the way of the Lord; make straight in the desert a highway for our God."
-          },
-          {
-            "type": "section_title",
-            "text": "christmas"
-          },
-          {
-            "type": "scripture",
-            "ref": "luke 2:10-11",
-            "text": "Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord."
-          },
-          {
-            "type": "section_title",
-            "text": "epiphany"
-          },
-          {
-            "type": "scripture",
-            "ref": "malachi 1:11",
-            "text": "From the rising of the sun to its setting my name will be great among the nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the nations, says the Lord of hosts."
-          },
-          {
-            "type": "section_title",
-            "fancy_and": true,
-            "text": "lent and other penitential occasions"
-          },
-          {
-            "type": "scripture",
-            "ref": "matthew 3:2",
-            "text": "Repent, for the kingdom of heaven is at hand."
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "Turn your face from my sins,"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "and blot out all my misdeeds."
-          },
-          {
-            "type": "ref",
-            "text": "psalm 51:9"
-          },
-          {
-            "type": "scripture",
-            "ref": "mark 8:34",
-            "text": "If anyone would come after me, let him deny himself and take up his cross and follow me."
-          },
-          {
-            "type": "section_title",
-            "text": "holy week"
-          },
-          {
-            "type": "scripture",
-            "ref": "lamentations 1:12",
-            "text": "Is it nothing to you, all you who pass by? Look and see if there is any sorrow like my sorrow, which was brought upon me, which the Lord inflicted on the day of his fierce anger."
-          },
-          {
-            "type": "section_title",
-            "text": "easter"
-          },
-          {
-            "type": "scripture",
-            "ref": "colossians 3:1",
-            "text": "If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God."
-          },
-          {
-            "type": "section_title",
-            "text": "ascension"
-          },
-          {
-            "type": "scripture",
-            "ref": "hebrews 4:14, 16",
-            "text": "Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession. Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need."
-          },
-          {
-            "type": "section_title",
-            "text": "pentecost"
-          },
-          {
-            "type": "scripture",
-            "ref": "acts 1:8",
-            "text": "You will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth."
-          },
-          {
-            "type": "section_title",
-            "text": "trinity sunday"
-          },
-          {
-            "type": "scripture",
-            "ref": "revelation 4:8",
-            "text": "Holy, holy, holy, is the Lord God Almighty, who was and is and is to come!"
-          },
-          {
-            "type": "section_title",
-            "text": "days of thanksgiving"
-          },
-          {
-            "type": "scripture",
-            "ref": "proverbs 3:9-10",
-            "text": "Honor the Lord with your wealth and with the firstfruits of all your produce; then your barns will be filled with plenty, and your vats will be bursting with wine."
-          },
-          {
-            "type": "section_title",
-            "text": "at any time"
-          },
-          {
-            "type": "scripture",
-            "ref": "habakkuk 2:20",
-            "text": "The Lord is in his holy temple; let all the earth keep silence before him."
-          },
-          {
-            "type": "scripture",
-            "ref": "psalm 43:3",
-            "text": "O send out your light and your truth, that they may lead me, and bring me to your holy hill, and to your dwelling."
-          },
-          {
-            "type": "scripture",
-            "ref": "isaiah 57:15",
-            "text": "Thus says the One who is high and lifted up, who inhabits eternity, whose name is Holy: \"I dwell in the high and holy place, and also with him who is of a contrite and lowly spirit, to revive the spirit of the lowly, and to revive the heart of the contrite.\""
-          },
-          {
-            "type": "scripture",
-            "ref": "john 4:23",
-            "text": "The hour is coming, and is now here, when the true worshipers will worship the Father in spirit and truth, for the Father is seeking such people to worship him."
-          }
-        ]
-      },
-      {
-        "id": "seasonal_antiphons",
-        "title": "Seasonal Antiphons",
-        "pb_page_start": 29,
-        "pb_page_end": 30,
-        "content": [
-          {
-            "type": "section_title",
-            "size": "3xl",
-            "text": "seasonal antiphons"
-          },
-          {
-            "type": "section_title",
-            "text": "advent"
-          },
-          {
-            "type": "line",
-            "text": "Our King and Savior now draws near: * O come, let us adore him."
-          },
-          {
-            "type": "section_title",
-            "text": "christmas"
-          },
-          {
-            "type": "line",
-            "text": "Alleluia, to us a child is born: *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "O come, let us adore him. Alleluia."
-          },
-          {
-            "type": "section_title",
-            "text": "epiphany, and the feast of the transfiguration"
-          },
-          {
-            "type": "line",
-            "text": "The Lord has shown forth his glory: *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "O come, let us adore him."
-          },
-          {
-            "type": "section_title",
-            "fancy_and": true,
-            "text": "presentation and annunciation"
-          },
-          {
-            "type": "line",
-            "text": "The Word was made flesh and dwelt among us: *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "O come, let us adore him."
-          },
-          {
-            "type": "section_title",
-            "text": "lent"
-          },
-          {
-            "type": "line",
-            "text": "The Lord is full of compassion and mercy: *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "O come, let us adore him."
-          },
-          {
-            "type": "section_title",
-            "text": "easter until ascension"
-          },
-          {
-            "type": "line",
-            "text": "Alleluia. The Lord is risen indeed: *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "O come, let us adore him. Alleluia."
-          },
-          {
-            "type": "section_title",
-            "text": "ascension until pentecost"
-          },
-          {
-            "type": "line",
-            "text": "Alleluia. Christ the Lord has ascended into heaven: *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "O come, let us adore him. Alleluia."
-          },
-          {
-            "type": "section_title",
-            "text": "day of pentecost"
-          },
-          {
-            "type": "line",
-            "text": "Alleluia. The Spirit of the Lord renews the face of the earth: *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "O come, let us adore him. Alleluia."
-          },
-          {
-            "type": "section_title",
-            "text": "trinity sunday"
-          },
-          {
-            "type": "line",
-            "text": "Father, Son, and Holy Spirit, one God: *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "O come, let us adore him."
-          },
-          {
-            "type": "section_title",
-            "text": "all saints' and other major saints' days"
-          },
-          {
-            "type": "line",
-            "text": "The Lord is glorious in his saints: *"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "O come, let us adore him."
-          }
-        ]
-      },
-      {
-        "id": "additional_directions",
-        "title": "Additional Directions",
-        "pb_page_start": 31,
-        "pb_page_end": 31,
-        "content": [
-          {
-            "type": "section_title",
-            "size": "3xl",
-            "text": "additional directions"
-          },
-          {
-            "type": "text_block",
-            "text": "The Confession and Apostles' Creed may be omitted, provided each is said at least once during the course of the day."
-          },
-          {
-            "type": "text_block",
-            "text": "The Gloria Patri (Glory be...) in the opening versicles may be said in unison. The following form of the Gloria Patri may alternatively be used:"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Glory to the Father, and to the Son, and to the Holy Spirit:"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "As it was in the beginning, is now, and will be for ever. Amen."
-          },
-          {
-            "type": "text_block",
-            "text": "The Officiant and People may join in saying \"Alleluia\" (except in Lent) as an alternative to the versicles \"Praise the Lord. The Lord's Name be praised."
-          },
-          {
-            "type": "text_block",
-            "text": "If an offering is to be received, it is appropriate to do so during the hymn or anthem following the Collects."
-          },
-          {
-            "type": "text_block",
-            "text": "A sermon may be preached after the lessons, after the hymn or anthem following the Collects, or after the conclusion of the Office."
-          }
-        ]
-      }
-    ]
-  }
+	"daily_morning_prayer": {
+		"title": "Daily Morning Prayer",
+		"slug": "daily_morning_prayer",
+		"pb_pages": [
+			11,
+			32
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "section_title",
+						"text": "daily morning prayer",
+						"size": "3xl"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant may begin Morning Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office (pages 27-29), is customary."
+					},
+					{
+						"type": "scripture",
+						"ref": "philippians 1:2",
+						"text": "Grace to you and peace from God our Father and the Lord Jesus Christ.\""
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "scripture",
+						"ref": "psalm 122:1",
+						"text": "I was glad when they said unto me, \"We will go into the house of the Lord.\""
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "scripture",
+						"ref": "psalm 19:14",
+						"text": "Let the words of my mouth and the meditation of my heart be always acceptable in your sight, O Lord, my rock and my redeemer."
+					},
+					{
+						"type": "section_title",
+						"text": "confession of sin",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant says to the People"
+					},
+					{
+						"type": "text_block",
+						"text": "Dearly beloved, the Scriptures teach us to acknowledge our many sins and offenses, not concealing them from our heavenly Father, but confessing them with humble and obedient hearts that we may obtain forgiveness by his infinite goodness and mercy. We ought at all times humbly to acknowledge our sins before Almighty God, but especially when we come together in his presence to give thanks for the great benefits we have received at his hands, to declare his most worthy praise, to hear his holy Word, and to ask, for ourselves and on behalf of others, those things which are necessary for our life and our salvation. Therefore, draw near with me to the throne of heavenly grace."
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "text_block",
+						"text": "Let us humbly confess our sins to Almighty God."
+					},
+					{
+						"type": "rubric",
+						"text": "Silence is kept. All kneeling, the Officiant and People say"
+					},
+					{
+						"type": "line",
+						"text": "Almighty and most merciful Father,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we have erred and strayed from your ways like lost sheep.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "We have followed too much the devices and desires",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "of our own hearts.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "We have offended against your holy laws.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "We have left undone those things which we ought to have done,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and we have done those things which we ought not",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "to have done;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and apart from your grace, there is no health in us.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "O Lord, have mercy upon us.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "Spare all those who confess their faults.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "Restore all those who are penitent, according to your promises",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "declared to all people in Christ Jesus our Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "And grant, O most merciful Father, for his sake,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "that we may now live a godly, righteous, and sober life,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "to the glory of your holy Name. __Amen.__",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "The Priest alone stands and says"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, the Father of our Lord Jesus Christ, desires not the death of sinners, but that they may turn from their wickedness and live. He has empowered and commanded his ministers to pronounce to his people, being penitent, the absolution and remission of their sins. He pardons and absolves all who truly repent and genuinely believe his holy Gospel. For this reason, we beseech him to grant us true repentance and his Holy Spirit, that our present deeds may please him, the rest of our lives may be pure and holy, and that at the last we may come to his eternal joy; through Jesus Christ our Lord. __Amen.__"
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "text_block",
+						"text": "The Almighty and merciful Lord grant you absolution and remission of all your sins, true repentance, amendment of life, and the grace and consolation of his Holy Spirit. __Amen.__"
+					},
+					{
+						"type": "rubric",
+						"text": "A Deacon or layperson remains kneeling and prays"
+					},
+					{
+						"type": "text_block",
+						"text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. __Amen.__"
+					},
+					{
+						"type": "section_title",
+						"text": "invitatory",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "All stand."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "O Lord, open our lips;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And our mouth shall proclaim your praise."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "O God, make speed to save us;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "O Lord, make haste to help us."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Glory be to the Father, and to the Son, and to the Holy Spirit;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "As it was in the beginning, is now, and ever shall be,world without end. Amen."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Praise the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "The Lord's Name be praised."
+					},
+					{
+						"type": "rubric",
+						"text": "Then follows the Venite. Alternatively, the Jubilate may be used."
+					},
+					{
+						"type": "rubric",
+						"text": "One of these antiphons, or one from the seasonal antiphons provided at the end of the Office (pages 29-30), may be sung or said before and after the Invitatory Psalm. antiphon:"
+					},
+					{
+						"type": "line",
+						"text": "The earth is the Lord’s for he made it: *"
+					},
+					{
+						"type": "line",
+						"text": "O come, let us adore him.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "line",
+						"text": "Worship the Lord in the beauty of holiness: *"
+					},
+					{
+						"type": "line",
+						"text": "O come, let us adore him.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "line",
+						"text": "The mercy of the Lord is everlasting: *"
+					},
+					{
+						"type": "line",
+						"text": "O come, let us adore him.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "venite"
+					},
+					{
+						"type": "section_title",
+						"text": "_O Come_",
+						"lowercase": true
+					},
+					{
+						"type": "line",
+						"text": "O come, let us sing unto the Lord; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "let us heartily rejoice in the strength of our salvation.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Let us come before his presence with thanksgiving *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and show ourselves glad in him with psalms.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For the Lord is a great God *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and a great King above all gods.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "In his hand are all the depths of the earth, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and the heights of the hills are his also.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The sea is his, for he made it, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and his hands prepared the dry land.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O come, let us worship and fall down, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and kneel before the Lord our Maker.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For he is our God, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and we are the people of his pasture,",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and the sheep of his hand.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "The following verses may be omitted, except in Lent."
+					},
+					{
+						"type": "line",
+						"text": "Today, if you will hear his voice, harden not your hearts *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "as in the provocation, and as in the day of temptation in",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "the wilderness,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "When your fathers tested me, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and put me to the proof, though they had seen my works.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Forty years long was I grieved with this generation and said, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "\"It is a people that err in their hearts,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "for they have not known my ways,\"",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Of whom I swore in my wrath *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "that they should not enter into my rest.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "ref",
+						"text": "psalm 95:1-7, 8-11"
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "section_title",
+						"text": "jubilate"
+					},
+					{
+						"type": "section_title",
+						"text": "_Be Joyful_",
+						"lowercase": true
+					},
+					{
+						"type": "line",
+						"text": "O be joyful in the Lord, all you lands; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "serve the Lord with gladness,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and come before his presence with a song.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Be assured that the Lord, he is God; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "it is he that has made us, and not we ourselves;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "we are his people, and the sheep of his pasture.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O go your way into his gates with thanksgiving,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and into his courts with praise; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "be thankful unto him, and speak good of his Name.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For the Lord is gracious, his mercy is everlasting, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and his truth endures from generation to generation.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "ref",
+						"text": "psalm 100"
+					},
+					{
+						"type": "rubric",
+						"text": "During the first week of Easter, the Pascha Nostrum, without antiphons, is used in place of the Invitatory Psalm, and it may be used throughout Eastertide."
+					},
+					{
+						"type": "section_title",
+						"text": "pascha nostrum"
+					},
+					{
+						"type": "section_title",
+						"text": "_Christ our Passover_",
+						"lowercase": true
+					},
+					{
+						"type": "line",
+						"text": "Alleluia. Christ our Passover has been sacrificed for us; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "therefore let us keep the feast,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Not with the old leaven, the leaven of malice and evil, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "but with the unleavened bread of sincerity and truth. Alleluia.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Christ being raised from the dead will never die again; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "death no longer has dominion over him.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The death that he died, he died to sin, once for all; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "but the life he lives, he lives to God.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "So also consider yourselves dead to sin, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and alive to God in Jesus Christ our Lord. Alleluia.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Christ has been raised from the dead, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "the firstfruits of those who have fallen asleep.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For since by a man came death, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "by a man has come also the resurrection of the dead.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For as in Adam all die, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "so also in Christ shall all be made alive. Alleluia.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "ref",
+						"text": "1 corinthians 5:7-8; romans 6:9-11; 1 corinthians 15:20-22"
+					},
+					{
+						"type": "rubric",
+						"text": "Then follows"
+					},
+					{
+						"type": "section_title",
+						"text": "the psalm or psalms appointed: the psalm or psalms appointed"
+					},
+					{
+						"type": "rubric",
+						"text": "At the end of the Psalms the Gloria Patri (Glory be...) is sung or said"
+					},
+					{
+						"type": "gloria"
+					},
+					{
+						"type": "section_title",
+						"text": "the lessons: the lessons"
+					},
+					{
+						"type": "rubric",
+						"text": "One or more Lessons, as appointed, are read, the Reader first saying"
+					},
+					{
+						"type": "line",
+						"text": "A Reading from _____________."
+					},
+					{
+						"type": "rubric",
+						"text": "A citation giving chapter and verse may be added."
+					},
+					{
+						"type": "rubric",
+						"text": "After each lesson the Reader may say"
+					},
+					{
+						"type": "versical",
+						"text": "The Word of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"type": "rubric",
+						"text": "Or the Reader may say"
+					},
+					{
+						"type": "versical",
+						"text": "Here ends the Reading."
+					},
+					{
+						"type": "rubric",
+						"text": "The following Canticles are normally sung or said after each of the lessons. The Officiant may also use a Canticle drawn from the Supplemental Canticles (pages 79-88) or an appropriate song of praise."
+					},
+					{
+						"type": "section_title",
+						"text": "te deum laudamus"
+					},
+					{
+						"type": "section_title",
+						"text": "_We Praise You, O God_",
+						"lowercase": true
+					},
+					{
+						"type": "line",
+						"text": "We praise you, O God; we acclaim you as Lord; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "all creation worships you, the Father everlasting.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "To you all angels, all the powers of heaven, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "the cherubim and seraphim, sing in endless praise:",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Holy, Holy, Holy, Lord God of power and might, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "heaven and earth are full of your glory.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The glorious company of apostles praise you. *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "The noble fellowship of prophets praise you.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The white-robed army of martyrs praise you. *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "Throughout the world the holy Church acclaims you:",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Father, of majesty unbounded,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "your true and only Son, worthy of all praise, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and the Holy Spirit, advocate and guide.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "You, Christ, are the king of glory, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "the eternal Son of the Father.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "When you took our flesh to set us free *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "you humbly chose the Virgin's womb.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "You overcame the sting of death *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and opened the kingdom of heaven to all believers.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "You are seated at God's right hand in glory. *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "We believe that you will come to be our judge.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Come then, Lord, and help your people, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "bought with the price of your own blood,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and bring us with your saints *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "to glory everlasting.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "The following verses may be omitted"
+					},
+					{
+						"type": "line",
+						"text": "Save your people, Lord, and bless your inheritance; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "govern and uphold them now and always.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Day by day we bless you; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we praise your Name for ever.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Keep us today, Lord, from all sin; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "have mercy on us, Lord, have mercy.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Lord, show us your love and mercy, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "for we have put our trust in you.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "In you, Lord, is our hope; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "let us never be put to shame.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "During Lent the Benedictus es, Domine usually replaces the Te Deum, and it may be used at other times."
+					},
+					{
+						"type": "section_title",
+						"text": "benedictuses, domine"
+					},
+					{
+						"type": "section_title",
+						"text": "_A Song of Praise_",
+						"lowercase": true
+					},
+					{
+						"type": "line",
+						"text": "Glory to you, Lord God of our fathers; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "you are worthy of praise; glory to you.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Glory to you for the radiance of your holy Name; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we will praise you and highly exalt you for ever.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Glory to you in the splendor of your temple; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "on the throne of your majesty, glory to you.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Glory to you, seated between the Cherubim; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we will praise you and highly exalt you for ever.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Glory to you, beholding the depths; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "in the high vault of heaven, glory to you.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Glory to you, Father, Son, and Holy Spirit; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we will praise you and highly exalt you for ever.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "ref",
+						"text": "song of the three young men, 29-34"
+					},
+					{
+						"type": "section_title",
+						"text": "benedictus"
+					},
+					{
+						"type": "section_title",
+						"text": "The Song of Zechariah: The Song of Zechariah",
+						"lowercase": true
+					},
+					{
+						"type": "line",
+						"text": "Blessed be the Lord, the God of Israel; *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "he has come to his people and set them free.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "He has raised up for us a mighty savior, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "born of the house of his servant David.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Through his holy prophets he promised of old",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "that he would save us from our enemies, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "from the hands of all who hate us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "He promised to show mercy to our fathers *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and to remember his holy covenant.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "This was the oath he swore to our father Abraham, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "to set us free from the hands of our enemies,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Free to worship him without fear, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "holy and righteous in his sight",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "all the days of our life.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "You, my child, shall be called the prophet of the Most High, *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "for you will go before the Lord to prepare his way,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "To give his people knowledge of salvation *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "by the forgiveness of their sins.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "In the tender compassion of our God *",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "the dawn from on high shall break upon us,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "To shine on those who dwell in darkness",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and in the shadow of death, *",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and to guide our feet into the way of peace.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "ref",
+						"text": "luke 1:68-79"
+					},
+					{
+						"type": "rubric",
+						"text": "Officiant and People together, all standing"
+					},
+					{
+						"type": "apostles_creed"
+					},
+					{
+						"type": "section_title",
+						"text": "The Prayers"
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Let us pray."
+					},
+					{
+						"type": "rubric",
+						"text": "The People kneel or stand."
+					},
+					{
+						"type": "kyrie"
+					},
+					{
+						"type": "rubric",
+						"text": "Officiant and People"
+					},
+					{
+						"type": "lords_prayer"
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "O Lord, show your mercy upon us;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And grant us your salvation."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "O Lord, guide those who govern us;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And lead us in the way of justice and truth."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Clothe your ministers with righteousness;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And let your people sing with joy."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "O Lord, save your people;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And bless your inheritance."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Give peace in our time, O Lord;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And defend us by your mighty power."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Let not the needy, O Lord, be forgotten;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Nor the hope of the poor be taken away."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Create in us clean hearts, O God;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And take not your Holy Spirit from us."
+					},
+					{
+						"type": "rubric",
+						"content": [
+							{
+								"type": "text",
+								"value": "The Officiant then prays one or more of the following Collects, always beginning with the Collect of the Day (usually the Collect of the Sunday or Principal Feast and of any of the weekdays following, or of the Holy Day being observed), found "
+							},
+							{
+								"type": "page_link",
+								"page": 598,
+								"text": "598-640"
+							},
+							{
+								"type": "text",
+								"value": ". It is traditional to pray the Collects for Peace and Grace daily. Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics."
+							}
+						]
+					},
+					{
+						"type": "section_title",
+						"text": "the collect of the day"
+					},
+					{
+						"type": "section_title",
+						"text": "_From the Collects of the Christian Year_",
+						"lowercase": true
+					},
+					{
+						"type": "section_title",
+						"text": "a collect for strength to await christ's return"
+					},
+					{
+						"type": "section_title",
+						"text": "_Sunday_",
+						"lowercase": true
+					},
+					{
+						"type": "text_block",
+						"text": "O God our King, by the resurrection of your Son Jesus Christ on the first day of the week, you conquered sin, put death to flight, and gave us the hope of everlasting life: Redeem all our days by this victory; forgive our sins, banish our fears, make us bold to praise you and to do your will; and steel us to wait for the consummation of your kingdom on the last great Day; through Jesus Christ our Lord."
+					},
+					{
+						"type": "section_title",
+						"text": "a collect for the renewal of life"
+					},
+					{
+						"type": "section_title",
+						"text": "_Monday_",
+						"lowercase": true
+					},
+					{
+						"type": "text_block",
+						"text": "O God, the King eternal, whose light divides the day from the night and turns the shadow of death into the morning: Drive far from us all wrong desires, incline our hearts to keep your law, and guide our feet into the way of peace; that, having done your will with cheerfulness during the day, we may, when night comes, rejoice to give you thanks; through Jesus Christ our Lord."
+					},
+					{
+						"type": "section_title",
+						"text": "a collect for peace"
+					},
+					{
+						"type": "section_title",
+						"text": "_Tuesday_",
+						"lowercase": true
+					},
+					{
+						"type": "text_block",
+						"text": "O God, the author of peace and lover of concord, to know you is eternal life and to serve you is perfect freedom: Defend us, your humble servants, in all assaults of our enemies; that we, surely trusting in your defense, may not fear the power of any adversaries, through the might of Jesus Christ our Lord."
+					},
+					{
+						"type": "section_title",
+						"text": "a collect for grace"
+					},
+					{
+						"type": "section_title",
+						"text": "_Wednesday_",
+						"lowercase": true
+					},
+					{
+						"type": "text_block",
+						"text": "O Lord, our heavenly Father, almighty and everlasting God, you have brought us safely to the beginning of this day: Defend us by your mighty power, that we may not fall into sin nor run into any danger; and that, guided by your Spirit, we may do what is righteous in your sight; through Jesus Christ our Lord."
+					},
+					{
+						"type": "section_title",
+						"text": "a collect for guidance"
+					},
+					{
+						"type": "section_title",
+						"text": "_Thursday_",
+						"lowercase": true
+					},
+					{
+						"type": "text_block",
+						"text": "Heavenly Father, in you we live and move and have our being: We humbly pray you so to guide and govern us by your Holy Spirit, that in all the cares and occupations of our life we may not forget you, but may remember that we are ever walking in your sight; through Jesus Christ our Lord."
+					},
+					{
+						"type": "section_title",
+						"text": "a collect for endurance"
+					},
+					{
+						"type": "section_title",
+						"text": "_Friday_",
+						"lowercase": true
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, whose most dear Son went not up to joy but first he suffered pain, and entered not into glory before he was crucified: Mercifully grant that we, walking in the way of the Cross, may find it none other than the way of life and peace; through Jesus Christ your Son our Lord."
+					},
+					{
+						"type": "section_title",
+						"text": "a collect for sabbath rest"
+					},
+					{
+						"type": "section_title",
+						"text": "_Saturday_",
+						"lowercase": true
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, who after the creation of the world rested from all your works and sanctified a day of rest for all your creatures: Grant that we, putting away all earthly anxieties, may be duly prepared for the service of your sanctuary, and that our rest here upon earth may be a preparation for the eternal rest promised to your people in heaven; through Jesus Christ our Lord."
+					},
+					{
+						"type": "rubric",
+						"text": "Unless the Great Litany or the Eucharist is to follow, one of the following prayers for mission is added. If the Great Litany is used, it follows here, or after a hymn or anthem, and concludes the Office."
+					},
+					{
+						"type": "section_title",
+						"text": "prayer for mission"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty and everlasting God, who alone works great marvels: Send down upon our clergy and the congregations committed to their charge the life-giving Spirit of your grace, shower them with the continual dew of your blessing, and ignite in them a zealous love of your Gospel; through Jesus Christ our Lord."
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "text_block",
+						"text": "O God, you have made of one blood all the peoples of the earth, and sent your blessed Son to preach peace to those who are far off and to those who are near: Grant that people everywhere may seek after you and find you; bring the nations into your fold; pour out your Spirit upon all flesh; and hasten the coming of your kingdom; through Jesus Christ our Lord."
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "text_block",
+						"text": "Lord Jesus Christ, you stretched out your arms of love on the hard wood of the Cross that everyone might come within the reach of your saving embrace: So clothe us in your Spirit that we, reaching forth our hands in love, may bring those who do not know you to the knowledge and love of you; for the honor of your Name."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant may invite the People to offer intercessions and thanksgivings."
+					},
+					{
+						"type": "rubric",
+						"text": "A hymn or anthem may be sung."
+					},
+					{
+						"type": "rubric",
+						"text": "Before the close of the Office one or both of the following prayers may be used."
+					},
+					{
+						"type": "section_title",
+						"text": "the general thanksgiving"
+					},
+					{
+						"type": "rubric",
+						"text": "Officiant and People"
+					},
+					{
+						"type": "line",
+						"text": "Almighty God, Father of all mercies,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we your unworthy servants give you humble thanks",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "for all your goodness and loving-kindness",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "to us and to all whom you have made.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "We bless you for our creation, preservation,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and all the blessings of this life;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "but above all for your immeasurable love",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "in the redemption of the world by our Lord Jesus Christ;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "for the means of grace, and for the hope of glory.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "And, we pray, give us such an awareness of your mercies,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "that with truly thankful hearts",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "we may show forth your praise,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "not only with our lips, but in our lives,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "by giving up our selves to your service,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and by walking before you",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "in holiness and righteousness all our days;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Through Jesus Christ our Lord,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "to whom, with you and the Holy Spirit,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "be honor and glory throughout all ages. Amen.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "canticle",
+						"name": "chrysostom"
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Let us bless the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"type": "rubric",
+						"text": "From Easter Day through the Day of Pentecost, \"Alleluia, alleluia\" may be added to the preceding versicle and response."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant says one of these concluding sentences (and the People may be invited to join)"
+					},
+					{
+						"type": "scripture",
+						"ref": "2 corinthians 13:14",
+						"text": "The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore."
+					},
+					{
+						"type": "scripture",
+						"ref": "romans 15:13",
+						"text": "May the God of hope fill us with all joy and peace in believing through the power of the Holy Spirit."
+					},
+					{
+						"type": "scripture",
+						"ref": "ephesians 3:20-21",
+						"text": "Glory to God whose power, working in us, can do infinitely more than we can ask or imagine: Glory to him from generation to generation in the Church, and in Christ Jesus for ever and ever."
+					},
+					{
+						"type": "section_title",
+						"text": "opening sentences of scripture"
+					},
+					{
+						"type": "section_title",
+						"text": "advent"
+					},
+					{
+						"type": "scripture",
+						"ref": "isaiah 40:3",
+						"text": "In the wilderness prepare the way of the Lord; make straight in the desert a highway for our God."
+					},
+					{
+						"type": "section_title",
+						"text": "christmas"
+					},
+					{
+						"type": "scripture",
+						"ref": "luke 2:10-11",
+						"text": "Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord."
+					},
+					{
+						"type": "section_title",
+						"text": "epiphany"
+					},
+					{
+						"type": "scripture",
+						"ref": "malachi 1:11",
+						"text": "From the rising of the sun to its setting my name will be great among the nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the nations, says the Lord of hosts."
+					},
+					{
+						"type": "section_title",
+						"text": "lent _and_ other penitential occasions"
+					},
+					{
+						"type": "scripture",
+						"ref": "matthew 3:2",
+						"text": "Repent, for the kingdom of heaven is at hand."
+					},
+					{
+						"type": "line",
+						"text": "Turn your face from my sins,",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and blot out all my misdeeds.",
+						"indent": true
+					},
+					{
+						"type": "ref",
+						"text": "psalm 51:9"
+					},
+					{
+						"type": "scripture",
+						"ref": "mark 8:34",
+						"text": "If anyone would come after me, let him deny himself and take up his cross and follow me."
+					},
+					{
+						"type": "section_title",
+						"text": "holy week"
+					},
+					{
+						"type": "scripture",
+						"ref": "lamentations 1:12",
+						"text": "Is it nothing to you, all you who pass by? Look and see if there is any sorrow like my sorrow, which was brought upon me, which the Lord inflicted on the day of his fierce anger."
+					},
+					{
+						"type": "section_title",
+						"text": "easter"
+					},
+					{
+						"type": "scripture",
+						"ref": "colossians 3:1",
+						"text": "If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God."
+					},
+					{
+						"type": "section_title",
+						"text": "ascension: ascension"
+					},
+					{
+						"type": "scripture",
+						"ref": "hebrews 4:14, 16",
+						"text": "Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession. Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need."
+					},
+					{
+						"type": "section_title",
+						"text": "pentecost: pentecost"
+					},
+					{
+						"type": "scripture",
+						"ref": "acts 1:8",
+						"text": "You will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth."
+					},
+					{
+						"type": "section_title",
+						"text": "trinity sunday"
+					},
+					{
+						"type": "scripture",
+						"ref": "revelation 4:8",
+						"text": "Holy, holy, holy, is the Lord God Almighty, who was and is and is to come!"
+					},
+					{
+						"type": "section_title",
+						"text": "days of thanksgiving: days of thanksgiving"
+					},
+					{
+						"type": "scripture",
+						"ref": "proverbs 3:9-10",
+						"text": "Honor the Lord with your wealth and with the firstfruits of all your produce; then your barns will be filled with plenty, and your vats will be bursting with wine."
+					},
+					{
+						"type": "section_title",
+						"text": "at any time"
+					},
+					{
+						"type": "scripture",
+						"ref": "habakkuk 2:20",
+						"text": "The Lord is in his holy temple; let all the earth keep silence before him."
+					},
+					{
+						"type": "scripture",
+						"ref": "psalm 43:3",
+						"text": "O send out your light and your truth, that they may lead me, and bring me to your holy hill, and to your dwelling."
+					},
+					{
+						"type": "scripture",
+						"ref": "isaiah 57:15",
+						"text": "Thus says the One who is high and lifted up, who inhabits eternity, whose name is Holy: \"I dwell in the high and holy place, and also with him who is of a contrite and lowly spirit, to revive the spirit of the lowly, and to revive the heart of the contrite.\""
+					},
+					{
+						"type": "scripture",
+						"ref": "john 4:23",
+						"text": "The hour is coming, and is now here, when the true worshipers will worship the Father in spirit and truth, for the Father is seeking such people to worship him."
+					},
+					{
+						"type": "section_title",
+						"text": "seasonal antiphons"
+					},
+					{
+						"type": "section_title",
+						"text": "advent"
+					},
+					{
+						"type": "line",
+						"text": "Our King and Savior now draws near: * O come, let us adore him."
+					},
+					{
+						"type": "section_title",
+						"text": "christmas"
+					},
+					{
+						"type": "line",
+						"text": "Alleluia, to us a child is born: *"
+					},
+					{
+						"type": "line",
+						"text": "O come, let us adore him. Alleluia.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "epiphany, and the feast of the transfiguration"
+					},
+					{
+						"type": "line",
+						"text": "The Lord has shown forth his glory: *"
+					},
+					{
+						"type": "line",
+						"text": "O come, let us adore him.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "presentation and annunciation"
+					},
+					{
+						"type": "line",
+						"text": "The Word was made flesh and dwelt among us: *"
+					},
+					{
+						"type": "line",
+						"text": "O come, let us adore him.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "lent"
+					},
+					{
+						"type": "line",
+						"text": "The Lord is full of compassion and mercy: *"
+					},
+					{
+						"type": "line",
+						"text": "O come, let us adore him.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "easter until ascension"
+					},
+					{
+						"type": "line",
+						"text": "Alleluia. The Lord is risen indeed: *"
+					},
+					{
+						"type": "line",
+						"text": "O come, let us adore him. Alleluia.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "ascension until pentecost"
+					},
+					{
+						"type": "line",
+						"text": "Alleluia. Christ the Lord has ascended into heaven: *"
+					},
+					{
+						"type": "line",
+						"text": "O come, let us adore him. Alleluia.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "day of pentecost"
+					},
+					{
+						"type": "line",
+						"text": "Alleluia. The Spirit of the Lord renews the face of the earth: *"
+					},
+					{
+						"type": "line",
+						"text": "O come, let us adore him. Alleluia.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "trinity sunday"
+					},
+					{
+						"type": "line",
+						"text": "Father, Son, and Holy Spirit, one God: *"
+					},
+					{
+						"type": "line",
+						"text": "O come, let us adore him.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "all saints' and other major saints' days"
+					},
+					{
+						"type": "line",
+						"text": "The Lord is glorious in his saints: *"
+					},
+					{
+						"type": "line",
+						"text": "O come, let us adore him.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "additional directions"
+					},
+					{
+						"type": "text_block",
+						"text": "The Confession and Apostles' Creed may be omitted, provided each is said at least once during the course of the day."
+					},
+					{
+						"type": "text_block",
+						"text": "The Gloria Patri (Glory be...) in the opening versicles may be said in unison. The following form of the Gloria Patri may alternatively be used:"
+					},
+					{
+						"type": "line",
+						"text": "Glory to the Father, and to the Son, and to the Holy Spirit:",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "As it was in the beginning, is now, and will be for ever. Amen.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "The Officiant and People may join in saying \"Alleluia\" (except in Lent) as an alternative to the versicles \"Praise the Lord. The Lord's Name be praised."
+					},
+					{
+						"type": "text_block",
+						"text": "If an offering is to be received, it is appropriate to do so during the hymn or anthem following the Collects."
+					},
+					{
+						"type": "text_block",
+						"text": "A sermon may be preached after the lessons, after the hymn or anthem following the Collects, or after the conclusion of the Office."
+					}
+				],
+				"pb_page_start": 11,
+				"pb_page_end": 32
+			}
+		]
+	}
 }

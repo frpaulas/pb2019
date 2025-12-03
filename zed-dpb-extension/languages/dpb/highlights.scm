@@ -1,5 +1,8 @@
 ; DPB (Digital Prayer Book) Syntax Highlighting
 
+; Comments
+(comment) @comment
+
 ; Keywords - Command prefixes
 (page_range "pg" @keyword)
 (title_page "tp" @keyword)
@@ -12,35 +15,32 @@
 (page_break "pb" @keyword)
 (line "l" @keyword)
 (button "button" @keyword)
-(lords_prayer "lords_prayer" @function)
+(lords_prayer "lords_prayer" @keyword)
+
+; Modifiers (b/i/o flags)
+(modifiers) @attribute
+
+; Level indicators (1/2/3 for section titles)
+(level) @constant.numeric
+
+; Numbers (page numbers, page ranges)
+(range) @constant.numeric
+(page_number) @constant.numeric
+
+; Speaker labels in versicals
+(versical
+  (speaker) @label
+  (#match? @label "^(people|celebrant|minister|all|priest|bishop)$"))
+
+; Citations in references
+(citation) @string.special
+
+; Button links
+(button
+  (link) @markup.link)
+
+; Content text
+(content) @string
 
 ; Punctuation
 ":" @punctuation.delimiter
-
-; Comments
-(comment) @comment
-
-; Page numbers
-(page_range) @number
-(page_break) @number
-
-; Titles and headings
-(title_page) @title
-(section_title) @title
-
-; Text content
-(text_block) @string
-(line) @string
-
-; Rubrics (liturgical instructions) - special emphasis
-(rubric) @emphasis
-
-; References (biblical)
-(reference) @link
-(reference_plus) @link
-
-; Versicals (call and response)
-(versical) @string
-
-; Buttons/Links
-(button) @function.method

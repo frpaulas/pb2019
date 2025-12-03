@@ -4,13 +4,6 @@ path_suffixes = ["dpb"]
 line_comments = ["# "]
 block_comment = ["<!-- ", " -->"]
 
-[brackets]
-"(" = ")"
-"{" = "}"
-"[" = "]"
-"<" = ">"
-"\"" = "\""
-
 [auto_pairs]
 "(" = ")"
 "{" = "}"

@@ -59,15 +59,15 @@
       "required": false,
       "types": [
         {
-          "type": "blank_line",
-          "named": true
-        },
-        {
           "type": "button",
           "named": true
         },
         {
           "type": "comment",
+          "named": true
+        },
+        {
+          "type": "continuation_line",
           "named": true
         },
         {
@@ -120,7 +120,22 @@
   {
     "type": "text_block",
     "named": true,
-    "fields": {}
+    "fields": {
+      "command": {
+        "multiple": false,
+        "required": true,
+        "types": [
+          {
+            "type": "bt",
+            "named": false
+          },
+          {
+            "type": "tb",
+            "named": false
+          }
+        ]
+      }
+    }
   },
   {
     "type": "title_page",
@@ -141,16 +156,16 @@
     "named": false
   },
   {
-    "type": "blank_line",
-    "named": true
-  },
-  {
     "type": "bt",
     "named": false
   },
   {
     "type": "button",
     "named": false
+  },
+  {
+    "type": "continuation_line",
+    "named": true
   },
   {
     "type": "l",

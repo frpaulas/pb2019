@@ -1,8 +1,10 @@
 module.exports = grammar({
 	name: 'dpb',
 
+	extras: ($) => [/[ \t]/],
+
 	rules: {
-		source_file: ($) => repeat($._line),
+		source_file: ($) => repeat(choice(seq($._line, '\n'), '\n')),
 
 		_line: ($) =>
 			choice(
@@ -19,35 +21,56 @@ module.exports = grammar({
 				$.line,
 				$.button,
 				$.lords_prayer,
-				$.blank_line
+				prec(-1, $.continuation_line)
 			),
 
-		comment: ($) => seq(/\s*#/, /.*/, '\n'),
+		// Continuation line - matches lines that don't look like commands
+		// Commands have specific prefixes followed by colon
+		// This matches any line that doesn't start with a command pattern
+		continuation_line: ($) => /[^ptrsvlb#\n].*|[ptrsvlb][^ptrsvlb:\n].*/,
 
-		page_range: ($) => seq('pg', ':', /\d+(-\d+)?/, '\n'),
+		comment: ($) => seq(/\s*#/, /.*/),
 
-		title_page: ($) => seq('tp', ':', /.+/, '\n'),
+		page_range: ($) => seq('pg', ':', field('range', /\d+(-\d+)?/)),
 
-		section_title: ($) => seq('st', optional(/:[123]/), optional(/(:?[bio]:*)/), ':', /.+/, '\n'),
+		title_page: ($) => seq('tp', ':', field('content', /.+/)),
 
-		text_block: ($) => seq(choice('tb', 'bt'), optional(/:[bio]*/), ':', /.*/, '\n'),
+		section_title: ($) =>
+			seq(
+				'st',
+				optional(seq(':', field('level', /[123]/))),
+				optional(seq(':', field('modifiers', /[bio]+/))),
+				':',
+				field('content', /.+/)
+			),
 
-		rubric: ($) => seq('r', optional(/:[bio]*/), ':', /.*/, '\n'),
+		text_block: ($) =>
+			seq(
+				field('command', choice('tb', 'bt')),
+				optional(seq(':', field('modifiers', /[bio]+/))),
+				':',
+				field('content', /.*/)
+			),
 
-		reference: ($) => seq('ref', ':', /.+/, '\n'),
+		rubric: ($) =>
+			seq('r', optional(seq(':', field('modifiers', /[bio]+/))), ':', field('content', /.*/)),
 
-		reference_plus: ($) => seq('ref+', ':', /[^:]+/, ':', /.+/, '\n'),
+		reference: ($) => seq('ref', ':', field('citation', /.+/)),
 
-		versical: ($) => seq('v', ':', optional(/[^:]*/), ':', /.*/, '\n'),
+		reference_plus: ($) =>
+			seq('ref+', ':', field('citation', /[^:]+/), ':', field('content', /.+/)),
 
-		page_break: ($) => seq('pb', ':', /\d+/, '\n'),
+		versical: ($) =>
+			seq('v', ':', field('speaker', optional(/[^:]*/)), ':', field('content', /.*/)),
 
-		line: ($) => seq('l', optional(/:[bio]*/), ':', /.*/, '\n'),
+		page_break: ($) => seq('pb', ':', field('page_number', /\d+/)),
 
-		button: ($) => seq('button', ':', optional(/[^:]*/), ':', /.*/, '\n'),
+		line: ($) =>
+			seq('l', optional(seq(':', field('modifiers', /[bio]+/))), ':', field('content', /.*/)),
 
-		lords_prayer: ($) => seq('lords_prayer', ':', '\n'),
+		button: ($) =>
+			seq('button', ':', field('link', optional(/[^:]*/)), ':', field('content', /.*/)),
 
-		blank_line: ($) => /\s*\n/
+		lords_prayer: ($) => seq('lords_prayer', ':')
 	}
 });

@@ -19,6 +19,52 @@
 	import IntentionallyBlank from '$lib/page_helpers/intentionally_blank.svelte';
 	import SignatureBlock from '$lib/page_helpers/signature_block.svelte';
 	import SectionPage from '$lib/page_helpers/section_page.svelte';
+	import ShowPsalm from '$lib/page_helpers/show_psalm.svelte';
+
+	// Import all canticles
+	import AgainstPerilsEp from '$lib/canticle/against_perils_ep.svelte';
+	import BenediciteOnmiaOperaDomini from '$lib/canticle/benedicite_onmia_opera_domini.svelte';
+	import CantateDomino from '$lib/canticle/cantate_domino.svelte';
+	import CantemusDomino from '$lib/canticle/cantemus_domino.svelte';
+	import DeusMisereatur from '$lib/canticle/deus_misereatur.svelte';
+	import DignuEs from '$lib/canticle/dignu_es.svelte';
+	import EcceDeus from '$lib/canticle/ecce_deus.svelte';
+	import EveOfWorshipEp from '$lib/canticle/eve_of_worship_ep.svelte';
+	import FaithEp from '$lib/canticle/faith_ep.svelte';
+	import KyriePantokrator from '$lib/canticle/kyrie_pantokrator.svelte';
+	import MagnaEtMirabilia from '$lib/canticle/magna_et_mirabilia.svelte';
+	import NuncDimittis from '$lib/canticle/nunc_dimittis.svelte';
+	import PeaceEp from '$lib/canticle/peace_ep.svelte';
+	import PhosHilaron from '$lib/canticle/phos_hilaron.svelte';
+	import PresenceChristEp from '$lib/canticle/presence_christ_ep.svelte';
+	import ProtectionEp from '$lib/canticle/protection_ep.svelte';
+	import QuaeriteDominum from '$lib/canticle/quaerite_dominum.svelte';
+	import ResurrectionHopeEp from '$lib/canticle/resurrection_hope_ep.svelte';
+	import SurgeIlluminare from '$lib/canticle/surge_illuminare.svelte';
+
+	// Map canticle names to components
+	const canticleMap = {
+		against_perils_ep: AgainstPerilsEp,
+		benedicite_onmia_opera_domini: BenediciteOnmiaOperaDomini,
+		cantate_domino: CantateDomino,
+		cantemus_domino: CantemusDomino,
+		chrysostom: Chrysostom,
+		deus_misereatur: DeusMisereatur,
+		dignu_es: DignuEs,
+		ecce_deus: EcceDeus,
+		eve_of_worship_ep: EveOfWorshipEp,
+		faith_ep: FaithEp,
+		kyrie_pantokrator: KyriePantokrator,
+		magna_et_mirabilia: MagnaEtMirabilia,
+		nunc_dimittis: NuncDimittis,
+		peace_ep: PeaceEp,
+		phos_hilaron: PhosHilaron,
+		presence_christ_ep: PresenceChristEp,
+		protection_ep: ProtectionEp,
+		quaerite_dominum: QuaeriteDominum,
+		resurrection_hope_ep: ResurrectionHopeEp,
+		surge_illuminare: SurgeIlluminare
+	};
 
 	let { serviceData } = $props();
 </script>
@@ -29,10 +75,11 @@
 			{#each section.content as block}
 				{#if block.type === 'section_title'}
 					<SectionTitle
-						size={block.size || 'text-l'}
+						size={block.size ? `text-${block.size}` : 'text-base'}
 						fancy={block.fancy || false}
 						latin_size={block.latin_size || false}
 						fancyOf={block.fancyOf || false}
+						lowercase={block.lowercase || false}
 					>
 						{block.text}
 					</SectionTitle>
@@ -44,7 +91,7 @@
 							Amen.{/if}
 					</Scripture>
 				{:else if block.type === 'text_block'}
-					<TextBlock
+					<TextBlock bold={block.bold || false}
 						>{block.text}{#if block.amen}
 							Amen.{/if}</TextBlock
 					>
@@ -88,6 +135,15 @@
 					/>
 				{:else if block.type === 'section_page'}
 					<SectionPage text={block.text} />
+				{:else if block.type === 'show_psalm'}
+					<ShowPsalm ps={block.ps} from={block.from} to={block.to} bold={block.bold || false} />
+				{:else if block.type === 'canticle'}
+					{#if canticleMap[block.name]}
+						{@const CanticleComponent = canticleMap[block.name]}
+						<CanticleComponent />
+					{:else}
+						<p class="text-red-500">Unknown canticle: {block.name}</p>
+					{/if}
 				{/if}
 			{/each}
 		</section>

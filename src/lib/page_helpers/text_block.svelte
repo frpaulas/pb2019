@@ -2,9 +2,11 @@
 	import { parseMarkdown } from '$lib/utils/parseMarkdown.js';
 	import { onMount } from 'svelte';
 
-	let { optional = false, indent = false, children } = $props();
+	let { optional = false, indent = false, bold = false, children } = $props();
 	let this_class =
-		'mb-4 ' + (indent ? ' pl-4 ' : optional ? 'border-l-2 border-gray-900 pl-4' : '');
+		'mb-4 ' +
+		(bold ? 'font-bold ' : '') +
+		(indent ? ' pl-4 ' : optional ? 'border-l-2 border-gray-900 pl-4' : '');
 
 	// For slot content, we need to extract and parse it
 	let slotContentElement = $state();

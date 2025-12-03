@@ -27,7 +27,8 @@ class RawToJsonConverter {
 		const modifiers = {
 			bold: false,
 			optional: false,
-			indent: false
+			indent: false,
+			lowercase: false
 		};
 
 		for (let i = 1; i < parts.length; i++) {
@@ -35,6 +36,7 @@ class RawToJsonConverter {
 			if (mod === 'b') modifiers.bold = true;
 			if (mod === 'o') modifiers.optional = true;
 			if (mod === 'i') modifiers.indent = true;
+			if (mod === 'lc') modifiers.lowercase = true;
 		}
 
 		return modifiers;
@@ -99,36 +101,66 @@ class RawToJsonConverter {
 		let i = 0;
 
 		while (i < lines.length) {
-			const line = lines[i].trim();
+			let line = lines[i].trim();
 			const lineNum = i + 1;
 
-			// Skip empty lines and comments
-			if (!line || line.startsWith('#')) {
+			// Skip empty lines and comments (# or //)
+			if (!line || line.startsWith('#') || line.startsWith('//')) {
 				i++;
 				continue;
 			}
 
+			// Strip inline comments (everything after //)
+			const commentIndex = line.indexOf('//');
+			if (commentIndex > -1) {
+				line = line.substring(0, commentIndex).trim();
+				// If nothing left after removing comment, skip the line
+				if (!line) {
+					i++;
+					continue;
+				}
+			}
+
+			// Find where the content starts (after type and modifiers/parameters)
+			// For types like st:3xl: or v:officiant: we need to find the right colon
+			const allParts = line.split(':');
+			const type = allParts[0];
+
+			// For most types, content starts after second colon
+			// Special handling for types with parameters
+			let parts, afterFirstColon;
 			const colonIndex = line.indexOf(':');
+
 			if (colonIndex === -1) {
 				console.warn(`Warning line ${lineNum}: Missing colon, skipping`);
 				i++;
 				continue;
 			}
 
-			const beforeColon = line.substring(0, colonIndex);
-			const parts = beforeColon.split(':');
-			const type = parts[0];
-			const afterColon = line.substring(colonIndex + 1);
+			afterFirstColon = line.substring(colonIndex + 1);
+			parts = allParts;
 
 			// For multi-line types (tb, r, bt), collect all following lines until next type
 			const multiLineTypes = ['tb', 'r', 'bt'];
 			if (multiLineTypes.includes(type)) {
-				const textLines = [afterColon];
+				const textLines = [afterFirstColon];
 				let j = i + 1;
 
 				// Collect continuation lines
 				while (j < lines.length) {
-					const nextLine = lines[j].trim();
+					let nextLine = lines[j].trim();
+
+					// Skip comment lines
+					if (nextLine.startsWith('//') || nextLine.startsWith('#')) {
+						j++;
+						continue;
+					}
+
+					// Strip inline comments
+					const commentIdx = nextLine.indexOf('//');
+					if (commentIdx > -1) {
+						nextLine = nextLine.substring(0, commentIdx).trim();
+					}
 
 					// Stop if we hit an empty line or a new type marker
 					if (!nextLine) {
@@ -154,7 +186,9 @@ class RawToJsonConverter {
 							'l',
 							'button',
 							'bt',
-							'lords_prayer'
+							'use',
+							'lords_prayer',
+							'scripture'
 						];
 						if (validTypes.includes(nextType)) {
 							break;
@@ -178,7 +212,7 @@ class RawToJsonConverter {
 				tokens.push({
 					type,
 					parts,
-					content: afterColon,
+					content: afterFirstColon,
 					lineNum
 				});
 				i++;
@@ -226,8 +260,14 @@ class RawToJsonConverter {
 			case 'button':
 				return this.handleButton(parts, content);
 
+			case 'use':
+				return this.handleUse(parts, content);
+
 			case 'lords_prayer':
 				return this.handleLordsPrayer(parts, content);
+
+			case 'scripture':
+				return this.handleScripture(parts, content);
 
 			default:
 				console.warn(`Warning line ${lineNum}: Unknown type "${type}"`);
@@ -261,33 +301,87 @@ class RawToJsonConverter {
 
 	handleSectionTitle(parts, content) {
 		const modifiers = this.parseModifiers(parts);
-		const size = parts[1] && /^[123]$/.test(parts[1]) ? parts[1] : null;
+		// Size can be a number (1, 2, 3, 4) or Tailwind size (xl, 2xl, 3xl, 4xl, etc.)
+		// Check if parts[1] is a valid size (not a modifier and matches size pattern)
+		const sizePattern = /^[1-9]$|^\d*xl$/;
+		const potentialSize = parts[1] ? parts[1].trim() : '';
+		const isValidSize =
+			potentialSize &&
+			!['b', 'o', 'i', 'lc'].includes(potentialSize) &&
+			sizePattern.test(potentialSize);
+		const size = isValidSize ? potentialSize : null;
 
-		// Get the actual content (after size if present)
-		let text;
-		if (size) {
-			const secondColon = content.indexOf(':');
-			text = secondColon > -1 ? content.substring(secondColon + 1).trim() : content.trim();
-		} else {
-			text = content.trim();
+		// Get the actual content (after size and/or modifiers)
+		let text = content;
+
+		// Count how many modifiers we need to skip
+		let skipCount = 0;
+		for (let i = 1; i < parts.length; i++) {
+			if (['b', 'o', 'i', 'lc'].includes(parts[i]) || (size && i === 1)) {
+				skipCount++;
+			} else {
+				break;
+			}
 		}
+
+		// Skip past modifiers/size by finding the nth colon
+		for (let i = 0; i < skipCount; i++) {
+			const colonIndex = text.indexOf(':');
+			if (colonIndex > -1) {
+				text = text.substring(colonIndex + 1);
+			}
+		}
+
+		text = text.trim();
 
 		const item = {
 			type: 'section_title',
 			text: text
 		};
 
-		if (size) item.size = size;
+		// Convert numeric sizes (1, 2, 3, 4) to Tailwind format (xl, 2xl, 3xl, 4xl)
+		if (size) {
+			const numSize = parseInt(size);
+			if (!isNaN(numSize)) {
+				item.size = numSize === 1 ? 'xl' : `${numSize}xl`;
+			} else {
+				item.size = size;
+			}
+		}
+
 		if (modifiers.bold) item.bold = true;
 		if (modifiers.optional) item.optional = true;
 		if (modifiers.indent) item.indent = true;
+		if (modifiers.lowercase) item.lowercase = true;
 
 		return item;
 	}
 
-	handleTextBlock(parts, content) {
+	handleTextBlock(parts, afterFirstColon) {
 		const modifiers = this.parseModifiers(parts);
-		const text = content.trim();
+
+		// Strip modifiers from content
+		let text = afterFirstColon;
+
+		// Count how many modifiers we have
+		let modCount = 0;
+		for (let i = 1; i < parts.length; i++) {
+			if (['b', 'o', 'i', 'lc'].includes(parts[i])) {
+				modCount++;
+			} else {
+				break;
+			}
+		}
+
+		// Skip past the modifiers by finding the nth colon
+		for (let i = 0; i < modCount; i++) {
+			const colonIndex = text.indexOf(':');
+			if (colonIndex > -1) {
+				text = text.substring(colonIndex + 1);
+			}
+		}
+
+		text = text.trim();
 
 		// Parse for page links
 		const contentArray = this.parsePageLinks(text);
@@ -393,19 +487,128 @@ class RawToJsonConverter {
 		return item;
 	}
 
-	handleVersical(parts, afterFirstColon) {
-		// v::text (no speaker)
-		// v:b: (bold, no speaker)
-		// v:speaker:text
+	handleScripture(parts, afterFirstColon) {
+		// scripture:reference:: text
+		// Example: scripture:john 12:31-32:: Jesus said...
+		// Note: Using :: as delimiter to allow : in scripture references
 		const modifiers = this.parseModifiers(parts);
-		const speaker = parts[1] || '';
+		const doubleColonIndex = afterFirstColon.indexOf('::');
 
-		// Find the content after speaker
-		let text;
-		if (speaker) {
+		let reference = '';
+		let text = '';
+
+		if (doubleColonIndex > -1) {
+			reference = afterFirstColon.substring(0, doubleColonIndex).trim();
+			text = afterFirstColon.substring(doubleColonIndex + 2).trim();
+		} else {
+			reference = afterFirstColon.trim();
+		}
+
+		const item = {
+			type: 'scripture',
+			ref: reference
+		};
+
+		if (text) {
+			item.text = text;
+		}
+
+		if (modifiers.bold) item.bold = true;
+		if (modifiers.optional) item.optional = true;
+		if (modifiers.indent) item.indent = true;
+
+		return item;
+	}
+
+	handleUse(parts, afterFirstColon) {
+		// use:component_name: or use:component_name:param:
+		// Special handling for use:psalm:number:start:end:
+		let componentName = parts[1] || afterFirstColon.trim();
+
+		// Strip trailing colon if present
+		if (componentName && componentName.endsWith(':')) {
+			componentName = componentName.slice(0, -1);
+		}
+
+		if (!componentName) {
+			console.warn('Warning: use: requires component name');
+			return null;
+		}
+
+		// Handle psalm with parameters: use:psalm:119:105:112:b
+		// Format: use:psalm:number:start:end:b (b is optional bold modifier)
+		if (componentName === 'psalm') {
+			const psalmNumber = parseInt(parts[2]);
+			const startVerse = parts[3] ? parseInt(parts[3]) : 1;
+			const endVerse = parts[4] ? parseInt(parts[4]) : undefined;
+			const bold = parts[5] === 'b';
+
+			const item = {
+				type: 'show_psalm',
+				ps: psalmNumber
+			};
+
+			// Add from/to if not default
+			if (startVerse !== 1) {
+				item.from = startVerse;
+			}
+			if (endVerse !== undefined) {
+				item.to = endVerse;
+			}
+			if (bold) {
+				item.bold = true;
+			}
+
+			return item;
+		}
+
+		// Handle canticle: use:canticle:phos_hilaron
+		// Format: use:canticle:name
+		if (componentName === 'canticle') {
+			const canticleName = parts[2];
+
+			if (!canticleName) {
+				console.warn('Warning: use:canticle: requires canticle name');
+				return null;
+			}
+
+			return {
+				type: 'canticle',
+				name: canticleName
+			};
+		}
+
+		// Default: return component type
+		const item = {
+			type: componentName
+		};
+
+		return item;
+	}
+
+	handleVersical(parts, afterFirstColon) {
+		// v: text (no speaker)
+		// v:b: text (bold, no speaker)
+		// v:officiant: text
+		// v:people: text
+		const modifiers = this.parseModifiers(parts);
+		const validSpeakers = ['officiant', 'people', 'b', 'o', 'i'];
+
+		// Check if parts[1] is a valid speaker/modifier or just text
+		const potentialSpeaker = parts[1] || '';
+		const isSpeaker = validSpeakers.includes(potentialSpeaker);
+
+		let speaker = '';
+		let text = '';
+
+		if (isSpeaker) {
+			// We have a speaker or modifier
+			speaker = potentialSpeaker;
+			// Text comes after the second colon
 			const secondColon = afterFirstColon.indexOf(':');
 			text = secondColon > -1 ? afterFirstColon.substring(secondColon + 1).trim() : '';
 		} else {
+			// No speaker, everything after first colon is text
 			text = afterFirstColon.trim();
 		}
 
@@ -413,9 +616,10 @@ class RawToJsonConverter {
 			type: 'versical'
 		};
 
-		// Add who if speaker is present and not 'b'
-		if (speaker && speaker !== 'b') {
-			item.who = speaker;
+		// Add speaker as boolean property (matches actual JSON format)
+		// e.g., v:officiant:text becomes {"officiant": true}
+		if (speaker && speaker !== 'b' && !['o', 'i'].includes(speaker)) {
+			item[speaker] = true;
 		}
 
 		// Add text if present
@@ -443,11 +647,35 @@ class RawToJsonConverter {
 		};
 	}
 
-	handleLine(parts, content) {
+	handleLine(parts, afterFirstColon) {
 		const modifiers = this.parseModifiers(parts);
+
+		// Find the text after modifiers
+		// For l:b:i:text, parts = ['l', 'b', 'i', 'text', ...]
+		// We need to skip type (parts[0]) and all modifiers
+		let text = afterFirstColon;
+
+		// Count how many modifiers we have
+		let modCount = 0;
+		for (let i = 1; i < parts.length; i++) {
+			if (['b', 'o', 'i'].includes(parts[i])) {
+				modCount++;
+			} else {
+				break;
+			}
+		}
+
+		// Skip past the modifiers by finding the nth colon
+		for (let i = 0; i < modCount; i++) {
+			const colonIndex = text.indexOf(':');
+			if (colonIndex > -1) {
+				text = text.substring(colonIndex + 1);
+			}
+		}
+
 		const item = {
 			type: 'line',
-			text: content.trim()
+			text: text.trim()
 		};
 
 		if (modifiers.bold) item.bold = true;

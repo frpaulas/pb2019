@@ -1,23 +1,23 @@
 {
 	"family_prayer": {
 		"title": "Family Prayer",
-		"slug": "family-prayer",
-		"pb_pages": [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78],
+		"slug": "family_prayer",
+		"pb_pages": [
+			67,
+			78
+		],
 		"sections": [
 			{
-				"id": "morning",
-				"title": "In the Morning",
-				"pb_page_start": 67,
-				"pb_page_end": 68,
+				"id": "content",
+				"title": "Content",
 				"content": [
 					{
 						"type": "section_title",
-						"size": "4xl",
-						"text": "family prayer"
+						"text": "family prayer",
+						"size": "xl"
 					},
 					{
 						"type": "section_title",
-						"size": "3xl",
 						"text": "in the morning"
 					},
 					{
@@ -25,13 +25,12 @@
 						"text": "The following or some other verse of Scripture is said"
 					},
 					{
-						"type": "show_psalm_verses",
-						"ps": 51,
-						"verses": [15]
+						"type": "scripture",
+						"ref": "psalm:51:15",
+						"text": "O Lord, open my lips,"
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "psalm 51:10-12"
 					},
 					{
@@ -50,7 +49,6 @@
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "a reading from holy scripture"
 					},
 					{
@@ -59,7 +57,8 @@
 						"text": "Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead."
 					},
 					{
-						"type": "or_this"
+						"type": "rubric",
+						"text": "or this"
 					},
 					{
 						"type": "scripture",
@@ -67,7 +66,8 @@
 						"text": "Give thanks to the Father, who has qualified you to share in the inheritance of the saints in light. He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son, in whom we have redemption, the forgiveness of sins."
 					},
 					{
-						"type": "or_this"
+						"type": "rubric",
+						"text": "or this"
 					},
 					{
 						"type": "scripture",
@@ -88,7 +88,6 @@
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "the lord's prayer"
 					},
 					{
@@ -96,26 +95,16 @@
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "the collect"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
-						"text": "O Lord, our heavenly Father, almighty and everlasting God, you have brought us safely to the beginning of this day: Defend us by your mighty power, that we may not fall into sin nor run into any danger; and that, guided by your Spirit, we may do what is righteous in your sight; through Jesus Christ our Lord."
-					}
-				]
-			},
-			{
-				"id": "midday",
-				"title": "At Midday",
-				"pb_page_start": 69,
-				"pb_page_end": 70,
-				"content": [
+						"text": "O Lord, our heavenly Father, almighty and everlasting God, you have brought us safely to the beginning of this day: Defend us by your mighty power, that we may not fall into sin nor run into any danger; and that, guided by your Spirit, we may do what is righteous in your sight; through Jesus Christ our Lord. __Amen.__"
+					},
 					{
 						"type": "section_title",
-						"size": "3xl",
-						"text": "at midday"
+						"text": "at midday",
+						"size": "xl"
 					},
 					{
 						"type": "rubric",
@@ -128,26 +117,24 @@
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "Psalm 113:1-4"
 					},
 					{
 						"type": "section_title",
-						"fancy": true,
-						"latin_size": true,
-						"text": "Laudate, pueri"
+						"text": "_Laudate, pueri_",
+						"lowercase": true
 					},
 					{
 						"type": "show_psalm",
 						"ps": 113,
-						"to": 4
+						"to": 4,
+						"bold": true
 					},
 					{
 						"type": "gloria"
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "a reading from holy scripture"
 					},
 					{
@@ -156,7 +143,8 @@
 						"text": "Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides in the vine, neither can you, unless you abide in me. I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing."
 					},
 					{
-						"type": "or_this"
+						"type": "rubric",
+						"text": "or this"
 					},
 					{
 						"type": "scripture",
@@ -173,7 +161,6 @@
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "the lord's prayer"
 					},
 					{
@@ -181,26 +168,16 @@
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "the collect"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
-						"text": "Blessed Savior, at this hour you hung upon the Cross, stretching out your loving arms: Grant that all the peoples of the earth may look to you and be saved; for your tender mercies' sake."
-					}
-				]
-			},
-			{
-				"id": "early_evening",
-				"title": "In the Early Evening",
-				"pb_page_start": 71,
-				"pb_page_end": 72,
-				"content": [
+						"text": "Blessed Savior, at this hour you hung upon the Cross, stretching out your loving arms: Grant that all the peoples of the earth may look to you and be saved; for your tender mercies' sake. __Amen.__"
+					},
 					{
 						"type": "section_title",
-						"size": "3xl",
-						"text": "in the early evening"
+						"text": "in the early evening",
+						"size": "xl"
 					},
 					{
 						"type": "rubric",
@@ -211,71 +188,27 @@
 						"text": "The following or some other verse of Scripture is said"
 					},
 					{
-						"type": "show_psalm_verses",
+						"type": "show_psalm",
 						"ps": 36,
-						"verses": [7, 9]
+						"from": 7,
+						"to": 7
+					},
+					{
+						"type": "show_psalm",
+						"ps": 36,
+						"from": 9,
+						"to": 9
+					},
+					{
+						"type": "ref",
+						"text": "psalm 36:7, 9"
+					},
+					{
+						"type": "canticle",
+						"name": "phos_hilaron"
 					},
 					{
 						"type": "section_title",
-						"text": "phos hilaron"
-					},
-					{
-						"type": "section_title",
-						"fancy": true,
-						"text": "O Gladsome Light"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"text": "O gladsome light,"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"text": "pure brightness of the everliving Father in heaven, *"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"indent": true,
-						"text": "O Jesus Christ, holy and blessed!"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"text": "Now as we come to the setting of the sun,"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"text": "and our eyes behold the vesper light, *"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"indent": true,
-						"text": "we sing your praises, O God: Father, Son, and Holy Spirit."
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"text": "You are worthy at all times to be praised by happy voices, *"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"indent": true,
-						"text": "O Son of God, O Giver of Life,"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"indent": true,
-						"text": "and to be glorified through all the worlds."
-					},
-					{
-						"type": "section_title",
-						"size": "sxl",
 						"text": "a reading from holy scripture"
 					},
 					{
@@ -284,7 +217,8 @@
 						"text": "For what we proclaim is not ourselves, but Jesus Christ as Lord, with ourselves as your servants for Jesus' sake. For God, who said, \"Let light shine out of darkness,\" has shone in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ."
 					},
 					{
-						"type": "or_this"
+						"type": "rubric",
+						"text": "or this"
 					},
 					{
 						"type": "scripture",
@@ -292,7 +226,8 @@
 						"text": "Jesus spoke to them, saying, \"I am the light of the world. Whoever follows me will not walk in darkness, but will have the light of life.\""
 					},
 					{
-						"type": "or_this"
+						"type": "rubric",
+						"text": "or this"
 					},
 					{
 						"type": "scripture",
@@ -313,7 +248,6 @@
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "the lord's prayer"
 					},
 					{
@@ -321,35 +255,30 @@
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "the collect"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
-						"text": "Lord Jesus, stay with us, for evening is at hand and the day is past; be our companion in the way, kindle our hearts, and awaken hope, that we may know you as you are revealed in Scripture and the breaking of bread. Grant this for the sake of your love."
-					}
-				]
-			},
-			{
-				"id": "close_of_day",
-				"title": "At the Close of Day",
-				"pb_page_start": 73,
-				"pb_page_end": 74,
-				"content": [
+						"text": "Lord Jesus, stay with us, for evening is at hand and the day is past; be our companion in the way, kindle our hearts, and awaken hope, that we may know you as you are revealed in Scripture and the breaking of bread. Grant this for the sake of your love. __Amen.__"
+					},
 					{
 						"type": "section_title",
-						"size": "3xl",
-						"text": "at the close of day"
+						"text": "at the close of day",
+						"size": "xl"
 					},
 					{
 						"type": "rubric",
 						"text": "The following or some other verse of Scripture is said"
 					},
 					{
-						"type": "show_psalm_verses",
+						"type": "show_psalm",
 						"ps": 4,
-						"verses": [8]
+						"from": 8,
+						"to": 8
+					},
+					{
+						"type": "ref",
+						"text": "psalm 4:8"
 					},
 					{
 						"type": "section_title",
@@ -357,28 +286,28 @@
 					},
 					{
 						"type": "section_title",
-						"fancy": true,
-						"latin_size": true,
-						"text": "Ecce nunc"
+						"text": "Ecce nunc",
+						"lowercase": true
 					},
 					{
 						"type": "show_psalm",
 						"ps": 134,
+						"to": 999,
 						"bold": true
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
-						"text": "a reading from holy scripture"
+						"text": "a reading from holy scripture",
+						"size": "xl"
 					},
 					{
 						"type": "scripture",
 						"ref": "isaiah 26:3-4",
-						"t": true,
 						"text": "You keep them in perfect peace whose minds are stayed on you, because they trust in you. Trust in the Lord for ever, for the Lord God is an everlasting rock."
 					},
 					{
-						"type": "or_this"
+						"type": "rubric",
+						"text": "or this"
 					},
 					{
 						"type": "scripture",
@@ -399,7 +328,6 @@
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "the lord's prayer"
 					},
 					{
@@ -407,55 +335,15 @@
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "the collect"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
-						"text": "Visit this place, O Lord, and drive far from it all snares of the enemy; let your holy angels dwell with us to preserve us in peace; and let your blessing be upon us always; through Jesus Christ our Lord."
+						"text": "Visit this place, O Lord, and drive far from it all snares of the enemy; let your holy angels dwell with us to preserve us in peace; and let your blessing be upon us always; through Jesus Christ our Lord. __Amen.__"
 					},
 					{
-						"type": "section_title",
-						"text": "nunc dimittis"
-					},
-					{
-						"type": "section_title",
-						"fancy": true,
-						"text": "The Song of Simeon"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"text": "Lord, now let your servant depart in peace, *"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"indent": true,
-						"text": "according to your word."
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"text": "For my eyes have seen your salvation, *"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"indent": true,
-						"text": "which you have prepared before the face of all people;"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"text": "To be a light to lighten the Gentiles, *"
-					},
-					{
-						"type": "line",
-						"bold": true,
-						"indent": true,
-						"text": "and to be the glory of your people Israel."
+						"type": "canticle",
+						"name": "nunc_dimittis"
 					},
 					{
 						"type": "gloria"
@@ -466,132 +354,96 @@
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "concluding sentence"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
-						"text": "The almighty and merciful Lord, Father, Son, and Holy Spirit, bless us and keep us, this night and evermore."
-					}
-				]
-			},
-			{
-				"id": "apostles_creed",
-				"title": "The Apostles' Creed",
-				"pb_page_start": 75,
-				"pb_page_end": 75,
-				"content": [
+						"text": "The almighty and merciful Lord, Father, Son, and Holy Spirit, bless us and keep us, this night and evermore. __Amen.__"
+					},
 					{
 						"type": "rubric",
 						"text": "When the Apostles Creed is included in Family Prayer, the text is as follows:"
 					},
 					{
 						"type": "apostles_creed"
-					}
-				]
-			},
-			{
-				"id": "additional_prayers",
-				"title": "Additional Prayers",
-				"pb_page_start": 76,
-				"pb_page_end": 78,
-				"content": [
-					{
-						"type": "section_title",
-						"size": "2xl",
-						"text": "additional prayers"
 					},
 					{
 						"type": "section_title",
-						"size": "xl",
+						"text": "additional prayers",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
 						"text": "for the spirit of prayer"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
 						"text": "O Almighty God, you pour out on all who desire it the spirit of grace and of supplication: Deliver us, when we draw near to you, from coldness of heart and wanderings of mind, that with steadfast thoughts and kindled affections we may worship you in spirit and in truth; through Jesus Christ our Lord."
 					},
 					{
 						"type": "section_title",
-						"size": "xl",
 						"text": "for those we love"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
 						"text": "Almighty God, we entrust all who are dear to us to your never-failing care and love, for this life and the life to come, knowing that you are doing for them better things than we can desire or pray for; through Jesus Christ our Lord."
 					},
 					{
 						"type": "section_title",
-						"size": "xl",
 						"text": "for the family"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
 						"text": "Merciful Savior, you loved Martha and Mary and Lazarus, hallowing their home with your sacred presence: Bless our home, we pray, that your love may rest upon us, and that your presence may dwell with us. May we all grow in grace and in the knowledge of you, our Lord and Savior. Teach us to love one another as you have commanded. Help us to bear one another's burdens in fulfillment of your law, O blessed Jesus, who with the Father and the Holy Spirit live and reign, one God, for ever and ever."
 					},
 					{
 						"type": "section_title",
-						"size": "xl",
 						"text": "for relatives and friends"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
 						"text": "O Loving Father, we commend to your gracious keeping all who are near and dear to us. Have mercy upon any who are sick, and comfort those who are in pain, anxiety, or sorrow. Awaken all who are careless about eternal things. Bless those who are young and in health, that they may give the days of their strength to you. Comfort the aged and infirm, that your peace may rest upon them. Hallow the ties of kindred, that we may help and not hinder one another in all the good works that you have prepared for us to walk in; through Jesus Christ our Lord."
 					},
 					{
 						"type": "section_title",
-						"size": "xl",
 						"text": "for children"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
 						"text": "O Lord Jesus Christ, who took little children into your arms and blessed them: Bless the children of this family, that they may grow up in godly fear and love. Give them your strength and guidance day by day, that they may continue in your love and service to their lives' end. Grant this, O blessed Savior, for your own Name's sake."
 					},
 					{
 						"type": "section_title",
-						"size": "xl",
 						"text": "in the morning"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
 						"text": "O Lord Jesus Christ, who took little children into your arms and blessed them: Bless the children of this family, that they may grow up in godly fear and love. Give them your strength and guidance day by day, that they may continue in your love and service to their lives' end. Grant this, O blessed Savior, for your own Name's sake."
 					},
 					{
 						"type": "section_title",
-						"size": "xl",
 						"text": "at night"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
 						"text": "O Lord, support us all the day long through this trouble-filled life, until the shadows lengthen, and the evening comes, and the busy world is hushed, and the fever of life is over, and our work is done. Then in your mercy grant us a safe lodging, and a holy rest, and peace at the last."
 					},
 					{
 						"type": "section_title",
-						"size": "xl",
 						"text": "for quiet confidence"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
 						"text": "O God of peace, who hast taught us that in returning and rest we shall be saved, in quietness and in confidence shall be our strength: By the might of thy Spirit lift us, we pray thee, to thy presence, where we may be still and know that thou art God; through Jesus Christ our Lord."
 					},
 					{
 						"type": "section_title",
-						"size": "2xl",
 						"text": "family responses before meals"
 					},
 					{
 						"type": "section_title",
-						"fancy": true,
-						"latin_size": true,
-						"text": "Traditional"
+						"text": "_Traditional_",
+						"lowercase": true
 					},
 					{
 						"type": "line",
@@ -599,9 +451,9 @@
 					},
 					{
 						"type": "line",
-						"indent": true,
+						"text": "And thou givest them their meat in due season.",
 						"bold": true,
-						"text": "And thou givest them their meat in due season."
+						"indent": true
 					},
 					{
 						"type": "line",
@@ -609,30 +461,29 @@
 					},
 					{
 						"type": "line",
-						"indent": true,
+						"text": "And fillest all things living with plenteousness.",
 						"bold": true,
-						"text": "And fillest all things living with plenteousness."
+						"indent": true
 					},
 					{
 						"type": "line",
-						"amen": true,
 						"text": "Bless us, O Lord, and these thy gifts, which we are about to receive from thy bounty, through Christ our Lord."
 					},
 					{
 						"type": "section_title",
-						"size": "xl",
 						"text": "a grace before meals"
 					},
 					{
 						"type": "text_block",
-						"amen": true,
-						"text": "Bless, O Lord, these gifts to our use, and us to your service, and make us ever mindful of the needs of others, through Jesus Christ our Lord."
+						"text": "Bless, O Lord, these gifts to our use, and us to your service, and make us ever mindful of the needs of others, through Jesus Christ our Lord. __Amen.__"
 					},
 					{
 						"type": "rubric",
 						"text": "In Advent, using the Antiphons found in the Calendar of Holy Days and Commemorations (page 712), families might consider singing the appropriate verse of the hymn \"O Come, O Come, Emmanuel\" each night beginning on December 16."
 					}
-				]
+				],
+				"pb_page_start": 67,
+				"pb_page_end": 78
 			}
 		]
 	}

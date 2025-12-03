@@ -2,9 +2,16 @@
 	import { parseMarkdown } from '$lib/utils/parseMarkdown.js';
 	import { onMount } from 'svelte';
 
-	let { who = '', bold = false, children } = $props();
+	let { who = '', officiant = false, people = false, bold = false, children } = $props();
 
-	let textClass = who == 'people' || bold ? 'font-bold' : '';
+	// Determine who is speaking from boolean props or direct who prop
+	let speaker = who;
+	if (!speaker) {
+		if (officiant) speaker = 'officiant';
+		else if (people) speaker = 'people';
+	}
+
+	let textClass = speaker == 'people' || bold ? 'font-bold' : '';
 
 	// For slot content, we need to extract and parse it
 	let slotContentElement = $state();
@@ -19,7 +26,7 @@
 </script>
 
 <div class="flex break-after-all gap-4 leading-normal">
-	<div class="w-[70px] flex-shrink-0 text-right capitalize italic">{who}</div>
+	<div class="w-[70px] flex-shrink-0 text-right capitalize italic">{speaker}</div>
 	<div class="flex-1 {textClass}">
 		{#if parsedSlotContent}
 			{@html parsedSlotContent}

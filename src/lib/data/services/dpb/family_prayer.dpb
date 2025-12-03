@@ -1,0 +1,143 @@
+pg: 67-78
+tp: Family Prayer
+
+st:1: family prayer
+st: in the morning
+r: The following or some other verse of Scripture is said
+scripture:psalm:51:15::O Lord, open my lips,
+and my mouth shall show forth your praise.
+st: psalm 51:10-12
+use:psalm:51:10:12:b:
+use:gloria:
+r: Alternatively, Psalm 5:1-3 may be used.
+st: a reading from holy scripture
+scripture:1 Peter 1:3:: Blessed be the God and Father of our Lord Jesus Christ! According to his great mercy, he has caused us to be born again to a living hope through the resurrection of Jesus Christ from the dead.
+r: or this
+scripture:colossians 1:12-14:: Give thanks to the Father, who has qualified you to share in the inheritance of the saints in light. He has delivered us from the domain of darkness and transferred us to the kingdom of his beloved Son, in whom we have redemption, the forgiveness of sins.
+r: or this
+scripture:colossians 3:1-4:: If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God. Set your minds on things that are above, not on things that are on earth. For you have died, and your life is hidden with Christ in God. When Christ who is your life appears, then you also will appear with him in glory.
+r: A period of silence may follow.
+r: A hymn or canticle may be used; the Apostles' Creed (page 75) may be said.
+r: Prayers may be offered for ourselves and others.
+st: the lord's prayer
+use:lords_prayer:
+st: the collect
+tb: O Lord, our heavenly Father, almighty and everlasting God,
+you have brought us safely to the beginning of this day:
+Defend us by your mighty power, that we may not fall into sin nor run into any danger;
+and that, guided by your Spirit, we may do what is righteous in your sight;
+through Jesus Christ our Lord. __Amen.__
+
+st:1: at midday
+r: The following or some other verse of Scripture is said
+scripture:ephesians 1:3:: Blessed be the God and Father of our Lord Jesus Christ, who has blessed us in Christ with every spiritual blessing in the heavenly places.
+st: Psalm 113:1-4
+st:lc: _Laudate, pueri_
+use:psalm:113:1:4:b:
+use:gloria:
+st: a reading from holy scripture
+scripture:john 15:4-5:: Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides in the vine, neither can you, unless you abide in me. I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing.
+r: or this
+scripture:philippians 4:6-7:: Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.
+r: A period of silence may follow.
+r: Prayers may be offered for ourselves and others.
+st: the lord's prayer
+use:lords_prayer:
+st: the collect
+tb: Blessed Savior, at this hour you hung upon the Cross, stretching out your loving arms:
+Grant that all the peoples of the earth may look to you and be saved; for your tender mercies' sake.
+__Amen.__
+
+st:1: in the early evening
+r: This devotion may be used before or after the evening meal.
+r: The following or some other verse of Scripture is said
+use:psalm:36:7:7:
+use:psalm:36:9:9:
+ref: psalm 36:7, 9
+use:canticle:phos_hilaron:
+// st: phos hilaron
+// st:lc: _O Gladsome Light_
+// l:b: O gladsome light,
+// l:b: pure brightness of the everliving Father in heaven, *
+// l:b:i: O Jesus Christ, holy and blessed!
+// l:b: Now as we come to the setting of the sun,
+// l:b: and our eyes behold the vesper light, *
+// l:b:i: we sing your praises, O God: Father, Son, and Holy Spirit.
+// l:b: You are worthy at all times to be praised by happy voices, *
+// l:b:i: O Son of God, O Giver of Life,
+// l:b:i: and to be glorified through all the worlds.
+st: a reading from holy scripture
+scripture:2 corinthians 4:5-6:: For what we proclaim is not ourselves, but Jesus Christ as Lord, with ourselves as your servants for Jesus' sake. For God, who said, "Let light shine out of darkness," has shone in our hearts, to give the light of the knowledge of the glory of God in the face of Jesus Christ.
+r: or this
+scripture:john 8:12:: Jesus spoke to them, saying, "I am the light of the world. Whoever follows me will not walk in darkness, but will have the light of life."
+r: or this
+scripture:revelation 3:20:: Jesus said, "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, I will come in to him and eat with him, and he with me."
+r: A period of silence may follow.
+r: A hymn or canticle may be used; the Apostles' Creed (page 75) may be said.
+r: Prayers may be offered for ourselves and others.
+st: the lord's prayer
+use:lords_prayer:
+st: the collect
+tb: Lord Jesus, stay with us, for evening is at hand and the day is past;
+be our companion in the way, kindle our hearts, and awaken hope,
+that we may know you as you are revealed in Scripture and the breaking of bread.
+Grant this for the sake of your love. __Amen.__
+
+st:1: at the close of day
+r: The following or some other verse of Scripture is said
+use:psalm:4:8:8:
+ref:psalm 4:8
+st: psalm 134
+st:lc: Ecce nunc
+use:psalm:134:1:999:b:
+st: a reading from holy scripture
+scripture:isaiah 26:3-4:: You keep them in perfect peace whose minds are stayed on you, because they trust in you. Trust in the Lord for ever, for the Lord God is an everlasting rock.
+r: or this
+scripture:1 thessalonians 5:23:: Now may the God of peace himself sanctify you completely, and may your whole spirit and soul and body be kept blameless at the coming of our Lord Jesus Christ.
+r: A period of silence may follow.
+r: A hymn or canticle may be used.
+r: Prayers may be offered for ourselves and others. It is appropriate that prayers of thanksgiving for the blessings of the day, and penitence for our sins, be included.
+st: the lord's prayer
+use:lords_prayer:
+st: the collect
+tb: Visit this place, O Lord, and drive far from it all snares of the enemy;
+let your holy angels dwell with us to preserve us in peace;
+and let your blessing be upon us always; through Jesus Christ our Lord. __Amen.__
+use:canticle:nunc_dimittis
+use:gloria:
+ref: luke 2:29-32
+st: concluding sentence
+tb: The almighty and merciful Lord, Father, Son, and Holy Spirit,
+bless us and keep us, this night and evermore. __Amen.__
+
+r: When the Apostles Creed is included in Family Prayer, the text is as follows:
+use:apostles_creed:
+
+st:1: additional prayers
+st: for the spirit of prayer
+tb: O Almighty God, you pour out on all who desire it the spirit of grace and of supplication: Deliver us, when we draw near to you, from coldness of heart and wanderings of mind, that with steadfast thoughts and kindled affections we may worship you in spirit and in truth; through Jesus Christ our Lord.
+st:for those we love
+tb: Almighty God, we entrust all who are dear to us to your never-failing care and love, for this life and the life to come, knowing that you are doing for them better things than we can desire or pray for; through Jesus Christ our Lord.
+st: for the family
+tb: Merciful Savior, you loved Martha and Mary and Lazarus, hallowing their home with your sacred presence: Bless our home, we pray, that your love may rest upon us, and that your presence may dwell with us. May we all grow in grace and in the knowledge of you, our Lord and Savior. Teach us to love one another as you have commanded. Help us to bear one another's burdens in fulfillment of your law, O blessed Jesus, who with the Father and the Holy Spirit live and reign, one God, for ever and ever.
+st: for relatives and friends
+tb: O Loving Father, we commend to your gracious keeping all who are near and dear to us. Have mercy upon any who are sick, and comfort those who are in pain, anxiety, or sorrow. Awaken all who are careless about eternal things. Bless those who are young and in health, that they may give the days of their strength to you. Comfort the aged and infirm, that your peace may rest upon them. Hallow the ties of kindred, that we may help and not hinder one another in all the good works that you have prepared for us to walk in; through Jesus Christ our Lord.
+st: for children
+tb: O Lord Jesus Christ, who took little children into your arms and blessed them: Bless the children of this family, that they may grow up in godly fear and love. Give them your strength and guidance day by day, that they may continue in your love and service to their lives' end. Grant this, O blessed Savior, for your own Name's sake.
+st: in the morning
+tb: O Lord Jesus Christ, who took little children into your arms and blessed them: Bless the children of this family, that they may grow up in godly fear and love. Give them your strength and guidance day by day, that they may continue in your love and service to their lives' end. Grant this, O blessed Savior, for your own Name's sake.
+st: at night
+tb: O Lord, support us all the day long through this trouble-filled life, until the shadows lengthen, and the evening comes, and the busy world is hushed, and the fever of life is over, and our work is done. Then in your mercy grant us a safe lodging, and a holy rest, and peace at the last.
+st: for quiet confidence
+tb: O God of peace, who hast taught us that in returning and rest we shall be saved, in quietness and in confidence shall be our strength: By the might of thy Spirit lift us, we pray thee, to thy presence, where we may be still and know that thou art God; through Jesus Christ our Lord.
+st: family responses before meals
+st:lc: _Traditional_
+l: The eyes of all wait upon thee, O Lord;
+l:b:i: And thou givest them their meat in due season.
+l: Thou openest thine hand;
+l:b:i: And fillest all things living with plenteousness.
+l: Bless us, O Lord, and these thy gifts, which we are about to receive from thy bounty, through Christ our Lord.
+st: a grace before meals
+tb: Bless, O Lord, these gifts to our use, and us to your service,
+and make us ever mindful of the needs of others, through Jesus Christ our Lord. __Amen.__
+r: In Advent, using the Antiphons found in the Calendar of Holy Days and Commemorations (page 712), families might consider singing the appropriate verse of the hymn "O Come, O Come, Emmanuel" each night beginning on December 16.

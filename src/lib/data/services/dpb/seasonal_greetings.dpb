@@ -1,0 +1,51 @@
+pg: 145-146
+tp: Seasonal Greetings
+
+st: supplemental
+st: eucharistic texts
+st: seasonal greetings
+r: The opening Acclamation may be replaced by a greeting appropriate to the season or the occasion, such as the following
+
+st: for advent
+v:celebrant: Surely the Lord is coming soon.
+v:people: Amen. Come Lord Jesus!
+ref: revelation 22:20
+
+st: for christmastide ~_and_~ the feast of the presentation of christ
+v:celebrant: For unto us a child is born,
+v:people: Unto us a son is given.
+ref: isaiah 9:6
+
+st: from the feast of the epiphany ~_to_~ the end of the epiphany season
+v:celebrant: I will make you as a light for the nations,
+v:people: That my salvation may reach to the end of the earth.
+ref: isaiah 49:6
+
+st: from ash wednesday _to_ the eve of palm sunday _or_ penitential occasions
+v:celebrant: Bless the Lord who forgives all our sins.
+v:people: His mercy endures for ever.
+
+st: for holy week
+v:celebrant: Blessed be our God.
+v:people: Now and for ever. Amen.
+
+st: from easterday _until_ the eve of pentecost
+v:celebrant: Alleluia! Christ is risen!
+v:people: The Lord is risen indeed! Alleluia!
+
+st: for the day of pentecost, _and_ occasions of confirmation _and_ ordination
+v:celebrant: The Lord will pour out his Spirit upon all flesh,
+v:people: And your sons and daughters shall prophesy.
+v:celebrant: Your old men shall dream dreams,
+v:people: And your young men shall see visions.
+v:celebrant: You shall know that the Lord is in the midst of his people,
+v:people: That he is the Lord and there is none else.
+v:celebrant: And it shall come to pass
+v:people: That everyone who calls on the Name of the Lord shall be saved.
+ref: joel 2:27-28, 32
+ref: acts 2:17, 21
+
+st: for all saints' day and other appropriate occasions
+v:celebrant: Worthy is the Lord our God,
+v:people: To receive glory and honor and power.
+ref: revelation 4:11
