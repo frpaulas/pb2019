@@ -1,0 +1,431 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			175,
+			181
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "section_title",
+						"text": "confirmation, reception,",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "_and_"
+					},
+					{
+						"type": "section_title",
+						"text": "reaffirmation",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "with the Laying on of Hands by the Bishop"
+					},
+					{
+						"type": "rubric",
+						"text": "A hymn, psalm, or anthem may be sung."
+					},
+					{
+						"type": "rubric",
+						"text": "The People standing, the Celebrant says this or a seasonal greeting"
+					},
+					{
+						"type": "button",
+						"text": "(pages 145-146)"
+					},
+					{
+						"type": "versical",
+						"text": "Bishop: The Lord will pour out his Spirit upon all flesh,"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And your sons and daughters shall prophesy."
+					},
+					{
+						"type": "versical",
+						"text": "Bishop: Your old men shall dream dreams,"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And your young men shall see visions."
+					},
+					{
+						"type": "versical",
+						"text": "Bishop: You shall know that the Lord is in the midst of his people,"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "That he is the Lord and there is none else."
+					},
+					{
+						"type": "versical",
+						"text": "Bishop: And it shall come to pass"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "That everyone who calls on the Name of the Lord shall be saved."
+					},
+					{
+						"type": "ref",
+						"text": "joel 2:27-28, 32t; acts 2:17, 21 t"
+					},
+					{
+						"type": "versical",
+						"text": "Bishop: The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"text": "Bishop: Let us pray."
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant prays the Collect of the Day."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Amen."
+					},
+					{
+						"type": "page_break",
+						"page": 176
+					},
+					{
+						"type": "rubric",
+						"text": "The liturgy continues with the Lessons as directed in the Eucharist. Following the Nicene Creed, the Candidates are presented."
+					},
+					{
+						"type": "section_title",
+						"text": "the presentation, exhortation and examination"
+					},
+					{
+						"type": "rubric",
+						"text": "Only a Bishop may confirm. The Bishop customarily sits in a chair in front of the Altar Table. The Candidates and Presenters stand facing the Bishop as their Presenters say"
+					},
+					{
+						"type": "versical",
+						"text": "presenters: Reverend Father in God, we present these persons to receive the laying on of hands."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Have they been adequately prepared?"
+					},
+					{
+						"type": "versical",
+						"text": "presenters: They have."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop then says"
+					},
+					{
+						"type": "text_block",
+						"text": "Dearly beloved, it is essential that those who wish to be Confirmed or Received in this Church publicly confess Jesus Christ as their Lord and Savior; become his disciples; know and affirm the Nicene Creed, the Lord’s Prayer, and the Ten Commandments; and have received instruction in the Holy Scriptures of the Old and New Testaments and the Catechism of the Church. God’s grace is imparted in Baptism, through which we are made God’s children by adoption and given the Holy Spirit. By the power of the Spirit, manifested in gifts and fruit, we are enabled to be God’s people for the sake of the world."
+					},
+					{
+						"type": "text_block",
+						"text": "Now, _these Candidates desire_ publicly to confess _their_ faith in Jesus Christ as Savior and _their_ commitment to follow him as Lord. _They_ also _desire_ the strengthening of grace through the laying on of hands, that the Holy Spirit may _fill_ them more and more for _their_ ministry in the Church and in the world."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop then addresses the Candidates"
+					},
+					{
+						"type": "versical",
+						"text": "Do you, here in the presence of God and the Church,"
+					},
+					{
+						"type": "versical",
+						"text": "renew the solemn promises and vows made at your"
+					},
+					{
+						"type": "versical",
+						"text": "and commit to keep them?"
+					},
+					{
+						"type": "page_break",
+						"page": 177
+					},
+					{
+						"type": "versical",
+						"text": "candidates: I do."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Do you renounce the devil and all the spiritual forces"
+					},
+					{
+						"type": "versical",
+						"text": "of wickedness that rebel against God?"
+					},
+					{
+						"type": "versical",
+						"text": "candidates I renounce them."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Do you renounce the empty promises and deadly"
+					},
+					{
+						"type": "versical",
+						"text": "deceits of this world that corrupt and destroy the"
+					},
+					{
+						"type": "versical",
+						"text": "creatures of God?"
+					},
+					{
+						"type": "versical",
+						"text": "candidates: I renounce them."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Do you renounce the sinful desires of the flesh that"
+					},
+					{
+						"type": "versical",
+						"text": "draw you from the love of God?"
+					},
+					{
+						"type": "versical",
+						"text": "candidates: I renounce them."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Do you turn to Jesus Christ and confess him as your Lord and Savior?"
+					},
+					{
+						"type": "versical",
+						"text": "candidates: I do."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Do you joyfully receive the Christian Faith, as"
+					},
+					{
+						"type": "versical",
+						"text": "revealed in the Holy Scriptures of the Old and New Testaments?"
+					},
+					{
+						"type": "versical",
+						"text": "candidates: I do."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Will you obediently keep God’s holy will and commandments,"
+					},
+					{
+						"type": "versical",
+						"text": "and walk in them all the days of your life?"
+					},
+					{
+						"type": "versical",
+						"text": "candidates: I will, the Lord being my helper."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop addresses the Congregation, saying"
+					},
+					{
+						"type": "text_block",
+						"text": "Will you who witness these vows do all in your power to support these persons in their life in Christ?"
+					},
+					{
+						"type": "rubric",
+						"text": "The Congregation responds"
+					},
+					{
+						"type": "versical",
+						"text": "We will.",
+						"bold": true
+					},
+					{
+						"type": "page_break",
+						"page": 178
+					},
+					{
+						"type": "section_title",
+						"text": "prayer and the laying on of hands"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop stands and says"
+					},
+					{
+						"type": "line",
+						"text": "Let us pray."
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty and everliving God, we beseech you to strengthen these your servants for witness and ministry through the power of your Holy Spirit. Daily increase in them your manifold virtues of grace: the spirit of wisdom and understanding, the spirit of counsel and might, the spirit of knowledge and true godliness, and the spirit of holy fear, now and for ever. **Amen**."
+					},
+					{
+						"type": "section_title",
+						"text": "for confirmation"
+					},
+					{
+						"type": "rubric",
+						"text": "Each Confirmand kneels in front of the Bishop. The Bishop, then laying his hands upon the person’s head, prays"
+					},
+					{
+						"type": "text_block",
+						"text": "Defend, O Lord, this your servant _N_. with your heavenly grace, that _he_ may continue yours for ever, and daily increase in your Holy Spirit more and more until he comes into the fullness of your everlasting kingdom."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Amen."
+					},
+					{
+						"type": "rubric",
+						"text": "Or this"
+					},
+					{
+						"type": "text_block",
+						"text": "Strengthen, O Lord, with your Holy Spirit, your servant _N_.; empower _him_ for your service; and sustain _him_ all the days of _his_ life."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Amen."
+					},
+					{
+						"type": "page_break",
+						"page": 179
+					},
+					{
+						"type": "section_title",
+						"text": "for reception",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "Those having made adult professions of faith in other Christian traditions are Received with the laying on of hands as follows."
+					},
+					{
+						"type": "text_block",
+						"text": "Strengthen, O Lord, with your Holy Spirit, your servant _N_., whom we recognize as a member of the One, Holy, Catholic, and Apostolic Church, and receive into the fellowship of this Communion. Empower _him_ for your service, and sustain _him_ all the days of _his_ life."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Amen."
+					},
+					{
+						"type": "section_title",
+						"text": "for reaffirmation",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop may also accept with the laying on of hands the Reaffirmation of vows by a person who has previously been Confirmed or Received in this Church."
+					},
+					{
+						"type": "text_block",
+						"text": "_N_., the Holy Spirit, who has begun a good work in you, direct and empower you by his grace, that you may continue in the service of our Lord Jesus Christ all the days of your life."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Amen."
+					},
+					{
+						"type": "rubric",
+						"text": "o: The Bishop may make the sign of the Cross with the Oil of Chrism on the forehead of any receiving the laying on of hands, and may say",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "_N_., I sign you with the Cross of our Lord Jesus Christ in the Name of the Father, and of the Son, and of the Holy Spirit.",
+						"optional": true
+					},
+					{
+						"type": "page_break",
+						"page": 180
+					},
+					{
+						"type": "section_title",
+						"text": "concluding prayer after the laying on of hands"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop then says"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty and everliving God, let your fatherly hand ever be upon these your servants; let your Holy Spirit ever be with them; and so lead them in the knowledge and obedience of your Holy Word, that they may faithfully serve you in this life, and joyfully dwell with you in the life to come; through Jesus Christ our Lord. **Amen**."
+					},
+					{
+						"type": "rubric",
+						"text": "The Peace is now exchanged."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: The Peace of the Lord be always with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "rubric",
+						"text": "At the conclusion of the Liturgy, the following blessing may be used."
+					},
+					{
+						"type": "text_block",
+						"text": "Go forth into the world in peace, be of good courage, and fight the good fight of faith, that you may finish your course with joy; and the blessing of God Almighty, the Father, the Son, and the Holy Spirit, be among you, and remain with you always. **Amen**."
+					},
+					{
+						"type": "page_break",
+						"page": 181
+					},
+					{
+						"type": "section_title",
+						"text": "additional directions",
+						"size": "xl"
+					},
+					{
+						"type": "text_block",
+						"text": "If desired, the Collect for Purity, the Summary of the Law (or the Decalogue), the Kyrie (or the Trisagion), and the Gloria in excelsis may be inserted immediately after the opening versicles and before the salutation, “The Lord be with you.” If a Confession of Sin is desired, it may be inserted after the Summary of the Law (or the Decalogue)."
+					},
+					{
+						"type": "text_block",
+						"text": "It is particularly appropriate that parents, godparents, or others of godly influence be Presenters."
+					},
+					{
+						"type": "text_block",
+						"text": "The Prayers of the People are not used in this Liturgy. However, the Bishop may invite intercessions at an appropriate time."
+					},
+					{
+						"type": "text_block",
+						"text": "If there is no celebration of the Holy Eucharist, the liturgy continues with the Lord’s Prayer. Other appropriate prayers may be added."
+					},
+					{
+						"type": "text_block",
+						"text": "Those who have been Received with the laying on of hands according to this liturgy are considered to have been Confirmed in this Church."
+					}
+				],
+				"pb_page_start": 176,
+				"pb_page_end": 181
+			}
+		]
+	}
+}

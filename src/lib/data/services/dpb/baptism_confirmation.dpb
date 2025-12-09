@@ -1,2 +1,294 @@
-pg: 159
+pg: 183-193
 tp: Baptism & Confirmation
+
+st:1: holy baptism
+st: _with_
+st:1: confirmation, reception,
+st: _and_
+st:1: reaffirmation
+
+r: This rite is used whenever Baptisms and Confirmations occur together. The Bishop
+is the Celebrant. Except at the Easter Vigil, the rite follows the Sermon. This form
+may be used at the Easter Vigil in accordance with the rubrics and Additional
+Directions for that service.
+r:The Candidates with their Sponsors stand before the Bishop. The Bishop
+customarily sits in a chair in front of the Altar Table.
+st: the presentation
+r: The Bishop says
+l: The Candidate(s) for Holy Baptism will now be presented.
+
+st: adults and older children
+r: The Candidates who are able to answer for themselves are presented individually
+by their Sponsors, using full names as follows
+l: I present N.N. to receive the Sacrament of Baptism.
+
+pb:184
+r: The Bishop asks Candidates the following
+v: Bishop:Have you already been baptized?
+v: Candidate:No.
+v: Bishop:Do you desire to be baptized?
+v: Candidate:I do.
+
+st: infants and younger children
+r: Then the Candidates who are unable to answer for themselves are presented individually by their Godparents and Sponsoring Parents, using full names, as follows
+l: I present N.N. to receive the Sacrament of Baptism.
+r: When the following promises are made by Godparents and Sponsoring Parents of
+infants or young children, the Bishop addresses them
+tb: Today, on behalf of _this child_, you shall make vows to renounce
+the devil and all his works, to trust God wholeheartedly, and to
+serve him faithfully. It is your task to see that _this child_ is taught,
+as soon as _he is_ able to learn, the meaning of all these vows,
+and of the Faith that you will profess as revealed in the Holy
+Scriptures. _He_ must come to put _his_ faith in Jesus Christ, and
+learn the Creeds, the Lord’s Prayer, the Ten Commandments,
+and all other things that a Christian ought to know, believe, and
+do for the welfare of _his soul_. When _he has_ embraced all these, _he
+is_ to come to the Bishop to be confirmed, that _he_ may publicly
+claim the Faith for _his_ own and be further strengthened by the
+Holy Spirit to serve Christ and his kingdom.
+
+l: Are you willing and ready to undertake this?
+r: Godparents and Sponsoring Parents
+v: b: I am, the Lord being my helper.
+
+pb:185
+st: adults seeking the laying on of hands
+r: The Bishop says
+tb: The candidate(s) for _Confirmation, Reception and Reaffirmation_
+will now be presented.
+r: The Candidate(s) and Presenters stand facing the Bishop as their Presenters say
+v: presenters: Reverend Father in God, we present these persons
+v: to receive the laying on of hands.:
+v: bishop: _Have they_ been adequately prepared?
+v: presenters: _They have._
+
+st: profession of faith
+r: The Bishop examines all the Candidates, together with any Godparents and
+Sponsoring Parents, saying
+v:question: Do you renounce the devil and all the spiritual forces
+v: of wickedness that rebel against God?
+v:answer: I renounce them.
+v:question: Do you renounce the empty promises and deadly
+v: deceits of this world that corrupt and destroy the
+v: creatures of God?
+v:answer: I renounce them.
+v:question: Do you renounce the sinful desires of the flesh that
+v: draw you from the love of God?
+v:answer: I renounce them.
+r: The Bishop then prays over the Baptismal Candidate(s) and may anoint each
+Candidate with the Oil of Exorcism, saying
+tb:Almighty God deliver you from the powers of darkness and evil,
+and lead you into the light and obedience of the kingdom of his
+Son Jesus Christ our Lord. **Amen.**
+
+pb:186
+r: The Bishop continues
+v:bishop: Do you turn to Jesus Christ and confess him as your Lord and Savior?
+v:answer: I do.
+v:bishop: Do you joyfully receive the Christian Faith,
+v: as revealed in the Holy Scriptures of the Old and New Testaments?
+v:answer: I do.
+v:bishop: Will you obediently keep God’s holy will and
+v: commandments, and walk in them all the days of your life?
+v: answer: I will, the Lord being my helper.
+
+r: The Bishop addresses the Congregation, saying
+tb: Will you who witness these vows do all in your power to
+support _these persons_ in their life in Christ?
+v:b: We will.
+r: The Bishop then says
+tb: Let us join with _these Candidates_ to proclaim our faith in the
+words of the ancient baptismal confession, the Apostles’ Creed.
+v:bishop: Do you believe and trust in God the Father?
+v:people: I do.
+v:b:	 I believe in God the Father almighty,
+v:b:	 creator of heaven and earth.
+v:bishop: Do you believe and trust in Jesus Christ?
+v:people: I do.
+v:b: I believe in Jesus Christ, his only Son, our Lord.
+v:b: He was conceived by the Holy Spirit
+v:b: and born of the Virgin Mary.
+v:b: He suffered under Pontius Pilate,
+
+pb:187
+v:b: was crucified, died, and was buried.
+v:b: He descended to the dead.
+v:b: On the third day he rose again.
+v:b: He ascended into heaven,
+v:b: and is seated at the right hand of the Father.
+v:b: He will come again to judge the living and the dead.
+v:bishop: Do you believe and trust in the Holy Spirit?
+v:people: I do.
+v:b: I believe in the Holy Spirit,
+v:b: the holy catholic Church,
+v:b:the communion of saints,
+v:b: the forgiveness of sins,
+v:b: the resurrection of the body,
+v:b: and the life everlasting. Amen.
+
+st: prayer for the candidates for holy baptism
+r: The Bishop now prays for the baptismal Candidates as follows
+l: Let us pray.
+tb: Almighty and everlasting Father, in your great mercy you saved
+Noah and his family in the Ark from the destruction of the flood,
+prefiguring the Sacrament of Holy Baptism. Look mercifully
+upon these your servants. Wash and sanctify them through your
+Holy Spirit, that they may be delivered from destruction and
+received into the Ark of Christ’s Church; and being steadfast
+in faith, joyful through hope, and rooted in love, they may pass
+through the turbulent floods of this troublesome world and come
+into the land of everlasting life, through Jesus Christ our Lord.
+**Amen.**
+
+st: thanksgiving over the water
+r: If there is a procession to the baptismal font, a psalm, anthem, or hymn may be sung.
+
+pb:188
+r: The Deacon, or the Bishop, pours the water for Baptism.
+v:bishop: The Lord be with you.
+v:people: And with your spirit.
+v:bishop: Lift up your hearts.
+v:people: We lift them up to the Lord.
+v:bishop: Let us give thanks to the Lord our God.
+v:people: It is right to give him thanks and praise.
+r: The Bishop continues
+tb: We thank you, Almighty God, for the gift of water. Over it the
+Holy Spirit moved in the beginning of creation. Through it you
+led the children of Israel out of their bondage in Egypt into the
+land of promise. In it your Son Jesus received the baptism of
+John in the River Jordan when the Holy Spirit descended upon
+him as a dove.
+tb: We thank you, Father, for the water of Baptism. In it we
+are buried with Christ in his death. By it we share in his
+resurrection. Through it we are made regenerate by the Holy
+Spirit. Therefore in joyful obedience to your Son, we bring into
+his fellowship those who come to him in faith, baptizing them
+in the Name of the Father, and of the Son, and of the Holy
+Spirit.
+r: Here the Bishop touches the water and says
+tb: Now, Father, sanctify this water by the power of your Holy
+Spirit. May all who are baptized here be cleansed from sin, be
+born again, and continue for ever faithful in the risen life of
+Jesus Christ our Savior. To him, to you, and to the Holy Spirit,
+be all honor and glory, now and for ever. **Amen.**
+
+pb:189
+st: the baptism
+r: The Bishop may say to the Sponsors,
+l: Name this _Candidate/Child._
+r: Then the Bishop immerses the Candidate or pours water upon the Candidate three
+times, saying
+tb: _N._, I baptize you in the Name of the Father, and of the Son, and
+of the Holy Spirit. **Amen.**
+r: The Bishop makes the sign of the Cross upon the forehead of the newly baptized
+(and may use the Oil of Chrism to do so), saying
+tb: _N._, receive the sign of the Cross as a token of your new life in
+Christ, in which you shall not be ashamed to confess the faith
+of Christ crucified, to fight bravely under his banner against the
+world, the flesh, and the devil, and to continue as his faithful
+soldier and servant to the end of your days. **Amen.**
+r: or this
+tb: _N._, you are sealed by the Holy Spirit in Baptism and marked as
+Christ’s own for ever. **Amen.**
+r: If garments or candles are presented, they are given here.
+r: When all have been baptized and signed the Bishop says
+tb: Heavenly Father, we thank you that by water and the Holy
+Spirit you have bestowed upon these your servants the
+forgiveness of sin, received them as your own children by
+adoption, made them members of your holy Church, and raised
+them to the new life of grace. Sustain them, O Lord, in your
+Holy Spirit, that they may enjoy everlasting salvation through
+Jesus Christ our Lord. **Amen.**
+
+pb:190
+r: The Bishop continues
+l: Let us welcome the newly baptized.
+r: Bishop and People
+tb:b: We receive you into the fellowship of the Church. Confess the
+faith of Christ crucified, proclaim his resurrection, and share
+with us in the royal priesthood of all his people.
+
+st: the confirmations, receptions and reaffirmations
+r: The Bishop continues
+tb: Let us now pray for those who have made an adult profession of
+Faith and who seek the laying on of hands.
+tb: Almighty and everliving God, we beseech you to strengthen
+these your servants for witness and ministry through the power
+of your Holy Spirit. Daily increase in them your manifold virtues
+of grace: the spirit of wisdom and understanding, the spirit of
+counsel and might, the spirit of knowledge and true godliness,
+and the spirit of holy fear, now and for ever. **Amen.**
+
+st: for confirmation
+r: Each confirmand kneels in front of the Bishop. The Bishop, then laying his hands
+upon the person’s head, prays
+tb: Defend, O Lord, this your servant **N.** with your heavenly grace,
+that _he_ may continue yours for ever, and daily increase in your
+Holy Spirit more and more until _he_ comes into the fullness of
+your everlasting kingdom.
+v:people: Amen.
+
+pb:191
+r: Or this
+tb: Strengthen, O Lord, with your Holy Spirit, your servant N.;
+empower _him_ for your service; and sustain _him_ all the days of _his_
+life.
+V:people: Amen.
+
+st: for reception
+
+r: Those having made adult professions of faith in other Christian traditions are
+Received with the laying on of hands as follows.
+tb: Strengthen, O Lord, with your Holy Spirit, your servant **N.**,
+whom we recognize as a member of the One, Holy, Catholic,
+and Apostolic Church, and receive into the fellowship of this
+Communion. Empower _him_ for your service, and sustain _him_ all
+the days of _his_ life.
+v:people: Amen.
+
+st: for reaffirmation
+r: The Bishop may also accept with the laying on of hands the Reaffirmation of vows
+by a person who has previously been Confirmed or Received in this Church.
+tb: _N._, the Holy Spirit, who has begun a good work in you, direct
+and empower you by his grace, that you may continue in the
+service of our Lord Jesus Christ all the days of your life.
+v:people: Amen.
+
+pb:192
+r:o: The Bishop may make the sign of the Cross with the Oil of Chrism on the
+forehead of any receiving the laying on of hands, and may say
+tb:o: **N.**, I sign you with the Cross of our Lord Jesus Christ in the
+Name of the Father, and of the Son, and of the Holy Spirit.
+
+st: concluding prayer after the laying on of hands
+r: The Bishop then says
+tb: Almighty and everliving God, let your fatherly hand ever be upon
+these your servants; let your Holy Spirit ever be with them; and so
+lead them in the knowledge and obedience of your Holy Word,
+that they may faithfully serve you in this life, and joyfully dwell
+with you in the life to come; through Jesus Christ our Lord. **Amen.**
+r: At a liturgy other than the Easter Vigil, the Exchange of the Peace and Offertory follow.
+r: At the conclusion of the Liturgy, the following blessing may be used.
+tb: Go forth into the world in peace, be of good courage, and fight
+the good fight of faith, that you may finish your course with joy;
+and the blessing of God Almighty, the Father, the Son, and the
+Holy Spirit, be among you, and remain with you always. **Amen.**
+
+pb:193
+st:1: additional directions
+tb: It is particularly appropriate that parents, godparents, or others of godly
+influence be Presenters at Confirmation.
+tb: The Prayers of the People are not used in this Liturgy. However, the
+Bishop may invite intercessions at an appropriate time.
+tb: After the Baptism and signing, and prior to the giving of the candle
+(if there be one), a white garment may be placed upon the newly
+baptized. The Bishop says, “Receive this white garment as a token of the
+righteousness given you by God’s grace in this Sacrament of Baptism, and
+as a sign that you should always give yourself to holy living for the glory
+of Jesus Christ our Lord. Amen.”
+tb: The Deacon or Bishop may light a candle from the Paschal Candle and
+give it to the newly baptized, saying, “N., receive the light of our Lord
+Jesus Christ who said: ‘ I am the light of the world. Whoever follows me
+will not walk in darkness, but will have the light of life.’  ”
+tb: Those who have been Received with the laying on of hands according to
+this liturgy are considered to have been Confirmed in this Church.

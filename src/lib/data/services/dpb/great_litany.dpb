@@ -1,7 +1,7 @@
 pg: 91-99
 tp: The Great Litany
 
-st:3xl: the great litany
+st:1: the great litany
 r: To be said or sung, kneeling, standing, or in procession.
 l: O God the Father, Creator of heaven and earth,
 l:b:i: Have mercy upon us.
@@ -17,6 +17,8 @@ tb: From all evil and wickedness; from sin, from the works and assaults of the d
 l:b:i: Good Lord, deliver us.
 tb: From all blindness of heart; from pride, vanity, and hypocrisy; from envy, hatred, and malice; and from all lack of charity,
 l:b:i: Good Lord, deliver us.
+
+pb:92
 tb: From all disordered and sinful affections; and from all the deceits of the world, the flesh, and the devil,
 l:b:i: Good Lord, deliver us.
 tb: From all false doctrine, heresy, and schism; from hardness of heart, and contempt of your Word and commandments,
@@ -35,6 +37,8 @@ tb: In all times of tribulation; in all times of prosperity; in the hour of deat
 l:b:i: Good Lord, deliver us.
 tb: We sinners beseech you to hear us, O Lord God: That it may please you to rule and govern your holy Church universal in the right way,
 l:b:i: We beseech you to hear us, good Lord.
+
+pb:93
 tb: To illumine all Bishops, Priests, and Deacons, with true knowledge and understanding of your Word; and that, both by their preaching and living, they may show it accordingly,
 l:b:i: We beseech you to hear us, good Lord.
 tb: To send forth laborers into your harvest; to prosper their work by your Holy Spirit; to make your saving health known unto all nations; and to hasten the coming of your kingdom,
@@ -51,6 +55,8 @@ tb: That it may please you to rule the hearts of your servant N, the President/S
 l:b:i: We beseech you to hear us, good Lord.
 tb: To bless and guide all judges, giving them grace to execute justice, and to maintain truth,
 l:b:i: We beseech you to hear us, good Lord.
+
+pb:94
 tb: To bless and keep our armed forces by sea, and land, and air, and to shield them in all dangers and adversities,
 l:b:i: We beseech you to hear us, good Lord.
 tb: To bless and protect all who serve their communities by their labor and learning,
@@ -69,6 +75,8 @@ tb: To protect the unborn and their parents, and to preserve all women in childb
 l:b:i: We beseech you to hear us, good Lord.
 tb: To care for those who have lost children or face infertility, and to provide for young children and orphans,
 l:b:i: We beseech you to hear us, good Lord.
+
+pb:95
 tb: To visit the lonely and those who grieve; to strengthen all who suffer in mind, body, or spirit; and to comfort with your presence those who are failing and infirm,
 l:b:i: We beseech you to hear us, good Lord.
 tb: To support, help, and deliver all who are in danger, necessity, and tribulation,
@@ -83,10 +91,12 @@ tb: To strengthen those who stand; to encourage the faint-hearted; to raise up t
 l:b:i: We beseech you to hear us, good Lord.
 tb: To grant to all the faithful departed eternal life and peace,
 l:b:i: We beseech you to hear us, good Lord.
-tb: To grant that, in the fellowship of [_____________ and] all the saints, we may attain to your heavenly kingdom,
+tb: To grant that, in the fellowship of [_**11**_ and] all the saints, we may attain to your heavenly kingdom,
 l:b:i: We beseech you to hear us, good Lord.
 tb: Son of God, we beseech you to hear us.
 l:b:i: Son of God, we beseech you to hear us.
+
+pb:96
 l: O Lamb of God, you take away the sin of the world;
 l:b:i: Have mercy upon us.
 l: O Lamb of God, you take away the sin of the world;
@@ -100,14 +110,19 @@ l:b:i: Christ, have mercy upon us.
 l: Lord, have mercy upon us.
 r: When the Litany is sung or said immediately before the Eucharist, the Litany concludes here, and the Eucharist begins with the Salutation ("The Lord be with you") and the Collect of the Day.
 r: On all other occasions, the Officiant and People say or sing together
-use:lords_prayer:
+use:prayer:lords_prayer:
+
+pb:97
 l: O Lord, show us your love and mercy;
 l:b:i: For we have put our trust in you.
 r: The Officiant says the following
-tb: Almighty God, you have promised to hear the petitions of those who ask in the Name of your Son: Mercifully incline your ear to us who have made our prayers and supplications to you; and grant that what we have asked faithfully, according to your will, we may obtain effectually, for the relief of our necessities and the setting forth of your glory; through Jesus Christ our Lord.
+tb: Almighty God, you have promised to hear the petitions of those who ask in the Name of your Son:
+Mercifully incline your ear to us who have made our prayers and supplications to you;
+and grant that what we have asked faithfully, according to your will, we may obtain effectually,
+for the relief of our necessities and the setting forth of your glory; through Jesus Christ our Lord. **Amen.**
 r: The Officiant may add other prayers, and may end the Litany, saying
-tb: The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore.
-v:: Amen.
+tb: The grace of our Lord Jesus Christ, and the love of God,
+and the fellowship of the Holy Spirit, be with us all evermore. **Amen.**
 
 st: the supplication
 r: For use in the Litany in place of the Versicle and Collect which follows the Lord's Prayer; or at the end of Morning or Evening Prayer; or as a separate devotion. The Supplication is especially appropriate in times of war, or of great anxiety, or of disaster.
@@ -116,7 +131,11 @@ l:b:i: And deliver us for your Name's sake.
 tb: O God, we have heard with our ears, and our forebears have declared to us, the noble works that you did in their days, and in the time before them.
 l: O Lord, arise and help us;
 l:b:i: And deliver us for your Name's sake.
-use:gloria:
+tb: Glory be to the Father, and to the Son, and to the Holy Spirit;
+as it was in the beginning, is now, and ever shall be,
+world without end. **Amen.**
+
+pb:98
 l: O Lord, arise and help us;
 l:b:i: And deliver us for your Name's sake.
 l: From our enemies defend us, O Christ;
@@ -129,9 +148,13 @@ l: Be pleased to hear us, O Christ;
 l:b:i: Graciously hear us, O Christ; graciously hear us, O Lord Christ.
 r: The Officiant prays
 l: Let us pray.
-tb: Look mercifully, O Father, on our infirmities; and, for the glory of your Name, rescue us from all those evils we now endure; and grant that in all our troubles we may put our whole trust and confidence in your mercy, serving you in holiness and purity of life, to your honor and glory; through our only Mediator and Advocate, Jesus Christ our Lord.
+tb: Look mercifully, O Father, on our infirmities; and, for the glory of your Name,
+rescue us from all those evils we now endure; and grant that in all our troubles
+we may put our whole trust and confidence in your mercy, serving you in holiness and purity of life,
+to your honor and glory; through our only Mediator and Advocate, Jesus Christ our Lord. **Amen.**
 r: The Supplication may end here, or may conclude with the prayer of St. John Chrysostom and the Grace (page 52).
 
+pb:99
 st: additional directions
 tb: The Great Litany may be used before the Eucharist, after the Collects of Morning or Evening Prayer, or separately.
 tb: It is particularly appropriate to use the Great Litany on the First Sunday of Advent and the First Sunday in Lent. It is also appropriate for Rogation days, other days of fasting or thanksgiving, and occasions of solemn and comprehensive entreaty.

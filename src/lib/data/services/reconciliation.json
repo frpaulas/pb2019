@@ -1,0 +1,107 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			223,
+			224
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 223
+					},
+					{
+						"type": "section_title",
+						"text": "the rites of healing",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "reconciliation of penitents"
+					},
+					{
+						"type": "rubric",
+						"text": "The Penitent begins"
+					},
+					{
+						"type": "line",
+						"text": "Bless me, for I have sinned.",
+						"bold": true
+					},
+					{
+						"type": "rubric",
+						"text": "The Priest says"
+					},
+					{
+						"type": "text_block",
+						"text": "The Lord be in your heart and upon your lips that you may truly and humbly confess your sins: In the Name of the Father, and of the Son, and of the Holy Spirit. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "Penitent"
+					},
+					{
+						"type": "text_block",
+						"text": "I confess to Almighty God, to his Church, and to you, that I have sinned by my own fault in thought, word, and deed, in things done and left undone; especially _**8**_. For these and all other sins that I cannot now remember, I am truly sorry. I pray God to have mercy on me. I firmly intend amendment of life, and I humbly beg forgiveness of God and his Church, and ask you for counsel, direction, and absolution.",
+						"bold": true
+					},
+					{
+						"type": "rubric",
+						"text": "Here the Priest may offer counsel, direction, and comfort."
+					},
+					{
+						"type": "page_break",
+						"page": 224
+					},
+					{
+						"type": "rubric",
+						"text": "The Priest then declares"
+					},
+					{
+						"type": "text_block",
+						"text": "Our Lord Jesus Christ, who has given power to his Church to absolve all sinners who truly repent and believe in him, of his great mercy forgive you all your offenses; and by his authority committed to me, I absolve you from all your sins: In the Name of the Father, and of the Son, and of the Holy Spirit. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "or tb Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "line",
+						"text": "The Lord has put away all your sins."
+					},
+					{
+						"type": "versical",
+						"text": "penitent: Thanks be to God."
+					},
+					{
+						"type": "rubric",
+						"text": "The following prayer may also be said"
+					},
+					{
+						"type": "line",
+						"text": "Let us pray."
+					},
+					{
+						"type": "text_block",
+						"text": "O most loving Father, by your mercy you put away the sins of those who truly repent, and remember their sins no more. Restore and renew in your servant whatever has been corrupted by the fraud and malice of the devil, or by his own selfish will and weakness. Preserve and protect him within the fellowship of the Church; hear his prayers and relieve his pain; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Priest concludes"
+					},
+					{
+						"type": "line",
+						"text": "Go (_or_ abide) in peace, and pray for me, a sinner."
+					}
+				],
+				"pb_page_start": 223,
+				"pb_page_end": 224
+			}
+		]
+	}
+}

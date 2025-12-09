@@ -1,4 +1,5 @@
 pg:183-193
+pb:183
 
 st:3: holy baptism
 st:2:i: with
@@ -75,7 +76,7 @@ will now be presented.
 r: The Candidate(s) and Presenters stand facing the Bishop as their Presenters say
 
 v:presenters: Reverend Father in God, we present these persons
-		 to receive the laying on of hands.
+v: to receive the laying on of hands.
 v:bishop: Have they been adequately prepared?
 v:presenters: They have.
 
@@ -85,14 +86,14 @@ r: The Bishop examines all the Candidates, together with any Godparents and
 Sponsoring Parents, saying
 
 v:question: Do you renounce the devil and all the spiritual forces
-of wickedness that rebel against God?
+v: of wickedness that rebel against God?
 v:answer:b: I renounce them.
 v:question: Do you renounce the empty promises and deadly
-deceits of this world that corrupt and destroy the
-creatures of God?
+v: deceits of this world that corrupt and destroy the
+v: creatures of God?
 v:answer:b: I renounce them.
 v:question: Do you renounce the sinful desires of the flesh that
-draw you from the love of God?
+v: draw you from the love of God?
 v:answer:b: I renounce them.
 
 r:The Bishop then prays over the Baptismal Candidate(s) and may anoint each
@@ -100,21 +101,21 @@ Candidate with the Oil of Exorcism, saying
 
 tb: Almighty God deliver you from the powers of darkness and evil,
 and lead you into the light and obedience of the kingdom of his
-Son Jesus Christ our Lord. __Amen__.
+Son Jesus Christ our Lord. **Amen**.
 
 pb:186
 
 r: The Bishop continues
 v:question: Do you turn to Jesus Christ and confess him as your
-Lord and Savior?
+v: Lord and Savior?
 v:answer:b: I do.
 v:question: Do you joyfully receive the Christian Faith,
-as revealed in the Holy Scriptures of the Old and
-New Testaments?
+v: as revealed in the Holy Scriptures of the Old and
+v: New Testaments?
 v:answer:b: I do.
 v:question: Will you obediently keep God’s holy will and
-commandments, and walk in them all the days of
-your life?
+v: commandments, and walk in them all the days of
+v: your life?
 v:answer:b: I will, the Lord being my helper.
 
 r:The Bishop addresses the Congregation, saying
@@ -176,7 +177,7 @@ received into the Ark of Christ’s Church; and being steadfast
 in faith, joyful through hope, and rooted in love, they may pass
 through the turbulent floods of this troublesome world and come
 into the land of everlasting life, through Jesus Christ our Lord.
-__Amen__.
+**Amen**.
 
 st:1: thanksgiving over the water
 
@@ -216,7 +217,7 @@ tb: Now, Father, sanctify this water by the power of your Holy
 Spirit. May all who are baptized here be cleansed from sin, be
 born again, and continue for ever faithful in the risen life of
 Jesus Christ our Savior. To him, to you, and to the Holy Spirit,
-be all honor and glory, now and for ever. __Amen__.
+be all honor and glory, now and for ever. **Amen**.
 
 pb:189
 
@@ -227,7 +228,7 @@ r: Then the Bishop immerses the Candidate or pours water upon the Candidate thre
 times, saying
 
 tb: _N_., I baptize you in the Name of the Father, and of the Son, and
-of the Holy Spirit. __Amen__.
+of the Holy Spirit. **Amen**.
 
 r: The Bishop makes the sign of the Cross upon the forehead of the newly baptized
 (and may use the Oil of Chrism to do so), saying
@@ -241,7 +242,7 @@ soldier and servant to the end of your days. Amen.
 r: or this
 
 tb: _N_., you are sealed by the Holy Spirit in Baptism and marked as
-Christ’s own for ever. __Amen__.
+Christ’s own for ever. **Amen**.
 
 r: If garments or candles are presented, they are given here.
 
@@ -253,7 +254,7 @@ forgiveness of sin, received them as your own _children_ by
 adoption, made _them members_ of your holy Church, and raised
 them to the new life of grace. Sustain _them_, O Lord, in your
 Holy Spirit, that _they_ may enjoy everlasting salvation through
-Jesus Christ our Lord. __Amen__.
+Jesus Christ our Lord. **Amen**.
 
 pb:190
 
@@ -277,14 +278,14 @@ these your servants for witness and ministry through the power
 of your Holy Spirit. Daily increase in them your manifold virtues
 of grace: the spirit of wisdom and understanding, the spirit of
 counsel and might, the spirit of knowledge and true godliness,
-and the spirit of holy fear, now and for ever. __Amen__.
+and the spirit of holy fear, now and for ever. **Amen**.
 
 st:1: for confirmation
 
 r: Each confirmand kneels in front of the Bishop. The Bishop, then laying his hands
 upon the person’s head, prays
 
-tb: Defend, O Lord, this your servant N. with your heavenly grace,
+tb: Defend, O Lord, this your servant **N.** with your heavenly grace,
 that he may continue yours for ever, and daily increase in your
 Holy Spirit more and more until he comes into the fullness of
 your everlasting kingdom.
@@ -339,7 +340,7 @@ tb: Almighty and everliving God, let your fatherly hand ever be upon
 these your servants; let your Holy Spirit ever be with them; and so
 lead them in the knowledge and obedience of your Holy Word,
 that they may faithfully serve you in this life, and joyfully dwell
-with you in the life to come; through Jesus Christ our Lord. __Amen__.
+with you in the life to come; through Jesus Christ our Lord. **Amen**.
 
 r: At a liturgy other than the Easter Vigil, the Exchange of the Peace and Offertory follow.
 
@@ -348,7 +349,7 @@ r: At the conclusion of the Liturgy, the following blessing may be used.
 tb: Go forth into the world in peace, be of good courage, and fight
 the good fight of faith, that you may finish your course with joy;
 and the blessing of God Almighty, the Father, the Son, and the
-Holy Spirit, be among you, and remain with you always. __Amen.__
+Holy Spirit, be among you, and remain with you always. **Amen.**
 
 pb:193
 

@@ -1,1 +1,154 @@
 pg: 215-221
+st:1: thanksgiving _for the_
+st:1: birth or adoption
+st:1: of a child
+
+r:The Birth or Adoption of a Child is always an occasion for thanksgiving and
+prayer in family and community. This rite is provided for use in a hospital or
+home, during public worship, or in some other appropriate place. If used in public
+worship, this liturgy takes place at the Peace or at the close of the Office. If used
+apart from public worship, a passage of Scripture is first read. Luke 18:15-17 or
+the Gospel appointed for the day is appropriate.
+
+st: for the birth of a child
+r: The Officiant addresses the mother and father
+tb: Dear Friends: The birth of a child is a joyous and solemn
+occasion in the life of a family, and an occasion for rejoicing in
+the Church. It has pleased Almighty God, our heavenly Father,
+to bless you with the gift of _N._, your _son_.
+
+st: for an adoption
+r: The Officiant addresses the mother and father
+tb: Dear Friends: The adoption of a child is a joyous and solemn
+occasion in the life of a family, and an occasion for rejoicing
+in the Church. Our heavenly Father has given us the Spirit of
+adoption, that we who were strangers might become members
+of the household of God. It has pleased Almighty God, our
+heavenly Father, to bless you with the gift of _N._ your _son_.
+
+pb:216
+r: The service continues with the Magnificat or Psalm 116, the Officiant first saying
+l: Let us, therefore, give thanks to God in the words of Scripture.
+
+use:cantical:magnificat:
+
+r: or this
+
+pb:217
+st: psalm 116
+st:lcL (vv.1-2,3b-5,11-12,16)
+use:psalm:116:1:2:b:
+use:psalm:116:3b:5:b:
+use:psalm:116:11:12:b
+use:psalm:116:16:26:b:
+use:gloria:
+r: The Kyrie and the Lord’s Prayer follow, unless this rite is used within public worship.
+v:officiant: The Lord be with you.
+v:people: And with your spirit.
+v:officiant: Let us pray.
+use:kyrie:
+
+pb:218
+r: Officiant and People say together
+use:prayer:lords_prayer
+
+r: If the occasion is the birth of a child, the Officiant may address the mother as
+follows. Otherwise, the liturgy continues with the Prayer for the Child.
+tb: _N._, as it has pleased Almighty God, of his goodness, to give you
+a safe delivery, and to preserve you in the trials of childbirth, let
+us give thanks to God:
+
+v:officiant: O Lord, you have saved this woman, your servant,
+v:people: Who put her trust in you.
+v:officiant: Be to her a strong tower,
+v:people: Against the face of the enemy.
+v:officiant: O Lord, hear our prayer;
+v:people: And let our cry come to you.
+v:officiant: Let us pray.
+
+tb: Almighty God, we give you humble thanks for graciously
+preserving, through the pain and peril of childbirth, your servant
+_N._, who now desires to offer her praises and thanksgivings to
+you. Grant, we ask you, most merciful Father, that she, with your
+help, may faithfully live according to your will in this life, and
+may also partake in the everlasting glory of the life to come;
+through Jesus Christ our Lord. **Amen.**
+
+pb:219
+st: prayer for the child
+r:The Officiant then prays one or both of the following prayers.
+
+tb: Watch over your child _N._, O Lord, as _his_ days increase; bless
+_him_ and guide _him_, and keep _him_ unspotted from the world.
+Strengthen _him_ when _he_ stands; comfort _him_ when discouraged
+or sorrowful; raise _him_ up if _he_ falls; and in _his_ heart may your
+peace which passes understanding abide all the days of _his_ life;
+through Jesus Christ our Lord. **Amen.**
+
+tb: O eternal God, you have promised to be a father to a thousand
+generations of those who love and fear you: Bless this child
+and preserve _his_ life; receive _him_ and enable _him_ to receive
+you, that through your grace and the Sacrament of Baptism _he_
+may become the child of God; through Jesus Christ our Lord.
+**Amen.**
+
+r: The Officiant may add one or more of the following prayers.
+st: for the parents
+tb: O God, you have taught us through your blessed Son that
+whoever receives a little child in the Name of Christ receives
+Christ himself: We give thanks for the blessing you have
+bestowed upon this family in giving them this child. Confirm
+their joy by a lively sense of your presence with them, and give
+them calm strength and patient wisdom as they seek to bring
+this child to love all that is true and noble, just and pure, lovable
+and gracious, excellent and admirable, following the example of
+our Lord and Savior Jesus Christ. **Amen.**
+
+pb:220
+st: for a sibling
+tb: Heavenly Father, your Son our Savior took young children into
+his arms and blessed them: Strengthen _N._ to be a wholesome
+and godly example, a companion, and an encourager to _his_ new
+_brother_. Keep them from strife and discord, and when they hurt
+one another, give them your grace readily to forgive; through
+Jesus Christ our Lord. **Amen.**
+
+st: for the birth parents of an adopted child
+tb: Heavenly Father, we ask you to bless each of the birth parents
+of this child. Reveal to them the fullness of your love for them
+and for the child entrusted to this family; through Jesus Christ
+our Lord. **Amen.**
+
+r: The Officiant prays for the family, saying
+tb: May God the Father, who through Baptism has adopted you as
+his children, grant you his grace. **Amen.**
+
+tb: May God the Son, who sanctified a home at Nazareth, fill you
+with his love. **Amen.**
+
+tb: May God the Holy Spirit, who makes the Church one family,
+keep you in his peace. **Amen.**
+
+r: A Priest may then bless the family, saying
+tb: The blessing of God Almighty, the Father, the Son, and the
+Holy Spirit, be among you, and remain with you always. **Amen.**
+
+r: The Peace may be exchanged.
+
+pb:221
+st:1: additional directions
+tb: The minister shall encourage parents not to defer the Baptism of their
+children. This rite does not serve to replace Holy Baptism, but provides
+the opportunity for families to give thanks upon the birth or adoption of
+a child.
+tb: The minister of the Congregation is directed to instruct the people,
+from time to time, about the duty of Christian parents to make prudent
+provision for the well-being of their children, and the duty of all persons,
+as stewards of God’s provision, to make a will.
+tb: This liturgy may only be adapted with the permission of the Bishop.
+In difficult circumstances, this service may require particular pastoral
+sensitivity.
+tb: In the case of a single parent, the address “_N._ and _N._” is shortened to “_N._”
+In the case of the mother dying in childbirth or some other tragic event,
+the Church still proclaims, even through pain, that the child is a gift from
+God

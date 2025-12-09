@@ -38,10 +38,10 @@ pb:162
 
 r:The liturgy continues with the appointed Lessons. Following the Sermon, the
 Candidates with their Sponsors stand before the Celebrant.
-st:1: the exhortation
+st: the exhortation
 r:The Celebrant then says to the People
 
-bt: Dearly beloved, Scripture teaches that we were all dead in our
+tb: Dearly beloved, Scripture teaches that we were all dead in our
 sins and trespasses, but by grace we may be saved through faith.
 Our Savior Jesus Christ said, “Unless one is born of water
 and the Spirit, he cannot enter the kingdom of God”; and he
@@ -57,11 +57,11 @@ cannot have.
 
 r:The Celebrant says
 
-st:1: the presentation
+st: the presentation
 
 l: The Candidate(s) for Holy Baptism will now be presented.
 
-st:1: adults and older children
+st: adults and older children
 
 r:The Candidates who are able to answer for themselves are presented individually
 by their Sponsors, using full names as follows
@@ -80,7 +80,7 @@ v:celebrant: Do you desire to be baptized?
 
 v:candidate: I do.
 
-st:1: infants and younger children
+st: infants and younger children
 
 r: Then the Candidates who are unable to answer for themselves are presented
 individually by their Godparents and Sponsoring Parents, using full names, as
@@ -91,7 +91,7 @@ l: I present N.N. to receive the Sacrament of Baptism.
 r: When the following promises are made by Godparents and Sponsoring Parents of
 infants or young children, the Celebrant addresses them
 
-bt: Today, on behalf of this child, you shall make vows to renounce
+tb: Today, on behalf of this child, you shall make vows to renounce
 the devil and all his works, to trust God wholeheartedly, and to
 serve him faithfully. It is your task to see that this child is taught,
 as soon as he is able to learn, the meaning of all these vows,
@@ -108,29 +108,29 @@ l: Are you willing and ready to undertake this?
 
 r: Godparents and Sponsoring Parents
 
-v:: I am, the Lord being my helper.
+v: I am, the Lord being my helper.
 
 pb:164
 
-st:1: profession of faith
+st: profession of faith
 
 r:The Celebrant then examines the Candidates who can speak for themselves, and
 the Godparents and Sponsoring Parents who will speak on behalf of infants or
 young children, saying
 
 v:question: Do you renounce the devil and all the spiritual forces
-of wickedness that rebel against God?
+v: of wickedness that rebel against God?
 
 v:answer: I renounce them.
 
 v:question: Do you renounce the empty promises and deadly
-deceits of this world that corrupt and destroy the
-creatures of God?
+v: deceits of this world that corrupt and destroy the
+v: creatures of God?
 
 v:answer: I renounce them.
 
 v:question: Do you renounce the sinful desires of the flesh that
-draw you from the love of God?
+v: draw you from the love of God?
 
 v:answer: I renounce them.
 
@@ -144,20 +144,20 @@ Son Jesus Christ our Lord. _Amen._
 r: The Celebrant continues
 
 v:question: Do you turn to Jesus Christ and confess him as your
-Lord and Savior?
+v: Lord and Savior?
 
 v:answer: I do.
 
 v:question: Do you joyfully receive the Christian Faith,
-as revealed in the Holy Scriptures of the Old and New Testaments?
+v: as revealed in the Holy Scriptures of the Old and New Testaments?
 
 v:answer: I do.
 
 pb:165
 
 v:question: Will you obediently keep God’s holy will and
-commandments, and walk in them all the days of
-your life?
+v: commandments, and walk in them all the days of
+v: your life?
 
 v:answer: I will, the Lord being my helper.
 
@@ -197,8 +197,6 @@ v:b: He will come again to judge the living and the dead.
 
 pb:166
 
-Celebrant
-People
 v:celebrant: Do you believe and trust in the Holy Spirit?
 v:people: I do.
 v:b: I believe in the Holy Spirit,
@@ -207,7 +205,7 @@ v:b: the communion of saints,
 v:b: the forgiveness of sins,
 v:b: the resurrection of the body,
 v:b: and the life everlasting. Amen.
-st:1: litany for the candidates
+st: litany for the candidates
 
 r:The Deacon, or other person appointed, may say
 
@@ -248,7 +246,7 @@ l:i:b: We beseech you to hear us, Good Lord.
 
 r:Other petitions may be added.
 
-st:1: prayer for the candidates
+st: prayer for the candidates
 
 r: The Celebrant now prays for the Candidate(s) as follows
 l: Let us pray.
@@ -262,8 +260,8 @@ destruction and received into the Ark of Christ’s Church; and
 being steadfast in faith, joyful through hope, and rooted in love,
 they may pass through the turbulent floods of this troublesome
 world and come into the land of everlasting life, through Jesus
-Christ our Lord. __Amen__.
-st:1: thanksgiving over the water
+Christ our Lord. **Amen**.
+st: thanksgiving over the water
 
 r:If there is a procession to the baptismal font, a psalm, anthem, or hymn may be sung.
 
@@ -301,7 +299,7 @@ tb: Now, Father, sanctify this water by the power of your Holy
 Spirit. May all who are baptized here be cleansed from sin, be
 born again, and continue for ever faithful in the risen life of
 Jesus Christ our Savior. To him, to you, and to the Holy Spirit,
-be all honor and glory, now and for ever. __Amen__.
+be all honor and glory, now and for ever. **Amen**.
 
 pb:169
 
@@ -313,7 +311,7 @@ r: Then the Celebrant immerses the Candidate or pours water upon the Candidate
 three times, saying
 
 tb: _N_., I baptize you in the Name of the Father, and of the Son, and
-of the Holy Spirit. __Amen__.
+of the Holy Spirit. **Amen**.
 
 r: The Celebrant makes the sign of the Cross upon the forehead of the newly baptized
 (and may use the Oil of Chrism to do so), saying
@@ -322,12 +320,12 @@ tb: _N_., receive the sign of the Cross as a token of your new life in
 Christ, in which you shall not be ashamed to confess the faith
 of Christ crucified, to fight bravely under his banner against the
 world, the flesh, and the devil, and to continue as his faithful
-soldier and servant to the end of your days. __Amen__.
+soldier and servant to the end of your days. **Amen**.
 
 r: or this
 
 tb: _N_., you are sealed by the Holy Spirit in Baptism and marked as
-Christ’s own for ever. __Amen__.
+Christ’s own for ever. **Amen**.
 
 r: If garments or candles are presented, they are given here.
 
@@ -339,7 +337,7 @@ forgiveness of sin, received _them_ as your own _children_ by
 adoption, made _them members_ of your holy Church, and raised
 _them_ to the new life of grace. Sustain _them_, O Lord, in your
 Holy Spirit, that _they_ may enjoy everlasting salvation through
-Jesus Christ our Lord. __Amen__.
+Jesus Christ our Lord. **Amen**.
 
 pb:170
 
@@ -350,9 +348,9 @@ v:: Let us welcome the newly baptized.
 r: Celebrant and People
 
 v:b: We receive you into the fellowship of the Church.
-Confess the faith of Christ crucified, proclaim his
-resurrection, and share with us in the royal priesthood
-of all his people.
+v: Confess the faith of Christ crucified, proclaim his
+v: resurrection, and share with us in the royal priesthood
+v: of all his people.
 
 r: The Peace is now exchanged.
 

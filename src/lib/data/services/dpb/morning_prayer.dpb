@@ -1,48 +1,15 @@
 pg: 11-32
 tp: Daily Morning Prayer
 
-st:3: daily morning prayer
+st:1: daily morning prayer
 r: The Officiant may begin Morning Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office (pages 27-29), is customary.
 scripture:philippians 1:2:: Grace to you and peace from God our Father and the Lord Jesus Christ."
 r: or this
 scripture:psalm 122:1:: I was glad when they said unto me, "We will go into the house of the Lord."
 r: or this
 scripture:psalm 19:14:: Let the words of my mouth and the meditation of my heart be always acceptable in your sight, O Lord, my rock and my redeemer.
-st:xl: confession of sin
-r: The Officiant says to the People
-tb: Dearly beloved, the Scriptures teach us to acknowledge our many sins and offenses, not concealing them from our heavenly Father, but confessing them with humble and obedient hearts that we may obtain forgiveness by his infinite goodness and mercy. We ought at all times humbly to acknowledge our sins before Almighty God, but especially when we come together in his presence to give thanks for the great benefits we have received at his hands, to declare his most worthy praise, to hear his holy Word, and to ask, for ourselves and on behalf of others, those things which are necessary for our life and our salvation. Therefore, draw near with me to the throne of heavenly grace.
-r: or this
-tb: Let us humbly confess our sins to Almighty God.
-r: Silence is kept. All kneeling, the Officiant and People say
-l:b:Almighty and most merciful Father,
-l:b:i: we have erred and strayed from your ways like lost sheep.
-l:b:We have followed too much the devices and desires
-l:b:i: of our own hearts.
-l:b:We have offended against your holy laws.
-l:b:We have left undone those things which we ought to have done,
-l:b:i: and we have done those things which we ought not
-l:b:i: to have done;
-l:b:and apart from your grace, there is no health in us.
-l:b:O Lord, have mercy upon us.
-l:b:Spare all those who confess their faults.
-l:b:Restore all those who are penitent, according to your promises
-l:b:i: declared to all people in Christ Jesus our Lord.
-l:b:And grant, O most merciful Father, for his sake,
-l:b:i: that we may now live a godly, righteous, and sober life,
-l:b:i: to the glory of your holy Name. __Amen.__
-r: The Priest alone stands and says
-tb: Almighty God, the Father of our Lord Jesus Christ, desires not the death of sinners,
-but that they may turn from their wickedness and live. He has empowered and commanded his
-ministers to pronounce to his people, being penitent, the absolution and remission of their sins.
-He pardons and absolves all who truly repent and genuinely believe his holy Gospel.
-For this reason, we beseech him to grant us true repentance and his Holy Spirit,
-that our present deeds may please him, the rest of our lives may be pure and holy, and that at
-the last we may come to his eternal joy; through Jesus Christ our Lord. __Amen.__
-r: or this
-tb: The Almighty and merciful Lord grant you absolution and remission of all your sins, true repentance, amendment of life, and the grace and consolation of his Holy Spirit. __Amen.__
-r: A Deacon or layperson remains kneeling and prays
-tb: Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. __Amen.__
-st:xl: invitatory
+use:prayer:office_confession:
+st: invitatory
 r: All stand.
 v:officiant: O Lord, open our lips;
 v:people: And our mouth shall proclaim your praise.
@@ -52,6 +19,7 @@ v:officiant: Glory be to the Father, and to the Son, and to the Holy Spirit;
 v:people: As it was in the beginning, is now, and ever shall be,world without end. Amen.
 v:officiant: Praise the Lord.
 v:people: The Lord's Name be praised.
+pb:14
 r: Then follows the Venite. Alternatively, the Jubilate may be used.
 r: One of these antiphons, or one from the seasonal antiphons provided at the end of the Office (pages 29-30), may be sung or said before and after the Invitatory Psalm. antiphon:
 l:The earth is the Lord’s for he made it: *
@@ -62,77 +30,21 @@ l:i:b: O come, let us adore him.
 r:or this
 l:The mercy of the Lord is everlasting: *
 l:i:b: O come, let us adore him.
-st: venite
-st:lc: _O Come_
-l:b:O come, let us sing unto the Lord; *
-l:b:i: let us heartily rejoice in the strength of our salvation.
-l:b:Let us come before his presence with thanksgiving *
-l:b:i: and show ourselves glad in him with psalms.
-l:b:For the Lord is a great God *
-l:b:i: and a great King above all gods.
-l:b:In his hand are all the depths of the earth, *
-l:b:i: and the heights of the hills are his also.
-l:b:The sea is his, for he made it, *
-l:b:i: and his hands prepared the dry land.
-l:b:O come, let us worship and fall down, *
-l:b:i: and kneel before the Lord our Maker.
-l:b:For he is our God, *
-l:i:and we are the people of his pasture,
-l:b:i: and the sheep of his hand.
-r: The following verses may be omitted, except in Lent.
-l:b:Today, if you will hear his voice, harden not your hearts *
-l:b:i: as in the provocation, and as in the day of temptation in
-l:b:i: the wilderness,
-l:b:When your fathers tested me, *
-l:b:i: and put me to the proof, though they had seen my works.
-l:b:Forty years long was I grieved with this generation and said, *
-l:b:i: "It is a people that err in their hearts,
-l:b:i: for they have not known my ways,"
-l:b:Of whom I swore in my wrath *
-l:b:i: that they should not enter into my rest.
-ref: psalm 95:1-7, 8-11
+use:canticle:venite:
+
 r: or this
-st: jubilate
-st:lc: _Be Joyful_
-l:b:O be joyful in the Lord, all you lands; *
-l:b:i: serve the Lord with gladness,
-l:b:i: and come before his presence with a song.
-l:b:Be assured that the Lord, he is God; *
-l:b:i: it is he that has made us, and not we ourselves;
-l:b:i: we are his people, and the sheep of his pasture.
-l:b:O go your way into his gates with thanksgiving,
-l:b:and into his courts with praise; *
-l:b:i: be thankful unto him, and speak good of his Name.
-l:b:For the Lord is gracious, his mercy is everlasting, *
-l:b:i: and his truth endures from generation to generation.
-ref: psalm 100
+use:cantical:jubilate:
 r: During the first week of Easter, the Pascha Nostrum, without antiphons, is used in place of the Invitatory Psalm, and it may be used throughout Eastertide.
-st: pascha nostrum
-st:lc: _Christ our Passover_
-l:b:Alleluia. Christ our Passover has been sacrificed for us; *
-l:b:i: therefore let us keep the feast,
-l:b:Not with the old leaven, the leaven of malice and evil, *
-l:b:i: but with the unleavened bread of sincerity and truth. Alleluia.
-l:b:Christ being raised from the dead will never die again; *
-l:b:i: death no longer has dominion over him.
-l:b:The death that he died, he died to sin, once for all; *
-l:b:i: but the life he lives, he lives to God.
-l:b:So also consider yourselves dead to sin, *
-l:b:i: and alive to God in Jesus Christ our Lord. Alleluia.
-l:b:Christ has been raised from the dead, *
-l:b:i: the firstfruits of those who have fallen asleep.
-l:b:For since by a man came death, *
-l:b:i: by a man has come also the resurrection of the dead.
-l:b:For as in Adam all die, *
-l:b:i: so also in Christ shall all be made alive. Alleluia.
-ref: 1 corinthians 5:7-8; romans 6:9-11; 1 corinthians 15:20-22
+
+pb:16
+use:canticle:pacha_nostrum:
 r: Then follows
 st: the psalm or psalms appointed: the psalm or psalms appointed
 r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
 use:gloria:
 st: the lessons: the lessons
 r: One or more Lessons, as appointed, are read, the Reader first saying
-l: A Reading from _____________.
+l: A Reading from _**11**_.
 r: A citation giving chapter and verse may be added.
 r: After each lesson the Reader may say
 v:The Word of the Lord.
@@ -142,87 +54,14 @@ v:Here ends the Reading.
 r: The following Canticles are normally sung or said after each of the lessons.
 The Officiant may also use a Canticle drawn from the Supplemental Canticles (pages 79-88)
 or an appropriate song of praise.
-st: te deum laudamus
-st:lc: _We Praise You, O God_
-l:b:We praise you, O God; we acclaim you as Lord; *
-l:b:i: all creation worships you, the Father everlasting.
-l:b:To you all angels, all the powers of heaven, *
-l:b:i: the cherubim and seraphim, sing in endless praise:
-l:b:Holy, Holy, Holy, Lord God of power and might, *
-l:b:i: heaven and earth are full of your glory.
-l:b:The glorious company of apostles praise you. *
-l:b:i: The noble fellowship of prophets praise you.
-l:b:The white-robed army of martyrs praise you. *
-l:b:i: Throughout the world the holy Church acclaims you:
-l:b:Father, of majesty unbounded,
-l:b:your true and only Son, worthy of all praise, *
-l:b:i: and the Holy Spirit, advocate and guide.
-l:b:You, Christ, are the king of glory, *
-l:b:i:the eternal Son of the Father.
-l:b: When you took our flesh to set us free *
-l:b:i:you humbly chose the Virgin's womb.
-l:b: You overcame the sting of death *
-l:b:i:and opened the kingdom of heaven to all believers.
-l:b: You are seated at God's right hand in glory. *
-l:b:i:We believe that you will come to be our judge.
-l:b: Come then, Lord, and help your people, *
-l:b:i:bought with the price of your own blood,
-l:b: and bring us with your saints *
-l:b:i:to glory everlasting.
-r: The following verses may be omitted
-l:b: Save your people, Lord, and bless your inheritance; *
-l:b:i:govern and uphold them now and always.
-l:b: Day by day we bless you; *
-l:b:i:we praise your Name for ever.
-l:b: Keep us today, Lord, from all sin; *
-l:b:i:have mercy on us, Lord, have mercy.
-l:b: Lord, show us your love and mercy, *
-l:b:i:for we have put our trust in you.
-l:b: In you, Lord, is our hope; *
-l:b:i:let us never be put to shame.
-
+use:canticle:te_deum_laudamus:
+pb:18
 r: During Lent the Benedictus es, Domine usually replaces the Te Deum, and it may be used at other times.
-st: benedictuses, domine
-st:lc: _A Song of Praise_
-l:b: Glory to you, Lord God of our fathers; *
-l:b:i:you are worthy of praise; glory to you.
-l:b:Glory to you for the radiance of your holy Name; *
-l:b:i: we will praise you and highly exalt you for ever.
-l:b:Glory to you in the splendor of your temple; *
-l:b:i: on the throne of your majesty, glory to you.
-l:b:Glory to you, seated between the Cherubim; *
-l:b:i: we will praise you and highly exalt you for ever.
-l:b:Glory to you, beholding the depths; *
-l:b:i: in the high vault of heaven, glory to you.
-l:b:Glory to you, Father, Son, and Holy Spirit; *
-l:b:i: we will praise you and highly exalt you for ever.
-ref: song of the three young men, 29-34
-st: benedictus
-st:lc: The Song of Zechariah: The Song of Zechariah
-l:b:Blessed be the Lord, the God of Israel; *
-l:b:i: he has come to his people and set them free.
-l:b:He has raised up for us a mighty savior, *
-l:b:i: born of the house of his servant David.
-l:b:Through his holy prophets he promised of old
-l:b:that he would save us from our enemies, *
-l:b:i: from the hands of all who hate us.
-l:b:He promised to show mercy to our fathers *
-l:b:i: and to remember his holy covenant.
-l:b:This was the oath he swore to our father Abraham, *
-l:b:i: to set us free from the hands of our enemies,
-l:b:Free to worship him without fear, *
-l:b:i: holy and righteous in his sight
-l:b:i: all the days of our life.
-l:b:You, my child, shall be called the prophet of the Most High, *
-l:b:i: for you will go before the Lord to prepare his way,
-l:b:To give his people knowledge of salvation *
-l:b:i: by the forgiveness of their sins.
-l:b:In the tender compassion of our God *
-l:b:i: the dawn from on high shall break upon us,
-l:b:To shine on those who dwell in darkness
-l:b:i: and in the shadow of death, *
-l:b:i: and to guide our feet into the way of peace.
-ref: luke 1:68-79
+use:canticle:benedictus_es_domine:
+
+pb:19
+use:canticle:benedictus:
+
 r: Officiant and People together, all standing
 use:apostles_creed:
 
@@ -234,7 +73,7 @@ v:officiant:Let us pray.
 r:The People kneel or stand.
 use:kyrie:
 r: Officiant and People
-use:lords_prayer:
+use:prayer:lords_prayer:
 v:officiant: O Lord, show your mercy upon us;
 v:people: And grant us your salvation.
 v:officiant: O Lord, guide those who govern us;
@@ -289,27 +128,7 @@ tb: Lord Jesus Christ, you stretched out your arms of love on the hard wood of t
 r: The Officiant may invite the People to offer intercessions and thanksgivings.
 r: A hymn or anthem may be sung.
 r: Before the close of the Office one or both of the following prayers may be used.
-st: the general thanksgiving
-r: Officiant and People
-l:b:Almighty God, Father of all mercies,
-l:b:i: we your unworthy servants give you humble thanks
-l:b:i: for all your goodness and loving-kindness
-l:b:i: to us and to all whom you have made.
-l:b:We bless you for our creation, preservation,
-l:b:i: and all the blessings of this life;
-l:b:i: but above all for your immeasurable love
-l:b:i: in the redemption of the world by our Lord Jesus Christ;
-l:b:i: for the means of grace, and for the hope of glory.
-l:b:And, we pray, give us such an awareness of your mercies,
-l:b:i: that with truly thankful hearts
-l:b:i: we may show forth your praise,
-l:b:i: not only with our lips, but in our lives,
-l:b:i: by giving up our selves to your service,
-l:b:i: and by walking before you
-l:b:i: in holiness and righteousness all our days;
-l:b:Through Jesus Christ our Lord,
-l:b:i: to whom, with you and the Holy Spirit,
-l:b:i: be honor and glory throughout all ages. Amen.
+use:prayer:general_thanksgiving:
 use:canticle:chrysostom:
 v:officiant: Let us bless the Lord.
 v:people: Thanks be to God.

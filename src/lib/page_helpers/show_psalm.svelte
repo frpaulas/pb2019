@@ -7,10 +7,12 @@
 		ps: number | string;
 		from?: number;
 		to?: number;
+		fromLine?: number;
+		toLine?: number;
 		bold?: boolean;
 	}
 
-	let { ps, from = 1, to = 999, bold = false }: Props = $props();
+	let { ps, from = 1, to = 999, fromLine = 1, toLine = 2, bold = false }: Props = $props();
 
 	// Get the psalm data
 	let verses = $derived.by(() => {
@@ -20,9 +22,8 @@
 			// If no 'to' specified, use the last verse number
 			const endVerse = to ?? psalmData.verses[psalmData.verses.length - 1].vs;
 
-			// Get verses in range, but don't throw error if 'to' exceeds actual verses
-			// Just return all available verses up to the requested range
-			return psalm(ps, from, endVerse, bold);
+			// Get verses in range with line selection
+			return psalm(ps, from, endVerse, fromLine, toLine);
 		} catch (error) {
 			// If psalm not found, return empty array (fail silently)
 			console.warn(`Psalm ${ps} not found in database`);

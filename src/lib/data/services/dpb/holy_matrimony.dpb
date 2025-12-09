@@ -1,6 +1,7 @@
 pg:201-212
+pb:201
 
-st:2: holy matrimony
+st:1: holy matrimony
 
 r: At the time appointed, the persons to be married, with their witnesses and guests,
 assemble in the church or some other authorized place.
@@ -87,7 +88,7 @@ suitable question.
 Who presents _N._ [and _N._] for Holy Matrimony?
 v:response: We do.
 
-st:1: the collect of the day
+st: the collect of the day
 
 r: The Celebrant says to the People
 v: The Lord be with you.
@@ -103,9 +104,9 @@ woman who come to you seeking your blessing, and assist them
 with your grace, that with true fidelity and steadfast love they
 may honor and keep the promises and vows they make; through
 Jesus Christ our Savior, who lives and reigns with you in the
-unity of the Holy Spirit, one God, for ever and ever. __Amen__.
+unity of the Holy Spirit, one God, for ever and ever. **Amen**.
 
-st:1: the lessons
+st: the lessons
 
 r: One or more of the following passages is read.
 ref+:genesis 1:26-28: (Male and female he created them)
@@ -134,15 +135,15 @@ Lessons. At a Eucharist, all stand, and the Deacon or Minister appointed says
 pb:205
 
 v:: The Holy Gospel of our Lord Jesus Christ according
-to ________.
+v: to ********.
 v:people: Glory to you, Lord Christ.
 
 r: After the Gospel, the Reader says
 v:: The Gospel of the Lord.
 v:people: Praise to you, Lord Christ.
 
-st:1: the sermon
-st:1: the marriage
+st: the sermon
+st: the marriage
 
 r: The Man, facing the Woman and taking her right hand in his, says
 
@@ -169,7 +170,7 @@ pb:206
 
 tb: Bless, O Lord, _this ring_ to be _a sign_ of the vows by which this
 man and this woman have bound themselves to each other;
-through Jesus Christ our Lord. __Amen__.
+through Jesus Christ our Lord. **Amen**.
 
 r: The giver places the ring on the ring-finger of the other’s left hand and says
 
@@ -188,13 +189,13 @@ l: Those whom God has joined together let no one put asunder.
 
 v:people: Amen.
 
-st:1: the prayers
+st: the prayers
 
 r: If Communion is to follow, the Lord’s Prayer may be omitted here.
 r: All standing, the Officiant says
 l: Let us pray together in the words our Savior taught us.
 r: People and Officiant
-lords_prayer:
+use:prayer:lords_prayer:
 
 pb: 207
 
@@ -258,9 +259,9 @@ pb:209
 
 tb: Grant these our prayers, O Father, who with your Son and the
 Holy Spirit live and reign in perfect unity, now and for ever.
-__Amen__.
+**Amen**.
 
-st:1: the blessing of the marriage
+st: the blessing of the marriage
 
 r: The Husband and Wife kneel, and the Officiant says
 
@@ -279,7 +280,7 @@ life and in their death. In your mercy, bring them to your
 heavenly banquet where your saints feast for ever at the great
 marriage supper of the Lamb; through Jesus Christ our Lord,
 who with you and the Holy Spirit lives and reigns, one God, for
-ever and ever. __Amen.__
+ever and ever. **Amen.**
 
 r: The Husband and Wife still kneeling, the Bishop or Priest adds this nuptial blessing.
 
@@ -287,11 +288,11 @@ tb:God the Father, God the Son, God the Holy Spirit, bless,
 preserve, and keep you; the Lord mercifully with his favor look
 upon you, and fill you with all spiritual benediction and grace;
 that you may faithfully live together in this life, and in the age to
-come have life everlasting. __Amen.__
+come have life everlasting. **Amen.**
 
 pb:210
 
-st:1: the peace
+st: the peace
 
 r: The Officiant may say to the People
 l: The Peace of the Lord be always with you.
@@ -315,7 +316,7 @@ allow others to receive Communion.
 
 r: The following Post Communion Prayer is used.
 
-st:1: post communion prayer
+st: post communion prayer
 
 tb: O God, the giver of all that is true and lovely and gracious: we
 thank you for binding us together in these holy mysteries of the
@@ -324,11 +325,11 @@ and giving us a foretaste of the great marriage supper of the
 Lamb. Grant that by your Holy Spirit, _N._ and _N._, now joined
 in Holy Matrimony, may become one in heart and soul, live in
 fidelity and peace, and obtain those eternal joys prepared for all
-who love you; for the sake of Jesus Christ our Lord. __Amen.__
+who love you; for the sake of Jesus Christ our Lord. **Amen.**
 
 pb:211
 
-st:2: additional directions
+st:1: additional directions
 
 tb: The entrance of the principals at Holy Matrimony may consist of
 two processions, one of the groom and one of the bride, or of a single
@@ -348,10 +349,10 @@ Matrimony? Will you love her, comfort her, honor, and keep
 her in sickness and in health; and, forsaking all others, keep
 yourself unto her alone, so long as you both shall live?
 r:i: The Man answers
-v:: I will.
+v: I will.
 
 r:i: The Officiant says to the Woman
-tb: _N._ will you have this man to be your wedded husband, to
+tb:i: _N._ will you have this man to be your wedded husband, to
 live together after God’s ordinance in the holy estate of
 Matrimony? Will you obey him and serve him, love, honor,
 and keep him in sickness and in health; and, forsaking all
@@ -359,7 +360,7 @@ others, keep yourself unto him alone, so long as you both
 shall live?
 
 r:i: The Woman answers
-v:: I will.
+v: I will.
 
 pb:212
 
@@ -378,7 +379,7 @@ outside the liturgy, immediately after the rite.
 tb: At the conclusion of the liturgy, the newly married couple may be
 introduced with these, or similar words:
 
-tb: “Dearly beloved, please greet ______________.”
+tb: “Dearly beloved, please greet **15**.”
 
 tb: The liturgy may end with a procession of the bridal party and their
 families or according to local custom.

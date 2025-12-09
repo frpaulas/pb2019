@@ -1,1708 +1,1005 @@
 {
-  "renewed_ancient": {
-    "title": "The Holy Eucharist: Renewed Ancient Text",
-    "slug": "renewed-ancient",
-    "pb_pages": [123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138],
-    "sections": [
-      {
-        "id": "title_page",
-        "title": "Title Page",
-        "pb_page_start": 123,
-        "pb_page_end": 123,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the order for the administration of"
-          },
-          {
-            "type": "section_title",
-            "text": "the lord's supper"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "or"
-          },
-          {
-            "type": "section_title",
-            "text": "holy communion,"
-          },
-          {
-            "type": "section_title",
-            "text": "commonly called"
-          },
-          {
-            "type": "section_title",
-            "text": "the holy eucharist"
-          },
-          {
-            "type": "section_title",
-            "fancy": true,
-            "text": "Renewed Ancient Text"
-          },
-          {
-            "type": "rubric",
-            "text": "A hymn, psalm, or anthem may be sung."
-          }
-        ]
-      },
-      {
-        "id": "acclamation",
-        "title": "The Acclamation",
-        "pb_page_start": 124,
-        "pb_page_end": 124,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the acclamation"
-          },
-          {
-            "type": "rubric",
-            "text": "The People standing, the Celebrant says this or a seasonal greeting (pages 145-146)"
-          },
-          {
-            "type": "versical",
-            "text": "Blessed be God: the Father, the Son, and the Holy Spirit."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "And blessed be his kingdom, now and for ever. Amen."
-          },
-          {
-            "type": "rubric",
-            "text": "In the season of Lent"
-          },
-          {
-            "type": "versical",
-            "celebrant": true,
-            "text": "Bless the Lord who forgives all our sins."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "His mercy endures for ever."
-          },
-          {
-            "type": "rubric",
-            "text": "From Easter Day until the Eve of Pentecost"
-          },
-          {
-            "type": "versical",
-            "celebrant": true,
-            "text": "Alleluia! Christ is risen!"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "The Lord is risen indeed! Alleluia!"
-          }
-        ]
-      },
-      {
-        "id": "collect_for_purity",
-        "title": "The Collect for Purity",
-        "pb_page_start": 124,
-        "pb_page_end": 124,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the collect for purity"
-          },
-          {
-            "type": "rubric",
-            "text": "The Celebrant prays (and the People may be invited to join)"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "Almighty God, to you all hearts are open, all desires known, and from you no secrets are hid: Cleanse the thoughts of our hearts by the inspiration of your Holy Spirit, that we may perfectly love you, and worthily magnify your holy Name; through Christ our Lord."
-          }
-        ]
-      },
-      {
-        "id": "summary_of_law",
-        "title": "The Summary of the Law",
-        "pb_page_start": 124,
-        "pb_page_end": 124,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the summary of the law"
-          },
-          {
-            "type": "rubric",
-            "text": "Then follows the Summary of the Law, or The Decalogue (page 100)."
-          },
-          {
-            "type": "line",
-            "text": "Hear what our Lord Jesus Christ says:"
-          },
-          {
-            "type": "text_block",
-            "text": "You shall love the Lord your God with all your heart and with all your soul and with all your mind. This is the first and great commandment. And the second is like it: You shall love your neighbor as yourself. On these two commandments depend all the Law and the Prophets."
-          },
-          {
-            "type": "ref",
-            "t": true,
-            "text": "matthew 22:37-40"
-          }
-        ]
-      },
-      {
-        "id": "kyrie",
-        "title": "The Kyrie",
-        "pb_page_start": 124,
-        "pb_page_end": 125,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the kyrie"
-          },
-          {
-            "type": "rubric",
-            "text": "The Celebrant and People pray"
-          },
-          {
-            "type": "line",
-            "text": "Lord, have mercy [upon us]."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Christ, have mercy [upon us]."
-          },
-          {
-            "type": "line",
-            "text": "Lord, have mercy [upon us]."
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "line",
-            "text": "Kyrie eleison."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Christe eleison."
-          },
-          {
-            "type": "line",
-            "text": "Kyrie eleison."
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "line",
-            "text": "Holy God,"
-          },
-          {
-            "type": "line",
-            "text": "Holy and Mighty,"
-          },
-          {
-            "type": "line",
-            "text": "Holy Immortal One,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Have mercy upon us."
-          }
-        ]
-      },
-      {
-        "id": "gloria_in_excelsis",
-        "title": "The Gloria in Excelsis",
-        "pb_page_start": 125,
-        "pb_page_end": 125,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the gloria in excelsis"
-          },
-          {
-            "type": "rubric",
-            "text": "Gloria or some other song of praise may be sung or said, all standing. It is appropriate to omit the song of praise during penitential seasons and days appointed for fasting."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Glory to God in the highest,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and peace to his people on earth."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Lord God, heavenly King,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "almighty God and Father,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "we worship you, we give you thanks,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "we praise you for your glory."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Lord Jesus Christ, only Son of the Father,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Lord God, Lamb of God,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "you take away the sin of the world:"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "have mercy on us;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "you are seated at the right hand of the Father:"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "receive our prayer."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "For you alone are the Holy One,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "you alone are the Lord,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "you alone are the Most High,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "Jesus Christ,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "with the Holy Spirit,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "in the glory of God the Father. Amen."
-          }
-        ]
-      },
-      {
-        "id": "collect_of_day",
-        "title": "The Collect of the Day",
-        "pb_page_start": 125,
-        "pb_page_end": 125,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the collect of the day"
-          },
-          {
-            "type": "rubric",
-            "text": "The Celebrant says to the People"
-          },
-          {
-            "type": "versical",
-            "text": "The Lord be with you."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "And with your spirit."
-          },
-          {
-            "type": "versical",
-            "officiant": true,
-            "text": "Let us pray."
-          },
-          {
-            "type": "rubric",
-            "text": "The Celebrant prays the Collect."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Amen."
-          }
-        ]
-      },
-      {
-        "id": "lessons",
-        "title": "The Lessons",
-        "pb_page_start": 126,
-        "pb_page_end": 126,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the lessons"
-          },
-          {
-            "type": "rubric",
-            "text": "One or more Lessons, as appointed, are read, the Reader first saying"
-          },
-          {
-            "type": "versical",
-            "text": "A Reading from _____________."
-          },
-          {
-            "type": "rubric",
-            "text": "A citation giving chapter and verse may be added."
-          },
-          {
-            "type": "rubric",
-            "text": "After each Lesson the Reader may say"
-          },
-          {
-            "type": "versical",
-            "text": "The Word of the Lord."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Thanks be to God."
-          },
-          {
-            "type": "rubric",
-            "text": "Or the Reader may say"
-          },
-          {
-            "type": "rubric",
-            "add_on": "Here ends the Reading.",
-            "text": "Or the Reader may say"
-          },
-          {
-            "type": "rubric",
-            "text": "Silence may follow."
-          },
-          {
-            "type": "rubric",
-            "text": "A psalm, hymn, or anthem may follow each reading."
-          },
-          {
-            "type": "rubric",
-            "text": "All standing, the Deacon or Priest reads the Gospel, first saying"
-          },
-          {
-            "type": "versical",
-            "text": "The Holy Gospel of our Lord Jesus Christ according to _____________."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Glory to you, Lord Christ."
-          },
-          {
-            "type": "rubric",
-            "text": "After the Gospel, the Reader says"
-          },
-          {
-            "type": "versical",
-            "text": "The Gospel of the Lord."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Praise to you, Lord Christ."
-          }
-        ]
-      },
-      {
-        "id": "sermon",
-        "title": "The Sermon",
-        "pb_page_start": 126,
-        "pb_page_end": 126,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the sermon"
-          }
-        ]
-      },
-      {
-        "id": "nicene_creed",
-        "title": "The Nicene Creed",
-        "pb_page_start": 127,
-        "pb_page_end": 127,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the nicene creed"
-          },
-          {
-            "type": "rubric",
-            "text": "On Sundays, other Major Feast Days, and other times as appointed, all stand to recite the Nicene Creed, the Celebrant first saying"
-          },
-          {
-            "type": "line",
-            "text": "Let us confess our faith in the words of the Nicene Creed:"
-          },
-          {
-            "type": "rubric",
-            "text": "Celebrant and People"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "We believe in one God,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "the Father, the Almighty,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "maker of heaven and earth,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "of all that is, visible and invisible."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "We believe in one Lord, Jesus Christ,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "the only-begotten Son of God,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "eternally begotten of the Father,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "God from God, Light from Light,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "true God from true God,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "begotten, not made,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "of one Being with the Father;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "through him all things were made."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "For us and for our salvation he came down from heaven,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "was incarnate from the Holy Spirit and the Virgin Mary,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and was made man."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "For our sake he was crucified under Pontius Pilate;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "he suffered death and was buried."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "On the third day he rose again in accordance with the Scriptures;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "he ascended into heaven"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and is seated at the right hand of the Father."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "He will come again in glory to judge the living and the dead,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and his kingdom will have no end."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "We believe in the Holy Spirit, the Lord, the giver of life,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "who proceeds from the Father [and the Son],"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "who with the Father and the Son is worshiped and glorified,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "who has spoken through the prophets."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "We believe in one holy catholic and apostolic Church."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "We acknowledge one Baptism for the forgiveness of sins."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "We look for the resurrection of the dead,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and the life of the world to come. Amen."
-          },
-          {
-            "type": "footnote",
-            "text": "The phrase \"and the Son\" (Latin filioque) is not in the original Greek text. See the resolution of the College of Bishops concerning the filioque in Documentary Foundations (page 768)."
-          }
-        ]
-      },
-      {
-        "id": "prayers_of_people",
-        "title": "The Prayers of the People",
-        "pb_page_start": 128,
-        "pb_page_end": 129,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the prayers of the people"
-          },
-          {
-            "type": "rubric",
-            "text": "The Deacon or other person appointed says these prayers, or the Prayers of the People in the Anglican Standard Text. The reader pauses after each bidding, and the people may add petitions, either silently or aloud."
-          },
-          {
-            "type": "line",
-            "text": "Let us pray for the Church and for the world, saying,"
-          },
-          {
-            "type": "line",
-            "text": "\"hear our prayer.\""
-          },
-          {
-            "type": "text_block",
-            "text": "For the peace of the whole world, and for the well-being and unity of the people of God."
-          },
-          {
-            "type": "versical",
-            "reader": true,
-            "text": "Lord, in your mercy"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Hear our prayer."
-          },
-          {
-            "type": "text_block",
-            "text": "For N., our Archbishop, and N., our Bishop, and for all the clergy and people of our Diocese and Congregation."
-          },
-          {
-            "type": "versical",
-            "reader": true,
-            "text": "Lord, in your mercy"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Hear our prayer."
-          },
-          {
-            "type": "text_block",
-            "text": "For all those who proclaim the Gospel at home and abroad; and for all who teach and disciple others."
-          },
-          {
-            "type": "versical",
-            "reader": true,
-            "text": "Lord, in your mercy"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Hear our prayer."
-          },
-          {
-            "type": "text_block",
-            "text": "For our brothers and sisters in Christ who are persecuted for their faith."
-          },
-          {
-            "type": "versical",
-            "reader": true,
-            "text": "Lord, in your mercy"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Hear our prayer."
-          },
-          {
-            "type": "text_block",
-            "text": "For our nation, for those in authority, and for all in public service [especially _____________]."
-          },
-          {
-            "type": "versical",
-            "reader": true,
-            "text": "Lord, in your mercy"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Hear our prayer."
-          },
-          {
-            "type": "text_block",
-            "text": "For all those who are in trouble, sorrow, need, sickness, or any other adversity [especially _____________]."
-          },
-          {
-            "type": "versical",
-            "reader": true,
-            "text": "Lord, in your mercy"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Hear our prayer."
-          },
-          {
-            "type": "text_block",
-            "text": "For all those who have departed this life in the certain hope of the resurrection, [especially ______,] in thanksgiving let us pray."
-          },
-          {
-            "type": "versical",
-            "reader": true,
-            "text": "Lord, in your mercy"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Hear our prayer."
-          },
-          {
-            "type": "rubric",
-            "text": "Additional petitions may be added. Thanksgivings may also be invited."
-          },
-          {
-            "type": "rubric",
-            "text": "The Celebrant concludes with this or some other appropriate Collect."
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "Heavenly Father, grant these our prayers for the sake of Jesus Christ, our only Mediator and Advocate, who lives and reigns with you in the unity of the Holy Spirit, one God, now and for ever."
-          },
-          {
-            "type": "rubric",
-            "text": "The Celebrant may then say the Exhortation."
-          }
-        ]
-      },
-      {
-        "id": "confession",
-        "title": "The Confession and Absolution of Sin",
-        "pb_page_start": 129,
-        "pb_page_end": 130,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the confession and absolution of sin"
-          },
-          {
-            "type": "rubric",
-            "text": "The Deacon or other person appointed says the following"
-          },
-          {
-            "type": "line",
-            "text": "Let us humbly confess our sins to Almighty God."
-          },
-          {
-            "type": "silence"
-          },
-          {
-            "type": "rubric",
-            "text": "The Deacon and People kneel as able and pray"
-          },
-          {
-            "type": "silence"
-          },
-          {
-            "type": "line",
-            "text": "Most merciful God,"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "we confess that we have sinned against you"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "in thought, word, and deed,"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "by what we have done, and by what we have left undone."
-          },
-          {
-            "type": "line",
-            "text": "We have not loved you with our whole heart;"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "we have not loved our neighbors as ourselves."
-          },
-          {
-            "type": "line",
-            "text": "We are truly sorry and we humbly repent."
-          },
-          {
-            "type": "line",
-            "text": "For the sake of your Son Jesus Christ,"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "have mercy on us and forgive us;"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "that we may delight in your will, and walk in your ways,"
-          },
-          {
-            "type": "line",
-            "indent": true,
-            "text": "to the glory of your Name. Amen."
-          },
-          {
-            "type": "rubric",
-            "text": "The Bishop or Priest stands and says"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord."
-          }
-        ]
-      },
-      {
-        "id": "comfortable_words",
-        "title": "The Comfortable Words",
-        "pb_page_start": 130,
-        "pb_page_end": 131,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the comfortable words"
-          },
-          {
-            "type": "rubric",
-            "text": "The Celebrant may then say one or more of the following sentences, first saying"
-          },
-          {
-            "type": "line",
-            "text": "Hear the Word of God to all who truly turn to him."
-          },
-          {
-            "type": "scripture",
-            "ref": "matthew 11:28",
-            "text": "Come to me, all who labor and are heavy laden, and I will give you rest."
-          },
-          {
-            "type": "scripture",
-            "ref": "john 3:16",
-            "t": true,
-            "text": "God so loved the world, that he gave his only-begotten Son, that whoever believes in him should not perish but have eternal life."
-          },
-          {
-            "type": "scripture",
-            "ref": "1 timothy 1:15",
-            "text": "The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners."
-          },
-          {
-            "type": "scripture",
-            "ref": "1 john 2:1-2",
-            "t": true,
-            "text": "If anyone sins, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world."
-          }
-        ]
-      },
-      {
-        "id": "peace",
-        "title": "The Peace",
-        "pb_page_start": 131,
-        "pb_page_end": 131,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the peace"
-          },
-          {
-            "type": "rubric",
-            "add_on": "Alleluia, alleluia, alleluia.",
-            "text": "In Easter Season, add"
-          },
-          {
-            "type": "versical",
-            "celebrant": true,
-            "text": "The Peace of the Lord be always with you."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "And with your spirit."
-          },
-          {
-            "type": "rubric",
-            "text": "Then the Ministers and People may greet one another in the Name of the Lord."
-          }
-        ]
-      },
-      {
-        "id": "offertory",
-        "title": "The Offertory",
-        "pb_page_start": 131,
-        "pb_page_end": 131,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the offertory"
-          },
-          {
-            "type": "rubric",
-            "text": "The Celebrant may begin the Offertory with one of the provided sentences of Scripture. During the Offertory a hymn, psalm, or anthem may be sung. The Deacon or Priest prepares the Holy Table for the celebration. Representatives of the Congregation may bring the People's offerings of bread and wine, and money or other gifts, to the Deacon or Priest."
-          },
-          {
-            "type": "rubric",
-            "text": "The People stand while the offerings are presented. The following may be said."
-          },
-          {
-            "type": "versical",
-            "celebrant": true,
-            "text": "Yours, O Lord, is the greatness, and the power, and the glory, and the victory, and the majesty: for everything in heaven and on earth is yours; yours is the Kingdom, O Lord, and you are exalted as Head above all. All things come from you, O Lord,"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "And of your own have we given you."
-          },
-          {
-            "type": "ref",
-            "t": true,
-            "text": "1 chronicles 29:11, 14"
-          }
-        ]
-      },
-      {
-        "id": "sursum_corda",
-        "title": "The Sursum Corda",
-        "pb_page_start": 132,
-        "pb_page_end": 132,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the sursum corda"
-          },
-          {
-            "type": "rubric",
-            "text": "The People remain standing. The Celebrant faces them and sings or says"
-          },
-          {
-            "type": "versical",
-            "text": "The Lord be with you."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "And with your spirit."
-          },
-          {
-            "type": "versical",
-            "celebrant": true,
-            "text": "Lift up your hearts."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "We lift them up to the Lord."
-          },
-          {
-            "type": "versical",
-            "celebrant": true,
-            "text": "Let us give thanks to the Lord our God."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "It is right to give him thanks and praise."
-          },
-          {
-            "type": "rubric",
-            "text": "The Celebrant continues"
-          },
-          {
-            "type": "text_block",
-            "text": "It is right, our duty and our joy, always and everywhere to give thanks to you, Father Almighty, Creator of heaven and earth."
-          },
-          {
-            "type": "rubric",
-            "text": "Here a Proper Preface (pages 152-158) is normally sung or said."
-          },
-          {
-            "type": "text_block",
-            "text": "Therefore we praise you, joining our voices with Angels and Archangels and with all the company of heaven, who for ever sing this hymn to proclaim the glory of your Name:"
-          }
-        ]
-      },
-      {
-        "id": "sanctus",
-        "title": "The Sanctus",
-        "pb_page_start": 132,
-        "pb_page_end": 132,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the sanctus"
-          },
-          {
-            "type": "rubric",
-            "text": "Celebrant and People"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Holy, Holy, Holy, Lord God of power and might, heaven and"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "earth are full of your glory."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "Hosanna in the highest."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Blessed is he who comes in the Name of the Lord."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "Hosanna in the highest."
-          }
-        ]
-      },
-      {
-        "id": "prayer_of_consecration",
-        "title": "The Prayer of Consecration",
-        "pb_page_start": 132,
-        "pb_page_end": 134,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the prayer of consecration"
-          },
-          {
-            "type": "rubric",
-            "text": "The People stand or kneel. The Celebrant continues"
-          },
-          {
-            "type": "text_block",
-            "text": "Holy and gracious Father: In your infinite love you made us for yourself; and when we had sinned against you and become subject to evil and death, you, in your mercy, sent your only Son Jesus Christ into the world for our salvation. By the Holy Spirit and the Virgin Mary he became flesh and dwelt among us. In obedience to your will, he stretched out his arms upon the Cross and offered himself once for all, that by his suffering and death we might be saved. By his resurrection he broke the bonds of death, trampling Hell and Satan under his feet. As our great high priest, he ascended to your right hand in glory, that we might come with confidence before the throne of grace."
-          },
-          {
-            "type": "rubric",
-            "text": "At the following words concerning the bread, the Celebrant is to hold it, or lay a hand upon it, and here* may break the bread; and at the words concerning the cup, to hold or place a hand upon the cup and any other vessel containing the wine to be consecrated."
-          },
-          {
-            "type": "text_block",
-            "text": "On the night that he was betrayed, our Lord Jesus Christ took bread; and when he had given thanks, he broke it,* and gave it to his disciples, saying, \"Take, eat; this is my Body, which is given for you: Do this in remembrance of me.\""
-          },
-          {
-            "type": "text_block",
-            "text": "Likewise, after supper, Jesus took the cup, and when he had given thanks, he gave it to them, saying, \"Drink this, all of you; for this is my Blood of the New Covenant, which is shed for you, and for many, for the forgiveness of sins: Whenever you drink it, do this in remembrance of me.\""
-          },
-          {
-            "type": "line",
-            "text": "Therefore we proclaim the mystery of faith:"
-          },
-          {
-            "type": "rubric",
-            "text": "Celebrant and People"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "Christ has died."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "Christ is risen."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "Christ will come again."
-          },
-          {
-            "type": "text_block",
-            "text": "We celebrate the memorial of our redemption, O Father, in this sacrifice of praise and thanksgiving, and we offer you these gifts."
-          },
-          {
-            "type": "text_block",
-            "text": "Sanctify them by your Word and Holy Spirit to be for your people the Body and Blood of your Son Jesus Christ. Sanctify us also, that we may worthily receive this holy Sacrament, and be made one body with him, that he may dwell in us and we in him. In the fullness of time, put all things in subjection under your Christ, and bring us with all your saints into the joy of your heavenly kingdom, where we shall see our Lord face to face."
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "All this we ask through your Son Jesus Christ: By him, and with him, and in him, in the unity of the Holy Spirit, all honor and glory is yours, Almighty Father, now and for ever."
-          }
-        ]
-      },
-      {
-        "id": "lords_prayer",
-        "title": "The Lord's Prayer",
-        "pb_page_start": 134,
-        "pb_page_end": 134,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the lord's prayer"
-          },
-          {
-            "type": "rubric",
-            "text": "The Celebrant then says"
-          },
-          {
-            "type": "line",
-            "text": "And now as our Savior Christ has taught us, we are bold to pray:"
-          },
-          {
-            "type": "rubric",
-            "text": "Celebrant and People together pray"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Our Father, who art in heaven,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "hallowed be thy Name,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "thy kingdom come,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "thy will be done,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "on earth as it is in heaven."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Give us this day our daily bread."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "And forgive us our trespasses,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "as we forgive those"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "who trespass against us."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "And lead us not into temptation,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "but deliver us from evil."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "For thine is the kingdom,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and the power, and the glory,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "for ever and ever. Amen."
-          }
-        ]
-      },
-      {
-        "id": "fraction",
-        "title": "The Fraction",
-        "pb_page_start": 135,
-        "pb_page_end": 135,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the fraction"
-          },
-          {
-            "type": "rubric",
-            "text": "If the consecrated Bread was not broken earlier, the Celebrant breaks it now."
-          },
-          {
-            "type": "rubric",
-            "text": "A period of silence is kept."
-          },
-          {
-            "type": "rubric",
-            "text": "Then may be sung or said"
-          },
-          {
-            "type": "versical",
-            "celebrant": true,
-            "text": "[Alleluia.] Christ our Passover is sacrificed for us."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Therefore let us keep the feast. [Alleluia.]"
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "versical",
-            "celebrant": true,
-            "text": "[Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Therefore let us keep the feast. [Alleluia.]"
-          },
-          {
-            "type": "rubric",
-            "text": "In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season."
-          }
-        ]
-      },
-      {
-        "id": "prayer_humble_access",
-        "title": "The Prayer of Humble Access",
-        "pb_page_start": 135,
-        "pb_page_end": 135,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the prayer of humble access"
-          },
-          {
-            "type": "rubric",
-            "text": "Celebrant and People together may say"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "We do not presume to come to this your table, O merciful Lord,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "trusting in our own righteousness,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "but in your abundant and great mercies."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "We are not worthy so much as to gather up"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "the crumbs under your table;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "but you are the same Lord"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "whose character is always to have mercy."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Grant us, therefore, gracious Lord,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "so to eat the flesh of your dear Son Jesus Christ,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and to drink his blood,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "that our sinful bodies may be made clean by his body,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and our souls washed through his most precious blood,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and that we may evermore dwell in him, and he in us. Amen."
-          }
-        ]
-      },
-      {
-        "id": "agnus_dei",
-        "title": "The Agnus Dei",
-        "pb_page_start": 136,
-        "pb_page_end": 136,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the agnus dei"
-          },
-          {
-            "type": "rubric",
-            "text": "The following or some other suitable anthem may be sung or said here"
-          },
-          {
-            "type": "line",
-            "text": "Lamb of God, you take away the sin of the world;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "have mercy on us."
-          },
-          {
-            "type": "line",
-            "text": "Lamb of God, you take away the sin of the world;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "have mercy on us."
-          },
-          {
-            "type": "line",
-            "text": "Lamb of God, you take away the sin of the world;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "grant us your peace."
-          }
-        ]
-      },
-      {
-        "id": "communion",
-        "title": "The Ministration of Communion",
-        "pb_page_start": 136,
-        "pb_page_end": 136,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the ministration of communion"
-          },
-          {
-            "type": "rubric",
-            "text": "Facing the People, the Celebrant may say the following invitation"
-          },
-          {
-            "type": "text_block",
-            "text": "The gifts of God for the people of God. [Take them in remembrance that Christ died for you and feed on him in your hearts by faith, with thanksgiving.]"
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "scripture",
-            "ref": "revelation 19:9, john 1:29",
-            "t": true,
-            "text": "Behold the Lamb of God, behold him who takes away the sins of the world. Blessed are those who are invited to the marriage supper of the Lamb."
-          },
-          {
-            "type": "rubric",
-            "text": "The Ministers receive the Sacrament in both kinds, and then immediately deliver it to the People."
-          },
-          {
-            "type": "rubric",
-            "text": "The Bread and Cup are given to the communicants with these words"
-          },
-          {
-            "type": "line",
-            "text": "The Body of Christ, the bread of heaven."
-          },
-          {
-            "type": "line",
-            "text": "The Blood of Christ, the cup of salvation."
-          },
-          {
-            "type": "rubric",
-            "text": "During the ministration of Communion, hymns, psalms, or anthems may be sung."
-          },
-          {
-            "type": "rubric",
-            "text": "The Celebrant may offer a sentence of Scripture at the conclusion of the Communion."
-          }
-        ]
-      },
-      {
-        "id": "post_communion",
-        "title": "The Post Communion Prayer",
-        "pb_page_start": 137,
-        "pb_page_end": 137,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the post communion prayer"
-          },
-          {
-            "type": "rubric",
-            "text": "After Communion, the Celebrant says"
-          },
-          {
-            "type": "line",
-            "text": "Let us pray."
-          },
-          {
-            "type": "rubric",
-            "text": "Celebrant and People together say the following, or the Post Communion Prayer in the Anglican Standard Text"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "Heavenly Father,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "We thank you for feeding us with the spiritual food"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "of the most precious Body and Blood"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "of your Son our Savior Jesus Christ;"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and for assuring us in these holy mysteries"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "that we are living members of the body of your Son,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "and heirs of your eternal Kingdom."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "And now, Father, send us out to do the work you have"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "given us to do,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "to love and serve you as faithful witnesses of Christ our Lord."
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "text": "To him, to you, and to the Holy Spirit,"
-          },
-          {
-            "type": "line",
-            "bold": true,
-            "indent": true,
-            "text": "be honor and glory, now and for ever. Amen."
-          },
-          {
-            "type": "rubric",
-            "text": "The Bishop when present, or the Priest, gives this or an alternate blessing"
-          },
-          {
-            "type": "text_block",
-            "amen": true,
-            "text": "The peace of God, which passes all understanding, keep your hearts and minds in the knowledge and love of God, and of his Son Jesus Christ our Lord; and the blessing of God Almighty, the Father, the Son, and the Holy Spirit, be among you, and remain with you always."
-          },
-          {
-            "type": "rubric",
-            "text": "A hymn, psalm, or anthem may be sung after the Blessing (or following the Dismissal)."
-          }
-        ]
-      },
-      {
-        "id": "dismissal",
-        "title": "The Dismissal",
-        "pb_page_start": 138,
-        "pb_page_end": 138,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "the dismissal"
-          },
-          {
-            "type": "rubric",
-            "text": "The Deacon, or the Priest, may dismiss the People with these words"
-          },
-          {
-            "type": "versical",
-            "text": "Let us go forth in the Name of Christ."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Thanks be to God."
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "versical",
-            "deacon": true,
-            "text": "Go in peace to love and serve the Lord."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Thanks be to God."
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "versical",
-            "deacon": true,
-            "text": "Let us go forth into the world, rejoicing in the power of the Holy Spirit."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Thanks be to God."
-          },
-          {
-            "type": "or_this"
-          },
-          {
-            "type": "versical",
-            "deacon": true,
-            "text": "Let us bless the Lord."
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Thanks be to God."
-          },
-          {
-            "type": "rubric",
-            "text": "From the Easter Vigil through the Day of Pentecost, \"Alleluia, alleluia\" is added to any of the dismissals. It may be added at other times, except during Lent and on other penitential occasions."
-          },
-          {
-            "type": "rubric",
-            "text": "The People respond"
-          },
-          {
-            "type": "versical",
-            "people": true,
-            "text": "Thanks be to God. [Alleluia, alleluia.]"
-          }
-        ]
-      }
-    ]
-  }
+	"the_holy_eucharist_renewed_ancient_text": {
+		"title": "The Holy Eucharist: Renewed Ancient Text",
+		"slug": "the_holy_eucharist_renewed_ancient_text",
+		"pb_pages": [
+			123,
+			138
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "section_title",
+						"text": "the order for the administration of"
+					},
+					{
+						"type": "section_title",
+						"text": "the lord's supper"
+					},
+					{
+						"type": "section_title",
+						"text": "or"
+					},
+					{
+						"type": "section_title",
+						"text": "holy communion,"
+					},
+					{
+						"type": "section_title",
+						"text": "commonly called"
+					},
+					{
+						"type": "section_title",
+						"text": "the holy eucharist"
+					},
+					{
+						"type": "section_title",
+						"text": "Renewed Ancient Text"
+					},
+					{
+						"type": "rubric",
+						"text": "A hymn, psalm, or anthem may be sung."
+					},
+					{
+						"type": "section_title",
+						"text": "the acclamation"
+					},
+					{
+						"type": "rubric",
+						"text": "The People standing, the Celebrant says this or a seasonal greeting (pages 145-146)"
+					},
+					{
+						"type": "versical",
+						"text": ": Blessed be God: the Father, the Son, and the Holy Spirit."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And blessed be his kingdom, now and for ever. Amen."
+					},
+					{
+						"type": "rubric",
+						"text": "In the season of Lent"
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Bless the Lord who forgives all our sins."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "His mercy endures for ever."
+					},
+					{
+						"type": "rubric",
+						"text": "From Easter Day until the Eve of Pentecost"
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Alleluia! Christ is risen!"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "The Lord is risen indeed! Alleluia!"
+					},
+					{
+						"type": "page_break",
+						"page": 124
+					},
+					{
+						"type": "section_title",
+						"text": "the collect for purity"
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant prays (and the People may be invited to join)"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, to you all hearts are open, all desires known, and from you no secrets are hid: Cleanse the thoughts of our hearts by the inspiration of your Holy Spirit, that we may perfectly love you, and worthily magnify your holy Name; through Christ our Lord."
+					},
+					{
+						"type": "section_title",
+						"text": "the summary of the law"
+					},
+					{
+						"type": "rubric",
+						"text": "Then follows the Summary of the Law, or The Decalogue (page 100)."
+					},
+					{
+						"type": "line",
+						"text": "Hear what our Lord Jesus Christ says:"
+					},
+					{
+						"type": "text_block",
+						"text": "You shall love the Lord your God with all your heart and with all your soul and with all your mind. This is the first and great commandment. And the second is like it: You shall love your neighbor as yourself. On these two commandments depend all the Law and the Prophets."
+					},
+					{
+						"type": "ref",
+						"text": "matthew 22:37-40"
+					},
+					{
+						"type": "kyrie"
+					},
+					{
+						"type": "gloria_in_exelsis"
+					},
+					{
+						"type": "section_title",
+						"text": "the collect of the day"
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant says to the People"
+					},
+					{
+						"type": "versical",
+						"text": ": The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Let us pray."
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant prays the Collect."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Amen."
+					},
+					{
+						"type": "page_break",
+						"page": 126
+					},
+					{
+						"type": "section_title",
+						"text": "the lessons"
+					},
+					{
+						"type": "rubric",
+						"text": "One or more Lessons, as appointed, are read, the Reader first saying"
+					},
+					{
+						"type": "versical",
+						"text": ": A Reading from _**11**_."
+					},
+					{
+						"type": "rubric",
+						"text": "A citation giving chapter and verse may be added."
+					},
+					{
+						"type": "rubric",
+						"text": "After each Lesson the Reader may say"
+					},
+					{
+						"type": "versical",
+						"text": ": The Word of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"type": "rubric",
+						"text": "Or the Reader may say"
+					},
+					{
+						"type": "rubric",
+						"text": "Or the Reader may say"
+					},
+					{
+						"type": "rubric",
+						"text": "Silence may follow."
+					},
+					{
+						"type": "rubric",
+						"text": "A psalm, hymn, or anthem may follow each reading."
+					},
+					{
+						"type": "rubric",
+						"text": "All standing, the Deacon or Priest reads the Gospel, first saying"
+					},
+					{
+						"type": "versical",
+						"text": ": The Holy Gospel of our Lord Jesus Christ according to _**11**_."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Glory to you, Lord Christ."
+					},
+					{
+						"type": "rubric",
+						"text": "After the Gospel, the Reader says"
+					},
+					{
+						"type": "versical",
+						"text": ": The Gospel of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Praise to you, Lord Christ."
+					},
+					{
+						"type": "section_title",
+						"text": "the sermon"
+					},
+					{
+						"type": "section_title",
+						"text": "The Nicene Creed"
+					},
+					{
+						"type": "rubric",
+						"text": "On Sundays, other Major Feast Days, and other times as appointed, all stand to recite the Nicene Creed, the Celebrant first saying"
+					},
+					{
+						"type": "line",
+						"text": "Let us confess our faith in the words of the Nicene Creed:"
+					},
+					{
+						"type": "page_break",
+						"page": 127
+					},
+					{
+						"type": "nicene_creed"
+					},
+					{
+						"type": "page_break",
+						"page": 128
+					},
+					{
+						"type": "section_title",
+						"text": "the prayers of the people"
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon or other person appointed says these prayers, or the Prayers of the People in the Anglican Standard Text. The reader pauses after each bidding, and the people may add petitions, either silently or aloud."
+					},
+					{
+						"type": "line",
+						"text": "Let us pray for the Church and for the world, saying,"
+					},
+					{
+						"type": "line",
+						"text": "\"hear our prayer.\""
+					},
+					{
+						"type": "text_block",
+						"text": "For the peace of the whole world, and for the well-being and unity of the people of God."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "For **N.**, our Archbishop, and **N.**, our Bishop, and for all the clergy and people of our Diocese and Congregation."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "For all those who proclaim the Gospel at home and abroad; and for all who teach and disciple others."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "For our brothers and sisters in Christ who are persecuted for their faith."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "For our nation, for those in authority, and for all in public service [especially ************_]."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "page_break",
+						"page": 129
+					},
+					{
+						"type": "text_block",
+						"text": "For all those who are in trouble, sorrow, need, sickness, or any other adversity [especially ************_]."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "For all those who have departed this life in the certain hope of the resurrection, [especially ****__,] in thanksgiving let us pray."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "rubric",
+						"text": "Additional petitions may be added. Thanksgivings may also be invited."
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant concludes with this or some other appropriate Collect."
+					},
+					{
+						"type": "text_block",
+						"text": "Heavenly Father, grant these our prayers for the sake of Jesus Christ, our only Mediator and Advocate, who lives and reigns with you in the unity of the Holy Spirit, one God, now and for ever."
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant may then say the Exhortation."
+					},
+					{
+						"type": "section_title",
+						"text": "the confession and absolution of sin"
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon or other person appointed says the following"
+					},
+					{
+						"type": "line",
+						"text": "Let us humbly confess our sins to Almighty God."
+					},
+					{
+						"type": "rubric",
+						"text": "Silence"
+					},
+					{
+						"type": "page_break",
+						"page": 130
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon and People kneel as able and pray"
+					},
+					{
+						"type": "rubric",
+						"text": "Silence"
+					},
+					{
+						"type": "confession_communion"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop or Priest stands and says"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord."
+					},
+					{
+						"type": "section_title",
+						"text": "the comfortable words"
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant may then say one or more of the following sentences, first saying"
+					},
+					{
+						"type": "line",
+						"text": "Hear the Word of God to all who truly turn to him."
+					},
+					{
+						"type": "scripture",
+						"ref": "matthew 11:28",
+						"text": "Come to me, all who labor and are heavy laden, and I will give you rest."
+					},
+					{
+						"type": "scripture",
+						"ref": "john 3:16",
+						"text": "God so loved the world, that he gave his only-begotten Son, that whoever believes in him should not perish but have eternal life."
+					},
+					{
+						"type": "page_break",
+						"page": 131
+					},
+					{
+						"type": "scripture",
+						"ref": "1 timothy 1:15: The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners."
+					},
+					{
+						"type": "scripture",
+						"ref": "1 john 2:1-2",
+						"text": "If anyone sins, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world."
+					},
+					{
+						"type": "section_title",
+						"text": "the peace"
+					},
+					{
+						"type": "rubric",
+						"text": "In Easter Season, add"
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: The Peace of the Lord be always with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "rubric",
+						"text": "Then the Ministers and People may greet one another in the Name of the Lord."
+					},
+					{
+						"type": "section_title",
+						"text": "the offertory"
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant may begin the Offertory with one of the provided sentences of Scripture. During the Offertory a hymn, psalm, or anthem may be sung. The Deacon or Priest prepares the Holy Table for the celebration. Representatives of the Congregation may bring the People's offerings of bread and wine, and money or other gifts, to the Deacon or Priest."
+					},
+					{
+						"type": "rubric",
+						"text": "The People stand while the offerings are presented. The following may be said."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Yours, O Lord, is the greatness, and the power, and the glory, and the victory, and the majesty: for everything in heaven and on earth is yours; yours is the Kingdom, O Lord, and you are exalted as Head above all. All things come from you, O Lord,"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And of your own have we given you."
+					},
+					{
+						"type": "ref",
+						"text": "1 chronicles 29:11, 14"
+					},
+					{
+						"type": "page_break",
+						"page": 132
+					},
+					{
+						"type": "section_title",
+						"text": "the sursum corda"
+					},
+					{
+						"type": "rubric",
+						"text": "The People remain standing. The Celebrant faces them and sings or says"
+					},
+					{
+						"type": "versical",
+						"text": ": The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Lift up your hearts."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "We lift them up to the Lord."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Let us give thanks to the Lord our God."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "It is right to give him thanks and praise."
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant continues"
+					},
+					{
+						"type": "text_block",
+						"text": "It is right, our duty and our joy, always and everywhere to give thanks to you, Father Almighty, Creator of heaven and earth."
+					},
+					{
+						"type": "rubric",
+						"text": "Here a Proper Preface (pages 152-158) is normally sung or said."
+					},
+					{
+						"type": "text_block",
+						"text": "Therefore we praise you, joining our voices with Angels and Archangels and with all the company of heaven, who for ever sing this hymn to proclaim the glory of your Name:"
+					},
+					{
+						"type": "section_title",
+						"text": "the sanctus"
+					},
+					{
+						"type": "rubric",
+						"text": "Celebrant and People"
+					},
+					{
+						"type": "line",
+						"text": "Holy, Holy, Holy, Lord God of power and might, heaven and",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "earth are full of your glory.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Hosanna in the highest.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Blessed is he who comes in the Name of the Lord.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "Hosanna in the highest.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "the prayer of consecration"
+					},
+					{
+						"type": "rubric",
+						"text": "The People stand or kneel. The Celebrant continues"
+					},
+					{
+						"type": "page_break",
+						"page": 133
+					},
+					{
+						"type": "text_block",
+						"text": "Holy and gracious Father: In your infinite love you made us for yourself; and when we had sinned against you and become subject to evil and death, you, in your mercy, sent your only Son Jesus Christ into the world for our salvation. By the Holy Spirit and the Virgin Mary he became flesh and dwelt among us. In obedience to your will, he stretched out his arms upon the Cross and offered himself once for all, that by his suffering and death we might be saved. By his resurrection he broke the bonds of death, trampling Hell and Satan under his feet. As our great high priest, he ascended to your right hand in glory, that we might come with confidence before the throne of grace."
+					},
+					{
+						"type": "rubric",
+						"text": "At the following words concerning the bread, the Celebrant is to hold it, or lay a hand upon it, and here* may break the bread; and at the words concerning the cup, to hold or place a hand upon the cup and any other vessel containing the wine to be consecrated."
+					},
+					{
+						"type": "text_block",
+						"text": "On the night that he was betrayed, our Lord Jesus Christ took bread; and when he had given thanks, he broke it,* and gave it to his disciples, saying, \"Take, eat; this is my Body, which is given for you: Do this in remembrance of me.\""
+					},
+					{
+						"type": "text_block",
+						"text": "Likewise, after supper, Jesus took the cup, and when he had given thanks, he gave it to them, saying, \"Drink this, all of you; for this is my Blood of the New Covenant, which is shed for you, and for many, for the forgiveness of sins: Whenever you drink it, do this in remembrance of me.\""
+					},
+					{
+						"type": "line",
+						"text": "Therefore we proclaim the mystery of faith:"
+					},
+					{
+						"type": "rubric",
+						"text": "Celebrant and People"
+					},
+					{
+						"type": "line",
+						"text": "Christ has died.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Christ is risen.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Christ will come again.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "We celebrate the memorial of our redemption, O Father, in this sacrifice of praise and thanksgiving, and we offer you these gifts."
+					},
+					{
+						"type": "page_break",
+						"page": 134
+					},
+					{
+						"type": "text_block",
+						"text": "Sanctify them by your Word and Holy Spirit to be for your people the Body and Blood of your Son Jesus Christ. Sanctify us also, that we may worthily receive this holy Sacrament, and be made one body with him, that he may dwell in us and we in him. In the fullness of time, put all things in subjection under your Christ, and bring us with all your saints into the joy of your heavenly kingdom, where we shall see our Lord face to face."
+					},
+					{
+						"type": "text_block",
+						"text": "All this we ask through your Son Jesus Christ: By him, and with him, and in him, in the unity of the Holy Spirit, all honor and glory is yours, Almighty Father, now and for ever."
+					},
+					{
+						"type": "section_title",
+						"text": "the lord's prayer"
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant then says"
+					},
+					{
+						"type": "line",
+						"text": "And now as our Savior Christ has taught us, we are bold to pray:"
+					},
+					{
+						"type": "rubric",
+						"text": "Celebrant and People together pray"
+					},
+					{
+						"type": "lords_prayer"
+					},
+					{
+						"type": "page_break",
+						"page": 135
+					},
+					{
+						"type": "section_title",
+						"text": "the fraction"
+					},
+					{
+						"type": "rubric",
+						"text": "If the consecrated Bread was not broken earlier, the Celebrant breaks it now."
+					},
+					{
+						"type": "rubric",
+						"text": "A period of silence is kept."
+					},
+					{
+						"type": "rubric",
+						"text": "Then may be sung or said"
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: [Alleluia.] Christ our Passover is sacrificed for us."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Therefore let us keep the feast. [Alleluia.]"
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: [Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Therefore let us keep the feast. [Alleluia.]"
+					},
+					{
+						"type": "rubric",
+						"text": "In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season."
+					},
+					{
+						"type": "humble_access"
+					},
+					{
+						"type": "page_break",
+						"page": 136
+					},
+					{
+						"type": "section_title",
+						"text": "the agnus dei"
+					},
+					{
+						"type": "rubric",
+						"text": "The following or some other suitable anthem may be sung or said here"
+					},
+					{
+						"type": "line",
+						"text": "Lamb of God, you take away the sin of the world;"
+					},
+					{
+						"type": "line",
+						"text": "have mercy on us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Lamb of God, you take away the sin of the world;"
+					},
+					{
+						"type": "line",
+						"text": "have mercy on us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Lamb of God, you take away the sin of the world;"
+					},
+					{
+						"type": "line",
+						"text": "grant us your peace.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "the ministration of communion"
+					},
+					{
+						"type": "rubric",
+						"text": "Facing the People, the Celebrant may say the following invitation"
+					},
+					{
+						"type": "text_block",
+						"text": "The gifts of God for the people of God. [Take them in remembrance that Christ died for you and feed on him in your hearts by faith, with thanksgiving.]"
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "scripture",
+						"ref": "revelation 19:9, john 1:29: Behold the Lamb of God, behold him who takes away the sins of the world. Blessed are those who are invited to the marriage supper of the Lamb."
+					},
+					{
+						"type": "rubric",
+						"text": "The Ministers receive the Sacrament in both kinds, and then immediately deliver it to the People."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bread and Cup are given to the communicants with these words"
+					},
+					{
+						"type": "line",
+						"text": "The Body of Christ, the bread of heaven."
+					},
+					{
+						"type": "line",
+						"text": "The Blood of Christ, the cup of salvation."
+					},
+					{
+						"type": "rubric",
+						"text": "During the ministration of Communion, hymns, psalms, or anthems may be sung."
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant may offer a sentence of Scripture at the conclusion of the Communion."
+					},
+					{
+						"type": "page_break",
+						"page": 137
+					},
+					{
+						"type": "section_title",
+						"text": "the post communion prayer"
+					},
+					{
+						"type": "rubric",
+						"text": "After Communion, the Celebrant says"
+					},
+					{
+						"type": "line",
+						"text": "Let us pray."
+					},
+					{
+						"type": "rubric",
+						"text": "Celebrant and People together say the following, or the Post Communion Prayer in the Anglican Standard Text"
+					},
+					{
+						"type": "line",
+						"text": "Heavenly Father,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "We thank you for feeding us with the spiritual food",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "of the most precious Body and Blood",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "of your Son our Savior Jesus Christ;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and for assuring us in these holy mysteries",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "that we are living members of the body of your Son,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and heirs of your eternal Kingdom.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "And now, Father, send us out to do the work you have",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "given us to do,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "to love and serve you as faithful witnesses of Christ our Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "To him, to you, and to the Holy Spirit,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "be honor and glory, now and for ever. Amen.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop when present, or the Priest, gives this or an alternate blessing"
+					},
+					{
+						"type": "text_block",
+						"text": "The peace of God, which passes all understanding, keep your hearts and minds in the knowledge and love of God, and of his Son Jesus Christ our Lord; and the blessing of God Almighty, the Father, the Son, and the Holy Spirit, be among you, and remain with you always."
+					},
+					{
+						"type": "rubric",
+						"text": "A hymn, psalm, or anthem may be sung after the Blessing (or following the Dismissal)."
+					},
+					{
+						"type": "page_break",
+						"page": 138
+					},
+					{
+						"type": "section_title",
+						"text": "the dismissal"
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon, or the Priest, may dismiss the People with these words"
+					},
+					{
+						"type": "versical",
+						"text": ": Let us go forth in the Name of Christ."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "versical",
+						"text": "deacon: Go in peace to love and serve the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "versical",
+						"text": "deacon: Let us go forth into the world, rejoicing in the power of the Holy Spirit."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "versical",
+						"text": "deacon: Let us bless the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"type": "rubric",
+						"text": "From the Easter Vigil through the Day of Pentecost, \"Alleluia, alleluia\" is added to any of the dismissals. It may be added at other times, except during Lent and on other penitential occasions."
+					},
+					{
+						"type": "rubric",
+						"text": "The People respond"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God. [Alleluia, alleluia.]"
+					}
+				],
+				"pb_page_start": 124,
+				"pb_page_end": 138
+			}
+		]
+	}
 }

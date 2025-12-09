@@ -1,10 +1,10 @@
-pg: 57-66
+pg: 57-65
 tp: Compline
 
-st:3xl: compline
+st:1: compline
 r: The Officiant begins
 l: The Lord Almighty grant us a peaceful
-l:i: and a perfect end. __Amen.__
+l:i: and a perfect end. **Amen.**
 v:officiant: Our help is in the Name of the Lord;
 v:people: The maker of heaven and earth.
 r: The Officiant continues
@@ -20,18 +20,22 @@ l:b:i: have mercy upon us, forgive us our sins,
 l:b:i: and by the power of your Holy Spirit
 l:b:i: raise us up to serve you in newness of life,
 l:b:i: to the glory of your Name. Amen.
+
+pb:58
 r: The Officiant alone says
-tb: May Almighty God grant us forgiveness of all our sins, and the grace and comfort of the Holy Spirit. __Amen.__
+tb: May Almighty God grant us forgiveness of all our sins, and the grace and comfort of the Holy Spirit. **Amen.**
 v:officiant: O God, make speed to save us;
 v:people: O Lord, make haste to help us.
 v:officiant: Glory be to the Father, and to the Son, and to the Holy Spirit;
 v:people: As it was in the beginning, is now, and ever shall be, world without end. Amen.
-r: Except in Lent, add __Alleluia.__
+r: Except in Lent, add **Alleluia.**
 r: One or more of the following, or some other suitable Psalm, is sung or said.
 
 st: psalm 4
 st:lc: _Cum invocarem_
 use:psalm:4:1:8:
+
+pb:59
 st: psalm 31:1-6
 st:lc: _In te, Domine, speravi_
 use:psalm:31:1:6:
@@ -40,6 +44,8 @@ st:lc: _Qui habitat_
 use:psalm:91:1:16:
 st: psalm 134
 st:lc: _Ecce nunc_
+
+pb:60
 use:psalm:134:1:4:
 r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
 use:gloria:
@@ -49,6 +55,8 @@ scripture:jeremiah 14:9:: You, O Lord, are in the midst of us, and we are called
 scripture:matthew 11:28‑30:: Come to me, all who labor and are heavy laden, and I will give you rest. Take my yoke upon you, and learn from me, for I am gentle and lowly in heart, and you will find rest for your souls. For my yoke is easy, and my burden is light.
 scripture:hebrews 13:20-21:: Now may the God of peace who brought again from the dead our Lord Jesus, the great shepherd of the sheep, by the blood of the eternal covenant, equip you with everything good that you may do his will, working in us that which is pleasing in his sight, through Jesus Christ, to whom be glory forever and ever. Amen.
 scripture:1 peter 5:8‑9:: Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour. Resist him, firm in your faith.
+
+pb:62
 r: At the end of the reading is said
 v: The Word of the Lord.
 v:people: Thanks be to God.
@@ -59,54 +67,49 @@ v:officiant: Keep me, O Lord, as the apple of your eye;
 v:people: Hide me under the shadow of your wings.
 use:kyrie:
 r: Officiant and People
-use:lords_prayer:
+use:prayer:lords_prayer:
 
+pb:63
 v:officiant: O Lord, hear our prayer;
 v:people: And let our cry come to you.
 v:officiant: Let us pray.
 r: The Officiant then says one or more of the following Collects. Other appropriate Collects may also be used.
 tb: Visit this place, O Lord, and drive far from it all snares of the enemy;
 let your holy angels dwell with us to preserve us in peace; and let your blessing
-be upon us always; through Jesus Christ our Lord. __Amen.__
+be upon us always; through Jesus Christ our Lord. **Amen.**
 tb: Lighten our darkness, we beseech you, O Lord; and by your great mercy defend
-us from all perils and dangers of this night; for the love of your only Son, our Savior Jesus Christ. __Amen.__
+us from all perils and dangers of this night; for the love of your only Son, our Savior Jesus Christ. **Amen.**
 tb: Be present, O merciful God, and protect us through the hours of this night,
 so that we who are wearied by the changes and chances of this life may rest in
-your eternal changelessness; through Jesus Christ our Lord. __Amen.__
+your eternal changelessness; through Jesus Christ our Lord. **Amen.**
 tb: Look down, O Lord, from your heavenly throne, illumine this night with your
 celestial brightness, and from the children of light banish the deeds of darkness;
-through Jesus Christ our Lord. __Amen.__
+through Jesus Christ our Lord. **Amen.**
 st: a collect for saturdays
 tb: We give you thanks, O God, for revealing your Son Jesus Christ to us by
 the light of his resurrection: Grant that as we sing your glory at the close
 of this day, our joy may abound in the morning as we celebrate the Paschal mystery;
-through Jesus Christ our Lord. __Amen.__
+through Jesus Christ our Lord. **Amen.**
+
+pb:64
 r: One of the following prayers may be added
 tb: Keep watch, dear Lord, with those who work, or watch, or weep this night,
 and give your angels charge over those who sleep. Tend the sick, Lord Christ;
 give rest to the weary, bless the dying, soothe the suffering, pity the afflicted,
-shield the joyous; and all for your love's sake. __Amen.__
+shield the joyous; and all for your love's sake. **Amen.**
 r: or this
 tb: O God, your unfailing providence sustains the world we live in and the life we live:
 Watch over those, both night and day, who work while others sleep, and grant that we
-may never forget that our common life depends upon each other's toil; through Jesus Christ our Lord. __Amen.__
+may never forget that our common life depends upon each other's toil; through Jesus Christ our Lord. **Amen.**
 r: Silence may be kept, and other intercessions and thanksgivings may be offered.
 r: The Officiant and People say or sing the Song of Simeon with this Antiphon
 tb:b: Guide us waking, O Lord, and guard us sleeping; that awake we may watch with Christ, and asleep we may rest in peace.
-r: In Easter Season, add
-l: Alleluia, alleluia, alleluia.
-st: nunc dimittis
-st:lc: _The Song of Simeon_
-l:b: Lord, now let your servant depart in peace, *
-l:b:i: according to your word.
-l:b: For my eyes have seen your salvation, *
-l:b:i: which you have prepared before the face of all people;
-l:b: To be a light to lighten the Gentiles, *
-l:b:i: and to be the glory of your people Israel.
-use:gloria:
-ref: luke 2:29-32
+r: In Easter Season, add **Alleluia, alleluia, alleluia.**
+use:canticle:nunc_demittis:
+
+pb:65
 tb:b: Guide us waking, O Lord, and guard us sleeping; that awake we may watch with Christ, and asleep we may rest in peace.
-r: In Easter Season, add __Alleluia, alleluia, alleluia.__
+r: In Easter Season, add **Alleluia, alleluia, alleluia.**
 v:officiant: Let us bless the Lord.
 v:people: Thanks be to God.
 r: The Officiant concludes with the following
@@ -123,13 +126,3 @@ l:i: 1 thessalonians 5:9-10
 l:i: 1 thessalonians 5:23
 l:i: ephesians 4:26-27
 tb: Either version of the Lord's Prayer may be ended with, "deliver us from evil. Amen." omitting the concluding doxology.
-
-st:1: concerning family prayer
-tb: These devotions follow the basic structure of the Daily Office of the Church and are particularly appropriate for families with young children.
-tb: The Reading and the Collect may be read by one person, and the other parts said in unison, or in some other convenient manner.
-tb: Appropriate Opening Sentences, Psalms, Readings, and Collects are provided in each service. When desired, however, the Collect of the Day, or any of the Collects appointed in the Daily Office, may be used instead. The Opening Sentences may be replaced by those appointed for various seasons in the liturgies for Morning and Evening Prayer.
-l:i: The Psalms and Readings may be replaced by those appointed in:
-l:i: the Sunday, Holy Days and Commemoration Lectionary; or
-l:i: the Daily Office Lectionary; or
-l:i: some other manual of devotion which provides daily selections for the Church Year.
-tb: A concluding sentence from Morning or Evening Prayer may be used at the end of any of these devotions.

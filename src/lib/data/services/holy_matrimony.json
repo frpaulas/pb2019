@@ -1,0 +1,684 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			201,
+			212
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 201
+					},
+					{
+						"type": "section_title",
+						"text": "holy matrimony",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "At the time appointed, the persons to be married, with their witnesses and guests, assemble in the church or some other authorized place."
+					},
+					{
+						"type": "rubric",
+						"text": "During their entrance, a hymn, psalm, or anthem may be sung, or instrumental music may be played."
+					},
+					{
+						"type": "rubric",
+						"text": "Then the Officiant, facing the people and the persons to be married, with the woman to the right and the man to the left, addresses the Congregation saying"
+					},
+					{
+						"type": "text_block",
+						"text": "Dearly beloved: We have gathered together in the presence of God to witness and bless the joining together of this man and this woman in Holy Matrimony."
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God established the bond and covenant of marriage in creation as a sign of the mystical union between Christ and his Church. Our Lord Jesus Christ adorned this manner of life by his presence and first miracle at a wedding in Cana of Galilee, and it is commended by Holy Scripture to be held in honor among all people."
+					},
+					{
+						"type": "text_block",
+						"text": "The union of husband and wife in heart, body, and mind was ordained by God: for the procreation of children and their nurture in the knowledge and love of the Lord; for mutual joy, and for the help and comfort given one another in prosperity and adversity; to maintain purity, so that husbands and wives, with all the household of God, might serve as holy and undefiled members of the Body of Christ; and for the upbuilding of Christ’s kingdom in family, church, and society, to the praise of his holy Name."
+					},
+					{
+						"type": "page_break",
+						"page": 202
+					},
+					{
+						"type": "text_block",
+						"text": "Therefore, marriage is not to be entered into unadvisedly or lightly, but reverently, deliberately, and in accordance with the purposes for which it was ordained by Almighty God."
+					},
+					{
+						"type": "text_block",
+						"text": "Into this holy union _N.N._ and _N.N._ now come to be joined. If any of you can show just cause why they may not be married in accordance with God’s Word, speak now; or else for ever hold your peace."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant then continues, saying to the persons to be married"
+					},
+					{
+						"type": "text_block",
+						"text": "I require and charge you both, in the Name of God, from whom no secrets are hid, that if either of you know any impediment why you may not be married rightly, you do now confess it; being assured that those who are joined contrary to God’s Word are not truly united in Holy Matrimony."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant says to the Man"
+					},
+					{
+						"type": "text_block",
+						"text": "_N._, will you have this woman to be your wife; to live together out of reverence for Christ in the covenant of Holy Matrimony? Will you love her, honor her, comfort and keep her, in sickness and in health; and, forsaking all others, be faithful to her as long as you both shall live?"
+					},
+					{
+						"type": "rubric",
+						"text": "The Man answers"
+					},
+					{
+						"type": "versical",
+						"text": ":b: I will.",
+						"bold": true
+					},
+					{
+						"type": "page_break",
+						"page": 203
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant says to the Woman"
+					},
+					{
+						"type": "text_block",
+						"text": "_N._, will you have this man to be your husband; to live together out of reverence for Christ in the covenant of Holy Matrimony? Will you honor him, love him, comfort and keep him, in sickness and in health; and, forsaking all others, be faithful to him as long as you both shall live?"
+					},
+					{
+						"type": "rubric",
+						"text": "The Woman answers"
+					},
+					{
+						"type": "versical",
+						"text": "I will.",
+						"bold": true
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant then addresses the Congregation, saying"
+					},
+					{
+						"type": "text_block",
+						"text": "Will all of you witnessing these promises do all in your power to uphold this man and this woman in their marriage?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "We will."
+					},
+					{
+						"type": "rubric",
+						"text": "If there is to be a Presentation, the Officiant asks the following, or some other suitable question. Who presents _N._ [and _N._] for Holy Matrimony?"
+					},
+					{
+						"type": "versical",
+						"text": "response: We do."
+					},
+					{
+						"type": "section_title",
+						"text": "the collect of the day"
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant says to the People"
+					},
+					{
+						"type": "versical",
+						"text": "The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Let us pray."
+					},
+					{
+						"type": "page_break",
+						"page": 204
+					},
+					{
+						"type": "text_block",
+						"text": "O gracious and everliving God, you have created us male and female in your image: Look mercifully upon this man and this woman who come to you seeking your blessing, and assist them with your grace, that with true fidelity and steadfast love they may honor and keep the promises and vows they make; through Jesus Christ our Savior, who lives and reigns with you in the unity of the Holy Spirit, one God, for ever and ever. **Amen**."
+					},
+					{
+						"type": "section_title",
+						"text": "the lessons"
+					},
+					{
+						"type": "rubric",
+						"text": "One or more of the following passages is read."
+					},
+					{
+						"type": "ref",
+						"text": "genesis 1",
+						"add_on": "26-28: (Male and female he created them)"
+					},
+					{
+						"type": "ref",
+						"text": "genesis 2",
+						"add_on": "4-9, 15-24: (A man holds fast to his wife and they become one flesh)"
+					},
+					{
+						"type": "ref",
+						"text": "song of solomon 2",
+						"add_on": "10-13; 8:6-7: (Many waters cannot quench love)"
+					},
+					{
+						"type": "ref",
+						"text": "tobit 8",
+						"add_on": "5b-8: (That she and I may grow old together)"
+					},
+					{
+						"type": "rubric",
+						"text": "Between the Lessons, a Psalm, hymn, or anthem may be sung or said. Appropriate Psalms are 45, 67, 127, or 128."
+					},
+					{
+						"type": "ref",
+						"text": "1 corinthians 13",
+						"add_on": "1-13: (Love is patient and kind)"
+					},
+					{
+						"type": "ref",
+						"text": "ephesians 3",
+						"add_on": "14-19: (The Father from whom every family is named)"
+					},
+					{
+						"type": "ref",
+						"text": "ephesians 5",
+						"add_on": "1-2, 21-33: (Walk in love, as Christ loved us)"
+					},
+					{
+						"type": "ref",
+						"text": "colossians 3",
+						"add_on": "12-17: (Love which binds everything together in harmony)"
+					},
+					{
+						"type": "ref",
+						"text": "1 john 4",
+						"add_on": "7-16: (Let us love one another, for love is of God)"
+					},
+					{
+						"type": "ref",
+						"text": "matthew 5",
+						"add_on": "1-10: (The Beatitudes)"
+					},
+					{
+						"type": "ref",
+						"text": "matthew 5",
+						"add_on": "13-16: (You are the light . . . Let your light shine)"
+					},
+					{
+						"type": "ref",
+						"text": "matthew 7",
+						"add_on": "24-29: (Like a wise man who built his house on the rock)"
+					},
+					{
+						"type": "ref",
+						"text": "mark 10",
+						"add_on": "6-16: (They are no longer two but one)"
+					},
+					{
+						"type": "ref",
+						"text": "john 2",
+						"add_on": "1-11: (The wedding at Cana)"
+					},
+					{
+						"type": "ref",
+						"text": "john 15",
+						"add_on": "9-12: (Love one another as I have loved you)"
+					},
+					{
+						"type": "rubric",
+						"text": "If Communion is to follow, a passage from the Gospels always concludes the Lessons. At a Eucharist, all stand, and the Deacon or Minister appointed says"
+					},
+					{
+						"type": "page_break",
+						"page": 205
+					},
+					{
+						"type": "versical",
+						"text": ": The Holy Gospel of our Lord Jesus Christ according"
+					},
+					{
+						"type": "versical",
+						"text": "to ********."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Glory to you, Lord Christ."
+					},
+					{
+						"type": "rubric",
+						"text": "After the Gospel, the Reader says"
+					},
+					{
+						"type": "versical",
+						"text": ": The Gospel of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Praise to you, Lord Christ."
+					},
+					{
+						"type": "section_title",
+						"text": "the sermon"
+					},
+					{
+						"type": "section_title",
+						"text": "the marriage"
+					},
+					{
+						"type": "rubric",
+						"text": "The Man, facing the Woman and taking her right hand in his, says"
+					},
+					{
+						"type": "text_block",
+						"text": "In the Name of God, I, _N._, take you, _N._, to be my wife, to have and to hold from this day forward, for better for worse, for richer for poorer, in sickness and in health, to love and to cherish, until we are parted by death, according to God’s holy Word. This is my solemn vow."
+					},
+					{
+						"type": "rubric",
+						"text": "Then they loose their hands, and the Woman, still facing the Man, takes his right hand in hers, and says"
+					},
+					{
+						"type": "text_block",
+						"text": "In the Name of God, I, _N._, take you, _N._, to be my husband, to have and to hold from this day forward, for better for worse, for richer for poorer, in sickness and in health, to love and to cherish, until we are parted by death, according to God’s holy Word. This is my solemn vow."
+					},
+					{
+						"type": "rubric",
+						"text": "They loose their hands. If there is to be an exchange of rings, the Bishop or Priest may ask God’s blessing on a ring or rings as follows"
+					},
+					{
+						"type": "page_break",
+						"page": 206
+					},
+					{
+						"type": "text_block",
+						"text": "Bless, O Lord, _this ring_ to be _a sign_ of the vows by which this man and this woman have bound themselves to each other; through Jesus Christ our Lord. **Amen**."
+					},
+					{
+						"type": "rubric",
+						"text": "The giver places the ring on the ring-finger of the other’s left hand and says"
+					},
+					{
+						"type": "text_block",
+						"text": "_N._, I give you this ring as a symbol of my vow, and with all that I am, and all that I have, I honor you, in the Name of the Father, and of the Son, and of the Holy Spirit. Amen."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant then joins the right hands of the husband and wife, and says"
+					},
+					{
+						"type": "text_block",
+						"text": "Now that _N._ and _N._ have given themselves to each other by solemn vows, with the joining of hands [and the giving and receiving of _a ring_], I pronounce that they are husband and wife, in the Name of the Father, and of the Son, and of the Holy Spirit."
+					},
+					{
+						"type": "line",
+						"text": "Those whom God has joined together let no one put asunder."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Amen."
+					},
+					{
+						"type": "section_title",
+						"text": "the prayers"
+					},
+					{
+						"type": "rubric",
+						"text": "If Communion is to follow, the Lord’s Prayer may be omitted here."
+					},
+					{
+						"type": "rubric",
+						"text": "All standing, the Officiant says"
+					},
+					{
+						"type": "line",
+						"text": "Let us pray together in the words our Savior taught us."
+					},
+					{
+						"type": "rubric",
+						"text": "People and Officiant"
+					},
+					{
+						"type": "lords_prayer"
+					},
+					{
+						"type": "page_break",
+						"page": 207
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon or other person appointed reads the following or other suitable prayers."
+					},
+					{
+						"type": "line",
+						"text": "Let us pray, saying, “Hear our prayer.”"
+					},
+					{
+						"type": "text_block",
+						"text": "Eternal God, creator and preserver of all life, author of salvation, and giver of all grace: Look with favor upon this man and this woman whom you make one flesh in Holy Matrimony, and enable them to fulfill the vows they have made."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "Grant them wisdom and devotion in the ordering of their common life, that each may be to the other a partner in prayer, a strength in need, a counselor in perplexity, a comfort in sorrow, and a companion in joy."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "Grant that their wills may be so knit together in your will, and their spirits in your Spirit, that they may grow in love and devotion to you and with one another all the days of their lives."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "page_break",
+						"page": 208
+					},
+					{
+						"type": "text_block",
+						"text": "Give them courage, when they hurt each other, to recognize and acknowledge their faults, to seek your forgiveness, and to forgive and be reconciled to one another."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "May their union in Holy Matrimony be a sign of the love between Christ and his Church, and a joyful witness to the world."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "Bestow upon them, if it be your will, the gift and heritage of children, and the grace to bring them up to know you, to love you, and to serve you."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "Grant that they may so love, honor, and cherish each other in faithfulness and patience, in wisdom and true godliness, that their home may be a haven of blessing and peace."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "Give them such grace that together they may reach out in love and concern for others; and grant that all married persons who have witnessed these vows may find their lives strengthened and their loyalties confirmed."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "page_break",
+						"page": 209
+					},
+					{
+						"type": "text_block",
+						"text": "Grant these our prayers, O Father, who with your Son and the Holy Spirit live and reign in perfect unity, now and for ever. **Amen**."
+					},
+					{
+						"type": "section_title",
+						"text": "the blessing of the marriage"
+					},
+					{
+						"type": "rubric",
+						"text": "The Husband and Wife kneel, and the Officiant says"
+					},
+					{
+						"type": "text_block",
+						"text": "Most gracious God, we give you thanks for your tender love in sending Jesus Christ to come among us, to be born of a human mother, and to make the way of the Cross to be the way of life. We thank you, also, for consecrating the union of man and woman in his Name. By the power of your Holy Spirit, pour out the abundance of your blessing upon this man and this woman. Defend them from every enemy. Lead them into all peace. Let their love for each other be a seal upon their hearts, a mantle about their shoulders, and a crown upon their foreheads. Bless them in their work and in their companionship; in their sleeping and in their waking; in their joys and in their sorrows; in their life and in their death. In your mercy, bring them to your heavenly banquet where your saints feast for ever at the great marriage supper of the Lamb; through Jesus Christ our Lord, who with you and the Holy Spirit lives and reigns, one God, for ever and ever. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Husband and Wife still kneeling, the Bishop or Priest adds this nuptial blessing."
+					},
+					{
+						"type": "text_block",
+						"text": "God the Father, God the Son, God the Holy Spirit, bless, preserve, and keep you; the Lord mercifully with his favor look upon you, and fill you with all spiritual benediction and grace; that you may faithfully live together in this life, and in the age to come have life everlasting. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 210
+					},
+					{
+						"type": "section_title",
+						"text": "the peace"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant may say to the People"
+					},
+					{
+						"type": "line",
+						"text": "The Peace of the Lord be always with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "rubric",
+						"text": "The newly married couple may then exchange the Kiss of Peace, after which greetings may be exchanged throughout the Congregation."
+					},
+					{
+						"type": "rubric",
+						"text": "When Communion is not to follow, the wedding party leaves the church. A hymn, psalm, or anthem may be sung, or instrumental music may be played."
+					},
+					{
+						"type": "rubric",
+						"text": "When there is Communion, the liturgy continues with the Offertory, at which the newly married couple, or members of their family, may present the offerings of bread and wine."
+					},
+					{
+						"type": "rubric",
+						"text": "The Proper Preface of Holy Matrimony is used (page 156)."
+					},
+					{
+						"type": "rubric",
+						"text": "At the Communion, it is appropriate that the newly married couple receive Communion first, after the Ministers, and then be seated in a place suitable to allow others to receive Communion."
+					},
+					{
+						"type": "rubric",
+						"text": "The following Post Communion Prayer is used."
+					},
+					{
+						"type": "section_title",
+						"text": "post communion prayer"
+					},
+					{
+						"type": "text_block",
+						"text": "O God, the giver of all that is true and lovely and gracious: we thank you for binding us together in these holy mysteries of the Body and Blood of your Son Jesus Christ, uniting us with him, and giving us a foretaste of the great marriage supper of the Lamb. Grant that by your Holy Spirit, _N._ and _N._, now joined in Holy Matrimony, may become one in heart and soul, live in fidelity and peace, and obtain those eternal joys prepared for all who love you; for the sake of Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 211
+					},
+					{
+						"type": "section_title",
+						"text": "additional directions",
+						"size": "xl"
+					},
+					{
+						"type": "text_block",
+						"text": "The entrance of the principals at Holy Matrimony may consist of two processions, one of the groom and one of the bride, or of a single procession or gathering. The father of the bride, or another appointed family member, may serve as the representative of both families in presenting the couple for Holy Matrimony."
+					},
+					{
+						"type": "text_block",
+						"content": [
+							{
+								"type": "text",
+								"value": "In place of the examination of the man and the woman given in this liturgy ("
+							},
+							{
+								"type": "page_link",
+								"page": 202,
+								"text": "202-203"
+							},
+							{
+								"type": "text",
+								"value": "), the following questions based on the 1662 Book of Common Prayer may be substituted:"
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "i: The Officiant says to the Man",
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "_N._ will you have this woman to be your wedded wife, to live together after God’s ordinance in the holy estate of Matrimony? Will you love her, comfort her, honor, and keep her in sickness and in health; and, forsaking all others, keep yourself unto her alone, so long as you both shall live?",
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "i: The Man answers",
+						"indent": true
+					},
+					{
+						"type": "versical",
+						"text": "I will."
+					},
+					{
+						"type": "rubric",
+						"text": "i: The Officiant says to the Woman",
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "_N._ will you have this man to be your wedded husband, to live together after God’s ordinance in the holy estate of Matrimony? Will you obey him and serve him, love, honor, and keep him in sickness and in health; and, forsaking all others, keep yourself unto him alone, so long as you both shall live?",
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "i: The Woman answers",
+						"indent": true
+					},
+					{
+						"type": "versical",
+						"text": "I will."
+					},
+					{
+						"type": "page_break",
+						"page": 212
+					},
+					{
+						"type": "text_block",
+						"content": [
+							{
+								"type": "text",
+								"value": "In place of the sentence given for the exchange of rings ("
+							},
+							{
+								"type": "page_link",
+								"page": 206,
+								"text": "206"
+							},
+							{
+								"type": "text",
+								"value": "), the following sentence based on the 1662 _Book of Common Prayer_ may be substituted:"
+							}
+						]
+					},
+					{
+						"type": "text_block",
+						"text": "With this ring I marry you, with my body I honor you, and with you all my worldly goods I share: In the Name of the Father, and of the Son, and of the Holy Spirit. Amen.",
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "The signing of the congregational register, if done publicly, occurs immediately after the Marriage and prior to the Prayers, or, if done outside the liturgy, immediately after the rite."
+					},
+					{
+						"type": "text_block",
+						"text": "At the conclusion of the liturgy, the newly married couple may be introduced with these, or similar words:"
+					},
+					{
+						"type": "text_block",
+						"text": "“Dearly beloved, please greet **15**.”"
+					},
+					{
+						"type": "text_block",
+						"text": "The liturgy may end with a procession of the bridal party and their families or according to local custom."
+					},
+					{
+						"type": "text_block",
+						"text": "Should a Deacon, by lawful authority, be permitted by the Bishop to officiate at Holy Matrimony, there can be no blessing of rings, nor the nuptial blessing which begins, “God the Father, God the Son, God the Holy Spirit.” Such blessings should be received at a later time from a Priest or Bishop."
+					}
+				],
+				"pb_page_start": 201,
+				"pb_page_end": 212
+			}
+		]
+	}
+}

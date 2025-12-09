@@ -44,139 +44,7 @@
 						"text": "Let my prayer be set forth in your sight as incense, and let the lifting up of my hands be an evening sacrifice."
 					},
 					{
-						"type": "section_title",
-						"text": "confession of sin"
-					},
-					{
-						"type": "rubric",
-						"text": "The Officiant says to the People"
-					},
-					{
-						"type": "text_block",
-						"text": "Dearly beloved, the Scriptures teach us to acknowledge our many sins and offenses, not concealing them from our heavenly Father, but confessing them with humble and obedient hearts that we may obtain forgiveness by his infinite goodness and mercy. We ought at all times humbly to acknowledge our sins before Almighty God, but especially when we come together in his presence to give thanks for the great benefits we have received at his hands, to declare his most worthy praise, to hear his holy Word, and to ask, for ourselves and on behalf of others, those things which are necessary for our life and our salvation. Therefore, draw near with me to the throne of heavenly grace."
-					},
-					{
-						"type": "rubric",
-						"text": "or this"
-					},
-					{
-						"type": "line",
-						"text": "Let us humbly confess our sins to Almighty God."
-					},
-					{
-						"type": "rubric",
-						"text": "Silence is kept. All kneeling, the Officiant and People say"
-					},
-					{
-						"type": "line",
-						"text": "Almighty and most merciful Father,",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "we have erred and strayed from your ways like lost sheep.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "We have followed too much the devices and desires",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "of our own hearts.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "We have offended against your holy laws.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "We have left undone those things which we ought to have done,",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "and we have done those things which we ought not",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "to have done;",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "and apart from your grace, there is no health in us.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "O Lord, have mercy upon us.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "Spare all those who confess their faults.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "Restore all those who are penitent, according to your promises",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "declared to all people in Christ Jesus our Lord.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "And grant, O most merciful Father, for his sake,",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "that we may now live a godly, righteous, and sober life,",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "to the glory of your holy Name. Amen.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "rubric",
-						"text": "The Priest alone stands and says"
-					},
-					{
-						"type": "text_block",
-						"text": "Almighty God, the Father of our Lord Jesus Christ, desires not the death of sinners, but that they may turn from their wickedness and live. He has empowered and commanded his ministers to pronounce to his people, being penitent, the absolution and remission of their sins. He pardons and absolves all who truly repent and genuinely believe his holy Gospel. For this reason, we beseech him to grant us true repentance and his Holy Spirit, that our present deeds may please him, the rest of our lives may be pure and holy, and that at the last we may come to his eternal joy; through Jesus Christ our Lord. __Amen.__"
-					},
-					{
-						"type": "rubric",
-						"text": "or this"
-					},
-					{
-						"type": "text_block",
-						"text": "The Almighty and merciful Lord grant you absolution and remission of all your sins, true repentance, amendment of life, and the grace and consolation of his Holy Spirit. __Amen.__"
-					},
-					{
-						"type": "rubric",
-						"text": "A Deacon or layperson remains kneeling and prays"
-					},
-					{
-						"type": "text_block",
-						"text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. __Amen.__"
+						"type": "office_confession"
 					},
 					{
 						"type": "section_title",
@@ -220,66 +88,16 @@
 						"text": "The Lord's Name be praised."
 					},
 					{
+						"type": "page_break",
+						"page": 44
+					},
+					{
 						"type": "rubric",
 						"text": "The following or some other suitable hymn or Psalm may be sung or said."
 					},
 					{
-						"type": "section_title",
-						"text": "_phos hilaron_",
-						"lowercase": true
-					},
-					{
-						"type": "section_title",
-						"text": "O Gladsome Light"
-					},
-					{
-						"type": "line",
-						"text": "O gladsome light,",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "pure brightness of the everliving Father in heaven, *",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "O Jesus Christ, holy and blessed!",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "Now as we come to the setting of the sun,",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "and our eyes behold the vesper light, *",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "we sing your praises, O God: Father, Son, and Holy Spirit.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "You are worthy at all times to be praised by happy voices, *",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "O Son of God, O Giver of Life,",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "and to be glorified through all the worlds.",
-						"bold": true,
-						"indent": true
+						"type": "canticle",
+						"name": "phos_hilaron"
 					},
 					{
 						"type": "rubric",
@@ -306,7 +124,7 @@
 					},
 					{
 						"type": "versical",
-						"text": "A Reading from ___11___."
+						"text": "A Reading from _**11**_."
 					},
 					{
 						"type": "rubric",
@@ -326,6 +144,10 @@
 						"text": "Thanks be to God."
 					},
 					{
+						"type": "page_break",
+						"page": 45
+					},
+					{
 						"type": "rubric",
 						"text": "Or the Reader may say"
 					},
@@ -338,171 +160,23 @@
 						"text": "The following Canticles are normally sung or said after each of the lessons. The Officiant may also use a Canticle drawn from the Supplemental Canticles (pages 79-88) or an appropriate song of praise."
 					},
 					{
-						"type": "section_title",
-						"text": "magnificat"
+						"type": "canticle",
+						"name": "magnificat"
 					},
 					{
-						"type": "section_title",
-						"text": "_The Song of Mary_",
-						"lowercase": true
+						"type": "page_break",
+						"page": 46
 					},
 					{
-						"type": "line",
-						"text": "My soul magnifies the Lord, *",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "and my spirit rejoices in God my Savior;",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "For he has regarded *",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "the lowliness of his handmaiden.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "For behold, from now on, *",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "all generations will call me blessed;",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "For he that is mighty has magnified me, *",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "and holy is his Name.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "And his mercy is on those who fear him, *",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "throughout all generations.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "He has shown the strength of his arm; *",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "he has scattered the proud in the imagination of their hearts.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "He has brought down the mighty from their thrones, *",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "and has exalted the humble and meek.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "He has filled the hungry with good things, *",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "and the rich he has sent empty away.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "He, remembering his mercy, has helped his servant Israel, *",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "as he promised to our fathers, Abraham and his seed for ever.",
-						"bold": true
-					},
-					{
-						"type": "gloria"
-					},
-					{
-						"type": "ref",
-						"text": "luke 1:46-55"
-					},
-					{
-						"type": "section_title",
-						"text": "nunc dimittis"
-					},
-					{
-						"type": "section_title",
-						"text": "_The Song of Simeon_",
-						"lowercase": true
-					},
-					{
-						"type": "line",
-						"text": "Lord, now let your servant depart in peace, *",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "according to your word.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "For my eyes have seen your salvation, *",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "which you have prepared before the face of all people;",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "To be a light to lighten the Gentiles, *",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "and to be the glory of your people Israel.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "gloria"
-					},
-					{
-						"type": "ref",
-						"text": "luke 2:29-32"
+						"type": "canticle",
+						"name": "nunc_dimittis"
 					},
 					{
 						"type": "apostles_creed"
+					},
+					{
+						"type": "page_break",
+						"page": 47
 					},
 					{
 						"type": "section_title",
@@ -556,6 +230,10 @@
 						"type": "versical",
 						"people": true,
 						"text": "And lead us in the way of justice and truth."
+					},
+					{
+						"type": "page_break",
+						"page": 48
 					},
 					{
 						"type": "versical",
@@ -672,7 +350,7 @@
 					},
 					{
 						"type": "line",
-						"text": "communion of [ ___11___ and] all your saints, entrusting",
+						"text": "communion of [ _**11**_ and] all your saints, entrusting",
 						"indent": true
 					},
 					{
@@ -685,6 +363,10 @@
 						"text": "We entreat you, O Lord.",
 						"bold": true,
 						"indent": true
+					},
+					{
+						"type": "page_break",
+						"page": 49
 					},
 					{
 						"type": "rubric",
@@ -753,6 +435,10 @@
 						"text": "Lighten our darkness, we beseech you, O Lord; and by your great mercy defend us from all perils and dangers of this night; for the love of your only Son, our Savior Jesus Christ."
 					},
 					{
+						"type": "page_break",
+						"page": 50
+					},
+					{
 						"type": "section_title",
 						"text": "a collect for protection"
 					},
@@ -805,12 +491,16 @@
 						"text": "O God, the source of eternal light: Shed forth your unending day upon us who watch for you, that our lips may praise you, our lives may bless you, and our worship on the morrow give you glory; through Jesus Christ our Lord."
 					},
 					{
+						"type": "page_break",
+						"page": 51
+					},
+					{
 						"type": "section_title",
 						"text": "prayer for mission"
 					},
 					{
 						"type": "text_block",
-						"text": "O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you, all nations obey you, all tongues confess and bless you, and men, women, and children everywhere love you and serve you in peace; through Jesus Christ our Lord. __Amen.__"
+						"text": "O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you, all nations obey you, all tongues confess and bless you, and men, women, and children everywhere love you and serve you in peace; through Jesus Christ our Lord. **Amen.**"
 					},
 					{
 						"type": "rubric",
@@ -818,7 +508,7 @@
 					},
 					{
 						"type": "text_block",
-						"text": "Keep watch, dear Lord, with those who work, or watch, or weep this night, and give your angels charge over those who sleep. Tend the sick, Lord Christ; give rest to the weary, bless the dying, soothe the suffering, pity the afflicted, shield the joyous; and all for your love's sake. __Amen.__"
+						"text": "Keep watch, dear Lord, with those who work, or watch, or weep this night, and give your angels charge over those who sleep. Tend the sick, Lord Christ; give rest to the weary, bless the dying, soothe the suffering, pity the afflicted, shield the joyous; and all for your love's sake. **Amen.**"
 					},
 					{
 						"type": "rubric",
@@ -826,7 +516,7 @@
 					},
 					{
 						"type": "text_block",
-						"text": "O God, you manifest in your servants the signs of your presence: Send forth upon us the Spirit of love, that in companionship with one another your abounding grace may increase among us; through Jesus Christ our Lord. __Amen.__"
+						"text": "O God, you manifest in your servants the signs of your presence: Send forth upon us the Spirit of love, that in companionship with one another your abounding grace may increase among us; through Jesus Christ our Lord. **Amen.**"
 					},
 					{
 						"type": "rubric",
@@ -841,116 +531,11 @@
 						"text": "Before the close of the Office one or both of the following prayers may be used."
 					},
 					{
-						"type": "section_title",
-						"text": "the general thanksgiving"
+						"type": "general_thanksgiving"
 					},
 					{
-						"type": "rubric",
-						"text": "Officiant and People"
-					},
-					{
-						"type": "line",
-						"text": "Almighty God, Father of all mercies,",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "we your unworthy servants give you humble thanks",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "for all your goodness and loving-kindness",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "to us and to all whom you have made.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "We bless you for our creation, preservation,",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "and all the blessings of this life;",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "but above all for your immeasurable love",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "in the redemption of the world by our Lord Jesus Christ;",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "for the means of grace, and for the hope of glory.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "And, we pray, give us such an awareness of your mercies,",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "that with truly thankful hearts we may show forth your praise,",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "not only with our lips, but in our lives,",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "by giving up our selves to your service,",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "and by walking before you",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "in holiness and righteousness all our days;",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "Through Jesus Christ our Lord,",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "to whom, with you and the Holy Spirit,",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "be honor and glory throughout all ages. Amen.",
-						"bold": true,
-						"indent": true
+						"type": "page_break",
+						"page": 52
 					},
 					{
 						"type": "canticle",
@@ -975,6 +560,10 @@
 						"text": "The Officiant says one of these concluding sentences (and the People may be invited to join)"
 					},
 					{
+						"type": "page_break",
+						"page": 53
+					},
+					{
 						"type": "scripture",
 						"ref": "2 corinthians 13:14",
 						"text": "The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore."
@@ -988,6 +577,10 @@
 						"type": "scripture",
 						"ref": "ephesians 3:20-21",
 						"text": "Glory to God whose power, working in us, can do infinitely more than we can ask or imagine: Glory to him from generation to generation in the Church, and in Christ Jesus for ever and ever."
+					},
+					{
+						"type": "page_break",
+						"page": 54
 					},
 					{
 						"type": "section_title",
@@ -1038,6 +631,10 @@
 						"type": "scripture",
 						"ref": "daniel 9:9",
 						"text": "To the Lord our God belong mercy and forgiveness, for we have rebelled against him."
+					},
+					{
+						"type": "page_break",
+						"page": 55
 					},
 					{
 						"type": "section_title",
@@ -1099,6 +696,10 @@
 						"text": "The Lord by wisdom founded the earth; by understanding he established the heavens; by his knowledge the deeps broke open, and the clouds drop down the dew."
 					},
 					{
+						"type": "page_break",
+						"page": 56
+					},
+					{
 						"type": "section_title",
 						"text": "at any time"
 					},
@@ -1141,7 +742,7 @@
 						"text": "A sermon may be preached after the lessons, after the hymn or anthem following the Collects, or after the conclusion of the Office."
 					}
 				],
-				"pb_page_start": 41,
+				"pb_page_start": 44,
 				"pb_page_end": 56
 			}
 		]

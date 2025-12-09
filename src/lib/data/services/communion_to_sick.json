@@ -1,0 +1,254 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			227,
+			231
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 227
+					},
+					{
+						"type": "section_title",
+						"text": "communion of the sick",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "This rite is used when the consecrated elements are brought from an earlier celebration of Holy Communion."
+					},
+					{
+						"type": "rubric",
+						"text": "The Minister says"
+					},
+					{
+						"type": "scripture",
+						"ref": "philippians 1:2",
+						"text": "Grace to you and peace from God our Father and the Lord Jesus Christ."
+					},
+					{
+						"type": "rubric",
+						"text": "The Minister continues"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, to you all hearts are open, all desires known, and from you no secrets are hid: Cleanse the thoughts of our hearts by the inspiration of your Holy Spirit, that we may perfectly love you, and worthily magnify your holy Name; through Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "A psalm may be prayed. Psalms 23, 62, 103, and 145 are particularly appropriate."
+					},
+					{
+						"type": "button",
+						"text": "Psalm 23"
+					},
+					{
+						"type": "button",
+						"text": "Psalm 62"
+					},
+					{
+						"type": "button",
+						"text": "Psalm 103"
+					},
+					{
+						"type": "button",
+						"text": "psalm 145"
+					},
+					{
+						"type": "rubric",
+						"text": "One of the following Gospel lessons is read, or the readings appropriate to the day."
+					},
+					{
+						"type": "scripture",
+						"ref": "john 3:16 t",
+						"text": "God so loved the world, that he gave his only-begotten Son, that whoever believes in him should not perish but have eternal life."
+					},
+					{
+						"type": "page_break",
+						"page": 228
+					},
+					{
+						"type": "line",
+						"text": "Jesus said, “I am the living bread that came down from"
+					},
+					{
+						"type": "line",
+						"text": "heaven. If anyone eats of this bread, he will live forever."
+					},
+					{
+						"type": "line",
+						"text": "And the bread that I will give for the life of the world is my"
+					},
+					{
+						"type": "line",
+						"text": "flesh. For my flesh is true food, and my blood is true drink."
+					},
+					{
+						"type": "line",
+						"text": "Whoever feeds on my flesh and drinks my blood abides in me,"
+					},
+					{
+						"type": "scripture",
+						"ref": "john 6:51, 55-56",
+						"text": "and I in him.”"
+					},
+					{
+						"type": "rubric",
+						"text": "Reflection on the Lessons may follow. Additional prayers may be offered."
+					},
+					{
+						"type": "rubric",
+						"text": "The Minister may say the Confession, and the sick person joins in as able."
+					},
+					{
+						"type": "confession_communion"
+					},
+					{
+						"type": "rubric",
+						"text": "A Priest, if present, says"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "A Deacon or lay person prays"
+					},
+					{
+						"type": "text_block",
+						"text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 229
+					},
+					{
+						"type": "versical",
+						"text": "minister: The peace of the Lord be always with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"text": "minister: Let us pray."
+					},
+					{
+						"type": "rubric",
+						"text": "Minister and People"
+					},
+					{
+						"type": "lords_prayer"
+					},
+					{
+						"type": "rubric",
+						"text": "Then may be said"
+					},
+					{
+						"type": "line",
+						"text": "Lamb of God, you take away the sin of the world;"
+					},
+					{
+						"type": "line",
+						"text": "have mercy on us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Lamb of God, you take away the sin of the world;"
+					},
+					{
+						"type": "line",
+						"text": "have mercy on us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Lamb of God, you take away the sin of the world;"
+					},
+					{
+						"type": "line",
+						"text": "grant us your peace.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "The minister may say"
+					},
+					{
+						"type": "text_block",
+						"text": "The Gifts of God for the People of God. Take them in remembrance that Christ died for you, and feed on him in your hearts by faith, with thanksgiving."
+					},
+					{
+						"type": "page_break",
+						"page": 230
+					},
+					{
+						"type": "rubric",
+						"text": "The Sacrament is then distributed with the following words"
+					},
+					{
+						"type": "text_block",
+						"text": "The Body of our Lord Jesus Christ, which was given for you, preserve your body and soul to everlasting life."
+					},
+					{
+						"type": "text_block",
+						"text": "The Blood of our Lord Jesus Christ, which was shed for you, preserve your body and soul to everlasting life."
+					},
+					{
+						"type": "rubric",
+						"text": "After Communion, the Minister says"
+					},
+					{
+						"type": "post_communion_standard"
+					},
+					{
+						"type": "rubric",
+						"text": "A Priest gives this blessing"
+					},
+					{
+						"type": "text_block",
+						"text": "The peace of God which passes all understanding keep your hearts and minds in the knowledge and love of God, and of his Son Jesus Christ our Lord; and the blessing of God Almighty, the Father, the Son, and the Holy Spirit, be among you, and remain with you always. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 231
+					},
+					{
+						"type": "rubric",
+						"text": "A Deacon or lay person says the following"
+					},
+					{
+						"type": "scripture",
+						"ref": "2 corinthians 13:14 t",
+						"text": "The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore. Amen."
+					},
+					{
+						"type": "versical",
+						"text": "minister: Let us bless the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					}
+				],
+				"pb_page_start": 227,
+				"pb_page_end": 231
+			}
+		]
+	}
+}

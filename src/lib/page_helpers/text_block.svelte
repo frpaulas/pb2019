@@ -1,5 +1,6 @@
 <script>
-	import { parseMarkdown } from '$lib/utils/parseMarkdown.js';
+	import { parseMarkdown } from '$lib/utils/parseMarkdown';
+	import { liturgicalContext } from '$lib/stores/liturgical';
 	import { onMount } from 'svelte';
 
 	let { optional = false, indent = false, bold = false, children } = $props();
@@ -15,7 +16,7 @@
 	onMount(() => {
 		if (slotContentElement) {
 			const textContent = slotContentElement.textContent || '';
-			parsedSlotContent = parseMarkdown(textContent);
+			parsedSlotContent = parseMarkdown(textContent, $liturgicalContext);
 		}
 	});
 </script>

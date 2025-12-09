@@ -24,15 +24,23 @@ type PsalmsDatabase = Record<string, Psalm>;
 const db: PsalmsDatabase = psalmsData as PsalmsDatabase;
 
 /**
- * Get verses from a psalm
+ * Get verses from a psalm with optional line selection
  *
  * @param psalmKey - The psalm key (e.g., 1, 23, 119, "23kjv")
  * @param vs_from - Starting verse number (inclusive)
  * @param vs_to - Ending verse number (inclusive)
- * @returns Array of verses in the specified range
+ * @param fromLine - Starting line: 1 for ln1, 2 for ln2 (default: 1)
+ * @param toLine - Ending line: 1 for ln1 only, 2 for both lines (default: 2)
+ * @returns Array of verses in the specified range with line filtering applied
  * @throws Error if psalm not found
  */
-export function psalm(psalmKey: number | string, vs_from: number, vs_to: number): Verse[] {
+export function psalm(
+	psalmKey: number | string,
+	vs_from: number,
+	vs_to: number,
+	fromLine: number = 1,
+	toLine: number = 2
+): Verse[] {
 	const key = psalmKey.toString();
 	const psalmData = db[key];
 
@@ -42,7 +50,26 @@ export function psalm(psalmKey: number | string, vs_from: number, vs_to: number)
 
 	const verses = psalmData.verses.filter((verse) => verse.vs >= vs_from && verse.vs <= vs_to);
 
-	return verses;
+	// Handle line filtering
+	return verses.map((verse, index) => {
+		const isFirstVerse = index === 0;
+		const isLastVerse = index === verses.length - 1;
+
+		let ln1 = verse.ln1;
+		let ln2 = verse.ln2;
+
+		// If starting from ln2 on first verse, hide ln1
+		if (isFirstVerse && fromLine === 2) {
+			ln1 = '';
+		}
+
+		// If ending at ln1 on last verse, hide ln2
+		if (isLastVerse && toLine === 1) {
+			ln2 = '';
+		}
+
+		return { ...verse, ln1, ln2 };
+	});
 }
 
 /**

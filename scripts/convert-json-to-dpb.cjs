@@ -159,6 +159,10 @@ class JsonToDpbConverter {
 				return `pb: ${item.page || ''}`;
 			}
 
+			case 'line_break': {
+				return 'br:';
+			}
+
 			case 'scripture': {
 				const ref = item.ref || '';
 				const text = item.text || '';
@@ -178,8 +182,15 @@ class JsonToDpbConverter {
 				const ps = item.ps;
 				const from = item.from || 1;
 				const to = item.to || 999;
+				const fromLine = item.fromLine || 1;
+				const toLine = item.toLine || 2;
 				const bold = item.bold ? ':b' : '';
-				return `use:psalm:${ps}:${from}:${to}${bold}:`;
+
+				// Add 'b' suffix to verse numbers if starting/ending at ln2
+				const fromStr = fromLine === 2 ? `${from}b` : `${from}`;
+				const toStr = toLine === 1 ? `${to}a` : `${to}`;
+
+				return `use:psalm:${ps}:${fromStr}:${toStr}${bold}:`;
 			}
 
 			case 'show_psalm_verses': {
@@ -239,7 +250,7 @@ class JsonToDpbConverter {
 			}
 
 			case 'lords_prayer': {
-				return 'use:lords_prayer:';
+				return 'use:prayer:lords_prayer:';
 			}
 
 			case 'incline_our_hearts': {

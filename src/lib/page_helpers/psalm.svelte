@@ -6,10 +6,14 @@
 <div class="flex">
 	<span class="inline-block w-8 flex-shrink-0 text-xs font-normal">{vs}</span>
 	<div class="flex-1">
-		<p class={this_font}>
-			{ln1}
-			<span class="relative -top-1 text-xs">*</span>
-		</p>
-		<p class={this_font + 'pl-4'}>{ln2}</p>
+		{#if ln1}
+			<p class={this_font}>
+				{ln1}
+				<span class="relative -top-1 text-xs">*</span>
+			</p>
+		{/if}
+		{#if ln2}
+			<p class={this_font + 'pl-4'}>{ln2}</p>
+		{/if}
 	</div>
 </div>

@@ -1,0 +1,111 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			225,
+			226
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 225
+					},
+					{
+						"type": "section_title",
+						"text": "ministry to the sick",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant begins"
+					},
+					{
+						"type": "text_block",
+						"text": "Savior of the world, by your Cross and precious blood you have redeemed us;"
+					},
+					{
+						"type": "text_block",
+						"text": "Save us, and help us, we humbly beseech you, O Lord."
+					},
+					{
+						"type": "rubric",
+						"text": "The Priest (or other authorized person) anoints the sick person’s forehead with the Oil of the Sick by making the sign of the Cross. If appropriate, other parts of the body which suffer from sickness or injury may also be anointed. Others may join in the laying on of hands. The Officiant says"
+					},
+					{
+						"type": "text_block",
+						"text": "_N._, I anoint you with oil and I (_or_ we) lay my (_or_ our) hands upon you in the Name of the Father, and of the Son, and of the Holy Spirit. **Amen.**"
+					},
+					{
+						"type": "text_block",
+						"text": "Lord Jesus Christ, heal this your servant, sustain him with your presence, drive away all sickness of body, mind, and spirit, and give to him that victory of life and peace which will enable him to serve you both now and evermore. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "A Priest may add the following prayer. If this rite is used with multiple persons, it is appropriate for this prayer to be used after all have received individual prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "As you are outwardly anointed with this holy oil, so may our heavenly Father grant you the inward anointing of the Holy Spirit. Of his great mercy, may he forgive you your sins, release you from suffering, and restore you to wholeness and strength. May he deliver you from all evil, preserve you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 226
+					},
+					{
+						"type": "rubric",
+						"content": [
+							{
+								"type": "text",
+								"value": "Additional prayers or intercessions may be said. Additional prayers are "
+							},
+							{
+								"type": "page_link",
+								"page": 231,
+								"text": "231-235"
+							},
+							{
+								"type": "text",
+								"value": ". See also Occasional Prayers #56-63 "
+							},
+							{
+								"type": "page_link",
+								"page": 663,
+								"text": "663-665"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "The Lord’s Prayer is said."
+					},
+					{
+						"type": "lords_prayer"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant then prays"
+					},
+					{
+						"type": "text_block",
+						"text": "The Almighty Lord, who is a strong tower to all who put their trust in him, to whom all things in heaven, on earth, and under the earth bow and obey: Be now and evermore your defense, and make you know and feel that the only Name under heaven given for health and salvation is the Name of our Lord Jesus Christ. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "A Priest may conclude the above prayer with a blessing."
+					}
+				],
+				"pb_page_start": 225,
+				"pb_page_end": 226
+			}
+		]
+	}
+}

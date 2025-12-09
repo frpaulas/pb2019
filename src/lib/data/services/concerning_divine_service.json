@@ -1,76 +1,87 @@
 {
-  "concerning_divine_service": {
-    "title": "Concerning the Divine Service of the Church",
-    "slug": "concerning-divine-service",
-    "pb_pages": [6, 7, 8],
-    "sections": [
-      {
-        "id": "concerning_divine_service",
-        "title": "Concerning the Divine Service of the Church",
-        "pb_page_start": 6,
-        "pb_page_end": 8,
-        "content": [
-          {
-            "type": "section_title",
-            "size": "3xl",
-            "text": "concerning"
-          },
-          {
-            "type": "section_title",
-            "size": "3xl",
-            "text": "the divine service"
-          },
-          {
-            "type": "section_title",
-            "size": "3xl",
-            "text": "of the church"
-          },
-          {
-            "type": "text_block",
-            "text": "Daily Morning and Evening Prayer, the Great Litany, the Order for Holy Communion, and the Orders for Holy Baptism and Confirmation, as set forth in this Book, are the regular liturgies appointed for worship in this Church."
-          },
-          {
-            "type": "text_block",
-            "text": "Daily Morning Prayer and Daily Evening Prayer are the established rites (offices) by which, both corporately and individually, God's people annually encounter the whole of the Holy Scriptures, daily confess their sins and praise Almighty God, and offer timely thanksgivings, petitions, and intercessions. The Prayer Book tradition has historically expected clergy to pray the Daily Office morning and evening each day."
-          },
-          {
-            "type": "text_block",
-            "text": "The Great Litany is commonly used before the Holy Eucharist on the First Sunday of Advent and the First Sunday in Lent, and may be used on other Sundays as needed or as the Bishop directs. The Great Litany is especially appropriate for Rogation days, other days of fasting or thanksgiving, and occasions of solemn and comprehensive entreaty. It can be used as an independent rite, or at the conclusion of Morning or Evening Prayer."
-          },
-          {
-            "type": "text_block",
-            "text": "The Holy Communion, commonly called the Lord's Supper or the Holy Eucharist, is a chief means of grace for sustained and nurtured life in Christ. It is normally the principal service of Christian worship on the Lord's Day and on other appointed Feasts and Holy Days. Mindful of the admonition in 1 Corinthians 11:27-29, participation in Holy Communion requires a penitent heart and lively faith."
-          },
-          {
-            "type": "text_block",
-            "text": "Holy Baptism is the initiatory rite of the Church, which seals adoption in Christ and is the means of grace for new life in him. Confirmation (or Reception) through the laying on of hands by a Bishop is the rite of public profession of faith that is expected of every adult member of the Church. In it the Holy Spirit gives grace to the believer for discipleship and ministry as a mature Christian."
-          },
-          {
-            "type": "text_block",
-            "text": "In addition to these liturgies and the other rites contained in this Book, the Minister, subject to the direction of the Ordinary (Diocesan Bishop), may use other forms of occasional service set forth by authority within this Church. Special devotions taken from Holy Scripture, and other services consistent with the Scriptures, may be authorized by the Bishop."
-          },
-          {
-            "type": "text_block",
-            "text": "The entire Congregation participates in the conduct of public worship. Laity, Deacons, Presbyters, and Bishops fulfill the functions of their respective orders. Because divine service should give the Lord the worship due his Name, the Church expects proper training of all who lead in the liturgies of the Church."
-          },
-          {
-            "type": "text_block",
-            "text": "As pastoral need arises or local circumstance requires, all services may be translated into languages other than English for the sake of those gathered for worship. Similarly, any service contained in this Book may have the contemporary idiom of speech conformed to the traditional language (thou, thee, thy, thine, etc.) of earlier Prayer Books. Likewise, the ordering of Communion rites may be conformed to a historic Prayer Book ordering."
-          },
-          {
-            "type": "text_block",
-            "text": "When nouns, pronouns, and their verbs are italicized because of their number, singular may be changed to plural and vice versa as the situation requires. A black line in the left margin of the page indicates that the material in that section may be used at the discretion of the Minister."
-          },
-          {
-            "type": "text_block",
-            "text": "Hymns, anthems, and songs of praise must be in the words of Holy Scripture, or of the Book of Common Prayer, or congruent with them. The local Minister is responsible for maintaining this standard. Where rubrics indicate that a part of the service is to be \"said,\" it must be understood to include \"or sung,\" and vice versa. When it is desired to use music composed for them, previously authorized liturgical texts may be used in place of the corresponding texts in this Book. Throughout this Book, asterisks ( * ) are used to denote the responsorial, antiphonal, or musical break points in canticles and other texts frequently sung or corporately recited."
-          },
-          {
-            "type": "text_block",
-            "text": "Quotations of Scripture in this Book Of Common Prayer (2019) normally follow The Holy Bible: English Standard Version (esv) except for the Psalms and Canticles, and for citations marked with the symbol ( t ) which indicates traditional prayer book language. Similarly, the symbol ( v ) indicates that verse numbers of a particular psalm of the New Coverdale Psalter found in this book differ from other translations. This Psalter is a renewal of the Coverdale Psalter of 1535, whose meter and turn of phrase remain embedded in the global Anglican heritage of language and music."
-          }
-        ]
-      }
-    ]
-  }
+	"concerning_the_divine_service_of_the_church": {
+		"title": "Concerning the Divine Service of the Church",
+		"slug": "concerning_the_divine_service_of_the_church",
+		"pb_pages": [
+			6,
+			8
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "section_title",
+						"text": "concerning",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "the divine service",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "_of the church_",
+						"size": "xl"
+					},
+					{
+						"type": "text_block",
+						"text": "Daily Morning and Evening Prayer, the Great Litany, the Order for Holy Communion, and the Orders for Holy Baptism and Confirmation, as set forth in this Book, are the regular liturgies appointed for worship in this Church."
+					},
+					{
+						"type": "text_block",
+						"text": "Daily Morning Prayer and Daily Evening Prayer are the established rites (offices) by which, both corporately and individually, God's people annually encounter the whole of the Holy Scriptures, daily confess their sins and praise Almighty God, and offer timely thanksgivings, petitions, and intercessions. The Prayer Book tradition has historically expected clergy to pray the Daily Office morning and evening each day."
+					},
+					{
+						"type": "text_block",
+						"text": "The Great Litany is commonly used before the Holy Eucharist on the First Sunday of Advent and the First Sunday in Lent, and may be used on other Sundays as needed or as the Bishop directs. The Great Litany is especially appropriate for Rogation days, other days of fasting or thanksgiving, and occasions of solemn and comprehensive entreaty. It can be used as an independent rite, or at the conclusion of Morning or Evening Prayer."
+					},
+					{
+						"type": "page_break",
+						"page": 7
+					},
+					{
+						"type": "text_block",
+						"text": "The Holy Communion, commonly called the Lord's Supper or the Holy Eucharist, is a chief means of grace for sustained and nurtured life in Christ. It is normally the principal service of Christian worship on the Lord's Day and on other appointed Feasts and Holy Days. Mindful of the admonition in 1 Corinthians 11:27-29, participation in Holy Communion requires a penitent heart and lively faith."
+					},
+					{
+						"type": "text_block",
+						"text": "Holy Baptism is the initiatory rite of the Church, which seals adoption in Christ and is the means of grace for new life in him. Confirmation (or Reception) through the laying on of hands by a Bishop is the rite of public profession of faith that is expected of every adult member of the Church. In it the Holy Spirit gives grace to the believer for discipleship and ministry as a mature Christian."
+					},
+					{
+						"type": "text_block",
+						"text": "In addition to these liturgies and the other rites contained in this Book, the Minister, subject to the direction of the Ordinary (Diocesan Bishop), may use other forms of occasional service set forth by authority within this Church. Special devotions taken from Holy Scripture, and other services consistent with the Scriptures, may be authorized by the Bishop."
+					},
+					{
+						"type": "text_block",
+						"text": "The entire Congregation participates in the conduct of public worship. Laity, Deacons, Presbyters, and Bishops fulfill the functions of their respective orders. Because divine service should give the Lord the worship due his Name, the Church expects proper training of all who lead in the liturgies of the Church."
+					},
+					{
+						"type": "text_block",
+						"text": "As pastoral need arises or local circumstance requires, all services may be translated into languages other than English for the sake of those gathered for worship. Similarly, any service contained in this Book may have the contemporary idiom of speech conformed to the traditional language (thou, thee, thy, thine, etc.) of earlier Prayer Books. Likewise, the ordering of Communion rites may be conformed to a historic Prayer Book ordering."
+					},
+					{
+						"type": "page_break",
+						"page": 8
+					},
+					{
+						"type": "text_block",
+						"text": "When nouns, pronouns, and their verbs are italicized because of their number, singular may be changed to plural and vice versa as the situation requires. A black line in the left margin of the page indicates that the material in that section may be used at the discretion of the Minister."
+					},
+					{
+						"type": "text_block",
+						"text": "Hymns, anthems, and songs of praise must be in the words of Holy Scripture, or of the Book of Common Prayer, or congruent with them. The local Minister is responsible for maintaining this standard. Where rubrics indicate that a part of the service is to be \"said,\" it must be understood to include \"or sung,\" and vice versa. When it is desired to use music composed for them, previously authorized liturgical texts may be used in place of the corresponding texts in this Book. Throughout this Book, asterisks ( * ) are used to denote the responsorial, antiphonal, or musical break points in canticles and other texts frequently sung or corporately recited."
+					},
+					{
+						"type": "text_block",
+						"text": "Quotations of Scripture in this Book Of Common Prayer (2019) normally follow The Holy Bible: English Standard Version (esv) except for the Psalms and Canticles, and for citations marked with the symbol ( t ) which indicates traditional prayer book language. Similarly, the symbol ( v ) indicates that verse numbers of a particular psalm of the New Coverdale Psalter found in this book differ from other translations. This Psalter is a renewal of the Coverdale Psalter of 1535, whose meter and turn of phrase remain embedded in the global Anglican heritage of language and music."
+					}
+				],
+				"pb_page_start": 7,
+				"pb_page_end": 8
+			}
+		]
+	}
 }

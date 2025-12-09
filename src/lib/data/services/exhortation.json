@@ -1,14 +1,15 @@
 {
-	"exhortation": {
+	"the_exhortation": {
 		"title": "The Exhortation",
-		"slug": "exhortation",
-		"pb_pages": [147, 148],
+		"slug": "the_exhortation",
+		"pb_pages": [
+			147,
+			148
+		],
 		"sections": [
 			{
-				"id": "exhortation",
-				"title": "The Exhortation",
-				"pb_page_start": 147,
-				"pb_page_end": 148,
+				"id": "content",
+				"title": "Content",
 				"content": [
 					{
 						"type": "section_title",
@@ -21,6 +22,10 @@
 					{
 						"type": "text_block",
 						"text": "Therefore, judge yourselves lest you be judged by the Lord. First, examine your life by the rule of God's commandments. Wherever you have offended, either by thought, word, or deed, confess your sins to Almighty God, with the full intention to amend your life. Be ready to make restitution for all injuries and wrongs you have done to others; and also be ready to forgive others who have offended you: for otherwise, if you unworthily receive Holy Communion, you will increase your own condemnation. Therefore, repent of your sins, or else do not come to God's Holy Table."
+					},
+					{
+						"type": "page_break",
+						"page": 148
 					},
 					{
 						"type": "text_block",
@@ -36,9 +41,11 @@
 					},
 					{
 						"type": "text_block",
-						"text": "To him, therefore, with the Father and the Holy Spirit, let us give continual thanks, as is our duty and our joy, submitting ourselves entirely to his holy will and striving to serve him in holiness and righteousness all the days of our life. __Amen.__"
+						"text": "To him, therefore, with the Father and the Holy Spirit, let us give continual thanks, as is our duty and our joy, submitting ourselves entirely to his holy will and striving to serve him in holiness and righteousness all the days of our life. **Amen.**"
 					}
-				]
+				],
+				"pb_page_start": 148,
+				"pb_page_end": 148
 			}
 		]
 	}

@@ -1,0 +1,21 @@
+{
+	"pastoral_rites": {
+		"title": "pastoral rites",
+		"slug": "pastoral_rites",
+		"pb_pages": [],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 197
+					}
+				],
+				"pb_page_start": 197,
+				"pb_page_end": 197
+			}
+		]
+	}
+}

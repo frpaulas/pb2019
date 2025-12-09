@@ -23,6 +23,50 @@ class RawToJsonConverter {
 		this.pageBreaks = [];
 	}
 
+	/**
+	 * Parse text with wrapper syntax like {{u}}text{{/u}} into structured format
+	 * Returns either a string (if no wrappers) or an array of text segments with formatting
+	 */
+	parseTextWithWrappers(text) {
+		if (!text || typeof text !== 'string') return text;
+
+		// Check if there are any wrappers
+		if (!text.includes('{{')) return text;
+
+		const segments = [];
+		let lastIndex = 0;
+		const wrapperRegex = /\{\{([a-z]+)\}\}(.*?)\{\{\/\1\}\}/g;
+		let match;
+
+		while ((match = wrapperRegex.exec(text)) !== null) {
+			// Add text before this wrapper
+			if (match.index > lastIndex) {
+				const beforeText = text.substring(lastIndex, match.index);
+				if (beforeText) {
+					segments.push({ type: 'text', value: beforeText });
+				}
+			}
+
+			// Add the wrapped content
+			const wrapperType = match[1]; // e.g., 'u' for uppercase
+			const content = match[2];
+			segments.push({ type: wrapperType, value: content });
+
+			lastIndex = match.index + match[0].length;
+		}
+
+		// Add remaining text after last wrapper
+		if (lastIndex < text.length) {
+			const remainingText = text.substring(lastIndex);
+			if (remainingText) {
+				segments.push({ type: 'text', value: remainingText });
+			}
+		}
+
+		// If we found wrappers, return the segments array; otherwise return original text
+		return segments.length > 0 ? segments : text;
+	}
+
 	parseModifiers(parts) {
 		const modifiers = {
 			bold: false,
@@ -53,10 +97,16 @@ class RawToJsonConverter {
 			// Add text before the match
 			if (match.index > lastIndex) {
 				const textBefore = text.substring(lastIndex, match.index);
-				result.push({
-					type: 'text',
-					value: textBefore
-				});
+				// Parse wrappers in the text segment
+				const wrappedText = this.parseTextWithWrappers(textBefore);
+				if (Array.isArray(wrappedText)) {
+					result.push(...wrappedText);
+				} else {
+					result.push({
+						type: 'text',
+						value: textBefore
+					});
+				}
 			}
 
 			// Extract page numbers
@@ -77,14 +127,24 @@ class RawToJsonConverter {
 
 		// Add remaining text after last match
 		if (lastIndex < text.length) {
-			result.push({
-				type: 'text',
-				value: text.substring(lastIndex)
-			});
+			const remainingText = text.substring(lastIndex);
+			const wrappedText = this.parseTextWithWrappers(remainingText);
+			if (Array.isArray(wrappedText)) {
+				result.push(...wrappedText);
+			} else {
+				result.push({
+					type: 'text',
+					value: remainingText
+				});
+			}
 		}
 
 		// If no matches found, return text as single element
 		if (result.length === 0) {
+			const wrappedText = this.parseTextWithWrappers(text);
+			if (Array.isArray(wrappedText)) {
+				return wrappedText;
+			}
 			result.push({
 				type: 'text',
 				value: text
@@ -186,6 +246,7 @@ class RawToJsonConverter {
 							'l',
 							'button',
 							'bt',
+							'br',
 							'use',
 							'lords_prayer',
 							'scripture'
@@ -253,6 +314,9 @@ class RawToJsonConverter {
 
 			case 'pb':
 				return this.handlePageBreak(content);
+
+			case 'br':
+				return this.handleLineBreak();
 
 			case 'l':
 				return this.handleLine(parts, content);
@@ -336,7 +400,7 @@ class RawToJsonConverter {
 
 		const item = {
 			type: 'section_title',
-			text: text
+			text: this.parseTextWithWrappers(text)
 		};
 
 		// Convert numeric sizes (1, 2, 3, 4) to Tailwind format (xl, 2xl, 3xl, 4xl)
@@ -433,7 +497,7 @@ class RawToJsonConverter {
 		const modifiers = this.parseModifiers(parts);
 		const item = {
 			type: 'ref',
-			text: content.trim()
+			text: this.parseTextWithWrappers(content.trim())
 		};
 
 		if (modifiers.bold) item.bold = true;
@@ -510,7 +574,7 @@ class RawToJsonConverter {
 		};
 
 		if (text) {
-			item.text = text;
+			item.text = this.parseTextWithWrappers(text);
 		}
 
 		if (modifiers.bold) item.bold = true;
@@ -522,7 +586,7 @@ class RawToJsonConverter {
 
 	handleUse(parts, afterFirstColon) {
 		// use:component_name: or use:component_name:param:
-		// Special handling for use:psalm:number:start:end:
+		// Special handling for use:psalm:number:start:end:, use:canticle:name:, use:prayer:name:
 		let componentName = parts[1] || afterFirstColon.trim();
 
 		// Strip trailing colon if present
@@ -537,10 +601,39 @@ class RawToJsonConverter {
 
 		// Handle psalm with parameters: use:psalm:119:105:112:b
 		// Format: use:psalm:number:start:end:b (b is optional bold modifier)
+		// Extended format: use:psalm:116:3b:5:: (3b means start at verse 3, line 2)
 		if (componentName === 'psalm') {
 			const psalmNumber = parseInt(parts[2]);
-			const startVerse = parts[3] ? parseInt(parts[3]) : 1;
-			const endVerse = parts[4] ? parseInt(parts[4]) : undefined;
+
+			// Parse start verse - may have 'b' suffix for line 2
+			let startVerse = 1;
+			let startLine = 1; // 1 for ln1, 2 for ln2
+			if (parts[3]) {
+				const startStr = parts[3];
+				if (startStr.endsWith('b')) {
+					startVerse = parseInt(startStr.slice(0, -1));
+					startLine = 2;
+				} else {
+					startVerse = parseInt(startStr);
+				}
+			}
+
+			// Parse end verse - may also have 'b' suffix
+			let endVerse = undefined;
+			let endLine = 2; // Default to end of verse (ln2)
+			if (parts[4]) {
+				const endStr = parts[4];
+				if (endStr.endsWith('b')) {
+					endVerse = parseInt(endStr.slice(0, -1));
+					endLine = 2;
+				} else if (endStr.endsWith('a')) {
+					endVerse = parseInt(endStr.slice(0, -1));
+					endLine = 1;
+				} else {
+					endVerse = parseInt(endStr);
+				}
+			}
+
 			const bold = parts[5] === 'b';
 
 			const item = {
@@ -552,8 +645,14 @@ class RawToJsonConverter {
 			if (startVerse !== 1) {
 				item.from = startVerse;
 			}
+			if (startLine !== 1) {
+				item.fromLine = startLine;
+			}
 			if (endVerse !== undefined) {
 				item.to = endVerse;
+			}
+			if (endLine !== 2) {
+				item.toLine = endLine;
 			}
 			if (bold) {
 				item.bold = true;
@@ -575,6 +674,21 @@ class RawToJsonConverter {
 			return {
 				type: 'canticle',
 				name: canticleName
+			};
+		}
+
+		// Handle prayer: use:prayer:lords_prayer
+		// Format: use:prayer:name
+		if (componentName === 'prayer') {
+			const prayerName = parts[2];
+
+			if (!prayerName) {
+				console.warn('Warning: use:prayer: requires prayer name');
+				return null;
+			}
+
+			return {
+				type: prayerName
 			};
 		}
 
@@ -624,7 +738,7 @@ class RawToJsonConverter {
 
 		// Add text if present
 		if (text) {
-			item.text = text;
+			item.text = this.parseTextWithWrappers(text);
 		}
 
 		// Check if speaker is 'b' or if bold modifier
@@ -644,6 +758,12 @@ class RawToJsonConverter {
 		return {
 			type: 'page_break',
 			page: page
+		};
+	}
+
+	handleLineBreak() {
+		return {
+			type: 'line_break'
 		};
 	}
 
@@ -675,7 +795,7 @@ class RawToJsonConverter {
 
 		const item = {
 			type: 'line',
-			text: text.trim()
+			text: this.parseTextWithWrappers(text.trim())
 		};
 
 		if (modifiers.bold) item.bold = true;
@@ -694,7 +814,7 @@ class RawToJsonConverter {
 
 		const item = {
 			type: 'button',
-			text: text
+			text: this.parseTextWithWrappers(text)
 		};
 
 		if (link) {

@@ -1,8 +1,10 @@
 <script lang="ts">
-	import { parseMarkdown } from '$lib/utils/parseMarkdown.js';
+	import { parseMarkdown } from '$lib/utils/parseMarkdown';
+	import { liturgicalContext } from '$lib/stores/liturgical';
 	import { onMount } from 'svelte';
+	import FormattedText from './formatted_text.svelte';
 
-	let { ref = '', indent = false, bold = false, children } = $props();
+	let { ref = '', indent = false, bold = false, text, children } = $props();
 	let this_class = indent ? ' pl-4' : '';
 	if (bold) {
 		this_class += ' font-bold';
@@ -15,13 +17,15 @@
 	onMount(() => {
 		if (slotContentElement) {
 			const textContent = slotContentElement.textContent || '';
-			parsedSlotContent = parseMarkdown(textContent);
+			parsedSlotContent = parseMarkdown(textContent, $liturgicalContext);
 		}
 	});
 </script>
 
 <p class={this_class}>
-	{#if parsedSlotContent}
+	{#if text !== undefined}
+		<FormattedText {text} />
+	{:else if parsedSlotContent}
 		{@html parsedSlotContent}
 	{:else}
 		<span bind:this={slotContentElement} style="display: none;">

@@ -1,0 +1,49 @@
+pg:232-235
+pb:232
+pb:232
+
+use:prayer:for_sick_person
+use:prayer:for_recovery
+
+pb:232
+use:prayer:for_sick_child
+use:prayer:before_an_operation
+use:prayer:strength_and_confidence
+
+pb:233
+use:prayer:sanctification_of_illness
+use:prayer:health_of_body_and_soul
+use:prayer:thanks_beginning_of_recovery
+use:prayer:little_hope_of_recovery
+
+pb:234
+st:1: prayers for use by a sick person
+
+use:prayer:trust_in_god
+use:prayer:in_pain
+use:prayer:when_taking_medicine
+
+pb:235
+use:prayer:for_sleep
+use:prayer:in_the_morning
+
+st:1: Scriptures for use by a sick person
+r: For peseverance in suffering:
+button::isaiah 53:
+button::1 peter 2:21-25:
+button::1 thessalonians 5:16-24:
+button:: 2 corinthians 12:7-10:
+button::romans 8:18-39:
+r: For hope for healing:
+button::2 kings 5:1-14:
+button::james 5:13-20:
+button::luke 5:12-26:
+button::luke 13:10-17:
+button::acts 3:1-10:
+r: For the hope of eternity:
+button::luke 2:25-35:
+button::john 14:
+button::1 corinthians 15:42-58:
+button::2 corinthians 4:7-18:
+button::1 thessalonians 4:13-18:
+r: See also the Selections of Psalms on page 269.

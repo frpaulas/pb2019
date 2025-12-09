@@ -1,0 +1,289 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			194,
+			196
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 194
+					},
+					{
+						"type": "page_break",
+						"page": 194
+					},
+					{
+						"type": "section_title",
+						"text": "renewal of baptismal vows",
+						"size": "3xl"
+					},
+					{
+						"type": "rubric",
+						"text": "If there are no baptisms or confirmations at the Easter Vigil, the Renewal of Baptismal Vows takes place after the Service of Lessons or the Sermon. On other occasions, the Renewal of Vows follows the Sermon. The Nicene Creed is not said."
+					},
+					{
+						"type": "rubric",
+						"text": "The people stand. The Celebrant addresses the Congregation in these or similar words"
+					},
+					{
+						"type": "text_block",
+						"text": "Through the Paschal mystery, dear friends, we are buried with Christ by Baptism into his death, and raised with him to new- ness of life. I call upon you, therefore, [now that our Lenten observance is ended,] to renew the solemn promises and vows of Holy Baptism, by which we once renounced the devil and all his works, and promised to serve God faithfully in his one holy catholic and apostolic Church."
+					},
+					{
+						"type": "text_block",
+						"text": "Do you, here in the presence of God and the Church, renew the solemn promises and vows made at your Baptism and commit yourself to keep them?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "I do."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Do you renounce the devil and all the spiritual forces"
+					},
+					{
+						"type": "versical",
+						"text": "of wickedness that rebel against God?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "I renounce them."
+					},
+					{
+						"type": "page_break",
+						"page": 195
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Do you renounce the empty promises and deadly"
+					},
+					{
+						"type": "versical",
+						"text": "deceits of this world that corrupt and destroy the"
+					},
+					{
+						"type": "versical",
+						"text": "creatures of God?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "I renounce them."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Do you renounce the sinful desires of the flesh that"
+					},
+					{
+						"type": "versical",
+						"text": "draw you from the love of God?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "I renounce them."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Do you turn to Jesus Christ and confess him as your"
+					},
+					{
+						"type": "versical",
+						"text": "Lord and Savior?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "I do."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Do you joyfully receive the Christian Faith,"
+					},
+					{
+						"type": "versical",
+						"text": "as revealed in the Holy Scriptures of the Old and New Testaments?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "I do."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Will you obediently keep God’s holy will and"
+					},
+					{
+						"type": "versical",
+						"text": "commandments, and walk in them all the days of"
+					},
+					{
+						"type": "versical",
+						"text": "your life?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "I will, the Lord being my helper."
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant continues"
+					},
+					{
+						"type": "text_block",
+						"text": "Let us now reaffirm our faith in the words of the ancient baptismal confession, the Apostles’ Creed."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Do you believe and trust in God the Father?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "I do."
+					},
+					{
+						"type": "versical",
+						"text": "I believe in God the Father almighty,",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "creator of heaven and earth.",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Do you believe and trust in Jesus Christ?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "I do."
+					},
+					{
+						"type": "versical",
+						"text": "I believe in Jesus Christ, his only Son, our Lord.",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "He was conceived by the Holy Spirit",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "and born of the Virgin Mary.",
+						"bold": true
+					},
+					{
+						"type": "page_break",
+						"page": 196
+					},
+					{
+						"type": "versical",
+						"text": "He suffered under Pontius Pilate,",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "was crucified, died, and was buried.",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "He descended to the dead.",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "On the third day he rose again.",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "He ascended into heaven,",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "and is seated at the right hand of the Father.",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "He will come again to judge the living and the dead.",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Do you believe and trust in the Holy Spirit?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "I do."
+					},
+					{
+						"type": "versical",
+						"text": "I believe in the Holy Spirit,",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "the holy catholic Church,",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "the communion of saints,",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "the forgiveness of sins,",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "the resurrection of the body,",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "and the life everlasting. Amen.",
+						"bold": true
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant concludes the Renewal of Vows as follows"
+					},
+					{
+						"type": "line",
+						"text": "Let us pray."
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, you have built your Church upon the foundation of the Apostles and Prophets, Jesus Christ himself being the chief cornerstone: Grant us so to be joined together in unity of spirit by their doctrine, that we may be made a holy temple acceptable to you; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, world without end. **Amen**."
+					},
+					{
+						"type": "rubric",
+						"text": "Except in the Easter Vigil, the liturgy continues with the Prayers of the People."
+					}
+				],
+				"pb_page_start": 194,
+				"pb_page_end": 196
+			}
+		]
+	}
+}

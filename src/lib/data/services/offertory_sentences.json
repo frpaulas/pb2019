@@ -2,13 +2,14 @@
 	"offertory_sentences": {
 		"title": "Offertory Sentences",
 		"slug": "offertory_sentences",
-		"pb_pages": [140, 150, 151],
+		"pb_pages": [
+			140,
+			151
+		],
 		"sections": [
 			{
-				"id": "offertory_sentences",
-				"title": "Offertory Sentences",
-				"pb_page_start": 149,
-				"pb_page_end": 151,
+				"id": "content",
+				"title": "Content",
 				"content": [
 					{
 						"type": "section_title",
@@ -16,105 +17,115 @@
 					},
 					{
 						"type": "scripture",
-						"text": "Remember the words of the Lord Jesus, how he himself said, \"It is more blessed to give than to receive.\"",
-						"ref": "acts 20:35"
+						"ref": "acts 20:35",
+						"text": "Remember the words of the Lord Jesus, how he himself said, \"It is more blessed to give than to receive.\""
 					},
 					{
 						"type": "scripture",
-						"text": "Let your light shine before others, so that they may see your good works and give glory to your Father who is in heaven.",
-						"ref": "matthew 5:16"
+						"ref": "matthew 5:16",
+						"text": "Let your light shine before others, so that they may see your good works and give glory to your Father who is in heaven."
 					},
 					{
 						"type": "scripture",
-						"text": "Do not lay up for yourselves treasures on earth, where moth and rust destroy and where thieves break in and steal, but lay up for yourselves treasures in heaven, where neither moth nor rust destroys and where thieves do not break in and steal. For where your treasure is, there your heart will be also.",
-						"ref": "matthew 6:19-21"
+						"ref": "matthew 6:19-21",
+						"text": "Do not lay up for yourselves treasures on earth, where moth and rust destroy and where thieves break in and steal, but lay up for yourselves treasures in heaven, where neither moth nor rust destroys and where thieves do not break in and steal. For where your treasure is, there your heart will be also."
 					},
 					{
 						"type": "scripture",
-						"text": "Not everyone who says to me, “Lord, Lord,” will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven.",
-						"ref": "matthew 7:21"
+						"ref": "matthew 7:21",
+						"text": "Not everyone who says to me, “Lord, Lord,” will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven."
 					},
 					{
 						"type": "scripture",
-						"text": "Whoever sows sparingly will also reap sparingly, and whoever sows bountifully will also reap bountifully. Each one must give as he has decided in his heart, not reluctantly or under compulsion, for God loves a cheerful giver.",
-						"ref": "2 corinthians 9:6-7"
+						"ref": "2 corinthians 9:6-7",
+						"text": "Whoever sows sparingly will also reap sparingly, and whoever sows bountifully will also reap bountifully. Each one must give as he has decided in his heart, not reluctantly or under compulsion, for God loves a cheerful giver."
 					},
 					{
 						"type": "scripture",
-						"text": "As we have opportunity, let us do good to everyone, and especially to those who are of the household of faith.",
-						"ref": "galatians 6:10"
+						"ref": "galatians 6:10",
+						"text": "As we have opportunity, let us do good to everyone, and especially to those who are of the household of faith."
 					},
 					{
 						"type": "scripture",
-						"text": "For God is not unjust so as to overlook your work and the love that you have shown for his name in serving the saints, as you still do.",
-						"ref": "hebrews 6:10"
+						"ref": "hebrews 6:10",
+						"text": "For God is not unjust so as to overlook your work and the love that you have shown for his name in serving the saints, as you still do."
 					},
 					{
 						"type": "scripture",
-						"text": "Do not neglect to do good and to share what you have, for such sacrifices are pleasing to God.",
-						"ref": "hebrews 13:16"
+						"ref": "hebrews 13:16",
+						"text": "Do not neglect to do good and to share what you have, for such sacrifices are pleasing to God."
+					},
+					{
+						"type": "page_break",
+						"page": 150
 					},
 					{
 						"type": "scripture",
-						"text": "If anyone has the world’s goods and sees his brother in need, yet closes his heart against him, how does God’s love abide in him?",
-						"ref": "1 john 3:17"
+						"ref": "1 john 3:17",
+						"text": "If anyone has the world’s goods and sees his brother in need, yet closes his heart against him, how does God’s love abide in him?"
 					},
 					{
 						"type": "scripture",
-						"text": "If you have many possessions, make your gift from them in proportion; if few, do not be afraid to give according to the little you have. So you will be laying up a good treasure for yourself against the day of necessity.",
-						"ref": "tobit 4:8-9"
+						"ref": "tobit 4:8-9",
+						"text": "If you have many possessions, make your gift from them in proportion; if few, do not be afraid to give according to the little you have. So you will be laying up a good treasure for yourself against the day of necessity."
 					},
 					{
 						"type": "scripture",
-						"text": "And the King will answer them, \"Truly, I say to you, as you did it to one of the least of these my brothers, you did it to me.\"",
-						"ref": "matthew 25:40"
+						"ref": "matthew 25:40",
+						"text": "And the King will answer them, \"Truly, I say to you, as you did it to one of the least of these my brothers, you did it to me.\""
 					},
 					{
 						"type": "scripture",
-						"text": "How then will they call on him in whom they have not believed? And how are they to believe in him of whom they have never heard? And how are they to hear without someone preaching? And how are they to preach unless they are sent?",
-						"ref": "romans 10:14-15"
+						"ref": "romans 10:14-15",
+						"text": ": How then will they call on him in whom they have not believed? And how are they to believe in him of whom they have never heard? And how are they to hear without someone preaching? And how are they to preach unless they are sent?"
 					},
 					{
 						"type": "scripture",
-						"text": "And Jesus said to them, \"The harvest is plentiful, but the laborers are few. Therefore pray earnestly to the Lord of the harvest to send out laborers into his harvest.\"",
-						"ref": "luke 10:2"
+						"ref": "luke 10:2",
+						"text": ": And Jesus said to them, \"The harvest is plentiful, but the laborers are few. Therefore pray earnestly to the Lord of the harvest to send out laborers into his harvest.\""
 					},
 					{
 						"type": "scripture",
-						"text": "They shall not appear before the Lord empty-handed. Every man shall give as he is able, according to the blessing of the Lord your God that he has given you.",
-						"ref": "deuteronomy 16:16-17"
+						"ref": "deuteronomy 16:16-17",
+						"text": ": They shall not appear before the Lord empty-handed. Every man shall give as he is able, according to the blessing of the Lord your God that he has given you."
 					},
 					{
 						"type": "scripture",
-						"text": "Offer unto God a sacrifice of thanksgiving,\n\tand pay your vows unto the Most High.",
-						"ref": "psalm 50:14"
+						"ref": "psalm 50:14",
+						"text": "Offer unto God a sacrifice of thanksgiving, and pay your vows unto the Most High."
 					},
 					{
 						"type": "scripture",
-						"text": "Ascribe unto the Lord the honor due unto his Name; \n\tbring offerings and come into his courts.",
-						"ref": "psalm 96:8"
+						"ref": "psalm 96:8",
+						"text": "Ascribe unto the Lord the honor due unto his Name; bring offerings and come into his courts."
+					},
+					{
+						"type": "page_break",
+						"page": 151
 					},
 					{
 						"type": "scripture",
-						"text": "Walk in love, as Christ loved us and gave himself up for us, a fragrant offering and sacrifice to God.",
-						"ref": "ephesians 5:2"
+						"ref": "ephesians 5:2",
+						"text": "Walk in love, as Christ loved us and gave himself up for us, a fragrant offering and sacrifice to God."
 					},
 					{
 						"type": "scripture",
-						"text": "I appeal to you therefore, brothers and sisters, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship.",
-						"ref": "romans 12:1"
+						"ref": "romans 12:1",
+						"text": "I appeal to you therefore, brothers and sisters, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship."
 					},
 					{
 						"type": "scripture",
-						"text": "For you know the grace of our Lord Jesus Christ, that though he was rich, yet for your sake he became poor, so that you by his poverty might become rich.",
-						"ref": "2 corinthians 8:9"
+						"ref": "2 corinthians 8:9",
+						"text": "For you know the grace of our Lord Jesus Christ, that though he was rich, yet for your sake he became poor, so that you by his poverty might become rich."
 					},
 					{
 						"type": "scripture",
-						"text": "You are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light.",
-						"ref": "1 peter 2:9"
+						"ref": "1 peter 2:9",
+						"text": "You are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light."
 					}
-				]
+				],
+				"pb_page_start": 150,
+				"pb_page_end": 151
 			}
 		]
 	}

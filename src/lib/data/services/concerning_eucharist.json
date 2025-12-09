@@ -1,46 +1,45 @@
 {
-  "concerning_eucharist": {
-    "title": "Concerning the Holy Eucharist",
-    "slug": "concerning-eucharist",
-    "pb_pages": [103, 104],
-    "sections": [
-      {
-        "id": "title",
-        "title": "The Holy Eucharist",
-        "pb_page_start": 103,
-        "pb_page_end": 103,
-        "content": [
-          {
-            "type": "section_title",
-            "size": "3xl",
-            "text": "the holy eucharist"
-          }
-        ]
-      },
-      {
-        "id": "concerning",
-        "title": "Concerning the Holy Eucharist",
-        "pb_page_start": 104,
-        "pb_page_end": 104,
-        "content": [
-          {
-            "type": "section_title",
-            "text": "concerning the holy eucharist"
-          },
-          {
-            "type": "text_block",
-            "text": "Holy Communion is normally the principal service of Christian worship on the Lord's Day, and on other appointed Feasts and Holy Days. Two forms of the liturgy, commonly called the Lord's Supper or the Holy Eucharist, are provided."
-          },
-          {
-            "type": "text_block",
-            "text": "The Anglican Standard Text is essentially that of the Holy Communion service of the Book of Common Prayer of 1662 and successor books through 1928, 1929, and 1962. The Anglican Standard Text is presented in contemporary English and in the order for Holy Communion that is common, since the late twentieth century, among ecumenical and Anglican partners worldwide. The Anglican Standard Text may be conformed to its original content and ordering, as in the 1662 or subsequent books; the Additional Directions give clear guidance on how this is to be accomplished. Similarly, there are directions given as to how the Anglican Standard Text may be abbreviated where appropriate for local mission and ministry."
-          },
-          {
-            "type": "text_block",
-            "text": "The Renewed Ancient Text is drawn from liturgies of the Early Church, reflects the influence of twentieth century ecumenical consensus, and includes elements of historic Anglican piety. A comprehensive collection of Additional Directions concerning Holy Communion is found after the Renewed Ancient Text."
-          }
-        ]
-      }
-    ]
-  }
+	"concerning_the_holy_eucharist": {
+		"title": "Concerning the Holy Eucharist",
+		"slug": "concerning_the_holy_eucharist",
+		"pb_pages": [
+			103,
+			104
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "section_title",
+						"text": "the holy eucharist",
+						"size": "2xl"
+					},
+					{
+						"type": "page_break",
+						"page": 104
+					},
+					{
+						"type": "section_title",
+						"text": "concerning the holy eucharist"
+					},
+					{
+						"type": "text_block",
+						"text": "Holy Communion is normally the principal service of Christian worship on the Lord's Day, and on other appointed Feasts and Holy Days. Two forms of the liturgy, commonly called the Lord's Supper or the Holy Eucharist, are provided."
+					},
+					{
+						"type": "text_block",
+						"text": "The Anglican Standard Text is essentially that of the Holy Communion service of the Book of Common Prayer of 1662 and successor books through 1928, 1929, and 1962. The Anglican Standard Text is presented in contemporary English and in the order for Holy Communion that is common, since the late twentieth century, among ecumenical and Anglican partners worldwide. The Anglican Standard Text may be conformed to its original content and ordering, as in the 1662 or subsequent books; the Additional Directions give clear guidance on how this is to be accomplished. Similarly, there are directions given as to how the Anglican Standard Text may be abbreviated where appropriate for local mission and ministry."
+					},
+					{
+						"type": "text_block",
+						"text": "The Renewed Ancient Text is drawn from liturgies of the Early Church, reflects the influence of twentieth century ecumenical consensus, and includes elements of historic Anglican piety. A comprehensive collection of Additional Directions concerning Holy Communion is found after the Renewed Ancient Text."
+					}
+				],
+				"pb_page_start": 104,
+				"pb_page_end": 104
+			}
+		]
+	}
 }

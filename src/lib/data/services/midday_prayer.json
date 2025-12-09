@@ -37,8 +37,12 @@
 						"text": "As it was in the beginning, is now, and ever shall be,"
 					},
 					{
+						"type": "versical",
+						"text": "world without end. Amen."
+					},
+					{
 						"type": "rubric",
-						"text": "Except in Lent, add __Alleluia__"
+						"text": "Except in Lent, add **Alleluia**"
 					},
 					{
 						"type": "rubric",
@@ -65,6 +69,10 @@
 						"bold": true
 					},
 					{
+						"type": "page_break",
+						"page": 34
+					},
+					{
 						"type": "section_title",
 						"text": "psalm 121"
 					},
@@ -78,6 +86,10 @@
 						"ps": 121,
 						"to": 8,
 						"bold": true
+					},
+					{
+						"type": "page_break",
+						"page": 35
 					},
 					{
 						"type": "section_title",
@@ -108,6 +120,10 @@
 						"ps": 126,
 						"to": 7,
 						"bold": true
+					},
+					{
+						"type": "page_break",
+						"page": 36
 					},
 					{
 						"type": "rubric",
@@ -153,6 +169,10 @@
 						"text": "A meditation, silent or spoken, may follow."
 					},
 					{
+						"type": "page_break",
+						"page": 37
+					},
+					{
 						"type": "rubric",
 						"text": "The Officiant then begins the Prayers"
 					},
@@ -192,24 +212,28 @@
 						"text": "Let us pray."
 					},
 					{
+						"type": "page_break",
+						"page": 38
+					},
+					{
 						"type": "rubric",
 						"text": "The Officiant then says one or more of the following Collects. Other appropriate Collects may also be used."
 					},
 					{
 						"type": "text_block",
-						"text": "Blessed Savior, at this hour you hung upon the Cross, stretching out your loving arms: Grant that all the peoples of the earth may look to you and be saved; for your tender mercies' sake. __Amen.__"
+						"text": "Blessed Savior, at this hour you hung upon the Cross, stretching out your loving arms: Grant that all the peoples of the earth may look to you and be saved; for your tender mercies' sake. **Amen.**"
 					},
 					{
 						"type": "text_block",
-						"text": "Almighty Savior, who at mid-day called your servant Saint Paul to be an apostle to the Gentiles: We pray you to illumine the world with the radiance of your glory, that all nations may come and worship you; for you live and reign with the Father and the Holy Spirit, one God, for ever and ever. __Amen.__"
+						"text": "Almighty Savior, who at mid-day called your servant Saint Paul to be an apostle to the Gentiles: We pray you to illumine the world with the radiance of your glory, that all nations may come and worship you; for you live and reign with the Father and the Holy Spirit, one God, for ever and ever. **Amen.**"
 					},
 					{
 						"type": "text_block",
-						"text": "Father of all mercies, you revealed your boundless compassion to your apostle Saint Peter in a three-fold vision: Forgive our unbelief, we pray, and so strengthen our hearts and enkindle our zeal, that we may fervently desire the salvation of all people, and diligently labor in the extension of your kingdom; through him who gave himself for the life of the world, your Son our Savior Jesus Christ. __Amen.__"
+						"text": "Father of all mercies, you revealed your boundless compassion to your apostle Saint Peter in a three-fold vision: Forgive our unbelief, we pray, and so strengthen our hearts and enkindle our zeal, that we may fervently desire the salvation of all people, and diligently labor in the extension of your kingdom; through him who gave himself for the life of the world, your Son our Savior Jesus Christ. **Amen.**"
 					},
 					{
 						"type": "text_block",
-						"text": "Pour your grace into our hearts, O Lord, that we who have known the incarnation of your Son Jesus Christ, announced by an angel to the Virgin Mary, may by his Cross and passion be brought to the glory of his resurrection; who lives and reigns with you, in the unity of the Holy Spirit, one God, now and for ever. __Amen.__"
+						"text": "Pour your grace into our hearts, O Lord, that we who have known the incarnation of your Son Jesus Christ, announced by an angel to the Virgin Mary, may by his Cross and passion be brought to the glory of his resurrection; who lives and reigns with you, in the unity of the Holy Spirit, one God, now and for ever. **Amen.**"
 					},
 					{
 						"type": "rubric",
@@ -230,13 +254,17 @@
 						"text": "From Easter Day through the Day of Pentecost, \"Alleluia, alleluia\" may be added to the preceding versicle and response."
 					},
 					{
+						"type": "page_break",
+						"page": 39
+					},
+					{
 						"type": "rubric",
 						"text": "The Officiant may conclude with this, or one of the other concluding sentences from Morning and Evening Prayer."
 					},
 					{
 						"type": "scripture",
 						"ref": "2 corinthians 13:14",
-						"text": "The grace of our Lord Jesus Christ, and the love of God,"
+						"text": "The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore. **Amen.**"
 					},
 					{
 						"type": "section_title",
@@ -250,9 +278,13 @@
 					{
 						"type": "text_block",
 						"text": "Either version of the Lord's Prayer may be ended with, \"deliver us from evil. Amen.\" omitting the concluding doxology."
+					},
+					{
+						"type": "page_break",
+						"page": 40
 					}
 				],
-				"pb_page_start": 33,
+				"pb_page_start": 34,
 				"pb_page_end": 40
 			}
 		]

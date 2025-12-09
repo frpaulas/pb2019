@@ -1,0 +1,56 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			222
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 222
+					},
+					{
+						"type": "section_title",
+						"text": "concerning the rites of healing",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "reconciliation of penitents"
+					},
+					{
+						"type": "section_title",
+						"text": "ministry to the sick"
+					},
+					{
+						"type": "section_title",
+						"text": "communion of the sick"
+					},
+					{
+						"type": "text_block",
+						"text": "Healing was central to the ministry of Jesus, our incarnate Lord. Healing is central to the ministry of the Church, the Body of Christ. Spoken prayer, anointing with oil, and the laying on of hands are the principal outward means employed by the Church for its ministry to those whose health is in any way impaired. The rite of Reconciliation and the reception of Holy Communion are also gifts through which healing takes place."
+					},
+					{
+						"type": "text_block",
+						"text": "All Christians are called to be agents of healing. Nevertheless, the regular forms of healing ministry set forth in this Prayer Book are expected to be coordinated and ordered under the authority of the Diocesan Bishop and the Priest having spiritual charge. Some aspects of healing ministry, most notably absolution and formal blessings, are reserved to Bishops and Priests. The use of holy oils (healing and exorcism), like the ministries of which they are a sign, may be extended to lay ministers by the Bishop and Priest having pastoral jurisdiction. Similarly, lay persons may be trained and authorized to carry the consecrated elements of Christ’s Body and Blood to the sick (or those otherwise confined or kept away from regular celebrations of the Holy Communion) under provisions set forward by the Ordinary."
+					},
+					{
+						"type": "text_block",
+						"text": "Because physical, emotional, and spiritual healing are often interrelated, it is particularly appropriate to encourage confession, reconciliation, and forgiveness in the context of ministry to the sick. The content of a confession is not normally a matter of subsequent discussion. The secrecy of a confession is morally binding for the confessor and is not to be broken."
+					},
+					{
+						"type": "text_block",
+						"text": "These rites are foundational to the many ways that the Church ministers to those who suffer in body, mind, or spirit."
+					}
+				],
+				"pb_page_start": 222,
+				"pb_page_end": 222
+			}
+		]
+	}
+}

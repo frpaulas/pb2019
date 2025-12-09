@@ -21,3 +21,11 @@ global arguments:
     b: make the text bold
     o: text is optional gettingleft hand border
     i: indent
+
+
+I see that rubric and text_block already use `parsePageLinks`. I need to integrate the wrapper parsing with that. Let me update `parsePageLinks` to also handle wrappers:
+
+dpb to json conversion
+for file in src/lib/data/services/dpb/*.dpb; do    node scripts/convert-raw-to-json.cjs "$file"; done
+
+build service pagesnode scripts/build-service-pages.cjs

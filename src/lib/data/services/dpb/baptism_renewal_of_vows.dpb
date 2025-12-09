@@ -1,4 +1,6 @@
 pg:194-196
+pb:194
+pb:194
 
 st:3: renewal of baptismal vows
 
@@ -22,27 +24,27 @@ yourself to keep them?
 
 v:people: I do.
 v:celebrant: Do you renounce the devil and all the spiritual forces
-of wickedness that rebel against God?
+v: of wickedness that rebel against God?
 v:people: I renounce them.
 
 pb:195
 
 v:celebrant: Do you renounce the empty promises and deadly
-deceits of this world that corrupt and destroy the
-creatures of God?
+v: deceits of this world that corrupt and destroy the
+v: creatures of God?
 v:people: I renounce them.
 v:celebrant: Do you renounce the sinful desires of the flesh that
-draw you from the love of God?
+v: draw you from the love of God?
 v:people: I renounce them.
 v:celebrant: Do you turn to Jesus Christ and confess him as your
-Lord and Savior?
+v: Lord and Savior?
 v:people: I do.
 v:celebrant: Do you joyfully receive the Christian Faith,
-as revealed in the Holy Scriptures of the Old and New Testaments?
+v: as revealed in the Holy Scriptures of the Old and New Testaments?
 v:people: I do.
 v:celebrant: Will you obediently keep God’s holy will and
-commandments, and walk in them all the days of
-your life?
+v: commandments, and walk in them all the days of
+v: your life?
 v:people: I will, the Lord being my helper.
 
 r: The Celebrant continues
@@ -86,6 +88,6 @@ chief cornerstone: Grant us so to be joined together in unity
 of spirit by their doctrine, that we may be made a holy temple
 acceptable to you; through Jesus Christ our Lord, who lives and
 reigns with you and the Holy Spirit, one God, world without
-end. __Amen__.
+end. **Amen**.
 
 r: Except in the Easter Vigil, the liturgy continues with the Prayers of the People.

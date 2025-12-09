@@ -1,0 +1,392 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			236,
+			242
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 236
+					},
+					{
+						"type": "section_title",
+						"text": "concerning ministry to the dying",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "For Christians, death is a defeated enemy. In Christ, death has become the gateway to everlasting life. As St. Paul reminded the Church at Corinth:"
+					},
+					{
+						"type": "line",
+						"text": "i ‘Death is swallowed up in victory."
+					},
+					{
+						"type": "line",
+						"text": "i O death, where is your victory?"
+					},
+					{
+						"type": "line",
+						"text": "i O death, where is your sting?’"
+					},
+					{
+						"type": "line",
+						"text": "i The sting of death is sin, and the power of sin is the law. But"
+					},
+					{
+						"type": "line",
+						"text": "i thanks be to God, who gives us the victory through our Lord Jesus Christ."
+					},
+					{
+						"type": "ref",
+						"text": "1 corinthians 15:54-57"
+					},
+					{
+						"type": "rubric",
+						"text": "When a person is near death, the minister should be notified. This rite is a customary part of the Church’s pastoral care."
+					},
+					{
+						"type": "rubric",
+						"text": "This liturgy is intended to be prayed with one who has received Jesus Christ as Savior and Lord. The Officiant may appropriately inquire of the dying person as to his or her acceptance of the Christian faith. If the person has not been baptized, Emergency Baptism (page 173) should be administered before the use of this rite."
+					},
+					{
+						"type": "section_title",
+						"text": "ministry _to the_ dying",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant begins"
+					},
+					{
+						"type": "scripture",
+						"ref": "luke 10:5 t",
+						"text": "Peace be to this house [or place], and to all who dwell in it."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant continues with the following prayer"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, look on this your servant, lying in great weakness, and comfort him with the promise of life everlasting, given in the resurrection of your Son Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "section_title",
+						"text": "litany at the time of death"
+					},
+					{
+						"type": "rubric",
+						"text": "The following may be said. When possible, it is desirable that those present join in the responses."
+					},
+					{
+						"type": "line",
+						"text": "O God the Father,"
+					},
+					{
+						"type": "line",
+						"text": "Have mercy on your servant.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O God the Son,"
+					},
+					{
+						"type": "line",
+						"text": "Have mercy on your servant.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O God the Holy Spirit,"
+					},
+					{
+						"type": "line",
+						"text": "Have mercy on your servant.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O Holy Trinity, one God,"
+					},
+					{
+						"type": "line",
+						"text": "Have mercy on your servant.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "page_break",
+						"page": 238
+					},
+					{
+						"type": "line",
+						"text": "Lord Jesus Christ, deliver your servant from all evil, sin, and tribulation;"
+					},
+					{
+						"type": "line",
+						"text": "Good Lord, deliver him.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "By your holy Incarnation, by your Cross and Passion, by your precious Death and Burial,"
+					},
+					{
+						"type": "line",
+						"text": "Good Lord, deliver him.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "By your glorious Resurrection and Ascension, and by the Coming of the Holy Spirit,"
+					},
+					{
+						"type": "line",
+						"text": "Good Lord, deliver him.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "We sinners beseech you to hear us, Lord Christ: That it may please you to deliver the soul of your servant from the power of evil, and from eternal death,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "That it may please you mercifully to pardon all his sins,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "That it may please you to give him joy and gladness in your kingdom, with your saints in light,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "That it may please you to raise him up at the last day,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "The following or some other suitable anthem may be sung or said"
+					},
+					{
+						"type": "line",
+						"text": "Son of God, we beseech you to hear us."
+					},
+					{
+						"type": "line",
+						"text": "Son of God, we beseech you to hear us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O Lamb of God, you take away the sin of the world;"
+					},
+					{
+						"type": "line",
+						"text": "Have mercy upon _him_.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "page_break",
+						"page": 239
+					},
+					{
+						"type": "line",
+						"text": "O Lamb of God, you take away the sin of the world;"
+					},
+					{
+						"type": "line",
+						"text": "Have mercy upon _him_.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O Lamb of God, you take away the sin of the world;"
+					},
+					{
+						"type": "line",
+						"text": "Grant _him_ your peace.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O Christ, hear us"
+					},
+					{
+						"type": "line",
+						"text": "O Christ, hear us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "kyrie"
+					},
+					{
+						"type": "rubric",
+						"text": "Officiant and People say together"
+					},
+					{
+						"type": "lords_prayer"
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "O Lord, show your mercy upon us;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "As we put our trust in you."
+					},
+					{
+						"type": "page_break",
+						"page": 240
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant prays"
+					},
+					{
+						"type": "line",
+						"text": "Let us pray."
+					},
+					{
+						"type": "text_block",
+						"text": "O Sovereign Lord Christ, deliver your servant, **N.**, from all evil, and set him free from every bond; that he may rest with all your saints in the eternal habitations; where with the Father and the Holy Spirit you live and reign, one God, for ever and ever. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant may invite those present to offer words of thanksgiving, reconciliation, or farewell. The Officiant may conclude with words of comfort."
+					},
+					{
+						"type": "section_title",
+						"text": "commendation at the time of death"
+					},
+					{
+						"type": "rubric",
+						"text": "Here a Priest may anoint the dying person with oil."
+					},
+					{
+						"type": "rubric",
+						"text": "The Priest says"
+					},
+					{
+						"type": "line",
+						"text": "Depart, O Christian soul, out of this world;"
+					},
+					{
+						"type": "line",
+						"text": "In the Name of God the Father Almighty who created you;"
+					},
+					{
+						"type": "line",
+						"text": "In the Name of Jesus Christ who redeemed you;"
+					},
+					{
+						"type": "line",
+						"text": "In the Name of the Holy Spirit who sanctifies you."
+					},
+					{
+						"type": "line",
+						"text": "May your rest be this day in peace, and your dwelling place in the Paradise of God."
+					},
+					{
+						"type": "section_title",
+						"text": "a commendatory prayer"
+					},
+					{
+						"type": "text_block",
+						"text": "Into your hands, O merciful Savior, we commend your servant _N._ Acknowledge, we humbly beseech you, a sheep of your own fold, a lamb of your own flock, a sinner of your own redeeming. Receive him into the arms of your mercy, into the blessed rest of everlasting peace, and into the glorious company of the saints in light. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant and People may say"
+					},
+					{
+						"type": "page_break",
+						"page": 241
+					},
+					{
+						"type": "canticle",
+						"name": "nunc_dimittis"
+					},
+					{
+						"type": "section_title",
+						"text": "closing prayer"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant prays"
+					},
+					{
+						"type": "text_block",
+						"text": "May _his_ soul and the souls of all the faithful departed, through the mercy of God, rest in peace. **Amen.**"
+					},
+					{
+						"type": "section_title",
+						"text": "additional directions",
+						"size": "xl"
+					},
+					{
+						"type": "text_block",
+						"text": "This rite is designed to be flexible in length. It may be adjusted according to the circumstances and condition of the dying person. Different portions of the rite may be used at different times, provided the order of the various elements is retained. In cases of great urgency, the Commendation at the Time of Death may be used alone. In the absence of a member of the clergy, this service may be led by any Christian."
+					},
+					{
+						"type": "text_block",
+						"text": "The minister may inquire of the dying person as to his or her desire to be reconciled to both God and neighbor. If the dying person feels troubled in conscience with any matter, the minister should offer the rite of Reconciliation of a Penitent. On evidence of repentance, the minister shall give assurance of God’s mercy and forgiveness."
+					},
+					{
+						"type": "page_break",
+						"page": 242
+					},
+					{
+						"type": "text_block",
+						"text": "If desired, Holy Communion may be administered using the rite for Communion of the Sick. It is appropriate for others present to receive the Sacrament as well. If the dying person cannot receive both the consecrated bread and wine, it is suitable to administer the Sacrament in one kind only. If he or she desires to receive, but by reason of extreme sickness is unable to consume either element, the minister is to assure the person that all the benefits of Holy Communion are conveyed, even though the elements are not received with the mouth."
+					}
+				],
+				"pb_page_start": 236,
+				"pb_page_end": 242
+			}
+		]
+	}
+}

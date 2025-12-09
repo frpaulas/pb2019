@@ -1,0 +1,260 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			260,
+			266
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 260
+					},
+					{
+						"type": "section_title",
+						"text": "the committal",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "The following anthems may be said"
+					},
+					{
+						"type": "text_block",
+						"text": "Man born of woman has but a short time to live, and is full of misery. He springs up, and is cut down like a flower; he flees like a shadow, and never continues the same."
+					},
+					{
+						"type": "text_block",
+						"text": "In the midst of life we are in death; of whom may we seek for help, but you, O Lord, who for our sins are justly displeased?"
+					},
+					{
+						"type": "text_block",
+						"text": "Yet, O Lord God most holy, O Lord most mighty, O holy and most merciful Savior, deliver us not into the pains of eternal death."
+					},
+					{
+						"type": "text_block",
+						"text": "You know, O Lord, the secrets of our hearts; shut not your ears to our prayer; but spare us, Lord most holy, O God most mighty, O holy and merciful Savior, most worthy Judge eternal; do not let us, in our final hour, through the pains of death, fall away from you."
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "scripture",
+						"ref": "john 6:37",
+						"text": "All that the Father gives me will come to me, and whoever comes to me I will never cast out."
+					},
+					{
+						"type": "scripture",
+						"ref": "romans 8:11t",
+						"text": "He who raised Jesus Christ from the dead will also give new life to our mortal bodies through his Spirit who dwells within us."
+					},
+					{
+						"type": "scripture",
+						"ref": "psalm 16:10",
+						"text": "Therefore my heart is glad and my soul rejoices. My flesh also shall rest in hope."
+					},
+					{
+						"type": "scripture",
+						"ref": "psalm 16:12",
+						"text": "You shall show me the path of life; in your presence is the fullness of joy, and at your right hand there is pleasure for evermore."
+					},
+					{
+						"type": "page_break",
+						"page": 261
+					},
+					{
+						"type": "rubric",
+						"text": "The grave may be blessed. The Priest may use the following prayer here, or before the liturgy of Committal, or at some other convenient time."
+					},
+					{
+						"type": "text_block",
+						"text": "O God, whose blessed Son was laid in a tomb in the garden: Bless, we pray, this grave, set apart for the repose of your servant _N._, that _he_ whose body is buried here may rest from _his_ labors in peace and quietness, until the resurrection on the last day, when the New Jerusalem comes down, the dead are raised, and the righteous are called to the marriage supper of the Lamb; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "Then, while earth is cast upon the coffin, the Officiant says these words"
+					},
+					{
+						"type": "text_block",
+						"text": "In sure and certain hope of the resurrection to eternal life through our Lord Jesus Christ, we commend to Almighty God our _brother N._, and we commit his body to the ground [_or_ the deep _or_ its resting place]; earth to earth, ashes to ashes, dust to dust. The Lord bless _him_ and keep _him_, the Lord make his face to shine upon _him_ and be gracious unto _him_, the Lord lift up his countenance upon _him_ and give _him_ peace. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "Or this"
+					},
+					{
+						"type": "text_block",
+						"text": "Forasmuch as it has pleased Almighty God of his great mercy to take unto himself the soul of our dear _brother_ [_or_ this beloved child], here departed, we therefore commit _his_ body to the ground [_or_ the deep _or_ its resting place]; earth to earth, ashes to ashes, dust to dust; in sure and certain hope of the resurrection to eternal life, through our Lord Jesus Christ; who shall change our perishable body, that it may be like his own glorious body, according to the mighty working of his Spirit, whereby he is able to subdue all things to himself. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 262
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Let us pray."
+					},
+					{
+						"type": "rubric",
+						"text": "Officiant and People"
+					},
+					{
+						"type": "lords_prayer"
+					},
+					{
+						"type": "rubric",
+						"text": "The following prayer or other Additional Prayers (pages 263-265) may be added."
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, with whom do live the spirits of those who depart in the Lord, and with whom the souls of the faithful are in joy and felicity: We praise and magnify your holy Name for all your servants who have finished their course and kept the faith; and committing our _brother N._ to your gracious keeping, we pray that, together with _him_ and with all those who are departed in the true faith of your holy Name, we may have our perfect consummation and bliss, both in body and soul, in your eternal and everlasting glory; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 263
+					},
+					{
+						"type": "rubric",
+						"text": "Then may be said"
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Rest eternal grant to him, O Lord; and may his soul,"
+					},
+					{
+						"type": "versical",
+						"text": "and the souls of all the faithful departed, through the"
+					},
+					{
+						"type": "versical",
+						"text": "mercy of God, rest in peace."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And may light perpetual shine upon them."
+					},
+					{
+						"type": "rubric",
+						"text": "A Priest may bless the people saying"
+					},
+					{
+						"type": "text_block",
+						"text": "The God of peace, who brought again from the dead our Lord Jesus Christ, the great Shepherd of the sheep, by the blood of the everlasting covenant, make you perfect in every good work to do his will, working in you that which is well-pleasing in his sight; and the blessing of God Almighty, the Father, the Son, and the Holy Spirit, be among you, and remain with you always. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant may dismiss the people with these words"
+					},
+					{
+						"type": "versical",
+						"text": "Alleluia, alleluia. Let us go forth in the Name of Christ."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God. Alleluia, alleluia."
+					},
+					{
+						"type": "section_title",
+						"text": "additional prayers"
+					},
+					{
+						"type": "text_block",
+						"text": "O God, the King of saints, we praise and glorify your holy Name for all your servants who have finished their course in your faith and fear: for the blessed Virgin Mary; for the holy patriarchs, prophets, apostles, and martyrs; and for all your other righteous servants, known to us and unknown; and we pray that, encouraged by their examples, and strengthened by their fellowship, we also may be partakers of the inheritance of the saints in light; through the merits of your Son Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 264
+					},
+					{
+						"type": "text_block",
+						"text": "Lord Jesus Christ, by your death you took away the sting of death: Grant to us your servants so to follow in faith where you have led the way, that we may at length fall asleep peacefully in you and wake up in your likeness; for your tender mercies’ sake. **Amen.**"
+					},
+					{
+						"type": "text_block",
+						"text": "Father of all, we pray to you for those we love, but see no longer: Grant them your peace; let light perpetual shine upon them; and, in your loving wisdom and almighty power, work in them the good purpose of your perfect will; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "text_block",
+						"text": "Merciful God, Father of our Lord Jesus Christ, who is the resurrection and the life: Raise us, we humbly pray, from the death of sin to the life of righteousness; that when we depart this life we may rest in him, and at the resurrection on the last day we may be found acceptable in your sight, and receive that blessing which your well-beloved Son shall then pronounce to all who love and fear you: “Come, you blessed children of my Father, receive the kingdom prepared for you from the beginning of the world.” Grant this, O merciful Father, through Jesus Christ, our Mediator and Redeemer. **Amen.**"
+					},
+					{
+						"type": "text_block",
+						"text": "Grant, O Lord, to all who are bereaved the spirit of faith and courage, that they may have strength to meet the days to come with steadfastness and patience; not sorrowing as those without hope, but in thankful remembrance of your great goodness, and in the joyful expectation of eternal life with all who love you. This we ask in the Name of Jesus Christ our Savior. **Amen.**"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, Father of mercies and giver of comfort: Deal graciously, we pray, with all who mourn; that, casting all their care on you, they may know the consolation of your love; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 265
+					},
+					{
+						"type": "text_block",
+						"text": "O God, whose days are without end, and whose mercies cannot be numbered: Make us, we pray, deeply aware of the shortness and uncertainty of human life; and let your Holy Spirit lead us in holiness and righteousness all our days; that, when we shall have served you in our generation, we may be gathered to our ancestors, having the testimony of a good conscience; in the communion of the Catholic Church; in the confidence of a certain faith; in the comfort of a reasonable, religious, and holy hope; in favor with you, our God; and in perfect charity with the world. All this we ask through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "section_title",
+						"text": "For a veteran of the armed forces."
+					},
+					{
+						"type": "text_block",
+						"text": "O Ruler of the universe, Lord God, by the strength of your own arm you have won for us final victory over the power of sin and death\\: We give you thanks for your servant _N._ who served as a (_soldier, seaman, airman, mariner, etc._) in the armed forces of our nation, giving of _his_ life for the defense of liberty and the preservation of freedom. Grant to _him_ a place of eternal rest and peace in your eternal dwelling place, that with all the heavenly host, the noble army of martyrs, and all the powers of heaven _he_ may praise your great and glorious Name unto the ages of ages. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 266
+					},
+					{
+						"type": "section_title",
+						"text": "additional directions",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "It is particularly appropriate to light the Paschal Candle for the Burial of the Dead. It may be carried in procession and placed near the body."
+					},
+					{
+						"type": "rubric",
+						"text": "If the Committal is long delayed from the time of the Burial Office, one of the lessons from the Burial Office may be read at the Committal, followed by a brief homily."
+					},
+					{
+						"type": "section_title",
+						"text": "at cremation"
+					},
+					{
+						"type": "rubric",
+						"text": "At the cremation of a body, this alternate committal prayer may be used:"
+					},
+					{
+						"type": "text_block",
+						"text": "In sure and certain hope of the resurrection to eternal life through our Lord Jesus Christ, we commend to Almighty God our _brother N._, and we commit _his_ body to be consumed by fire; earth to earth, ashes to ashes, dust to dust. The Lord bless _him_ and keep _him_, the Lord make his face to shine upon _him_ and be gracious unto _him_, the Lord lift up his countenance upon _him_ and give _him_ peace. **Amen.**",
+						"indent": true
+					}
+				],
+				"pb_page_start": 260,
+				"pb_page_end": 266
+			}
+		]
+	}
+}

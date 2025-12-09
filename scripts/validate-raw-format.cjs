@@ -18,6 +18,7 @@ const VALID_TYPES = new Set([
 	'ref+',
 	'v',
 	'pb',
+	'br',
 	'l',
 	'button',
 	'use',
@@ -162,7 +163,7 @@ function validateLine(line, lineNum) {
 			break;
 
 		case 'use':
-			// use:component_name: or use:psalm:number:start:end:
+			// use:component_name: or use:psalm:number:start:end: or use:canticle:name: or use:prayer:name:
 			if (fullParts.length < 2 || !fullParts[1]) {
 				errors.push(
 					new ValidationError(
@@ -181,6 +182,32 @@ function validateLine(line, lineNum) {
 							line,
 							lineNum,
 							'use:psalm: requires psalm number. Expected: use:psalm:number:start:end:'
+						)
+					);
+				}
+			}
+
+			// Additional validation for canticle format
+			if (fullParts[1] === 'canticle') {
+				if (fullParts.length < 3 || !fullParts[2]) {
+					errors.push(
+						new ValidationError(
+							line,
+							lineNum,
+							'use:canticle: requires canticle name. Expected: use:canticle:name:'
+						)
+					);
+				}
+			}
+
+			// Additional validation for prayer format
+			if (fullParts[1] === 'prayer') {
+				if (fullParts.length < 3 || !fullParts[2]) {
+					errors.push(
+						new ValidationError(
+							line,
+							lineNum,
+							'use:prayer: requires prayer name. Expected: use:prayer:name:'
 						)
 					);
 				}

@@ -1,0 +1,90 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			213,
+			214
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "section_title",
+						"text": "a brief liturgy for the signing",
+						"size": "2xl"
+					},
+					{
+						"type": "section_title",
+						"text": "of",
+						"size": "2xl"
+					},
+					{
+						"type": "section_title",
+						"text": "2 the declaration of intention"
+					},
+					{
+						"type": "rubric",
+						"text": "This liturgy is intended for public use in the context of a normal Sunday Eucharist after the Peace, or at any other public gathering."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant says"
+					},
+					{
+						"type": "text_block",
+						"text": "Dearly beloved, two members of the Church have announced their desire to be married to one another in the sight of God and this Congregation. The pursuit of Holy Matrimony is a good and holy ambition, which requires thorough preparation and our prayerful support."
+					},
+					{
+						"type": "text_block",
+						"text": "Therefore, _N._ and _N._ have come before us to declare their intention to be married and to profess and subscribe to the Church’s Declaration of Intention, which reads:"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant reads the Declaration"
+					},
+					{
+						"type": "text_block",
+						"text": "“We, _N.N._ and _N.N._, desiring to receive the blessing of Holy Matrimony in the Church, do solemnly declare that we hold marriage to be a lifelong union of husband and wife as it is set forth in the Book of Common Prayer. We believe it is established by God for the procreation of children, and their nurture in the knowledge and love of the Lord; for mutual joy, and for the help and comfort given one another in prosperity and adversity; to maintain purity, so that husbands and wives, with all the household of God, might serve as holy and undefiled members of the Body of Christ; and for the upbuilding of Christ’s kingdom in family, church, and society, to the praise of his holy Name. We do engage ourselves, so far as in us lies, to make our utmost effort to establish this relationship and to seek God’s help thereto.”"
+					},
+					{
+						"type": "page_break",
+						"page": 214
+					},
+					{
+						"type": "versical",
+						"text": ": Is this your intention?"
+					},
+					{
+						"type": "rubric",
+						"text": "The couple responds"
+					},
+					{
+						"type": "versical",
+						"text": ": It is."
+					},
+					{
+						"type": "rubric",
+						"text": "The betrothed then sign the Declaration."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant says"
+					},
+					{
+						"type": "text_block",
+						"text": "Now that _N._ and _N._ have declared their intention for a Holy Marriage, and have begun the process of pre-marital preparation, let us pray for their relationship [and for their families]."
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, we thank you for the love of _N._ and _N._, and we ask your blessing upon them [and their families] during this time of preparation. Open their minds and hearts to one another, enable them faithfully to receive your Word and Sacrament, and help us to support them, that they may rightly prepare for their marriage. And, we pray, give us wisdom to uphold and encourage all who have been united in Holy Matrimony; through Jesus Christ our Lord. **Amen.**"
+					}
+				],
+				"pb_page_start": 214,
+				"pb_page_end": 214
+			}
+		]
+	}
+}

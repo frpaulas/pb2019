@@ -1,16 +1,26 @@
+import { resolveTemplate } from './templateResolver';
+import type { LiturgicalContextState } from '$lib/stores/liturgical';
+
 /**
- * Parse markdown for bold (**text** or __text__), italic (*text* or _text_), and lowercase (~text~)
- * @param {string} input - The text to parse
- * @returns {string} - HTML string with markdown converted to HTML tags
+ * Parse markdown for bold (**text**), italic (*text* or _text_), lowercase (~text~),
+ * and template substitutions (__template__)
+ * @param input - The text to parse
+ * @param context - Optional liturgical context for template resolution
+ * @returns HTML string with markdown converted to HTML tags
  */
-export function parseMarkdown(input) {
+export function parseMarkdown(input: string, context?: LiturgicalContextState): string {
 	if (!input) return '';
 
 	let result = input;
 
-	// Handle blank lines FIRST: ___10___ creates a 10-character underscore blank
+	// FIRST: Resolve templates __template|options__ if context is provided
+	if (context) {
+		result = resolveTemplate(result, context);
+	}
+
+	// Handle blank lines NEXT: ___10___ creates a 10-character underscore blank
 	// Replace with a temporary placeholder to avoid conflicts with bold/italic
-	const blankPlaceholders = [];
+	const blankPlaceholders: string[] = [];
 	result = result.replace(/___(\d+)___/g, (match, length) => {
 		const count = parseInt(length);
 		const placeholder = `{{BLANK_${blankPlaceholders.length}}}`;
@@ -25,14 +35,13 @@ export function parseMarkdown(input) {
 	// Handle lowercase override: ~text~
 	result = result.replace(/~(.+?)~/g, '<span class="normal-case">$1</span>');
 
-	// Handle bold first: **text** or __text__
+	// Handle bold: **text**
 	result = result.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-	result = result.replace(/__(.+?)__/g, '<strong>$1</strong>');
 
 	// Handle italic: *text* or _text_
-	// Use negative lookbehind/lookahead to avoid matching ** or __ (bold markers)
+	// Use negative lookbehind/lookahead to avoid matching ** or __ (bold/template markers)
 	result = result.replace(/(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)/g, '<em>$1</em>');
-	// For underscores, only match if there's actual text (not just underscores/spaces) between them
+	// For underscores, only match single _ if there's actual text between them (not double __)
 	result = result.replace(/(?<!_)_([^_\s][^_]*?[^_\s]|[^_\s])_(?!_)/g, '<em>$1</em>');
 
 	// Replace blank placeholders with actual underscore sequences LAST

@@ -30,9 +30,7 @@
 	{:else if block.type === 'text_block'}
 		<TextBlock>{block.text}</TextBlock>
 	{:else if block.type === 'line'}
-		<Line bold={block.bold || false} indent={block.indent || false}>
-			{block.text}
-		</Line>
+		<Line bold={block.bold || false} indent={block.indent || false} text={block.text} />
 	{:else if block.type === 'versical'}
 		<Versical officiant={block.officiant || false} people={block.people || false}>
 			{block.text}

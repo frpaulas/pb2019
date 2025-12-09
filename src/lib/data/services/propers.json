@@ -2,13 +2,14 @@
 	"proper_prefaces": {
 		"title": "Proper Prefaces",
 		"slug": "proper_prefaces",
-		"pb_pages": [152, 153, 154, 155, 156, 157, 158],
+		"pb_pages": [
+			152,
+			158
+		],
 		"sections": [
 			{
-				"id": "proper_prefaces",
-				"title": "Proper Prefaces",
-				"pb_page_start": 152,
-				"pb_page_end": 158,
+				"id": "content",
+				"title": "Content",
 				"content": [
 					{
 						"type": "section_title",
@@ -27,7 +28,8 @@
 						"text": "Through Jesus Christ our Lord; for he is your living Word from before time and for all ages; by him you created all things, and by him you make all things new."
 					},
 					{
-						"type": "or_this"
+						"type": "rubric",
+						"text": "or this"
 					},
 					{
 						"type": "text_block",
@@ -48,6 +50,10 @@
 					{
 						"type": "text_block",
 						"text": "Because you gave Jesus Christ, your only Son, to be born for us; who, by the Holy Spirit and the Virgin Mary his mother, was made truly man, yet without the stain of sin, that we might be cleansed from sin and given the right to become your children."
+					},
+					{
+						"type": "page_break",
+						"page": 153
 					},
 					{
 						"type": "section_title",
@@ -81,91 +87,158 @@
 						"type": "text_block",
 						"text": "Through Jesus Christ our Lord. For our sins he was lifted high upon the Cross, that he might draw the whole world to himself; and by his suffering and death he became the author of eternal salvation for all who put their trust in him."
 					},
-					{ "type": "section_title", "text": "maundy thursday" },
+					{
+						"type": "section_title",
+						"text": "maundy thursday"
+					},
 					{
 						"type": "text_block",
 						"text": "Through Jesus Christ our Lord. Having loved his own who were in the world, he loved them to the end; and on the night before he suffered, he instituted these holy mysteries; that we, receiving the benefits of his passion and resurrection, might be made partakers of his divine nature."
 					},
-					{ "type": "section_title", "text": "easter" },
+					{
+						"type": "page_break",
+						"page": 154
+					},
+					{
+						"type": "section_title",
+						"text": "easter"
+					},
 					{
 						"type": "text_block",
 						"text": "But chiefly are we bound to praise you for the glorious resurrection of your Son Jesus Christ our Lord; for he is the true Paschal Lamb, who was offered for us, and has taken away the sin of the world; who by his death has destroyed death, and by his rising to life again has won for us everlasting life."
 					},
-					{ "type": "section_title", "text": "ascension" },
+					{
+						"type": "section_title",
+						"text": "ascension"
+					},
 					{
 						"type": "text_block",
 						"text": "Through your dearly beloved Son Jesus Christ our Lord, who after his most glorious resurrection appeared to his Apostles, and in their sight ascended into heaven to prepare a place for us; that where he is, there we might also ascend, and reign with him in glory."
 					},
-					{ "type": "section_title", "text": "pentecost" },
+					{
+						"type": "section_title",
+						"text": "pentecost"
+					},
 					{
 						"type": "text_block",
 						"text": "Through Jesus Christ our Lord; according to whose most true promise, the Holy Spirit came down from heaven, lighting upon the disciples, to teach them and to lead them into all truth, giving them boldness and fervent zeal constantly to preach the Gospel to all nations; by which we have been brought out of darkness and error into the clear light and true knowledge of you, and of your Son Jesus Christ."
 					},
-					{ "type": "section_title", "text": "trinity sunday" },
+					{
+						"type": "section_title",
+						"text": "trinity sunday"
+					},
 					{
 						"type": "text_block",
 						"text": "Who, with your co-eternal Son and Holy Spirit, are one God, one Lord, in Trinity of Persons and in Unity of Substance. For that which we believe of your glory, O Father, we believe the same of your Son, and of the Holy Spirit, without any difference or inequality."
 					},
-					{ "type": "section_title", "text": "all saints’" },
+					{
+						"type": "page_break",
+						"page": 155
+					},
+					{
+						"type": "section_title",
+						"text": "all saints’"
+					},
 					{
 						"type": "text_block",
 						"text": "For in the multitude of your saints, you have surrounded us with so great a cloud of witnesses that we, rejoicing in their fellowship, may run with patience the race that is set before us, and together with them, may receive the unfading crown of glory."
 					},
-					{ "type": "section_title", "text": "christ the king" },
+					{
+						"type": "section_title",
+						"text": "christ the king"
+					},
 					{
 						"type": "text_block",
 						"text": "Through your only begotten Son Jesus Christ, the King of kings and Lord of lords; for you have seated him at your right hand in glory, and put all things in subjection under his feet, that he may present them to you, O Father, perfectly restored in beauty, truth, and love."
 					},
-					{ "type": "section_title", "text": "apostles _and_ ordinations" },
+					{
+						"type": "section_title",
+						"text": "apostles _and_ ordinations"
+					},
 					{
 						"type": "text_block",
 						"text": "Through the great shepherd of your flock, Jesus Christ our Lord, who after his resurrection sent forth his apostles to preach the Gospel and to teach all nations, and promised to be with them always, even to the end of the ages."
 					},
-					{ "type": "section_title", "text": "dedication of a church" },
+					{
+						"type": "section_title",
+						"text": "dedication of a church"
+					},
 					{
 						"type": "text_block",
 						"text": "Through Jesus Christ our great High Priest, in whom we are built up as living stones of a holy temple, that we might offer before you a sacrifice of praise and thanksgiving which is holy and pleasing in your sight."
 					},
-					{ "type": "section_title", "text": "baptism" },
+					{
+						"type": "section_title",
+						"text": "baptism"
+					},
 					{
 						"type": "text_block",
 						"text": "Because in Jesus Christ our Lord, you have received us as your sons and daughters, made us citizens of your kingdom, and given us the Holy Spirit to guide us into all truth."
 					},
-					{ "type": "section_title", "text": "holy matrimony" },
+					{
+						"type": "page_break",
+						"page": 156
+					},
+					{
+						"type": "section_title",
+						"text": "holy matrimony"
+					},
 					{
 						"type": "text_block",
 						"text": "Because in the love of wife and husband, you have given us an image of the heavenly Jerusalem, adorned as a bride for her bridegroom, your Son Jesus Christ our Lord; who loves her and gave himself for her, that he might make the whole creation new."
 					},
 					{
 						"type": "section_title",
-						"text": "burial \n_or_ commemoration of the faithful departed"
+						"text": "burial"
+					},
+					{
+						"type": "section_title",
+						"text": "_or_ commemoration of the faithful departed"
 					},
 					{
 						"type": "text_block",
 						"text": "Through Jesus Christ our Lord, who rose victorious from the dead and comforts us with the blessed hope of everlasting life. For to your faithful people, O Lord, life is changed, not ended; and when our mortal body lies in death, there is prepared for us a dwelling place eternal in the heavens."
 					},
-					{ "type": "section_title", "text": "penitential occasions" },
+					{
+						"type": "section_title",
+						"text": "penitential occasions"
+					},
 					{
 						"type": "text_block",
 						"text": "Through Jesus Christ our Lord, who was tempted in every way as we are, yet did not sin. By his grace we are able to triumph over every evil, and to live no longer for ourselves alone, but for him who died for us and rose again."
 					},
-					{ "type": "section_title", "text": "rogation days _or_ thanksgiving day" },
+					{
+						"type": "section_title",
+						"text": "rogation days _or_ thanksgiving day"
+					},
 					{
 						"type": "text_block",
 						"text": "Because the wonders of your Creation reflect your goodness and beauty; and your gifts of sun and rain, seed-time and harvest, manifest your constant love and care for all that you have made."
 					},
-					{ "type": "section_title", "text": "canada day _or_ independence day" },
+					{
+						"type": "section_title",
+						"text": "canada day _or_ independence day"
+					},
 					{
 						"type": "text_block",
 						"text": "Because you have made us in your image, that we might serve you on earth in freedom, justice, and peace; and have given us the hope of our eternal citizenship with you in your heavenly kingdom."
 					},
-					{ "type": "section_title", "text": "remembrance day _or_ memorial day" },
+					{
+						"type": "page_break",
+						"page": 157
+					},
+					{
+						"type": "section_title",
+						"text": "remembrance day _or_ memorial day"
+					},
 					{
 						"type": "text_block",
 						"text": "For by the sacrifice of your Son on the Cross, all who turn to him in the tribulation of war will find their peace with him in paradise."
 					},
-
-					{ "type": "section_title", "text": "common of a martyr" },
+					{
+						"type": "section_title",
+						"text": "common of a martyr"
+					},
 					{
 						"type": "text_block",
 						"text": "For the witness of your martyrs, who took up their cross and followed you even unto death, and revealed your power made perfect in human weakness."
@@ -203,6 +276,10 @@
 						"text": "For calling to the consecrated life those who leave everything for the sake of your kingdom, and who show forth in this world an anticipation of the abundant life you promise in the age to come."
 					},
 					{
+						"type": "page_break",
+						"page": 158
+					},
+					{
 						"type": "section_title",
 						"text": "common of an ecumenist"
 					},
@@ -226,7 +303,6 @@
 						"type": "text_block",
 						"text": "For you, the master builder, never abandon your Church, which you have built of living stones; you call your faithful servants to restore its ancient walls and reunite its broken ramparts, that it may be a holy temple of your presence."
 					},
-
 					{
 						"type": "section_title",
 						"text": "common of any commemoration"
@@ -235,7 +311,9 @@
 						"type": "text_block",
 						"text": "For the grace and virtue manifest in [_N_. and all] your saints, who have been the chosen vessels of your love, and the lights of the world in their generations."
 					}
-				]
+				],
+				"pb_page_start": 153,
+				"pb_page_end": 158
 			}
 		]
 	}

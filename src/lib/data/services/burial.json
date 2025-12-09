@@ -1,0 +1,703 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			249,
+			259
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 249
+					},
+					{
+						"type": "section_title",
+						"text": "the"
+					},
+					{
+						"type": "section_title",
+						"text": "burial of the dead",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "procession of the body"
+					},
+					{
+						"type": "rubric",
+						"text": "All stand while the following anthems are said or sung. A hymn, psalm, or some other suitable anthem may also be used."
+					},
+					{
+						"type": "line",
+						"text": "I am the resurrection and the life, says the Lord."
+					},
+					{
+						"type": "line",
+						"text": "Whoever believes in me,"
+					},
+					{
+						"type": "line",
+						"text": "though he die, yet shall he live,"
+					},
+					{
+						"type": "line",
+						"text": "and everyone who lives and believes in me"
+					},
+					{
+						"type": "line",
+						"text": "shall never die."
+					},
+					{
+						"type": "ref",
+						"text": "john 11:25-26 t"
+					},
+					{
+						"type": "line",
+						"text": "For I know that my Redeemer lives,"
+					},
+					{
+						"type": "line",
+						"text": "and at the last he will stand upon the earth."
+					},
+					{
+						"type": "line",
+						"text": "And after my skin has been thus destroyed,"
+					},
+					{
+						"type": "line",
+						"text": "yet in my flesh I shall see God,"
+					},
+					{
+						"type": "line",
+						"text": "whom I shall see for myself,"
+					},
+					{
+						"type": "line",
+						"text": "and my eyes shall behold, and not another."
+					},
+					{
+						"type": "ref",
+						"text": "job 19:25-27"
+					},
+					{
+						"type": "line",
+						"text": "For none of us lives to himself,"
+					},
+					{
+						"type": "line",
+						"text": "and none of us dies to himself."
+					},
+					{
+						"type": "line",
+						"text": "For if we live, we live to the Lord,"
+					},
+					{
+						"type": "line",
+						"text": "and if we die, we die to the Lord."
+					},
+					{
+						"type": "line",
+						"text": "So then, whether we live or whether we die,"
+					},
+					{
+						"type": "line",
+						"text": "we are the Lord’s."
+					},
+					{
+						"type": "ref",
+						"text": "romans 14:7-9"
+					},
+					{
+						"type": "page_break",
+						"page": 250
+					},
+					{
+						"type": "line",
+						"text": "For we brought nothing into the world,"
+					},
+					{
+						"type": "line",
+						"text": "and it is certain we carry nothing out."
+					},
+					{
+						"type": "line",
+						"text": "The Lord gave, and the Lord has taken away;"
+					},
+					{
+						"type": "line",
+						"text": "blessed be the name of the Lord."
+					},
+					{
+						"type": "ref",
+						"text": "1 timothy 6:7 t; job 1:21"
+					},
+					{
+						"type": "line",
+						"text": "Blessed are the dead who die in the Lord;"
+					},
+					{
+						"type": "line",
+						"text": "Even so, says the Spirit,"
+					},
+					{
+						"type": "line",
+						"text": "for they rest from their labors."
+					},
+					{
+						"type": "ref",
+						"text": "revelation 14:13 t"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant may greet the Congregation and briefly introduce the purpose of Christian Burial."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant then says"
+					},
+					{
+						"type": "versical",
+						"text": "The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Let us pray."
+					},
+					{
+						"type": "section_title",
+						"text": "at the burial of an adult"
+					},
+					{
+						"type": "text_block",
+						"text": "O God, who by the glorious resurrection of your Son Jesus Christ destroyed death and brought life and immortality to light: Grant that your servant _N._, being raised with Christ, may know the strength of his presence and rejoice in his eternal glory; who with you and the Holy Spirit lives and reigns, one God, for ever and ever. **Amen.**"
+					},
+					{
+						"type": "section_title",
+						"text": "at the burial of a child"
+					},
+					{
+						"type": "text_block",
+						"text": "O God, whose beloved Son took children into his arms and blessed them: Give us grace to entrust _N._ to your never-failing care and love, and bring us all to your heavenly kingdom; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 251
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant may add the following prayer"
+					},
+					{
+						"type": "text_block",
+						"text": "Most merciful God, whose wisdom is beyond our understanding: deal graciously with those who mourn [especially _**8**_]. Surround them with your love, that they may not be overwhelmed by their loss, but have confidence in your goodness, and strength to meet the days to come; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The People sit."
+					},
+					{
+						"type": "rubric",
+						"text": "One or more of the following passages from Holy Scripture is read."
+					},
+					{
+						"type": "section_title",
+						"text": "the lessons"
+					},
+					{
+						"type": "line",
+						"text": "isaiah 25:6-9 _(He will swallow up death for ever)_"
+					},
+					{
+						"type": "line",
+						"text": "isaiah 61:1-3 _(To comfort all who mourn)_"
+					},
+					{
+						"type": "line",
+						"text": "lamentations 3:22-26,31-33 _(The Lord is good to those who wait)_"
+					},
+					{
+						"type": "line",
+						"text": "wisdom 3:1-5, 9 _(The souls of the righteous are in the hands of God)_"
+					},
+					{
+						"type": "line",
+						"text": "job 19:21-27a _(I know that my Redeemer lives)_"
+					},
+					{
+						"type": "rubric",
+						"text": "A suitable psalm, hymn, or canticle may follow. The following Psalms are appropriate: 39, 42:1-7, 46, 90:1-12, 121, 130, 139:1-11v."
+					},
+					{
+						"type": "line",
+						"text": "romans 8:14-19,34-39 _(The glory that is to be revealed)_"
+					},
+					{
+						"type": "line",
+						"text": "1 corinthians 15:20-26,35-38,42-44,53-58 _(The imperishable body)_"
+					},
+					{
+						"type": "line",
+						"text": "2 corinthians 4:16—5:9 _(Things that are unseen are eternal)_"
+					},
+					{
+						"type": "line",
+						"text": "1 john 3:1-2 _(We shall be like him)_"
+					},
+					{
+						"type": "line",
+						"text": "revelation 7:9-17 _(God will wipe away every tear)_"
+					},
+					{
+						"type": "line",
+						"text": "revelation 21:2-7 _(Behold, I am making all things new)_"
+					},
+					{
+						"type": "rubric",
+						"text": "A suitable psalm, hymn, or canticle may follow."
+					},
+					{
+						"type": "rubric",
+						"text": "The following Psalms are appropriate: 23, 27, 106:1-5v, 116."
+					},
+					{
+						"type": "line",
+						"text": "john 5:24-27 _(Whoever believes has eternal life)_"
+					},
+					{
+						"type": "line",
+						"text": "john 6:37-40 _(All that the Father gives me will come to me)_"
+					},
+					{
+						"type": "page_break",
+						"page": 252
+					},
+					{
+						"type": "line",
+						"text": "john 10:11-16 _(I am the good shepherd)_"
+					},
+					{
+						"type": "line",
+						"text": "john 11:21-27 _(I am the resurrection and the life)_"
+					},
+					{
+						"type": "line",
+						"text": "john 14:1-6 _(In my Father’s house are many rooms)_"
+					},
+					{
+						"type": "rubric",
+						"text": "If Communion is to follow, a passage from the Gospels always concludes the Lessons. At a Eucharist, all stand, and the Deacon or Minister appointed says"
+					},
+					{
+						"type": "versical",
+						"text": "The Holy Gospel of our Lord Jesus Christ according"
+					},
+					{
+						"type": "versical",
+						"text": "to _**11**_."
+					},
+					{
+						"type": "versical",
+						"text": "people: Glory to you, Lord Christ."
+					},
+					{
+						"type": "rubric",
+						"text": "After the Gospel, the Reader says"
+					},
+					{
+						"type": "versical",
+						"text": "The Gospel of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Praise to you, Lord Christ."
+					},
+					{
+						"type": "section_title",
+						"text": "the sermon"
+					},
+					{
+						"type": "section_title",
+						"text": "the apostles’ creed"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant invites the people to stand and says"
+					},
+					{
+						"type": "text_block",
+						"text": "Let us confess the Faith in the words of the Apostles’ Creed:"
+					},
+					{
+						"type": "rubric",
+						"text": "Officiant and People"
+					},
+					{
+						"type": "nicene_creed"
+					},
+					{
+						"type": "page_break",
+						"page": 253
+					},
+					{
+						"type": "rubric",
+						"text": "If Communion is not to follow, the Lord’s Prayer is said here, and the liturgy continues with the Prayers of the People, or with other suitable prayers."
+					},
+					{
+						"type": "rubric",
+						"text": "When there is Communion, the following form of the Prayers of the People is used."
+					},
+					{
+						"type": "section_title",
+						"text": "the prayers of the people"
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon or other person appointed says the following or other appropriate prayers."
+					},
+					{
+						"type": "line",
+						"text": "Let us pray, saying, “Hear our prayer.”"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, you knit together your elect in one communion and fellowship, in the mystical body of your Son Jesus Christ our Lord: Grant, we pray, to your whole Church in heaven and on earth, your light and peace."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "Grant that all who have been baptized into Christ’s death and resurrection may die to sin and rise to newness of life, that through the grave and gate of death we may pass with him to our joyful resurrection."
+					},
+					{
+						"type": "page_break",
+						"page": 254
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "Grant to us who are still in our pilgrimage, and who walk as yet by faith, that your Holy Spirit may lead us in holiness and righteousness all our days."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "Grant to your faithful people pardon and peace, that we may be cleansed from all our sins, and serve you in faithful obedience."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "Grant to all who mourn a sure confidence in your fatherly care, that, casting their grief on you, they may know the consolation of your love."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "Help us, we pray, in the midst of things we cannot understand, to believe and trust in the communion of saints, the forgiveness of sins, and the resurrection to life everlasting."
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "Grant us grace to entrust _N._ to your never-failing love; receive _him_ into the arms of your mercy, and remember _him_ according to the favor which you show to all your people. Grant that, increasing in knowledge and love of you, he may go from strength to strength in the life of perfect service in your heavenly kingdom."
+					},
+					{
+						"type": "page_break",
+						"page": 255
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, in your mercy:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Hear our prayer."
+					},
+					{
+						"type": "rubric",
+						"text": "Silence may be kept."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant concludes with the following or some other prayer"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, grant us, with all who have died in the hope of the resurrection, the fullness of life in your eternal and ever- lasting glory, and, with all your saints, to receive the crown of life promised to all who share in the victory of your Son Jesus Christ, who lives and reigns with you and the Holy Spirit, one God, for ever and ever. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "When there is no Communion, the liturgy continues with the Commendation, or with the Committal."
+					},
+					{
+						"type": "section_title",
+						"text": "at the eucharist"
+					},
+					{
+						"type": "rubric",
+						"text": "The liturgy continues with the Peace and the Offertory. An offertory hymn or anthem may be sung."
+					},
+					{
+						"type": "rubric",
+						"text": "The Proper Preface of Burial is used (page 156)."
+					},
+					{
+						"type": "section_title",
+						"text": "post communion prayer"
+					},
+					{
+						"type": "rubric",
+						"text": "The following Post Communion Prayer is used"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, we thank you that in your great love you have fed us with the spiritual food and drink of the Body and Blood of your Son Jesus Christ, and have given us a foretaste of your heavenly banquet. Grant that this Sacrament may be to us a comfort in affliction, and a pledge of our inheritance in that kingdom where there is no death, neither sorrow nor crying, but the fullness of joy with all your saints; through Jesus Christ our Savior. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 256
+					},
+					{
+						"type": "rubric",
+						"text": "If the body is not present, the liturgy continues with the blessing and dismissal; otherwise, the following Commendation is used."
+					},
+					{
+						"type": "section_title",
+						"text": "the commendation",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant and other ministers take their places at the body."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Give rest, O Christ, to your servant with your saints,"
+					},
+					{
+						"type": "versical",
+						"text": "all: Where sorrow and pain are no more, neither sighing,"
+					},
+					{
+						"type": "versical",
+						"text": "but life everlasting."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "You only are immortal, the creator and maker of"
+					},
+					{
+						"type": "versical",
+						"text": "mankind; and we are mortal, formed of the earth, and"
+					},
+					{
+						"type": "versical",
+						"text": "to earth shall we return. For so did you decree, saying,"
+					},
+					{
+						"type": "versical",
+						"text": "“You are dust, and to dust you shall return.” All of us"
+					},
+					{
+						"type": "versical",
+						"text": "go down to the dust; yet even at the grave we make"
+					},
+					{
+						"type": "versical",
+						"text": "our song\\:"
+					},
+					{
+						"type": "versical",
+						"text": "Alleluia, alleluia, alleluia."
+					},
+					{
+						"type": "versical",
+						"text": "all: Give rest, O Christ, to your servant with your saints,"
+					},
+					{
+						"type": "versical",
+						"text": "where sorrow and pain are no more, neither sighing,"
+					},
+					{
+						"type": "versical",
+						"text": "but life everlasting."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant, facing the body, says"
+					},
+					{
+						"type": "text_block",
+						"text": "Into your hands, O merciful Savior, we commend your servant _N._ Acknowledge, we humbly beseech you, a sheep of your own fold, a lamb of your own flock, a sinner of your own redeeming. Receive _him_ into the arms of your mercy, into the blessed rest of everlasting peace, and into the glorious company of the saints in light. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Priest, or the Bishop if present, may then bless the people, and a Deacon or other Minister may dismiss them, saying"
+					},
+					{
+						"type": "versical",
+						"text": "Alleluia, alleluia. Let us go forth in the Name of Christ."
+					},
+					{
+						"type": "versical",
+						"text": "people: Thanks be to God. Alleluia, alleluia"
+					},
+					{
+						"type": "page_break",
+						"page": 257
+					},
+					{
+						"type": "rubric",
+						"text": "As the body is borne from the church, a hymn, or one or more of these anthems, may be sung or said"
+					},
+					{
+						"type": "line",
+						"text": "Christ is risen from the dead, trampling down death by death,"
+					},
+					{
+						"type": "line",
+						"text": "and giving life to those in the tomb."
+					},
+					{
+						"type": "line",
+						"text": "The Sun of Righteousness is gloriously risen,"
+					},
+					{
+						"type": "line",
+						"text": "giving light to those who sat in darkness"
+					},
+					{
+						"type": "line",
+						"text": "and in the shadow of death."
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "line",
+						"text": "The Lord will guide our feet into the way of peace,"
+					},
+					{
+						"type": "line",
+						"text": "having taken away the sin of the world."
+					},
+					{
+						"type": "line",
+						"text": "Christ will open the kingdom of heaven"
+					},
+					{
+						"type": "line",
+						"text": "to all who believe in his Name, saying,"
+					},
+					{
+						"type": "line",
+						"text": "Come, O blessed of my Father;"
+					},
+					{
+						"type": "line",
+						"text": "inherit the kingdom prepared for you."
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "line",
+						"text": "Into paradise may the angels lead you."
+					},
+					{
+						"type": "line",
+						"text": "At your coming may the martyrs receive you,"
+					},
+					{
+						"type": "line",
+						"text": "and bring you into the holy city Jerusalem."
+					},
+					{
+						"type": "rubric",
+						"text": "or one of the following Canticles"
+					},
+					{
+						"type": "canticle",
+						"name": "benedictus"
+					},
+					{
+						"type": "page_break",
+						"page": 258
+					},
+					{
+						"type": "canticle",
+						"name": "nunc_dimittis"
+					},
+					{
+						"type": "page_break",
+						"page": 259
+					},
+					{
+						"type": "canticle",
+						"name": "pascha_nostrum"
+					}
+				],
+				"pb_page_start": 249,
+				"pb_page_end": 259
+			}
+		]
+	}
+}

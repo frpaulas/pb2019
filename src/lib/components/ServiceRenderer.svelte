@@ -11,9 +11,19 @@
 	import OrThis from '$lib/text_component/or_this.svelte';
 	import Gloria from '$lib/text_component/gloria.svelte';
 	import ApostlesCreed from '$lib/text_component/apostles_creed.svelte';
-	import LordsPrayer from '$lib/text_component/lords_prayer.svelte';
+	import NiceneCreed from '$lib/text_component/nicene_creed.svelte';
+	import LordsPrayer from '$lib/prayer/lords_prayer.svelte';
 	import Kyrie from '$lib/text_component/kyrie.svelte';
 	import Chrysostom from '$lib/canticle/chrysostom.svelte';
+	import GloriaInExcelsis from '$lib/text_component/gloria_in_excelsis.svelte';
+	import AgnusDei from '$lib/text_component/agnus_dei.svelte';
+	import Sanctus from '$lib/text_component/sanctus.svelte';
+	import ConfessionCommunion from '$lib/prayer/confession_communion.svelte';
+	import ConfessionOffice from '$lib/prayer/confession_office.svelte';
+	import GeneralThanksgiving from '$lib/prayer/general_thanksgiving.svelte';
+	import HumbleAccess from '$lib/prayer/humble_access.svelte';
+	import PostCommunionStandard from '$lib/prayer/post_communion_standard.svelte';
+	import InTheMorning from '$lib/prayer/in_the_morning.svelte';
 	import Footnote from '$lib/page_helpers/footnote.svelte';
 	import Silence from '$lib/page_helpers/silence.svelte';
 	import IntentionallyBlank from '$lib/page_helpers/intentionally_blank.svelte';
@@ -96,9 +106,7 @@
 							Amen.{/if}</TextBlock
 					>
 				{:else if block.type === 'line'}
-					<Line bold={block.bold || false} indent={block.indent || false}>
-						{block.text}
-					</Line>
+					<Line bold={block.bold || false} indent={block.indent || false} text={block.text} />
 				{:else if block.type === 'versical'}
 					<Versical officiant={block.officiant || false} people={block.people || false}>
 						{block.text}
@@ -115,16 +123,38 @@
 					<Gloria versical={block.versical || false} />
 				{:else if block.type === 'apostles_creed'}
 					<ApostlesCreed />
+				{:else if block.type === 'nicene_creed'}
+					<NiceneCreed />
 				{:else if block.type === 'lords_prayer'}
 					<LordsPrayer toggle={block.toggle || false} />
 				{:else if block.type === 'kyrie'}
 					<Kyrie />
+				{:else if block.type === 'gloria_in_exelsis' || block.type === 'gloria_in_excelsis'}
+					<GloriaInExcelsis />
+				{:else if block.type === 'agnus_dei'}
+					<AgnusDei />
+				{:else if block.type === 'sanctus'}
+					<Sanctus />
+				{:else if block.type === 'confession_communion'}
+					<ConfessionCommunion />
+				{:else if block.type === 'office_confession' || block.type === 'confession_office'}
+					<ConfessionOffice />
+				{:else if block.type === 'general_thanksgiving'}
+					<GeneralThanksgiving />
+				{:else if block.type === 'humble_access'}
+					<HumbleAccess />
+				{:else if block.type === 'post_communion_standard'}
+					<PostCommunionStandard />
+				{:else if block.type === 'in_the_morning'}
+					<InTheMorning />
 				{:else if block.type === 'chrysostom'}
 					<Chrysostom />
 				{:else if block.type === 'footnote'}
 					<Footnote text={block.text} />
 				{:else if block.type === 'silence'}
 					<Silence />
+				{:else if block.type === 'line_break'}
+					<br />
 				{:else if block.type === 'intentionally_blank'}
 					<IntentionallyBlank />
 				{:else if block.type === 'signature_block'}
@@ -136,7 +166,14 @@
 				{:else if block.type === 'section_page'}
 					<SectionPage text={block.text} />
 				{:else if block.type === 'show_psalm'}
-					<ShowPsalm ps={block.ps} from={block.from} to={block.to} bold={block.bold || false} />
+					<ShowPsalm
+						ps={block.ps}
+						from={block.from}
+						to={block.to}
+						fromLine={block.fromLine}
+						toLine={block.toLine}
+						bold={block.bold || false}
+					/>
 				{:else if block.type === 'canticle'}
 					{#if canticleMap[block.name]}
 						{@const CanticleComponent = canticleMap[block.name]}
@@ -144,6 +181,11 @@
 					{:else}
 						<p class="text-red-500">Unknown canticle: {block.name}</p>
 					{/if}
+				{:else}
+					<!-- Fallback for unhandled types -->
+					<div class="text-sm text-amber-600 italic">
+						[Component not yet implemented: {block.type}]
+					</div>
 				{/if}
 			{/each}
 		</section>

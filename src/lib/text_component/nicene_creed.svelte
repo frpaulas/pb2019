@@ -36,6 +36,5 @@
 <Line indent bold>We look for the resurrection of the dead,</Line>
 <Line indent bold>and the life of the world to come. Amen.</Line>
 <Footnote
-	text="† The phrase "and the Son" (Latin filioque) is not in the original Greek text. See the resolution of the
-        College of Bishops concerning the filioque in Documentary Foundations (page 768)."
+	text="† The phrase 'and the Son' (Latin filioque) is not in the original Greek text. See the resolution of the College of Bishops concerning the filioque in Documentary Foundations (page 768)."
 />

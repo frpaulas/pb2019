@@ -3,16 +3,16 @@ tp: The Holy Eucharist: Anglican Standard Text
 
 st: the order for the administration of
 st: the lord's supper
-st: or
+st:lc: _or_
 st: holy communion,
-st: commonly called
+st:lc: commonly called
 st: the holy eucharist
-st: Anglican Standard Text
+st:lc: _Anglican Standard Text_
 r: A hymn, psalm, or anthem may be sung.
 
 st: the acclamation
 r: The People standing, the Celebrant says this or a seasonal greeting (pages 145-146)
-v:: Blessed be God: the Father, the Son, and the Holy Spirit.
+v: Blessed be God: the Father, the Son, and the Holy Spirit.
 v:people: And blessed be his kingdom, now and for ever. Amen.
 r: In the season of Lent
 v:celebrant: Bless the Lord who forgives all our sins.
@@ -21,6 +21,7 @@ r: From Easter Day until the Eve of Pentecost
 v:celebrant: Alleluia! Christ is risen!
 v:people: The Lord is risen indeed! Alleluia!
 
+pb:106
 st: the collect for purity
 r: The Celebrant prays (and the People may be invited to join)
 tb: Almighty God, to you all hearts are open, all desires known, and from you no secrets are hid: Cleanse the thoughts of our hearts by the inspiration of your Holy Spirit, that we may perfectly love you, and worthily magnify your holy Name; through Christ our Lord.
@@ -31,106 +32,44 @@ l: Hear what our Lord Jesus Christ says:
 tb: You shall love the Lord your God with all your heart and with all your soul and with all your mind. This is the first and great commandment. And the second is like it: You shall love your neighbor as yourself. On these two commandments depend all the Law and the Prophets.
 ref: matthew 22:37-40
 
-st: the kyrie
-r: The Celebrant and People pray
-l: Lord, have mercy [upon us].
-l:b: Christ, have mercy [upon us].
-l: Lord, have mercy [upon us].
-r: or this
-l: Kyrie eleison.
-l:b: Christe eleison.
-l: Kyrie eleison.
-r: or this
-l: Holy God,
-l: Holy and Mighty,
-l: Holy Immortal One,
-l:b: Have mercy upon us.
+use:kyrie:
 
-st: the gloria in excelsis
-r: Gloria or some other song of praise may be sung or said, all standing. It is appropriate to omit the song of praise during penitential seasons and days appointed for fasting.
-l:b: Glory to God in the highest,
-l:b:i: and peace to his people on earth.
-l:b: Lord God, heavenly King,
-l:b: almighty God and Father,
-l:b:i: we worship you, we give you thanks,
-l:b:i: we praise you for your glory.
-l:b: Lord Jesus Christ, only Son of the Father,
-l:b: Lord God, Lamb of God,
-l:b: you take away the sin of the world:
-l:b:i: have mercy on us;
-l:b: you are seated at the right hand of the Father:
-l:b:i: receive our prayer.
-l:b: For you alone are the Holy One,
-l:b: you alone are the Lord,
-l:b: you alone are the Most High,
-l:b:i: Jesus Christ,
-l:b:i: with the Holy Spirit,
-l:b:i: in the glory of God the Father. Amen.
+pb:107
+use:gloria_in_exelsis::
 
 st: the collect of the day
 r: The Celebrant says to the People
-v:: The Lord be with you.
+v: The Lord be with you.
 v:people: And with your spirit.
 v:officiant: Let us pray.
 r: The Celebrant prays the Collect.
 v:people: Amen.
 
+pb:108
 st: the lessons
 r: One or more Lessons, as appointed, are read, the Reader first saying
-v:: A Reading from _____________.
+v: A Reading from _**11**_.
 r: A citation giving chapter and verse may be added.
 r: After each Lesson the Reader may say
-v:: The Word of the Lord.
+v: The Word of the Lord.
 v:people: Thanks be to God.
 r: Or the Reader may say
 r: Or the Reader may say
 r: Silence may follow.
 r: A psalm, hymn, or anthem may follow each reading.
 r: All standing, the Deacon or Priest reads the Gospel, first saying
-v:: The Holy Gospel of our Lord Jesus Christ according to _____________.
+v: The Holy Gospel of our Lord Jesus Christ according to _**11**_.
 v:people: Glory to you, Lord Christ.
 r: After the Gospel, the Reader says
-v:: The Gospel of the Lord.
+v: The Gospel of the Lord.
 v:people: Praise to you, Lord Christ.
 
 st: the sermon
 
-st: the nicene creed
-r: On Sundays, other Major Feast Days, and other times as appointed, all stand to recite the Nicene Creed, the Celebrant first saying
-l: Let us confess our faith in the words of the Nicene Creed:
-r: Celebrant and People
-l:b: We believe in one God,
-l:b:i: the Father, the Almighty,
-l:b:i: maker of heaven and earth,
-l:b:i: of all that is, visible and invisible.
-l:b: We believe in one Lord, Jesus Christ,
-l:b:i: the only-begotten Son of God,
-l:b:i: eternally begotten of the Father,
-l:b:i: God from God, Light from Light,
-l:b:i: true God from true God,
-l:b:i: begotten, not made,
-l:b:i: of one Being with the Father;
-l:b:i: through him all things were made.
-l:b:i: For us and for our salvation he came down from heaven,
-l:b:i: was incarnate from the Holy Spirit and the Virgin Mary,
-l:b:i: and was made man.
-l:b:i: For our sake he was crucified under Pontius Pilate;
-l:b:i: he suffered death and was buried.
-l:b:i: On the third day he rose again in accordance with the Scriptures;
-l:b:i: he ascended into heaven
-l:b:i: and is seated at the right hand of the Father.
-l:b:i: He will come again in glory to judge the living and the dead,
-l:b:i: and his kingdom will have no end.
-l:b: We believe in the Holy Spirit, the Lord, the giver of life,
-l:b:i: who proceeds from the Father [and the Son],
-l:b:i: who with the Father and the Son is worshiped and glorified,
-l:b:i: who has spoken through the prophets.
-l:b:i: We believe in one holy catholic and apostolic Church.
-l:b:i: We acknowledge one Baptism for the forgiveness of sins.
-l:b:i: We look for the resurrection of the dead,
-l:b:i: and the life of the world to come. Amen.
-footnote: The phrase "and the Son" (Latin filioque) is not in the original Greek text. See the resolution of the College of Bishops concerning the filioque in Documentary Foundations (page 768).
+pb:109
+use:nicene_creed
 
+pb:110
 st: the prayers of the people
 r: The Deacon or other person appointed says these prayers, or the Prayers of the People in the Renewed Ancient Text.
 l: Let us pray for the Church and for the world.
@@ -142,30 +81,50 @@ tb: We pray that you will lead the nations of the world in the way of righteousn
 r: Silence
 v:reader: Lord, in your mercy
 v:people: Hear our prayer.
-tb: Give grace, heavenly Father, to all Bishops, Priests, and Deacons, _and especially to your servant(s) _N_, our Archbishop/Bishop/Priest/Deacon, etc._, that by their life and teaching, they may proclaim your true and life-giving Word, and rightly and duly administer our holy Sacraments. And to all your people give your heavenly grace, especially to this Congregation, that with reverent and obedient hearts we may hear and receive your holy Word, and serve you in holiness and righteousness all the days of our lives.
+tb: Give grace, heavenly Father, to all Bishops, Priests, and Deacons,
+and especially to your servant(s) _N_, our Archbishop/Bishop/Priest/Deacon, etc._,
+that by their life and teaching, they may proclaim your true and life-giving Word,
+and rightly and duly administer our holy Sacraments. And to all your people give your heavenly grace,
+especially to this Congregation, that with reverent and obedient hearts we may hear and receive your holy Word,
+and serve you in holiness and righteousness all the days of our lives.
+
+pb:111
 r: Silence
 v:reader: Lord, in your mercy
 v:people: Hear our prayer.
-tb: Prosper, we pray, all those who proclaim the Gospel of your kingdom throughout the world, and strengthen us to fulfill your great commission, making disciples of all nations, baptizing them and teaching them to obey all that you have commanded.
+tb: Prosper, we pray, all those who proclaim the Gospel of your kingdom throughout the world,
+and strengthen us to fulfill your great commission, making disciples of all nations,
+baptizing them and teaching them to obey all that you have commanded.
 r: Silence
 v:reader: Lord, in your mercy
 v:people: Hear our prayer.
-tb: We ask you in your goodness, O Lord, to comfort and sustain all who in this transitory life are in trouble, sorrow, need, sickness, or any other adversity [especially _____________].
+tb: We ask you in your goodness, O Lord, to comfort and sustain all who in this transitory
+life are in trouble, sorrow, need, sickness, or any other adversity [especially _**11**_].
 r: Silence
 v:reader: Lord, in your mercy
 v:people: Hear our prayer.
-tb: We remember before you all your servants who have departed this life in your faith and fear, [especially _____________,] that your will for them may be fulfilled; and we ask you to give us grace to follow the good examples of [_N._, and] all your saints, that we may share with them in your heavenly kingdom.
+tb: We remember before you all your servants who have departed this life in your faith and fear,
+[especially _**11**_,] that your will for them may be fulfilled; and we ask you to give us
+grace to follow the good examples of [_N._, and] all your saints,
+that we may share with them in your heavenly kingdom.
 r: Silence
+
+pb:112
 v:reader: Lord, in your mercy
 v:people: Hear our prayer.
 r: Additional prayers may be added.
 r: The Celebrant concludes with this or some other appropriate Collect.
-tb: Heavenly Father, grant these our prayers for the sake of Jesus Christ, our only Mediator and Advocate, who lives and reigns with you in the unity of the Holy Spirit, one God, now and for ever.
+tb: Heavenly Father, grant these our prayers for the sake of Jesus Christ,
+our only Mediator and Advocate, who lives and reigns with you in the unity of the Holy Spirit,
+one God, now and for ever. **Amen.**
 r: The Celebrant may then say the Exhortation.
 
 st: the confession and absolution of sin
 r: The Deacon or other person appointed says the following
-tb: All who truly and earnestly repent of your sins, and seek to live in love and charity with your neighbors, and intend to lead the new life, following the commandments of God, and walking in his holy ways: draw near with faith and make your humble confession to Almighty God.
+tb: All who truly and earnestly repent of your sins,
+and seek to live in love and charity with your neighbors,
+and intend to lead the new life, following the commandments of God,
+and walking in his holy ways: draw near with faith and make your humble confession to Almighty God.
 r: or
 l: Let us humbly confess our sins to Almighty God.
 r: Silence
@@ -186,16 +145,24 @@ l:b:i: and grant that we may evermore serve and please you in
 l:b:i: newness of life,
 l:b:i: to the honor and glory of your Name;
 l:b:i: through Jesus Christ our Lord. Amen.
+
+pb:113
 r: The Bishop or Priest stands and says
-tb: Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord.
+tb: Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins
+to all those who sincerely repent and with true faith turn to him,
+have mercy upon you, pardon and deliver you from all your sins,
+confirm and strengthen you in all goodness, and bring you to everlasting life;
+through Jesus Christ our Lord. **Amen.**
 
 st: the comfortable words
 r: The Celebrant may then say one or more of the following sentences, first saying
 l: Hear the Word of God to all who truly turn to him.
-scripture:matthew 11:28: Come to me, all who labor and are heavy laden, and I will give you rest.
-scripture:john 3:16: God so loved the world, that he gave his only-begotten Son, that whoever believes in him should not perish but have eternal life.
-scripture:1 timothy 1:15: The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners.
-scripture:1 john 2:1-2: If anyone sins, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world.
+scripture:matthew 11:28:: Come to me, all who labor and are heavy laden, and I will give you rest.
+scripture:john 3:16:: God so loved the world, that he gave his only-begotten Son, that whoever believes in him should not perish but have eternal life.
+
+pb:114
+scripture:1 timothy 1:15:: The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners.
+scripture:1 john 2:1-2:: If anyone sins, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world.
 
 st: the peace
 r: In Easter Season, add
@@ -210,9 +177,10 @@ v:celebrant: Yours, O Lord, is the greatness, and the power, and the glory, and 
 v:people: And of your own have we given you.
 ref: 1 chronicles 29:11, 14
 
+pb:115
 st: the sursum corda
 r: The People remain standing. The Celebrant faces them and sings or says
-v:: The Lord be with you.
+v: The Lord be with you.
 v:people: And with your spirit.
 v:celebrant: Lift up your hearts.
 v:people: We lift them up to the Lord.
@@ -233,6 +201,8 @@ l:b:i: Hosanna in the highest.
 
 st: the prayer of consecration
 r: The People kneel or stand. The Celebrant continues
+
+pb:116
 tb: All praise and glory is yours, O God our heavenly Father, for in your tender mercy, you gave your only Son Jesus Christ to suffer death upon the Cross for our redemption. He made there, by his one oblation of himself once offered, a full, perfect, and sufficient sacrifice, oblation, and satisfaction, for the sins of the whole world; and he instituted, and in his Holy Gospel commanded us to continue, a perpetual memory of his precious death and sacrifice, until his coming again.
 tb: So now, O merciful Father, in your great goodness, we ask you to bless and sanctify, with your Word and Holy Spirit, these gifts of bread and wine, that we, receiving them according to your Son our Savior Jesus Christ's holy institution, in remembrance of his death and passion, may be partakers of his most blessed Body and Blood.
 r: At the following words concerning the bread, the Celebrant is to hold it, or lay a hand upon it, and here* may break the bread; and at the words concerning the cup, to hold or place a hand upon the cup and any other vessel containing the wine to be consecrated.
@@ -240,30 +210,21 @@ tb: For on the night that he was betrayed, our Lord Jesus Christ took bread; and
 tb: Likewise, after supper, Jesus took the cup, and when he had given thanks, he gave it to them, saying, "Drink this, all of you; for this is my Blood of the New Covenant, which is shed for you, and for many, for the forgiveness of sins: Whenever you drink it, do this in remembrance of me."
 footnote: This paragraph does not occur in the 1662 Book of Common Prayer, but ecumenical consensus expects its use.
 footnote: In the 1662 Order, the Distribution of Communion occurs here. The Lord's Prayer is then said. The remainder of the Prayer of Consecration follows the Lord's Prayer as an alternative Post Communion Prayer.
+
+pb:117
 tb: Therefore, O Lord and heavenly Father, according to the institution of your dearly beloved Son our Savior Jesus Christ, we your humble servants celebrate and make here before your divine Majesty, with these holy gifts, the memorial your Son commanded us to make; remembering his blessed passion and precious death, his mighty resurrection and glorious ascension, and his promise to come again.
 tb:o: And we earnestly desire your fatherly goodness mercifully to accept this, our sacrifice of praise and thanksgiving; asking you to grant that, by the merits and death of your Son Jesus Christ, and through faith in his Blood, we and your whole Church may obtain forgiveness of our sins, and all other benefits of his passion.
 tb: And here we offer and present to you, O Lord, ourselves, our souls and bodies, to be a reasonable, holy, and living sacrifice. We humbly pray that all who partake of this Holy Communion may worthily receive the most precious Body and Blood of your Son Jesus Christ, be filled with your grace and heavenly benediction, and be made one body with him, that he may dwell in us, and we in him.
 tb:o: And although we are unworthy, because of our many sins, to offer you any sacrifice, yet we ask you to accept this duty and service we owe, not weighing our merits, but pardoning our offenses, through Jesus Christ our Lord.
-tb: By him, and with him, and in him, in the unity of the Holy Spirit, all honor and glory is yours, Almighty Father, now and for ever.
+tb: By him, and with him, and in him, in the unity of the Holy Spirit, all honor and glory is yours,
+Almighty Father, now and for ever. **Amen.**
 
+pb:118
 st: the lord's prayer
 r: The Celebrant then says
 l: And now as our Savior Christ has taught us, we are bold to pray:
 r: Celebrant and People together pray
-l:b: Our Father, who art in heaven,
-l:b:i: hallowed be thy Name,
-l:b:i: thy kingdom come,
-l:b:i: thy will be done,
-l:b:i: on earth as it is in heaven.
-l:b: Give us this day our daily bread.
-l:b: And forgive us our trespasses,
-l:b:i: as we forgive those
-l:b:i: who trespass against us.
-l:b: And lead us not into temptation,
-l:b:i: but deliver us from evil.
-l:b: For thine is the kingdom,
-l:b:i: and the power, and the glory,
-l:b:i: for ever and ever. Amen.
+use:prayer:lords_prayer
 
 st: the fraction
 r: If the consecrated Bread was not broken earlier, the Celebrant breaks it now.
@@ -274,38 +235,20 @@ v:people: Therefore let us keep the feast. [Alleluia.]
 r: or this
 v:celebrant: [Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross.
 v:people: Therefore let us keep the feast. [Alleluia.]
+
+pb:119
 r: In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season.
 
-st: the prayer of humble access
-r: Celebrant and People together may say
-l:b: We do not presume to come to this your table, O merciful Lord,
-l:b:i: trusting in our own righteousness,
-l:b:i: but in your abundant and great mercies.
-l:b: We are not worthy so much as to gather up
-l:b:i: the crumbs under your table;
-l:b:i: but you are the same Lord
-l:b:i: whose character is always to have mercy.
-l:b: Grant us, therefore, gracious Lord,
-l:b:i: so to eat the flesh of your dear Son Jesus Christ,
-l:b:i: and to drink his blood,
-l:b:i: that our sinful bodies may be made clean by his body,
-l:b:i: and our souls washed through his most precious blood,
-l:b:i: and that we may evermore dwell in him, and he in us. Amen.
-
-st: the agnus dei
-r: The following or some other suitable anthem may be sung or said here
-l: Lamb of God, you take away the sin of the world;
-l:b:i: have mercy on us.
-l: Lamb of God, you take away the sin of the world;
-l:b:i: have mercy on us.
-l: Lamb of God, you take away the sin of the world;
-l:b:i: grant us your peace.
+use:prayer:humble_access:
+use:agnus_dei:
 
 st: the ministration of communion
 r: Facing the People, the Celebrant may say the following invitation
+
+pb:120
 tb: The gifts of God for the people of God. [Take them in remembrance that Christ died for you and feed on him in your hearts by faith, with thanksgiving.]
 r: or this
-scripture:revelation 19:9, john 1:29: Behold the Lamb of God, behold him who takes away the sins of the world. Blessed are those who are invited to the marriage supper of the Lamb.
+scripture:revelation 19:9, john 1:29:: Behold the Lamb of God, behold him who takes away the sins of the world. Blessed are those who are invited to the marriage supper of the Lamb.
 r: The Ministers receive the Sacrament in both kinds, and then immediately deliver it to the People.
 r: The Bread and Cup are given to the communicants with these words
 tb: The Body of our Lord Jesus Christ, [which was given for you, preserve your body and soul to everlasting life. Take and eat this in remembrance that Christ died for you, and feed on him in your heart by faith, with thanksgiving.]
@@ -317,31 +260,17 @@ st: the post communion prayer
 r: After Communion, the Celebrant says
 l: Let us pray.
 r: Celebrant and People together say the following, or the Post Communion Prayer in the Renewed Ancient Text
-l:b: Almighty and everliving God,
-l:b: we thank you for feeding us, in these holy mysteries,
-l:b:i: with the spiritual food of the most precious Body and Blood
-l:b:i: of your Son our Savior Jesus Christ;
-l:b: and for assuring us, through this Sacrament, of your favor and
-l:b:i: goodness towards us:
-l:b:i: that we are true members of the mystical body of your Son,
-l:b:i: the blessed company of all faithful people;
-l:b:i: and are also heirs, through hope,
-l:b:i: of your everlasting kingdom.
-l:b: And we humbly ask you, heavenly Father,
-l:b:i: to assist us with your grace,
-l:b:i: that we may continue in that holy fellowship,
-l:b:i: and do all the good works that you have prepared for us to
-l:b:i: walk in;
-l:b: through Jesus Christ our Lord,
-l:b:i: to whom, with you and the Holy Spirit,
-l:b:i: be all honor and glory, now and for ever. Amen.
+
+pb:121
+use:prayer:post_communion_standard:
 r: The Bishop when present, or the Priest, gives this or an alternate blessing
 tb: The peace of God, which passes all understanding, keep your hearts and minds in the knowledge and love of God, and of his Son Jesus Christ our Lord; and the blessing of God Almighty, the Father, the Son, and the Holy Spirit, be among you, and remain with you always.
 r: A hymn, psalm, or anthem may be sung after the Blessing (or following the Dismissal).
 
+pb:122
 st: the dismissal
 r: The Deacon, or the Priest, may dismiss the People with these words
-v:: Let us go forth in the Name of Christ.
+v: Let us go forth in the Name of Christ.
 v:people: Thanks be to God.
 r: or this
 v:deacon: Go in peace to love and serve the Lord.
