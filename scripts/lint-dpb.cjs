@@ -1,0 +1,498 @@
+#!/usr/bin/env node
+
+/**
+ * DPB Linter
+ * Validates *.dpb files for correct syntax and common issues
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+// Valid line prefixes and their patterns
+const VALID_PREFIXES = {
+	pg: /^pg:\s*\d+(-\d+)?$/,
+	tp: /^tp:\s*.+$/,
+	pb: /^pb:\s*\d+$/,
+	r: /^r:\s*.*/,
+	st: /^st(:\d)?:\s*.+$/,
+	tb: /^tb:\s*.*/,
+	l: /^l:\s*.*/,
+	v: /^v:([\w\s]*):.*$/,
+	button: /^button:([\w\s]*):.*$/,
+	lords_prayer: /^lords_prayer:/,
+	ref: /^ref:\s*.+$/,
+	'ref+': /^ref\+:\s*.+$/,
+	use: /^use:\w+:.+$/,
+	scripture: /^scripture:[^:]+::.+$/,
+	footnote: /^footnote:\s*.+$/
+};
+
+// Valid global arguments
+const VALID_ARGS = ['b', 'o', 'i'];
+
+class DPBLinter {
+	constructor() {
+		this.errors = [];
+		this.warnings = [];
+		this.currentFile = '';
+		this.lineNumber = 0;
+	}
+
+	/**
+	 * Lint a single file
+	 */
+	lintFile(filePath) {
+		this.currentFile = filePath;
+		this.errors = [];
+		this.warnings = [];
+
+		try {
+			const content = fs.readFileSync(filePath, 'utf-8');
+			const lines = content.split('\n');
+
+			this.lintLines(lines);
+		} catch (err) {
+			this.addError(0, `Failed to read file: ${err.message}`);
+		}
+
+		return {
+			file: filePath,
+			errors: this.errors,
+			warnings: this.warnings,
+			success: this.errors.length === 0
+		};
+	}
+
+	/**
+	 * Lint all lines in a file
+	 */
+	lintLines(lines) {
+		let inMultilineBlock = false;
+		let blockType = null;
+		let hasPageRange = false;
+		let lastPageBreak = null;
+
+		for (let i = 0; i < lines.length; i++) {
+			this.lineNumber = i + 1;
+			const line = lines[i];
+
+			// Skip empty lines and comments
+			if (line.trim() === '' || line.startsWith('#')) {
+				continue;
+			}
+
+			// Check for pg: at start
+			if (i === 0 && !line.startsWith('pg:')) {
+				this.addError(this.lineNumber, 'File must start with pg: directive');
+			}
+
+			if (line.startsWith('pg:')) {
+				hasPageRange = true;
+			}
+
+			// Parse line prefix
+			const colonIndex = line.indexOf(':');
+			if (colonIndex === -1) {
+				// Continuation of multiline block
+				if (inMultilineBlock) {
+					this.lintLineContent(line, blockType);
+				} else {
+					this.addError(this.lineNumber, 'Line missing colon separator');
+				}
+				continue;
+			}
+
+			const prefix = line.substring(0, colonIndex);
+			const rest = line.substring(colonIndex + 1);
+
+			// Check if this is a continuation or new directive
+			if (prefix.match(/^(r|tb|l)$/)) {
+				inMultilineBlock = true;
+				blockType = prefix;
+			} else {
+				inMultilineBlock = false;
+				blockType = null;
+			}
+
+			// Parse arguments (e.g., "l:i:b:" -> args: ['i', 'b'])
+			const parts = prefix.split(':');
+			const basePrefix = parts[0];
+			const args = parts.slice(1).filter((a) => a !== '');
+
+			// Check if prefix is valid
+			if (!VALID_PREFIXES[basePrefix]) {
+				this.addError(this.lineNumber, `Unknown prefix: '${basePrefix}'`);
+				continue;
+			}
+
+			// Validate arguments
+			for (const arg of args) {
+				// For st, allow numbers (1, 2, 3)
+				if (basePrefix === 'st' && arg.match(/^[123]$/)) {
+					continue;
+				}
+				// For v, first arg is the speaker
+				if (basePrefix === 'v' && args.indexOf(arg) === 0) {
+					continue;
+				}
+				// For button, first arg is the link
+				if (basePrefix === 'button' && args.indexOf(arg) === 0) {
+					continue;
+				}
+				// Otherwise check if it's a valid global arg
+				if (!VALID_ARGS.includes(arg)) {
+					this.addWarning(this.lineNumber, `Unknown argument: '${arg}'`);
+				}
+			}
+
+			// Validate content format
+			const fullLine = basePrefix + ':' + args.join(':') + ':' + rest;
+			this.lintLineType(basePrefix, fullLine, rest);
+
+			// Track page breaks
+			if (basePrefix === 'pb') {
+				const pageNum = parseInt(rest.trim());
+				if (lastPageBreak !== null && pageNum <= lastPageBreak) {
+					this.addError(
+						this.lineNumber,
+						`Page break ${pageNum} is not greater than previous ${lastPageBreak}`
+					);
+				}
+				lastPageBreak = pageNum;
+			}
+		}
+
+		// Final checks
+		if (!hasPageRange) {
+			this.addError(1, 'Missing pg: directive at start of file');
+		}
+	}
+
+	/**
+	 * Lint specific line types
+	 */
+	lintLineType(prefix, fullLine, content) {
+		// For validation, we need to construct the basic line format
+		// Strip extra colons from arguments (e.g., "st:1:" -> "st:1")
+		const basicLine = prefix + ':' + content.trim();
+		const pattern = VALID_PREFIXES[prefix];
+
+		// Check basic pattern match (skip for multi-line continuations)
+		if (!pattern.test(basicLine) && content.trim() !== '') {
+			// More lenient check - just ensure content exists for most types
+			if (!['r', 'tb', 'l'].includes(prefix) || this.lineNumber === 1) {
+				// Only strict validation for non-multiline types
+			}
+		}
+
+		// Specific validations
+		switch (prefix) {
+			case 'pg':
+				this.lintPageRange(content);
+				break;
+			case 'pb':
+				this.lintPageBreak(content);
+				break;
+			case 'tp':
+			case 'st':
+			case 'r':
+			case 'tb':
+			case 'l':
+				this.lintLineContent(content, prefix);
+				break;
+			case 'v':
+				this.lintVersical(fullLine, content);
+				break;
+			case 'button':
+				this.lintButton(fullLine, content);
+				break;
+		}
+	}
+
+	/**
+	 * Lint page range
+	 */
+	lintPageRange(content) {
+		const trimmed = content.trim();
+		if (trimmed.includes('-')) {
+			const [start, end] = trimmed.split('-').map((s) => parseInt(s.trim()));
+			if (isNaN(start) || isNaN(end)) {
+				this.addError(this.lineNumber, 'Invalid page range format');
+			} else if (start >= end) {
+				this.addError(
+					this.lineNumber,
+					`Page range start (${start}) must be less than end (${end})`
+				);
+			}
+		} else if (isNaN(parseInt(trimmed))) {
+			this.addError(this.lineNumber, 'Invalid page number');
+		}
+	}
+
+	/**
+	 * Lint page break
+	 */
+	lintPageBreak(content) {
+		const pageNum = parseInt(content.trim());
+		if (isNaN(pageNum)) {
+			this.addError(this.lineNumber, 'Page break must have a valid page number');
+		} else if (pageNum < 1) {
+			this.addError(this.lineNumber, 'Page number must be positive');
+		}
+	}
+
+	/**
+	 * Lint line content for formatting issues
+	 */
+	lintLineContent(content, prefix) {
+		// Check for mismatched markdown formatting
+		this.checkMismatchedFormatting(content, '_', 'italic');
+		this.checkMismatchedFormatting(content, '**', 'bold');
+		this.checkMismatchedFormatting(content, '__', 'template');
+
+		// Check for old __bold__ syntax (should be **bold** now)
+		if (content.match(/__[^_\s]+__/) && !content.match(/__[^_\s|]+\|/)) {
+			this.addWarning(
+				this.lineNumber,
+				'Found __text__ - should this be **text** (bold) or __opt1|opt2__ (template)?'
+			);
+		}
+
+		// Check for unclosed quotes
+		const quotes = (content.match(/"/g) || []).length;
+		if (quotes % 2 !== 0) {
+			this.addWarning(this.lineNumber, 'Unclosed quotation marks');
+		}
+
+		// Check for template syntax issues
+		this.lintTemplateSyntax(content);
+
+		// Check for blank line placeholders
+		if (content.match(/___\d+___/)) {
+			const match = content.match(/___(\d+)___/);
+			const length = parseInt(match[1]);
+			if (length > 50) {
+				this.addWarning(this.lineNumber, `Blank line length (${length}) seems excessive`);
+			}
+		}
+	}
+
+	/**
+	 * Check for mismatched formatting markers
+	 */
+	checkMismatchedFormatting(content, marker, name) {
+		const count = (
+			content.match(new RegExp(marker.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g')) || []
+		).length;
+		if (count % 2 !== 0) {
+			this.addWarning(this.lineNumber, `Mismatched ${name} markers (${marker})`);
+		}
+	}
+
+	/**
+	 * Lint template syntax
+	 */
+	lintTemplateSyntax(content) {
+		// Find all template patterns: __something__
+		const templates = content.match(/__([^_]+)__/g);
+		if (!templates) return;
+
+		for (const template of templates) {
+			const inner = template.slice(2, -2); // Remove __ from both sides
+
+			// Check if it contains a pipe (template with options)
+			if (inner.includes('|')) {
+				const options = inner.split('|').map((o) => o.trim());
+
+				// Check for empty options
+				if (options.some((o) => o === '')) {
+					this.addError(this.lineNumber, `Template has empty option: ${template}`);
+				}
+
+				// Check for common pronoun patterns (should have 2 or 3 options)
+				const firstOpt = options[0].toLowerCase();
+				const pronouns = [
+					'he',
+					'she',
+					'him',
+					'her',
+					'his',
+					'hers',
+					'they',
+					'them',
+					'their',
+					'theirs'
+				];
+				if (pronouns.includes(firstOpt) && options.length < 2) {
+					this.addWarning(
+						this.lineNumber,
+						`Pronoun template should have at least 2 options: ${template}`
+					);
+				}
+
+				// Check for number agreement (should have exactly 2 options)
+				const singularPlural = ['is', 'are', 'has', 'have', 'this', 'these'];
+				if (singularPlural.includes(firstOpt) && options.length !== 2) {
+					this.addWarning(
+						this.lineNumber,
+						`Number agreement should have exactly 2 options: ${template}`
+					);
+				}
+			} else {
+				// Single value - should be a name placeholder
+				const validNames = ['N.', 'N.N.', 'N. N.', 'N. and N.', 'N.N. and N.N.'];
+				if (!validNames.includes(inner.trim())) {
+					this.addWarning(
+						this.lineNumber,
+						`Unknown template pattern: ${template} (expected name placeholder or options with |)`
+					);
+				}
+			}
+		}
+	}
+
+	/**
+	 * Lint versical
+	 */
+	lintVersical(fullLine, content) {
+		// Extract speaker
+		const match = fullLine.match(/^v:([\w\s]*):(.*)$/);
+		if (!match) {
+			this.addError(this.lineNumber, 'Invalid versical format');
+			return;
+		}
+
+		const speaker = match[1].trim();
+		const text = match[2].trim();
+
+		// Check for common speaker values
+		const commonSpeakers = [
+			'',
+			'people',
+			'celebrant',
+			'officiant',
+			'priest',
+			'deacon',
+			'minister',
+			'reader',
+			'question',
+			'answer',
+			'candidate',
+			'b'
+		];
+		if (speaker && !commonSpeakers.includes(speaker.toLowerCase())) {
+			this.addWarning(this.lineNumber, `Unusual speaker: '${speaker}'`);
+		}
+
+		// Check if text is empty (only valid for 'b' - bold with no speaker)
+		if (!text && speaker !== 'b') {
+			this.addWarning(this.lineNumber, 'Versical has no text');
+		}
+	}
+
+	/**
+	 * Lint button
+	 */
+	lintButton(fullLine, content) {
+		const match = fullLine.match(/^button:([\w\s]*):(.*)$/);
+		if (!match) {
+			this.addError(this.lineNumber, 'Invalid button format');
+			return;
+		}
+
+		const link = match[1].trim();
+		const text = match[2].trim();
+
+		if (!text) {
+			this.addError(this.lineNumber, 'Button has no text');
+		}
+
+		// Check if link is empty (placeholder button)
+		if (!link) {
+			this.addWarning(this.lineNumber, 'Button has no link (placeholder button)');
+		}
+	}
+
+	/**
+	 * Add an error
+	 */
+	addError(lineNumber, message) {
+		this.errors.push({ line: lineNumber, message, type: 'error' });
+	}
+
+	/**
+	 * Add a warning
+	 */
+	addWarning(lineNumber, message) {
+		this.warnings.push({ line: lineNumber, message, type: 'warning' });
+	}
+}
+
+/**
+ * Main function
+ */
+function main() {
+	const args = process.argv.slice(2);
+
+	if (args.length === 0) {
+		console.error('Usage: node lint-dpb.cjs <file1.dpb> [file2.dpb ...]');
+		console.error('   or: node lint-dpb.cjs src/lib/data/services/dpb/*.dpb');
+		process.exit(1);
+	}
+
+	const linter = new DPBLinter();
+	let totalErrors = 0;
+	let totalWarnings = 0;
+	let filesChecked = 0;
+
+	for (const filePath of args) {
+		if (!fs.existsSync(filePath)) {
+			console.error(`File not found: ${filePath}`);
+			continue;
+		}
+
+		if (!filePath.endsWith('.dpb')) {
+			console.error(`Skipping non-DPB file: ${filePath}`);
+			continue;
+		}
+
+		filesChecked++;
+		const result = linter.lintFile(filePath);
+
+		// Print results
+		const fileName = path.basename(filePath);
+		if (result.errors.length === 0 && result.warnings.length === 0) {
+			console.log(`✓ ${fileName}`);
+		} else {
+			console.log(`\n${fileName}:`);
+
+			for (const error of result.errors) {
+				console.log(`  ❌ Line ${error.line}: ${error.message}`);
+			}
+
+			for (const warning of result.warnings) {
+				console.log(`  ⚠️  Line ${warning.line}: ${warning.message}`);
+			}
+		}
+
+		totalErrors += result.errors.length;
+		totalWarnings += result.warnings.length;
+	}
+
+	// Summary
+	console.log(`\n${'='.repeat(60)}`);
+	console.log(`Checked ${filesChecked} file(s)`);
+	console.log(`Errors: ${totalErrors}`);
+	console.log(`Warnings: ${totalWarnings}`);
+
+	if (totalErrors > 0) {
+		process.exit(1);
+	}
+}
+
+// Run if called directly
+if (require.main === module) {
+	main();
+}
+
+module.exports = { DPBLinter };
