@@ -19,6 +19,37 @@ node scripts/lint-dpb.cjs src/lib/data/services/dpb/*.dpb
 
 ## What It Checks
 
+### ✅ Continuation Markers (STRICT)
+
+**The linter now REQUIRES explicit continuation markers for multiline content.**
+
+For directives that support multiline content (`r:`, `tb:`, `l:`), you **must** use a backslash `\` at the end of each line that continues:
+
+```dpb
+✅ CORRECT:
+tb: This is a long prayer that \
+continues on the next line \
+and finishes here.
+
+❌ INCORRECT:
+tb: This is a long prayer that
+continues on the next line
+and finishes here.
+```
+
+**Errors you'll see:**
+- `Line missing colon separator (not a valid directive). Did you forget \ on previous line?`
+- `Directive 'v' does not support multiline continuation (\)`
+- `Line ends with \ but next line is empty/comment`
+- `Previous line ends with \ but this line starts a new directive`
+
+**Only these directives support `\` continuation:**
+- `r:` - Rubric
+- `tb:` - Text block  
+- `l:` - Line
+
+All other directives (v, st, button, etc.) must be single-line.
+
 ### ✅ Valid Prefixes
 
 The linter validates all line prefixes:
@@ -132,26 +163,54 @@ Style issues or potential problems:
 
 **Fix:** Check that the prefix is in the key file and properly formatted.
 
-### Issue: Multiline continuation error
+### Issue: Missing continuation marker
 
 ```
-❌ Line 46: Line missing colon separator
+❌ Line 46: Line missing colon separator (not a valid directive). Did you forget \ on previous line?
 ```
 
-**Fix:** Ensure multiline blocks (r:, tb:, l:) have proper continuation without colons on following lines.
+**Fix:** Add backslash `\` at end of previous line to indicate continuation.
 
 **Correct:**
-```
-tb: This is a long prayer that
-continues on the next line
+```dpb
+tb: This is a long prayer that \
+continues on the next line \
 and the line after that.
 ```
 
 **Incorrect:**
-```
+```dpb
 tb: This is a long prayer that
-continues: on the next line  # ❌ Don't add colons!
+continues on the next line  # ❌ Missing \ on previous line!
+and the line after that.
 ```
+
+### Issue: Invalid directive using continuation
+
+```
+❌ Line 50: Directive 'v' does not support multiline continuation (\)
+```
+
+**Fix:** Remove the `\` - only `r:`, `tb:`, and `l:` support continuation. Versicals, section titles, and other directives must be single-line.
+
+**Incorrect:**
+```dpb
+v:celebrant: The Lord be with you \
+and also with you.
+```
+
+**Correct:**
+```dpb
+v:celebrant: The Lord be with you and also with you.
+```
+
+### Issue: Backslash at end with no continuation
+
+```
+❌ Line 100: Line ends with \ but next line is empty/comment
+```
+
+**Fix:** Either remove the `\` or add continuation text on the next line.
 
 ### Issue: Mismatched formatting
 

@@ -1,26 +1,53 @@
 button: add button usage->
-l: line usage-> l:text
-lords_prayer:
-pb: page break usage-> pb:n (pb:n indicates the beginning of page n)
-pg: pages usage-> pg:n | pg:n-n
-r: rubric usage-> r:text (text may be multiple lines)
-ref: biblical_reference
-ref+: biblical_reference:additional_text
-st: section title usage-> st: text | st:(1|2|3): text (where 1,2,3 indicates relative text size)
-tb: text block usage-> tb: text (text may be multiple lines)
-tp: title page usage-> tp:text
-v: versical usage->
-    v::text (no speaker)
-    v:b: (no speaker, bold text)
-    v:speaker:text (speaker proceeds text, bold if speaker is "people"
-
     button:link: text (create button with link to location in DPB, text = text for button)
     button::text (create place holder button, text = text for button)
 
+footnote: footnote text usage-> footnote: text
+
+l: line usage-> l:text (single line or use \ for continuation)
+
+lords_prayer: insert the Lord's Prayer
+
+pb: page break usage-> pb:n (pb:n indicates the beginning of page n)
+
+pg: pages usage-> pg:n | pg:n-n (must be first line in file)
+
+r: rubric usage-> r:text (use \ at end of line to continue on next line)
+
+ref: biblical_reference
+ref+: biblical_reference:additional_text
+
+scripture: scripture verse usage-> scripture:reference::text
+
+st: section title usage-> st: text | st:(1|2|3): text (where 1,2,3 indicates relative text size)
+
+tb: text block usage-> tb: text (use \ at end of line to continue on next line)
+
+tp: title page usage-> tp:text
+
+use: include directive usage-> use:type:name
+
+v: versical usage->
+    v::text (no speaker)
+    v:b: (no speaker, bold text)
+    v:speaker:text (speaker proceeds text, bold if speaker is "people")
+
 global arguments:
     b: make the text bold
-    o: text is optional gettingleft hand border
+    o: text is optional, gets left hand border
     i: indent
+
+MULTILINE CONTINUATION:
+    For directives that support multiple lines (r, tb, l), use backslash (\) at the
+    end of each line that continues to the next line.
+
+    Example:
+        tb: This is a long prayer that \
+        continues on the next line \
+        and the line after that.
+
+    Without the backslash, the next line will be treated as a new directive.
+    The linter will error if a line appears to be a continuation but lacks \
 
 
 I see that rubric and text_block already use `parsePageLinks`. I need to integrate the wrapper parsing with that. Let me update `parsePageLinks` to also handle wrappers:
