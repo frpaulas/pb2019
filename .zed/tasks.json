@@ -6,5 +6,21 @@
 		"use_new_terminal": false,
 		"allow_concurrent_runs": false,
 		"reveal": "never"
+	},
+	{
+		"label": "Lint DPB File",
+		"command": "node",
+		"args": ["${ZED_WORKTREE_ROOT}/scripts/lint-dpb.cjs", "${ZED_FILE}"],
+		"use_new_terminal": false,
+		"allow_concurrent_runs": true,
+		"reveal": "always"
+	},
+	{
+		"label": "Lint All DPB Files",
+		"command": "npm",
+		"args": ["run", "lint:dpb"],
+		"use_new_terminal": false,
+		"allow_concurrent_runs": false,
+		"reveal": "always"
 	}
 ]
