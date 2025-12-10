@@ -24,7 +24,8 @@ const VALID_PREFIXES = {
 	'ref+': /^ref\+:\s*.+$/,
 	use: /^use:\w+:.+$/,
 	scripture: /^scripture:[^:]+::.+$/,
-	footnote: /^footnote:\s*.+$/
+	footnote: /^footnote:\s*.+$/,
+	br: /^br:\s*$/
 };
 
 // Valid global arguments
@@ -79,10 +80,6 @@ class DPBLinter {
 
 			// Skip empty lines and comments
 			if (trimmedLine === '' || line.startsWith('#')) {
-				if (expectingContinuation) {
-					this.addError(this.lineNumber - 1, `Line ends with \\ but next line is empty/comment`);
-					expectingContinuation = false;
-				}
 				continue;
 			}
 
@@ -95,57 +92,54 @@ class DPBLinter {
 				hasPageRange = true;
 			}
 
-			// Parse line prefix
-			const colonIndex = line.indexOf(':');
+			// Check if this line starts with whitespace (continuation line)
+			const startsWithWhitespace = /^\s/.test(line);
 
-			// Handle continuation lines
-			if (colonIndex === -1) {
-				if (expectingContinuation) {
-					// This is expected - it's a continuation
-					this.lintLineContent(trimmedLine, lastLineType);
-					expectingContinuation = trimmedLine.endsWith('\\');
-				} else {
-					// ERROR: Line without colon and not a continuation
+			if (startsWithWhitespace) {
+				// This is a continuation line
+				if (!expectingContinuation) {
 					this.addError(
 						this.lineNumber,
-						'Line missing colon separator (not a valid directive). Did you forget \\ on previous line?'
+						'Line starts with whitespace but previous line is not a multiline-capable directive (r:, tb:, l:)'
 					);
 				}
+				this.lintLineContent(trimmedLine, lastLineType);
 				continue;
 			}
 
-			// If we were expecting a continuation but got a new directive
+			// This line starts at column 0, so it must be a new directive
 			if (expectingContinuation) {
+				// Previous line could have continued, but this line is a new directive
+				expectingContinuation = false;
+			}
+
+			// Parse line prefix
+			const colonIndex = line.indexOf(':');
+
+			// Handle lines without colons
+			if (colonIndex === -1) {
 				this.addError(
-					this.lineNumber - 1,
-					`Previous line ends with \\ but this line starts a new directive`
+					this.lineNumber,
+					'Line missing colon separator (not a valid directive). Should it be indented as a continuation?'
 				);
+				continue;
 			}
 
 			const prefix = line.substring(0, colonIndex);
 			const rest = line.substring(colonIndex + 1);
 			const restTrimmed = rest.trim();
 
-			// Check if line ends with continuation marker
-			expectingContinuation = restTrimmed.endsWith('\\');
-
 			// Track what type of line this is for continuation validation
 			lastLineType = prefix.split(':')[0]; // Get base prefix without args
+
+			// Check if this directive type supports multiline continuation
+			const multilineCapable = ['r', 'tb', 'l'];
+			expectingContinuation = multilineCapable.includes(lastLineType);
 
 			// Parse arguments (e.g., "l:i:b:" -> args: ['i', 'b'])
 			const parts = prefix.split(':');
 			const basePrefix = parts[0];
 			const args = parts.slice(1).filter((a) => a !== '');
-
-			// Validate that only multiline-capable directives use backslash
-			const multilineCapable = ['r', 'tb', 'l'];
-			if (expectingContinuation && !multilineCapable.includes(basePrefix)) {
-				this.addError(
-					this.lineNumber,
-					`Directive '${basePrefix}' does not support multiline continuation (\\)`
-				);
-				expectingContinuation = false; // Don't expect continuation from invalid directive
-			}
 
 			// Check if prefix is valid
 			if (!VALID_PREFIXES[basePrefix]) {
@@ -273,10 +267,7 @@ class DPBLinter {
 	 * Lint line content for formatting issues
 	 */
 	lintLineContent(content, prefix) {
-		// Strip continuation marker if present
-		const cleanContent = content.trim().endsWith('\\')
-			? content.trim().slice(0, -1).trim()
-			: content;
+		const cleanContent = content.trim();
 
 		// Check for mismatched markdown formatting
 		this.checkMismatchedFormatting(cleanContent, '_', 'italic');
@@ -284,7 +275,12 @@ class DPBLinter {
 		this.checkMismatchedFormatting(cleanContent, '__', 'template');
 
 		// Check for old __bold__ syntax (should be **bold** now)
-		if (cleanContent.match(/__[^_\s]+__/) && !cleanContent.match(/__[^_\s|]+\|/)) {
+		// But ignore ___n___ which is a blank line placeholder (three underscores)
+		if (
+			cleanContent.match(/__[^_\s]+__/) &&
+			!cleanContent.match(/__[^_\s|]+\|/) &&
+			!cleanContent.match(/___\d+___/)
+		) {
 			this.addWarning(
 				this.lineNumber,
 				'Found __text__ - should this be **text** (bold) or __opt1|opt2__ (template)?'
@@ -326,8 +322,9 @@ class DPBLinter {
 	 * Lint template syntax
 	 */
 	lintTemplateSyntax(content) {
-		// Find all template patterns: __something__
-		const templates = content.match(/__([^_]+)__/g);
+		// Find all template patterns: __something__ (but not ___n___ blank line placeholders)
+		// Use negative lookbehind/lookahead to avoid matching ___n___ as __n__
+		const templates = content.match(/(?<!_)__([^_]+)__(?!_)/g);
 		if (!templates) return;
 
 		for (const template of templates) {

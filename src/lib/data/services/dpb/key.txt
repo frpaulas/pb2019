@@ -4,7 +4,7 @@ button: add button usage->
 
 footnote: footnote text usage-> footnote: text
 
-l: line usage-> l:text (single line or use \ for continuation)
+l: line usage-> l:text (supports multiline with indented continuation)
 
 lords_prayer: insert the Lord's Prayer
 
@@ -12,7 +12,7 @@ pb: page break usage-> pb:n (pb:n indicates the beginning of page n)
 
 pg: pages usage-> pg:n | pg:n-n (must be first line in file)
 
-r: rubric usage-> r:text (use \ at end of line to continue on next line)
+r: rubric usage-> r:text (supports multiline with indented continuation)
 
 ref: biblical_reference
 ref+: biblical_reference:additional_text
@@ -21,7 +21,7 @@ scripture: scripture verse usage-> scripture:reference::text
 
 st: section title usage-> st: text | st:(1|2|3): text (where 1,2,3 indicates relative text size)
 
-tb: text block usage-> tb: text (use \ at end of line to continue on next line)
+tb: text block usage-> tb: text (supports multiline with indented continuation)
 
 tp: title page usage-> tp:text
 
@@ -38,16 +38,18 @@ global arguments:
     i: indent
 
 MULTILINE CONTINUATION:
-    For directives that support multiple lines (r, tb, l), use backslash (\) at the
-    end of each line that continues to the next line.
+    For directives that support multiple lines (r, tb, l), continuation lines
+    must start with whitespace (space or tab). This makes the structure visually
+    clear and prevents accidental continuation.
 
     Example:
-        tb: This is a long prayer that \
-        continues on the next line \
-        and the line after that.
+        tb: This is a long prayer that
+          continues on the next line
+          and the line after that.
 
-    Without the backslash, the next line will be treated as a new directive.
-    The linter will error if a line appears to be a continuation but lacks \
+    Continuation lines are indented (typically 2 spaces) to show they belong to
+    the previous directive. Any line starting at column 0 is treated as a new
+    directive. The linter will error if a continuation line is not indented.
 
 
 I see that rubric and text_block already use `parsePageLinks`. I need to integrate the wrapper parsing with that. Let me update `parsePageLinks` to also handle wrappers:
