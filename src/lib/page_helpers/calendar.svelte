@@ -1,8 +1,6 @@
 <script>
 	import rldsData from '$lib/calendar/rlds.json';
 
-	let { month } = $props();
-
 	// Get current date
 	const today = new Date();
 	const currentMonth = today.getMonth(); // 0-11
@@ -13,34 +11,23 @@
 	// If the specified month matches current month, show current month
 	// Otherwise show next month
 	const monthNames = [
-		'january',
-		'february',
-		'march',
-		'april',
-		'may',
-		'june',
-		'july',
-		'august',
-		'september',
-		'october',
-		'november',
-		'december'
+		'January',
+		'February',
+		'March',
+		'April',
+		'May',
+		'June',
+		'July',
+		'August',
+		'September',
+		'October',
+		'November',
+		'December'
 	];
 
-	const specifiedMonthIndex = monthNames.indexOf(month.toLowerCase());
-
-	// Determine which month to display
-	let displayMonth, displayYear;
-	if (specifiedMonthIndex === currentMonth) {
-		// Show current month
-		displayMonth = currentMonth;
-		displayYear = currentYear;
-	} else {
-		// Show next month
-		displayMonth = (currentMonth + 1) % 12;
-		displayYear = displayMonth === 0 ? currentYear + 1 : currentYear;
-	}
-
+	// Always show current month
+	const displayMonth = currentMonth;
+	const displayYear = currentYear;
 	const displayMonthName = monthNames[displayMonth];
 
 	// Get the first day of the month (0 = Sunday, 6 = Saturday)

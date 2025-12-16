@@ -724,19 +724,19 @@ class RawToJsonConverter {
 			};
 		}
 
-		// Handle calendar: use:calendar:january
-		// Format: use:calendar:month - but we'll ignore the month and show current/next
+		// Handle calendar: use:calendar
+		// Format: use:calendar - shows current or next month dynamically
 		if (componentName === 'calendar') {
-			const monthName = parts[2];
-
-			if (!monthName) {
-				console.warn('Warning: use:calendar: requires month name');
-				return null;
-			}
-
 			return {
-				type: 'calendar',
-				month: monthName
+				type: 'calendar'
+			};
+		}
+
+		// Handle lectionary: use:lectionary
+		// Format: use:lectionary - interactive Sunday lectionary with year selector
+		if (componentName === 'lectionary') {
+			return {
+				type: 'lectionary'
 			};
 		}
 

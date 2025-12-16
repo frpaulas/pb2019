@@ -3,8 +3,8 @@
 		"title": "Untitled Service",
 		"slug": "untitled",
 		"pb_pages": [
-			691,
-			712
+			717,
+			728
 		],
 		"sections": [
 			{
@@ -12,11 +12,11 @@
 				"title": "Content",
 				"content": [
 					{
-						"type": "calendar"
+						"type": "lectionary"
 					}
 				],
-				"pb_page_start": 691,
-				"pb_page_end": 712
+				"pb_page_start": 717,
+				"pb_page_end": 728
 			}
 		]
 	}

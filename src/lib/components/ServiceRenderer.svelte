@@ -32,6 +32,7 @@
 	import ShowPsalm from '$lib/page_helpers/show_psalm.svelte';
 	import Calendar from '$lib/page_helpers/calendar.svelte';
 	import FindEaster from '$lib/page_helpers/find_easter.svelte';
+	import Lectionary from '$lib/page_helpers/lectionary.svelte';
 
 	// Import all canticles
 	import AgainstPerilsEp from '$lib/canticle/against_perils_ep.svelte';
@@ -216,9 +217,11 @@
 						<p class="text-red-500">Unknown occasional prayer: {block.name}</p>
 					{/if}
 				{:else if block.type === 'calendar'}
-					<Calendar month={block.month} />
+					<Calendar />
 				{:else if block.type === 'find_easter'}
 					<FindEaster />
+				{:else if block.type === 'lectionary'}
+					<Lectionary />
 				{:else}
 					<!-- Fallback for unhandled types -->
 					<div class="text-sm text-amber-600 italic">
