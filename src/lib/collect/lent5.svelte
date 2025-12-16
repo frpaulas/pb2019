@@ -1,0 +1,14 @@
+<script>
+	import SectionTitle from '$lib/page_helpers/section_title.svelte';
+	import TextBlock from '$lib/page_helpers/text_block.svelte';
+</script>
+
+<SectionTitle>the fifth sunday in lent</SectionTitle>
+<SectionTitle>_Passion Sunday_</SectionTitle>
+<TextBlock
+	>Almighty God, you alone can bring into order the unruly wills and affections of sinners: Grant
+	your people grace to love what you command and desire what you promise; that, among the swift and
+	varied changes of this world, our hearts may surely there be fixed where true joys are to be
+	found; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God,
+	now and for ever. **Amen.**</TextBlock
+>

@@ -1,0 +1,453 @@
+pg:598-640
+pb:598
+
+st:2: collects _of the_
+st:2: christian year
+st:1: advent
+use:collect:advent1:
+r: Preface of Advent
+
+use:collect:advent2:
+r: Preface of Advent
+
+pb:599
+
+use:collect:advent3:
+r: Preface of Advent
+r: Wednesday, Friday, and Saturday of this week are the traditional winter Ember Days.
+
+use:collect:advent4:
+r: Preface of Advent
+
+st:1: christmas
+use:collect:christmas_eve:
+r: Preface of Christmas
+
+pb:600
+use:collect:day:
+r: Preface of Christmas
+r: The Collect for Christmas Day and any of the sets of proper lessons for Christmas
+    Day serve for any weekdays between Holy Innocents’ Day and the First Sunday
+    of Christmas
+r: When Christmas Day falls on a Sunday, the next Sunday is the Second Sunday of
+    Christmas or The Circumcision and Holy Name of Our Lord Jesus Christ.
+
+use:collect:christmas1:
+r: Preface of Christmas
+
+use:collect:holy_name:
+r: Preface of the Presentation
+
+pb:601
+
+use:collect:christmas2:
+r: Preface of Christmas
+
+st:1: epiphany
+use:collect:the_epiphany:
+r: Preface of the Epiphany
+r: This Collect, with the psalm and lessons for the Epiphany, or those for the Second
+    Sunday after Christmas, serve for weekdays between the Epiphany and the
+    following Sunday.
+r: When the Epiphany falls on a Sunday, the following Sunday is the First Sunday of Epiphany.
+
+use:collect:epiphany1:
+r: Preface of the Epiphany
+
+pb:602
+use:collect:epiphany2:
+r: Preface of the Epiphany
+
+use:collect:epiphany3:
+r: Preface of the Epiphany
+
+use:collect:epiphany4:
+r: Preface of the Epiphany
+
+pb:603
+use:collect:presentation:
+r: Preface of the Presentation
+
+use:collect:epiphany5:
+r: Preface of the Lord’s Day, or of the Epiphany
+
+use:collect:epiphany6:
+r: Preface of the Lord’s Day, or of the Epiphany
+
+use:collect:epiphany7:
+r: Preface of the Lord’s Day, or of the Epiphany
+
+pb:604
+use:collect:epiphany8:
+r: Preface of the Lord’s Day, or of the Epiphany
+
+use:collect:epiphany_2nd_to_last:
+r: Preface of the Epiphany
+
+r: This Collect, with corresponding psalms and lessons, may be substituted for any
+    Sunday of Epiphany, except the First or the Last.
+
+use:collect:epiphany_last:
+r: Preface of the Epiphany or of the Transfiguration
+
+pb:605
+st:1: Lent
+use:collect:ash_wednesday:
+r: Preface of Lent
+
+r:This Collect, with the corresponding psalm and lessons, also serves for the
+    weekdays that follow, except as otherwise appointed.
+use:collect:lent1:
+r: Preface of Lent
+r: Wednesday, Friday, and Saturday of this week are the traditional spring Ember Days.
+
+use:collect:lent2:
+r: Preface of Lent
+
+pb:606
+use:collect:lent3:
+r: Preface of Lent
+
+use:collect:lent4:
+r: Preface of Lent
+
+use:collect:lent5:
+r: Preface of Lent
+
+pb:607
+st:1: Holy Week
+
+use:collect:pam_sunday:
+r: Preface of Holy Week
+
+use:collect:holy_week_monday:
+r: Preface of Holy Week
+
+use:collect:holy_week_tuesday:
+r: Preface of Holy Week
+
+pb:608
+use:collect:holy_week_wednesday:
+r: Preface of Holy Week
+
+use:collect:maundy_thursday:
+r: Preface of Maundy Thursday
+
+use:collect:good_friday:
+
+use:collect:holy_saturday1:
+
+pb:609
+r:or this
+use:collect:holy_saturday_2:
+
+st:1:easter
+use:collect:easter_eve:
+r: Preface of Easter
+
+use:collect:easter_day1:
+r: Preface of Easter
+r: or this
+
+pb:610
+use:collect:easterday2:
+r: Preface of Easter
+
+use:collect:easter_monday:
+r: Preface of Easter
+
+use:collect:easter_tuesday:
+r: Preface of Easter
+
+use:collect:easter_wednesday:
+r: Preface of Easter
+
+pb:611
+use:collect:easter_thursday:
+r: Preface of Easter
+
+use:collect:easter_friday:
+r: Preface of Easter
+
+use:collect:easter_saturday:
+r: Preface of Easter
+
+pb:612
+use:collect:easter2:
+r: Preface of Easter
+
+use:collect:easter3:
+r: Preface of Easter
+
+use:collect:easter4:
+r: Preface of Easter
+
+use:collect:easter5:
+r: Preface of Easter
+
+pb:613
+use:collect:easter6:
+r: Preface of Easter
+r: Monday, Tuesday, and Wednesday of this week are the traditional Rogation Days.
+
+use:collect:ascension:
+r: Preface of the Ascension
+r:The Collect for Ascension Day, with the corresponding psalm and lessons, also
+    serves for the Friday and Saturday following, except as otherwise appointed.
+
+use:collect:ascension_sunday:
+r: Preface of the Ascension
+
+pb:614
+use:collect:pentecost1:
+r: Preface of Pentecost
+
+r: or this
+use:collect:pentecost2:
+r: Preface of Pentecost
+r: The Wednesday, Friday, and Saturday of this week are the traditional summer Ember Days.
+
+st:1: the season after pentecost
+r: The Easter Season includes and ends with the Day of Pentecost. The First Sunday
+    after Pentecost is Trinity Sunday. All subsequent Sundays have numbered propers
+    and may be designated as “after Pentecost” or “after Trinity.” The Collects, lessons,
+    and prefaces for the Day of Pentecost and Trinity Sunday are not used on the
+    following weekdays. In their place, the dated propers for the week are used. There
+    is no seasonal preface for the numbered propers. Prefaces of the Lord’s Day are
+    used on Sundays. No preface is required on the weekdays of this season, except for
+    Holy Days or commemorations.
+
+pb:615
+use:collect:trinity:
+r: Preface of Trinity Sunday
+
+use:collect:proper1:
+use:collect:proper2:
+
+pb:616
+use:collect:proper3:
+use:collect:proper4:
+use:collect:proper5:
+use:collect:proper6:
+
+pb:617
+use:collect:proper7:
+use:collect:proper8:
+use:collect:proper9:
+use:collect:proper10:
+
+pb:618
+use:collect:proper11:
+use:collect:proper12:
+use:collect:proper13:
+use:collect:proper14:
+
+pb:619
+use:collect:proper15:
+use:collect:proper16:
+use:collect:proper17:
+use:collect:proper18:
+
+pb:620
+use:collect:proper19:
+use:collect:proper20:
+use:collect:proper21:
+use:collect:proper22:
+
+pb:621
+use:collect:proper23:
+use:collect:proper24:
+use:collect:proper25:
+
+pb:622
+use:collect:all_saints:
+r: Preface of All Saints'
+use:collect:proper26:
+use:collect:proper27:
+use:collect:proper28:
+
+pb:623
+use:collect:proper29:
+r: Preface of Christ the King
+
+pb:624
+st:1: holy days
+
+use:collect:st_andrew:
+r: Preface of Apostles
+
+use:collect:st_thomas:
+r: Preface of Apostles
+
+use:collect:st_stephen:
+r: Preface of Christmas
+
+pb:625
+use:collect:st_john_evangelist:
+r: Preface of Christmas
+
+use:collect:holy_innocents:
+r: Preface of Christmas
+
+use:collect:holy_name:
+r: Preface of the Presentation
+
+pb:626
+use:collect:confession_of_peter:
+r: Preface of Apostles
+
+use:collect:conversion_of_paul:
+r: Preface of Apostles
+
+use:collect:presentation:
+r: Preface of the Presentation
+
+pb:627
+use:collect:st_matthias:
+r: Preface of Apostles
+
+use:collect:st_joseph:
+r: Preface of the Presentation
+
+use:collect:annunciation:
+r: Preface of the Annunciation
+
+pb:628
+use:collect:st_mark:
+r: Preface of All Saints’
+
+use:collect:sts_philip_and_james:
+r: Preface of Apostles
+
+use:collect:visitation:
+r: Preface of the Presentation
+
+pb:629
+use:collect:st_barnabas:
+r: Preface of Apostles
+
+use:collect:nativity_of_john_the_baptist:
+r: Preface of Advent
+
+use:collect:sts_peter_and_paul:
+r: Preface of Apostles
+
+pb:630
+use:collect:magdalene:
+r: Preface of Apostles
+
+use:collect:st_james:
+r: Preface of Apostles
+
+use:collect:transiguration:
+r: Preface of the Transfiguration
+
+pb:631
+use:collect:bvm:
+r: Preface of Christmas
+
+use:collect:st_bartholomew:
+r: Preface of Apostles
+
+use:collect:holy_cross:
+r: Preface of Holy Week
+
+pb:632
+use:collect:st_matthew:
+r: Preface of Apostles
+
+use:collect:all_angels:
+r: Preface of Trinity Sunday
+
+use:collect:st_luke:
+r: Preface of All Saints’
+
+pb:633
+use:collect:st_james_of_jerusalem:
+r: Preface of Apostles
+
+use:collect:sts_simon_and_jude:
+r: Preface of Apostles
+
+use:collect:all_saints:
+r: Preface of All Saints’
+
+pb:634
+st:1:ember days
+st: _The Ministry of the Church_
+r: For use on the traditional days or at other times
+
+use:collect:ember_days1:
+r: Preface of Apostles
+
+r: or this
+use:collect:ember_days2:
+r: Preface of Apostles
+
+pb:635
+st:1:rogation days
+st: _Agriculture and Industry_
+use:rogation_days1:
+r: Preface of the Season
+
+r: or this
+use:collect:rogation_days2:
+r: Preface of the Season
+
+pb:636
+st:1:national days
+
+use:collect:memorial_day:
+r: Preface of Burial
+
+use:canada_day:
+r: Preface of Trinity Sunday
+
+use:collect:independence_day:
+r: Preface of Trinity Sunday
+
+pb:637
+use:collect:thanksgiving_day:
+r: Preface of Trinity Sunday
+
+st:1: common of commemorations
+r: The festival of a saint is observed in accordance with the rules of precedence set
+    forth in the Calendar of the Church Year. At the discretion of the Celebrant, and
+    as appropriate, any of the following Collects, with one of the corresponding sets of
+    psalms and lessons, may be used (a) at the commemoration of a saint listed in the
+    Calendar for which no propers are provided in this Book, or (b) at the Feast of
+    Dedication or commemoration of a saint not listed in the Calendar.
+
+use:collect:martyr:
+r: Preface of a Martyr
+
+pb:638
+use:collect:evangelist:
+r: Preface of a Missionary or Evangelist
+
+use:collect:pastor:
+r: Preface of a Pastor
+
+use:collect:teacher:
+r: Preface of a Teacher of the Faith
+
+pb:639
+use:collect:monastic:
+r: Preface of a Monastic or Religious
+
+use:collect:ecumenist:
+r: Preface of an Ecumenist
+
+use:collect:reformer:
+r: Preface of a Reformer of the Church
+
+pb:640
+use:collect:renewer:
+r: Preface of a Renewer of Society
+
+use:collect:any_commereration1:
+r: Preface of Any Commemoration
+
+r: or this
+use:collect:any_commereration2:
+r: Preface of Any Commemoration

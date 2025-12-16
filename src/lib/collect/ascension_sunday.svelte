@@ -1,0 +1,12 @@
+<script>
+	import SectionTitle from '$lib/page_helpers/section_title.svelte';
+	import TextBlock from '$lib/page_helpers/text_block.svelte';
+</script>
+
+<SectionTitle>the sunday after the ascension</SectionTitle>
+<TextBlock>
+	O God, the King of glory, you have exalted your only Son Jesus Christ with great triumph to your
+	kingdom in heaven: Do not leave us comfortless, but send us your Holy Spirit to strengthen us, and
+	exalt us to that place where our Savior Christ has gone before; who lives and reigns with you and
+	the Holy Spirit, one God, in glory everlasting. **Amen.**</TextBlock
+>

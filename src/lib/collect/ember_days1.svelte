@@ -1,0 +1,12 @@
+<script>
+	import TextBlock from '$lib/page_helpers/text_block.svelte';
+</script>
+
+<TextBlock
+	>Almighty God, the giver of all good gifts, in your divine providence you have appointed various
+	orders in your Church: Give your grace, we humbly pray, to all who are [now] called to any office
+	and ministry for your people; and so fill them with the truth of your doctrine and clothe them
+	with holiness of life, that they may faithfully serve before you, to the glory of your great Name
+	and for the benefit of your holy Church; through Jesus Christ our Lord, who lives and reigns with
+	you, in the unity of the Holy Spirit, one God, now and for ever. **Amen.**</TextBlock
+>

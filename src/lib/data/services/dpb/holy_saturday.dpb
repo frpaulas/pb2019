@@ -1,0 +1,66 @@
+pg:578-580
+pb:578
+
+st:1: holy saturday
+r: There is no celebration of the Eucharist on this day.
+r: The Officiant says
+v:Let us pray.
+
+tb: O God, Creator of heaven and earth: Grant that, as the
+    crucified body of your dear Son was laid in the tomb and rested
+    on this holy Sabbath, so we may await with him the coming
+    of the third day, and rise with him to newness of life; through
+    Jesus Christ our Lord. **Amen.**
+
+r: or this
+
+tb: O God of the living, on this day your Son our Savior descended
+    to the place of the dead: Look with kindness on all of us who
+    wait in hope for liberation from the corruption of sin and death,
+    and give us a share in the glory of the children of God; through
+    Jesus Christ your Son our Lord. **Amen.**
+
+pb:579
+st: the lessons
+l: {{u}}job{{\u}} 14:1-14
+l: {{u}}psalm{{\u}} 130 _or_ 88 _or_ 31:1-6 v
+l: {{u}}1 peter{{\u}} 4:1-8
+l: {{u}}matthew{{\u}} 27:57-66 _or_ {{u}}john 19:38-42{{\u}}
+
+r: After the Gospel, a homily may follow.
+r: The following is then sung or said.
+st: the anthem
+
+l:b: Man born of woman has but a short time to live,
+l:b: and is full of misery.
+l:b: He springs up, and is cut down like a flower;
+l:b: he flees like a shadow,
+l:b: and never continues the same.
+br:
+l:b: In the midst of life we are in death:
+l:b: of whom do we seek strength,
+l:b: but you, O Lord,
+l:b: who for our sins are justly displeased?
+br:
+l:b: Yet, O Lord God most holy,
+l:b: O Lord most mighty,
+l:b: O holy and most merciful Savior,
+l:b: deliver us not into the pains of eternal death.
+br:
+l:b: You know, O Lord, the secrets of our hearts;
+l:b: shut not your ears to our prayer;
+l:b: but spare us, Lord most holy,
+l:b: O God most mighty,
+l:b: O holy and merciful Savior,
+l:b: most worthy Judge eternal,
+l:b: do not let us, in this our final hour,
+l:b: through the pain of death, fall away from you.
+
+pb:580
+r: The Officiant and People together pray the Lord’s Prayer. The concluding doxology
+    is customarily omitted.
+use:prayer:lords_prayer_nodox:
+
+r: The Officiant concludes
+
+scripture:2 corinthians 13:14 t::The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore. **Amen.**

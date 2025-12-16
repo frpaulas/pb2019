@@ -1,0 +1,13 @@
+<script>
+	import SectionTitle from '$lib/page_helpers/section_title.svelte';
+	import TextBlock from '$lib/page_helpers/text_block.svelte';
+</script>
+
+<SectionTitle>the second sunday in lent</SectionTitle>
+<TextBlock
+	>Almighty God, you know that we have no power in ourselves to help ourselves: Keep us both
+	outwardly in our bodies and inwardly in our souls, that we may be defended from all adversities
+	that may happen to the body, and from all evil thoughts that may assault and hurt the soul;
+	through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for
+	ever and ever. **Amen.**</TextBlock
+>

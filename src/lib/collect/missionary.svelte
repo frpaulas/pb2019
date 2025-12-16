@@ -1,0 +1,12 @@
+<script>
+	import SectionTitle from '$lib/page_helpers/section_title.svelte';
+	import TextBlock from '$lib/page_helpers/text_block.svelte';
+</script>
+
+<SectionTitle>of a missionary or evangelist</SectionTitle>
+<TextBlock>
+	Almighty and everlasting God, you called your servant N. to preach the Gospel to the people of
+	_________ [or to the __________ people]: Raise up in this and every land evangelists and heralds
+	of your kingdom, that your Church may proclaim the unsearchable riches of our Savior Jesus Christ;
+	who lives and reigns with you and the Holy Spirit, one God, now and for ever. **Amen.**
+</TextBlock>

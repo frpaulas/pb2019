@@ -1,0 +1,12 @@
+<script>
+	import SectionTitle from '$lib/page_helpers/section_title.svelte';
+	import TextBlock from '$lib/page_helpers/text_block.svelte';
+</script>
+
+<SectionTitle>wednesday of holy week</SectionTitle>
+<TextBlock
+	>Assist us mercifully with your grace, Lord God of our salvation, that we may enter with joy upon
+	the meditation of those mighty acts by which you have promised us life and immortality; through
+	Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and
+	ever. **Amen.**</TextBlock
+>

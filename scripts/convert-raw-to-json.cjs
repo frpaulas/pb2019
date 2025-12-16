@@ -692,6 +692,62 @@ class RawToJsonConverter {
 			};
 		}
 
+		// Handle collect: use:collect:advent1
+		// Format: use:collect:name
+		if (componentName === 'collect' || componentName === 'collects') {
+			const collectName = parts[2];
+
+			if (!collectName) {
+				console.warn('Warning: use:collect: requires collect name');
+				return null;
+			}
+
+			return {
+				type: 'collect',
+				name: collectName
+			};
+		}
+
+		// Handle occasional_prayer: use:occasional_prayer:1
+		// Format: use:occasional_prayer:number
+		if (componentName === 'occasional_prayer') {
+			const prayerNumber = parts[2];
+
+			if (!prayerNumber) {
+				console.warn('Warning: use:occasional_prayer: requires prayer number');
+				return null;
+			}
+
+			return {
+				type: 'occasional_prayer',
+				name: prayerNumber
+			};
+		}
+
+		// Handle calendar: use:calendar:january
+		// Format: use:calendar:month - but we'll ignore the month and show current/next
+		if (componentName === 'calendar') {
+			const monthName = parts[2];
+
+			if (!monthName) {
+				console.warn('Warning: use:calendar: requires month name');
+				return null;
+			}
+
+			return {
+				type: 'calendar',
+				month: monthName
+			};
+		}
+
+		// Handle find_easter: use:find_easter
+		// Format: use:find_easter - interactive Easter date calculator
+		if (componentName === 'find_easter') {
+			return {
+				type: 'find_easter'
+			};
+		}
+
 		// Default: return component type
 		const item = {
 			type: componentName

@@ -30,6 +30,8 @@
 	import SignatureBlock from '$lib/page_helpers/signature_block.svelte';
 	import SectionPage from '$lib/page_helpers/section_page.svelte';
 	import ShowPsalm from '$lib/page_helpers/show_psalm.svelte';
+	import Calendar from '$lib/page_helpers/calendar.svelte';
+	import FindEaster from '$lib/page_helpers/find_easter.svelte';
 
 	// Import all canticles
 	import AgainstPerilsEp from '$lib/canticle/against_perils_ep.svelte';
@@ -75,6 +77,24 @@
 		resurrection_hope_ep: ResurrectionHopeEp,
 		surge_illuminare: SurgeIlluminare
 	};
+
+	// Dynamically import all collects
+	const collectModules = import.meta.glob('$lib/collect/*.svelte', { eager: true });
+	const collectMap = {};
+	for (const path in collectModules) {
+		const name = path.match(/\/([^/]+)\.svelte$/)[1];
+		collectMap[name] = collectModules[path].default;
+	}
+
+	// Dynamically import all occasional prayers
+	const occasionalPrayerModules = import.meta.glob('$lib/occasional_prayer/*.svelte', {
+		eager: true
+	});
+	const occasionalPrayerMap = {};
+	for (const path in occasionalPrayerModules) {
+		const name = path.match(/\/([^/]+)\.svelte$/)[1];
+		occasionalPrayerMap[name] = occasionalPrayerModules[path].default;
+	}
 
 	let { serviceData } = $props();
 </script>
@@ -181,6 +201,24 @@
 					{:else}
 						<p class="text-red-500">Unknown canticle: {block.name}</p>
 					{/if}
+				{:else if block.type === 'collect'}
+					{#if collectMap[block.name]}
+						{@const CollectComponent = collectMap[block.name]}
+						<CollectComponent />
+					{:else}
+						<p class="text-red-500">Unknown collect: {block.name}</p>
+					{/if}
+				{:else if block.type === 'occasional_prayer'}
+					{#if occasionalPrayerMap[block.name]}
+						{@const PrayerComponent = occasionalPrayerMap[block.name]}
+						<PrayerComponent />
+					{:else}
+						<p class="text-red-500">Unknown occasional prayer: {block.name}</p>
+					{/if}
+				{:else if block.type === 'calendar'}
+					<Calendar month={block.month} />
+				{:else if block.type === 'find_easter'}
+					<FindEaster />
 				{:else}
 					<!-- Fallback for unhandled types -->
 					<div class="text-sm text-amber-600 italic">

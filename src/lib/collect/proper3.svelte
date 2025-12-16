@@ -1,0 +1,13 @@
+<script>
+	import SectionTitle from '$lib/page_helpers/section_title.svelte';
+	import TextBlock from '$lib/page_helpers/text_block.svelte';
+</script>
+
+<SectionTitle>proper 3</SectionTitle>
+<SectionTitle>_Week of the Sunday from May 22 to May 28_</SectionTitle>
+<TextBlock>
+	O Lord, we entreat you mercifully to hear us, and grant that we, to whom you have given the desire
+	to pray, may by your mighty aid be defended and comforted in all our adversities; through Jesus
+	Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever.
+	**Amen.**</TextBlock
+>

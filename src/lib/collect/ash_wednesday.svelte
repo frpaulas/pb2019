@@ -1,0 +1,13 @@
+<script>
+	import SectionTitle from '$lib/page_helpers/section_title.svelte';
+	import TextBlock from '$lib/page_helpers/text_block.svelte';
+</script>
+
+<SectionTitle>ash wednesday</SectionTitle>
+<TextBlock
+	>Almighty and everlasting God, you hate nothing you have made, and you forgive the sins of all who
+	are penitent: Create and make in us new and contrite hearts, that we, worthily lamenting our sins
+	and acknowledging our wretchedness, may obtain of you, the God of all mercy, perfect remission and
+	forgiveness; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one
+	God, for ever and ever. **Amen.**</TextBlock
+>
