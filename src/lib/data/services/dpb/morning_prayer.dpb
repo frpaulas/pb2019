@@ -2,7 +2,8 @@ pg: 11-32
 tp: Daily Morning Prayer
 
 st:1: daily morning prayer
-r: The Officiant may begin Morning Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office (pages 27-29), is customary.
+r: The Officiant may begin Morning Prayer by reading an opening sentence of Scripture.
+    One of the following, or a sentence from among those provided at the end of the Office (pages 27-29), is customary.
 scripture:philippians 1:2:: Grace to you and peace from God our Father and the Lord Jesus Christ."
 r: or this
 scripture:psalm 122:1:: I was glad when they said unto me, "We will go into the house of the Lord."
@@ -21,7 +22,8 @@ v:officiant: Praise the Lord.
 v:people: The Lord's Name be praised.
 pb:14
 r: Then follows the Venite. Alternatively, the Jubilate may be used.
-r: One of these antiphons, or one from the seasonal antiphons provided at the end of the Office (pages 29-30), may be sung or said before and after the Invitatory Psalm. antiphon:
+r: One of these antiphons, or one from the seasonal antiphons provided
+    at the end of the Office (pages 29-30), may be sung or said before and after the Invitatory Psalm. antiphon:
 l:The earth is the Lord’s for he made it: *
 l:i:b: O come, let us adore him.
 r:or this
@@ -34,7 +36,8 @@ use:canticle:venite:
 
 r: or this
 use:cantical:jubilate:
-r: During the first week of Easter, the Pascha Nostrum, without antiphons, is used in place of the Invitatory Psalm, and it may be used throughout Eastertide.
+r: During the first week of Easter, the Pascha Nostrum, without antiphons,
+    is used in place of the Invitatory Psalm, and it may be used throughout Eastertide.
 
 pb:16
 use:canticle:pacha_nostrum:
@@ -52,8 +55,8 @@ v:people: Thanks be to God.
 r: Or the Reader may say
 v:Here ends the Reading.
 r: The following Canticles are normally sung or said after each of the lessons.
-The Officiant may also use a Canticle drawn from the Supplemental Canticles (pages 79-88)
-or an appropriate song of praise.
+    The Officiant may also use a Canticle drawn from the Supplemental Canticles (pages 79-88)
+    or an appropriate song of praise.
 use:canticle:te_deum_laudamus:
 pb:18
 r: During Lent the Benedictus es, Domine usually replaces the Te Deum, and it may be used at other times.
@@ -89,42 +92,73 @@ v:people: Nor the hope of the poor be taken away.
 v:officiant: Create in us clean hearts, O God;
 v:people: And take not your Holy Spirit from us.
 r: The Officiant then prays one or more of the following Collects, always beginning with the
-Collect of the Day (usually the Collect of the Sunday or Principal Feast
-and of any of the weekdays following, or of the Holy Day being observed),
-found on pages 598-640.
-It is traditional to pray the Collects for Peace and Grace daily.
-Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics.
+    Collect of the Day (usually the Collect of the Sunday or Principal Feast
+    and of any of the weekdays following, or of the Holy Day being observed),
+    found on pages 598-640.
+    It is traditional to pray the Collects for Peace and Grace daily.
+    Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics.
 
 st: the collect of the day
 st:lc: _From the Collects of the Christian Year_
 st: a collect for strength to await christ's return
 st:lc: _Sunday_
-tb: O God our King, by the resurrection of your Son Jesus Christ on the first day of the week, you conquered sin, put death to flight, and gave us the hope of everlasting life: Redeem all our days by this victory; forgive our sins, banish our fears, make us bold to praise you and to do your will; and steel us to wait for the consummation of your kingdom on the last great Day; through Jesus Christ our Lord.
+tb: O God our King, by the resurrection of your Son Jesus Christ on the first day of the week,
+    you conquered sin, put death to flight, and gave us the hope of everlasting life:
+    Redeem all our days by this victory; forgive our sins, banish our fears, make us bold
+    to praise you and to do your will; and steel us to wait for the consummation of your
+    kingdom on the last great Day; through Jesus Christ our Lord.
 st: a collect for the renewal of life
 st:lc: _Monday_
-tb: O God, the King eternal, whose light divides the day from the night and turns the shadow of death into the morning: Drive far from us all wrong desires, incline our hearts to keep your law, and guide our feet into the way of peace; that, having done your will with cheerfulness during the day, we may, when night comes, rejoice to give you thanks; through Jesus Christ our Lord.
+tb: O God, the King eternal, whose light divides the day from the night and turns the
+    shadow of death into the morning: Drive far from us all wrong desires,
+    incline our hearts to keep your law, and guide our feet into the way of peace;
+    that, having done your will with cheerfulness during the day, we may, when night comes,
+    rejoice to give you thanks; through Jesus Christ our Lord.
 st: a collect for peace
 st:lc: _Tuesday_
-tb: O God, the author of peace and lover of concord, to know you is eternal life and to serve you is perfect freedom: Defend us, your humble servants, in all assaults of our enemies; that we, surely trusting in your defense, may not fear the power of any adversaries, through the might of Jesus Christ our Lord.
+tb: O God, the author of peace and lover of concord, to know you is eternal life and
+    to serve you is perfect freedom: Defend us, your humble servants, in all assaults
+    of our enemies; that we, surely trusting in your defense, may not fear the power of
+    any adversaries, through the might of Jesus Christ our Lord.
 st: a collect for grace
 st:lc: _Wednesday_
-tb: O Lord, our heavenly Father, almighty and everlasting God, you have brought us safely to the beginning of this day: Defend us by your mighty power, that we may not fall into sin nor run into any danger; and that, guided by your Spirit, we may do what is righteous in your sight; through Jesus Christ our Lord.
+tb: O Lord, our heavenly Father, almighty and everlasting God, you have brought us
+    safely to the beginning of this day: Defend us by your mighty power,
+    that we may not fall into sin nor run into any danger; and that, guided by your Spirit,
+    we may do what is righteous in your sight; through Jesus Christ our Lord.
 st: a collect for guidance
 st:lc: _Thursday_
-tb: Heavenly Father, in you we live and move and have our being: We humbly pray you so to guide and govern us by your Holy Spirit, that in all the cares and occupations of our life we may not forget you, but may remember that we are ever walking in your sight; through Jesus Christ our Lord.
+tb: Heavenly Father, in you we live and move and have our being: We humbly pray you
+    so to guide and govern us by your Holy Spirit, that in all the cares and occupations
+    of our life we may not forget you, but may remember that we are ever walking in your sight;
+    through Jesus Christ our Lord.
 st: a collect for endurance
 st:lc: _Friday_
-tb: Almighty God, whose most dear Son went not up to joy but first he suffered pain, and entered not into glory before he was crucified: Mercifully grant that we, walking in the way of the Cross, may find it none other than the way of life and peace; through Jesus Christ your Son our Lord.
+tb: Almighty God, whose most dear Son went not up to joy but first he suffered pain,
+    and entered not into glory before he was crucified: Mercifully grant that we, walking
+    in the way of the Cross, may find it none other than the way of life and peace;
+    through Jesus Christ your Son our Lord.
 st: a collect for sabbath rest
 st:lc: _Saturday_
-tb: Almighty God, who after the creation of the world rested from all your works and sanctified a day of rest for all your creatures: Grant that we, putting away all earthly anxieties, may be duly prepared for the service of your sanctuary, and that our rest here upon earth may be a preparation for the eternal rest promised to your people in heaven; through Jesus Christ our Lord.
-r: Unless the Great Litany or the Eucharist is to follow, one of the following prayers for mission is added. If the Great Litany is used, it follows here, or after a hymn or anthem, and concludes the Office.
+tb: Almighty God, who after the creation of the world rested from all your works and
+    sanctified a day of rest for all your creatures: Grant that we, putting away all
+    earthly anxieties, may be duly prepared for the service of your sanctuary,
+    and that our rest here upon earth may be a preparation for the eternal rest promised to
+    your people in heaven; through Jesus Christ our Lord.
+r: Unless the Great Litany or the Eucharist is to follow, one of the following prayers
+    for mission is added. If the Great Litany is used, it follows here, or after a hymn or anthem, and concludes the Office.
 st: prayer for mission
 tb: Almighty and everlasting God, who alone works great marvels: Send down upon our clergy and the congregations committed to their charge the life-giving Spirit of your grace, shower them with the continual dew of your blessing, and ignite in them a zealous love of your Gospel; through Jesus Christ our Lord.
 r: or this
-tb: O God, you have made of one blood all the peoples of the earth, and sent your blessed Son to preach peace to those who are far off and to those who are near: Grant that people everywhere may seek after you and find you; bring the nations into your fold; pour out your Spirit upon all flesh; and hasten the coming of your kingdom; through Jesus Christ our Lord.
+tb: O God, you have made of one blood all the peoples of the earth, and sent your blessed Son
+    to preach peace to those who are far off and to those who are near: Grant that people
+    everywhere may seek after you and find you; bring the nations into your fold; pour out your
+    Spirit upon all flesh; and hasten the coming of your kingdom; through Jesus Christ our Lord.
 r: or this
-tb: Lord Jesus Christ, you stretched out your arms of love on the hard wood of the Cross that everyone might come within the reach of your saving embrace: So clothe us in your Spirit that we, reaching forth our hands in love, may bring those who do not know you to the knowledge and love of you; for the honor of your Name.
+tb: Lord Jesus Christ, you stretched out your arms of love on the hard wood of the Cross
+    that everyone might come within the reach of your saving embrace: So clothe us in your
+    Spirit that we, reaching forth our hands in love, may bring those who do not know you
+    to the knowledge and love of you; for the honor of your Name.
 r: The Officiant may invite the People to offer intercessions and thanksgivings.
 r: A hymn or anthem may be sung.
 r: Before the close of the Office one or both of the following prayers may be used.
@@ -199,9 +233,12 @@ l: The Lord is glorious in his saints: *
 l:b:i: O come, let us adore him.
 st: additional directions
 tb: The Confession and Apostles' Creed may be omitted, provided each is said at least once during the course of the day.
-tb: The Gloria Patri (Glory be...) in the opening versicles may be said in unison. The following form of the Gloria Patri may alternatively be used:
+tb: The Gloria Patri (Glory be...) in the opening versicles may be said in unison.
+    The following form of the Gloria Patri may alternatively be used:
 l:b:Glory to the Father, and to the Son, and to the Holy Spirit:
 l:b:i: As it was in the beginning, is now, and will be for ever. Amen.
-tb: The Officiant and People may join in saying "Alleluia" (except in Lent) as an alternative to the versicles "Praise the Lord. The Lord's Name be praised.
+tb: The Officiant and People may join in saying "Alleluia" (except in Lent) as an
+    alternative to the versicles "Praise the Lord. The Lord's Name be praised."
 tb: If an offering is to be received, it is appropriate to do so during the hymn or anthem following the Collects.
-tb: A sermon may be preached after the lessons, after the hymn or anthem following the Collects, or after the conclusion of the Office.
+tb: A sermon may be preached after the lessons, after the hymn or anthem
+    following the Collects, or after the conclusion of the Office.

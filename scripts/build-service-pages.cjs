@@ -15,7 +15,7 @@ const OUTPUT_FILE = path.join(__dirname, '../src/lib/data/service_pages.json');
 console.log('📖 Building service_pages.json from service files...\n');
 
 // Read all service JSON files
-const serviceFiles = fs.readdirSync(SERVICES_DIR).filter(file => file.endsWith('.json'));
+const serviceFiles = fs.readdirSync(SERVICES_DIR).filter((file) => file.endsWith('.json'));
 
 console.log(`Found ${serviceFiles.length} service files`);
 
@@ -35,10 +35,10 @@ for (const filename of serviceFiles) {
 		let currentPageContent = [];
 
 		for (const block of section.content || []) {
-			// Check if this is a page break
-			if (block.type === 'page_break') {
+			// Check if this is a page break or blank page
+			if (block.type === 'page_break' || block.type === 'blank_page') {
 				// Save previous page if exists
-				if (currentPage && currentPageContent.length > 0) {
+				if (currentPage !== null && currentPageContent.length > 0) {
 					if (!servicePages[currentPage]) {
 						servicePages[currentPage] = {
 							pageNumber: currentPage,
@@ -52,16 +52,21 @@ for (const filename of serviceFiles) {
 				// Start new page
 				currentPage = block.page;
 				currentPageContent = [];
+
+				// For blank pages, add the blank_page block as content
+				if (block.type === 'blank_page') {
+					currentPageContent.push(block);
+				}
 			} else {
 				// Add content to current page
-				if (currentPage) {
+				if (currentPage !== null) {
 					currentPageContent.push(block);
 				}
 			}
 		}
 
 		// Save last page
-		if (currentPage && currentPageContent.length > 0) {
+		if (currentPage !== null && currentPageContent.length > 0) {
 			if (!servicePages[currentPage]) {
 				servicePages[currentPage] = {
 					pageNumber: currentPage,

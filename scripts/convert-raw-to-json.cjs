@@ -243,6 +243,7 @@ class RawToJsonConverter {
 							'ref+',
 							'v',
 							'pb',
+							'blank',
 							'l',
 							'button',
 							'bt',
@@ -315,6 +316,9 @@ class RawToJsonConverter {
 			case 'pb':
 				return this.handlePageBreak(content);
 
+			case 'blank':
+				return this.handleBlankPage(content);
+
 			case 'br':
 				return this.handleLineBreak();
 
@@ -341,11 +345,22 @@ class RawToJsonConverter {
 
 	handlePageRange(content) {
 		// Parse page range like "161-170" or single page "160"
+		// Support negative numbers for roman numerals: "-10--8" or "-5"
 		const trimmed = content.trim();
-		if (trimmed.includes('-')) {
+
+		// Handle negative number ranges (e.g., "-10--8" for roman numeral pages)
+		if (trimmed.startsWith('-') && trimmed.includes('--')) {
+			// Format: -10--8
+			const parts = trimmed.split('--');
+			const start = parseInt(parts[0]); // Already includes the negative sign
+			const end = -parseInt(parts[1]); // Add negative sign
+			this.metadata.pb_pages = [start, end];
+		} else if (trimmed.includes('-') && !trimmed.startsWith('-')) {
+			// Regular positive range: 161-170
 			const [start, end] = trimmed.split('-').map((n) => parseInt(n.trim()));
 			this.metadata.pb_pages = [start, end];
 		} else {
+			// Single page (positive or negative)
 			const page = parseInt(trimmed);
 			this.metadata.pb_pages = [page];
 		}
@@ -813,6 +828,15 @@ class RawToJsonConverter {
 		this.pageBreaks.push(page);
 		return {
 			type: 'page_break',
+			page: page
+		};
+	}
+
+	handleBlankPage(content) {
+		const page = parseInt(content.trim());
+		this.pageBreaks.push(page);
+		return {
+			type: 'blank_page',
 			page: page
 		};
 	}

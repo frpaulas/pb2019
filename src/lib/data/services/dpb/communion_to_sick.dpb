@@ -3,23 +3,23 @@ pb:227
 
 st:1: communion of the sick
 r: This rite is used when the consecrated elements are brought from an earlier
-celebration of Holy Communion.
+    celebration of Holy Communion.
 r: The Minister says
 scripture:philippians 1:2:: Grace to you and peace from God our Father and the Lord Jesus Christ.
 
 r: The Minister continues
 tb: Almighty God, to you all hearts are open, all desires known, and
-from you no secrets are hid: Cleanse the thoughts of our hearts
-by the inspiration of your Holy Spirit, that we may perfectly
-love you, and worthily magnify your holy Name; through Christ
-our Lord. **Amen.**
+    from you no secrets are hid: Cleanse the thoughts of our hearts
+    by the inspiration of your Holy Spirit, that we may perfectly
+    love you, and worthily magnify your holy Name; through Christ
+    our Lord. **Amen.**
 r: A psalm may be prayed. Psalms 23, 62, 103, and 145 are particularly appropriate.
 button::Psalm 23
 button::Psalm 62
 button::Psalm 103
 button::psalm 145
 r: One of the following Gospel lessons is read, or the readings appropriate to the day.
-scripture:john 3:16 t::God so loved the world, that he gave his only-begotten Son, that whoever believes in him should not perish but have eternal life.
+    scripture:john 3:16 t::God so loved the world, that he gave his only-begotten Son, that whoever believes in him should not perish but have eternal life.
 
 pb:228
 l: Jesus said, “I am the living bread that came down from
@@ -36,15 +36,15 @@ use:prayer:confession_communion:
 
 r: A Priest, if present, says
 tb: Almighty God, our heavenly Father, who in his great mercy has
-promised forgiveness of sins to all those who sincerely repent and with
-true faith turn to him, have mercy upon you, pardon and deliver you
-from all your sins, confirm and strengthen you in all goodness, and
-bring you to everlasting life; through Jesus Christ our Lord. **Amen.**
+    promised forgiveness of sins to all those who sincerely repent and with
+    true faith turn to him, have mercy upon you, pardon and deliver you
+    from all your sins, confirm and strengthen you in all goodness, and
+    bring you to everlasting life; through Jesus Christ our Lord. **Amen.**
 
 r: A Deacon or lay person prays
 tb: Grant to your faithful people, merciful Lord, pardon and peace;
-that we may be cleansed from all our sins, and serve you with a
-quiet mind; through Jesus Christ our Lord. **Amen.**
+    that we may be cleansed from all our sins, and serve you with a
+    quiet mind; through Jesus Christ our Lord. **Amen.**
 
 pb:229
 v:minister: The peace of the Lord be always with you.
@@ -63,24 +63,24 @@ l: Lamb of God, you take away the sin of the world;
 l:i:b: grant us your peace.
 r: The minister may say
 tb: The Gifts of God for the People of God. Take them in
-remembrance that Christ died for you, and feed on him in your
-hearts by faith, with thanksgiving.
+    remembrance that Christ died for you, and feed on him in your
+    hearts by faith, with thanksgiving.
 
 pb:230
 r:The Sacrament is then distributed with the following words
 tb: The Body of our Lord Jesus Christ, which was given for you,
-preserve your body and soul to everlasting life.
+    preserve your body and soul to everlasting life.
 tb: The Blood of our Lord Jesus Christ, which was shed for you,
-preserve your body and soul to everlasting life.
+    preserve your body and soul to everlasting life.
 r: After Communion, the Minister says
 use:prayer:post_communion_standard:
 
 r: A Priest gives this blessing
 tb: The peace of God which passes all understanding keep your
-hearts and minds in the knowledge and love of God, and of his
-Son Jesus Christ our Lord; and the blessing of God Almighty,
-the Father, the Son, and the Holy Spirit, be among you, and
-remain with you always. **Amen.**
+    hearts and minds in the knowledge and love of God, and of his
+    Son Jesus Christ our Lord; and the blessing of God Almighty,
+    the Father, the Son, and the Holy Spirit, be among you, and
+    remain with you always. **Amen.**
 
 pb:231
 r: A Deacon or lay person says the following

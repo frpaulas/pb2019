@@ -2,7 +2,9 @@ pg: 41-56
 tp: Daily Evening Prayer
 
 st:2: daily evening prayer
-r: The Officiant may begin Evening Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office (pages 54-56), is customary.
+r: The Officiant may begin Evening Prayer by reading an opening sentence of Scripture.
+    One of the following, or a sentence from among those provided at the end of the Office
+    (pages 54-56), is customary.
 scripture:john 8:12:: Jesus spoke to them, saying, "I am the light of the world. Whoever follows me will not walk in darkness, but will have the light of life."
 r: or this
 scripture:psalm 26:8:: Lord, I have loved the habitation of your house and the place where your honor dwells.
@@ -40,7 +42,9 @@ v:people: Thanks be to God.
 pb:45
 r: Or the Reader may say
 v: Here ends the Reading.
-r: The following Canticles are normally sung or said after each of the lessons. The Officiant may also use a Canticle drawn from the Supplemental Canticles (pages 79-88) or an appropriate song of praise.
+r: The following Canticles are normally sung or said after each of the lessons.
+    The Officiant may also use a Canticle drawn from the Supplemental Canticles
+    (pages 79-88) or an appropriate song of praise.
 use:canticle:magnificat:
 pb:46
 use:canticle:nunc_dimittis:
@@ -89,47 +93,70 @@ l:i: one another and all our life to Christ,
 l:b:i: We entreat you, O Lord.
 
 pb:49
-r: The Officiant then prays one or more of the following Collects, always beginning with the Collect of the Day (usually the Collect of the Sunday or Principal Feast and of any of the weekdays following, or of the Holy Day being observed) found on pages 598-640. It is traditional to pray the Collects for Peace and Aid against Perils daily. Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics.
+r: The Officiant then prays one or more of the following Collects, always beginning with
+    the Collect of the Day (usually the Collect of the Sunday or Principal Feast and
+    of any of the weekdays following, or of the Holy Day being observed) found on pages 598-640.
+    It is traditional to pray the Collects for Peace and Aid against Perils daily.
+    Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics.
 st: the collect of the day
 st:lc: _From the Collects of the Christian Year_
 st: a collect for resurrection hope
 st:lc: _Sunday_
-tb: Lord God, whose Son our Savior Jesus Christ triumphed over the powers of death and prepared for us our place in the new Jerusalem: Grant that we, who have this day given thanks for his resurrection, may praise you in that City of which he is the light, and where he lives and reigns for ever and ever.
+tb: Lord God, whose Son our Savior Jesus Christ triumphed over the powers of death and prepared
+    for us our place in the new Jerusalem: Grant that we, who have this day given thanks for
+    his resurrection, may praise you in that City of which he is the light, and where he lives
+    and reigns for ever and ever.
 st: a collect for peace
 st:lc: _Monday_
-tb: O God, the source of all holy desires, all good counsels, and all just works: Give to your servants that peace which the world cannot give, that our hearts may be set to obey your commandments, and that we, being defended from the fear of our enemies, may pass our time in rest and quietness; through the merits of Jesus Christ our Savior.
+tb: O God, the source of all holy desires, all good counsels, and all just works:
+    Give to your servants that peace which the world cannot give, that our hearts
+    may be set to obey your commandments, and that we, being defended from the fear
+    of our enemies, may pass our time in rest and quietness; through the merits of Jesus Christ our Savior.
 st: a collect for aid against perils
 st:lc: _Tuesday_
-tb: Lighten our darkness, we beseech you, O Lord; and by your great mercy defend us from all perils and dangers of this night; for the love of your only Son, our Savior Jesus Christ.
+tb: Lighten our darkness, we beseech you, O Lord; and by your great mercy defend us
+    from all perils and dangers of this night; for the love of your only Son, our Savior Jesus Christ.
 
 pb:50
 st: a collect for protection
 st:lc: _Wednesday_
-tb: O God, the life of all who live, the light of the faithful, the strength of those who labor, and the repose of the dead: We thank you for the blessings of the day that is past, and humbly ask for your protection through the coming night. Bring us in safety to the morning hours; through him who died and rose again for us, your Son our Savior Jesus Christ.
+tb: O God, the life of all who live, the light of the faithful, the strength of those
+    who labor, and the repose of the dead: We thank you for the blessings of the day
+    that is past, and humbly ask for your protection through the coming night.
+    Bring us in safety to the morning hours; through him who died and rose again for us,
+    your Son our Savior Jesus Christ.
 st: a collect for the presence of christ
 st:lc: _Thursday_
-tb: Lord Jesus, stay with us, for evening is at hand and the day is past; be our companion in the way, kindle our hearts, and awaken hope, that we may know you as you are revealed in Scripture and the breaking of bread. Grant this for the sake of your love.
+tb: Lord Jesus, stay with us, for evening is at hand and the day is past;
+    be our companion in the way, kindle our hearts, and awaken hope, that
+    we may know you as you are revealed in Scripture and the breaking of bread.
+    Grant this for the sake of your love.
 st: a collect for faith
 st:lc: _Friday_
-tb: Lord Jesus Christ, by your death you took away the sting of death: Grant to us your servants so to follow in faith where you have led the way, that we may at length fall asleep peacefully in you and wake up in your likeness; for your tender mercies' sake.
+tb: Lord Jesus Christ, by your death you took away the sting of death:
+    Grant to us your servants so to follow in faith where you have led the way,
+    that we may at length fall asleep peacefully in you and wake up in your likeness;
+    for your tender mercies' sake.
 st: a collect for the eve of worship
 st:lc: _Saturday_
-tb: O God, the source of eternal light: Shed forth your unending day upon us who watch for you, that our lips may praise you, our lives may bless you, and our worship on the morrow give you glory; through Jesus Christ our Lord.
+tb: O God, the source of eternal light: Shed forth your unending day upon us who
+    watch for you, that our lips may praise you, our lives may bless you, and our worship
+    on the morrow give you glory; through Jesus Christ our Lord.
 
 pb:51
 st: prayer for mission
 tb: O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you,
-all nations obey you, all tongues confess and bless you, and men, women, and children everywhere
-love you and serve you in peace; through Jesus Christ our Lord. **Amen.**
+    all nations obey you, all tongues confess and bless you, and men, women, and children everywhere
+    love you and serve you in peace; through Jesus Christ our Lord. **Amen.**
 r: or this
 tb: Keep watch, dear Lord, with those who work, or watch, or weep this night,
-and give your angels charge over those who sleep. Tend the sick, Lord Christ;
-give rest to the weary, bless the dying, soothe the suffering, pity the afflicted,
-shield the joyous; and all for your love's sake. **Amen.**
+    and give your angels charge over those who sleep. Tend the sick, Lord Christ;
+    give rest to the weary, bless the dying, soothe the suffering, pity the afflicted,
+    shield the joyous; and all for your love's sake. **Amen.**
 r: or this
 tb: O God, you manifest in your servants the signs of your presence:
-Send forth upon us the Spirit of love, that in companionship with one another your
-abounding grace may increase among us; through Jesus Christ our Lord. **Amen.**
+    Send forth upon us the Spirit of love, that in companionship with one another your
+    abounding grace may increase among us; through Jesus Christ our Lord. **Amen.**
 r: The Officiant may invite the People to offer intercessions and thanksgivings.
 r: A hymn or anthem may be sung.
 r: Before the close of the Office one or both of the following prayers may be used.
@@ -181,8 +208,11 @@ scripture:psalm 16:8-9:: I will thank the Lord for giving me counsel; my heart a
 
 st:1: additional directions
 tb: The Confession and Apostles' Creed may be omitted, provided each is said at least once during the course of the day.
-tb: The Gloria Patri (Glory be...) in the opening versicles may be said in unison. The following form of the Gloria Patri may alternatively be used:
+tb: The Gloria Patri (Glory be...) in the opening versicles may be said in unison.
+    The following form of the Gloria Patri may alternatively be used:
 use:gloria:
-tb: The Officiant and People may join in saying "Alleluia" (except in Lent) as an alternative to the versicles "Praise the Lord. The Lord's Name be praised."
+tb: The Officiant and People may join in saying "Alleluia" (except in Lent)
+    as an alternative to the versicles "Praise the Lord. The Lord's Name be praised."
 tb: If an offering is to be received, it is appropriate to do so during the hymn or anthem following the Collects.
-tb: A sermon may be preached after the lessons, after the hymn or anthem following the Collects, or after the conclusion of the Office.
+tb: A sermon may be preached after the lessons, after the hymn or anthem following
+    the Collects, or after the conclusion of the Office.

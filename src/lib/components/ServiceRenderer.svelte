@@ -176,6 +176,8 @@
 					<Silence />
 				{:else if block.type === 'line_break'}
 					<br />
+				{:else if block.type === 'blank_page'}
+					<IntentionallyBlank />
 				{:else if block.type === 'intentionally_blank'}
 					<IntentionallyBlank />
 				{:else if block.type === 'signature_block'}

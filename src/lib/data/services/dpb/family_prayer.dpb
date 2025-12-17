@@ -3,9 +3,15 @@ pb:66
 
 tp: Family Prayer
 st:1: concerning family prayer
-tb: These devotions follow the basic structure of the Daily Office of the Church and are particularly appropriate for families with young children.
-tb: The Reading and the Collect may be read by one person, and the other parts said in unison, or in some other convenient manner.
-tb: Appropriate Opening Sentences, Psalms, Readings, and Collects are provided in each service. When desired, however, the Collect of the Day, or any of the Collects appointed in the Daily Office, may be used instead. The Opening Sentences may be replaced by those appointed for various seasons in the liturgies for Morning and Evening Prayer.
+tb: These devotions follow the basic structure of the Daily Office of the Church
+    and are particularly appropriate for families with young children.
+tb: The Reading and the Collect may be read by one person, and the other parts said
+    in unison, or in some other convenient manner.
+tb: Appropriate Opening Sentences, Psalms, Readings, and Collects are provided
+    in each service. When desired, however, the Collect of the Day, or any of
+    the Collects appointed in the Daily Office, may be used instead.
+    The Opening Sentences may be replaced by those appointed for various seasons
+    in the liturgies for Morning and Evening Prayer.
 l:i: The Psalms and Readings may be replaced by those appointed in:
 l:i: the Sunday, Holy Days and Commemoration Lectionary; or
 l:i: the Daily Office Lectionary; or
@@ -36,10 +42,10 @@ st: the lord's prayer
 use:prayer:lords_prayer:
 st: the collect
 tb: O Lord, our heavenly Father, almighty and everlasting God,
-you have brought us safely to the beginning of this day:
-Defend us by your mighty power, that we may not fall into sin nor run into any danger;
-and that, guided by your Spirit, we may do what is righteous in your sight;
-through Jesus Christ our Lord. **Amen.**
+    you have brought us safely to the beginning of this day:
+    Defend us by your mighty power, that we may not fall into sin nor run into any danger;
+    and that, guided by your Spirit, we may do what is righteous in your sight;
+    through Jesus Christ our Lord. **Amen.**
 
 pb:69
 st:1: at midday
@@ -61,8 +67,8 @@ st: the lord's prayer
 use:prayer:lords_prayer:
 st: the collect
 tb: Blessed Savior, at this hour you hung upon the Cross, stretching out your loving arms:
-Grant that all the peoples of the earth may look to you and be saved; for your tender mercies' sake.
-**Amen.**
+    Grant that all the peoples of the earth may look to you and be saved; for your tender mercies' sake.
+    **Amen.**
 
 pb:71
 st:1: in the early evening
@@ -87,9 +93,9 @@ st: the lord's prayer
 use:prayer:lords_prayer:
 st: the collect
 tb: Lord Jesus, stay with us, for evening is at hand and the day is past;
-be our companion in the way, kindle our hearts, and awaken hope,
-that we may know you as you are revealed in Scripture and the breaking of bread.
-Grant this for the sake of your love. **Amen.**
+    be our companion in the way, kindle our hearts, and awaken hope,
+    that we may know you as you are revealed in Scripture and the breaking of bread.
+    Grant this for the sake of your love. **Amen.**
 
 pb:73
 st:1: at the close of day
@@ -112,14 +118,14 @@ st: the lord's prayer
 use:prayer:lords_prayer:
 st: the collect
 tb: Visit this place, O Lord, and drive far from it all snares of the enemy;
-let your holy angels dwell with us to preserve us in peace;
-and let your blessing be upon us always; through Jesus Christ our Lord. **Amen.**
+    let your holy angels dwell with us to preserve us in peace;
+    and let your blessing be upon us always; through Jesus Christ our Lord. **Amen.**
 use:canticle:nunc_dimittis
 use:gloria:
 ref: luke 2:29-32
 st: concluding sentence
 tb: The almighty and merciful Lord, Father, Son, and Holy Spirit,
-bless us and keep us, this night and evermore. **Amen.**
+    bless us and keep us, this night and evermore. **Amen.**
 
 pb:75
 r: When the Apostles Creed is included in Family Prayer, the text is as follows:
@@ -129,52 +135,52 @@ pb:76
 st:1: additional prayers
 st: for the spirit of prayer
 tb: O Almighty God, you pour out on all who desire it the spirit of grace and of supplication:
-Deliver us, when we draw near to you, from coldness of heart and wanderings of mind,
-that with steadfast thoughts and kindled affections we may worship you in spirit and in truth;
-through Jesus Christ our Lord. **Amen.**
+    Deliver us, when we draw near to you, from coldness of heart and wanderings of mind,
+    that with steadfast thoughts and kindled affections we may worship you in spirit and in truth;
+    through Jesus Christ our Lord. **Amen.**
 st:for those we love
 tb: Almighty God, we entrust all who are dear to us to your never-failing care and love,
-for this life and the life to come, knowing that you are doing for them better things
-than we can desire or pray for; through Jesus Christ our Lord. **Amen.**
+    for this life and the life to come, knowing that you are doing for them better things
+    than we can desire or pray for; through Jesus Christ our Lord. **Amen.**
 st: for the family
 tb: Merciful Savior, you loved Martha and Mary and Lazarus, hallowing their home with
-your sacred presence: Bless our home, we pray, that your love may rest upon us, and
-that your presence may dwell with us. May we all grow in grace and in the knowledge of you,
-our Lord and Savior. Teach us to love one another as you have commanded.
-Help us to bear one another's burdens in fulfillment of your law, O blessed Jesus,
-who with the Father and the Holy Spirit live and reign, one God, for ever and ever. **Amen.**
+    your sacred presence: Bless our home, we pray, that your love may rest upon us, and
+    that your presence may dwell with us. May we all grow in grace and in the knowledge of you,
+    our Lord and Savior. Teach us to love one another as you have commanded.
+    Help us to bear one another's burdens in fulfillment of your law, O blessed Jesus,
+    who with the Father and the Holy Spirit live and reign, one God, for ever and ever. **Amen.**
 st: for relatives and friends
 tb: O Loving Father, we commend to your gracious keeping all who are near and dear to us.
-Have mercy upon any who are sick, and comfort those who are in pain, anxiety, or sorrow.
-Awaken all who are careless about eternal things. Bless those who are young and in health,
-that they may give the days of their strength to you. Comfort the aged and infirm,
-that your peace may rest upon them. Hallow the ties of kindred, that we may help and not hinder
-one another in all the good works that you have prepared for us to walk in;
-through Jesus Christ our Lord. **Amen.**
+    Have mercy upon any who are sick, and comfort those who are in pain, anxiety, or sorrow.
+    Awaken all who are careless about eternal things. Bless those who are young and in health,
+    that they may give the days of their strength to you. Comfort the aged and infirm,
+    that your peace may rest upon them. Hallow the ties of kindred, that we may help and not hinder
+    one another in all the good works that you have prepared for us to walk in;
+    through Jesus Christ our Lord. **Amen.**
 
 pb:77
 st: for children
 tb: O Lord Jesus Christ, who took little children into your arms and blessed them:
-Bless the children of this family, that they may grow up in godly fear and love.
-Give them your strength and guidance day by day, that they may continue in your love and
-service to their lives' end. Grant this, O blessed Savior, for your own Name's sake. **Amen.**
+    Bless the children of this family, that they may grow up in godly fear and love.
+    Give them your strength and guidance day by day, that they may continue in your love and
+    service to their lives' end. Grant this, O blessed Savior, for your own Name's sake. **Amen.**
 st: in the morning
 tb: O Lord Jesus Christ, who took little children into your arms and blessed them:
-Bless the children of this family, that they may grow up in godly fear and love.
-Give them your strength and guidance day by day, that they may continue in your love
-and service to their lives' end. Grant this, O blessed Savior, for your own Name's sake. **Amen.**
+    Bless the children of this family, that they may grow up in godly fear and love.
+    Give them your strength and guidance day by day, that they may continue in your love
+    and service to their lives' end. Grant this, O blessed Savior, for your own Name's sake. **Amen.**
 st: at night
 tb: O Lord, support us all the day long through this trouble-filled life,
-until the shadows lengthen, and the evening comes, and the busy world is hushed,
-and the fever of life is over, and our work is done. Then in your mercy grant us a
-safe lodging, and a holy rest, and peace at the last. **Amen.**
+    until the shadows lengthen, and the evening comes, and the busy world is hushed,
+    and the fever of life is over, and our work is done. Then in your mercy grant us a
+    safe lodging, and a holy rest, and peace at the last. **Amen.**
 
 pb:78
 st: for quiet confidence
 tb: O God of peace, who hast taught us that in returning and rest we shall be saved,
-in quietness and in confidence shall be our strength: By the might of thy Spirit lift us,
-we pray thee, to thy presence, where we may be still and know that thou art God;
-through Jesus Christ our Lord. **Amen.**
+    in quietness and in confidence shall be our strength: By the might of thy Spirit lift us,
+    we pray thee, to thy presence, where we may be still and know that thou art God;
+    through Jesus Christ our Lord. **Amen.**
 st: family responses before meals
 st:lc: _Traditional_
 l: The eyes of all wait upon thee, O Lord;
@@ -184,5 +190,5 @@ l:b:i: And fillest all things living with plenteousness.
 l: Bless us, O Lord, and these thy gifts, which we are about to receive from thy bounty, through Christ our Lord.
 st: a grace before meals
 tb: Bless, O Lord, these gifts to our use, and us to your service,
-and make us ever mindful of the needs of others, through Jesus Christ our Lord. **Amen.**
+    and make us ever mindful of the needs of others, through Jesus Christ our Lord. **Amen.**
 r: In Advent, using the Antiphons found in the Calendar of Holy Days and Commemorations (page 712), families might consider singing the appropriate verse of the hymn "O Come, O Come, Emmanuel" each night beginning on December 16.

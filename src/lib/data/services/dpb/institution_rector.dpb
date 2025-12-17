@@ -14,10 +14,10 @@ st: the collect for purity
 
 r: The Celebrant prays (and the People may be invited to join)
 tb: Almighty God, to you all hearts are open, all desires known, and
-from you no secrets are hid: Cleanse the thoughts of our hearts
-by the inspiration of your Holy Spirit, that we may perfectly
-love you, and worthily magnify your holy Name; through Christ
-our Lord. __Amen.__
+    from you no secrets are hid: Cleanse the thoughts of our hearts
+    by the inspiration of your Holy Spirit, that we may perfectly
+    love you, and worthily magnify your holy Name; through Christ
+    our Lord. __Amen.__
 
 r: The Congregation sits.
 r: The Wardens and the new Rector stand before the Bishop.
@@ -25,42 +25,42 @@ r: The Wardens and the new Rector stand before the Bishop.
 pb:516
 r: The Bishop says
 tb: Dearly beloved, we have assembled in the presence of God for
-the purpose of instituting the new Rector of this Congregation.
-The Wardens present the new Rector to the Bishop, saying
-Reverend Father in God, on behalf of ___11___ Church,
-we present __N.N__. to be instituted as Rector. We believe that he is
-well qualified and has been prayerfully and lawfully selected.
+    the purpose of instituting the new Rector of this Congregation.
+    The Wardens present the new Rector to the Bishop, saying
+    Reverend Father in God, on behalf of ___11___ Church,
+    we present __N.N__. to be instituted as Rector. We believe that he is
+    well qualified and has been prayerfully and lawfully selected.
 r: The Bishop reads the Letter of Institution.
 r: The Bishop gives the Letter to the Rector. The Rector then says
 tb: I, __N.N.__, receive this letter from your hands and recognize your
-episcopal authority. I promise to be a faithful shepherd to your
-flock, the Lord being my helper.
+    episcopal authority. I promise to be a faithful shepherd to your
+    flock, the Lord being my helper.
 
 r: The Bishop says
 tb:Let us then offer our prayers to God for all his people, for this
-Congregation, and for __N.__ their Rector.
+    Congregation, and for __N.__ their Rector.
 r: The Litany for Ordinations (page 510) is sung or said.
-r:At the end of the Litany, the Bishop stands and says
+r: At the end of the Litany, the Bishop stands and says
 v: The Lord be with you
 v:people: And with your spirit.
 v:bishop: Let us pray
 
 tb:Most gracious Father, the Giver of all good and perfect gifts, in
-your wise providence you appoint leaders for the mission of your
-Church: Give grace to this your servant, to whom the charge of
-this Congregation is now given: so empower him with the truth
-of sound doctrine, and endue him with holiness of life, that he
-may faithfully serve before you to the glory of your great Name,
-and the benefit of your holy Church; through Jesus Christ our
-Lord, who lives and reigns with you and the Holy Spirit, one
-God, now and for ever. __Amen.__
+    your wise providence you appoint leaders for the mission of your
+    Church: Give grace to this your servant, to whom the charge of
+    this Congregation is now given: so empower him with the truth
+    of sound doctrine, and endue him with holiness of life, that he
+    may faithfully serve before you to the glory of your great Name,
+    and the benefit of your holy Church; through Jesus Christ our
+    Lord, who lives and reigns with you and the Holy Spirit, one
+    God, now and for ever. __Amen.__
 
 pb:517
 st: the lessons
 r:Lay persons read the Old Testament Lesson and the Epistle. The Deacon (or a
-Priest) reads the Gospel. Selections are ordinarily made from the following list;
-but on a Major Feast, Sunday, or Feast of Dedication, selections may be made
-from the Propers of the Day.
+    Priest) reads the Gospel. Selections are ordinarily made from the following list;
+    but on a Major Feast, Sunday, or Feast of Dedication, selections may be made
+    from the Propers of the Day.
 l: {{u}}joshua 1:7-9{{/u}} _or_ {{u}}numbers 11:16-17, 24-25a{{/u}}
 l: {{u}}psalm{{/u}} 43 _or_ 132:1-9, _or_ 146 _or_ 133 {{u}}and{{/u}} 134 _(especially suitable for use in the evening)_
 l: {{u}}romans 12:1-18{{\u}} _or_ {{u}}ephesians 4:7-16{{\u}}
@@ -80,7 +80,7 @@ r: All standing, the Deacon or Priest reads the Gospel, first saying
 v: The Holy Gospel of our Lord Jesus Christ according to ___11___.
 v:people: Glory to you, Lord Christ.
 r:After the Gospel, the Reader says
-The Gospel of the Lord.
+v: The Gospel of the Lord.
 v:people: Praise to you, Lord Christ.
 br:
 st: the sermon
@@ -89,111 +89,111 @@ use:nicene_creed
 r: A hymn may be sung.
 st: symbols of the pastoral office
 r: Representatives of the Congregation and clergy, standing before the Bishop and
-new Rector, may present symbols of the work to which the Rector is called. The
-principal symbols point to leadership in divine worship (Bible and bread and
-wine), in Christian formation (Book of Common Prayer, and Catechism) and in
-Congregational mission (keys and water). Additional symbols may be considered
-as local circumstances dictate.
+    new Rector, may present symbols of the work to which the Rector is called. The
+    principal symbols point to leadership in divine worship (Bible and bread and
+    wine), in Christian formation (Book of Common Prayer, and Catechism) and in
+    Congregational mission (keys and water). Additional symbols may be considered
+    as local circumstances dictate.
 r: The Bishop says
 l: Let the symbols of this office now be presented.
 r: The Bible is presented.
 tb: __N.__, preach the Word at all times, and let our worship and our
-life together manifest the grace and truth of this Book. **Amen.**
+    life together manifest the grace and truth of this Book. **Amen.**
 
 pb:519
 r: Bread and wine are presented.
 tb: __N.__, preside in the breaking of the bread and the blessing of the
-cup, and lead us in our prayers and praises. **Amen.**
+    cup, and lead us in our prayers and praises. **Amen.**
 r: The Book of Common Prayer is presented.
 tb: __N.__, be a man of prayer, and use this book to build us up as living
-stones of a holy temple. **Amen.**
+    stones of a holy temple. **Amen.**
 r: The Catechism is presented.
 tb: __N.__, be a teacher of the Faith, making disciples who make
-disciples. **Amen.**
+    disciples. **Amen.**
 r: Keys to the buildings used by the Congregation for its life and mission are presented.
 tb: __N.__, receive these keys, and let the doors of this place be open to
-all, that many would come to know the good news of salvation
-in Jesus Christ. **Amen.**
+    all, that many would come to know the good news of salvation
+    in Jesus Christ. **Amen.**
 r: The Bishop presents a vessel of water.
 tb: __N.__, receive this water and make disciples of all nations, baptizing
-them in obedience to our Lord. **Amen.**
+    them in obedience to our Lord. **Amen.**
 r: After all symbols are presented, the Bishop concludes
 tb: __N.__, let all these symbols be signs of the ministry which is the
-Lord’s and ours in this place. **Amen.**
+    Lord’s and ours in this place. **Amen.**
 r: The new Rector may kneel in the midst of the church and pray
 
 pb:520
 tb: O Lord my God, I am not worthy to have you come under my
-roof; yet you have called your servant to stand in your house,
-and to serve at your altar. To you and to your service I devote
-myself, body, soul, and spirit. Fill my memory with the record of
-your mighty works; enlighten my understanding with the light
-of your Holy Spirit; and may all the desires of my heart and will
-center in what you would have me do. Make me an instrument
-of your salvation for the people entrusted to my care, and
-grant that I may faithfully preach the Gospel and administer
-your holy Sacraments, and by my life and teaching set forth
-your true and living Word. Be always with me in carrying out
-the duties of my ministry. In prayer, quicken my devotion; in
-praises, heighten my love and gratitude; in preaching, give me
-readiness of thought and expression; in worship, increase my
-zeal for godly preparation; and grant that, by the clearness and
-brightness of your holy Word, all the world may be drawn into
-your blessed kingdom. All this I ask for the sake of your Son our
-Savior Jesus Christ. **Amen.**
+    roof; yet you have called your servant to stand in your house,
+    and to serve at your altar. To you and to your service I devote
+    myself, body, soul, and spirit. Fill my memory with the record of
+    your mighty works; enlighten my understanding with the light
+    of your Holy Spirit; and may all the desires of my heart and will
+    center in what you would have me do. Make me an instrument
+    of your salvation for the people entrusted to my care, and
+    grant that I may faithfully preach the Gospel and administer
+    your holy Sacraments, and by my life and teaching set forth
+    your true and living Word. Be always with me in carrying out
+    the duties of my ministry. In prayer, quicken my devotion; in
+    praises, heighten my love and gratitude; in preaching, give me
+    readiness of thought and expression; in worship, increase my
+    zeal for godly preparation; and grant that, by the clearness and
+    brightness of your holy Word, all the world may be drawn into
+    your blessed kingdom. All this I ask for the sake of your Son our
+    Savior Jesus Christ. **Amen.**
 r: The family of the Rector may be presented at this time.
 r: The Bishop then says to the People
 v: The peace of the Lord be always with you.
 v:people: And with your spirit.
 r: If there is no Communion, the service continues after the Peace with the Lord’s
 r: Prayer, followed by the Concluding Prayer and the Blessing.
-If there is to be Holy Communion, the Bishop is chief celebrant, assisted by the
-newly instituted Rector. The service continues with the Offertory. The following
-Post Communion Prayer is used.
+    If there is to be Holy Communion, the Bishop is chief celebrant, assisted by the
+    newly instituted Rector. The service continues with the Offertory. The following
+    Post Communion Prayer is used.
 
 pb:521
 st: post communion prayer
 tb: Almighty Father, we thank you for feeding us with the holy
-food of the Body and Blood of your Son, and for uniting us
-with him in the fellowship of your Holy Spirit. We thank you
-for raising up among us faithful servants for the ministry of
-your Word and Sacraments. We pray that __N.__ may be to us an
-effective example in word and action, in love and patience, and
-in holiness of life. Grant that we, with __him__, may serve you now,
-and always rejoice in your glory; through Jesus Christ your Son
-our Lord, who lives and reigns with you and the Holy Spirit,
-one God, now and for ever. **Amen.**
+    food of the Body and Blood of your Son, and for uniting us
+    with him in the fellowship of your Holy Spirit. We thank you
+    for raising up among us faithful servants for the ministry of
+    your Word and Sacraments. We pray that __N.__ may be to us an
+    effective example in word and action, in love and patience, and
+    in holiness of life. Grant that we, with __him__, may serve you now,
+    and always rejoice in your glory; through Jesus Christ your Son
+    our Lord, who lives and reigns with you and the Holy Spirit,
+    one God, now and for ever. **Amen.**
 
 st: the concluding prayer
 r: After the Post Communion Prayer and before the Blessing, the Bishop may say
 tb: Almighty God, you have built your Church upon the
-foundation of the Apostles and Prophets, Jesus Christ himself
-being the chief cornerstone: Grant that, by the operation of the
-Holy Spirit, all Christians may be joined together in unity of
-spirit and in the bond of peace, that they may be a holy temple
-acceptable to you. Give the abundance of your grace especially to
-this Congregation, that with one heart we may desire the health
-and increase of your holy Church, and with one voice profess
-the faith once delivered to the saints. Defend us from the sins of
-heresy and schism. And grant that the course of this world may
-be so peaceably ordered by your governance, that your Church
-may joyfully serve you in all godliness and faithfully walk in the
-ways of truth and peace; so that, on the day of judgment, we all
-may be numbered with your saints in glory everlasting; through
-Jesus Christ your Son our Lord, the gracious Shepherd and
-Bishop of our souls, who lives and reigns with you and the Holy
-Spirit, one God, world without end. **Amen.**
+    foundation of the Apostles and Prophets, Jesus Christ himself
+    being the chief cornerstone: Grant that, by the operation of the
+    Holy Spirit, all Christians may be joined together in unity of
+    spirit and in the bond of peace, that they may be a holy temple
+    acceptable to you. Give the abundance of your grace especially to
+    this Congregation, that with one heart we may desire the health
+    and increase of your holy Church, and with one voice profess
+    the faith once delivered to the saints. Defend us from the sins of
+    heresy and schism. And grant that the course of this world may
+    be so peaceably ordered by your governance, that your Church
+    may joyfully serve you in all godliness and faithfully walk in the
+    ways of truth and peace; so that, on the day of judgment, we all
+    may be numbered with your saints in glory everlasting; through
+    Jesus Christ your Son our Lord, the gracious Shepherd and
+    Bishop of our souls, who lives and reigns with you and the Holy
+    Spirit, one God, world without end. **Amen.**
 
 pb:522
 st:additional directions
 tb: The Collect of the Day or another prayer suitable to the occasion may be used.
 
 tb: The Sermon may be preached by the Bishop, the newly instituted Rector,
-or some other person appointed by the Bishop.
+    or some other person appointed by the Bishop.
 
 tb: When the new Rector has recently come from another Diocese, the
-diocesan Canons may be presented, after the presentation of the keys,
-with these words: “Obey these Canons, and be among us to share in the
-councils of this Diocese.”
+    diocesan Canons may be presented, after the presentation of the keys,
+    with these words: “Obey these Canons, and be among us to share in the
+    councils of this Diocese.”
 
 tb: The Preface of Apostles and Ordinations is ordinarily used for this service.
