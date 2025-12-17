@@ -24,11 +24,28 @@ class RawToJsonConverter {
 	}
 
 	/**
+	 * Process escape sequences in text
+	 * Converts \n to newline, \t to tab, etc.
+	 */
+	processEscapeSequences(text) {
+		if (!text || typeof text !== 'string') return text;
+
+		return text
+			.replace(/\\n/g, '\n')
+			.replace(/\\t/g, '\t')
+			.replace(/\\r/g, '\r')
+			.replace(/\\\\/g, '\\'); // Allow literal backslash with \\
+	}
+
+	/**
 	 * Parse text with wrapper syntax like {{u}}text{{/u}} into structured format
 	 * Returns either a string (if no wrappers) or an array of text segments with formatting
 	 */
 	parseTextWithWrappers(text) {
 		if (!text || typeof text !== 'string') return text;
+
+		// Process escape sequences first
+		text = this.processEscapeSequences(text);
 
 		// Check if there are any wrappers
 		if (!text.includes('{{')) return text;
@@ -473,7 +490,8 @@ class RawToJsonConverter {
 		if (contentArray.length > 1 || (contentArray.length === 1 && contentArray[0].type !== 'text')) {
 			item.content = contentArray;
 		} else {
-			item.text = text;
+			// Process escape sequences for plain text
+			item.text = this.processEscapeSequences(text);
 		}
 
 		if (modifiers.bold) item.bold = true;
@@ -498,7 +516,8 @@ class RawToJsonConverter {
 		if (contentArray.length > 1 || (contentArray.length === 1 && contentArray[0].type !== 'text')) {
 			item.content = contentArray;
 		} else {
-			item.text = text;
+			// Process escape sequences for plain text
+			item.text = this.processEscapeSequences(text);
 		}
 
 		if (modifiers.bold) item.bold = true;

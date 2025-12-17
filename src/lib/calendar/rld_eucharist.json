@@ -262,5 +262,150 @@
 		"epistle": "2 Cor 5:20b\u20146:10",
 		"gospel": "Matt 6:1-6,16-21",
 		"color": "purple"
+	},
+
+	"ember-days1": {
+		"name": "Ember Days I",
+		"ot": "Num 11:16-17, 24-29",
+		"psalm": "Ps 99",
+		"epistle": "1 Cor 3:5-11",
+		"gospel": "John 4:31-38",
+		"color": ""
+	},
+	"ember-days2": {
+		"name": "Ember Days II",
+		"ot": "1 Sam 3:1-10",
+		"psalm": "Ps 63:1-8v",
+		"epistle": "Eph 4:11-16",
+		"gospel": "Matt 9:35-38",
+		"color": ""
+	},
+	"rogation-days1": {
+		"name": "Rogation Days I",
+		"ot": "Deut 11:10-15",
+		"psalm": "Ps 147",
+		"epistle": "Rom 8:18-25",
+		"gospel": "Mark 4:26-32",
+		"color": ""
+	},
+	"rogation-days2": {
+		"name": "Rogation Days II",
+		"ot": "Ecclesiasticus 38:27-32",
+		"psalm": "Ps 107:1-9",
+		"epistle": "1 Cor 3:10-14",
+		"gospel": "Matt 6:19-24",
+		"color": ""
+	},
+	"thanksgiving-day": {
+		"name": "Thanksgiving Day Canada and The United States",
+		"ot": "Deut 8",
+		"psalm": "Ps 65:1-8(9-14)",
+		"epistle": "James 1:17-27",
+		"gospel": "Matt 6:25-33",
+		"color": ""
+	},
+	"canada-day": {
+		"name": "Canada Day _July 1_",
+		"ot": "Deut 6:1-15",
+		"psalm": "Ps 145",
+		"epistle": "1 Peter 2:1-6",
+		"gospel": "Matt 22:16-21 or Matt 25:14-30",
+		"color": ""
+	},
+	"independence-day": {
+		"name": "Independence Day _July 4_",
+		"ot": "Deut 10:17-21",
+		"psalm": "Ps 145",
+		"epistle": "Heb 11:8-16",
+		"gospel": "Matt 5:43-48",
+		"color": ""
+	},
+	"remembrance-day": {
+		"name": "Remembrance Day",
+		"ot": "Wisdom 3:1-9",
+		"psalm": "Ps 121",
+		"epistle": "Rev 7:9-17",
+		"gospel": "John 11:21-27 or John 15:12-17",
+		"color": ""
+	},
+	"martyr": {
+		"name": "Martyr",
+		"ot": "Jer 15:15-21",
+		"psalm": "Ps 34",
+		"epistle": "Rev 7:9-17",
+		"gospel": "Luke 12:4-12",
+		"color": ""
+	},
+	"missionary": {
+		"name": "Missionary or Evangelist",
+		"ot": "Isa 49:1-7",
+		"psalm": "Ps 98",
+		"epistle": "Rom 10:11-18",
+		"gospel": "Luke 5:1-11",
+		"color": ""
+	},
+	"pastor": {
+		"name": "Pastor",
+		"ot": "Isa 6:1-8",
+		"psalm": "Ps 71:17-24v",
+		"epistle": "1 Pet 5:1-11 or Acts 20:24-35",
+		"gospel": "Matt 24:42-50",
+		"color": ""
+	},
+	"teacher": {
+		"name": "Teacher of The Faith",
+		"ot": "Prov 3:13-26",
+		"psalm": "Ps 119:89-106",
+		"epistle": "1 John 1:1-10",
+		"gospel": "Matt 13:47-52",
+		"color": ""
+	},
+	"monastic": {
+		"name": "Monastic or Religious",
+		"ot": "Lam 3:22-33",
+		"psalm": "Ps 1",
+		"epistle": "Heb 4:1-13 or Acts 2:42-47",
+		"gospel": "Mark 10:23-31",
+		"color": ""
+	},
+	"ecumenist": {
+		"name": "Ecumenist",
+		"ot": "Ezk 34:11-16",
+		"psalm": "Ps 133",
+		"epistle": "Eph 3:14-21",
+		"gospel": "John 17:10-26",
+		"color": ""
+	},
+	"reformer": {
+		"name": "Reformer of The Church",
+		"ot": "Jer 1:4-10",
+		"psalm": "Ps 46",
+		"epistle": "1 Cor 3:10-23",
+		"gospel": "Matt 5:13-20",
+		"color": ""
+	},
+	"renewer": {
+		"name": "Renewer of Society",
+		"ot": "Ex 3:7-12",
+		"psalm": "Ps 145:1-13v",
+		"epistle": "Rom 12:9-21",
+		"gospel": "Luke 6:20-38",
+		"color": ""
+	},
+	"commemoration1": {
+		"name": "Any Commemoration I",
+		"ot": "Mic 6:6-8",
+		"psalm": "Ps 1",
+		"epistle": "1 Cor 1:18-31",
+		"gospel": "Joh 3:16-21",
+		"color": ""
+	},
+	"commemoration2": {
+		"name": "Any Commemoration II",
+		"ot": "Wisdom 3:1-9",
+		"psalm": "Ps 15",
+		"epistle": "Phil 4:4-9",
+		"gospel": "Luke 6:17-23",
+		"color": ""
 	}
 }
