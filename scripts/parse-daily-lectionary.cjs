@@ -1,0 +1,3379 @@
+#!/usr/bin/env node
+/**
+ * Helper script to parse daily lectionary table data into JSON
+ *
+ * This script helps convert the pasted table data from the PPB PDF
+ * into the JSON structure used by daily_lectionary.json
+ */
+
+const fs = require('fs');
+const path = require('path');
+
+// April data parsed from the provided tables
+const aprilData = {
+	'4-1': {
+		morning: {
+			ot: { req: 'Exod 39', alt: '1-14,27-43' },
+			nt: { req: 'Mark 1:32-end' },
+			psalm60: ['75', '76']
+		},
+		evening: {
+			ot: { req: 'Prov 30' },
+			nt: { req: '1 Tim 4', alt: '1-9,15-33' },
+			psalm60: ['79', '82']
+		}
+	},
+	'4-2': {
+		morning: {
+			ot: { req: 'Exod 40', alt: '1-2,16-38' },
+			nt: { req: 'Mark 2:1-22' },
+			psalm60: ['78:1-18v']
+		},
+		evening: {
+			ot: { req: 'Prov 31' },
+			nt: { req: '1 Tim 5' },
+			psalm60: ['78:19-40v']
+		}
+	},
+	'4-3': {
+		morning: {
+			ot: { req: 'Lev 1' },
+			nt: { req: 'Mark 2:23—3:12' },
+			psalm60: ['78:41-73v']
+		},
+		evening: {
+			ot: { req: 'Job 1' },
+			nt: { req: '1 Tim 6' },
+			psalm60: ['80']
+		}
+	},
+	'4-4': {
+		morning: {
+			ot: { req: 'Lev 8', alt: '1-24,30-36' },
+			nt: { req: 'Mark 3:13-end' },
+			psalm60: ['81']
+		},
+		evening: {
+			ot: { req: 'Job 2' },
+			nt: { req: 'Titus 1' },
+			psalm60: ['83']
+		}
+	},
+	'4-5': {
+		morning: {
+			ot: { req: 'Lev 10' },
+			nt: { req: 'Mark 4:1-34' },
+			psalm60: ['84']
+		},
+		evening: {
+			ot: { req: 'Job 3' },
+			nt: { req: 'Titus 2' },
+			psalm60: ['85']
+		}
+	},
+	'4-6': {
+		morning: {
+			ot: { req: 'Lev 16', alt: '1-22,29-34' },
+			nt: { req: 'Mark 4:35—5:20' },
+			psalm60: ['86', '87']
+		},
+		evening: {
+			ot: { req: 'Job 4' },
+			nt: { req: 'Titus 3' },
+			psalm60: ['88']
+		}
+	},
+	'4-7': {
+		morning: {
+			ot: { req: 'Lev 17' },
+			nt: { req: 'Mark 5:21-end' },
+			psalm60: ['89:1-18v']
+		},
+		evening: {
+			ot: { req: 'Job 5' },
+			nt: { req: '2 Tim 1' },
+			psalm60: ['89:19-51v']
+		}
+	},
+	'4-8': {
+		morning: {
+			ot: { req: 'Lev 18' },
+			nt: { req: 'Mark 6:1-29' },
+			psalm60: ['90']
+		},
+		evening: {
+			ot: { req: 'Job 6' },
+			nt: { req: '2 Tim 2' },
+			psalm60: ['91']
+		}
+	},
+	'4-9': {
+		morning: {
+			ot: { req: 'Lev 19', alt: '1-2,9-37' },
+			nt: { req: 'Mark 6:30-end' },
+			psalm60: ['92', '93']
+		},
+		evening: {
+			ot: { req: 'Job 7' },
+			nt: { req: '2 Tim 3' },
+			psalm60: ['94']
+		}
+	},
+	'4-10': {
+		morning: {
+			ot: { req: 'Lev 20' },
+			nt: { req: 'Mark 7:1-23' },
+			psalm60: ['95', '96']
+		},
+		evening: {
+			ot: { req: 'Job 8' },
+			nt: { req: '2 Tim 4' },
+			psalm60: ['97', '98']
+		}
+	},
+	'4-11': {
+		morning: {
+			ot: { req: 'Lev 23', alt: '9-32,39-43' },
+			nt: { req: 'Mark 7:24—8:10' },
+			psalm60: ['99', '100', '101']
+		},
+		evening: {
+			ot: { req: 'Job 9' },
+			nt: { req: 'Heb 1' },
+			psalm60: ['102']
+		}
+	},
+	'4-12': {
+		morning: {
+			ot: { req: 'Lev 26', alt: '3-20,38-46' },
+			nt: { req: 'Mark 8:11-end' },
+			psalm60: ['103']
+		},
+		evening: {
+			ot: { req: 'Job 10' },
+			nt: { req: 'Heb 2' },
+			psalm60: ['104']
+		}
+	},
+	'4-13': {
+		morning: {
+			ot: { req: 'Num 6' },
+			nt: { req: 'Mark 9:1-29' },
+			psalm60: ['105:1-22v']
+		},
+		evening: {
+			ot: { req: 'Job 11' },
+			nt: { req: 'Heb 3' },
+			psalm60: ['105:23-44v']
+		}
+	},
+	'4-14': {
+		morning: {
+			ot: { req: 'Num 8', alt: '5-26' },
+			nt: { req: 'Mark 9:30-end' },
+			psalm60: ['106:1-18v']
+		},
+		evening: {
+			ot: { req: 'Job 12' },
+			nt: { req: 'Heb 4:1-13' },
+			psalm60: ['106:19-46v']
+		}
+	},
+	'4-15': {
+		morning: {
+			ot: { req: 'Num 11', alt: '4-6,10-33' },
+			nt: { req: 'Mark 10:1-31' },
+			psalm60: ['107:1-22']
+		},
+		evening: {
+			ot: { req: 'Job 13' },
+			nt: { req: 'Heb 4:14—5:10' },
+			psalm60: ['107:23-43']
+		}
+	},
+	'4-16': {
+		morning: {
+			ot: { req: 'Num 12' },
+			nt: { req: 'Mark 10:32-end' },
+			psalm60: ['108', '110']
+		},
+		evening: {
+			ot: { req: 'Job 14' },
+			nt: { req: 'Heb 5:11—6 end' },
+			psalm60: ['109']
+		}
+	},
+	'4-17': {
+		morning: {
+			ot: { req: 'Num 13', alt: '1-3,17-33' },
+			nt: { req: 'Mark 11:1-26' },
+			psalm60: ['111', '112']
+		},
+		evening: {
+			ot: { req: 'Job 15' },
+			nt: { req: 'Heb 7' },
+			psalm60: ['113', '114']
+		}
+	},
+	'4-18': {
+		morning: {
+			ot: { req: 'Num 14', alt: '1-31' },
+			nt: { req: 'Mark 11:27—12:12' },
+			psalm60: ['115']
+		},
+		evening: {
+			ot: { req: 'Job 16' },
+			nt: { req: 'Heb 8' },
+			psalm60: ['116', '117']
+		}
+	},
+	'4-19': {
+		morning: {
+			ot: { req: 'Num 15', alt: '22-41' },
+			nt: { req: 'Mark 12:13-34' },
+			psalm60: ['119:1-24']
+		},
+		evening: {
+			ot: { req: 'Job 17' },
+			nt: { req: 'Heb 9:1-14' },
+			psalm60: ['119:25-48']
+		}
+	},
+	'4-20': {
+		morning: {
+			ot: { req: 'Num 16', alt: '1-11,20-38' },
+			nt: { req: 'Mark 12:35—13:13' },
+			psalm60: ['119:49-72']
+		},
+		evening: {
+			ot: { req: 'Job 18' },
+			nt: { req: 'Heb 9:15-end' },
+			psalm60: ['119:73-88']
+		}
+	},
+	'4-21': {
+		morning: {
+			ot: { req: 'Num 17' },
+			nt: { req: 'Mark 13:14-end' },
+			psalm60: ['119:89-104']
+		},
+		evening: {
+			ot: { req: 'Job 19' },
+			nt: { req: 'Heb 10:1-18' },
+			psalm60: ['119:105-128']
+		}
+	},
+	'4-22': {
+		morning: {
+			ot: { req: 'Num 18', alt: '1-24' },
+			nt: { req: 'Mark 14:1-25' },
+			psalm60: ['119:129-152']
+		},
+		evening: {
+			ot: { req: 'Job 20' },
+			nt: { req: 'Heb 10:19-end' },
+			psalm60: ['119:153-176']
+		}
+	},
+	'4-23': {
+		morning: {
+			ot: { req: 'Num 20' },
+			nt: { req: 'Mark 14:26-52' },
+			psalm60: ['118']
+		},
+		evening: {
+			ot: { req: 'Job 21' },
+			nt: { req: 'Heb 11' },
+			psalm60: ['120', '121']
+		}
+	},
+	'4-24': {
+		morning: {
+			ot: { req: 'Num 21', alt: '4-9,21-35' },
+			nt: { req: 'Mark 14:53-end' },
+			psalm60: ['122', '123']
+		},
+		evening: {
+			ot: { req: 'Job 22' },
+			nt: { req: 'Heb 12:1-17' },
+			psalm60: ['124', '125', '126']
+		}
+	},
+	'4-25': {
+		morning: {
+			ot: { req: 'Acts 12:11-25' },
+			nt: { req: 'Mark 15' },
+			psalm60: ['127', '128']
+		},
+		evening: {
+			ot: { req: 'Job 23' },
+			nt: { req: 'Heb 12:18-end' },
+			psalm60: ['129', '130', '131']
+		}
+	},
+	'4-26': {
+		morning: {
+			ot: { req: 'Num 22', alt: '1-35' },
+			nt: { req: 'Mark 16' },
+			psalm60: ['132', '133']
+		},
+		evening: {
+			ot: { req: 'Job 24' },
+			nt: { req: 'Heb 13' },
+			psalm60: ['134', '135']
+		}
+	},
+	'4-27': {
+		morning: {
+			ot: { req: 'Num 23', alt: '1-26' },
+			nt: { req: 'Luke 1:1-23' },
+			psalm60: ['136']
+		},
+		evening: {
+			ot: { req: 'Job 25 & 26' },
+			nt: { req: 'Jas 1' },
+			psalm60: ['137', '138']
+		}
+	},
+	'4-28': {
+		morning: {
+			ot: { req: 'Num 24' },
+			nt: { req: 'Luke 1:24-56' },
+			psalm60: ['139']
+		},
+		evening: {
+			ot: { req: 'Job 27' },
+			nt: { req: 'Jas 2:1-13' },
+			psalm60: ['141', '142']
+		}
+	},
+	'4-29': {
+		morning: {
+			ot: { req: 'Num 25' },
+			nt: { req: 'Luke 1:57-end' },
+			psalm60: ['140']
+		},
+		evening: {
+			ot: { req: 'Job 28' },
+			nt: { req: 'Jas 2:14-end' },
+			psalm60: ['143']
+		}
+	},
+	'4-30': {
+		morning: {
+			ot: { req: 'Deut 1', alt: '1-21,26-33' },
+			nt: { req: 'Luke 2:1-21' },
+			psalm60: ['144']
+		},
+		evening: {
+			ot: { req: 'Job 29' },
+			nt: { req: 'Jas 3' },
+			psalm60: ['145']
+		}
+	}
+};
+
+// May data parsed from the provided tables
+const mayData = {
+	'5-1': {
+		morning: {
+			ot: { req: 'Deut 2', alt: '1-9,14-19,24-37' },
+			nt: { req: 'Luke 2:22-end' },
+			psalm60: ['146']
+		},
+		evening: {
+			ot: { req: 'Jas 4' },
+			nt: { req: 'John 1:43-end' },
+			psalm60: ['147']
+		}
+	},
+	'5-2': {
+		morning: {
+			ot: { req: 'Deut 3' },
+			nt: { req: 'Luke 3:1-22' },
+			psalm60: ['148']
+		},
+		evening: {
+			ot: { req: 'Job 30' },
+			nt: { req: 'Jas 5' },
+			psalm60: ['149', '150']
+		}
+	},
+	'5-3': {
+		morning: {
+			ot: { req: 'Deut 4', alt: '1-18,24-40' },
+			nt: { req: 'Luke 3:23-end' },
+			psalm60: ['1', '2']
+		},
+		evening: {
+			ot: { req: 'Job 31', alt: '1-23,35-40' },
+			nt: { req: '1 Pet 1:1-21' },
+			psalm60: ['3', '4']
+		}
+	},
+	'5-4': {
+		morning: {
+			ot: { req: 'Deut 5' },
+			nt: { req: 'Luke 4:1-30' },
+			psalm60: ['5', '6']
+		},
+		evening: {
+			ot: { req: 'Job 32' },
+			nt: { req: '1 Pet 1:22—2:10' },
+			psalm60: ['7']
+		}
+	},
+	'5-5': {
+		morning: {
+			ot: { req: 'Deut 6' },
+			nt: { req: 'Luke 4:31-end' },
+			psalm60: ['9']
+		},
+		evening: {
+			ot: { req: 'Job 33' },
+			nt: { req: '1 Pet 2:11—3:7' },
+			psalm60: ['10']
+		}
+	},
+	'5-6': {
+		morning: {
+			ot: { req: 'Deut 7' },
+			nt: { req: 'Luke 5:1-16' },
+			psalm60: ['8', '11']
+		},
+		evening: {
+			ot: { req: 'Job 34', alt: '1-15,21-28,31-37' },
+			nt: { req: '1 Pet 3:8—4:6' },
+			psalm60: ['15', '16']
+		}
+	},
+	'5-7': {
+		morning: {
+			ot: { req: 'Deut 8' },
+			nt: { req: 'Luke 5:17-end' },
+			psalm60: ['12', '13', '14']
+		},
+		evening: {
+			ot: { req: 'Job 35' },
+			nt: { req: '1 Pet 4:7-end' },
+			psalm60: ['17']
+		}
+	},
+	'5-8': {
+		morning: {
+			ot: { req: 'Deut 9' },
+			nt: { req: 'Luke 6:1-19' },
+			psalm60: ['18:1-20v']
+		},
+		evening: {
+			ot: { req: 'Job 36' },
+			nt: { req: '1 Pet 5' },
+			psalm60: ['18:21-52v']
+		}
+	},
+	'5-9': {
+		morning: {
+			ot: { req: 'Deut 10' },
+			nt: { req: 'Luke 6:20-38' },
+			psalm60: ['19']
+		},
+		evening: {
+			ot: { req: 'Job 37' },
+			nt: { req: '2 Pet 1' },
+			psalm60: ['20', '21']
+		}
+	},
+	'5-10': {
+		morning: {
+			ot: { req: 'Deut 11' },
+			nt: { req: 'Luke 6:39—7:10' },
+			psalm60: ['22']
+		},
+		evening: {
+			ot: { req: 'Job 38', alt: '1-27,31-33' },
+			nt: { req: '2 Pet 2' },
+			psalm60: ['23', '24']
+		}
+	},
+	'5-11': {
+		morning: {
+			ot: { req: 'Deut 12' },
+			nt: { req: 'Luke 7:11-35' },
+			psalm60: ['25']
+		},
+		evening: {
+			ot: { req: 'Job 39' },
+			nt: { req: '2 Pet 3' },
+			psalm60: ['27']
+		}
+	},
+	'5-12': {
+		morning: {
+			ot: { req: 'Deut 13' },
+			nt: { req: 'Luke 7:36-end' },
+			psalm60: ['26', '28']
+		},
+		evening: {
+			ot: { req: 'Job 40' },
+			nt: { req: 'Jude' },
+			psalm60: ['31']
+		}
+	},
+	'5-13': {
+		morning: {
+			ot: { req: 'Deut 14' },
+			nt: { req: 'Luke 8:1-21' },
+			psalm60: ['29', '30']
+		},
+		evening: {
+			ot: { req: 'Job 41' },
+			nt: { req: '1 John 1:1—2:6' },
+			psalm60: ['33']
+		}
+	},
+	'5-14': {
+		morning: {
+			ot: { req: 'Deut 15' },
+			nt: { req: 'Luke 8:22-end' },
+			psalm60: ['34']
+		},
+		evening: {
+			ot: { req: 'Job 42' },
+			nt: { req: '1 John 2:7-end' },
+			psalm60: ['35']
+		}
+	},
+	'5-15': {
+		morning: {
+			ot: { req: 'Deut 16' },
+			nt: { req: 'Luke 9:1-17' },
+			psalm60: ['32', '36']
+		},
+		evening: {
+			ot: { req: 'Eccl 1' },
+			nt: { req: '1 John 3:1-10' },
+			psalm60: ['38']
+		}
+	},
+	'5-16': {
+		morning: {
+			ot: { req: 'Deut 17' },
+			nt: { req: 'Luke 9:18-50' },
+			psalm60: ['37:1-17v']
+		},
+		evening: {
+			ot: { req: 'Eccl 2' },
+			nt: { req: '1 John 3:11—4:6' },
+			psalm60: ['37:18-41v']
+		}
+	},
+	'5-17': {
+		morning: {
+			ot: { req: 'Deut 18' },
+			nt: { req: 'Luke 9:51-end' },
+			psalm60: ['40']
+		},
+		evening: {
+			ot: { req: 'Eccl 3' },
+			nt: { req: '1 John 4:7-end' },
+			psalm60: ['39', '41']
+		}
+	},
+	'5-18': {
+		morning: {
+			ot: { req: 'Deut 19' },
+			nt: { req: 'Luke 10:1-24' },
+			psalm60: ['42', '43']
+		},
+		evening: {
+			ot: { req: 'Eccl 4' },
+			nt: { req: '1 John 5' },
+			psalm60: ['44']
+		}
+	},
+	'5-19': {
+		morning: {
+			ot: { req: 'Deut 20' },
+			nt: { req: 'Luke 10:25-end' },
+			psalm60: ['45']
+		},
+		evening: {
+			ot: { req: 'Eccl 5' },
+			nt: { req: '2 John' },
+			psalm60: ['46']
+		}
+	},
+	'5-20': {
+		morning: {
+			ot: { req: 'Deut 21' },
+			nt: { req: 'Luke 11:1-28' },
+			psalm60: ['47', '48']
+		},
+		evening: {
+			ot: { req: 'Eccl 6' },
+			nt: { req: '3 John' },
+			psalm60: ['49']
+		}
+	},
+	'5-21': {
+		morning: {
+			ot: { req: 'Deut 22' },
+			nt: { req: 'Luke 11:29-end' },
+			psalm60: ['50']
+		},
+		evening: {
+			ot: { req: 'Eccl 7' },
+			nt: { req: 'Acts 1:1-14' },
+			psalm60: ['51']
+		}
+	},
+	'5-22': {
+		morning: {
+			ot: { req: 'Deut 23' },
+			nt: { req: 'Luke 12:1-34' },
+			psalm60: ['52', '53', '54']
+		},
+		evening: {
+			ot: { req: 'Eccl 8' },
+			nt: { req: 'Acts 1:15-end' },
+			psalm60: ['55']
+		}
+	},
+	'5-23': {
+		morning: {
+			ot: { req: 'Deut 24' },
+			nt: { req: 'Luke 12:35-53' },
+			psalm60: ['56', '57']
+		},
+		evening: {
+			ot: { req: 'Eccl 9' },
+			nt: { req: 'Acts 2:1-21' },
+			psalm60: ['58', '60']
+		}
+	},
+	'5-24': {
+		morning: {
+			ot: { req: 'Deut 25' },
+			nt: { req: 'Luke 12:54—13:9' },
+			psalm60: ['59']
+		},
+		evening: {
+			ot: { req: 'Eccl 10' },
+			nt: { req: 'Acts 2:22-end' },
+			psalm60: ['63', '64']
+		}
+	},
+	'5-25': {
+		morning: {
+			ot: { req: 'Deut 26' },
+			nt: { req: 'Luke 13:10-end' },
+			psalm60: ['61', '62']
+		},
+		evening: {
+			ot: { req: 'Eccl 11' },
+			nt: { req: 'Acts 3:1—4:4' },
+			psalm60: ['65', '67']
+		}
+	},
+	'5-26': {
+		morning: {
+			ot: { req: 'Deut 27' },
+			nt: { req: 'Luke 14:1-24' },
+			psalm60: ['68:1-18']
+		},
+		evening: {
+			ot: { req: 'Eccl 12' },
+			nt: { req: 'Acts 4:5-31' },
+			psalm60: ['68:19-36']
+		}
+	},
+	'5-27': {
+		morning: {
+			ot: { req: 'Deut 28', alt: '1-25,64-68' },
+			nt: { req: 'Luke 14:25—15:10' },
+			psalm60: ['69:1-18v']
+		},
+		evening: {
+			ot: { req: 'Ezek 1' },
+			nt: { req: 'Acts 4:32—5:11' },
+			psalm60: ['69:19-37v']
+		}
+	},
+	'5-28': {
+		morning: {
+			ot: { req: 'Deut 29' },
+			nt: { req: 'Luke 15:11-end' },
+			psalm60: ['66']
+		},
+		evening: {
+			ot: { req: 'Ezek 2' },
+			nt: { req: 'Acts 5:12-end' },
+			psalm60: ['70', '72']
+		}
+	},
+	'5-29': {
+		morning: {
+			ot: { req: 'Deut 30' },
+			nt: { req: 'Luke 16' },
+			psalm60: ['71']
+		},
+		evening: {
+			ot: { req: 'Ezek 3' },
+			nt: { req: 'Acts 6:1—7:16' },
+			psalm60: ['73']
+		}
+	},
+	'5-30': {
+		morning: {
+			ot: { req: 'Deut 31' },
+			nt: { req: 'Luke 17:1-19' },
+			psalm60: ['74']
+		},
+		evening: {
+			ot: { req: 'Ezek 4' },
+			nt: { req: 'Acts 7:17-34' },
+			psalm60: ['77']
+		}
+	},
+	'5-31': {
+		morning: {
+			ot: { req: 'Deut 32', alt: '1-10,15-22,39-52' },
+			nt: { req: 'Luke 1:39-56' },
+			psalm60: ['75', '76']
+		},
+		evening: {
+			ot: { req: 'Ezek 5' },
+			nt: { req: 'Acts 7:35—8:3' },
+			psalm60: ['79', '82']
+		}
+	}
+};
+
+// June data parsed from the provided tables
+const juneData = {
+	'6-1': {
+		morning: {
+			ot: { req: 'Deut 33' },
+			nt: { req: 'Luke 17:20-end' },
+			psalm60: ['78:1-18v']
+		},
+		evening: {
+			ot: { req: 'Ezek 6' },
+			nt: { req: 'Acts 8:4-25' },
+			psalm60: ['78:19-40v']
+		}
+	},
+	'6-2': {
+		morning: {
+			ot: { req: 'Deut 34' },
+			nt: { req: 'Luke 18:1-30' },
+			psalm60: ['78:41-73v']
+		},
+		evening: {
+			ot: { req: 'Ezek 7' },
+			nt: { req: 'Acts 8:26-end' },
+			psalm60: ['80']
+		}
+	},
+	'6-3': {
+		morning: {
+			ot: { req: 'Josh 1' },
+			nt: { req: 'Luke 18:31—19:10' },
+			psalm60: ['81']
+		},
+		evening: {
+			ot: { req: 'Ezek 8' },
+			nt: { req: 'Acts 9:1-31' },
+			psalm60: ['83']
+		}
+	},
+	'6-4': {
+		morning: {
+			ot: { req: 'Josh 2' },
+			nt: { req: 'Luke 19:11-28' },
+			psalm60: ['84']
+		},
+		evening: {
+			ot: { req: 'Ezek 9' },
+			nt: { req: 'Acts 9:32-end' },
+			psalm60: ['85']
+		}
+	},
+	'6-5': {
+		morning: {
+			ot: { req: 'Josh 3' },
+			nt: { req: 'Luke 19:29-end' },
+			psalm60: ['86', '87']
+		},
+		evening: {
+			ot: { req: 'Ezek 10' },
+			nt: { req: 'Acts 10:1-23' },
+			psalm60: ['88']
+		}
+	},
+	'6-6': {
+		morning: {
+			ot: { req: 'Josh 4' },
+			nt: { req: 'Luke 20:1-26' },
+			psalm60: ['89:1-18v']
+		},
+		evening: {
+			ot: { req: 'Ezek 11' },
+			nt: { req: 'Acts 10:24-end' },
+			psalm60: ['89:19-51v']
+		}
+	},
+	'6-7': {
+		morning: {
+			ot: { req: 'Josh 5' },
+			nt: { req: 'Luke 20:27—21:4' },
+			psalm60: ['90']
+		},
+		evening: {
+			ot: { req: 'Ezek 12' },
+			nt: { req: 'Acts 11:1-18' },
+			psalm60: ['91']
+		}
+	},
+	'6-8': {
+		morning: {
+			ot: { req: 'Josh 6' },
+			nt: { req: 'Luke 21:5-end' },
+			psalm60: ['92', '93']
+		},
+		evening: {
+			ot: { req: 'Ezek 13' },
+			nt: { req: 'Acts 11:19-end' },
+			psalm60: ['94']
+		}
+	},
+	'6-9': {
+		morning: {
+			ot: { req: 'Josh 7' },
+			nt: { req: 'Luke 22:1-38' },
+			psalm60: ['95', '96']
+		},
+		evening: {
+			ot: { req: 'Ezek 14' },
+			nt: { req: 'Acts 12:1-24' },
+			psalm60: ['97', '98']
+		}
+	},
+	'6-10': {
+		morning: {
+			ot: { req: 'Josh 8', alt: '1-22,30-35' },
+			nt: { req: 'Luke 22:39-53' },
+			psalm60: ['99', '100', '101']
+		},
+		evening: {
+			ot: { req: 'Ezek 15' },
+			nt: { req: 'Acts 12:25—13:12' },
+			psalm60: ['102']
+		}
+	},
+	'6-11': {
+		morning: {
+			ot: { req: 'Acts 4:32-37' },
+			nt: { req: 'Luke 22:54-end' },
+			psalm60: ['103']
+		},
+		evening: {
+			ot: { req: 'Ezek 16', alt: '1-15,33-47,59-63' },
+			nt: { req: 'Acts 13:13-43' },
+			psalm60: ['104']
+		}
+	},
+	'6-12': {
+		morning: {
+			ot: { req: 'Josh 9' },
+			nt: { req: 'Luke 23:1-25' },
+			psalm60: ['105:1-22v']
+		},
+		evening: {
+			ot: { req: 'Ezek 17' },
+			nt: { req: 'Acts 13:44—14:7' },
+			psalm60: ['105:23-44v']
+		}
+	},
+	'6-13': {
+		morning: {
+			ot: { req: 'Josh 10', alt: '1-27,40-43' },
+			nt: { req: 'Luke:23:26-49' },
+			psalm60: ['106:1-18v']
+		},
+		evening: {
+			ot: { req: 'Ezek 18' },
+			nt: { req: 'Acts 14:8-end' },
+			psalm60: ['106:19-46v']
+		}
+	},
+	'6-14': {
+		morning: {
+			ot: { req: 'Josh 14', alt: '5-15' },
+			nt: { req: 'Luke 23:50—24:12' },
+			psalm60: ['107:1-22']
+		},
+		evening: {
+			ot: { req: 'Ezek 33', alt: '1-23,30-33' },
+			nt: { req: 'Acts 15:1-21' },
+			psalm60: ['107:23-43']
+		}
+	},
+	'6-15': {
+		morning: {
+			ot: { req: 'Josh 22', alt: '7-31' },
+			nt: { req: 'Luke 24:13-end' },
+			psalm60: ['108', '110']
+		},
+		evening: {
+			ot: { req: 'Ezek 34' },
+			nt: { req: 'Acts 15:22-35' },
+			psalm60: ['109']
+		}
+	},
+	'6-16': {
+		morning: {
+			ot: { req: 'Josh 23' },
+			nt: { req: 'Gal 1' },
+			psalm60: ['111', '112']
+		},
+		evening: {
+			ot: { req: 'Ezek 35' },
+			nt: { req: 'Acts 15:36—16:5' },
+			psalm60: ['113', '114']
+		}
+	},
+	'6-17': {
+		morning: {
+			ot: { req: 'Josh 24', alt: '1-31' },
+			nt: { req: 'Gal 2' },
+			psalm60: ['115']
+		},
+		evening: {
+			ot: { req: 'Ezek 36', alt: '16-37' },
+			nt: { req: 'Acts 16:6-end' },
+			psalm60: ['116', '117']
+		}
+	},
+	'6-18': {
+		morning: {
+			ot: { req: 'Judg 1', alt: '1-21' },
+			nt: { req: 'Gal 3' },
+			psalm60: ['119:1-24']
+		},
+		evening: {
+			ot: { req: 'Ezek 37' },
+			nt: { req: 'Acts 17:1-15' },
+			psalm60: ['119:25-48']
+		}
+	},
+	'6-19': {
+		morning: {
+			ot: { req: 'Judg 2', alt: '6-23' },
+			nt: { req: 'Gal 4' },
+			psalm60: ['119:49-72']
+		},
+		evening: {
+			ot: { req: 'Ezek 40', alt: '1-5,17-19,35-49' },
+			nt: { req: 'Acts 17:16-end' },
+			psalm60: ['119:73-88']
+		}
+	},
+	'6-20': {
+		morning: {
+			ot: { req: 'Judg 3', alt: '7-30' },
+			nt: { req: 'Gal 5' },
+			psalm60: ['119:89-104']
+		},
+		evening: {
+			ot: { req: 'Ezek 43' },
+			nt: { req: 'Acts 18:1-23' },
+			psalm60: ['119:105-128']
+		}
+	},
+	'6-21': {
+		morning: {
+			ot: { req: 'Judg 4' },
+			nt: { req: 'Gal 6' },
+			psalm60: ['119:129-152']
+		},
+		evening: {
+			ot: { req: 'Ezek 47' },
+			nt: { req: 'Acts 18:24—19:7' },
+			psalm60: ['119:153-176']
+		}
+	},
+	'6-22': {
+		morning: {
+			ot: { req: 'Judg 5', alt: '1-5,19-31' },
+			nt: { req: '1 Thess 1' },
+			psalm60: ['118']
+		},
+		evening: {
+			ot: { req: 'Dan 1' },
+			nt: { req: 'Acts 19:8-20' },
+			psalm60: ['120', '121']
+		}
+	},
+	'6-23': {
+		morning: {
+			ot: { req: 'Judg 6', alt: '1,6,11-24,33-40' },
+			nt: { req: '1 Thess 2:1-16' },
+			psalm60: ['122', '123']
+		},
+		evening: {
+			ot: { req: 'Dan 2', alt: '1-14,25-28,31-45' },
+			nt: { req: 'Acts 19:21-end' },
+			psalm60: ['124', '125', '126']
+		}
+	},
+	'6-24': {
+		morning: {
+			ot: { req: '1 Thess 2:17—3 end' },
+			nt: { req: 'Matt 14:1-13' },
+			psalm60: ['127', '128']
+		},
+		evening: {
+			ot: { req: 'Dan 3' },
+			nt: { req: 'Acts 20:1-16' },
+			psalm60: ['129', '130', '131']
+		}
+	},
+	'6-25': {
+		morning: {
+			ot: { req: 'Judg 7', alt: '1-8,16-25' },
+			nt: { req: '1 Thess 4:1-12' },
+			psalm60: ['132', '133']
+		},
+		evening: {
+			ot: { req: 'Dan 4', alt: '1-9,19-35' },
+			nt: { req: 'Acts 20:17-end' },
+			psalm60: ['134', '135']
+		}
+	},
+	'6-26': {
+		morning: {
+			ot: { req: 'Judg 8', alt: '4-23,28' },
+			nt: { req: '1 Thess 4:13—5:11' },
+			psalm60: ['136']
+		},
+		evening: {
+			ot: { req: 'Dan 5' },
+			nt: { req: 'Acts 21:1-16' },
+			psalm60: ['137', '138']
+		}
+	},
+	'6-27': {
+		morning: {
+			ot: { req: 'Judg 9', alt: '1-6,22-25,43-56' },
+			nt: { req: '1 Thess 5:12-end' },
+			psalm60: ['139']
+		},
+		evening: {
+			ot: { req: 'Dan 6' },
+			nt: { req: 'Acts 21:17-36' },
+			psalm60: ['141', '142']
+		}
+	},
+	'6-28': {
+		morning: {
+			ot: { req: 'Judg 10', alt: '6-18' },
+			nt: { req: '2 Thess 1' },
+			psalm60: ['140']
+		},
+		evening: {
+			ot: { req: 'Dan 7' },
+			nt: { req: 'Acts 21:37—22:22' },
+			psalm60: ['143']
+		}
+	},
+	'6-29': {
+		morning: {
+			ot: { req: '2 Thess 2' },
+			nt: { req: '2 Pet 3:14-end' },
+			psalm60: ['144']
+		},
+		evening: {
+			ot: { req: 'Dan 8' },
+			nt: { req: 'Acts 22:23—23:11' },
+			psalm60: ['145']
+		}
+	},
+	'6-30': {
+		morning: {
+			ot: { req: 'Judg 11', alt: '1-11,29-40' },
+			nt: { req: '2 Thess 3' },
+			psalm60: ['146']
+		},
+		evening: {
+			ot: { req: 'Dan 9' },
+			nt: { req: 'Acts 23:12-end' },
+			psalm60: ['147']
+		}
+	}
+};
+
+// July data parsed from the provided tables
+const julyData = {
+	'7-1': {
+		morning: {
+			ot: { req: 'Judg 12' },
+			nt: { req: '1 Cor 1:1-25' },
+			psalm60: ['148']
+		},
+		evening: {
+			ot: { req: 'Dan 10' },
+			nt: { req: 'Acts 24:1-23' },
+			psalm60: ['149', '150']
+		}
+	},
+	'7-2': {
+		morning: {
+			ot: { req: 'Judg 13' },
+			nt: { req: '1 Cor 1:26—2 end' },
+			psalm60: ['1', '2']
+		},
+		evening: {
+			ot: { req: 'Dan 11', alt: '1-19' },
+			nt: { req: 'Acts 24:24—25:12' },
+			psalm60: ['3', '4']
+		}
+	},
+	'7-3': {
+		morning: {
+			ot: { req: 'Judg 14' },
+			nt: { req: '1 Cor 3' },
+			psalm60: ['5', '6']
+		},
+		evening: {
+			ot: { req: 'Dan 12' },
+			nt: { req: 'Acts 25:13-end' },
+			psalm60: ['7']
+		}
+	},
+	'7-4': {
+		morning: {
+			ot: { req: 'Judg 15' },
+			nt: { req: '1 Cor 4:1-17' },
+			psalm60: ['9']
+		},
+		evening: {
+			ot: { req: 'Susanna' },
+			nt: { req: 'Acts 26' },
+			psalm60: ['10']
+		}
+	},
+	'7-5': {
+		morning: {
+			ot: { req: 'Judg 16' },
+			nt: { req: '1 Cor 4:18—5 end' },
+			psalm60: ['8', '11']
+		},
+		evening: {
+			ot: { req: 'Esth 1' },
+			nt: { req: 'Acts 27' },
+			psalm60: ['15', '16']
+		}
+	},
+	'7-6': {
+		morning: {
+			ot: { req: 'Ruth 1' },
+			nt: { req: '1 Cor 6' },
+			psalm60: ['12', '13', '14']
+		},
+		evening: {
+			ot: { req: 'Esth 2' },
+			nt: { req: 'Acts 28:1-15' },
+			psalm60: ['17']
+		}
+	},
+	'7-7': {
+		morning: {
+			ot: { req: 'Ruth 2' },
+			nt: { req: '1 Cor 7' },
+			psalm60: ['18:1-20v']
+		},
+		evening: {
+			ot: { req: 'Esth 3' },
+			nt: { req: 'Acts 28:16-end' },
+			psalm60: ['18:21-52v']
+		}
+	},
+	'7-8': {
+		morning: {
+			ot: { req: 'Ruth 3' },
+			nt: { req: '1 Cor 8' },
+			psalm60: ['19']
+		},
+		evening: {
+			ot: { req: 'Esth 4' },
+			nt: { req: 'Philemon' },
+			psalm60: ['20', '21']
+		}
+	},
+	'7-9': {
+		morning: {
+			ot: { req: 'Ruth 4' },
+			nt: { req: '1 Cor 9' },
+			psalm60: ['22']
+		},
+		evening: {
+			ot: { req: 'Esth 5' },
+			nt: { req: '1 Tim 1:1-17' },
+			psalm60: ['23', '24']
+		}
+	},
+	'7-10': {
+		morning: {
+			ot: { req: '1 Sam 1', alt: '1-20' },
+			nt: { req: '1 Cor 10' },
+			psalm60: ['25']
+		},
+		evening: {
+			ot: { req: 'Esth 6' },
+			nt: { req: '1 Tim 1:18—2 end' },
+			psalm60: ['27']
+		}
+	},
+	'7-11': {
+		morning: {
+			ot: { req: '1 Sam 2', alt: '1-21' },
+			nt: { req: '1 Cor 11' },
+			psalm60: ['26', '28']
+		},
+		evening: {
+			ot: { req: 'Esth 7' },
+			nt: { req: '1 Tim 3' },
+			psalm60: ['31']
+		}
+	},
+	'7-12': {
+		morning: {
+			ot: { req: '1 Sam 3' },
+			nt: { req: '1 Cor 12' },
+			psalm60: ['29', '30']
+		},
+		evening: {
+			ot: { req: 'Esth 8' },
+			nt: { req: '1 Tim 4' },
+			psalm60: ['33']
+		}
+	},
+	'7-13': {
+		morning: {
+			ot: { req: '1 Sam 4' },
+			nt: { req: '1 Cor 13' },
+			psalm60: ['34']
+		},
+		evening: {
+			ot: { req: 'Esth 9 & 10' },
+			nt: { req: '1 Tim 5' },
+			psalm60: ['35']
+		}
+	},
+	'7-14': {
+		morning: {
+			ot: { req: '1 Sam 5' },
+			nt: { req: '1 Cor 14:1-19' },
+			psalm60: ['32', '36']
+		},
+		evening: {
+			ot: { req: 'Ezra 1' },
+			nt: { req: '1 Tim 6' },
+			psalm60: ['38']
+		}
+	},
+	'7-15': {
+		morning: {
+			ot: { req: '1 Sam 6', alt: '1-15' },
+			nt: { req: '1 Cor 14:20-end' },
+			psalm60: ['37:1-17v']
+		},
+		evening: {
+			ot: { req: 'Ezra 3' },
+			nt: { req: 'Titus 1' },
+			psalm60: ['37:18-41v']
+		}
+	},
+	'7-16': {
+		morning: {
+			ot: { req: '1 Sam 7' },
+			nt: { req: '1 Cor 15:1-34' },
+			psalm60: ['40']
+		},
+		evening: {
+			ot: { req: 'Ezra 4' },
+			nt: { req: 'Titus 2' },
+			psalm60: ['39', '41']
+		}
+	},
+	'7-17': {
+		morning: {
+			ot: { req: '1 Sam 8' },
+			nt: { req: '1 Cor 15:35-end' },
+			psalm60: ['42', '43']
+		},
+		evening: {
+			ot: { req: 'Ezra 5' },
+			nt: { req: 'Titus 3' },
+			psalm60: ['44']
+		}
+	},
+	'7-18': {
+		morning: {
+			ot: { req: '1 Sam 9' },
+			nt: { req: '1 Cor 16' },
+			psalm60: ['45']
+		},
+		evening: {
+			ot: { req: 'Ezra 6' },
+			nt: { req: '2 Tim 1' },
+			psalm60: ['46']
+		}
+	},
+	'7-19': {
+		morning: {
+			ot: { req: '1 Sam 10' },
+			nt: { req: '2 Cor 1:1—2:11' },
+			psalm60: ['47', '48']
+		},
+		evening: {
+			ot: { req: 'Ezra 7' },
+			nt: { req: '2 Tim 2' },
+			psalm60: ['49']
+		}
+	},
+	'7-20': {
+		morning: {
+			ot: { req: '1 Sam 11' },
+			nt: { req: '2 Cor 2:12—3 end' },
+			psalm60: ['50']
+		},
+		evening: {
+			ot: { req: 'Ezra 8', alt: '21-36' },
+			nt: { req: '2 Tim 3' },
+			psalm60: ['51']
+		}
+	},
+	'7-21': {
+		morning: {
+			ot: { req: '1 Sam 12' },
+			nt: { req: '2 Cor 4' },
+			psalm60: ['52', '53', '54']
+		},
+		evening: {
+			ot: { req: 'Ezra 9' },
+			nt: { req: '2 Tim 4' },
+			psalm60: ['55']
+		}
+	},
+	'7-22': {
+		morning: {
+			ot: { req: '2 Cor 5' },
+			nt: { req: 'Luke 7:36—8:3' },
+			psalm60: ['56', '57']
+		},
+		evening: {
+			ot: { req: 'Ezra 10', alt: '1-16' },
+			nt: { req: 'John 1:1-28' },
+			psalm60: ['58', '60']
+		}
+	},
+	'7-23': {
+		morning: {
+			ot: { req: '1 Sam 13' },
+			nt: { req: '2 Cor 6' },
+			psalm60: ['59']
+		},
+		evening: {
+			ot: { req: 'Neh 1' },
+			nt: { req: 'John 1:29-end' },
+			psalm60: ['63', '64']
+		}
+	},
+	'7-24': {
+		morning: {
+			ot: { req: '1 Sam 14', alt: '1-15,20,24-30' },
+			nt: { req: '2 Cor 7' },
+			psalm60: ['61', '62']
+		},
+		evening: {
+			ot: { req: 'Neh 2' },
+			nt: { req: 'John 2' },
+			psalm60: ['65', '67']
+		}
+	},
+	'7-25': {
+		morning: {
+			ot: { req: '2 Cor 8' },
+			nt: { req: 'Mark 1:14-20' },
+			psalm60: ['68:1-18']
+		},
+		evening: {
+			ot: { req: 'Neh 3', alt: '1-15' },
+			nt: { req: 'John 3:1-21' },
+			psalm60: ['68:19-36']
+		}
+	},
+	'7-26': {
+		morning: {
+			ot: { req: '1 Sam 15' },
+			nt: { req: '2 Cor 9' },
+			psalm60: ['69:1-18v']
+		},
+		evening: {
+			ot: { req: 'Neh 4' },
+			nt: { req: 'John 3:22-end' },
+			psalm60: ['69:19-37v']
+		}
+	},
+	'7-27': {
+		morning: {
+			ot: { req: '1 Sam 16' },
+			nt: { req: '2 Cor 10' },
+			psalm60: ['66']
+		},
+		evening: {
+			ot: { req: 'Neh 5' },
+			nt: { req: 'John 4:1-26' },
+			psalm60: ['70', '72']
+		}
+	},
+	'7-28': {
+		morning: {
+			ot: { req: '1 Sam 17', alt: '1-11,26-27,31-51' },
+			nt: { req: '2 Cor 11' },
+			psalm60: ['71']
+		},
+		evening: {
+			ot: { req: 'Neh 6' },
+			nt: { req: 'John 4:27-end' },
+			psalm60: ['73']
+		}
+	},
+	'7-29': {
+		morning: {
+			ot: { req: '1 Sam 18' },
+			nt: { req: '2 Cor 12:1-13' },
+			psalm60: ['74']
+		},
+		evening: {
+			ot: { req: 'Neh 8' },
+			nt: { req: 'John 5:1-24' },
+			psalm60: ['77']
+		}
+	},
+	'7-30': {
+		morning: {
+			ot: { req: '1 Sam 19' },
+			nt: { req: '2 Cor 12:14—13 end' },
+			psalm60: ['75', '76']
+		},
+		evening: {
+			ot: { req: 'Neh 9', alt: '1-15,26-38' },
+			nt: { req: 'John 5:25-end' },
+			psalm60: ['79', '82']
+		}
+	},
+	'7-31': {
+		morning: {
+			ot: { req: '1 Sam 20', alt: '1-7,24-42' },
+			nt: { req: 'Rom 1' },
+			psalm60: ['78:1-18v']
+		},
+		evening: {
+			ot: { req: 'Neh 10', alt: '28-39' },
+			nt: { req: 'John 6:1-21' },
+			psalm60: ['78:19-40v']
+		}
+	}
+};
+
+// August data parsed from the provided tables
+const augustData = {
+	'8-1': {
+		morning: {
+			ot: { req: '1 Sam 21' },
+			nt: { req: 'Rom 2' },
+			psalm60: ['78:41-73v']
+		},
+		evening: {
+			ot: { req: 'Neh 13', alt: '1-3,10-31' },
+			nt: { req: 'John 6:22-40' },
+			psalm60: ['80']
+		}
+	},
+	'8-2': {
+		morning: {
+			ot: { req: '1 Sam 22' },
+			nt: { req: 'Rom 3' },
+			psalm60: ['81']
+		},
+		evening: {
+			ot: { req: 'Tob 1' },
+			nt: { req: 'John 6:41-end' },
+			psalm60: ['83']
+		}
+	},
+	'8-3': {
+		morning: {
+			ot: { req: '1 Sam 23' },
+			nt: { req: 'Rom 4' },
+			psalm60: ['84']
+		},
+		evening: {
+			ot: { req: 'Tob 2' },
+			nt: { req: 'John 7:1-24' },
+			psalm60: ['85']
+		}
+	},
+	'8-4': {
+		morning: {
+			ot: { req: '1 Sam 24' },
+			nt: { req: 'Rom 5' },
+			psalm60: ['86', '87']
+		},
+		evening: {
+			ot: { req: 'Tob 3' },
+			nt: { req: 'John 7:25-52' },
+			psalm60: ['88']
+		}
+	},
+	'8-5': {
+		morning: {
+			ot: { req: '1 Sam 25', alt: '1-8,20-39' },
+			nt: { req: 'Rom 6' },
+			psalm60: ['89:1-18v']
+		},
+		evening: {
+			ot: { req: 'Tob 4' },
+			nt: { req: 'John 7:53—8:30' },
+			psalm60: ['89:19-51v']
+		}
+	},
+	'8-6': {
+		morning: {
+			ot: { req: 'Rom 7' },
+			nt: { req: 'Mark 9:2-13' },
+			psalm60: ['90']
+		},
+		evening: {
+			ot: { req: 'Tob 5' },
+			nt: { req: 'John 8:31-end' },
+			psalm60: ['91']
+		}
+	},
+	'8-7': {
+		morning: {
+			ot: { req: '1 Sam 26' },
+			nt: { req: 'Rom 8:1-17' },
+			psalm60: ['92', '93']
+		},
+		evening: {
+			ot: { req: 'Tob 6' },
+			nt: { req: 'John 9:1-23' },
+			psalm60: ['94']
+		}
+	},
+	'8-8': {
+		morning: {
+			ot: { req: '1 Sam 28', alt: '3-20' },
+			nt: { req: 'Rom 8:18-end' },
+			psalm60: ['95', '96']
+		},
+		evening: {
+			ot: { req: 'Tob 7' },
+			nt: { req: 'John 9:24-end' },
+			psalm60: ['97', '98']
+		}
+	},
+	'8-9': {
+		morning: {
+			ot: { req: '1 Sam 31' },
+			nt: { req: 'Rom 9' },
+			psalm60: ['99', '100', '101']
+		},
+		evening: {
+			ot: { req: 'Tob 8' },
+			nt: { req: 'John 10:1-21' },
+			psalm60: ['102']
+		}
+	},
+	'8-10': {
+		morning: {
+			ot: { req: '2 Sam 1' },
+			nt: { req: 'Rom 10' },
+			psalm60: ['103']
+		},
+		evening: {
+			ot: { req: 'Tob 9' },
+			nt: { req: 'John 10:22-end' },
+			psalm60: ['104']
+		}
+	},
+	'8-11': {
+		morning: {
+			ot: { req: '2 Sam 2', alt: '1-11' },
+			nt: { req: 'Rom 11:1-24' },
+			psalm60: ['105:1-22v']
+		},
+		evening: {
+			ot: { req: 'Tob 10' },
+			nt: { req: 'John 11:1-44' },
+			psalm60: ['105:23-44v']
+		}
+	},
+	'8-12': {
+		morning: {
+			ot: { req: '2 Sam 3', alt: '6-21,31-39' },
+			nt: { req: 'Rom 11:25-end' },
+			psalm60: ['106:1-18v']
+		},
+		evening: {
+			ot: { req: 'Tob 11' },
+			nt: { req: 'John 11:45-end' },
+			psalm60: ['106:19-46v']
+		}
+	},
+	'8-13': {
+		morning: {
+			ot: { req: '2 Sam 5' },
+			nt: { req: 'Rom 12' },
+			psalm60: ['107:1-22']
+		},
+		evening: {
+			ot: { req: 'Tob 12' },
+			nt: { req: 'John 12:1-19' },
+			psalm60: ['107:23-43']
+		}
+	},
+	'8-14': {
+		morning: {
+			ot: { req: '2 Sam 6' },
+			nt: { req: 'Rom 13' },
+			psalm60: ['108', '110']
+		},
+		evening: {
+			ot: { req: 'Tob 13' },
+			nt: { req: 'John 12:20-end' },
+			psalm60: ['109']
+		}
+	},
+	'8-15': {
+		morning: {
+			ot: { req: 'Rom 14' },
+			nt: { req: 'Luke 1:39-56' },
+			psalm60: ['111', '112']
+		},
+		evening: {
+			ot: { req: 'Tob 14' },
+			nt: { req: 'John 13' },
+			psalm60: ['113', '114']
+		}
+	},
+	'8-16': {
+		morning: {
+			ot: { req: '2 Sam 7', alt: '1-17' },
+			nt: { req: 'Rom 15:1-13' },
+			psalm60: ['115']
+		},
+		evening: {
+			ot: { req: 'Judith 1' },
+			nt: { req: 'John 14' },
+			psalm60: ['116', '117']
+		}
+	},
+	'8-17': {
+		morning: {
+			ot: { req: '2 Sam 9' },
+			nt: { req: 'Rom 15:14-end' },
+			psalm60: ['119:1-24']
+		},
+		evening: {
+			ot: { req: 'Judith 2' },
+			nt: { req: 'John 15' },
+			psalm60: ['119:25-48']
+		}
+	},
+	'8-18': {
+		morning: {
+			ot: { req: '2 Sam 11' },
+			nt: { req: 'Rom 16' },
+			psalm60: ['119:49-72']
+		},
+		evening: {
+			ot: { req: 'Judith 3 & 4' },
+			nt: { req: 'John 16:1-15' },
+			psalm60: ['119:73-88']
+		}
+	},
+	'8-19': {
+		morning: {
+			ot: { req: '2 Sam 12', alt: '1-25' },
+			nt: { req: 'Eph 1' },
+			psalm60: ['119:89-104']
+		},
+		evening: {
+			ot: { req: 'Judith 5' },
+			nt: { req: 'John 16:16-end' },
+			psalm60: ['119:105-128']
+		}
+	},
+	'8-20': {
+		morning: {
+			ot: { req: '2 Sam 13', alt: '1-22,30-39' },
+			nt: { req: 'Eph 2' },
+			psalm60: ['119:129-152']
+		},
+		evening: {
+			ot: { req: 'Judith 6' },
+			nt: { req: 'John 17' },
+			psalm60: ['119:153-176']
+		}
+	},
+	'8-21': {
+		morning: {
+			ot: { req: '2 Sam 14', alt: '4-33' },
+			nt: { req: 'Eph 3' },
+			psalm60: ['118']
+		},
+		evening: {
+			ot: { req: 'Judith 7' },
+			nt: { req: 'John 18:1-27' },
+			psalm60: ['120', '121']
+		}
+	},
+	'8-22': {
+		morning: {
+			ot: { req: '2 Sam 15', alt: '1-12,30-37' },
+			nt: { req: 'Eph 4:1-16' },
+			psalm60: ['122', '123']
+		},
+		evening: {
+			ot: { req: 'Judith 8' },
+			nt: { req: 'John 18:28-end' },
+			psalm60: ['124', '125', '126']
+		}
+	},
+	'8-23': {
+		morning: {
+			ot: { req: '2 Sam 16', alt: '1-14' },
+			nt: { req: 'Eph 4:17-end' },
+			psalm60: ['127', '128']
+		},
+		evening: {
+			ot: { req: 'Judith 9' },
+			nt: { req: 'John 19:1-37' },
+			psalm60: ['129', '130', '131']
+		}
+	},
+	'8-24': {
+		morning: {
+			ot: { req: 'Eph 5:1-20' },
+			nt: { req: 'John 1:43-end' },
+			psalm60: ['132', '133']
+		},
+		evening: {
+			ot: { req: 'Judith 10' },
+			nt: { req: 'John 19:38-end' },
+			psalm60: ['134', '135']
+		}
+	},
+	'8-25': {
+		morning: {
+			ot: { req: '2 Sam 17', alt: '1-23' },
+			nt: { req: 'Eph 5:21-end' },
+			psalm60: ['136']
+		},
+		evening: {
+			ot: { req: 'Judith 11' },
+			nt: { req: 'John 20' },
+			psalm60: ['137', '138']
+		}
+	},
+	'8-26': {
+		morning: {
+			ot: { req: '2 Sam 18', alt: '1-18,24-33' },
+			nt: { req: 'Eph 6' },
+			psalm60: ['139']
+		},
+		evening: {
+			ot: { req: 'Judith 12' },
+			nt: { req: 'John 21' },
+			psalm60: ['141', '142']
+		}
+	},
+	'8-27': {
+		morning: {
+			ot: { req: '2 Sam 19', alt: '8-23,31-end' },
+			nt: { req: 'Phil 1' },
+			psalm60: ['140']
+		},
+		evening: {
+			ot: { req: 'Judith 13' },
+			nt: { req: 'Matt 1' },
+			psalm60: ['143']
+		}
+	},
+	'8-28': {
+		morning: {
+			ot: { req: '2 Sam 23', alt: '1-7,13-17' },
+			nt: { req: 'Phil 2:1-13' },
+			psalm60: ['144']
+		},
+		evening: {
+			ot: { req: 'Judith 14' },
+			nt: { req: 'Matt 2' },
+			psalm60: ['145']
+		}
+	},
+	'8-29': {
+		morning: {
+			ot: { req: '2 Sam 24' },
+			nt: { req: 'Phil 2:14-end' },
+			psalm60: ['146']
+		},
+		evening: {
+			ot: { req: 'Judith 15 & 16' },
+			nt: { req: 'Matt 3' },
+			psalm60: ['147']
+		}
+	},
+	'8-30': {
+		morning: {
+			ot: { req: '1 Kings 1', alt: '5-27,38-40,46-53' },
+			nt: { req: 'Phil 3' },
+			psalm60: ['148']
+		},
+		evening: {
+			ot: { req: 'Wisd 1' },
+			nt: { req: 'Matt 4' },
+			psalm60: ['149', '150']
+		}
+	},
+	'8-31': {
+		morning: {
+			ot: { req: '1 Kings 2', alt: '1-12,26-34' },
+			nt: { req: 'Phil 4' },
+			psalm60: ['1', '2']
+		},
+		evening: {
+			ot: { req: 'Wisd 2' },
+			nt: { req: 'Matt 5:1-20' },
+			psalm60: ['3', '4']
+		}
+	}
+};
+
+// September data parsed from the provided tables
+const septemberData = {
+	'9-1': {
+		morning: {
+			ot: { req: '2 Sam 19', alt: '1-30' },
+			nt: { req: 'Eph 1:15-end' },
+			psalm60: ['1', '2']
+		},
+		evening: {
+			ot: { req: 'Jonah 3' },
+			nt: { req: 'Matt 4' },
+			psalm60: ['3', '4']
+		}
+	},
+	'9-2': {
+		morning: {
+			ot: { req: '2 Sam 20' },
+			nt: { req: 'Eph 2:1-10' },
+			psalm60: ['5', '6']
+		},
+		evening: {
+			ot: { req: 'Jonah 4' },
+			nt: { req: 'Matt 5:1-20' },
+			psalm60: ['7']
+		}
+	},
+	'9-3': {
+		morning: {
+			ot: { req: '2 Sam 21' },
+			nt: { req: 'Eph 2:11-end' },
+			psalm60: ['9']
+		},
+		evening: {
+			ot: { req: 'Mic 1' },
+			nt: { req: 'Matt 5:21-48' },
+			psalm60: ['10']
+		}
+	},
+	'9-4': {
+		morning: {
+			ot: { req: '2 Sam 22', alt: '1-7,14-20,32-51' },
+			nt: { req: 'Eph 3' },
+			psalm60: ['8', '11']
+		},
+		evening: {
+			ot: { req: 'Mic 2' },
+			nt: { req: 'Matt 6:1-18' },
+			psalm60: ['15', '16']
+		}
+	},
+	'9-5': {
+		morning: {
+			ot: { req: '2 Sam 23', alt: '1-23' },
+			nt: { req: 'Eph 4:1-16' },
+			psalm60: ['12', '13', '14']
+		},
+		evening: {
+			ot: { req: 'Mic 3' },
+			nt: { req: 'Matt 6:19-end' },
+			psalm60: ['17']
+		}
+	},
+	'9-6': {
+		morning: {
+			ot: { req: '2 Sam 24' },
+			nt: { req: 'Eph 4:17-end' },
+			psalm60: ['18:1-20v']
+		},
+		evening: {
+			ot: { req: 'Mic 4' },
+			nt: { req: 'Matt 7' },
+			psalm60: ['18:21-52v']
+		}
+	},
+	'9-7': {
+		morning: {
+			ot: { req: '1 Chron 22' },
+			nt: { req: 'Eph 5:1-17' },
+			psalm60: ['19']
+		},
+		evening: {
+			ot: { req: 'Mic 5' },
+			nt: { req: 'Matt 8:1-17' },
+			psalm60: ['20', '21']
+		}
+	},
+	'9-8': {
+		morning: {
+			ot: { req: '1 Kings 1', alt: '1-18,29-40' },
+			nt: { req: 'Eph 5:18-end' },
+			psalm60: ['22']
+		},
+		evening: {
+			ot: { req: 'Mic 6' },
+			nt: { req: 'Matt 8:18-end' },
+			psalm60: ['23', '24']
+		}
+	},
+	'9-9': {
+		morning: {
+			ot: { req: '1 Chron 28' },
+			nt: { req: 'Eph 6' },
+			psalm60: ['25']
+		},
+		evening: {
+			ot: { req: 'Mic 7' },
+			nt: { req: 'Matt 9:1-17' },
+			psalm60: ['27']
+		}
+	},
+	'9-10': {
+		morning: {
+			ot: { req: '1 Kings 2', alt: '1-25' },
+			nt: { req: 'Heb 1' },
+			psalm60: ['26', '28']
+		},
+		evening: {
+			ot: { req: 'Nahum 1' },
+			nt: { req: 'Matt 9:18-34' },
+			psalm60: ['31']
+		}
+	},
+	'9-11': {
+		morning: {
+			ot: { req: '1 Kings 3' },
+			nt: { req: 'Heb 2' },
+			psalm60: ['29', '30']
+		},
+		evening: {
+			ot: { req: 'Nahum 2' },
+			nt: { req: 'Matt 9:35—10:23' },
+			psalm60: ['33']
+		}
+	},
+	'9-12': {
+		morning: {
+			ot: { req: '1 Kings 4', alt: '1-6,20-34' },
+			nt: { req: 'Heb 3' },
+			psalm60: ['34']
+		},
+		evening: {
+			ot: { req: 'Nahum 3' },
+			nt: { req: 'Matt 10:24-end' },
+			psalm60: ['35']
+		}
+	},
+	'9-13': {
+		morning: {
+			ot: { req: '1 Kings 5' },
+			nt: { req: 'Heb 4:1-13' },
+			psalm60: ['32', '36']
+		},
+		evening: {
+			ot: { req: 'Hab 1' },
+			nt: { req: 'Matt 11' },
+			psalm60: ['38']
+		}
+	},
+	'9-14': {
+		morning: {
+			ot: { req: 'Heb 4:14—5:10' },
+			nt: { req: 'John 12:23-33' },
+			psalm60: ['37:1-17v']
+		},
+		evening: {
+			ot: { req: 'Hab 2' },
+			nt: { req: 'Matt 12:1-21' },
+			psalm60: ['37:18-41v']
+		}
+	},
+	'9-15': {
+		morning: {
+			ot: { req: '1 Kings 6', alt: '1-7,11-30,37-38' },
+			nt: { req: 'Heb 5:11—6 end' },
+			psalm60: ['40']
+		},
+		evening: {
+			ot: { req: 'Hab 3' },
+			nt: { req: 'Matt 12:22-end' },
+			psalm60: ['39', '41']
+		}
+	},
+	'9-16': {
+		morning: {
+			ot: { req: '1 Kings 7', alt: '1-14,40-44,47-51' },
+			nt: { req: 'Heb 7' },
+			psalm60: ['42', '43']
+		},
+		evening: {
+			ot: { req: 'Zeph 1' },
+			nt: { req: 'Matt 13:1-23' },
+			psalm60: ['44']
+		}
+	},
+	'9-17': {
+		morning: {
+			ot: { req: '1 Kings 8', alt: '1-11,22-30,54-63' },
+			nt: { req: 'Heb 8' },
+			psalm60: ['45']
+		},
+		evening: {
+			ot: { req: 'Zeph 2' },
+			nt: { req: 'Matt 13:24-43' },
+			psalm60: ['46']
+		}
+	},
+	'9-18': {
+		morning: {
+			ot: { req: '1 Kings 9', alt: '1-9,15-28' },
+			nt: { req: 'Heb 9:1-14' },
+			psalm60: ['47', '48']
+		},
+		evening: {
+			ot: { req: 'Zeph 3' },
+			nt: { req: 'Matt 13:44-end' },
+			psalm60: ['49']
+		}
+	},
+	'9-19': {
+		morning: {
+			ot: { req: '1 Kings 10', alt: '1-13,23-29' },
+			nt: { req: 'Heb 9:15-end' },
+			psalm60: ['50']
+		},
+		evening: {
+			ot: { req: 'Hag 1' },
+			nt: { req: 'Matt 14' },
+			psalm60: ['51']
+		}
+	},
+	'9-20': {
+		morning: {
+			ot: { req: '1 Kings 11', alt: '1-14,23-33,41-43' },
+			nt: { req: 'Heb 10:1-18' },
+			psalm60: ['52', '53', '54']
+		},
+		evening: {
+			ot: { req: 'Hag 2' },
+			nt: { req: 'Matt 15:1-28' },
+			psalm60: ['55']
+		}
+	},
+	'9-21': {
+		morning: {
+			ot: { req: 'Heb 10:19-end' },
+			nt: { req: 'Matt 9:9-13' },
+			psalm60: ['56', '57']
+		},
+		evening: {
+			ot: { req: 'Zech 1' },
+			nt: { req: 'Matt 15:29—16:12' },
+			psalm60: ['58', '60']
+		}
+	},
+	'9-22': {
+		morning: {
+			ot: { req: '1 Kings 12', alt: '1-20,25-30' },
+			nt: { req: 'Heb 11' },
+			psalm60: ['59']
+		},
+		evening: {
+			ot: { req: 'Zech 2' },
+			nt: { req: 'Matt 16:13-end' },
+			psalm60: ['63', '64']
+		}
+	},
+	'9-23': {
+		morning: {
+			ot: { req: '1 Kings 13', alt: '1-25,33-34' },
+			nt: { req: 'Heb 12:1-17' },
+			psalm60: ['61', '62']
+		},
+		evening: {
+			ot: { req: 'Zech 3' },
+			nt: { req: 'Matt 17:1-23' },
+			psalm60: ['65', '67']
+		}
+	},
+	'9-24': {
+		morning: {
+			ot: { req: '1 Kings 14' },
+			nt: { req: 'Heb 12:18-end' },
+			psalm60: ['68:1-18']
+		},
+		evening: {
+			ot: { req: 'Zech 4' },
+			nt: { req: 'Matt 17:24—18:14' },
+			psalm60: ['68:19-36']
+		}
+	},
+	'9-25': {
+		morning: {
+			ot: { req: '2 Chron 12' },
+			nt: { req: 'Heb 13' },
+			psalm60: ['69:1-18v']
+		},
+		evening: {
+			ot: { req: 'Zech 5' },
+			nt: { req: 'Matt 18:15-end' },
+			psalm60: ['69:19-37v']
+		}
+	},
+	'9-26': {
+		morning: {
+			ot: { req: '2 Chron 13' },
+			nt: { req: 'Jas 1' },
+			psalm60: ['66']
+		},
+		evening: {
+			ot: { req: 'Zech 6' },
+			nt: { req: 'Matt 19:1-15' },
+			psalm60: ['70', '72']
+		}
+	},
+	'9-27': {
+		morning: {
+			ot: { req: '2 Chron 14' },
+			nt: { req: 'Jas 2:1-13' },
+			psalm60: ['71']
+		},
+		evening: {
+			ot: { req: 'Zech 7' },
+			nt: { req: 'Matt 19:16—20:16' },
+			psalm60: ['73']
+		}
+	},
+	'9-28': {
+		morning: {
+			ot: { req: '2 Chron 15' },
+			nt: { req: 'Jas 2:14-end' },
+			psalm60: ['74']
+		},
+		evening: {
+			ot: { req: 'Zech 8' },
+			nt: { req: 'Matt 20:17-end' },
+			psalm60: ['77']
+		}
+	},
+	'9-29': {
+		morning: {
+			ot: { req: 'Rev 12:7-12' },
+			nt: { req: 'Jas 3' },
+			psalm60: ['75', '76']
+		},
+		evening: {
+			ot: { req: 'Zech 9' },
+			nt: { req: 'Matt 21:1-22' },
+			psalm60: ['79', '82']
+		}
+	},
+	'9-30': {
+		morning: {
+			ot: { req: '2 Chron 16' },
+			nt: { req: 'Jas 4' },
+			psalm60: ['78:1-18v']
+		},
+		evening: {
+			ot: { req: 'Zech 10' },
+			nt: { req: 'Matt 21:23-end' },
+			psalm60: ['78:19-40v']
+		}
+	}
+};
+
+// October data parsed from the provided tables
+const octoberData = {
+	'10-1': {
+		morning: {
+			ot: { req: '1 Kings 15', alt: '1-30' },
+			nt: { req: 'Jas 5' },
+			psalm60: ['78:41-73v']
+		},
+		evening: {
+			ot: { req: 'Zech 11' },
+			nt: { req: 'Matt 22:1-33' },
+			psalm60: ['80']
+		}
+	},
+	'10-2': {
+		morning: {
+			ot: { req: '1 Kings 16', alt: '1-4,8-19,23-34' },
+			nt: { req: '1 Pet 1:1-21' },
+			psalm60: ['81']
+		},
+		evening: {
+			ot: { req: 'Zech 12' },
+			nt: { req: 'Matt 22:34—23:12' },
+			psalm60: ['83']
+		}
+	},
+	'10-3': {
+		morning: {
+			ot: { req: '1 Kings 17' },
+			nt: { req: '1 Pet 1:22—2:10' },
+			psalm60: ['84']
+		},
+		evening: {
+			ot: { req: 'Zech 13' },
+			nt: { req: 'Matt 23:13-end' },
+			psalm60: ['85']
+		}
+	},
+	'10-4': {
+		morning: {
+			ot: { req: '1 Kings 18', alt: '1-8,17-46' },
+			nt: { req: '1 Pet 2:11—3:7' },
+			psalm60: ['86', '87']
+		},
+		evening: {
+			ot: { req: 'Zech 14' },
+			nt: { req: 'Matt 24:1-28' },
+			psalm60: ['88']
+		}
+	},
+	'10-5': {
+		morning: {
+			ot: { req: '1 Kings 19' },
+			nt: { req: '1 Pet 3:8—4:6' },
+			psalm60: ['89:1-18v']
+		},
+		evening: {
+			ot: { req: 'Mal 1' },
+			nt: { req: 'Matt 24:29-end' },
+			psalm60: ['89:19-51v']
+		}
+	},
+	'10-6': {
+		morning: {
+			ot: { req: '1 Kings 20', alt: '1,13,21-43' },
+			nt: { req: '1 Pet 4:7-end' },
+			psalm60: ['90']
+		},
+		evening: {
+			ot: { req: 'Mal 2' },
+			nt: { req: 'Matt 25:1-30' },
+			psalm60: ['91']
+		}
+	},
+	'10-7': {
+		morning: {
+			ot: { req: '1 Kings 21' },
+			nt: { req: '1 Pet 5' },
+			psalm60: ['92', '93']
+		},
+		evening: {
+			ot: { req: 'Mal 3' },
+			nt: { req: 'Matt 25:31-end' },
+			psalm60: ['94']
+		}
+	},
+	'10-8': {
+		morning: {
+			ot: { req: '1 Kings 22', alt: '1-23,29-38' },
+			nt: { req: '2 Pet 1' },
+			psalm60: ['95', '96']
+		},
+		evening: {
+			ot: { req: 'Mal 4' },
+			nt: { req: 'Matt 26:1-30' },
+			psalm60: ['97', '98']
+		}
+	},
+	'10-9': {
+		morning: {
+			ot: { req: '2 Chron 20' },
+			nt: { req: '2 Pet 2' },
+			psalm60: ['99', '100', '101']
+		},
+		evening: {
+			ot: { req: '1 Macc 1', alt: '1-15,20-25,41-64' },
+			nt: { req: 'Matt 26:31-56' },
+			psalm60: ['102']
+		}
+	},
+	'10-10': {
+		morning: {
+			ot: { req: '2 Kings 1' },
+			nt: { req: '2 Pet 3' },
+			psalm60: ['103']
+		},
+		evening: {
+			ot: { req: '1 Macc 2', alt: '1-28' },
+			nt: { req: 'Matt 26:57-end' },
+			psalm60: ['104']
+		}
+	},
+	'10-11': {
+		morning: {
+			ot: { req: '2 Kings 2' },
+			nt: { req: 'Jude' },
+			psalm60: ['105:1-22v']
+		},
+		evening: {
+			ot: { req: '2 Macc 6' },
+			nt: { req: 'Matt 27:1-26' },
+			psalm60: ['105:23-44v']
+		}
+	},
+	'10-12': {
+		morning: {
+			ot: { req: '2 Kings 3' },
+			nt: { req: '1 John 1:1—2:6' },
+			psalm60: ['106:1-18v']
+		},
+		evening: {
+			ot: { req: '2 Macc 7' },
+			nt: { req: 'Matt 27:27-56' },
+			psalm60: ['106:19-46v']
+		}
+	},
+	'10-13': {
+		morning: {
+			ot: { req: '2 Kings 4', alt: '8-37' },
+			nt: { req: '1 John 2:7-end' },
+			psalm60: ['107:1-22']
+		},
+		evening: {
+			ot: { req: '2 Macc 8', alt: '1-29' },
+			nt: { req: 'Matt 27:57—28 end' },
+			psalm60: ['107:23-43']
+		}
+	},
+	'10-14': {
+		morning: {
+			ot: { req: '2 Kings 5' },
+			nt: { req: '1 John 3:1-10' },
+			psalm60: ['108', '110']
+		},
+		evening: {
+			ot: { req: '2 Macc 10', alt: '1-8,24-38' },
+			nt: { req: 'Mark 1:1-13' },
+			psalm60: ['109']
+		}
+	},
+	'10-15': {
+		morning: {
+			ot: { req: '2 Kings 6', alt: '1-24' },
+			nt: { req: '1 John 3:11—4:6' },
+			psalm60: ['111', '112']
+		},
+		evening: {
+			ot: { req: '1 Macc 7', alt: '1-6,23-50' },
+			nt: { req: 'Mark 1:14-31' },
+			psalm60: ['113', '114']
+		}
+	},
+	'10-16': {
+		morning: {
+			ot: { req: '2 Kings 7' },
+			nt: { req: '1 John 4:7-end' },
+			psalm60: ['115']
+		},
+		evening: {
+			ot: { req: '1 Macc 9', alt: '1-31' },
+			nt: { req: 'Mark 1:32-end' },
+			psalm60: ['116', '117']
+		}
+	},
+	'10-17': {
+		morning: {
+			ot: { req: '2 Kings 8', alt: '1-19,25-27' },
+			nt: { req: '1 John 5' },
+			psalm60: ['119:1-24']
+		},
+		evening: {
+			ot: { req: '1 Macc 13', alt: '1-30,41-42' },
+			nt: { req: 'Mark 2:1-22' },
+			psalm60: ['119:25-48']
+		}
+	},
+	'10-18': {
+		morning: {
+			ot: { req: '2 John' },
+			nt: { req: 'Luke 1:1-4' },
+			psalm60: ['119:49-72']
+		},
+		evening: {
+			ot: { req: '1 Macc 14', alt: '4-18,35-43' },
+			nt: { req: 'Mark 2:23—3:12' },
+			psalm60: ['119:73-88']
+		}
+	},
+	'10-19': {
+		morning: {
+			ot: { req: '2 Kings 9', alt: '1-26,30-37' },
+			nt: { req: '3 John' },
+			psalm60: ['119:89-104']
+		},
+		evening: {
+			ot: { req: 'Isa 1' },
+			nt: { req: 'Mark 3:13-end' },
+			psalm60: ['119:105-128']
+		}
+	},
+	'10-20': {
+		morning: {
+			ot: { req: '2 Kings 10', alt: '1-11,18-31' },
+			nt: { req: 'Acts 1:1-14' },
+			psalm60: ['119:129-152']
+		},
+		evening: {
+			ot: { req: 'Isa 2' },
+			nt: { req: 'Mark 4:1-34' },
+			psalm60: ['119:153-176']
+		}
+	},
+	'10-21': {
+		morning: {
+			ot: { req: '2 Kings 11' },
+			nt: { req: 'Acts 1:15-end' },
+			psalm60: ['118']
+		},
+		evening: {
+			ot: { req: 'Isa 3' },
+			nt: { req: 'Mark 4:35—5:20' },
+			psalm60: ['120', '121']
+		}
+	},
+	'10-22': {
+		morning: {
+			ot: { req: '2 Kings 12' },
+			nt: { req: 'Acts 2:1-21' },
+			psalm60: ['122', '123']
+		},
+		evening: {
+			ot: { req: 'Isa 4' },
+			nt: { req: 'Mark 5:21-end' },
+			psalm60: ['124', '125', '126']
+		}
+	},
+	'10-23': {
+		morning: {
+			ot: { req: 'Acts 2:22-end' },
+			nt: { req: 'James 1' },
+			psalm60: ['127', '128']
+		},
+		evening: {
+			ot: { req: 'Isa 5' },
+			nt: { req: 'Mark 6:1-29' },
+			psalm60: ['129', '130', '131']
+		}
+	},
+	'10-24': {
+		morning: {
+			ot: { req: '2 Kings 13' },
+			nt: { req: 'Acts 3:1—4:4' },
+			psalm60: ['132', '133']
+		},
+		evening: {
+			ot: { req: 'Isa 6' },
+			nt: { req: 'Mark 6:30-end' },
+			psalm60: ['134', '135']
+		}
+	},
+	'10-25': {
+		morning: {
+			ot: { req: '2 Kings 14' },
+			nt: { req: 'Acts 4:5-31' },
+			psalm60: ['136']
+		},
+		evening: {
+			ot: { req: 'Isa 7' },
+			nt: { req: 'Mark 7:1-23' },
+			psalm60: ['137', '138']
+		}
+	},
+	'10-26': {
+		morning: {
+			ot: { req: '2 Chron 26' },
+			nt: { req: 'Acts 4:32—5:11' },
+			psalm60: ['139']
+		},
+		evening: {
+			ot: { req: 'Isa 8' },
+			nt: { req: 'Mark 7:24—8:10' },
+			psalm60: ['141', '142']
+		}
+	},
+	'10-27': {
+		morning: {
+			ot: { req: '2 Kings 15', alt: '1-29' },
+			nt: { req: 'Acts 5:12-end' },
+			psalm60: ['140']
+		},
+		evening: {
+			ot: { req: 'Isa 9' },
+			nt: { req: 'Mark 8:11-end' },
+			psalm60: ['143']
+		}
+	},
+	'10-28': {
+		morning: {
+			ot: { req: 'Acts 6:1—7:16' },
+			nt: { req: 'John 14:15-31' },
+			psalm60: ['144']
+		},
+		evening: {
+			ot: { req: 'Isa 10' },
+			nt: { req: 'Mark 9:1-29' },
+			psalm60: ['145']
+		}
+	},
+	'10-29': {
+		morning: {
+			ot: { req: '2 Kings 16' },
+			nt: { req: 'Acts 7:17-34' },
+			psalm60: ['146']
+		},
+		evening: {
+			ot: { req: 'Isa 11' },
+			nt: { req: 'Mark 9:30-end' },
+			psalm60: ['147']
+		}
+	},
+	'10-30': {
+		morning: {
+			ot: { req: '2 Kings 17', alt: '1-28,41' },
+			nt: { req: 'Acts 7:35—8:3' },
+			psalm60: ['148']
+		},
+		evening: {
+			ot: { req: 'Isa 12' },
+			nt: { req: 'Mark 10:1-31' },
+			psalm60: ['149', '150']
+		}
+	},
+	'10-31': {
+		morning: {
+			ot: { req: '2 Chron 28' },
+			nt: { req: 'Acts 8:4-25' },
+			psalm60: ['1', '2']
+		},
+		evening: {
+			ot: { req: 'Isa 13' },
+			nt: { req: 'Mark 10:32-end' },
+			psalm60: ['3', '4']
+		}
+	}
+};
+
+// November data parsed from the provided tables
+const novemberData = {
+	'11-1': {
+		morning: {
+			ot: { req: 'Heb 11:32—12:2' },
+			nt: { req: 'Acts 8:26-end' },
+			psalm60: ['1', '15']
+		},
+		evening: {
+			ot: { req: 'Isa 14' },
+			nt: { req: 'Rev 19:1-16' },
+			psalm60: ['34']
+		}
+	},
+	'11-2': {
+		morning: {
+			ot: { req: '2 Chron 29', alt: '1-11,20-30,35-36' },
+			nt: { req: 'Acts 9:1-31' },
+			psalm60: ['5', '6']
+		},
+		evening: {
+			ot: { req: 'Isa 15' },
+			nt: { req: 'Mark 11:1-26' },
+			psalm60: ['7']
+		}
+	},
+	'11-3': {
+		morning: {
+			ot: { req: '2 Chron 30', alt: '1-22,26-27' },
+			nt: { req: 'Acts 9:32-end' },
+			psalm60: ['9']
+		},
+		evening: {
+			ot: { req: 'Isa 16' },
+			nt: { req: 'Mark 11:27—12:12' },
+			psalm60: ['10']
+		}
+	},
+	'11-4': {
+		morning: {
+			ot: { req: '2 Kings 18', alt: '1-13,17-30,35-37' },
+			nt: { req: 'Acts 10:1-23' },
+			psalm60: ['8', '11']
+		},
+		evening: {
+			ot: { req: 'Isa 17' },
+			nt: { req: 'Mark 12:13-34' },
+			psalm60: ['15', '16']
+		}
+	},
+	'11-5': {
+		morning: {
+			ot: { req: '2 Kings 19', alt: '1-20,29-31,35-37' },
+			nt: { req: 'Acts 10:24-end' },
+			psalm60: ['12', '13', '14']
+		},
+		evening: {
+			ot: { req: 'Isa 18' },
+			nt: { req: 'Mark 12:35—13:13' },
+			psalm60: ['17']
+		}
+	},
+	'11-6': {
+		morning: {
+			ot: { req: '2 Kings 20' },
+			nt: { req: 'Acts 11:1-18' },
+			psalm60: ['18:1-20v']
+		},
+		evening: {
+			ot: { req: 'Isa 19' },
+			nt: { req: 'Mark 13:14-end' },
+			psalm60: ['18:21-52v']
+		}
+	},
+	'11-7': {
+		morning: {
+			ot: { req: '2 Chron 33' },
+			nt: { req: 'Acts 11:19-end' },
+			psalm60: ['19']
+		},
+		evening: {
+			ot: { req: 'Isa 20' },
+			nt: { req: 'Mark 14:1-25' },
+			psalm60: ['20', '21']
+		}
+	},
+	'11-8': {
+		morning: {
+			ot: { req: '2 Kings 21' },
+			nt: { req: 'Acts 12:1-24' },
+			psalm60: ['22']
+		},
+		evening: {
+			ot: { req: 'Isa 21' },
+			nt: { req: 'Mark 14:26-52' },
+			psalm60: ['23', '24']
+		}
+	},
+	'11-9': {
+		morning: {
+			ot: { req: '2 Kings 22' },
+			nt: { req: 'Acts 12:25—13:12' },
+			psalm60: ['25']
+		},
+		evening: {
+			ot: { req: 'Isa 22' },
+			nt: { req: 'Mark 14:53-end' },
+			psalm60: ['27']
+		}
+	},
+	'11-10': {
+		morning: {
+			ot: { req: '2 Kings 23', alt: '1-20,26-30' },
+			nt: { req: 'Acts 13:13-43' },
+			psalm60: ['26', '28']
+		},
+		evening: {
+			ot: { req: 'Isa 23' },
+			nt: { req: 'Mark 15' },
+			psalm60: ['31']
+		}
+	},
+	'11-11': {
+		morning: {
+			ot: { req: '2 Kings 24' },
+			nt: { req: 'Acts 13:44—14:7' },
+			psalm60: ['29', '30']
+		},
+		evening: {
+			ot: { req: 'Isa 24' },
+			nt: { req: 'Mark 16' },
+			psalm60: ['33']
+		}
+	},
+	'11-12': {
+		morning: {
+			ot: { req: '2 Kings 25', alt: '1-22,25-30' },
+			nt: { req: 'Acts 14:8-end' },
+			psalm60: ['34']
+		},
+		evening: {
+			ot: { req: 'Isa 25' },
+			nt: { req: 'Luke 1:1-23' },
+			psalm60: ['35']
+		}
+	},
+	'11-13': {
+		morning: {
+			ot: { req: 'Judith 4' },
+			nt: { req: 'Acts 15:1-21' },
+			psalm60: ['32', '36']
+		},
+		evening: {
+			ot: { req: 'Isa 26' },
+			nt: { req: 'Luke 1:24-56' },
+			psalm60: ['38']
+		}
+	},
+	'11-14': {
+		morning: {
+			ot: { req: 'Judith 8' },
+			nt: { req: 'Acts 15:22-35' },
+			psalm60: ['37:1-17v']
+		},
+		evening: {
+			ot: { req: 'Isa 27' },
+			nt: { req: 'Luke 1:57-end' },
+			psalm60: ['37:18-41v']
+		}
+	},
+	'11-15': {
+		morning: {
+			ot: { req: 'Judith 9' },
+			nt: { req: 'Acts 15:36—16:5' },
+			psalm60: ['40']
+		},
+		evening: {
+			ot: { req: 'Isa 28' },
+			nt: { req: 'Luke 2:1-21' },
+			psalm60: ['39', '41']
+		}
+	},
+	'11-16': {
+		morning: {
+			ot: { req: 'Judith 10' },
+			nt: { req: 'Acts 16:6-end' },
+			psalm60: ['42', '43']
+		},
+		evening: {
+			ot: { req: 'Isa 29' },
+			nt: { req: 'Luke 2:22-end' },
+			psalm60: ['44']
+		}
+	},
+	'11-17': {
+		morning: {
+			ot: { req: 'Judith 11' },
+			nt: { req: 'Acts 17:1-15' },
+			psalm60: ['45']
+		},
+		evening: {
+			ot: { req: 'Isa 30' },
+			nt: { req: 'Luke 3:1-22' },
+			psalm60: ['46']
+		}
+	},
+	'11-18': {
+		morning: {
+			ot: { req: 'Judith 12' },
+			nt: { req: 'Acts 17:16-end' },
+			psalm60: ['47', '48']
+		},
+		evening: {
+			ot: { req: 'Isa 31' },
+			nt: { req: 'Luke 3:23-end' },
+			psalm60: ['49']
+		}
+	},
+	'11-19': {
+		morning: {
+			ot: { req: 'Judith 13' },
+			nt: { req: 'Acts 18:1-23' },
+			psalm60: ['50']
+		},
+		evening: {
+			ot: { req: 'Isa 32' },
+			nt: { req: 'Luke 4:1-30' },
+			psalm60: ['51']
+		}
+	},
+	'11-20': {
+		morning: {
+			ot: { req: 'Judith 14' },
+			nt: { req: 'Acts 18:24—19:7' },
+			psalm60: ['52', '53', '54']
+		},
+		evening: {
+			ot: { req: 'Isa 33' },
+			nt: { req: 'Luke 4:31-end' },
+			psalm60: ['55']
+		}
+	},
+	'11-21': {
+		morning: {
+			ot: { req: 'Judith 15' },
+			nt: { req: 'Acts 19:8-20' },
+			psalm60: ['56', '57']
+		},
+		evening: {
+			ot: { req: 'Isa 34' },
+			nt: { req: 'Luke 5:1-16' },
+			psalm60: ['58', '60']
+		}
+	},
+	'11-22': {
+		morning: {
+			ot: { req: 'Judith 16' },
+			nt: { req: 'Acts 19:21-end' },
+			psalm60: ['59']
+		},
+		evening: {
+			ot: { req: 'Isa 35' },
+			nt: { req: 'Luke 5:17-end' },
+			psalm60: ['63', '64']
+		}
+	},
+	'11-23': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 1' },
+			nt: { req: 'Acts 20:1-16' },
+			psalm60: ['61', '62']
+		},
+		evening: {
+			ot: { req: 'Isa 36' },
+			nt: { req: 'Luke 6:1-19' },
+			psalm60: ['65', '67']
+		}
+	},
+	'11-24': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 2' },
+			nt: { req: 'Acts 20:17-end' },
+			psalm60: ['68:1-18']
+		},
+		evening: {
+			ot: { req: 'Isa 37' },
+			nt: { req: 'Luke 6:20-38' },
+			psalm60: ['68:19-36']
+		}
+	},
+	'11-25': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 4', alt: '1-19' },
+			nt: { req: 'Acts 21:1-16' },
+			psalm60: ['69:1-18v']
+		},
+		evening: {
+			ot: { req: 'Isa 38' },
+			nt: { req: 'Luke 6:39—7:10' },
+			psalm60: ['69:19-37v']
+		}
+	},
+	'11-26': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 6', alt: '5-31' },
+			nt: { req: 'Acts 21:17-36' },
+			psalm60: ['66']
+		},
+		evening: {
+			ot: { req: 'Isa 39' },
+			nt: { req: 'Luke 7:11-35' },
+			psalm60: ['70', '72']
+		}
+	},
+	'11-27': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 7', alt: '1-21,27-36' },
+			nt: { req: 'Acts 21:37—22:22' },
+			psalm60: ['71']
+		},
+		evening: {
+			ot: { req: 'Isa 40' },
+			nt: { req: 'Luke 7:36-end' },
+			psalm60: ['73']
+		}
+	},
+	'11-28': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 9' },
+			nt: { req: 'Acts 22:23—23:11' },
+			psalm60: ['74']
+		},
+		evening: {
+			ot: { req: 'Isa 41' },
+			nt: { req: 'Luke 8:1-21' },
+			psalm60: ['77']
+		}
+	},
+	'11-29': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 10', alt: '1-24' },
+			nt: { req: 'Acts 23:12-end' },
+			psalm60: ['75', '76']
+		},
+		evening: {
+			ot: { req: 'Isa 42' },
+			nt: { req: 'Luke 8:22-end' },
+			psalm60: ['79', '82']
+		}
+	},
+	'11-30': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 11', alt: '1-9,18-28' },
+			nt: { req: 'John 1:35-42' },
+			psalm60: ['78:1-18v']
+		},
+		evening: {
+			ot: { req: 'Isa 43' },
+			nt: { req: 'Luke 9:1-17' },
+			psalm60: ['78:19-40v']
+		}
+	}
+};
+
+// December data parsed from the provided tables
+const decemberData = {
+	'12-1': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 14' },
+			nt: { req: 'Acts 24:1-23' },
+			psalm60: ['78:41-73v']
+		},
+		evening: {
+			ot: { req: 'Isa 44' },
+			nt: { req: 'Luke 9:18-50' },
+			psalm60: ['80']
+		}
+	},
+	'12-2': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 17' },
+			nt: { req: 'Acts 24:24—25:12' },
+			psalm60: ['81']
+		},
+		evening: {
+			ot: { req: 'Isa 45' },
+			nt: { req: 'Luke 9:51-end' },
+			psalm60: ['83']
+		}
+	},
+	'12-3': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 18', alt: '1-26,30-33' },
+			nt: { req: 'Acts 25:13-end' },
+			psalm60: ['84']
+		},
+		evening: {
+			ot: { req: 'Isa 46' },
+			nt: { req: 'Luke 10:1-24' },
+			psalm60: ['85']
+		}
+	},
+	'12-4': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 21' },
+			nt: { req: 'Acts 26' },
+			psalm60: ['86', '87']
+		},
+		evening: {
+			ot: { req: 'Isa 47' },
+			nt: { req: 'Luke 10:25-end' },
+			psalm60: ['88']
+		}
+	},
+	'12-5': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 34' },
+			nt: { req: 'Acts 27' },
+			psalm60: ['89:1-18v']
+		},
+		evening: {
+			ot: { req: 'Isa 48' },
+			nt: { req: 'Luke 11:1-28' },
+			psalm60: ['89:19-51v']
+		}
+	},
+	'12-6': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 38', alt: '1-15,24-34' },
+			nt: { req: 'Acts 28:1-15' },
+			psalm60: ['90']
+		},
+		evening: {
+			ot: { req: 'Isa 49' },
+			nt: { req: 'Luke 11:29-end' },
+			psalm60: ['91']
+		}
+	},
+	'12-7': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 39', alt: '1-11,16-35' },
+			nt: { req: 'Acts 28:16-end' },
+			psalm60: ['92', '93']
+		},
+		evening: {
+			ot: { req: 'Isa 50' },
+			nt: { req: 'Luke 12:1-34' },
+			psalm60: ['94']
+		}
+	},
+	'12-8': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 44' },
+			nt: { req: 'Rev 1' },
+			psalm60: ['95', '96']
+		},
+		evening: {
+			ot: { req: 'Isa 51' },
+			nt: { req: 'Luke 12:35-53' },
+			psalm60: ['97', '98']
+		}
+	},
+	'12-9': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 45' },
+			nt: { req: 'Rev 2:1-17' },
+			psalm60: ['99', '100', '101']
+		},
+		evening: {
+			ot: { req: 'Isa 52' },
+			nt: { req: 'Luke 12:54—13:9' },
+			psalm60: ['102']
+		}
+	},
+	'12-10': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 46' },
+			nt: { req: 'Rev 2:18—3:6' },
+			psalm60: ['103']
+		},
+		evening: {
+			ot: { req: 'Isa 53' },
+			nt: { req: 'Luke 13:10-end' },
+			psalm60: ['104']
+		}
+	},
+	'12-11': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 47' },
+			nt: { req: 'Rev 3:7-end' },
+			psalm60: ['105:1-22v']
+		},
+		evening: {
+			ot: { req: 'Isa 54' },
+			nt: { req: 'Luke 14:1-24' },
+			psalm60: ['105:23-44v']
+		}
+	},
+	'12-12': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 48' },
+			nt: { req: 'Rev 4' },
+			psalm60: ['106:1-18v']
+		},
+		evening: {
+			ot: { req: 'Isa 55' },
+			nt: { req: 'Luke 14:25—15:10' },
+			psalm60: ['106:19-46v']
+		}
+	},
+	'12-13': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 49' },
+			nt: { req: 'Rev 5' },
+			psalm60: ['107:1-22']
+		},
+		evening: {
+			ot: { req: 'Isa 56' },
+			nt: { req: 'Luke 15:11-end' },
+			psalm60: ['107:23-43']
+		}
+	},
+	'12-14': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 50' },
+			nt: { req: 'Rev 6' },
+			psalm60: ['108', '110']
+		},
+		evening: {
+			ot: { req: 'Isa 57' },
+			nt: { req: 'Luke 16' },
+			psalm60: ['109']
+		}
+	},
+	'12-15': {
+		morning: {
+			ot: { req: 'Ecclesiasticus 51' },
+			nt: { req: 'Rev 7' },
+			psalm60: ['111', '112']
+		},
+		evening: {
+			ot: { req: 'Isa 58' },
+			nt: { req: 'Luke 17:1-19' },
+			psalm60: ['113', '114']
+		}
+	},
+	'12-16': {
+		morning: {
+			ot: { req: 'Wisdom 1' },
+			nt: { req: 'Rev 8' },
+			psalm60: ['115']
+		},
+		evening: {
+			ot: { req: 'Isa 59' },
+			nt: { req: 'Luke 17:20-end' },
+			psalm60: ['116', '117']
+		}
+	},
+	'12-17': {
+		morning: {
+			ot: { req: 'Wisdom 2' },
+			nt: { req: 'Rev 9' },
+			psalm60: ['119:1-24']
+		},
+		evening: {
+			ot: { req: 'Isa 60' },
+			nt: { req: 'Luke 18:1-30' },
+			psalm60: ['119:25-48']
+		}
+	},
+	'12-18': {
+		morning: {
+			ot: { req: 'Wisdom 3' },
+			nt: { req: 'Rev 10' },
+			psalm60: ['119:49-72']
+		},
+		evening: {
+			ot: { req: 'Isa 61' },
+			nt: { req: 'Luke 18:31—19:10' },
+			psalm60: ['119:73-88']
+		}
+	},
+	'12-19': {
+		morning: {
+			ot: { req: 'Wisdom 4' },
+			nt: { req: 'Rev 11' },
+			psalm60: ['119:89-104']
+		},
+		evening: {
+			ot: { req: 'Isa 62' },
+			nt: { req: 'Luke 19:11-28' },
+			psalm60: ['119:105-128']
+		}
+	},
+	'12-20': {
+		morning: {
+			ot: { req: 'Wisdom 5' },
+			nt: { req: 'Rev 12' },
+			psalm60: ['119:129-152']
+		},
+		evening: {
+			ot: { req: 'Isa 63' },
+			nt: { req: 'Luke 19:29-end' },
+			psalm60: ['119:153-176']
+		}
+	},
+	'12-21': {
+		morning: {
+			ot: { req: 'Rev 13' },
+			nt: { req: 'John 14:1-7' },
+			psalm60: ['118']
+		},
+		evening: {
+			ot: { req: 'Isa 64' },
+			nt: { req: 'Luke 20:1-26' },
+			psalm60: ['120', '121']
+		}
+	},
+	'12-22': {
+		morning: {
+			ot: { req: 'Wisdom 6' },
+			nt: { req: 'Rev 14' },
+			psalm60: ['122', '123']
+		},
+		evening: {
+			ot: { req: 'Isa 65' },
+			nt: { req: 'Luke 20:27—21:4' },
+			psalm60: ['124', '125', '126']
+		}
+	},
+	'12-23': {
+		morning: {
+			ot: { req: 'Wisdom 7' },
+			nt: { req: 'Rev 15' },
+			psalm60: ['127', '128']
+		},
+		evening: {
+			ot: { req: 'Isa 66' },
+			nt: { req: 'Luke 21:5-end' },
+			psalm60: ['129', '130', '131']
+		}
+	},
+	'12-24': {
+		morning: {
+			ot: { req: 'Wisdom 8' },
+			nt: { req: 'Rev 16' },
+			psalm60: ['132', '133']
+		},
+		evening: {
+			ot: { req: 'Song of Songs 1' },
+			nt: { req: 'Luke 22:1-38' },
+			psalm60: ['134', '135']
+		}
+	},
+	'12-25': {
+		morning: {
+			ot: { req: 'Isa 9:1-7' },
+			nt: { req: 'Rev 17' },
+			psalm60: ['19 or 45']
+		},
+		evening: {
+			ot: { req: 'Song of Songs 2' },
+			nt: { req: 'Luke 2:1-14' },
+			psalm60: ['85', '110']
+		}
+	},
+	'12-26': {
+		morning: {
+			ot: { req: 'Acts 6:8—7:6,17-41,44-60' },
+			nt: { req: 'Rev 18' },
+			psalm60: ['136']
+		},
+		evening: {
+			ot: { req: 'Song of Songs 3' },
+			nt: { req: 'Luke 22:39-53' },
+			psalm60: ['137', '138']
+		}
+	},
+	'12-27': {
+		morning: {
+			ot: { req: 'Rev 19' },
+			nt: { req: 'John 21:9-25' },
+			psalm60: ['139']
+		},
+		evening: {
+			ot: { req: 'Song of Songs 4' },
+			nt: { req: 'Luke 22:54-end' },
+			psalm60: ['141', '142']
+		}
+	},
+	'12-28': {
+		morning: {
+			ot: { req: 'Jer 31:1-17' },
+			nt: { req: 'Rev 20' },
+			psalm60: ['140']
+		},
+		evening: {
+			ot: { req: 'Song of Songs 5' },
+			nt: { req: 'Luke 23:1-25' },
+			psalm60: ['143']
+		}
+	},
+	'12-29': {
+		morning: {
+			ot: { req: 'Wisdom 9' },
+			nt: { req: 'Rev 21:1-14' },
+			psalm60: ['144']
+		},
+		evening: {
+			ot: { req: 'Song of Songs 6' },
+			nt: { req: 'Luke:23:26-49' },
+			psalm60: ['145']
+		}
+	},
+	'12-30': {
+		morning: {
+			ot: { req: 'Wisdom 10' },
+			nt: { req: 'Rev 21:15—22:5' },
+			psalm60: ['146']
+		},
+		evening: {
+			ot: { req: 'Song of Songs 7' },
+			nt: { req: 'Luke 23:50—24:12' },
+			psalm60: ['147']
+		}
+	},
+	'12-31': {
+		morning: {
+			ot: { req: 'Wisdom 11' },
+			nt: { req: 'Rev 22:6-end' },
+			psalm60: ['148']
+		},
+		evening: {
+			ot: { req: 'Song of Songs 8' },
+			nt: { req: 'Luke 24:13-end' },
+			psalm60: ['149', '150']
+		}
+	}
+};
+
+// Combine all months
+const aprilToDecemberData = {
+	...aprilData,
+	...mayData,
+	...juneData,
+	...julyData,
+	...augustData,
+	...septemberData,
+	...octoberData,
+	...novemberData,
+	...decemberData
+};
+
+// Load existing January-March data
+const existingData = require('../src/lib/calendar/daily_lectionary_partial.json');
+
+// Merge all data together (Jan-Dec)
+const allData = { ...existingData, ...aprilToDecemberData };
+
+console.log('Daily Lectionary Data Generated (Complete Year: January-December)!');
+console.log('');
+console.log(`Total days: ${Object.keys(allData).filter((k) => k.match(/^\d+-\d+$/)).length}`);
+console.log('');
+
+// Save to daily_lectionary.json
+fs.writeFileSync(
+	path.join(__dirname, '../src/lib/calendar/daily_lectionary.json'),
+	JSON.stringify(allData, null, '\t')
+);
+
+console.log('Saved to: src/lib/calendar/daily_lectionary.json');
+console.log('✓ Complete daily lectionary file created!');
