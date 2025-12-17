@@ -34,6 +34,8 @@
 	import FindEaster from '$lib/page_helpers/find_easter.svelte';
 	import Lectionary from '$lib/page_helpers/lectionary.svelte';
 	import HolyDay from '$lib/page_helpers/holy_day.svelte';
+	import OrderedListItem from '$lib/page_helpers/ordered_list_item.svelte';
+	import UnorderedListItem from '$lib/page_helpers/unordered_list_item.svelte';
 
 	// Import all canticles
 	import AgainstPerilsEp from '$lib/canticle/against_perils_ep.svelte';
@@ -133,6 +135,19 @@
 					<Versical officiant={block.officiant || false} people={block.people || false}>
 						{block.text}
 					</Versical>
+				{:else if block.type === 'ordered_list_item'}
+					<OrderedListItem
+						number={block.number}
+						bold={block.bold}
+						indent={block.indent}
+						optional={block.optional}
+					>
+						{block.text}
+					</OrderedListItem>
+				{:else if block.type === 'unordered_list_item'}
+					<UnorderedListItem bold={block.bold} indent={block.indent} optional={block.optional}>
+						{block.text}
+					</UnorderedListItem>
 				{:else if block.type === 'antiphon'}
 					<Antiphon call={block.call} response={block.response} />
 				{:else if block.type === 'ref'}

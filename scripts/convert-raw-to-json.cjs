@@ -217,8 +217,8 @@ class RawToJsonConverter {
 			afterFirstColon = line.substring(colonIndex + 1);
 			parts = allParts;
 
-			// For multi-line types (tb, r, bt), collect all following lines until next type
-			const multiLineTypes = ['tb', 'r', 'bt'];
+			// For multi-line types (tb, r, bt, v, ol, ul), collect all following lines until next type
+			const multiLineTypes = ['tb', 'r', 'bt', 'v', 'ol', 'ul'];
 			if (multiLineTypes.includes(type)) {
 				const textLines = [afterFirstColon];
 				let j = i + 1;
@@ -268,7 +268,9 @@ class RawToJsonConverter {
 							'use',
 							'hd',
 							'lords_prayer',
-							'scripture'
+							'scripture',
+							'ol',
+							'ul'
 						];
 						if (validTypes.includes(nextType)) {
 							break;
@@ -330,6 +332,12 @@ class RawToJsonConverter {
 
 			case 'v':
 				return this.handleVersical(parts, content);
+
+			case 'ol':
+				return this.handleOrderedList(parts, content);
+
+			case 'ul':
+				return this.handleUnorderedList(parts, content);
 
 			case 'pb':
 				return this.handlePageBreak(content);
@@ -856,6 +864,119 @@ class RawToJsonConverter {
 			item.bold = true;
 		}
 
+		if (modifiers.optional) item.optional = true;
+		if (modifiers.indent) item.indent = true;
+
+		return item;
+	}
+
+	handleOrderedList(parts, content) {
+		// ol:1:First item text
+		// ol:2:Second item text
+		// ol:b:1:Bold item
+		// ol:i:1:Indented item
+		const modifiers = this.parseModifiers(parts);
+
+		// Find the number - it's the first part that's a digit
+		let itemNumber = null;
+		let textStartIndex = 1; // Relative to parts array
+
+		for (let i = 1; i < parts.length; i++) {
+			if (/^\d+$/.test(parts[i])) {
+				itemNumber = parseInt(parts[i]);
+				textStartIndex = i + 1;
+				break;
+			}
+		}
+
+		if (itemNumber === null) {
+			console.warn('Warning: ol: requires a number (e.g., ol:1:text)');
+			return null;
+		}
+
+		// content is everything after first colon (e.g., "1:First item" or "b:1:First item")
+		// We need to find text after the number
+		// Count colons needed to skip in content: textStartIndex - 1 (since parts[0] is 'ol' which we already skipped)
+		const colonsToSkip = textStartIndex - 1;
+		let colonCount = 0;
+		let textStart = 0;
+
+		for (let i = 0; i < content.length; i++) {
+			if (content[i] === ':') {
+				colonCount++;
+				if (colonCount === colonsToSkip) {
+					textStart = i + 1;
+					break;
+				}
+			}
+		}
+
+		const text = content.substring(textStart).trim();
+
+		const item = {
+			type: 'ordered_list_item',
+			number: itemNumber
+		};
+
+		if (text) {
+			item.text = this.parseTextWithWrappers(text);
+		}
+
+		if (modifiers.bold) item.bold = true;
+		if (modifiers.optional) item.optional = true;
+		if (modifiers.indent) item.indent = true;
+
+		return item;
+	}
+
+	handleUnorderedList(parts, content) {
+		// ul:First item text
+		// ul:b:Bold item
+		// ul:i:Indented item
+		const modifiers = this.parseModifiers(parts);
+
+		// Text comes after all modifiers
+		let textStartIndex = 1; // Relative to parts array
+
+		// Skip over modifiers to find where text starts
+		const modifiersList = ['b', 'o', 'i', 'lc'];
+		for (let i = 1; i < parts.length; i++) {
+			if (modifiersList.includes(parts[i])) {
+				textStartIndex = i + 1;
+			} else {
+				break;
+			}
+		}
+
+		// content is everything after first colon
+		// Count colons needed to skip: textStartIndex - 1
+		const colonsToSkip = textStartIndex - 1;
+		let colonCount = 0;
+		let textStart = 0;
+
+		if (colonsToSkip > 0) {
+			for (let i = 0; i < content.length; i++) {
+				if (content[i] === ':') {
+					colonCount++;
+					if (colonCount === colonsToSkip) {
+						textStart = i + 1;
+						break;
+					}
+				}
+			}
+		}
+
+		const text = content.substring(textStart).trim();
+
+		const item = {
+			type: 'unordered_list_item'
+		};
+
+		if (text) {
+			item.text = this.parseTextWithWrappers(text);
+		}
+
+		if (modifiers.bold) item.bold = true;
 		if (modifiers.optional) item.optional = true;
 		if (modifiers.indent) item.indent = true;
 
