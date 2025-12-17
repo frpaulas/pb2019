@@ -266,6 +266,7 @@ class RawToJsonConverter {
 							'bt',
 							'br',
 							'use',
+							'hd',
 							'lords_prayer',
 							'scripture'
 						];
@@ -347,6 +348,9 @@ class RawToJsonConverter {
 
 			case 'use':
 				return this.handleUse(parts, content);
+
+			case 'hd':
+				return this.handleHolyDay(parts, content);
 
 			case 'lords_prayer':
 				return this.handleLordsPrayer(parts, content);
@@ -788,6 +792,22 @@ class RawToJsonConverter {
 		};
 
 		return item;
+	}
+
+	handleHolyDay(parts, afterFirstColon) {
+		// hd:1-1 or hd:ember-days1
+		// Format: hd:name where name is a key in rld_eucharist.json
+		const name = parts[1] || afterFirstColon.trim();
+
+		if (!name) {
+			console.warn('Warning: hd: requires a holy day name/date');
+			return null;
+		}
+
+		return {
+			type: 'holy_day',
+			name: name
+		};
 	}
 
 	handleVersical(parts, afterFirstColon) {

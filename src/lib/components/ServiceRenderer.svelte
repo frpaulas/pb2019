@@ -33,6 +33,7 @@
 	import Calendar from '$lib/page_helpers/calendar.svelte';
 	import FindEaster from '$lib/page_helpers/find_easter.svelte';
 	import Lectionary from '$lib/page_helpers/lectionary.svelte';
+	import HolyDay from '$lib/page_helpers/holy_day.svelte';
 
 	// Import all canticles
 	import AgainstPerilsEp from '$lib/canticle/against_perils_ep.svelte';
@@ -224,6 +225,8 @@
 					<FindEaster />
 				{:else if block.type === 'lectionary'}
 					<Lectionary />
+				{:else if block.type === 'holy_day'}
+					<HolyDay name={block.name} />
 				{:else}
 					<!-- Fallback for unhandled types -->
 					<div class="text-sm text-amber-600 italic">
