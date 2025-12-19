@@ -794,6 +794,23 @@ class RawToJsonConverter {
 			};
 		}
 
+		// Handle page with roman numeral: use:page:iii
+		// Format: use:page:roman_numeral - for front matter pages
+		if (componentName === 'page') {
+			const romanNumeral = parts[2];
+
+			if (romanNumeral) {
+				return {
+					type: 'page',
+					pageNumber: romanNumeral
+				};
+			}
+
+			return {
+				type: 'page'
+			};
+		}
+
 		// Default: return component type
 		const item = {
 			type: componentName

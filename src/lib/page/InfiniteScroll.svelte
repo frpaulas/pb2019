@@ -353,6 +353,7 @@
 			);
 
 			// Intersection observer to track which page is currently visible
+			// This tracks both page containers (.page-container) and page break markers (.page-break-marker)
 			const observer = new IntersectionObserver(
 				(entries) => {
 					// Debounce observer updates to prevent rapid firing during DOM changes
@@ -361,19 +362,40 @@
 					}
 
 					observerUpdateTimeout = setTimeout(() => {
-						// Find the most visible page (highest intersection ratio)
-						let mostVisible = null;
-						let highestRatio = 0;
+						// Find the most visible element (highest intersection ratio)
+						// Priority: page-break-marker > page-container
+						let mostVisiblePageBreak = null;
+						let mostVisiblePageContainer = null;
+						let highestPageBreakRatio = 0;
+						let highestPageContainerRatio = 0;
 
 						entries.forEach((entry) => {
-							if (entry.isIntersecting && entry.intersectionRatio > highestRatio) {
-								highestRatio = entry.intersectionRatio;
-								mostVisible = entry.target.getAttribute('data-page');
+							if (entry.isIntersecting) {
+								// Check if this is a page break marker (fine-grained tracking)
+								const pageBreak = entry.target.getAttribute('data-page-break');
+								if (pageBreak && entry.intersectionRatio > highestPageBreakRatio) {
+									highestPageBreakRatio = entry.intersectionRatio;
+									mostVisiblePageBreak = pageBreak;
+								}
+
+								// Check if this is a page container (coarse-grained tracking)
+								const pageContainer = entry.target.getAttribute('data-page');
+								if (pageContainer && entry.intersectionRatio > highestPageContainerRatio) {
+									highestPageContainerRatio = entry.intersectionRatio;
+									mostVisiblePageContainer = pageContainer;
+								}
 							}
 						});
 
+						// Prefer page break markers (more precise) over page containers
+						// Use page container only if no page break is visible
+						const mostVisible = mostVisiblePageBreak || mostVisiblePageContainer;
+						const highestRatio = mostVisiblePageBreak
+							? highestPageBreakRatio
+							: highestPageContainerRatio;
+
 						// Only update if we found a most visible page and it's significantly visible
-						if (mostVisible && highestRatio > 0.5) {
+						if (mostVisible && highestRatio > 0.3) {
 							// Only mark infinite scroll as active if user has actually scrolled
 							// This prevents the initial page load from triggering infinite scroll mode
 							if (hasUserScrolled) {
@@ -387,7 +409,9 @@
 								console.log(
 									'[OBSERVER] Updating to most visible page:',
 									mostVisible,
-									'from:',
+									'(from',
+									mostVisiblePageBreak ? 'page-break' : 'page-container',
+									') from:',
 									currentPageNumber
 								);
 								currentPageNumber = mostVisible;
@@ -406,11 +430,18 @@
 				}
 			);
 
-			// Observe all page containers
+			// Observe all page containers and page break markers
 			const observePages = () => {
+				// Observe page containers (coarse-grained tracking)
 				const pageContainers = container.querySelectorAll('.page-container');
 				pageContainers.forEach((pageContainer) => {
 					observer.observe(pageContainer);
+				});
+
+				// Observe page break markers (fine-grained tracking within content)
+				const pageBreakMarkers = container.querySelectorAll('.page-break-marker');
+				pageBreakMarkers.forEach((marker) => {
+					observer.observe(marker);
 				});
 			};
 

@@ -83,6 +83,14 @@
           "name": "lords_prayer"
         },
         {
+          "type": "SYMBOL",
+          "name": "ordered_list"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "unordered_list"
+        },
+        {
           "type": "PREC",
           "value": -1,
           "content": {
@@ -94,7 +102,7 @@
     },
     "continuation_line": {
       "type": "PATTERN",
-      "value": "[^ptrsvlb#\\n].*|[ptrsvlb][^ptrsvlb:\\n].*"
+      "value": "[^ptrsvlbou#\\n].*|[ptrsvlb][^ptrsvlb:\\n].*|o[^l:].*|u[^l:].*"
     },
     "comment": {
       "type": "SEQ",
@@ -540,6 +548,110 @@
         {
           "type": "STRING",
           "value": ":"
+        }
+      ]
+    },
+    "ordered_list": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "ol"
+        },
+        {
+          "type": "STRING",
+          "value": ":"
+        },
+        {
+          "type": "FIELD",
+          "name": "number",
+          "content": {
+            "type": "PATTERN",
+            "value": "\\d+"
+          }
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "SEQ",
+              "members": [
+                {
+                  "type": "STRING",
+                  "value": ":"
+                },
+                {
+                  "type": "FIELD",
+                  "name": "modifiers",
+                  "content": {
+                    "type": "PATTERN",
+                    "value": "[bio]+"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "STRING",
+          "value": ":"
+        },
+        {
+          "type": "FIELD",
+          "name": "content",
+          "content": {
+            "type": "PATTERN",
+            "value": ".*"
+          }
+        }
+      ]
+    },
+    "unordered_list": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "ul"
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "SEQ",
+              "members": [
+                {
+                  "type": "STRING",
+                  "value": ":"
+                },
+                {
+                  "type": "FIELD",
+                  "name": "modifiers",
+                  "content": {
+                    "type": "PATTERN",
+                    "value": "[bio]+"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "STRING",
+          "value": ":"
+        },
+        {
+          "type": "FIELD",
+          "name": "content",
+          "content": {
+            "type": "PATTERN",
+            "value": ".*"
+          }
         }
       ]
     }

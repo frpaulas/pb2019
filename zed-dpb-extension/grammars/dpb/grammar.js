@@ -21,13 +21,15 @@ module.exports = grammar({
 				$.line,
 				$.button,
 				$.lords_prayer,
+				$.ordered_list,
+				$.unordered_list,
 				prec(-1, $.continuation_line)
 			),
 
 		// Continuation line - matches lines that don't look like commands
 		// Commands have specific prefixes followed by colon
 		// This matches any line that doesn't start with a command pattern
-		continuation_line: ($) => /[^ptrsvlb#\n].*|[ptrsvlb][^ptrsvlb:\n].*/,
+		continuation_line: ($) => /[^ptrsvlbou#\n].*|[ptrsvlb][^ptrsvlb:\n].*|o[^l:].*|u[^l:].*/,
 
 		comment: ($) => seq(/\s*#/, /.*/),
 
@@ -71,6 +73,19 @@ module.exports = grammar({
 		button: ($) =>
 			seq('button', ':', field('link', optional(/[^:]*/)), ':', field('content', /.*/)),
 
-		lords_prayer: ($) => seq('lords_prayer', ':')
+		lords_prayer: ($) => seq('lords_prayer', ':'),
+
+		ordered_list: ($) =>
+			seq(
+				'ol',
+				':',
+				field('number', /\d+/),
+				optional(seq(':', field('modifiers', /[bio]+/))),
+				':',
+				field('content', /.*/)
+			),
+
+		unordered_list: ($) =>
+			seq('ul', optional(seq(':', field('modifiers', /[bio]+/))), ':', field('content', /.*/))
 	}
 });

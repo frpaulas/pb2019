@@ -10,6 +10,7 @@ export interface Verse {
 	ln2: string;
 	hebrew: string;
 	latin: string;
+	pb?: number; // Optional page break number
 }
 
 export interface Psalm {

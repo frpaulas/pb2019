@@ -20,6 +20,10 @@ const VALID_PREFIXES = {
 	v: /^v:([\w\s]*):.*$/,
 	button: /^button:([\w\s]*):.*$/,
 	lords_prayer: /^lords_prayer:/,
+	ol: /^ol:\d+:\s*.*/,
+	ul: /^ul:\s*.*/,
+	blank: /^blank:\s*$/,
+	hd: /^hd:\d+-\d+\s*\/\/\s*.+$/,
 	ref: /^ref:\s*.+$/,
 	'ref+': /^ref\+:\s*.+$/,
 	use: /^use:\w+:.+$/,
@@ -100,7 +104,7 @@ class DPBLinter {
 				if (!expectingContinuation) {
 					this.addError(
 						this.lineNumber,
-						'Line starts with whitespace but previous line is not a multiline-capable directive (r:, tb:, l:)'
+						'Line starts with whitespace but previous line is not a multiline-capable directive (r:, tb:, l:, ol:, ul:)'
 					);
 				}
 				this.lintLineContent(trimmedLine, lastLineType);
@@ -133,7 +137,7 @@ class DPBLinter {
 			lastLineType = prefix.split(':')[0]; // Get base prefix without args
 
 			// Check if this directive type supports multiline continuation
-			const multilineCapable = ['r', 'tb', 'l'];
+			const multilineCapable = ['r', 'tb', 'l', 'ol', 'ul'];
 			expectingContinuation = multilineCapable.includes(lastLineType);
 
 			// Parse arguments (e.g., "l:i:b:" -> args: ['i', 'b'])
@@ -159,6 +163,10 @@ class DPBLinter {
 				}
 				// For button, first arg is the link
 				if (basePrefix === 'button' && args.indexOf(arg) === 0) {
+					continue;
+				}
+				// For ol, first arg is the list number
+				if (basePrefix === 'ol' && args.indexOf(arg) === 0 && arg.match(/^\d+$/)) {
 					continue;
 				}
 				// Otherwise check if it's a valid global arg
@@ -220,6 +228,8 @@ class DPBLinter {
 			case 'r':
 			case 'tb':
 			case 'l':
+			case 'ol':
+			case 'ul':
 				this.lintLineContent(content, prefix);
 				break;
 			case 'v':

@@ -36,6 +36,7 @@
 	import HolyDay from '$lib/page_helpers/holy_day.svelte';
 	import OrderedListItem from '$lib/page_helpers/ordered_list_item.svelte';
 	import UnorderedListItem from '$lib/page_helpers/unordered_list_item.svelte';
+	import PageBreakMarker from '$lib/page_helpers/page_break_marker.svelte';
 
 	// Import all canticles
 	import AgainstPerilsEp from '$lib/canticle/against_perils_ep.svelte';
@@ -192,6 +193,8 @@
 					<Silence />
 				{:else if block.type === 'line_break'}
 					<br />
+				{:else if block.type === 'page_break'}
+					<PageBreakMarker page={block.page} />
 				{:else if block.type === 'blank_page'}
 					<IntentionallyBlank />
 				{:else if block.type === 'intentionally_blank'}

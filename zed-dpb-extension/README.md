@@ -56,6 +56,8 @@ All DPB source format keywords are supported:
 - `l:` - Line
 - `button:` - Button
 - `lords_prayer:` - Lord's Prayer component
+- `ol:` - Ordered list item (numbered)
+- `ul:` - Unordered list item (bullet)
 - `#` - Comments
 
 ### Modifiers
