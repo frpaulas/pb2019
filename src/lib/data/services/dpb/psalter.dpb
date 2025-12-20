@@ -1,152 +1,210 @@
-pg:270-470
-
-use:psalm:1:
-use:psalm:2:
-use:psalm:3:
-use:psalm:4:
-use:psalm:5:
-use:psalm:6:
-use:psalm:7:
-use:psalm:8:
-use:psalm:9:
-use:psalm:10:
-use:psalm:11:
-use:psalm:12:
-use:psalm:13:
-use:psalm:14:
-use:psalm:15:
-use:psalm:16:
-use:psalm:17:
-use:psalm:18:
-use:psalm:19:
-use:psalm:20:
-use:psalm:21:
-use:psalm:22:
-use:psalm:23:
-use:psalm:24:
-use:psalm:25:
-use:psalm:26:
-use:psalm:27:
-use:psalm:28:
-use:psalm:29:
-use:psalm:30:
-use:psalm:31:
-use:psalm:32:
-use:psalm:33:
-use:psalm:34:
-use:psalm:35:
-use:psalm:36:
-use:psalm:37:
-use:psalm:38:
-use:psalm:39:
-use:psalm:40:
-use:psalm:41:
-use:psalm:42:
-use:psalm:43:
-use:psalm:44:
-use:psalm:45:
-use:psalm:46:
-use:psalm:47:
-use:psalm:48:
-use:psalm:49:
-use:psalm:50:
-use:psalm:51:
-use:psalm:52:
-use:psalm:53:
-use:psalm:54:
-use:psalm:55:
-use:psalm:56:
-use:psalm:57:
-use:psalm:58:
-use:psalm:59:
-use:psalm:60:
-use:psalm:61:
-use:psalm:62:
-use:psalm:63:
-use:psalm:64:
-use:psalm:65:
-use:psalm:66:
-use:psalm:67:
-use:psalm:68:
-use:psalm:69:
-use:psalm:70:
-use:psalm:71:
-use:psalm:72:
-use:psalm:73:
-use:psalm:74:
-use:psalm:75:
-use:psalm:76:
-use:psalm:77:
-use:psalm:78:
-use:psalm:79:
-use:psalm:80:
-use:psalm:81:
-use:psalm:82:
-use:psalm:83:
-use:psalm:84:
-use:psalm:85:
-use:psalm:86:
-use:psalm:87:
-use:psalm:88:
-use:psalm:89:
-use:psalm:90:
-use:psalm:91:
-use:psalm:92:
-use:psalm:93:
-use:psalm:94:
-use:psalm:95:
-use:psalm:96:
-use:psalm:97:
-use:psalm:98:
-use:psalm:99:
-use:psalm:100:
-use:psalm:101:
-use:psalm:102:
-use:psalm:103:
-use:psalm:104:
-use:psalm:105:
-use:psalm:106:
-use:psalm:107:
-use:psalm:108:
-use:psalm:109:
-use:psalm:110:
-use:psalm:111:
-use:psalm:112:
-use:psalm:113:
-use:psalm:114:
-use:psalm:115:
-use:psalm:116:
-use:psalm:117:
-use:psalm:118:
-use:psalm:119:
-use:psalm:120:
-use:psalm:121:
-use:psalm:122:
-use:psalm:123:
-use:psalm:124:
-use:psalm:125:
-use:psalm:126:
-use:psalm:127:
-use:psalm:128:
-use:psalm:129:
-use:psalm:130:
-use:psalm:131:
-use:psalm:132:
-use:psalm:133:
-use:psalm:134:
-use:psalm:135:
-use:psalm:136:
-use:psalm:137:
-use:psalm:138:
-use:psalm:139:
-use:psalm:140:
-use:psalm:141:
-use:psalm:142:
-use:psalm:143:
-use:psalm:144:
-use:psalm:145:
-use:psalm:146:
-use:psalm:147:
-use:psalm:148:
-use:psalm:149:
-use:psalm:150:
+pg:270-467
+\\ Hi maintainer. you need 5 `:`s after the psalm number and then `title`
+\\ to show the psalm number and name
+st: day 1 : morning prayer
+use:psalm:1:::::title
+use:psalm:2:::::title
+use:psalm:3:::::title
+use:psalm:4:::::title
+use:psalm:5:::::title
+day 1 : evening prayer
+use:psalm:6:::::title
+use:psalm:7:::::title
+use:psalm:8:::::title
+day 2 : morning prayer
+use:psalm:9:::::title
+use:psalm:10:::::title
+use:psalm:11:::::title
+day 2 : evening pray er
+use:psalm:12:::::title
+use:psalm:13:::::title
+use:psalm:14:::::title
+st: day 3 : morning prayer
+use:psalm:15:::::title
+use:psalm:16:::::title
+use:psalm:17:::::title
+st: day 3 : evening prayer
+use:psalm:18:::::title
+st: day 4 : morning prayer
+use:psalm:19:::::title
+use:psalm:20:::::title
+use:psalm:21:::::title
+st: day 4 : evening prayer
+use:psalm:22:::::title
+use:psalm:23:::::title
+st: day 5 : morning prayer
+use:psalm:24:::::title
+use:psalm:25:::::title
+use:psalm:26:::::title
+st: day 5 : evening prayer
+use:psalm:27:::::title
+use:psalm:28:::::title
+use:psalm:29:::::title
+st: day 6 : morning prayer
+use:psalm:30:::::title
+use:psalm:31:::::title
+st: day 6 : evening prayer
+use:psalm:32:::::title
+use:psalm:33:::::title
+use:psalm:34:::::title
+st: day 7 : morning prayer
+use:psalm:35:::::title
+use:psalm:36:::::title
+st: day 7 : evening prayer
+use:psalm:37:::::title
+st: day 8 : morning prayer
+use:psalm:38:::::title
+use:psalm:39:::::title
+use:psalm:40:::::title
+st: day 8 : evening prayer
+use:psalm:41:::::title
+use:psalm:42:::::title
+use:psalm:43:::::title
+st: day 9 : morning prayer
+use:psalm:44:::::title
+use:psalm:45:::::title
+use:psalm:46:::::title
+st: day 9 : evening prayer
+use:psalm:47:::::title
+use:psalm:48:::::title
+use:psalm:49:::::title
+st: day 10 : morning prayer
+use:psalm:50:::::title
+use:psalm:51:::::title
+use:psalm:52:::::title
+st: day 10 : evening prayer
+use:psalm:53:::::title
+use:psalm:54:::::title
+use:psalm:55:::::title
+st: day 11 : morning prayer
+use:psalm:56:::::title
+use:psalm:57:::::title
+use:psalm:58:::::title
+st: day 11 : evening prayer
+use:psalm:59:::::title
+use:psalm:60:::::title
+use:psalm:61:::::title
+st: day 12 : morning prayer
+use:psalm:62:::::title
+use:psalm:63:::::title
+use:psalm:64:::::title
+st: day 12 : evening prayer
+use:psalm:65:::::title
+use:psalm:66:::::title
+use:psalm:67:::::title
+st: day 13 : morning prayer
+use:psalm:68:::::title
+st: day 13 : evening prayer
+use:psalm:69:::::title
+use:psalm:70:::::title
+st: day 14 : morning prayer
+use:psalm:71:::::title
+use:psalm:72:::::title
+st: day 14 : evening prayer
+use:psalm:73:::::title
+use:psalm:74:::::title
+st: day 15 : morning prayer
+use:psalm:75:::::title
+use:psalm:76:::::title
+use:psalm:77:::::title
+st: day 15 : evening prayer
+use:psalm:78:::::title
+st: day 16 : morning prayer
+use:psalm:79:::::title
+use:psalm:80:::::title
+use:psalm:81:::::title
+st: day 16 : evening prayer
+use:psalm:82:::::title
+use:psalm:83:::::title
+use:psalm:84:::::title
+use:psalm:85:::::title
+st: day 17 : morning prayer
+use:psalm:86:::::title
+use:psalm:87:::::title
+use:psalm:88:::::title
+st: day 17 : evening prayer
+use:psalm:89:::::title
+st: day 18 : morning prayer
+use:psalm:90:::::title
+use:psalm:91:::::title
+use:psalm:92:::::title
+st: day 18 : evening prayer
+use:psalm:93:::::title
+use:psalm:94:::::title
+st: day 19 : morning prayer
+use:psalm:95:::::title
+use:psalm:96:::::title
+use:psalm:97:::::title
+st: day 19 : evening prayer
+use:psalm:98:::::title
+use:psalm:99:::::title
+use:psalm:100:::::title
+use:psalm:101:::::title
+st: day 20 : morning prayer
+use:psalm:102:::::title
+use:psalm:103:::::title
+st: day 20 : evening prayer
+use:psalm:104:::::title
+st: day 21 : morning prayer
+use:psalm:105:::::title
+st: day 21 : evening prayer
+use:psalm:106:::::title
+st: day 22 : morning prayer
+use:psalm:107:::::title
+st: day 22 : evening prayer
+use:psalm:108:::::title
+use:psalm:109:::::title
+st: day 23 : morning prayer
+use:psalm:110:::::title
+use:psalm:111:::::title
+use:psalm:112:::::title
+use:psalm:113:::::title
+st: day 23 : evening prayer
+use:psalm:114:::::title
+use:psalm:115:::::title
+st: day 24 : morning prayer
+use:psalm:116:::::title
+use:psalm:117:::::title
+use:psalm:118:::::title
+st: day 24 : evening prayer
+\\ psalm 119 has it's own cycle information
+use:psalm:119:::::title
+st: day 27 : morning prayer
+use:psalm:120:::::title
+use:psalm:121:::::title
+use:psalm:122:::::title
+use:psalm:123:::::title
+use:psalm:124:::::title
+use:psalm:125:::::title
+st: day 27 : evening prayer
+use:psalm:126:::::title
+use:psalm:127:::::title
+use:psalm:128:::::title
+use:psalm:129:::::title
+use:psalm:130:::::title
+use:psalm:131:::::title
+st: day 28 : morning prayer
+use:psalm:132:::::title
+use:psalm:133:::::title
+use:psalm:134:::::title
+use:psalm:135:::::title
+st: day 28 : evening prayer
+use:psalm:136:::::title
+use:psalm:137:::::title
+use:psalm:138:::::title
+st: day 29 : morning prayer
+use:psalm:139:::::title
+use:psalm:140:::::title
+st: day 29 : evening prayer
+use:psalm:141:::::title
+use:psalm:142:::::title
+use:psalm:143:::::title
+st: day 30 : morning prayer
+use:psalm:144:::::title
+use:psalm:145:::::title
+use:psalm:146:::::title
+st: day 30 : evening prayer
+use:psalm:147:::::title
+use:psalm:148:::::title
+use:psalm:149:::::title
+use:psalm:150:::::title

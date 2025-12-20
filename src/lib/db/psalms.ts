@@ -17,6 +17,7 @@ export interface Psalm {
 	number: number;
 	name: string;
 	title: string;
+	cycle?: string; // Optional cycle heading (e.g., "DAY 1: MORNING PRAYER")
 	verses: Verse[];
 }
 

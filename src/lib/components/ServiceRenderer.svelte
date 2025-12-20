@@ -215,6 +215,7 @@
 						fromLine={block.fromLine}
 						toLine={block.toLine}
 						bold={block.bold || false}
+						showTitle={block.showTitle || false}
 					/>
 				{:else if block.type === 'canticle'}
 					{#if canticleMap[block.name]}

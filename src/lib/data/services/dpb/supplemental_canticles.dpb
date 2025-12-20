@@ -1,4 +1,4 @@
-pg: 79-88
+pg: 79-90
 tp: Supplemental Canticles
 
 st:1: supplemental canticles
@@ -30,3 +30,10 @@ use:canticle:deus_misereatur
 pb:87
 use:canticle:benedicite_onmia_opera_domini
 pb:88
+
+pb:89
+st:2: Great Litany
+st2: & Decalogue
+
+pb:90
+blank:

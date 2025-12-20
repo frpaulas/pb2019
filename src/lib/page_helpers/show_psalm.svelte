@@ -11,9 +11,18 @@
 		fromLine?: number;
 		toLine?: number;
 		bold?: boolean;
+		showTitle?: boolean;
 	}
 
-	let { ps, from = 1, to = 999, fromLine = 1, toLine = 2, bold = false }: Props = $props();
+	let {
+		ps,
+		from = 1,
+		to = 999,
+		fromLine = 1,
+		toLine = 2,
+		bold = false,
+		showTitle = false
+	}: Props = $props();
 
 	// For Psalm 23, track which version to show (Coverdale or KJV)
 	let showCoverdale = $state(true);
@@ -30,10 +39,19 @@
 	});
 
 	// Get the psalm data
-	let verses = $derived.by(() => {
+	let psalmData = $derived.by(() => {
 		try {
-			const psalmData = getPsalm(psalmKey);
+			return getPsalm(psalmKey);
+		} catch (error) {
+			console.warn(`Psalm ${psalmKey} not found in database`);
+			return null;
+		}
+	});
 
+	let verses = $derived.by(() => {
+		if (!psalmData) return [];
+
+		try {
 			// If no 'to' specified, use the last verse number
 			const endVerse = to ?? psalmData.verses[psalmData.verses.length - 1].vs;
 
@@ -50,6 +68,15 @@
 		showCoverdale = !showCoverdale;
 	}
 </script>
+
+<!-- Show psalm title if requested -->
+{#if showTitle && psalmData}
+	{#if psalmData.cycle}
+		<div class="mb-4 text-center font-bold uppercase">{psalmData.cycle}</div>
+	{/if}
+	<SectionTitle size="text-2xl">{psalmData.title}</SectionTitle>
+	<SectionTitle fancy latin_size>{psalmData.name}</SectionTitle>
+{/if}
 
 <!-- Show toggle button for Psalm 23 -->
 {#if isPsalm23}

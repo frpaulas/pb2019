@@ -1,4 +1,5 @@
-pg: 175-181
+pg: 175-182
+pb:175
 
 st:1: confirmation, reception,
 st: _and_
@@ -217,3 +218,6 @@ tb:If there is no celebration of the Holy Eucharist, the liturgy continues with
 
 tb:Those who have been Received with the laying on of hands according to
     this liturgy are considered to have been Confirmed in this Church.
+
+pb:182
+blank:

@@ -15219,7 +15219,8 @@
 				"ln1": "Teach me, O Lord, the way of your statutes,",
 				"ln2": "and I shall keep it to the end.",
 				"hebrew": "He",
-				"latin": "Legem pone"
+				"latin": "Legem pone",
+				"cycle": "day 25 : morning prayer"
 			},
 			{
 				"vs": 34,
@@ -15502,7 +15503,8 @@
 				"ln1": "Your hands have made me and fashioned me;",
 				"ln2": "O give me understanding, that I may learn your commandments.",
 				"hebrew": "Yodh",
-				"latin": "Manus tuæ fecerunt me"
+				"latin": "Manus tuæ fecerunt me",
+				"cycle": "day 25 : evening prayer"
 			},
 			{
 				"vs": 74,
@@ -15729,7 +15731,8 @@
 				"ln2": "and a light upon my path.",
 				"hebrew": "Nun",
 				"latin": "Lucerna pedibus meis",
-				"pb": 435
+				"pb": 435,
+				"cycle": "day 26 : morning prayer"
 			},
 			{
 				"vs": 106,
@@ -16011,7 +16014,8 @@
 				"ln1": "I call with my whole heart.",
 				"ln2": "Hear me, O Lord; I will keep your statutes.",
 				"hebrew": "Qoph",
-				"latin": "Clamavi in toto corde meo"
+				"latin": "Clamavi in toto corde meo",
+				"cycle":"day 26 : evening prayer"
 			},
 			{
 				"vs": 146,

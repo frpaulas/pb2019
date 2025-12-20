@@ -1,4 +1,4 @@
-pg: 152-158
+pg: 152-159
 tp: Proper Prefaces
 
 st: the lord’s day
@@ -73,7 +73,7 @@ tb: For you have imparted gifts of wisdom and knowledge to those who teach the G
 st: common of a monastic or religious
 tb: For calling to the consecrated life those who leave everything for the sake of your kingdom, and who show forth in this world an anticipation of the abundant life you promise in the age to come.
 
-pb:158
+pb:158-159
 st: common of an ecumenist
 tb: Through your Son Jesus Christ our Lord; in him you bring us to the knowledge of your truth, and unite us by the bond of one Faith and one Baptism, that we might love one another and manifest your love to the world.
 st: common of a renewer of society
@@ -82,3 +82,7 @@ st: common of a reformer of the church
 tb: For you, the master builder, never abandon your Church, which you have built of living stones; you call your faithful servants to restore its ancient walls and reunite its broken ramparts, that it may be a holy temple of your presence.
 st: common of any commemoration
 tb: For the grace and virtue manifest in [_N_. and all] your saints, who have been the chosen vessels of your love, and the lights of the world in their generations.
+
+pb:159
+st:2: baptism &
+st:2: confirmation

@@ -33,7 +33,7 @@ const VALID_PREFIXES = {
 };
 
 // Valid global arguments
-const VALID_ARGS = ['b', 'o', 'i'];
+const VALID_ARGS = ['b', 'o', 'i', 'title'];
 
 class DPBLinter {
 	constructor() {

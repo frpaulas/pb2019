@@ -645,8 +645,9 @@ class RawToJsonConverter {
 			return null;
 		}
 
-		// Handle psalm with parameters: use:psalm:119:105:112:b
-		// Format: use:psalm:number:start:end:b (b is optional bold modifier)
+		// Handle psalm with parameters: use:psalm:119:105:112:b:title
+		// Format: use:psalm:number:start:end:b:title
+		// b = optional bold modifier, title = optional show title
 		// Extended format: use:psalm:116:3b:5:: (3b means start at verse 3, line 2)
 		if (componentName === 'psalm') {
 			const psalmNumber = parseInt(parts[2]);
@@ -681,6 +682,7 @@ class RawToJsonConverter {
 			}
 
 			const bold = parts[5] === 'b';
+			const showTitle = parts[6] === 'title' || parts[5] === 'title';
 
 			const item = {
 				type: 'show_psalm',
@@ -702,6 +704,9 @@ class RawToJsonConverter {
 			}
 			if (bold) {
 				item.bold = true;
+			}
+			if (showTitle) {
+				item.showTitle = true;
 			}
 
 			return item;

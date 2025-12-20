@@ -1,4 +1,4 @@
-pg: 100-101
+pg: 100-102
 tp: The Decalogue
 
 st: the decalogue
@@ -38,3 +38,6 @@ v:people: Lord, have mercy upon us,
 v: and write all these, your laws,
 v: in our hearts, we beseech you.
 ref: exodus 20:1-17 t; deuteronomy 5:6-21
+
+pb:102
+blank:
