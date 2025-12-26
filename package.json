@@ -19,7 +19,8 @@
 		"tauri:build": "./node_modules/.bin/tauri build",
 		"validate:source": "node scripts/validate-raw-format.cjs src/lib/data/services/source/",
 		"convert:source": "node scripts/convert-raw-to-json.cjs src/lib/data/services/source/",
-		"lint:dpb": "node scripts/lint-dpb.cjs src/lib/data/services/dpb/*.dpb"
+		"lint:dpb": "node scripts/lint-dpb.cjs src/lib/data/services/dpb/*.dpb",
+		"rebuild:check": "./scripts/rebuild-outdated.sh"
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.2.5",
