@@ -39,24 +39,55 @@
 		{
 			title: 'Holy Eucharist',
 			submenu: [
-				{ title: 'Anglican Standard Text', href: `${base}/to_do/HE: Anglican Standard Text` },
-				{ title: 'Renewed Ancient Text', href: `${base}/to_do/HE: Renewed Ancient Text` },
+				{ title: 'Anglican Standard Text', href: `${base}/pg/105` },
+				{ title: 'Renewed Ancient Text', href: `${base}/pg/123` },
 				{
 					title: 'Supplemental Eucharistic Text',
 					href: `${base}/to_do/Supplenetal Eucharistic Text`
 				},
-				{ title: 'Seasonal Greetings', href: `${base}/to_do/Seasonal Greetings` },
-				{ title: 'Exhortation', href: `${base}/to_do/Exhoration` },
-				{ title: 'Offertory Sentences', href: `${base}/to_do/Offertory Sentences` },
-				{ title: 'Proper Prefaces', href: `${base}/to_do/Proper Prefaces` }
+				{ title: 'Seasonal Greetings', href: `${base}/pg/145` },
+				{ title: 'Exhortation', href: `${base}/pg/147` },
+				{ title: 'Offertory Sentences', href: `${base}/pg/149` },
+				{ title: 'Proper Prefaces', href: `${base}/pg/152` }
 			]
 		},
 		{
-			title: 'Pastoral Offices',
+			title: 'Baptism & Confirmation',
 			submenu: [
-				{ title: 'Holy Baptism', href: `${base}/to_do/Holy Baptism` },
-				{ title: 'Confirmation', href: `${base}/to_do/Confirmation` },
-				{ title: 'Baptism With Confirmation', href: `${base}/to_do/Baptism With Confirmation` }
+				{ title: 'Holy Baptism', href: `${base}/pg/161` },
+				{ title: 'Confirmation', href: `${base}/pg/175` },
+				{ title: 'Baptism With Confirmation', href: `${base}/pg/183` },
+				{ title: 'Renewal of Baptismal Vows', href: `${base}/pg/194` }
+			]
+		},
+		{
+			title: 'Pastoral Rites',
+			submenu: [
+				{ title: 'Holy Matrimony', href: `${base}/pg/201` },
+				{ title: 'Thanksgiving For The Birth or Adoption Of A Child', href: `${base}/pg/215` },
+				{ title: 'Revonciliation of Penitents', href: `${base}/pg/223` },
+				{ title: 'Ministry To The Sick', href: `${base}/pg/225` },
+				{ title: 'Communion Of The Sick', href: `${base}/pg/227` },
+				{ title: 'Additional Prayers For The Sick', href: `${base}/pg/231` },
+				{ title: 'Ministry To The Dying', href: `${base}/pg/237` },
+				{ title: 'Prayers For A Vigil', href: `${base}/pg/243` },
+				{ title: 'Burial Of The Dead', href: `${base}/pg/249` }
+			]
+		},
+		{
+			title: 'The Psalter',
+			submenu: [
+				{ title: 'Selections of Psalms', href: `${base}/pg/269` },
+				{ title: 'Psalms 1-150', href: `${base}/pg/270` }
+			]
+		},
+		{
+			title: 'Episcopal Services',
+			submenu: [
+				{ title: 'Ordination Of A Deacon', href: `${base}/pg/472` },
+				{ title: 'Ordination Of A Priest', href: `${base}/pg/483` },
+				{ title: 'Ordination and Confirmation Of A Bishop', href: `${base}/pg/497` },
+				{ title: 'Litany For Ordinations', href: `${base}/pg/510` }
 			]
 		},
 		{

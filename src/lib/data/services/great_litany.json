@@ -12,6 +12,10 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 91
+					},
+					{
 						"type": "section_title",
 						"text": "the great litany",
 						"size": "xl"
@@ -438,7 +442,20 @@
 					},
 					{
 						"type": "text_block",
-						"text": "To grant that, in the fellowship of [_**11**_ and] all the saints, we may attain to your heavenly kingdom,"
+						"content": [
+							{
+								"type": "text",
+								"value": "To grant that, in the fellowship of ["
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": " and] all the saints, we may attain to your heavenly kingdom,"
+							}
+						]
 					},
 					{
 						"type": "line",
@@ -682,7 +699,7 @@
 						"text": "Where local circumstance or pastoral need dictates, the Officiant may reduce the number of petitions and responses prayed."
 					}
 				],
-				"pb_page_start": 92,
+				"pb_page_start": 91,
 				"pb_page_end": 99
 			}
 		]

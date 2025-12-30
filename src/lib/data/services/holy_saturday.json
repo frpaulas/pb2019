@@ -1,0 +1,243 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			578,
+			580
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 578
+					},
+					{
+						"type": "section_title",
+						"text": "holy saturday",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "There is no celebration of the Eucharist on this day."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant says"
+					},
+					{
+						"type": "versical",
+						"text": "Let us pray."
+					},
+					{
+						"type": "text_block",
+						"text": "O God, Creator of heaven and earth: Grant that, as the crucified body of your dear Son was laid in the tomb and rested on this holy Sabbath, so we may await with him the coming of the third day, and rise with him to newness of life; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "text_block",
+						"text": "O God of the living, on this day your Son our Savior descended to the place of the dead: Look with kindness on all of us who wait in hope for liberation from the corruption of sin and death, and give us a share in the glory of the children of God; through Jesus Christ your Son our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 579
+					},
+					{
+						"type": "section_title",
+						"text": "the lessons"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}job{{\\u}} 14:1-14"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 130 _or_ 88 _or_ 31:1-6 v"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}1 peter{{\\u}} 4:1-8"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}matthew{{\\u}} 27:57-66 _or_ {{u}}john 19:38-42{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "After the Gospel, a homily may follow."
+					},
+					{
+						"type": "rubric",
+						"text": "The following is then sung or said."
+					},
+					{
+						"type": "section_title",
+						"text": "the anthem"
+					},
+					{
+						"type": "line",
+						"text": "Man born of woman has but a short time to live,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and is full of misery.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "He springs up, and is cut down like a flower;",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "he flees like a shadow,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and never continues the same.",
+						"bold": true
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "line",
+						"text": "In the midst of life we are in death:",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "of whom do we seek strength,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "but you, O Lord,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "who for our sins are justly displeased?",
+						"bold": true
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "line",
+						"text": "Yet, O Lord God most holy,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "O Lord most mighty,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "O holy and most merciful Savior,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "deliver us not into the pains of eternal death.",
+						"bold": true
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "line",
+						"text": "You know, O Lord, the secrets of our hearts;",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "shut not your ears to our prayer;",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "but spare us, Lord most holy,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "O God most mighty,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "O holy and merciful Savior,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "most worthy Judge eternal,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "do not let us, in this our final hour,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "through the pain of death, fall away from you.",
+						"bold": true
+					},
+					{
+						"type": "page_break",
+						"page": 580
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant and People together pray the Lord’s Prayer. The concluding doxology is customarily omitted."
+					},
+					{
+						"type": "lords_prayer_nodox"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant concludes"
+					},
+					{
+						"type": "scripture",
+						"ref": "2 corinthians 13:14 t",
+						"text": "The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore. **Amen.**"
+					}
+				],
+				"pb_page_start": 578,
+				"pb_page_end": 580
+			}
+		]
+	}
+}

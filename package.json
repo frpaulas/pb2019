@@ -20,6 +20,7 @@
 		"validate:source": "node scripts/validate-raw-format.cjs src/lib/data/services/source/",
 		"convert:source": "node scripts/convert-raw-to-json.cjs src/lib/data/services/source/",
 		"lint:dpb": "node scripts/lint-dpb.cjs src/lib/data/services/dpb/*.dpb",
+		"check:canticles": "./scripts/check-canticles.sh",
 		"rebuild:check": "./scripts/rebuild-outdated.sh"
 	},
 	"devDependencies": {

@@ -1,4 +1,5 @@
 pg: 41-56
+pb:41
 tp: Daily Evening Prayer
 
 st:2: daily evening prayer
@@ -33,7 +34,7 @@ use:gloria:
 
 st: the lessons
 r: One or more Lessons, as appointed, are read, the Reader first saying
-v: A Reading from _**11**_.
+v: A Reading from ___11___.
 r: A citation giving chapter and verse may be added.
 r: After each Lesson the Reader may say
 v: The Word of the Lord.
@@ -88,7 +89,7 @@ l: That we may depart this life in your faith and fear, and not be
 l:i: condemned before the great judgment seat of Christ,
 l:b:i: We entreat you, O Lord.
 l: That we may be bound together by your Holy Spirit in the
-l:i: communion of [ _**11**_ and] all your saints, entrusting
+l:i: communion of [ ___11___ and] all your saints, entrusting
 l:i: one another and all our life to Christ,
 l:b:i: We entreat you, O Lord.
 

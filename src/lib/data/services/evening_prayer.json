@@ -12,6 +12,10 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 41
+					},
+					{
 						"type": "section_title",
 						"text": "daily evening prayer",
 						"size": "2xl"
@@ -124,7 +128,20 @@
 					},
 					{
 						"type": "versical",
-						"text": "A Reading from _**11**_."
+						"text": [
+							{
+								"type": "text",
+								"value": "A Reading from "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
 					},
 					{
 						"type": "rubric",
@@ -234,6 +251,10 @@
 					{
 						"type": "page_break",
 						"page": 48
+					},
+					{
+						"page": 42,
+						"type": "page_break"
 					},
 					{
 						"type": "versical",
@@ -350,7 +371,20 @@
 					},
 					{
 						"type": "line",
-						"text": "communion of [ _**11**_ and] all your saints, entrusting",
+						"text": [
+							{
+								"type": "text",
+								"value": "communion of [ "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": " and] all your saints, entrusting"
+							}
+						],
 						"indent": true
 					},
 					{
@@ -497,6 +531,10 @@
 					{
 						"type": "section_title",
 						"text": "prayer for mission"
+					},
+					{
+						"page": 43,
+						"type": "page_break"
 					},
 					{
 						"type": "text_block",
@@ -742,7 +780,7 @@
 						"text": "A sermon may be preached after the lessons, after the hymn or anthem following the Collects, or after the conclusion of the Office."
 					}
 				],
-				"pb_page_start": 44,
+				"pb_page_start": 41,
 				"pb_page_end": 56
 			}
 		]

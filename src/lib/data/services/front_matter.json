@@ -15,40 +15,35 @@
 						"page": -4
 					},
 					{
-						"type": "page",
-						"pageNumber": "iii"
+						"type": "iii"
 					},
 					{
 						"type": "page_break",
 						"page": -3
 					},
 					{
-						"type": "page",
-						"pageNumber": "iv"
+						"type": "iv"
 					},
 					{
 						"type": "page_break",
 						"page": -2
 					},
 					{
-						"type": "page",
-						"pageNumber": "v"
+						"type": "v"
 					},
 					{
 						"type": "page_break",
 						"page": -1
 					},
 					{
-						"type": "page",
-						"pageNumber": "vi"
+						"type": "vi"
 					},
 					{
 						"type": "page_break",
 						"page": 0
 					},
 					{
-						"type": "page",
-						"pageNumber": "vii"
+						"type": "vii"
 					}
 				],
 				"pb_page_start": -4,

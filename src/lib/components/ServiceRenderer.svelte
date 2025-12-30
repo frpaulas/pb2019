@@ -37,10 +37,20 @@
 	import OrderedListItem from '$lib/page_helpers/ordered_list_item.svelte';
 	import UnorderedListItem from '$lib/page_helpers/unordered_list_item.svelte';
 	import PageBreakMarker from '$lib/page_helpers/page_break_marker.svelte';
+	import VerticalMargin from '$lib/page_helpers/vertical_margin.svelte';
+
+	// Front matter pages
+	import PageIII from '$lib/text_component/iii.svelte';
+	import PageIV from '$lib/text_component/iv.svelte';
+	import PageV from '$lib/text_component/v.svelte';
+	import PageVI from '$lib/text_component/vi.svelte';
+	import PageVII from '$lib/text_component/vii.svelte';
 
 	// Import all canticles
 	import AgainstPerilsEp from '$lib/canticle/against_perils_ep.svelte';
 	import BenediciteOnmiaOperaDomini from '$lib/canticle/benedicite_onmia_opera_domini.svelte';
+	import Benedictus from '$lib/canticle/benedictus.svelte';
+	import BenedictusEsDomine from '$lib/canticle/benedictus_es_domine.svelte';
 	import CantateDomino from '$lib/canticle/cantate_domino.svelte';
 	import CantemusDomino from '$lib/canticle/cantemus_domino.svelte';
 	import DeusMisereatur from '$lib/canticle/deus_misereatur.svelte';
@@ -48,9 +58,12 @@
 	import EcceDeus from '$lib/canticle/ecce_deus.svelte';
 	import EveOfWorshipEp from '$lib/canticle/eve_of_worship_ep.svelte';
 	import FaithEp from '$lib/canticle/faith_ep.svelte';
+	import Jubilate from '$lib/canticle/jubilate.svelte';
 	import KyriePantokrator from '$lib/canticle/kyrie_pantokrator.svelte';
+	import Magnificat from '$lib/canticle/magnificat.svelte';
 	import MagnaEtMirabilia from '$lib/canticle/magna_et_mirabilia.svelte';
 	import NuncDimittis from '$lib/canticle/nunc_dimittis.svelte';
+	import PaschaNostrum from '$lib/canticle/pascha_nostrum.svelte';
 	import PeaceEp from '$lib/canticle/peace_ep.svelte';
 	import PhosHilaron from '$lib/canticle/phos_hilaron.svelte';
 	import PresenceChristEp from '$lib/canticle/presence_christ_ep.svelte';
@@ -58,11 +71,16 @@
 	import QuaeriteDominum from '$lib/canticle/quaerite_dominum.svelte';
 	import ResurrectionHopeEp from '$lib/canticle/resurrection_hope_ep.svelte';
 	import SurgeIlluminare from '$lib/canticle/surge_illuminare.svelte';
+	import TeDeumLaudamus from '$lib/canticle/te_deum_laudamus.svelte';
+	import VeniCreatorSpiritus from '$lib/canticle/veni_creator_spiritus.svelte';
+	import Venite from '$lib/canticle/venite.svelte';
 
 	// Map canticle names to components
 	const canticleMap = {
 		against_perils_ep: AgainstPerilsEp,
 		benedicite_onmia_opera_domini: BenediciteOnmiaOperaDomini,
+		benedictus: Benedictus,
+		benedictus_es_domine: BenedictusEsDomine,
 		cantate_domino: CantateDomino,
 		cantemus_domino: CantemusDomino,
 		chrysostom: Chrysostom,
@@ -71,16 +89,23 @@
 		ecce_deus: EcceDeus,
 		eve_of_worship_ep: EveOfWorshipEp,
 		faith_ep: FaithEp,
+		jubilate: Jubilate,
 		kyrie_pantokrator: KyriePantokrator,
+		magnificat: Magnificat,
 		magna_et_mirabilia: MagnaEtMirabilia,
 		nunc_dimittis: NuncDimittis,
+		pacha_nostrum: PaschaNostrum,
+		pascha_nostrum: PaschaNostrum,
 		peace_ep: PeaceEp,
 		phos_hilaron: PhosHilaron,
 		presence_christ_ep: PresenceChristEp,
 		protection_ep: ProtectionEp,
 		quaerite_dominum: QuaeriteDominum,
 		resurrection_hope_ep: ResurrectionHopeEp,
-		surge_illuminare: SurgeIlluminare
+		surge_illuminare: SurgeIlluminare,
+		te_deum_laudamus: TeDeumLaudamus,
+		veni_creator_spiritus: VeniCreatorSpiritus,
+		venite: Venite
 	};
 
 	// Dynamically import all collects
@@ -193,6 +218,8 @@
 					<Silence />
 				{:else if block.type === 'line_break'}
 					<br />
+				{:else if block.type === 'vertical_margin'}
+					<VerticalMargin spacing={block.spacing} />
 				{:else if block.type === 'page_break'}
 					<PageBreakMarker page={block.page} />
 				{:else if block.type === 'blank_page'}
@@ -246,6 +273,16 @@
 					<Lectionary />
 				{:else if block.type === 'holy_day'}
 					<HolyDay name={block.name} />
+				{:else if block.type === 'iii'}
+					<PageIII />
+				{:else if block.type === 'iv'}
+					<PageIV />
+				{:else if block.type === 'v'}
+					<PageV />
+				{:else if block.type === 'vi'}
+					<PageVI />
+				{:else if block.type === 'vii'}
+					<PageVII />
 				{:else}
 					<!-- Fallback for unhandled types -->
 					<div class="text-sm text-amber-600 italic">

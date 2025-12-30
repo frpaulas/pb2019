@@ -47,7 +47,20 @@
 					},
 					{
 						"type": "text_block",
-						"text": "I confess to Almighty God, to his Church, and to you, that I have sinned by my own fault in thought, word, and deed, in things done and left undone; especially _**8**_. For these and all other sins that I cannot now remember, I am truly sorry. I pray God to have mercy on me. I firmly intend amendment of life, and I humbly beg forgiveness of God and his Church, and ask you for counsel, direction, and absolution.",
+						"content": [
+							{
+								"type": "text",
+								"value": "I confess to Almighty God, to his Church, and to you, that I have sinned by my own fault in thought, word, and deed, in things done and left undone; especially "
+							},
+							{
+								"type": "blank",
+								"value": "8"
+							},
+							{
+								"type": "text",
+								"value": ". For these and all other sins that I cannot now remember, I am truly sorry. I pray God to have mercy on me. I firmly intend amendment of life, and I humbly beg forgiveness of God and his Church, and ask you for counsel, direction, and absolution."
+							}
+						],
 						"bold": true
 					},
 					{
@@ -68,7 +81,11 @@
 					},
 					{
 						"type": "rubric",
-						"text": "or tb Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord. **Amen.**"
+						"text": "or"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord. **Amen.**"
 					},
 					{
 						"type": "line",

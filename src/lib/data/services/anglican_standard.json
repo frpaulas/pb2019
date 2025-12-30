@@ -12,6 +12,10 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 105
+					},
+					{
 						"type": "section_title",
 						"text": "the order for the administration of"
 					},
@@ -180,7 +184,20 @@
 					},
 					{
 						"type": "versical",
-						"text": "A Reading from _**11**_."
+						"text": [
+							{
+								"type": "text",
+								"value": "A Reading from "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
 					},
 					{
 						"type": "rubric",
@@ -221,7 +238,20 @@
 					},
 					{
 						"type": "versical",
-						"text": "The Holy Gospel of our Lord Jesus Christ according to _**11**_."
+						"text": [
+							{
+								"type": "text",
+								"value": "The Holy Gospel of our Lord Jesus Christ according to "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
 					},
 					{
 						"type": "versical",
@@ -304,7 +334,7 @@
 					},
 					{
 						"type": "text_block",
-						"text": "Give grace, heavenly Father, to all Bishops, Priests, and Deacons, and especially to your servant(s) _N_, our Archbishop/Bishop/Priest/Deacon, etc._, that by their life and teaching, they may proclaim your true and life-giving Word, and rightly and duly administer our holy Sacraments. And to all your people give your heavenly grace, especially to this Congregation, that with reverent and obedient hearts we may hear and receive your holy Word, and serve you in holiness and righteousness all the days of our lives."
+						"text": "Give grace, heavenly Father, to all Bishops, Priests, and Deacons, _and especially to your servant(s) N, our _Archbishop/Bishop/Priest/Deacon, etc._, that by their life and teaching, they may proclaim your true and life-giving Word, and rightly and duly administer our holy Sacraments. And to all your people give your heavenly grace, especially to this Congregation, that with reverent and obedient hearts we may hear and receive your holy Word, and serve you in holiness and righteousness all the days of our lives."
 					},
 					{
 						"type": "page_break",
@@ -342,7 +372,20 @@
 					},
 					{
 						"type": "text_block",
-						"text": "We ask you in your goodness, O Lord, to comfort and sustain all who in this transitory life are in trouble, sorrow, need, sickness, or any other adversity [especially _**11**_]."
+						"content": [
+							{
+								"type": "text",
+								"value": "We ask you in your goodness, O Lord, to comfort and sustain all who in this transitory life are in trouble, sorrow, need, sickness, or any other adversity [especially "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "]."
+							}
+						]
 					},
 					{
 						"type": "rubric",
@@ -359,7 +402,20 @@
 					},
 					{
 						"type": "text_block",
-						"text": "We remember before you all your servants who have departed this life in your faith and fear, [especially _**11**_,] that your will for them may be fulfilled; and we ask you to give us grace to follow the good examples of [_N._, and] all your saints, that we may share with them in your heavenly kingdom."
+						"content": [
+							{
+								"type": "text",
+								"value": "We remember before you all your servants who have departed this life in your faith and fear, [especially "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": ",] that your will for them may be fulfilled; and we ask you to give us grace to follow the good examples of [_N._, and] all your saints, that we may share with them in your heavenly kingdom."
+							}
+						]
 					},
 					{
 						"type": "rubric",
@@ -989,7 +1045,7 @@
 						"text": "Thanks be to God. [Alleluia, alleluia.]"
 					}
 				],
-				"pb_page_start": 106,
+				"pb_page_start": 105,
 				"pb_page_end": 122
 			}
 		]

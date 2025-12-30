@@ -12,6 +12,10 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 123
+					},
+					{
 						"type": "section_title",
 						"text": "the order for the administration of"
 					},
@@ -53,7 +57,7 @@
 					},
 					{
 						"type": "versical",
-						"text": ": Blessed be God: the Father, the Son, and the Holy Spirit."
+						"text": "Blessed be God: the Father, the Son, and the Holy Spirit."
 					},
 					{
 						"type": "versical",
@@ -138,7 +142,7 @@
 					},
 					{
 						"type": "versical",
-						"text": ": The Lord be with you."
+						"text": "The Lord be with you."
 					},
 					{
 						"type": "versical",
@@ -173,7 +177,20 @@
 					},
 					{
 						"type": "versical",
-						"text": ": A Reading from _**11**_."
+						"text": [
+							{
+								"type": "text",
+								"value": "A Reading from "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
 					},
 					{
 						"type": "rubric",
@@ -185,7 +202,7 @@
 					},
 					{
 						"type": "versical",
-						"text": ": The Word of the Lord."
+						"text": "The Word of the Lord."
 					},
 					{
 						"type": "versical",
@@ -214,7 +231,20 @@
 					},
 					{
 						"type": "versical",
-						"text": ": The Holy Gospel of our Lord Jesus Christ according to _**11**_."
+						"text": [
+							{
+								"type": "text",
+								"value": "The Holy Gospel of our Lord Jesus Christ according to "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
 					},
 					{
 						"type": "versical",
@@ -227,7 +257,7 @@
 					},
 					{
 						"type": "versical",
-						"text": ": The Gospel of the Lord."
+						"text": "The Gospel of the Lord."
 					},
 					{
 						"type": "versical",
@@ -331,7 +361,20 @@
 					},
 					{
 						"type": "text_block",
-						"text": "For our nation, for those in authority, and for all in public service [especially ************_]."
+						"content": [
+							{
+								"type": "text",
+								"value": "For our nation, for those in authority, and for all in public service [especially "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "]."
+							}
+						]
 					},
 					{
 						"type": "versical",
@@ -348,7 +391,20 @@
 					},
 					{
 						"type": "text_block",
-						"text": "For all those who are in trouble, sorrow, need, sickness, or any other adversity [especially ************_]."
+						"content": [
+							{
+								"type": "text",
+								"value": "For all those who are in trouble, sorrow, need, sickness, or any other adversity [especially "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "]."
+							}
+						]
 					},
 					{
 						"type": "versical",
@@ -361,7 +417,20 @@
 					},
 					{
 						"type": "text_block",
-						"text": "For all those who have departed this life in the certain hope of the resurrection, [especially ****__,] in thanksgiving let us pray."
+						"content": [
+							{
+								"type": "text",
+								"value": "For all those who have departed this life in the certain hope of the resurrection, [especially "
+							},
+							{
+								"type": "blank",
+								"value": "8"
+							},
+							{
+								"type": "text",
+								"value": ",] in thanksgiving let us pray."
+							}
+						]
 					},
 					{
 						"type": "versical",
@@ -488,6 +557,10 @@
 						"text": "the offertory"
 					},
 					{
+						"page": 125,
+						"type": "page_break"
+					},
+					{
 						"type": "rubric",
 						"text": "The Celebrant may begin the Offertory with one of the provided sentences of Scripture. During the Offertory a hymn, psalm, or anthem may be sung. The Deacon or Priest prepares the Holy Table for the celebration. Representatives of the Congregation may bring the People's offerings of bread and wine, and money or other gifts, to the Deacon or Priest."
 					},
@@ -497,7 +570,15 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Yours, O Lord, is the greatness, and the power, and the glory, and the victory, and the majesty: for everything in heaven and on earth is yours; yours is the Kingdom, O Lord, and you are exalted as Head above all. All things come from you, O Lord,"
+						"text": "celebrant: Yours, O Lord, is the greatness, and the power, and the glory, and the victory,"
+					},
+					{
+						"type": "versical",
+						"text": "and the majesty: for everything in heaven and on earth is yours; yours is the Kingdom, O Lord,"
+					},
+					{
+						"type": "versical",
+						"text": "and you are exalted as Head above all. All things come from you, O Lord,"
 					},
 					{
 						"type": "versical",
@@ -522,7 +603,7 @@
 					},
 					{
 						"type": "versical",
-						"text": ": The Lord be with you."
+						"text": "The Lord be with you."
 					},
 					{
 						"type": "versical",
@@ -937,7 +1018,7 @@
 					},
 					{
 						"type": "versical",
-						"text": ": Let us go forth in the Name of Christ."
+						"text": "Let us go forth in the Name of Christ."
 					},
 					{
 						"type": "versical",
@@ -997,7 +1078,7 @@
 						"text": "Thanks be to God. [Alleluia, alleluia.]"
 					}
 				],
-				"pb_page_start": 124,
+				"pb_page_start": 123,
 				"pb_page_end": 138
 			}
 		]

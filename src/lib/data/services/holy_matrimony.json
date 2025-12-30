@@ -78,7 +78,7 @@
 					},
 					{
 						"type": "versical",
-						"text": ":b: I will.",
+						"text": "I will.",
 						"bold": true
 					},
 					{
@@ -117,7 +117,11 @@
 					},
 					{
 						"type": "rubric",
-						"text": "If there is to be a Presentation, the Officiant asks the following, or some other suitable question. Who presents _N._ [and _N._] for Holy Matrimony?"
+						"text": "If there is to be a Presentation, the Officiant asks the following, or some other suitable question."
+					},
+					{
+						"type": "text_block",
+						"text": "Who presents _N._ [and _N._] for Holy Matrimony?"
 					},
 					{
 						"type": "versical",
@@ -250,11 +254,24 @@
 					},
 					{
 						"type": "versical",
-						"text": ": The Holy Gospel of our Lord Jesus Christ according"
+						"text": "The Holy Gospel of our Lord Jesus Christ according"
 					},
 					{
 						"type": "versical",
-						"text": "to ********."
+						"text": [
+							{
+								"type": "text",
+								"value": "to "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
 					},
 					{
 						"type": "versical",
@@ -267,7 +284,7 @@
 					},
 					{
 						"type": "versical",
-						"text": ": The Gospel of the Lord."
+						"text": "The Gospel of the Lord."
 					},
 					{
 						"type": "versical",

@@ -12,6 +12,10 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 147
+					},
+					{
 						"type": "section_title",
 						"text": "the exhortation"
 					},
@@ -44,7 +48,7 @@
 						"text": "To him, therefore, with the Father and the Holy Spirit, let us give continual thanks, as is our duty and our joy, submitting ourselves entirely to his holy will and striving to serve him in holiness and righteousness all the days of our life. **Amen.**"
 					}
 				],
-				"pb_page_start": 148,
+				"pb_page_start": 147,
 				"pb_page_end": 148
 			}
 		]

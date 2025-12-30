@@ -14,3 +14,12 @@
 <ShowContent text="Show Collect" getContent={() => 'Collect content goes here'} />
 let {(text, page)} = $props(); If highlighting still doesn't work after restart, Zed may need to compile
 the Tree-sitter grammar. You might need to run `zed: reload extensions` from the command palette (Ctrl+Shift+P).
+
+"":{
+	"name": "",
+	"ot": "",
+	"psalm": "",
+	"epistle": "",
+	"gospel": "",
+	"color": ""
+},

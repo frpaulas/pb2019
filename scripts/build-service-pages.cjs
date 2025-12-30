@@ -15,7 +15,9 @@ const OUTPUT_FILE = path.join(__dirname, '../src/lib/data/service_pages.json');
 console.log('📖 Building service_pages.json from service files...\n');
 
 // Read all service JSON files
-const serviceFiles = fs.readdirSync(SERVICES_DIR).filter((file) => file.endsWith('.json'));
+const serviceFiles = fs
+	.readdirSync(SERVICES_DIR)
+	.filter((file) => file.endsWith('.json') && file !== 'service_pages.json');
 
 console.log(`Found ${serviceFiles.length} service files`);
 
@@ -23,14 +25,36 @@ const servicePages = {};
 
 for (const filename of serviceFiles) {
 	const filepath = path.join(SERVICES_DIR, filename);
-	const serviceData = JSON.parse(fs.readFileSync(filepath, 'utf8'));
+	const fileData = JSON.parse(fs.readFileSync(filepath, 'utf8'));
 
-	if (!serviceData.service) continue;
+	// Get the actual service object - it could be under different keys
+	let service = null;
+	let serviceTitle = '';
 
-	const service = serviceData.service;
+	if (fileData.service) {
+		service = fileData.service;
+		serviceTitle = service.title || '';
+	} else {
+		// Find the first key that has sections
+		const keys = Object.keys(fileData);
+		for (const key of keys) {
+			if (fileData[key] && fileData[key].sections) {
+				service = fileData[key];
+				serviceTitle = service.title || key;
+				break;
+			}
+		}
+	}
+
+	if (!service || !service.sections) {
+		console.log(`⚠️  Skipping ${filename} - no sections found`);
+		continue;
+	}
+
+	console.log(`Processing ${filename} (${serviceTitle})`);
 
 	// Process each section
-	for (const section of service.sections || []) {
+	for (const section of service.sections) {
 		let currentPage = null;
 		let currentPageContent = [];
 
@@ -42,7 +66,7 @@ for (const filename of serviceFiles) {
 					if (!servicePages[currentPage]) {
 						servicePages[currentPage] = {
 							pageNumber: currentPage,
-							headerText: service.title || '',
+							headerText: serviceTitle,
 							content: []
 						};
 					}
@@ -70,7 +94,7 @@ for (const filename of serviceFiles) {
 			if (!servicePages[currentPage]) {
 				servicePages[currentPage] = {
 					pageNumber: currentPage,
-					headerText: service.title || '',
+					headerText: serviceTitle,
 					content: []
 				};
 			}
@@ -83,5 +107,15 @@ for (const filename of serviceFiles) {
 fs.writeFileSync(OUTPUT_FILE, JSON.stringify(servicePages, null, 2));
 
 const pageCount = Object.keys(servicePages).length;
+const numericPages = Object.keys(servicePages)
+	.map((p) => parseInt(p))
+	.filter((p) => !isNaN(p))
+	.sort((a, b) => a - b);
+const pageRange =
+	numericPages.length > 0
+		? `${numericPages[0]} to ${numericPages[numericPages.length - 1]}`
+		: 'none';
+
 console.log(`\n✅ Built service_pages.json with ${pageCount} pages`);
+console.log(`📄 Page range: ${pageRange}`);
 console.log(`📝 Output: ${OUTPUT_FILE}`);

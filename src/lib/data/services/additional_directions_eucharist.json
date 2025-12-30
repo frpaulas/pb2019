@@ -12,6 +12,10 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 139
+					},
+					{
 						"type": "section_title",
 						"text": "additional directions"
 					},
@@ -201,7 +205,7 @@
 					},
 					{
 						"type": "text_block",
-						"text": "\"Hear us, O heavenly Father, and with your Word and Holy Spirit bless and sanctify this Bread [Wine] that it, also, may be the Sacrament of the precious Body [Blood] of your Son Jesus Christ our Lord, who took Bread [the Cup] and said, \"This is my Body [Blood].\"",
+						"text": "\"Hear us, O heavenly Father, and with your Word and Holy Spirit bless and sanctify this Bread [Wine] that it, also, may be the Sacrament of the precious Body [Blood] of your Son Jesus Christ our Lord, who took Bread [the Cup] and said, \"This is my Body [Blood].\"\"",
 						"indent": true
 					},
 					{
@@ -365,7 +369,7 @@
 						"page": 144
 					}
 				],
-				"pb_page_start": 140,
+				"pb_page_start": 139,
 				"pb_page_end": 144
 			}
 		]

@@ -5,11 +5,26 @@
 	import IntentionallyBlank from '$lib/page_helpers/intentionally_blank.svelte';
 	import PsalmPageRenderer from '$lib/page/PsalmPageRenderer.svelte';
 	import ServicePageRenderer from '$lib/page/ServicePageRenderer.svelte';
+	import StickyPageIndicator from '$lib/page_helpers/sticky_page_indicator.svelte';
 	import { currentVisiblePage } from '$lib/stores/currentPage.js';
 	import { getNextPage, getPrevPage, sortPages } from '$lib/page_helpers/page_order';
 	import { deduplicatePageLoads, getContentFile } from '$lib/page_helpers/page_content_map';
 	import psalmPagesData from '$lib/data/psalm_pages.json';
 	import servicePagesData from '$lib/data/service_pages.json';
+
+	// Map roman numerals to actual page numbers
+	const romanToPageNumber = {
+		iii: '-4',
+		iv: '-3',
+		v: '-2',
+		vi: '-1',
+		vii: '0'
+	};
+
+	// Helper function to get actual page number from display page
+	function getActualPageNumber(displayPage) {
+		return romanToPageNumber[displayPage] || displayPage;
+	}
 
 	let currentPageNumber = $page.params.page_number;
 	let loadedPages = $state([$page.params.page_number]);
@@ -638,6 +653,8 @@
 	});
 </script>
 
+<StickyPageIndicator />
+
 <div
 	bind:this={container}
 	class="scroll-container h-screen overflow-auto"
@@ -647,18 +664,39 @@
 	}}
 >
 	{#each deduplicatePageLoads(loadedPages) as { file, displayPage } (file)}
+		{@const actualPage = getActualPageNumber(displayPage)}
+		{(() => {
+			console.log('[RENDER] Processing page:', {
+				file,
+				displayPage,
+				actualPage,
+				hasPsalmData: !!psalmPagesData[actualPage],
+				hasServiceData: !!servicePagesData[actualPage],
+				psalmKeys: Object.keys(psalmPagesData).slice(0, 5),
+				serviceKeys: Object.keys(servicePagesData).slice(0, 10)
+			});
+			return '';
+		})()}
 		<div class="page-container" data-page={displayPage}>
-			{#if psalmPagesData[displayPage]}
+			{#if psalmPagesData[actualPage]}
 				<!-- Render psalm page from JSON data -->
-				<PsalmPageRenderer pageData={psalmPagesData[displayPage]} />
-			{:else if servicePagesData[displayPage]}
+				<PsalmPageRenderer pageData={psalmPagesData[actualPage]} />
+			{:else if servicePagesData[actualPage]}
 				<!-- Render service page from JSON data -->
-				<ServicePageRenderer pageData={servicePagesData[displayPage]} />
+				<ServicePageRenderer pageData={servicePagesData[actualPage]} />
 			{:else}
 				<!-- Render regular page component -->
+				{(() => {
+					console.log('[RENDER] Fallback - attempting dynamic import of:', file);
+					return '';
+				})()}
 				{#await import(`../../lib/page/${file}.svelte`) then Component}
 					<Component.default />
-				{:catch}
+				{:catch error}
+					{(() => {
+						console.log('[RENDER] Import failed, showing blank page:', error.message);
+						return '';
+					})()}
 					<IntentionallyBlank pg={displayPage} />
 				{/await}
 			{/if}

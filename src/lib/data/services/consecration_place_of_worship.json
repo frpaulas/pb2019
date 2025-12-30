@@ -1,0 +1,1097 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			525,
+			540
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 525
+					},
+					{
+						"type": "section_title",
+						"text": "the"
+					},
+					{
+						"type": "section_title",
+						"text": "consecration and",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "dedication",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "1 _of a_ place of worship"
+					},
+					{
+						"type": "rubric",
+						"text": "On the day appointed, the clergy and people gather with the Bishop in a place apart from the church, chapel, or place of worship to be consecrated."
+					},
+					{
+						"type": "rubric",
+						"text": "When all are ready, the Bishop says"
+					},
+					{
+						"type": "text_block",
+						"content": [
+							{
+								"type": "text",
+								"value": "Through the ages, Almighty God has moved his people to build houses of prayer and praise, and to set apart places for the ministry of his holy Word and Sacraments. With gratitude for the building [or rebuilding, or acquisition, or adornment] of "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": " (name of church), we are now gathered to consecrate and dedicate it in God’s Name."
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "Let us pray."
+					},
+					{
+						"type": "text_block",
+						"text": "O Eternal God, mighty in power, of majesty incomprehensible, whom the heavens cannot contain, much less the walls of temples made with hands: You have graciously promised your holy presence wherever two or three of your faithful servants gather together in the Name of your Son. Be present with us who now come with humility and gratitude to consecrate this place to the honor of your great Name. We dedicate it to the work of your kingdom, separating it from all profane us for reading your most holy Word, for celebrating your holy Sacraments, for offering to your glorious majesty the sacrifice of prayer and thanksgiving, for the blessing of your people, and for the mission of your Church. Accept, O Lord, this service at our hands, and fill this place with your glory; through Jesus Christ our Lord and Savior. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 526
+					},
+					{
+						"type": "rubric",
+						"text": "The clergy and people enter the Church. Standing at the door of the church, the Bishop knocks three times on the door with his pastoral staff, saying"
+					},
+					{
+						"type": "versical",
+						"text": "Lift up your heads, O you gates, and be lifted up, you"
+					},
+					{
+						"type": "versical",
+						"text": "everlasting doors, and the King of glory shall come in."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Who is the King of glory? It is the Lord, strong and"
+					},
+					{
+						"type": "versical",
+						"text": "mighty, even the Lord, mighty in battle. The Lord",
+						"bold": true
+					},
+					{
+						"type": "versical",
+						"text": "of hosts, he is the King of glory. \b psalm 24:7-8,10",
+						"bold": true
+					},
+					{
+						"type": "rubric",
+						"text": "The doors are opened by the Rector and Wardens."
+					},
+					{
+						"type": "rubric",
+						"text": "With the pastoral staff, the Bishop marks the threshold with the sign of the Cross of Christ, saying"
+					},
+					{
+						"type": "text_block",
+						"text": "Peace be to this house and to all who enter here: In the Name of the Father, and of the Son, and of the Holy Spirit. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "Here the Bishop may use the Oil of Exorcism."
+					},
+					{
+						"type": "text_block",
+						"text": "May our Lord Jesus Christ put his seal upon this place and protect it from all evil and darkness, that it may be a beacon of his truth and love."
+					},
+					{
+						"type": "rubric",
+						"text": "If the Font is at the entrance, the blessing may occur here, followed by the procession and the Prayer for the Consecration of the Church; if not, the procession moves into the midst of the church."
+					},
+					{
+						"type": "page_break",
+						"page": 527
+					},
+					{
+						"type": "rubric",
+						"text": "During the procession, a hymn may be sung, or Psalm 122 or some other appropriate psalm may be sung or said."
+					},
+					{
+						"type": "rubric",
+						"text": "The Congregation standing, the Bishop begins the Prayer for the Consecration of the Church"
+					},
+					{
+						"type": "text_block",
+						"text": "Everliving Father, watchful and caring, our source and our end: All that we are and all that we have is yours. Hear us now, as we dedicate this place to which we come to praise your Name, to ask your forgiveness, to know your healing power, to hear your Word, and to be nourished by the Body and Blood of your Son. Be present always to guide and to judge, to illumine and to bless your people."
+					},
+					{
+						"type": "rubric",
+						"text": "A Warden or other representative of the Congregation continues"
+					},
+					{
+						"type": "text_block",
+						"text": "Lord Jesus Christ, make this a temple of your presence and a house of prayer. Be always near us when we seek you in this place. Draw us to yourself to find comfort and wisdom, to be supported and strengthened, and to rejoice and give thanks. Grant, Lord Christ, that here we may be united with you and with one another, so that our lives may be sustained and sanctified for your service."
+					},
+					{
+						"type": "rubric",
+						"text": "The Rector or Minister in charge continues"
+					},
+					{
+						"type": "text_block",
+						"text": "Holy Spirit, open our eyes, our ears, and our hearts, that we may grow closer to you through joy and through suffering. Be with us in the fullness of your power as new members are added to God’s household, as we grow in grace through the years, when we are joined in Holy Matrimony, when we turn to you in sickness or special need, and, at the last, when we are committed into the Father’s hands."
+					},
+					{
+						"type": "page_break",
+						"page": 528
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop pronounces the Sentence of Consecration, in this or some other form"
+					},
+					{
+						"type": "text_block",
+						"content": [
+							{
+								"type": "text",
+								"value": "In the Name of the Father, and of the Son, and of the Holy Spirit, I, _N._, by divine grace Bishop of "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": ", by virtue of the spiritual authority entrusted to me, now therefore consecrate this Place of Worship, setting it apart from unhallowed and profane use, and dedicating it to Almighty God for the ministration of his holy Word and Sacraments, for building up the Body of Christ, for the mission of the Church, and for public worship according to the rites and ceremonies of the Anglican Church in North America."
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "All gathered respond, saying"
+					},
+					{
+						"type": "line",
+						"text": "**Amen.**"
+					},
+					{
+						"type": "section_title",
+						"text": "instruments and bells"
+					},
+					{
+						"type": "rubric",
+						"text": "When instruments of music are to be dedicated, the Bishop proceeds to an appropriate place, and says"
+					},
+					{
+						"type": "text_block",
+						"text": "Father, your people worship you with many voices and sounds, in times of joy and sorrow. Move us to express the wonder, the power, and the glory of your creation and your salvation in the music we make and in the songs we sing."
+					},
+					{
+						"type": "versical",
+						"text": "Praise him with the sound of the trumpet;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Praise him upon the lute and harp."
+					},
+					{
+						"type": "ref",
+						"text": "psalm 150:3"
+					},
+					{
+						"type": "text_block",
+						"content": [
+							{
+								"type": "text",
+								"value": "We dedicate these "
+							},
+							{
+								"type": "blank",
+								"value": "8"
+							},
+							{
+								"type": "text",
+								"value": "(names of instruments) in the Name of the Father, and of the Son, and of the Holy Spirit. **Amen.**"
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "Instruments are sounded. Bells may be rung. A hymn or anthem may be sung."
+					},
+					{
+						"type": "page_break",
+						"page": 529
+					},
+					{
+						"type": "section_title",
+						"text": "the font or basin"
+					},
+					{
+						"type": "rubric",
+						"text": "If the Font has not already been set apart, the Bishop moves to the Font, lays a hand upon it, and says"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty and everlasting Father, in your great mercy you saved Noah and his family in the Ark from the destruction of the flood, prefiguring the Sacrament of Holy Baptism. We thank you that by faith and through the waters of Baptism we die to sin and are reborn in Christ. Grant through your Spirit that those baptized here may enjoy the liberty and splendor of the children of God."
+					},
+					{
+						"type": "versical",
+						"text": "There is one Lord, one Faith, one Baptism;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "One God and Father of all."
+					},
+					{
+						"type": "ref",
+						"text": "ephesians 4:4-5"
+					},
+					{
+						"type": "text_block",
+						"text": "We dedicate this Font in the Name of the Father, and of the Son, and of the Holy Spirit. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "Water may be poured into the Font (and the Paschal Candle lit if it to be used to bless the Font), the Bishop saying"
+					},
+					{
+						"type": "text_block",
+						"text": "Now, Father, sanctify this water by the power of your Holy Spirit. May all who are baptized here be cleansed from sin, be born again, and continue for ever faithful in the risen life of Jesus Christ our Savior. To him, to you, and to the Holy Spirit be all honor and glory, now and for ever. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "If the Paschal Candle was not used to bless the Font, it may now be lit."
+					},
+					{
+						"type": "page_break",
+						"page": 530
+					},
+					{
+						"type": "section_title",
+						"text": "the lectern"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop proceeds to the lectern, lays a hand upon it, and says"
+					},
+					{
+						"type": "text_block",
+						"text": "Father, your eternal Word speaks to us through the words of Holy Scripture. Here we read about your mighty acts and purposes in history, and about those who served you faithfully. Inspired by the revelation of your Son, we seek to do your will. Give us ears to hear and hearts to obey."
+					},
+					{
+						"type": "versical",
+						"text": "Your word is a lantern to my feet"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And a light upon my path."
+					},
+					{
+						"type": "ref",
+						"text": "psalm 119:105"
+					},
+					{
+						"type": "text_block",
+						"text": "We dedicate this lectern in the Name of the Father, and of the Son, and of the Holy Spirit. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "At the dedication of the lectern, the Bible may be brought forward and put into place."
+					},
+					{
+						"type": "section_title",
+						"text": "the pulpit"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop goes to the pulpit, lays a hand upon it, and says"
+					},
+					{
+						"type": "text_block",
+						"text": "Father, in every age you have spoken through the voices of prophets, pastors, and teachers. Purify the lives and the lips of those who speak here, that the Gospel of Christ may be boldly and faithfully proclaimed, for the building up of your Church and the extension of your kingdom."
+					},
+					{
+						"type": "versical",
+						"text": "Let the words of my mouth and the meditation of my heart"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Be always acceptable in your sight, O Lord, my rock and my redeemer."
+					},
+					{
+						"type": "ref",
+						"text": "psalm 19:14"
+					},
+					{
+						"type": "text_block",
+						"text": "We dedicate this pulpit in the Name of the Father, and of the Son, and of the Holy Spirit. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 531
+					},
+					{
+						"type": "section_title",
+						"text": "the holy table"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop proceeds to the altar, and says"
+					},
+					{
+						"type": "text_block",
+						"text": "Father, on the night that he was betrayed, your Son Jesus Christ instituted for us the banquet of our salvation. Accept here our sacrifice of praise and thanksgiving, in union with the one perfect sacrifice of your Son. Grant that all who eat and drink at this Holy Table may be fed and refreshed by the Sacrament of his Body and Blood. May they come with penitent hearts, lively faith, and perfect charity; and, being filled with your grace and heavenly benediction, obtain remission of their sins, and all other benefits of his passion."
+					},
+					{
+						"type": "versical",
+						"text": "Whoever feeds on my flesh and drinks my blood has eternal life,"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And I will raise him up on the last day."
+					},
+					{
+						"type": "ref",
+						"text": "john 6:54"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop lays a hand upon the Holy Table, and continues"
+					},
+					{
+						"type": "text_block",
+						"text": "We dedicate and consecrate this Table in the Name of the Father, and of the Son, and of the Holy Spirit. May it be to us a sign of the heavenly Altar where your saints and angels praise you for ever. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "Members of the Congregation vest the Holy Table, place the vessels on it, and light the candles."
+					},
+					{
+						"type": "page_break",
+						"page": 532
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop concludes the acts of Consecration and Dedication saying"
+					},
+					{
+						"type": "versical",
+						"text": "O God, the Father, the Son, and the Holy Spirit, sanctify this place;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For everything in heaven and on earth is yours."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Yours is the kingdom, O Lord;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And you are exalted as head above all."
+					},
+					{
+						"type": "versical",
+						"text": "Amen.",
+						"bold": true
+					},
+					{
+						"type": "ref",
+						"text": "1 chronicles 29:11"
+					},
+					{
+						"type": "section_title",
+						"text": "the collect of the day"
+					},
+					{
+						"type": "versical",
+						"text": "bishop: The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Let us pray."
+					},
+					{
+						"type": "text_block",
+						"text": "O God of unchangeable power and eternal light: Look favorably on your whole Church, that wonderful and sacred mystery; by the effectual working of your providence, carry out in tranquility the plan of salvation; let the whole world see and know that things which were cast down are being raised up, and things which had grown old are being made new, and that all things are being brought to their perfection by him through whom all things were made, your Son Jesus Christ our Lord; who lives and reigns with you, in the unity of the Holy Spirit, one God, for ever and ever. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "Three Lessons are read. Lay persons read the Old Testament Lesson and the Epistle. The Deacon (or a Priest) reads the Gospel. Selections are ordinarily made from the following list; but on a Major Feast, Sunday, or Feast of Dedication, selections may be made from the Propers of the Day."
+					},
+					{
+						"type": "section_title",
+						"text": "the lessons"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "1 kings"
+							},
+							{
+								"type": "text",
+								"value": " 8:22-30 _or_ {{u}}2 samuel{{\\u}} 6:12-19 _or_ {{u}}haggai{{\\u}} 2:1-8"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 84 _or_ 48"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}revelation{{\\u}} 21:2-7 _or_ {{u}}1 corinthians{{\\u}} 3:1-17 _or_ {{u}}1 peter{{\\u}} 2:1-9"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}matthew{{\\u}} 7:13-25 _or_ {{u}}matthew{{\\u}} 21:10-14"
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "The People sit. One or more Lessons, as appointed, are read, the Reader first saying"
+					},
+					{
+						"type": "versical",
+						"text": [
+							{
+								"type": "text",
+								"value": "A Reading from "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "A citation giving chapter and verse may be added."
+					},
+					{
+						"type": "rubric",
+						"text": "After each Lesson the Reader may say"
+					},
+					{
+						"type": "versical",
+						"text": "The Word of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"page": 533,
+						"type": "page_break"
+					},
+					{
+						"type": "line",
+						"text": "_Or the Reader may say_ Here ends the Reading."
+					},
+					{
+						"type": "rubric",
+						"text": "Silence may follow."
+					},
+					{
+						"type": "rubric",
+						"text": "A psalm, hymn, or anthem may follow each reading."
+					},
+					{
+						"type": "rubric",
+						"text": "All standing, the Deacon or Priest reads the Gospel, first saying"
+					},
+					{
+						"type": "versical",
+						"text": [
+							{
+								"type": "text",
+								"value": "The Holy Gospel of our Lord Jesus Christ according to "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Glory to you, Lord Christ."
+					},
+					{
+						"type": "rubric",
+						"text": "After the Gospel, the Reader says"
+					},
+					{
+						"type": "versical",
+						"text": "The Gospel of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Praise to you, Lord Christ."
+					},
+					{
+						"type": "page_break",
+						"page": 534
+					},
+					{
+						"type": "section_title",
+						"text": "the sermon"
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "section_title",
+						"text": "the nicene creed"
+					},
+					{
+						"type": "nicene_creed"
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "section_title",
+						"text": "the prayers of the people"
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon or a member of the Congregation leads the Prayers of the People, saying"
+					},
+					{
+						"type": "text_block",
+						"text": "We praise you, almighty and eternal God, that for us and for our salvation, you sent your Son Jesus Christ to be born among us, that through him we might become your sons and daughters."
+					},
+					{
+						"type": "line",
+						"text": "Blessed be your Name, Lord God.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "We praise you for his life on earth, and for his death upon the Cross, through which he offered himself as a perfect sacrifice."
+					},
+					{
+						"type": "line",
+						"text": "Blessed be your Name, Lord God.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "We praise you for raising him from the dead, and for exalting him to be our great High Priest."
+					},
+					{
+						"type": "line",
+						"text": "Blessed be your Name, Lord God.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "We praise you for sending your Holy Spirit to make us holy, and to unite us in your holy Church."
+					},
+					{
+						"type": "line",
+						"text": "Blessed be your Name, Lord God.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "Either silently or aloud we now bring before Almighty God our petitions and intercessions:"
+					},
+					{
+						"type": "rubric",
+						"text": "Other petitions and intercessions may be offered."
+					},
+					{
+						"type": "rubric",
+						"text": "After a period of silence, the Bishop concludes with the following prayer"
+					},
+					{
+						"type": "text_block",
+						"text": "We give you thanks, O God, for the gifts of your people, and for the work of many hands, which have beautified this place and furnished it for the celebration of your holy mysteries. Accept and bless all we have done, and grant that in these earthly things we may behold the order and beauty of things heavenly; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 535
+					},
+					{
+						"type": "section_title",
+						"text": "the confession and absolution of sin"
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon or other person appointed says the following"
+					},
+					{
+						"type": "line",
+						"text": "We pray to you also for the forgiveness of our sins."
+					},
+					{
+						"type": "rubric",
+						"text": "Silence"
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon and People kneel as able and pray"
+					},
+					{
+						"type": "confession_communion"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop stands and says"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 536
+					},
+					{
+						"type": "section_title",
+						"text": "the peace"
+					},
+					{
+						"type": "versical",
+						"text": "The peace of the Lord be always with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "section_title",
+						"text": "the holy communion"
+					},
+					{
+						"type": "rubric",
+						"text": "The Preface for the Dedication of a Church is used."
+					},
+					{
+						"type": "rubric",
+						"text": "After the Post Communion Prayer, the Bishop may pray"
+					},
+					{
+						"type": "text_block",
+						"text": "Blessed be your Name, O Lord God, for it pleases you to have your habitation among your people, and to dwell in the midst of the assembly of the saints upon earth: Bless the service of this day and grant that in this place, now set apart to your glory, your holy Name may be worshiped in truth and purity to all generations; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop blesses the people and a Deacon or Priest dismisses them."
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "section_title",
+						"text": "additional directions"
+					},
+					{
+						"type": "text_block",
+						"text": "When the clergy and people assemble before the service, they may gather out of doors, in the parish house, in a former or neighboring place of worship, or in some other building. When convenient, the procession may go around the building(s) to be dedicated and then go to the principal door. Hymns or psalms may be used in procession."
+					},
+					{
+						"type": "text_block",
+						"text": "The use of portable musical instruments is suitable. When the weather is inclement, or other circumstances make it necessary, the Congregation may assemble inside the church; the Bishop, other clergy, and attendants will enter in procession through the principal door. When a new church is being consecrated, it may be desirable that sacred vessels, ornaments, and decorations be carried into the building in the procession. Such things as the deed for the property and the blueprint of the building(s), the keys, and the tools used in its construction may also be carried by appropriate persons."
+					},
+					{
+						"type": "page_break",
+						"page": 537
+					},
+					{
+						"type": "text_block",
+						"text": "The cross, signed on the threshold by the Bishop, may also be marked in lasting form (incised, painted, inlaid). In place of a pastoral staff, the foot of a processional cross may be used for the signing."
+					},
+					{
+						"type": "text_block",
+						"text": "Selected verses of psalms, hymns, or instrumental music may be used as the ministers move from one part of the church to another."
+					},
+					{
+						"type": "text_block",
+						"text": "At the dedication of the Font, children or other lay persons may be assigned the task of pouring the water."
+					},
+					{
+						"type": "text_block",
+						"text": "If one reading stand is to serve as both lectern and pulpit, only one of the prayers, and one of the versicles and responses, are used, followed by the words of dedication."
+					},
+					{
+						"type": "text_block",
+						"text": "At the dedication and consecration of an altar, the Oil of Chrism may appropriately be used to mark five crosses on the unadorned Altar Table, one each at the four corners and one in the center."
+					},
+					{
+						"type": "section_title",
+						"text": "for the dedication of churches and chapels in special cases"
+					},
+					{
+						"type": "text_block",
+						"text": "If the place of public worship is also to serve as a school or parish hall, or for some other suitable purpose, the liturgy may be adapted to the circumstances, with the Bishop’s permission."
+					},
+					{
+						"type": "text_block",
+						"text": "If the church is also to be used for regular worship by other Christian bodies, it is appropriate that their representatives take part in the service, and that the service be adapted."
+					},
+					{
+						"type": "text_block",
+						"text": "When buildings have been used for public worship over many years without having been consecrated, consecration and dedication are appropriate. Furnishings already dedicated are not set apart again."
+					},
+					{
+						"type": "page_break",
+						"page": 538
+					},
+					{
+						"type": "section_title",
+						"text": "secularization of a building previously consecrated and dedicated"
+					},
+					{
+						"type": "rubric",
+						"text": "The altar(s) and all consecrated and dedicated objects that are to be preserved are removed from the building prior to the service."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop, or a Minister appointed by the Bishop, begins with these or similar words"
+					},
+					{
+						"type": "text_block",
+						"text": "We who are gathered here know that this building which has been set apart for the ministry of God’s holy Word and Sacraments will no longer be dedicated to this use [or will be taken down]. We thank Almighty God for all that he has accomplished here."
+					},
+					{
+						"type": "rubric",
+						"text": "The Declaration of Secularization is now read."
+					},
+					{
+						"type": "line",
+						"text": "In the Name of the Father, and of the Son, and of the Holy Spirit. **Amen.**"
+					},
+					{
+						"type": "text_block",
+						"content": [
+							{
+								"type": "text",
+								"value": "On the "
+							},
+							{
+								"type": "blank",
+								"value": "5"
+							},
+							{
+								"type": "text",
+								"value": " day of "
+							},
+							{
+								"type": "blank",
+								"value": "5"
+							},
+							{
+								"type": "text",
+								"value": ", in the year of our Lord "
+							},
+							{
+								"type": "blank",
+								"value": "5"
+							},
+							{
+								"type": "text",
+								"value": ", at the hands of _N.N._, Bishop of "
+							},
+							{
+								"type": "blank",
+								"value": "8"
+							},
+							{
+								"type": "text",
+								"value": ", this building was duly consecrated and dedicated [in honor of "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "]. The Sentence of Consecration has been in effect until this date."
+							}
+						]
+					},
+					{
+						"type": "text_block",
+						"content": [
+							{
+								"type": "text",
+								"value": "I, _N.N._, Bishop of "
+							},
+							{
+								"type": "blank",
+								"value": "8"
+							},
+							{
+								"type": "text",
+								"value": ", do hereby revoke the said Sentence, and do remit this building, and all the objects remaining in it, for any lawful and reputable use, according to the laws of this land."
+							}
+						]
+					},
+					{
+						"type": "text_block",
+						"text": "This building, having now been declared deconsecrated and secularized, I declare to be no longer subject to my canonical jurisdiction or that of this Church."
+					},
+					{
+						"type": "page_break",
+						"page": 539
+					},
+					{
+						"type": "text_block",
+						"content": [
+							{
+								"type": "text",
+								"value": "This Declaration is given under my hand and seal, in the City of "
+							},
+							{
+								"type": "blank",
+								"value": "8"
+							},
+							{
+								"type": "text",
+								"value": ", State/Province/Commonwealth of "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": ", in the Year of our Lord "
+							},
+							{
+								"type": "blank",
+								"value": "5"
+							},
+							{
+								"type": "text",
+								"value": ". (Signed) "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "The service concludes with the Lord’s Prayer and such other prayers, including the following litany, as the Bishop may direct."
+					},
+					{
+						"type": "section_title",
+						"text": "a litany of thanksgiving for a church"
+					},
+					{
+						"type": "text_block",
+						"text": "Let us thank God whom we worship here in the beauty of holiness."
+					},
+					{
+						"type": "text_block",
+						"text": "Eternal God, the heaven of heavens cannot contain you, much less the walls of temples made with hands. Graciously receive our thanks for this place, and accept the work of our hands, offered to your honor and glory."
+					},
+					{
+						"type": "line",
+						"text": "For the Church universal, of which these visible buildings are a symbol,"
+					},
+					{
+						"type": "line",
+						"text": "We thank you, Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For your presence whenever two or three have gathered together in your Name,"
+					},
+					{
+						"type": "line",
+						"text": "We thank you, Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For this place where we may be still and know that you are God,"
+					},
+					{
+						"type": "line",
+						"text": "We thank you, Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For making us your children by adoption and grace, and refreshing us day by day with the bread of life."
+					},
+					{
+						"type": "line",
+						"text": "We thank you, Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For the knowledge of your will and the grace to perform it,"
+					},
+					{
+						"type": "line",
+						"text": "We thank you, Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For the fulfilling of our desires and petitions as you see best for us,"
+					},
+					{
+						"type": "line",
+						"text": "We thank you, Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "page_break",
+						"page": 540
+					},
+					{
+						"type": "line",
+						"text": "For the pardon of our sins, which restores us to the company of your faithful people,"
+					},
+					{
+						"type": "line",
+						"text": "We thank you, Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For the blessing of our vows and the crowning of our years with your goodness,"
+					},
+					{
+						"type": "line",
+						"text": "We thank you, Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For the faith of those who have gone before us and for our encouragement by their perseverance,"
+					},
+					{
+						"type": "line",
+						"text": "We thank you, Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For the fellowship of [N., our patron, and of ] all your saints,"
+					},
+					{
+						"type": "line",
+						"text": "We thank you, Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "This Litany may be used on the anniversary of the consecration or dedication of a church, or on other suitable occasions, in which case the Celebrant concludes with the following Doxology."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Yours, O Lord, is the greatness, and the power, and"
+					},
+					{
+						"type": "versical",
+						"text": "the glory, and the victory, and the majesty: for every-"
+					},
+					{
+						"type": "versical",
+						"text": "thing in heaven and on earth is yours; yours is the"
+					},
+					{
+						"type": "versical",
+						"text": "kingdom, O Lord, and you are exalted as Head above"
+					},
+					{
+						"type": "versical",
+						"text": "all. All things come from you, O Lord,"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And of your own have we given you."
+					},
+					{
+						"type": "ref",
+						"text": "1 chronicles 29:11, 14 t"
+					}
+				],
+				"pb_page_start": 525,
+				"pb_page_end": 540
+			}
+		]
+	}
+}

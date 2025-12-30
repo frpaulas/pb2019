@@ -12,6 +12,10 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 11
+					},
+					{
 						"type": "section_title",
 						"text": "daily morning prayer",
 						"size": "xl"
@@ -45,6 +49,10 @@
 					},
 					{
 						"type": "office_confession"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -145,15 +153,24 @@
 						"indent": true
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "canticle",
 						"name": "venite"
 					},
 					{
-						"type": "rubric",
-						"text": "or this"
+						"type": "page_break",
+						"page": 15
 					},
 					{
-						"type": "cantical"
+						"type": "rubric",
+						"text": "or this vm:2"
+					},
+					{
+						"type": "canticle",
+						"name": "jubilate"
 					},
 					{
 						"type": "rubric",
@@ -166,6 +183,10 @@
 					{
 						"type": "canticle",
 						"name": "pacha_nostrum"
+					},
+					{
+						"type": "page_break",
+						"page": 17
 					},
 					{
 						"type": "rubric",
@@ -192,7 +213,20 @@
 					},
 					{
 						"type": "line",
-						"text": "A Reading from _**11**_."
+						"text": [
+							{
+								"type": "text",
+								"value": "A Reading from "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
 					},
 					{
 						"type": "rubric",
@@ -252,7 +286,15 @@
 						"text": "Officiant and People together, all standing"
 					},
 					{
+						"type": "page_break",
+						"page": 20
+					},
+					{
 						"type": "apostles_creed"
+					},
+					{
+						"type": "page_break",
+						"page": 21
 					},
 					{
 						"type": "section_title",
@@ -313,9 +355,17 @@
 						"text": "Clothe your ministers with righteousness;"
 					},
 					{
+						"page": 12,
+						"type": "page_break"
+					},
+					{
 						"type": "versical",
 						"people": true,
 						"text": "And let your people sing with joy."
+					},
+					{
+						"type": "page_break",
+						"page": 22
 					},
 					{
 						"type": "versical",
@@ -411,6 +461,10 @@
 						"text": "O God, the King eternal, whose light divides the day from the night and turns the shadow of death into the morning: Drive far from us all wrong desires, incline our hearts to keep your law, and guide our feet into the way of peace; that, having done your will with cheerfulness during the day, we may, when night comes, rejoice to give you thanks; through Jesus Christ our Lord."
 					},
 					{
+						"type": "page_break",
+						"page": 23
+					},
+					{
 						"type": "section_title",
 						"text": "a collect for peace"
 					},
@@ -463,6 +517,10 @@
 						"text": "Almighty God, whose most dear Son went not up to joy but first he suffered pain, and entered not into glory before he was crucified: Mercifully grant that we, walking in the way of the Cross, may find it none other than the way of life and peace; through Jesus Christ your Son our Lord."
 					},
 					{
+						"type": "page_break",
+						"page": 24
+					},
+					{
 						"type": "section_title",
 						"text": "a collect for sabbath rest"
 					},
@@ -504,6 +562,10 @@
 						"text": "Lord Jesus Christ, you stretched out your arms of love on the hard wood of the Cross that everyone might come within the reach of your saving embrace: So clothe us in your Spirit that we, reaching forth our hands in love, may bring those who do not know you to the knowledge and love of you; for the honor of your Name."
 					},
 					{
+						"type": "page_break",
+						"page": 25
+					},
+					{
 						"type": "rubric",
 						"text": "The Officiant may invite the People to offer intercessions and thanksgivings."
 					},
@@ -517,6 +579,10 @@
 					},
 					{
 						"type": "general_thanksgiving"
+					},
+					{
+						"type": "page_break",
+						"page": 26
 					},
 					{
 						"type": "canticle",
@@ -556,8 +622,20 @@
 						"text": "Glory to God whose power, working in us, can do infinitely more than we can ask or imagine: Glory to him from generation to generation in the Church, and in Christ Jesus for ever and ever."
 					},
 					{
+						"type": "page_break",
+						"page": 27
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
 						"type": "section_title",
 						"text": "opening sentences of scripture"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -569,6 +647,10 @@
 						"text": "In the wilderness prepare the way of the Lord; make straight in the desert a highway for our God."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "section_title",
 						"text": "christmas"
 					},
@@ -578,6 +660,10 @@
 						"text": "Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "section_title",
 						"text": "epiphany"
 					},
@@ -585,6 +671,10 @@
 						"type": "scripture",
 						"ref": "malachi 1:11",
 						"text": "From the rising of the sun to its setting my name will be great among the nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the nations, says the Lord of hosts."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -615,6 +705,14 @@
 						"text": "If anyone would come after me, let him deny himself and take up his cross and follow me."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
+						"page": 13,
+						"type": "page_break"
+					},
+					{
 						"type": "section_title",
 						"text": "holy week"
 					},
@@ -622,6 +720,14 @@
 						"type": "scripture",
 						"ref": "lamentations 1:12",
 						"text": "Is it nothing to you, all you who pass by? Look and see if there is any sorrow like my sorrow, which was brought upon me, which the Lord inflicted on the day of his fierce anger."
+					},
+					{
+						"type": "page_break",
+						"page": 28
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -633,13 +739,21 @@
 						"text": "If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "section_title",
-						"text": "ascension: ascension"
+						"text": "ascension"
 					},
 					{
 						"type": "scripture",
 						"ref": "hebrews 4:14, 16",
 						"text": "Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession. Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -651,6 +765,10 @@
 						"text": "You will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "section_title",
 						"text": "trinity sunday"
 					},
@@ -660,13 +778,21 @@
 						"text": "Holy, holy, holy, is the Lord God Almighty, who was and is and is to come!"
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "section_title",
-						"text": "days of thanksgiving: days of thanksgiving"
+						"text": "days of thanksgiving"
 					},
 					{
 						"type": "scripture",
 						"ref": "proverbs 3:9-10",
 						"text": "Honor the Lord with your wealth and with the firstfruits of all your produce; then your barns will be filled with plenty, and your vats will be bursting with wine."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -676,6 +802,10 @@
 						"type": "scripture",
 						"ref": "habakkuk 2:20",
 						"text": "The Lord is in his holy temple; let all the earth keep silence before him."
+					},
+					{
+						"type": "page_break",
+						"page": 29
 					},
 					{
 						"type": "scripture",
@@ -693,8 +823,16 @@
 						"text": "The hour is coming, and is now here, when the true worshipers will worship the Father in spirit and truth, for the Father is seeking such people to worship him."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
 						"type": "section_title",
 						"text": "seasonal antiphons"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -703,6 +841,10 @@
 					{
 						"type": "line",
 						"text": "Our King and Savior now draws near: * O come, let us adore him."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -719,6 +861,10 @@
 						"indent": true
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "section_title",
 						"text": "epiphany, and the feast of the transfiguration"
 					},
@@ -731,6 +877,10 @@
 						"text": "O come, let us adore him.",
 						"bold": true,
 						"indent": true
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -747,6 +897,14 @@
 						"indent": true
 					},
 					{
+						"type": "page_break",
+						"page": 30
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "section_title",
 						"text": "lent"
 					},
@@ -759,6 +917,10 @@
 						"text": "O come, let us adore him.",
 						"bold": true,
 						"indent": true
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -775,6 +937,10 @@
 						"indent": true
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "section_title",
 						"text": "ascension until pentecost"
 					},
@@ -787,6 +953,10 @@
 						"text": "O come, let us adore him. Alleluia.",
 						"bold": true,
 						"indent": true
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -803,6 +973,10 @@
 						"indent": true
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "section_title",
 						"text": "trinity sunday"
 					},
@@ -817,6 +991,10 @@
 						"indent": true
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "section_title",
 						"text": "all saints' and other major saints' days"
 					},
@@ -829,6 +1007,14 @@
 						"text": "O come, let us adore him.",
 						"bold": true,
 						"indent": true
+					},
+					{
+						"type": "page_break",
+						"page": 31
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -855,7 +1041,7 @@
 					},
 					{
 						"type": "text_block",
-						"text": "The Officiant and People may join in saying \"Alleluia\" (except in Lent) as an alternative to the versicles \"Praise the Lord. The Lord's Name be praised."
+						"text": "The Officiant and People may join in saying \"Alleluia\" (except in Lent) as an alternative to the versicles \"Praise the Lord. The Lord's Name be praised.\""
 					},
 					{
 						"type": "text_block",
@@ -864,10 +1050,18 @@
 					{
 						"type": "text_block",
 						"text": "A sermon may be preached after the lessons, after the hymn or anthem following the Collects, or after the conclusion of the Office."
+					},
+					{
+						"type": "page_break",
+						"page": 32
+					},
+					{
+						"type": "blank_page",
+						"page": null
 					}
 				],
-				"pb_page_start": 14,
-				"pb_page_end": 19
+				"pb_page_start": null,
+				"pb_page_end": null
 			}
 		]
 	}

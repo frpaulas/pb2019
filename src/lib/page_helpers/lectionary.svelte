@@ -23,13 +23,10 @@
 	let isMobile = $state(false);
 
 	// Get current Sunday data
-	$derived {
-		currentSundayData = sundayLectionaryData[selectedSunday];
-		currentReadings = currentSundayData ? currentSundayData[`year${selectedYear}`] : null;
-	}
-
-	let currentSundayData;
-	let currentReadings;
+	let currentSundayData = $derived(sundayLectionaryData[selectedSunday]);
+	let currentReadings = $derived(
+		currentSundayData ? currentSundayData[`year${selectedYear}`] : null
+	);
 
 	// Detect mobile on mount
 	onMount(() => {
@@ -90,19 +87,17 @@
 	}
 </script>
 
-<div class="lectionary-container my-8 mx-auto max-w-4xl">
-	<h3 class="text-2xl font-bold text-center mb-6">Sunday Lectionary</h3>
+<div class="lectionary-container mx-auto my-8 max-w-4xl">
+	<h3 class="mb-6 text-center text-2xl font-bold">Sunday Lectionary</h3>
 
 	<!-- Sunday Selector -->
 	<div class="controls mb-6">
-		<label for="sunday-select" class="block text-lg font-semibold mb-2">
-			Select Sunday:
-		</label>
-		<div class="flex gap-2 items-center">
+		<label for="sunday-select" class="mb-2 block text-lg font-semibold"> Select Sunday: </label>
+		<div class="flex items-center gap-2">
 			<button
 				onclick={previousSunday}
 				disabled={getCurrentIndex() === 0}
-				class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed"
+				class="rounded bg-gray-200 px-4 py-2 hover:bg-gray-300 disabled:cursor-not-allowed disabled:opacity-50"
 				title="Previous Sunday"
 			>
 				←
@@ -111,7 +106,7 @@
 			<select
 				id="sunday-select"
 				bind:value={selectedSunday}
-				class="flex-1 p-3 text-base border-2 border-gray-300 rounded focus:border-blue-500 focus:outline-none"
+				class="flex-1 rounded border-2 border-gray-300 p-3 text-base focus:border-blue-500 focus:outline-none"
 			>
 				{#each seasonOrder as season}
 					{#if groupedSundays[season]}
@@ -127,7 +122,7 @@
 			<button
 				onclick={nextSunday}
 				disabled={getCurrentIndex() === lectionaryKeys.length - 1}
-				class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 disabled:opacity-50 disabled:cursor-not-allowed"
+				class="rounded bg-gray-200 px-4 py-2 hover:bg-gray-300 disabled:cursor-not-allowed disabled:opacity-50"
 				title="Next Sunday"
 			>
 				→
@@ -141,7 +136,7 @@
 			<button
 				onclick={() => (selectedYear = 'A')}
 				class="flex-1 px-6 py-3 font-semibold transition-colors {selectedYear === 'A'
-					? 'bg-blue-500 text-white border-b-2 border-blue-500 -mb-0.5'
+					? '-mb-0.5 border-b-2 border-blue-500 bg-blue-500 text-white'
 					: 'bg-gray-100 text-gray-700 hover:bg-gray-200'}"
 			>
 				Year A
@@ -149,7 +144,7 @@
 			<button
 				onclick={() => (selectedYear = 'B')}
 				class="flex-1 px-6 py-3 font-semibold transition-colors {selectedYear === 'B'
-					? 'bg-blue-500 text-white border-b-2 border-blue-500 -mb-0.5'
+					? '-mb-0.5 border-b-2 border-blue-500 bg-blue-500 text-white'
 					: 'bg-gray-100 text-gray-700 hover:bg-gray-200'}"
 			>
 				Year B
@@ -157,7 +152,7 @@
 			<button
 				onclick={() => (selectedYear = 'C')}
 				class="flex-1 px-6 py-3 font-semibold transition-colors {selectedYear === 'C'
-					? 'bg-blue-500 text-white border-b-2 border-blue-500 -mb-0.5'
+					? '-mb-0.5 border-b-2 border-blue-500 bg-blue-500 text-white'
 					: 'bg-gray-100 text-gray-700 hover:bg-gray-200'}"
 			>
 				Year C
@@ -167,14 +162,14 @@
 
 	<!-- Readings Display -->
 	{#if currentSundayData && currentReadings}
-		<div class="readings-display bg-white border-2 border-gray-300 rounded-lg p-6">
+		<div class="readings-display rounded-lg border-2 border-gray-300 bg-white p-6">
 			<!-- Title with liturgical color -->
-			<div class="flex items-center justify-between mb-4">
+			<div class="mb-4 flex items-center justify-between">
 				<h4 class="text-xl font-bold">{currentSundayData.name}</h4>
 				<div class="flex items-center gap-2">
 					<span class="text-sm text-gray-600">Color:</span>
 					<div
-						class="w-8 h-8 rounded {getColorClass(currentSundayData.color)}"
+						class="h-8 w-8 rounded {getColorClass(currentSundayData.color)}"
 						title={currentSundayData.color}
 					></div>
 				</div>
@@ -185,7 +180,7 @@
 				{#if currentReadings.ot}
 					<div class="reading-row">
 						<div class="font-semibold text-purple-800">Old Testament:</div>
-						<div class="text-gray-700 ml-4">{currentReadings.ot}</div>
+						<div class="ml-4 text-gray-700">{currentReadings.ot}</div>
 					</div>
 				{/if}
 
@@ -193,7 +188,7 @@
 				{#if currentReadings.psalm}
 					<div class="reading-row">
 						<div class="font-semibold text-blue-800">Psalm:</div>
-						<div class="text-gray-700 ml-4">{currentReadings.psalm}</div>
+						<div class="ml-4 text-gray-700">{currentReadings.psalm}</div>
 					</div>
 				{/if}
 
@@ -201,7 +196,7 @@
 				{#if currentReadings.epistle}
 					<div class="reading-row">
 						<div class="font-semibold text-green-800">Epistle:</div>
-						<div class="text-gray-700 ml-4">{currentReadings.epistle}</div>
+						<div class="ml-4 text-gray-700">{currentReadings.epistle}</div>
 					</div>
 				{/if}
 
@@ -209,7 +204,7 @@
 				{#if currentReadings.gospel}
 					<div class="reading-row">
 						<div class="font-semibold text-red-800">Gospel:</div>
-						<div class="text-gray-700 ml-4">{currentReadings.gospel}</div>
+						<div class="ml-4 text-gray-700">{currentReadings.gospel}</div>
 					</div>
 				{/if}
 			</div>
@@ -221,15 +216,15 @@
 	<!-- Show All Years Toggle (desktop only) -->
 	{#if !isMobile}
 		<details class="mt-6">
-			<summary class="cursor-pointer text-blue-600 hover:text-blue-800 font-semibold">
+			<summary class="cursor-pointer font-semibold text-blue-600 hover:text-blue-800">
 				Show All Years for Comparison
 			</summary>
 			<div class="mt-4 grid grid-cols-3 gap-4">
 				{#each ['A', 'B', 'C'] as year}
 					{@const readings = currentSundayData?.[`year${year}`]}
 					{#if readings}
-						<div class="border-2 border-gray-300 rounded p-4">
-							<h5 class="font-bold text-center mb-3 bg-gray-100 py-2">Year {year}</h5>
+						<div class="rounded border-2 border-gray-300 p-4">
+							<h5 class="mb-3 bg-gray-100 py-2 text-center font-bold">Year {year}</h5>
 							<div class="space-y-2 text-sm">
 								{#if readings.ot}
 									<div>

@@ -4,7 +4,7 @@
 		"slug": "untitled",
 		"pb_pages": [
 			713,
-			714
+			715
 		],
 		"sections": [
 			{
@@ -12,22 +12,23 @@
 				"title": "Content",
 				"content": [
 					{
-						"type": "page_break",
-						"page": 713
+						"page": 713,
+						"type": "page_break"
 					},
 					{
-						"type": "find_easter"
+						"page": 714,
+						"type": "page_break"
 					},
 					{
-						"type": "page_break",
-						"page": 714
+						"page": 715,
+						"type": "page_break"
 					},
 					{
 						"type": "find_easter"
 					}
 				],
 				"pb_page_start": 713,
-				"pb_page_end": 714
+				"pb_page_end": 715
 			}
 		]
 	}

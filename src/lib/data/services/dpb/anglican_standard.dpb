@@ -1,4 +1,5 @@
 pg: 105-122
+pb:105
 tp: The Holy Eucharist: Anglican Standard Text
 
 st: the order for the administration of
@@ -48,7 +49,7 @@ v:people: Amen.
 pb:108
 st: the lessons
 r: One or more Lessons, as appointed, are read, the Reader first saying
-v: A Reading from _**11**_.
+v: A Reading from ___11___.
 r: A citation giving chapter and verse may be added.
 r: After each Lesson the Reader may say
 v: The Word of the Lord.
@@ -58,7 +59,7 @@ r: Or the Reader may say
 r: Silence may follow.
 r: A psalm, hymn, or anthem may follow each reading.
 r: All standing, the Deacon or Priest reads the Gospel, first saying
-v: The Holy Gospel of our Lord Jesus Christ according to _**11**_.
+v: The Holy Gospel of our Lord Jesus Christ according to ___11___.
 v:people: Glory to you, Lord Christ.
 r: After the Gospel, the Reader says
 v: The Gospel of the Lord.
@@ -82,7 +83,7 @@ r: Silence
 v:reader: Lord, in your mercy
 v:people: Hear our prayer.
 tb: Give grace, heavenly Father, to all Bishops, Priests, and Deacons,
-    and especially to your servant(s) _N_, our Archbishop/Bishop/Priest/Deacon, etc._,
+    _and especially to your servant(s) N, our _Archbishop/Bishop/Priest/Deacon, etc._,
     that by their life and teaching, they may proclaim your true and life-giving Word,
     and rightly and duly administer our holy Sacraments. And to all your people give your heavenly grace,
     especially to this Congregation, that with reverent and obedient hearts we may hear and receive your holy Word,
@@ -99,7 +100,7 @@ r: Silence
 v:reader: Lord, in your mercy
 v:people: Hear our prayer.
 tb: We ask you in your goodness, O Lord, to comfort and sustain all who in this transitory
-    life are in trouble, sorrow, need, sickness, or any other adversity [especially _**11**_].
+    life are in trouble, sorrow, need, sickness, or any other adversity [especially ___11___].
 r: Silence
 v:reader: Lord, in your mercy
 v:people: Hear our prayer.

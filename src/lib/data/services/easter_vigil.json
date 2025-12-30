@@ -1,0 +1,1108 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			582,
+			597
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 582
+					},
+					{
+						"type": "section_title",
+						"text": "the"
+					},
+					{
+						"type": "section_title",
+						"text": "great vigil",
+						"size": "2xl"
+					},
+					{
+						"type": "section_title",
+						"text": "_of_ easter",
+						"size": "2xl"
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "section_title",
+						"text": "the lighting of the paschal candle"
+					},
+					{
+						"type": "rubric",
+						"text": "In the darkness, fire is kindled; after which the Celebrant says"
+					},
+					{
+						"type": "text_block",
+						"text": "Dear friends in Christ: On this most holy night, in which our Lord Jesus passed over from death to life, the Church invites her members, dispersed throughout the world, to gather in vigil and prayer. For this is the Passover of the Lord, in which, by hearing his Word and celebrating his Sacraments, we share in his victory over death."
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant may say the following prayer"
+					},
+					{
+						"type": "text_block",
+						"text": "Eternal God, who made this most holy night to shine with the brightness of your one true light: sanctify this new fire, we pray, and so set us aflame with the fire of your love, that with pure hearts and kindled affections we may attain to the radiance of your heavenly glory; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "If the Paschal Candle is to be marked, it is done at this time (Page 595)."
+					},
+					{
+						"type": "page_break",
+						"page": 583
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant lights the Paschal Candle from the newly kindled fire, and says"
+					},
+					{
+						"type": "rubric",
+						"text": "May the light of Christ, rising in glory, banish all darkness from our hearts and minds."
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon (or the Celebrant if there is no Deacon), bearing the Candle, leads the procession to the chancel, pausing three times and singing or saying"
+					},
+					{
+						"type": "versical",
+						"text": "The light of Christ."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"type": "rubric",
+						"text": "If candles have been distributed to members of the Congregation, they are lit from the Paschal Candle. Other candles and lamps in the church, except for those at the Altar, may also be lit."
+					},
+					{
+						"type": "rubric",
+						"text": "The Paschal Candle is placed in its stand."
+					},
+					{
+						"type": "rubric",
+						"text": "Then the Deacon, or other person appointed, standing near the Candle, customarily sings or says the Exsultet."
+					},
+					{
+						"type": "section_title",
+						"text": "the exsultet"
+					},
+					{
+						"type": "line",
+						"text": "Rejoice now, heavenly hosts and choirs of angels,"
+					},
+					{
+						"type": "line",
+						"text": "and let your trumpets shout Salvation"
+					},
+					{
+						"type": "line",
+						"text": "for the victory of our mighty King."
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "line",
+						"text": "Rejoice and sing now, all the round earth,"
+					},
+					{
+						"type": "line",
+						"text": "bright with a glorious splendor,"
+					},
+					{
+						"type": "line",
+						"text": "for darkness has been vanquished by our eternal King."
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "line",
+						"text": "Rejoice and be glad now, Mother Church,"
+					},
+					{
+						"type": "line",
+						"text": "and let your holy courts, in radiant light,"
+					},
+					{
+						"type": "line",
+						"text": "resound with the praises of your people."
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "line",
+						"text": "All you who stand near this marvelous and holy flame,"
+					},
+					{
+						"type": "line",
+						"text": "pray with me to God the Almighty"
+					},
+					{
+						"type": "line",
+						"text": "for the grace to sing the worthy praise of this great light;"
+					},
+					{
+						"type": "page_break",
+						"page": 584
+					},
+					{
+						"type": "line",
+						"text": "through Jesus Christ his Son our Lord,"
+					},
+					{
+						"type": "line",
+						"text": "who lives and reigns with him,"
+					},
+					{
+						"type": "line",
+						"text": "in the unity of the Holy Spirit,"
+					},
+					{
+						"type": "line",
+						"text": "one God, for ever and ever. **Amen.**"
+					},
+					{
+						"type": "versical",
+						"text": "deacon: The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"text": "deacon: Lift up your hearts."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "We lift them up to the Lord."
+					},
+					{
+						"type": "versical",
+						"text": "deacon: Let us give thanks to the Lord our God."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "It is right to give him thanks and praise."
+					},
+					{
+						"type": "text_block",
+						"text": "It is truly right and good, always and everywhere, with our whole heart and mind and voice to praise you, the invisible, almighty, and eternal God, and your only-begotten Son Jesus Christ our Lord; who paid for us the debt of Adam’s sin, and by his blood delivered your faithful people; for he is the true Paschal Lamb, the very Lamb of God, whose blood marks the doorposts of believers and makes us holy."
+					},
+					{
+						"type": "text_block",
+						"text": "This is the night when you brought our forebears, the children of Israel, out of bondage in Egypt, and led them through the Red Sea on dry land."
+					},
+					{
+						"type": "text_block",
+						"text": "This is the night when with a pillar of fire you banished the darkness of our iniquity.",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "This is the night when all who believe in Christ are delivered from the gloom of sin, and are restored to grace and holiness of life."
+					},
+					{
+						"type": "text_block",
+						"text": "This is the night when Christ broke the bonds of death and hell, and rose victorious from the grave."
+					},
+					{
+						"type": "page_break",
+						"page": 585
+					},
+					{
+						"type": "text_block",
+						"text": "Our birth would have been no gain, had we not been redeemed.",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "How wonderful and beyond our knowing, O God, is your mercy and loving kindness to us, that to redeem a slave, you gave a Son."
+					},
+					{
+						"type": "text_block",
+						"text": "O wonderful providence of Adam’s sin destroyed completely by the death of Christ. O happy fault, which gained for us so great and glorious a Redeemer.",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "This is the night of which it is written: the night shall be as bright as the day."
+					},
+					{
+						"type": "text_block",
+						"text": "How holy is this night when wickedness is put to flight, and sin is washed away. It restores innocence to the fallen, and joy to those who mourn. It casts out pride and hatred, and brings peace and concord."
+					},
+					{
+						"type": "text_block",
+						"text": "How blessed is this night when earth and heaven are joined, and Man is reconciled to God."
+					},
+					{
+						"type": "text_block",
+						"text": "Therefore, O holy Father, accept our evening sacrifice, the offering of this candle in your honor,"
+					},
+					{
+						"type": "text_block",
+						"text": "the work of bees and of your servants’ hands,",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "the gift of your most holy Church. May it mingle with the lights of heaven, and shine continually to drive away all darkness. May Christ, the Morning Star who knows no setting, find it ever burning—he who gives his light to all creation, and who lives and reigns for ever and ever. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 586
+					},
+					{
+						"type": "section_title",
+						"text": "the lessons"
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant may introduce the Scripture readings in these or similar words"
+					},
+					{
+						"type": "text_block",
+						"text": "Let us hear the record of God’s saving deeds in history, remembering how he saved his people in ages past and in the fullness of time sent his Son to be our Redeemer; and let us pray that God may bring to completion in each of us the saving work he has begun."
+					},
+					{
+						"type": "rubric",
+						"text": "At least three of the following Lessons are read, of which one is always the Lesson from Exodus. After each Lesson, the Psalm or Canticle listed, or some other suitable psalm, canticle, or hymn, may be said or sung. A period of silence may be kept; and the Collect provided, or some other suitable Collect, may be said."
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "the creation"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "genesis"
+							},
+							{
+								"type": "text",
+								"value": " 1:1—2:3"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 104:1-13 (14-24) v _or_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}a song of creation{{\\u}} (_Supplemental Canticle 10_)"
+							}
+						]
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "line",
+						"text": "Let us pray. _Silence_"
+					},
+					{
+						"type": "text_block",
+						"text": "O God, who wonderfully created, and yet more wonderfully restored, the dignity of human nature: Grant that we may share the divine life of him who humbled himself to share our humanity, your Son Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}the fall{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}genesis 3{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm 32{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": "Let us pray. _Silence_"
+					},
+					{
+						"type": "text_block",
+						"text": "O God, you sent your blessed Son, the seed of the woman, that he might crush the serpent’s head and make all creation new: Grant that, having this hope, we may purify ourselves as he is pure; that, when he comes again with power and great glory, we may be made like him in his eternal and glorious kingdom; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 587
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}t h e f l o od{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}genesis{{\\u}} 7:1-5, 11-18; 8:6-20; 9:8-13"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 36 _or_ {{u}}psalm{{\\u}} 46"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": "Let us pray. _Silence_"
+					},
+					{
+						"type": "text_block",
+						"text": "Grant, Lord, that we who are baptized into the death of your Son our Savior Jesus Christ may continually put to death our evil desires and be buried with him; and that through the grave and gate of death we may pass to our joyful resurrection; through the merits of him who died and was buried and rose again for us, your Son Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}abrah a m’s s ac r if ic e of isaac{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}genesis{{\\u}} 22:1-18"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 16"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": "Let us pray. _Silence_"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, whose servant Abraham faithfully obeyed your call, and rejoiced to see the day of your Son: Multiply the number of your children by the grace of the Lamb who was slain; that your Church may also rejoice to see your promise to our father Abraham fulfilled; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 588
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}israel’s deliverance at the red sea{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}exodus{{\\u}} 14:10—15:1"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}the song of moses{{\\u}} (Supplemental Canticle 5)"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": "Let us pray. _Silence_"
+					},
+					{
+						"type": "text_block",
+						"text": "O God, whose wonderful deeds of old shine forth even to our own day, by the power of your mighty arm you once delivered your chosen people from slavery under Pharaoh, to be a sign for us of the salvation offered to all nations by the water of Baptism: Grant that all the peoples of the earth may be numbered among the offspring of Abraham, and rejoice in the inheritance of Israel; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}god’s presence in a renewed israel{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}isaiah{{\\u}} 4:2-6"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 122"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": "Let us pray. _Silence_"
+					},
+					{
+						"type": "text_block",
+						"text": "O God, you led your ancient people by a pillar of cloud by day and a pillar of fire by night: Grant that we, who serve you now on earth, may come to the joy of that heavenly Jerusalem, where all tears are wiped away and where your saints for ever sing your praise; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}salvation offered freely to al{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}isaiah{{\\u}} 55:1-11"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}surely, it is god who saves me{{\\u}} (_Supplemental Canticle 8_) _or_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 42:1-7"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": "Let us pray. _Silence_"
+					},
+					{
+						"type": "page_break",
+						"page": 589
+					},
+					{
+						"type": "text_block",
+						"text": "O God, you have created all things by the power of your Word, and you renew the earth by your Spirit: Give the water of life to all who thirst for you, that they may bring forth abundant fruit in your glorious kingdom; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}a new heart and a new spirit{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}ezekiel{{\\u}} 36:24-28"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 42:1-7 _or_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}surely, it is god who saves me{{\\u}} (_Supplemental Canticle 8_)"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": "Let us pray. _Silence_"
+					},
+					{
+						"type": "text_block",
+						"text": "Heavenly Father, by the power of your Holy Spirit you promise your faithful people new life in the water of Baptism: Guide and strengthen us by the same Spirit, that we who are born again may serve you in faith and love, and grow into the full stature of your Son Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}the valley of dry bones{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}ezekiel{{\\u}} 37:1-14"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 30 _or_ {{u}}psalm{{\\u}} 126"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": "Let us pray. _Silence_"
+					},
+					{
+						"type": "text_block",
+						"text": "Lord God of our salvation, you speak the word to your scattered people, and raise us up from the valley of death: Breathe your Spirit upon your Church, that we may live and stand before you confident in your risen Son our Savior Jesus Christ. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 590
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}the three young men in the furnace{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}daniel{{\\u}} 3:1-28"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}a song of creation{{\\u}} (_Supplemental Canticle 10_) _or_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}a song of praise{{\\u}} (_Benedictus es, Domine_)"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": "Let us pray. _Silence_"
+					},
+					{
+						"type": "text_block",
+						"text": "O God, you know that we are set in the midst of many grave dangers, and because of the frailty of our nature we cannot always stand upright: Grant that your strength and protection may support us in all dangers and carry us through every temptation; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}jonah and the fish{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}jonah{{\\u}} 1:1—2:10"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 130"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": "Let us pray. _Silence_"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, by the resurrection of your Son you have brought us out of sin into righteousness and out of death into life: Grant to those who are sealed by your Holy Spirit the will and the power to proclaim you to all the world; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}t h e g at h e r i ng of g od’s peopl e{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}zephaniah{{\\u}} 3:12-20"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 98"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": "Let us pray. _Silence_"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, you called your Church to bear witness that you were in Christ reconciling the world to yourself: Give us boldness to proclaim the good news of your love, that all who hear it may be drawn to you; through him who was lifted high upon the Cross, Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "Or, if the Solemn Collects were not said on Good Friday, the following may be used"
+					},
+					{
+						"type": "text_block",
+						"text": "O God of unchangeable power and eternal light: Look favorably on your whole Church, that wonderful and sacred mystery; by the effectual working of your providence, carry out in tranquility the plan of salvation; let the whole world see and know that things which were cast down are being raised up, and things which had grown old are being made new, and that all things are being brought to their perfection by him through whom all things were made, your Son Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 591
+					},
+					{
+						"type": "rubric",
+						"text": "Holy Baptism may be administered here or after the Gospel (and sermon). Confirmation may likewise be administered as provided in Additional Directions. In the absence of Candidates for Baptism or Confirmation, the Celebrant leads the people in the Renewal of Baptismal Vows."
+					},
+					{
+						"type": "section_title",
+						"text": "the easter acclamation"
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Alleluia! Christ is risen!"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "The Lord is risen indeed! Alleluia!"
+					},
+					{
+						"type": "rubric",
+						"text": "A joyful fanfare may be played, and bells may be rung. The church is lighted, and the candles at the Altar may now be lighted from the Paschal Candle."
+					},
+					{
+						"type": "rubric",
+						"text": "The Gloria in Excelsis, or some other hymn of praise, is sung or said"
+					},
+					{
+						"type": "gloria_in_excelsis"
+					},
+					{
+						"type": "page_break",
+						"page": 592
+					},
+					{
+						"type": "section_title",
+						"text": "the collect"
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Let us pray."
+					},
+					{
+						"type": "text_block",
+						"text": "O God, you made this most holy night to shine with the glory of the Lord’s resurrection: Stir up in your Church that Spirit of adoption which is given to us in Baptism, that we, being renewed both in body and mind, may worship you in sincerity and truth; through Jesus Christ our Lord, who lives and reigns with you, in the unity of the Holy Spirit, one God, now and for ever. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The service continues with the Epistle reading"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}romans{{\\u}} 6:3-11"
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "Psalm 114 or some other suitable psalm, hymn, or anthem may be said or sung. The use of “Alleluia” is particularly appropriate."
+					},
+					{
+						"type": "page_break",
+						"page": 593
+					},
+					{
+						"type": "rubric",
+						"text": "All stand, and the Deacon or Priest reads the Gospel, first saying"
+					},
+					{
+						"type": "versical",
+						"text": "The Holy Gospel of our Lord Jesus Christ according to Matthew."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Glory to you, Lord Christ."
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}matthew{{\\u}} 28:1-10"
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "After the Gospel, the Reader says"
+					},
+					{
+						"type": "versical",
+						"text": "The Gospel of the Lord."
+					},
+					{
+						"type": "versical",
+						"text": "peope: Praise to you, Lord Christ."
+					},
+					{
+						"type": "section_title",
+						"text": "the sermon"
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "section_title",
+						"text": "baptism, confirmation,"
+					},
+					{
+						"type": "section_title",
+						"text": "and the renewal of baptismal vows"
+					},
+					{
+						"type": "rubric",
+						"text": "Holy Baptism may be administered here. Confirmation may likewise be administered as provided in Additional Directions. In the absence of Candidates for Baptism or Confirmation, the Celebrant leads the people in the Renewal of Baptismal Vows."
+					},
+					{
+						"type": "rubric",
+						"text": "The celebration continues with the Prayers of the People."
+					},
+					{
+						"type": "rubric",
+						"text": "The Preface of Easter is used at the Eucharist."
+					},
+					{
+						"type": "rubric",
+						"text": "The following blessing may be used at the conclusion of the liturgy, in place of the usual blessing."
+					},
+					{
+						"type": "text_block",
+						"text": "The God of peace, who brought again from the dead our Lord Jesus Christ, the great Shepherd of the sheep, by the blood of the everlasting covenant, make you perfect in every good work to do his will, working in you that which is well-pleasing in his sight; and the blessing of God Almighty, the Father, the Son, and the Holy Spirit, be among you, and remain with you always. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 594
+					},
+					{
+						"type": "section_title",
+						"text": "additional directions",
+						"size": "xl"
+					},
+					{
+						"type": "text_block",
+						"text": "At the Easter Vigil, one of three rites (Holy Baptism; Holy Baptism with Confirmation, Reception, and Reaffirmation; or the Renewal of Baptismal Vows) follows either the Service of Lessons or the Sermon."
+					},
+					{
+						"type": "text_block",
+						"text": "If there are Baptisms only, the order for Holy Baptism is followed, beginning with the Exhortation. If there are Baptisms and Confirmations, the order for Holy Baptism with Confirmation, Reception, and Reaffirmation is followed. If there are Confirmations but no Baptisms, the order for Holy Baptism with Confirmation, Reception, and Reaffirmation is used but ordered as follows:"
+					},
+					{
+						"type": "line",
+						"text": "Presentation of Adults Seeking the Laying on of Hands",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Profession of Faith",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Confirmations, Receptions and Reaffirmations",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The prayer that begins, “Almighty and everliving God, let your fatherly hand…”",
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "The Easter Vigil then continues with the Easter Acclamation or the Prayers of the People."
+					},
+					{
+						"type": "text_block",
+						"text": "According to ancient tradition, the light for the Paschal Candle is taken from newly kindled fire and not from an already existing source of light. If a new fire is kindled outside the building, the people may be invited to gather around the fire and to follow the Paschal Candle in procession."
+					},
+					{
+						"type": "text_block",
+						"text": "Other than the Paschal Candle and any candles held by the Congregation, it is desirable that the building remain as dark as possible until the Easter Acclamation."
+					},
+					{
+						"type": "text_block",
+						"text": "If desired, a homily may be preached after any of the readings in the Service of Lessons."
+					},
+					{
+						"type": "text_block",
+						"text": "After the Easter Acclamation, the joy of the resurrection is appropriately demonstrated by bells and music. Bells may also be rung at the end of the service. In place of the Gloria in Excelsis, the Te Deum Laudamus or the Pascha Nostrum, or some other hymn of praise, may be used. In the absence of a Bishop or Priest, a Deacon or lay reader may lead the first two parts of the service, the Renewal of Baptismal Vows, and the Ministry of the Word of the Vigil Eucharist, concluding with the Prayers of the People, the Lord’s Prayer, and the Dismissal (but omitting the final blessing). When the services of a Priest cannot be obtained, and with the authorization of the Bishop, a Deacon may also officiate at public Baptism, and may administer Communion from the Sacrament previously consecrated."
+					},
+					{
+						"type": "page_break",
+						"page": 595
+					},
+					{
+						"type": "text_block",
+						"text": "Where the Vigil is not celebrated, the marking and lighting of the Paschal Candle may be used to begin the first liturgy of Easter Day."
+					},
+					{
+						"type": "text_block",
+						"text": "The Paschal Candle should be lit for all principal services throughout the season of Easter. It is also traditionally used at Baptism and the Burial of the Dead throughout the year."
+					},
+					{
+						"type": "text_block",
+						"text": "If desired, the Paschal Candle may be marked before it is lit, as follows."
+					},
+					{
+						"type": "rubric",
+						"text": "As the vertical of the cross is traced the Celebrant says"
+					},
+					{
+						"type": "line",
+						"text": "Christ, yesterday and today,"
+					},
+					{
+						"type": "rubric",
+						"text": "As the horizontal is traced the Celebrant says"
+					},
+					{
+						"type": "line",
+						"text": "the beginning and the end,"
+					},
+					{
+						"type": "rubric",
+						"text": "As the Alpha is traced"
+					},
+					{
+						"type": "line",
+						"text": "Alpha"
+					},
+					{
+						"type": "rubric",
+						"text": "As the Omega is traced"
+					},
+					{
+						"type": "line",
+						"text": "and Omega,"
+					},
+					{
+						"type": "rubric",
+						"text": "As the first number of the year is traced the Celebrant says"
+					},
+					{
+						"type": "line",
+						"text": "all time belongs to him,"
+					},
+					{
+						"type": "rubric",
+						"text": "As the second number is traced"
+					},
+					{
+						"type": "line",
+						"text": "and all ages;"
+					},
+					{
+						"type": "rubric",
+						"text": "As the third number is traced"
+					},
+					{
+						"type": "line",
+						"text": "to him be glory and power,"
+					},
+					{
+						"type": "rubric",
+						"text": "As the fourth number is traced"
+					},
+					{
+						"type": "line",
+						"text": "through every age and for ever."
+					},
+					{
+						"type": "line",
+						"text": "Amen.",
+						"bold": true
+					},
+					{
+						"type": "rubric",
+						"text": "Nails or incense studs may be inserted into the Paschal Candle."
+					},
+					{
+						"type": "line",
+						"text": "By his holy and glorious wounds"
+					},
+					{
+						"type": "line",
+						"text": "may Christ our Lord guard and"
+					},
+					{
+						"type": "line",
+						"text": "keep us. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 596
+					},
+					{
+						"type": "blank_page",
+						"page": null
+					},
+					{
+						"type": "page_break",
+						"page": 597
+					},
+					{
+						"type": "section_title",
+						"text": "collects &",
+						"size": "3xl"
+					},
+					{
+						"type": "section_title",
+						"text": "occasional prayers",
+						"size": "3xl"
+					}
+				],
+				"pb_page_start": null,
+				"pb_page_end": null
+			}
+		]
+	}
+}

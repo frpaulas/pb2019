@@ -1,0 +1,208 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			560,
+			563
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 560
+					},
+					{
+						"type": "section_title",
+						"text": "maundy thursday",
+						"size": "2xl"
+					},
+					{
+						"type": "rubric",
+						"text": "This liturgy is celebrated in the evening. A silent procession may replace the processional hymn."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Blessed be our God."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Now and for ever. Amen."
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant may say"
+					},
+					{
+						"type": "text_block",
+						"text": "This is the night that Christ the Son of Man gathered with his disciples in the upper room."
+					},
+					{
+						"type": "text_block",
+						"text": "This is the night that Christ our Lord and Master took a towel and washed the disciples’ feet, calling us to love one another as he has loved us."
+					},
+					{
+						"type": "text_block",
+						"text": "This is the night that Christ our God gave us this holy feast, that we who eat this bread and drink this cup may here proclaim his perfect sacrifice."
+					},
+					{
+						"type": "text_block",
+						"text": "This is the night that Christ the Lamb of God gave himself into the hands of those who would slay him."
+					},
+					{
+						"type": "page_break",
+						"page": 561
+					},
+					{
+						"type": "section_title",
+						"text": "the collect"
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"text": "celebrant: Let us pray."
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty Father, whose most dear Son, on the night before he suffered, instituted the Sacrament of his Body and Blood: Mercifully grant that we may receive it in thankful remembrance of Jesus Christ our Savior, who in these holy mysteries gives us a pledge of eternal life; and who lives and reigns with you and the Holy Spirit, one God, for ever and ever. **Amen.**"
+					},
+					{
+						"type": "section_title",
+						"text": "the lessons"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}exodus{{\\u}} 12:1-14"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 78:15-26 v"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}1 corinthians{{\\u}} 11:23-26(27-34)"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}john{{\\u}} 13:1-15 or {{u}}luke{{\\u}} 22:14-30"
+							}
+						]
+					},
+					{
+						"type": "section_title",
+						"text": "the sermon"
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "section_title",
+						"text": "the foot-washing"
+					},
+					{
+						"type": "rubric",
+						"text": "When observed, the ceremony of the washing of feet appropriately follows the sermon. If it is desired to introduce the ceremony by a brief address, the following may be used."
+					},
+					{
+						"type": "text_block",
+						"text": "Fellow servants of our Lord Jesus Christ: On the night before his death, Jesus set an example for his disciples by washing their feet, an act of humble service. He taught that strength and growth in the life of the kingdom of God come not by worldly power and authority, but by such lowly service."
+					},
+					{
+						"type": "page_break",
+						"page": 562
+					},
+					{
+						"type": "text_block",
+						"text": "Therefore, I invite you [who have been appointed as representatives of the Congregation and] who share in the royal priesthood of Christ to come forward, that we may recall whose servants we are by following the example of our Master. Come now remembering his admonition that what will be done for you is also to be done by you to others. Engrave on your hearts and mirror in your actions Jesus’ words: “A servant is not greater than his master, nor is one who is sent greater than the one who sent him. If you know these things, blessed are you if you do them.”"
+					},
+					{
+						"type": "rubric",
+						"text": "During the ceremony, the following or some other suitable hymns or anthems may be sung or said."
+					},
+					{
+						"type": "text_block",
+						"text": "The Lord Jesus, rising from supper, laid aside his outer garments, took a towel, and washed his disciples’ feet. Then he said to them, “Do you understand what I have done to you? If I then, your Lord and Teacher, have washed your feet, you also ought to wash one another’s feet.”"
+					},
+					{
+						"type": "ref",
+						"text": "john 13:12,14 t"
+					},
+					{
+						"type": "scripture",
+						"ref": "john 13:34",
+						"text": "A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another."
+					},
+					{
+						"type": "rubric",
+						"text": "The liturgy continues with the Prayers of the People."
+					},
+					{
+						"type": "rubric",
+						"text": "Where it is desired to administer Holy Communion on Good Friday, the Sacrament for that purpose is consecrated at this service."
+					},
+					{
+						"type": "rubric",
+						"text": "The Preface of Maundy Thursday is used."
+					},
+					{
+						"type": "rubric",
+						"text": "If the Stripping of the Altar is observed as a public ceremony, it takes place at the conclusion of the Maundy Thursday liturgy. It may be done in silence, or it may be accompanied by the recitation of Psalm 22, which is sung or said without the Gloria Patri."
+					},
+					{
+						"type": "rubric",
+						"text": "The final blessing and dismissal are omitted. The Congregation departs in silence."
+					},
+					{
+						"type": "page_break",
+						"page": 563
+					},
+					{
+						"type": "section_title",
+						"text": "additional directions",
+						"size": "xl"
+					},
+					{
+						"type": "text_block",
+						"text": "Consecrated elements to be received on Good Friday should be kept in a place apart from the main sanctuary of the church. They may be carried to that place at the end of Communion on Maundy Thursday, prior to the stripping of the Altar. An appropriate hymn or anthem, such as “Now my tongue the mystery telling,” may be sung."
+					},
+					{
+						"type": "rubric",
+						"text": "The opening sentences are adapted with permission from the Anglican Church of Canada, Book of Alternative Services, 1985, all rights reserved."
+					}
+				],
+				"pb_page_start": 560,
+				"pb_page_end": 563
+			}
+		]
+	}
+}

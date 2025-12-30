@@ -4,13 +4,17 @@
 		"slug": "proper_prefaces",
 		"pb_pages": [
 			152,
-			158
+			159
 		],
 		"sections": [
 			{
 				"id": "content",
 				"title": "Content",
 				"content": [
+					{
+						"type": "page_break",
+						"page": 152
+					},
 					{
 						"type": "section_title",
 						"text": "the lord’s day"
@@ -310,10 +314,24 @@
 					{
 						"type": "text_block",
 						"text": "For the grace and virtue manifest in [_N_. and all] your saints, who have been the chosen vessels of your love, and the lights of the world in their generations."
+					},
+					{
+						"type": "page_break",
+						"page": 159
+					},
+					{
+						"type": "section_title",
+						"text": "baptism &",
+						"size": "2xl"
+					},
+					{
+						"type": "section_title",
+						"text": "confirmation",
+						"size": "2xl"
 					}
 				],
-				"pb_page_start": 153,
-				"pb_page_end": 158
+				"pb_page_start": 152,
+				"pb_page_end": 159
 			}
 		]
 	}

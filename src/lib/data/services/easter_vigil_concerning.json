@@ -1,0 +1,53 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			581
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 581
+					},
+					{
+						"type": "section_title",
+						"text": "concerning the great vigil",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "of easter",
+						"size": "xl"
+					},
+					{
+						"type": "text_block",
+						"text": "The Great Vigil, when observed, is the first liturgy of Easter Day. It is celebrated at a convenient time between sunset on Holy Saturday and sunrise on Easter morning. It is appropriate that the service begin in darkness. The liturgy normally consists of four parts:"
+					},
+					{
+						"type": "text_block",
+						"text": "The Service of Light: a new fire is kindled, and from it the Paschal Candle is lit, symbolizing Christ, the light of the world. The Exsultet, an ancient song of praise, is sung or said as the climax of this part of the liturgy."
+					},
+					{
+						"type": "text_block",
+						"text": "The Service of Lessons: key passages from Scripture recount the history of God’s mighty acts and promises. These readings are accompanied by psalms, canticles, and prayers."
+					},
+					{
+						"type": "text_block",
+						"text": "Holy Baptism is the Sacrament through which candidates are united to the death and resurrection of Jesus Christ (romans 6:3-4), which the Church celebrates on this most holy night. When the Bishop is present, confirmation may also be administered. If there are no candidates for Baptism or confirmation, the Congregation joins in a Renewal of Baptismal Vows."
+					},
+					{
+						"type": "text_block",
+						"text": "The Holy Eucharist is the proper culmination of the Easter Liturgy. As we keep this holy feast, we share the joy of our Savior’s triumph and are strengthened by his grace to walk in newness of life."
+					}
+				],
+				"pb_page_start": 581,
+				"pb_page_end": 581
+			}
+		]
+	}
+}

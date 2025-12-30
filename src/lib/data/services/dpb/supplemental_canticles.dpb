@@ -1,4 +1,5 @@
 pg: 79-90
+pb:79
 tp: Supplemental Canticles
 
 st:1: supplemental canticles
@@ -33,7 +34,7 @@ pb:88
 
 pb:89
 st:2: Great Litany
-st2: & Decalogue
+st:2: & Decalogue
 
 pb:90
 blank:

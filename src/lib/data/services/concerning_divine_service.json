@@ -4,13 +4,17 @@
 		"slug": "concerning_the_divine_service_of_the_church",
 		"pb_pages": [
 			6,
-			8
+			10
 		],
 		"sections": [
 			{
 				"id": "content",
 				"title": "Content",
 				"content": [
+					{
+						"type": "page_break",
+						"page": 6
+					},
 					{
 						"type": "section_title",
 						"text": "concerning",
@@ -77,10 +81,35 @@
 					{
 						"type": "text_block",
 						"text": "Quotations of Scripture in this Book Of Common Prayer (2019) normally follow The Holy Bible: English Standard Version (esv) except for the Psalms and Canticles, and for citations marked with the symbol ( t ) which indicates traditional prayer book language. Similarly, the symbol ( v ) indicates that verse numbers of a particular psalm of the New Coverdale Psalter found in this book differ from other translations. This Psalter is a renewal of the Coverdale Psalter of 1535, whose meter and turn of phrase remain embedded in the global Anglican heritage of language and music."
+					},
+					{
+						"type": "page_break",
+						"page": 9
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
+						"type": "section_title",
+						"text": "daily Office",
+						"size": "3xl"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
+						"type": "page_break",
+						"page": 10
+					},
+					{
+						"type": "blank_page",
+						"page": null
 					}
 				],
-				"pb_page_start": 7,
-				"pb_page_end": 8
+				"pb_page_start": null,
+				"pb_page_end": null
 			}
 		]
 	}

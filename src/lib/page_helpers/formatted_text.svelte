@@ -20,6 +20,8 @@
 			{segment.value}
 		{:else if segment.type === 'u'}
 			<span class="uppercase">{segment.value}</span>
+		{:else if segment.type === 'blank'}
+			<span class="inline-block min-w-24 border-b border-gray-400"></span>
 		{:else}
 			<!-- Unknown wrapper type, render as plain text -->
 			{segment.value}

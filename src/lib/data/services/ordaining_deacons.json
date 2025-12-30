@@ -150,7 +150,20 @@
 					},
 					{
 						"type": "text_block",
-						"text": "And I do promise, here in the presence of Almighty God and of the Church, that I will pay true and canonical obedience in all things lawful and honest to the Bishop of _**8**_, and his successors, so help me God."
+						"content": [
+							{
+								"type": "text",
+								"value": "And I do promise, here in the presence of Almighty God and of the Church, that I will pay true and canonical obedience in all things lawful and honest to the Bishop of "
+							},
+							{
+								"type": "blank",
+								"value": "8"
+							},
+							{
+								"type": "text",
+								"value": ", and his successors, so help me God."
+							}
+						]
 					},
 					{
 						"type": "rubric",
@@ -289,7 +302,20 @@
 					},
 					{
 						"type": "versical",
-						"text": "A Reading from _**11**_."
+						"text": [
+							{
+								"type": "text",
+								"value": "A Reading from "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
 					},
 					{
 						"type": "rubric",
@@ -337,7 +363,20 @@
 					},
 					{
 						"type": "versical",
-						"text": "to _**11**_."
+						"text": [
+							{
+								"type": "text",
+								"value": "to "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
 					},
 					{
 						"type": "versical",
@@ -360,6 +399,9 @@
 					{
 						"type": "section_title",
 						"text": "the sermon"
+					},
+					{
+						"type": "line_break"
 					},
 					{
 						"type": "section_title",
@@ -466,7 +508,7 @@
 					},
 					{
 						"type": "versical",
-						"text": "answer:  I do so believe."
+						"text": "answer: I do so believe."
 					},
 					{
 						"type": "versical",

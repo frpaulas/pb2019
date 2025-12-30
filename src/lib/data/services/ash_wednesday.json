@@ -1,0 +1,545 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			541,
+			552
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 541
+					},
+					{
+						"type": "section_title",
+						"text": "special liturgies of",
+						"size": "3xl"
+					},
+					{
+						"type": "section_title",
+						"text": "lent & holy week",
+						"size": "3xl"
+					},
+					{
+						"type": "page_break",
+						"page": 542
+					},
+					{
+						"type": "section_title",
+						"text": "concerning ash wednesday",
+						"size": "xl"
+					},
+					{
+						"type": "text_block",
+						"text": "Ash Wednesday marks the beginning of the season of Lent: a time of penitence, fasting, and prayer, in preparation for the great feast of the resurrection."
+					},
+					{
+						"type": "text_block",
+						"text": "The season of Lent began in the early days of the Church as a time of preparation for those seeking to be baptized at the Easter Vigil. The forty days refer to our Lord’s time of fasting in the wilderness; and since Sundays are never fast days, Ash Wednesday is the beginning of the Lenten Fast."
+					},
+					{
+						"type": "text_block",
+						"text": "Throughout the Old Testament, ashes are used as a sign of sorrow and repentance, and Christians have traditionally used ashes to indicate sorrow for our own sin, and as a reminder that the wages of sin is death (romans 6:23). Like Adam and Eve, we have disobeyed and rebelled against God, and are under the same judgment, “you are dust, and to dust you shall return” ({{u}}genesis{{\\u}} 3:19)."
+					},
+					{
+						"type": "text_block",
+						"text": "But as we are marked with ashes in the same manner that we were signed with the Cross in Baptism, we are also reminded of the life we share in Jesus Christ, the second Adam (romans 5:17, 6:4). It is in this sure hope that we begin the journey of these forty days, that by hearing and answering our Savior’s call to repent, we may enter fully into the joyful celebration of his resurrection."
+					},
+					{
+						"type": "page_break",
+						"page": 543
+					},
+					{
+						"type": "section_title",
+						"text": "ash wednesday",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "The Ministers may enter in silence, or a hymn, psalm, or anthem may be sung."
+					},
+					{
+						"type": "rubric",
+						"text": "The People stand, and the Officiant says"
+					},
+					{
+						"type": "versical",
+						"text": "Bless the Lord who forgives all our sins."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "His mercy endures for ever."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant invites the People to the observance of a holy Lent, either here or following the sermon, saying"
+					},
+					{
+						"type": "text_block",
+						"text": "Dear People of God: The first Christians observed with great devotion the days of our Lord’s passion and resurrection, and it became the custom of the Church to prepare for them by a season of penitence and fasting. This season of Lent provided a time in which converts to the faith were prepared for Holy Baptism. It was also a time when those who, because of notorious sins, had been separated from the body of the faithful, were reconciled by penitence and forgiveness, and restored to the fellowship of the Church. In this manner, the whole Congregation was put in mind of the message of pardon and absolution set forth in the Gospel of our Savior, and of the need that all Christians continually have to renew our repentance and faith."
+					},
+					{
+						"type": "page_break",
+						"page": 544
+					},
+					{
+						"type": "text_block",
+						"text": "I invite you, therefore, in the name of the Church, to the observance of a holy Lent: by self-examination and repentance; by prayer, fasting, and alms-giving; and by reading and meditating on God’s holy Word."
+					},
+					{
+						"type": "text_block",
+						"text": "And to make a right beginning, let us now pray for grace, that we may faithfully keep this Lent."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant and people kneel. A period of silent prayer follows."
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant then says"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty and everlasting God, you hate nothing you have made, and you forgive the sins of all who are penitent: Create and make in us new and contrite hearts, that we, worthily lamenting our sins and acknowledging our wretchedness, may obtain of you, the God of all mercy, perfect remission and forgiveness; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, for ever and ever. **Amen.**"
+					},
+					{
+						"type": "section_title",
+						"text": "the lessons"
+					},
+					{
+						"type": "rubric",
+						"text": "The following Lessons are read. The Psalm may be said or sung."
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}joel{{\\u}} 2:1-2, 12-17 or {{u}}isaiah{{\\u}} 58:1-12"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm 103 or 103:8-14"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}2 corinthians{{\\u}} 5:20—6:10"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}matthew{{\\u}} 6:1-6, 16-21"
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "If Communion is to follow, all stand for the Gospel, and the Deacon or Priest reads it, first saying"
+					},
+					{
+						"type": "versical",
+						"text": [
+							{
+								"type": "text",
+								"value": "The Holy Gospel of our Lord Jesus Christ according to ________."
+							}
+						]
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Glory to you, Lord Christ."
+					},
+					{
+						"type": "page_break",
+						"page": 545
+					},
+					{
+						"type": "rubric",
+						"text": "After the Gospel, the Reader says"
+					},
+					{
+						"type": "versical",
+						"text": "The Gospel of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Praise to you, Lord Christ."
+					},
+					{
+						"type": "section_title",
+						"text": "the sermon"
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "section_title",
+						"text": "penitential psalm and imposition of ashes"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant says"
+					},
+					{
+						"type": "text_block",
+						"text": "Let us now call to mind our sin and the infinite mercy of God."
+					},
+					{
+						"type": "rubric",
+						"text": "If ashes are to be imposed, the Officiant says"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, you have created us from the dust of the earth: Grant that these ashes may be for us a symbol of our mortality and a sign of our penitence, that we may remember that it is by your grace alone that we receive the gift of eternal life in Jesus Christ our Savior. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "Then ashes are imposed with the following words"
+					},
+					{
+						"type": "line",
+						"text": "Remember that you are dust, and to dust you shall return."
+					},
+					{
+						"type": "page_break",
+						"page": 546
+					},
+					{
+						"type": "rubric",
+						"text": "All kneel. Psalm 51:1-17 is sung or said."
+					},
+					{
+						"type": "show_psalm",
+						"ps": 51
+					},
+					{
+						"type": "page_break",
+						"page": 547
+					},
+					{
+						"type": "section_title",
+						"text": "confession and litany of penitence"
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon or other person appointed says"
+					},
+					{
+						"type": "line",
+						"text": "Let us humbly confess our sins to Almighty God."
+					},
+					{
+						"type": "rubric",
+						"text": "Silence may follow. The Officiant and People together, all kneeling, pray"
+					},
+					{
+						"type": "confession"
+					},
+					{
+						"type": "versical",
+						"text": "reader: Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "page_break",
+						"page": 548
+					},
+					{
+						"type": "rubric",
+						"text": "The Reader alone continues, and the People respond"
+					},
+					{
+						"type": "text_block",
+						"text": "For all our unfaithfulness and disobedience; for the pride, vanity, and hypocrisy of our lives; Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "text_block",
+						"text": "For our self-pity and impatience, and our envy of those we think more fortunate than ourselves; Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "text_block",
+						"text": "For our unrighteous anger, bitterness, and resentment; for all lies, gossip, and slander against our neighbors; Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "text_block",
+						"text": "For our sexual impurity, our exploitation of other people, and our failure to give of ourselves in love; Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "text_block",
+						"text": "For our self-indulgent appetites and ways, and our intemperate pursuit of worldly goods and comforts; Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "text_block",
+						"text": "For our dishonesty in daily life and work, our ingratitude for your gifts, and our failure to heed your call. Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "text_block",
+						"text": "For our blindness to human need and suffering, and our indifference to injustice and cruelty; Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "page_break",
+						"page": 549
+					},
+					{
+						"type": "text_block",
+						"text": "For our wastefulness and misuse of your creation, and our lack of concern for those who come after us; Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "text_block",
+						"text": "For all false judgments, for prejudice and contempt of others, and for all uncharitable thoughts toward our neighbors; Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "text_block",
+						"text": "For our negligence in prayer and worship; for our presumption and abuse of your means of grace; Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "text_block",
+						"text": "For seeking the praise of others rather than the approval of God; Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "text_block",
+						"text": "For our failure to commend the faith that is in us; Lord, have mercy upon us:"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "For we have sinned against you."
+					},
+					{
+						"type": "rubric",
+						"text": "All then pray"
+					},
+					{
+						"type": "text_block",
+						"text": "Show favor to your people, O Lord, who turn to you in weeping, fasting, and prayer. For you are a merciful God, full of compassion, long-suffering, and abounding in steadfast love. You spare when we deserve punishment, and in your wrath you remember mercy. Spare your people, good Lord, spare us; in the multitude of your mercies, look upon us and forgive us; through the merits and mediation of your blessed Son Jesus Christ our Lord. Amen.",
+						"bold": true
+					},
+					{
+						"type": "page_break",
+						"page": 550
+					},
+					{
+						"type": "section_title",
+						"text": "the absolution"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop, if present, or the Priest, alone stands and says"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, the Father of our Lord Jesus Christ, desires not the death of sinners, but that they may turn from their wickedness and live. He has empowered and commanded his ministers to pronounce to his people, being penitent, the absolution and remission of their sins. He pardons and absolves all who truly repent and genuinely believe his holy Gospel. For this reason, we beseech him to grant us true repentance and his Holy Spirit, that our present deeds may please him, the rest of our lives may be pure and holy, and that at the last we may come to his eternal joy; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "Or the following"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "section_title",
+						"text": "the comfortable words"
+					},
+					{
+						"type": "rubric",
+						"text": "The Officiant may then say one or more of the following sentences, first saying"
+					},
+					{
+						"type": "line",
+						"text": "Hear the Word of God to all who truly turn to him."
+					},
+					{
+						"type": "scripture",
+						"ref": "matthew 11:28",
+						"text": "Come to me, all who labor and are heavy laden, and I will give you rest."
+					},
+					{
+						"type": "scripture",
+						"ref": "john 3:16 t",
+						"text": "God so loved the world, that he gave his only-begotten Son, that whoever believes in him should not perish but have eternal life."
+					},
+					{
+						"type": "page_break",
+						"page": 551
+					},
+					{
+						"type": "scripture",
+						"ref": "1 timothy 1:15",
+						"text": "The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners."
+					},
+					{
+						"type": "scripture",
+						"ref": "1 john 2:1-2 t",
+						"text": "If anyone sins, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world."
+					},
+					{
+						"type": "section_title",
+						"text": "the peace"
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "The Peace of the Lord be always with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "rubric",
+						"text": "When there is Communion, the liturgy continues with the Offertory. The Proper Preface of Lent is used. The prayer below may be said by the Celebrant before the final blessing."
+					},
+					{
+						"type": "rubric",
+						"text": "If there is no Communion, the Lord’s Prayer is then said. The following prayer may be used to conclude the liturgy."
+					},
+					{
+						"type": "versical",
+						"officiant": true,
+						"text": "Let us pray."
+					},
+					{
+						"type": "line",
+						"text": "O Lord our God, grant us grace to desire you with our whole heart:"
+					},
+					{
+						"type": "line",
+						"text": "that desiring you, we may seek you;"
+					},
+					{
+						"type": "line",
+						"text": "and that seeking you, we may find you;"
+					},
+					{
+						"type": "line",
+						"text": "and that finding you, we may love you;"
+					},
+					{
+						"type": "line",
+						"text": "and that loving you, we may hate those sins from which you"
+					},
+					{
+						"type": "line",
+						"text": "have delivered us;",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "through Jesus Christ our Lord. Amen."
+					},
+					{
+						"type": "page_break",
+						"page": 552
+					},
+					{
+						"type": "section_title",
+						"text": "additional directions"
+					},
+					{
+						"type": "text_block",
+						"text": "The silence after the Invitation to a Holy Lent is an integral part of the rite, and should not be omitted or reduced to a mere pause. Other periods of silence may be observed to allow for meditation, self- examination, and prayer."
+					},
+					{
+						"type": "text_block",
+						"text": "The ashes are traditionally made from the palms of the previous Palm Sunday."
+					},
+					{
+						"type": "text_block",
+						"text": "In the absence of a Priest, and with the authorization of the Bishop, a Deacon or lay person may lead the liturgy, except that instead of the absolution, the following words are used:"
+					},
+					{
+						"type": "text_block",
+						"text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. Amen.",
+						"indent": true
+					}
+				],
+				"pb_page_start": 541,
+				"pb_page_end": 552
+			}
+		]
+	}
+}

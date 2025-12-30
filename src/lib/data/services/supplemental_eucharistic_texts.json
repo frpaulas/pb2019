@@ -12,6 +12,10 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 145
+					},
+					{
 						"type": "section_title",
 						"text": "supplemental",
 						"size": "xl"
@@ -209,7 +213,7 @@
 						"text": "t:revelation 4:11"
 					}
 				],
-				"pb_page_start": 146,
+				"pb_page_start": 145,
 				"pb_page_end": 146
 			}
 		]

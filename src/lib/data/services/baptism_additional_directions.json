@@ -12,6 +12,10 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 171
+					},
+					{
 						"type": "section_title",
 						"text": "2\" additional directions"
 					},
@@ -96,7 +100,7 @@
 						"text": "The person who administers emergency Baptism should inform the Priest of the appropriate Congregation, so that the fact can be properly recorded. If the baptized person recovers, the Baptism should be recognized at a public celebration of the Sacrament with a Bishop or Priest presiding, and the person baptized under emergency conditions, together with the Sponsors or Godparents, taking part in everything except the administration of the water."
 					}
 				],
-				"pb_page_start": 172,
+				"pb_page_start": 171,
 				"pb_page_end": 173
 			}
 		]

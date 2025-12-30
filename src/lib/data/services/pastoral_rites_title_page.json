@@ -2,7 +2,9 @@
 	"pastoral_rites": {
 		"title": "pastoral rites",
 		"slug": "pastoral_rites",
-		"pb_pages": [],
+		"pb_pages": [
+			197
+		],
 		"sections": [
 			{
 				"id": "content",

@@ -12,8 +12,16 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 140
+					},
+					{
 						"type": "section_title",
 						"text": "offertory sentences"
+					},
+					{
+						"page": 141,
+						"type": "page_break"
 					},
 					{
 						"type": "scripture",
@@ -26,6 +34,10 @@
 						"text": "Let your light shine before others, so that they may see your good works and give glory to your Father who is in heaven."
 					},
 					{
+						"page": 142,
+						"type": "page_break"
+					},
+					{
 						"type": "scripture",
 						"ref": "matthew 6:19-21",
 						"text": "Do not lay up for yourselves treasures on earth, where moth and rust destroy and where thieves break in and steal, but lay up for yourselves treasures in heaven, where neither moth nor rust destroys and where thieves do not break in and steal. For where your treasure is, there your heart will be also."
@@ -34,6 +46,10 @@
 						"type": "scripture",
 						"ref": "matthew 7:21",
 						"text": "Not everyone who says to me, “Lord, Lord,” will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven."
+					},
+					{
+						"page": 143,
+						"type": "page_break"
 					},
 					{
 						"type": "scripture",
@@ -46,6 +62,10 @@
 						"text": "As we have opportunity, let us do good to everyone, and especially to those who are of the household of faith."
 					},
 					{
+						"page": 144,
+						"type": "page_break"
+					},
+					{
 						"type": "scripture",
 						"ref": "hebrews 6:10",
 						"text": "For God is not unjust so as to overlook your work and the love that you have shown for his name in serving the saints, as you still do."
@@ -56,6 +76,10 @@
 						"text": "Do not neglect to do good and to share what you have, for such sacrifices are pleasing to God."
 					},
 					{
+						"page": 145,
+						"type": "page_break"
+					},
+					{
 						"type": "page_break",
 						"page": 150
 					},
@@ -63,6 +87,10 @@
 						"type": "scripture",
 						"ref": "1 john 3:17",
 						"text": "If anyone has the world’s goods and sees his brother in need, yet closes his heart against him, how does God’s love abide in him?"
+					},
+					{
+						"page": 146,
+						"type": "page_break"
 					},
 					{
 						"type": "scripture",
@@ -75,6 +103,10 @@
 						"text": "And the King will answer them, \"Truly, I say to you, as you did it to one of the least of these my brothers, you did it to me.\""
 					},
 					{
+						"page": 147,
+						"type": "page_break"
+					},
+					{
 						"type": "scripture",
 						"ref": "romans 10:14-15",
 						"text": ": How then will they call on him in whom they have not believed? And how are they to believe in him of whom they have never heard? And how are they to hear without someone preaching? And how are they to preach unless they are sent?"
@@ -85,6 +117,10 @@
 						"text": ": And Jesus said to them, \"The harvest is plentiful, but the laborers are few. Therefore pray earnestly to the Lord of the harvest to send out laborers into his harvest.\""
 					},
 					{
+						"page": 148,
+						"type": "page_break"
+					},
+					{
 						"type": "scripture",
 						"ref": "deuteronomy 16:16-17",
 						"text": ": They shall not appear before the Lord empty-handed. Every man shall give as he is able, according to the blessing of the Lord your God that he has given you."
@@ -93,6 +129,10 @@
 						"type": "scripture",
 						"ref": "psalm 50:14",
 						"text": "Offer unto God a sacrifice of thanksgiving, and pay your vows unto the Most High."
+					},
+					{
+						"page": 149,
+						"type": "page_break"
 					},
 					{
 						"type": "scripture",
@@ -124,7 +164,7 @@
 						"text": "You are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light."
 					}
 				],
-				"pb_page_start": 150,
+				"pb_page_start": 140,
 				"pb_page_end": 151
 			}
 		]

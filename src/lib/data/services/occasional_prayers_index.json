@@ -1,0 +1,1236 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			641,
+			645
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 641
+					},
+					{
+						"type": "section_title",
+						"text": "occasional",
+						"size": "3xl"
+					},
+					{
+						"type": "section_title",
+						"text": "prayers",
+						"size": "3xl"
+					},
+					{
+						"type": "page_break",
+						"page": 642
+					},
+					{
+						"type": "section_title",
+						"text": "contents",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "the church"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "1. {{u}}for the universal church{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "2. {{u}}for the universal church{{\\u}} _William Laud_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "3. {{u}}for the unity of the church{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "4. {{u}}for the unity of all christian people{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "5. {{u}}for the spirit of prayer{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "6. {{u}}for a province or diocese{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "7. {{u}}for a provincial or diocesan convention or synod{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "8. {{u}}for a provincial or diocesan convention or synod{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "9. {{u}}for vestry and church meetings{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "10. {{u}}for the selection of a bishop or other minister{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "11. {{u}}for the local congregation{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "12. {{u}}for the local congregation{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "13. {{u}}for vocations to ordained ministry{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "14. {{u}}for church musicians and artists{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "15. {{u}}for monastic orders and vocations{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "16. {{u}}for the mission of the church{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "17. {{u}}for the mission of the church{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "18. {{u}}for missionary societies{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "19. {{u}}for all missionaries{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "20. {{u}}for a spirit of evangelism{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "section_title",
+						"text": "creation"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "21. {{u}}for joy in god’s creation{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "22. {{u}}for stewardship of creation{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "23. {{u}}for the harvest of lands and waters{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "24. {{u}}for rain{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "25. {{u}}in time of scarcity and famine{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "26. {{u}}in times of natural disaster{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "section_title",
+						"text": "the nation"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "27. {{u}}for the peace of the world{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "28. {{u}}for the peace of the world{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "29. {{u}}for courts of justice{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "30. {{u}}for civil authorities{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "31. {{u}}for an election{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "32. {{u}}for those in the armed forces{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "33. {{u}}for our enemies{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "page_break",
+						"page": 643
+					},
+					{
+						"type": "section_title",
+						"text": "_Specific to Canada_"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "34. {{u}}for the sovereign{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "35. {{u}}for the royal family{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "36. {{u}}for the prime minister of canada, lieutenant governors, and premiers of the provinces{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "section_title",
+						"text": "_Specific to the United States or Mexico_"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "37. {{u}}for the president and all in civil authority{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "38. {{u}}for congress or a state legislature{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "39. {{u}}for our nation{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "section_title",
+						"text": "society"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "40. {{u}}for all sorts and conditions of men{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "41. {{u}}for cities, towns, and other communities{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "42. {{u}}for the human family{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "43. {{u}}for social justice{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "44. {{u}}in times of social conflict or distress{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "45. {{u}}for those who serve others{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "46. {{u}}for commerce and industry{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "47. {{u}}for the unemployed{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "48. {{u}}for agriculture and farming{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "49. {{u}}for schools, colleges, and universities{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "50. {{u}}for the medical professions{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "51. {{u}}for those who inform public opinion{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "section_title",
+						"text": "those in need"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "52. {{u}}for those we love{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "53. {{u}}for those who travel{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "54. {{u}}for the absent{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "55. {{u}}for those who live alone{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "56. {{u}}for the elderly{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "57. {{u}}for those with chronic disease{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "58. {{u}}for a person in trouble or bereavement{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "59. {{u}}for the discouraged and downcast{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "60. {{u}}for prisoners{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "61. {{u}}for the recovery of a sick person{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "62. {{u}}for those afflicted with mental suffering{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "63. {{u}}for those in bondage to addiction{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "64. {{u}}for the unrepentant{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "page_break",
+						"page": 644
+					},
+					{
+						"type": "section_title",
+						"text": "family and personal life"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "65. {{u}}for families{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "66. {{u}}for the care of children{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "67. {{u}}for a birthday{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "68. {{u}}for a child, or for a birthday{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "69. {{u}}for a marriage or anniversary{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "70. {{u}}for inner renewal through the word{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "71. {{u}}for christ to be formed in us{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "72. {{u}}for knowing and loving god{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "73. {{u}}a prayer of self-dedication{{\\u}} _William Temple_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "74. {{u}}for desiring god{{\\u}} _Francis Xavier_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "75. {{u}}for holy thought{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "76. {{u}}for guidance{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "77. {{u}}for guidance{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "78. {{u}}to please god rather than men{{\\u}} _Thomas à Kempis_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "79. {{u}}for mercy{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "80. {{u}}for trustfulness in times of worry and anxiety{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "81. {{u}}for help to bear bereavement{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "82. {{u}}for quiet confidence{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "section_title",
+						"text": "Throughout The Day"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "83. {{u}}in the morning{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "84. {{u}}grace at meals{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "85. {{u}}in the evening{{\\u}} _John Henry Newman_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "86. {{u}}for sleep{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "section_title",
+						"text": "personal devotion"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "87. {{u}}for participation in the peace of god{{\\u}} _Francis of Assisi_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "88. {{u}}for daily growth{{\\u}} _Richard of Chichester_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "89. {{u}}for seeking god{{\\u}} _Anselm of Canterbury_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "90. {{u}}for grace to seek god in every way{{\\u}} _Benedict of Nursia_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "91. {{u}}for submission to god’s will{{\\u}} _Joseph Mercier_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "92. {{u}}for satisfaction in christ{{\\u}} _Julian of Norwich_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "93. {{u}}a covenant prayer{{\\u}} _John Wesley_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "94. {{u}}for a virtuous heart{{\\u}} _Thomas Aquinas_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "95. {{u}}in times of suffering or weakness{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "96. {{u}}for union with christ{{\\u}} _Anima Christi_"
+							}
+						]
+					},
+					{
+						"type": "page_break",
+						"page": 645
+					},
+					{
+						"type": "section_title",
+						"text": "at times of prayer and worship"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "97. {{u}}preparation for personal prayer{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "98. {{u}}for the acceptance of prayer{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "99. {{u}}for the acceptance of prayer{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "100. {{u}}for the answering of prayer{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "101. {{u}}before the reading of scripture{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "102. {{u}}on sundays{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "103. {{u}}preparation for public worship{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "104. {{u}}before receiving communion{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "105. {{u}}after receiving communion{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "106. {{u}}for spiritual communion{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "107. {{u}}after communion{{\\u}} _Liturgy of St. Basil_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "108. {{u}}after public worship{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "section_title",
+						"text": "death, the departed, and the communion of saints"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "109. {{u}}for watchfulness Lancelot Andrewes{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "110. {{u}}for joy at the end of life{{\\u}} _Miles Coverdale_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "111. {{u}}for an anniversary of one departed{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "112. {{u}}the communion of saints{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "113. {{u}}the communion of saints{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "114. {{u}}for all faithful departed{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "115. {{u}}for the coming of god’s kingdom{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "section_title",
+						"text": "thanksgivings"
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "116. {{u}}a litany of thanksgiving{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "117. {{u}}a thanksgiving prayer{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "118. {{u}}for the mission of the church{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "119. {{u}}for the harvest{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "120. {{u}}for the beauty of the earth{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "121. {{u}}for the diversity of races and cultures{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "122. {{u}}for military veterans{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "123. {{u}}for deliverance from peril{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "124. {{u}}for the restoration of health{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "125. {{u}}for the saints and faithful departed{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "While most of the prayers included on this list have been rendered in a contemporary idiom, some prayers, because of broad familiarity or difficulty in contemporizing, remain in traditional language."
+					}
+				],
+				"pb_page_start": 641,
+				"pb_page_end": 645
+			}
+		]
+	}
+}

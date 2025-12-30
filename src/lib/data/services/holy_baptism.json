@@ -12,6 +12,10 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 161
+					},
+					{
 						"type": "rubric",
 						"text": "Baptism should be administered as part of the Holy Eucharist on a Sunday or other Holy Day. The most appropriate days for Baptism are the Easter Vigil, the Baptism of Our Lord, Pentecost, and All Saints’ Day (or the Sunday after All Saints’ Day). The Bishop is the appropriate Celebrant, if present."
 					},
@@ -664,7 +668,7 @@
 					},
 					{
 						"type": "versical",
-						"text": ": Let us welcome the newly baptized."
+						"text": "Let us welcome the newly baptized."
 					},
 					{
 						"type": "rubric",
@@ -714,7 +718,7 @@
 						"link": " Renewed Ancient Text"
 					}
 				],
-				"pb_page_start": 162,
+				"pb_page_start": 161,
 				"pb_page_end": 170
 			}
 		]

@@ -12,6 +12,10 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 1
+					},
+					{
 						"type": "section_title",
 						"text": "preface"
 					},
@@ -75,7 +79,7 @@
 						"type": "signature_block"
 					}
 				],
-				"pb_page_start": 2,
+				"pb_page_start": 1,
 				"pb_page_end": 5
 			}
 		]

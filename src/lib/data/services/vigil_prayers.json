@@ -70,7 +70,20 @@
 					},
 					{
 						"type": "text_block",
-						"text": "Most merciful God, whose wisdom is beyond our understanding: deal graciously with those who mourn [especially _**8**_]. Surround them with your love, that they may not be overwhelmed by their loss, but have confidence in your goodness, and strength to meet the days to come; through Jesus Christ our Lord. **Amen.**"
+						"content": [
+							{
+								"type": "text",
+								"value": "Most merciful God, whose wisdom is beyond our understanding: deal graciously with those who mourn [especially "
+							},
+							{
+								"type": "blank",
+								"value": "8"
+							},
+							{
+								"type": "text",
+								"value": "]. Surround them with your love, that they may not be overwhelmed by their loss, but have confidence in your goodness, and strength to meet the days to come; through Jesus Christ our Lord. **Amen.**"
+							}
+						]
 					},
 					{
 						"type": "rubric",

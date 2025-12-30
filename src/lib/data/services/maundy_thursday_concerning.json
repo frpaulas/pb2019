@@ -1,0 +1,36 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			559
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 559
+					},
+					{
+						"type": "section_title",
+						"text": "concerning maundy thursday",
+						"size": "xl"
+					},
+					{
+						"type": "text_block",
+						"text": "The Paschal mystery—the death and resurrection of Jesus Christ — is at the heart of the Christian Gospel. The evening of Maundy Thursday begins the Triduum (the sacred three days). This service, together with Good Friday, Holy Saturday, and The Great Vigil of Easter, form a single liturgy; thus, the final blessing and dismissal is reserved for the conclusion of the Great Vigil."
+					},
+					{
+						"type": "text_block",
+						"text": "Maundy Thursday receives its name from the mandatum (commandment) given by our Lord: “A new commandment I give to you, that you love one another: just as I have loved you, you also are to love one another” (john 13:34). At the Last Supper, Jesus washed his disciples’ feet and commanded them to love and serve one another as he had done. This day commemorates the Lord’s example of servant ministry, the institution of the Eucharist, the agony in the Garden of Gethsemane, and the betrayal leading to the crucifixion."
+					}
+				],
+				"pb_page_start": 559,
+				"pb_page_end": 559
+			}
+		]
+	}
+}

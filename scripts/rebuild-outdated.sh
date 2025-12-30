@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Check DPB files against JSON files and rebuild if JSON is older
+# Also validate that all canticles are registered in ServiceRenderer
 
 set -e
 
@@ -7,6 +8,10 @@ SERVICES_DIR="$(dirname "$0")/../src/lib/data/services"
 DPB_DIR="$SERVICES_DIR/dpb"
 REBUILD_NEEDED=false
 
+echo "🔍 Checking canticle registration..."
+"$(dirname "$0")/check-canticles.sh"
+
+echo ""
 echo "🔍 Checking for outdated JSON files..."
 
 # Check each DPB file

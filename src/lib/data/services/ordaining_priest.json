@@ -1,0 +1,887 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			483,
+			496
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 483
+					},
+					{
+						"type": "section_title",
+						"text": "l: the form and manner of"
+					},
+					{
+						"type": "section_title",
+						"text": "ordaining a priest",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "A hymn, psalm, or anthem may be sung."
+					},
+					{
+						"type": "rubric",
+						"text": "The People standing, the Bishop says this or an appropriate seasonal greeting"
+					},
+					{
+						"type": "versical",
+						"text": "The Lord will pour out his Spirit upon all flesh,"
+					},
+					{
+						"type": "versical",
+						"text": "people: And your sons and daughters shall prophesy."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Your old men shall dream dreams,"
+					},
+					{
+						"type": "versical",
+						"text": "people: And your young men shall see visions."
+					},
+					{
+						"type": "versical",
+						"text": "bishop:You shall know that the Lord is in the midst"
+					},
+					{
+						"type": "versical",
+						"text": "bishop: of his people,"
+					},
+					{
+						"type": "versical",
+						"text": "people: That he is the Lord and there is none else."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: And it shall come to pass"
+					},
+					{
+						"type": "versical",
+						"text": "people: That everyone who calls on the Name of the Lord"
+					},
+					{
+						"type": "versical",
+						"text": "shall be saved."
+					},
+					{
+						"type": "ref",
+						"text": "joel 2:27-28, 32; acts 2:17, 21 t"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop prays (and the People may be invited to join)"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, to you all hearts are open, all desires known, and from you no secrets are hid: Cleanse the thoughts of our hearts by the inspiration of your Holy Spirit, that we may perfectly love you, and worthily magnify your holy Name; through Christ our Lord. _Amen._"
+					},
+					{
+						"type": "page_break",
+						"page": 484
+					},
+					{
+						"type": "section_title",
+						"text": "the presentation"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop and People sit. The Presenters, standing before the Bishop, present the Ordinand, saying"
+					},
+					{
+						"type": "text_block",
+						"text": "Reverend Father in God, we present N.N. to be admitted to the Order of Priests."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Has _he_ been selected in accordance with the Canons"
+					},
+					{
+						"type": "versical",
+						"text": "of this Church? And do you believe his manner of life"
+					},
+					{
+						"type": "versical",
+						"text": "to be suitable to the exercise of this ministry?"
+					},
+					{
+						"type": "versical",
+						"text": "presenters: We certify to you that he has satisfied the requirements"
+					},
+					{
+						"type": "versical",
+						"text": "of the Canons, and we believe him to be qualified for"
+					},
+					{
+						"type": "versical",
+						"text": "this Order."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop shall then require the Ordinand to take the Oath of Conformity and the Oath of Canonical Obedience saying"
+					},
+					{
+						"type": "text_block",
+						"text": "The Canons require that no Deacon may be ordained a Priest in the Church before subscribing without reservation to the Oath of Conformity. It is also required that each Ordinand subscribe without reservation to the Oath of Canonical Obedience. In the presence of this Congregation, I now charge you to make your solemn declaration of these oaths."
+					},
+					{
+						"type": "rubric",
+						"text": "The Ordinand then declares"
+					},
+					{
+						"type": "text_block",
+						"text": "I, _N.N._, do believe the Holy Scriptures of the Old and New Testaments to be the Word of God and to contain all things necessary to salvation, and I consequently hold myself bound to conform my life and ministry thereto, and therefore I do solemnly engage to conform to the Doctrine, Discipline, and Worship of Christ as this Church has received them."
+					},
+					{
+						"type": "page_break",
+						"page": 485
+					},
+					{
+						"type": "text_block",
+						"content": [
+							{
+								"type": "text",
+								"value": "And I do promise, here in the presence of Almighty God and of the Church, that I will pay true and canonical obedience in all things lawful and honest to the Bishop of "
+							},
+							{
+								"type": "blank",
+								"value": "8"
+							},
+							{
+								"type": "text",
+								"value": ", and his successors, so help me God."
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "The Ordinand then signs the Oath of Conformity and the Oath of Canonical Obedience in the sight of all present."
+					},
+					{
+						"type": "rubric",
+						"text": "All stand. The Bishop says to the People"
+					},
+					{
+						"type": "text_block",
+						"text": "Dear Brothers and Sisters in Christ, you know the importance of this ministry, and the weight of your responsibility in presenting _N.N._ for ordination to the sacred Priesthood. Therefore if any of you know of any impediment or crime because of which we should not proceed, come forward now and make it known."
+					},
+					{
+						"type": "rubric",
+						"text": "If no objection is made, the Bishop continues"
+					},
+					{
+						"type": "versical",
+						"text": "Is it your will that N. be ordained a Priest?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "It is."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Will you uphold him in this ministry?"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "We will."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: In peace let us pray to the Lord."
+					},
+					{
+						"type": "section_title",
+						"text": "the litany for ordinations"
+					},
+					{
+						"type": "rubric",
+						"text": "All kneel. Then the Litanist appointed, with the Clergy and People present, says or sings the Litany for Ordinations (Page 510). The Ordinand either kneels or lies prostrate during the Litany."
+					},
+					{
+						"type": "rubric",
+						"text": "At the conclusion of the Litany for Ordinations, the Bishop stands and prays the following collect, first saying"
+					},
+					{
+						"type": "versical",
+						"text": "The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "page_break",
+						"page": 486
+					},
+					{
+						"type": "versical",
+						"text": "bishop:Let us pray."
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, giver of all good things, by your Holy Spirit you have appointed various Orders of Ministers in your Church: mercifully behold _this_ your _servant_ now called to the Order of Priests, and so fill _him_ with the truth of your doctrine and adorn him with holiness of life, that by word and good example _he_ may faithfully serve you in this office, to the glory of your Name and the edification of your Church; through the merits of our Savior Jesus Christ, who lives and reigns with you and the Holy Spirit, world without end. **Amen.**"
+					},
+					{
+						"type": "section_title",
+						"text": "the lessons"
+					},
+					{
+						"type": "rubric",
+						"text": "The following Lessons are appointed for the ordination of a Priest. On a Major Feast, or on a Sunday, the Bishop may select Lessons from the Propers of the Day."
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}isaiah{{\\u}} 6:1-8"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 119:33-40"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}ephesians{{\\u}} 4:7-16 _or_ philippians 4:4-9"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}luke{{\\u}} 10:1-9 _or_ john 10:1-16"
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "The People sit. One or more Lessons, as appointed, are read, the Reader first saying"
+					},
+					{
+						"type": "versical",
+						"text": [
+							{
+								"type": "text",
+								"value": "A Reading from "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "A citation giving chapter and verse may be added."
+					},
+					{
+						"type": "rubric",
+						"text": "After each Lesson the Reader may say"
+					},
+					{
+						"type": "versical",
+						"text": "The Word of the Lord."
+					},
+					{
+						"type": "versical",
+						"text": "people Thanks be to God."
+					},
+					{
+						"type": "line",
+						"text": "_Or the Reader may say_ Here ends the Reading."
+					},
+					{
+						"type": "page_break",
+						"page": 487
+					},
+					{
+						"type": "rubric",
+						"text": "Silence may follow."
+					},
+					{
+						"type": "rubric",
+						"text": "A psalm, hymn, or anthem may follow each reading."
+					},
+					{
+						"type": "rubric",
+						"text": "All standing, the Deacon or Priest reads the Gospel, first saying"
+					},
+					{
+						"type": "versical",
+						"text": [
+							{
+								"type": "text",
+								"value": "The Holy Gospel of our Lord Jesus Christ according to "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Glory to you, Lord Christ."
+					},
+					{
+						"type": "rubric",
+						"text": "After the Gospel, the Reader says"
+					},
+					{
+						"type": "versical",
+						"text": "The Gospel of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Praise to you, Lord Christ."
+					},
+					{
+						"type": "section_title",
+						"text": "the sermon"
+					},
+					{
+						"type": "section_title",
+						"text": "the nicene creed"
+					},
+					{
+						"type": "rubric",
+						"text": "All stand to recite the Nicene Creed, the Bishop first saying Let us confess our faith in the words of the Nicene Creed:"
+					},
+					{
+						"type": "rubric",
+						"text": "Bishop and People"
+					},
+					{
+						"type": "nicene_creed"
+					},
+					{
+						"type": "page_break",
+						"page": 488
+					},
+					{
+						"type": "section_title",
+						"text": "the exhortation"
+					},
+					{
+						"type": "rubric",
+						"text": "All are seated except the Ordinand, who stands before the Bishop."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop addresses the Ordinand as follows"
+					},
+					{
+						"type": "text_block",
+						"text": "You have heard, during the Church’s discernment of your vocation and in the Holy Scriptures themselves, how weighty is this Office to which you are called. I now exhort you, in the † The phrase “and the Son” (Latin filioque) is not in the original Greek text. See the resolution of the College of Bishops concerning the filioque in Documentary Foundations (page 768). Name of our Lord Jesus Christ, to be a messenger, watchman, and steward of the Lord. You are to teach, to warn, to feed, and to provide for the Lord’s family, and to seek for Christ’s sheep who are in the midst of this fallen world, that they may be saved through Christ for ever."
+					},
+					{
+						"type": "page_break",
+						"page": 489
+					},
+					{
+						"type": "text_block",
+						"text": "Remember how great is this treasure committed to your charge. They are the sheep of Christ for whom he shed his blood. The Church and Congregation whom you will serve is his bride, his body. If the Church, or any of her members, is hurt or hindered by your negligence, you must know both the gravity of your fault, and the grievous judgment that will result."
+					},
+					{
+						"type": "text_block",
+						"text": "Therefore, consider the purpose of your ministry to the children of God. Work diligently, with your whole heart, to bring those in your care into the unity of the faith and of the knowledge of God, and to maturity in Christ, that there may be among you neither error in religion nor immorality in life. Finally, equip and lead your Congregation to proclaim tirelessly the Gospel of Jesus Christ."
+					},
+					{
+						"type": "text_block",
+						"text": "And seeing that the demands of this holy Office are so great, lay aside all worldly distractions and take care to direct all that you do to this purpose: read, mark, learn, and inwardly digest the Scriptures, that you may show yourself both dutiful and thankful to the Lord; and frame your conduct, and that of your household and those committed to your care, according to the doctrine and discipline of Christ. Know, however, that you cannot accomplish this of yourself; for the will and the ability needed are given by God alone. Therefore, pray earnestly for his Holy Spirit to enlighten your mind and strengthen your resolve."
+					},
+					{
+						"type": "page_break",
+						"page": 490
+					},
+					{
+						"type": "section_title",
+						"text": "the examination"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop then examines the Ordinand, saying"
+					},
+					{
+						"type": "text_block",
+						"text": "So that this Congregation of Christ’s Church may know your intent in these things, I charge you to answer plainly these questions, which I, in the Name of God and his Church, now ask:"
+					},
+					{
+						"type": "versical",
+						"text": "Do you believe in your heart that you are truly"
+					},
+					{
+						"type": "versical",
+						"text": "called, according to the will of our Lord Jesus"
+					},
+					{
+						"type": "versical",
+						"text": "Christ, and according to the Canons of this Church,"
+					},
+					{
+						"type": "versical",
+						"text": "to the Order and ministry of the Priesthood?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: I do so believe."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Do you believe that the Holy Scriptures contain"
+					},
+					{
+						"type": "versical",
+						"text": "all things necessary for salvation through faith in"
+					},
+					{
+						"type": "versical",
+						"text": "Jesus Christ? And are you determined out of the"
+					},
+					{
+						"type": "versical",
+						"text": "Holy Scriptures to instruct the people committed"
+					},
+					{
+						"type": "versical",
+						"text": "to your charge, and to teach or maintain nothing as"
+					},
+					{
+						"type": "versical",
+						"text": "necessary to eternal salvation but that which may be"
+					},
+					{
+						"type": "versical",
+						"text": "concluded and proved by the Scriptures?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: I do so believe, and I am so determined,"
+					},
+					{
+						"type": "versical",
+						"text": "the Lord being my helper."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Will you then give your faithful diligence always so"
+					},
+					{
+						"type": "versical",
+						"text": "to minister the doctrine, sacraments, and discipline"
+					},
+					{
+						"type": "versical",
+						"text": "of Christ, as the Lord has commanded and as"
+					},
+					{
+						"type": "versical",
+						"text": "this Church has received them, according to the"
+					},
+					{
+						"type": "versical",
+						"text": "Commandments of God, so that you may teach the"
+					},
+					{
+						"type": "versical",
+						"text": "people committed to your charge with all diligence"
+					},
+					{
+						"type": "versical",
+						"text": "to keep and observe them?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: Answer I will, the Lord being my helper."
+					},
+					{
+						"type": "page_break",
+						"page": 491
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Will you be ready, with all faithful diligence, to"
+					},
+					{
+						"type": "versical",
+						"text": "banish and drive away from the Body of Christ"
+					},
+					{
+						"type": "versical",
+						"text": "all erroneous and strange doctrines contrary to"
+					},
+					{
+						"type": "versical",
+						"text": "God’s Word; and to use both public and private"
+					},
+					{
+						"type": "versical",
+						"text": "admonitions and exhortations, to the weak as well as"
+					},
+					{
+						"type": "versical",
+						"text": "the strong within your charge, as need shall require"
+					},
+					{
+						"type": "versical",
+						"text": "and occasion shall be given?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: Answer I will, the Lord being my helper."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Will you be diligent in prayer, and in the reading of"
+					},
+					{
+						"type": "versical",
+						"text": "Holy Scripture, and in such study as may further the"
+					},
+					{
+						"type": "versical",
+						"text": "knowledge of the same, laying aside all distractions"
+					},
+					{
+						"type": "versical",
+						"text": "of the world and the flesh?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: Answer I will, the Lord being my helper."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Will you be diligent to frame and fashion your own"
+					},
+					{
+						"type": "versical",
+						"text": "life [and the life of your family], according to the"
+					},
+					{
+						"type": "versical",
+						"text": "doctrine of Christ, and to make yourself [and them,"
+					},
+					{
+						"type": "versical",
+						"text": "as much as you are able], a wholesome example and"
+					},
+					{
+						"type": "versical",
+						"text": "pattern to the flock of Christ?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: I will, the Lord being my helper."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Will you maintain and set forward, as much as"
+					},
+					{
+						"type": "versical",
+						"text": "you are able, quietness, peace, and love among all"
+					},
+					{
+						"type": "versical",
+						"text": "Christian people, and especially among those who"
+					},
+					{
+						"type": "versical",
+						"text": "are or shall be committed to your charge?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: Answer I will, the Lord being my helper."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Will you reverently obey your Bishop and other chief"
+					},
+					{
+						"type": "versical",
+						"text": "Ministers who, according to the Canons of the Church,"
+					},
+					{
+						"type": "versical",
+						"text": "may have charge and authority over you, following with"
+					},
+					{
+						"type": "versical",
+						"text": "a glad mind and a good will their godly admonitions,"
+					},
+					{
+						"type": "versical",
+						"text": "and submitting yourself to their godly judgments?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: I will, the Lord being my helper."
+					},
+					{
+						"type": "rubric",
+						"text": "The Congregation may kneel, and prays silently for the fulfillment of these purposes."
+					},
+					{
+						"type": "page_break",
+						"page": 492
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop prays"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, our heavenly Father, who has given you a good will to do all these things, grant you also the strength and power to perform them, accomplishing in you the good work which he has begun, that you may be found perfect and without reproach on the last day; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Ordinand kneels or lies prostrate, facing the Bishop, with the priests present surrounding the Ordinand. The Veni, Creator Spiritus is sung or said as a prayer for the renewal of the Church."
+					},
+					{
+						"type": "canticle",
+						"name": "veni_creator_spiritus"
+					},
+					{
+						"type": "page_break",
+						"page": 493
+					},
+					{
+						"type": "section_title",
+						"text": "the consecration of the priest"
+					},
+					{
+						"type": "rubric",
+						"text": "All now stand as witnesses, except the Ordinand, who kneels facing the Bishop."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop prays the following prayer, first saying"
+					},
+					{
+						"type": "line",
+						"text": "Let us pray."
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God and most merciful Father, of your infinite love and goodness you have given your only Son Jesus Christ to be our redeemer and the author of everlasting life. After he had made perfect our redemption by his death and resurrection, and ascended into heaven, he sent into the whole world his apostles, prophets, evangelists, pastors, and teachers; by the Holy Spirit, through their labor and ministry, he gathered together a great flock to set forth the eternal praise of your holy Name. For these great benefits, and because you have called _this_ your _servant_ to the same office and ministry, we offer you our most hearty thanks; and we humbly ask that we may daily increase in the knowledge and faith of you and of your Son, and that by _this minister_, as well as by those entrusted to _his_ care, your holy Name may for ever be glorified, and your blessed kingdom enlarged; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop with the Priests present lay their hands upon the head of each one to receive the Order of Priesthood. The Bishop says"
+					},
+					{
+						"type": "text_block",
+						"text": "Receive the Holy Spirit for the office and work of a Priest in the Church of God, now committed to you by the imposition of our hands. If you forgive the sins of anyone, they are forgiven. If you withhold forgiveness from anyone, it is withheld. Be a faithful minister of God’s holy Word and Sacraments; in the Name of the Father, and of the Son, and of the Holy Spirit."
+					},
+					{
+						"type": "page_break",
+						"page": 494
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop then prays the following over the Ordinand."
+					},
+					{
+						"type": "text_block",
+						"text": "Send your heavenly blessing upon this your servant, that he may be clothed with righteousness, and that your Word, spoken by his mouth, may have such success that it may never be spoken in vain. Grant also that we may have grace to hear and receive what he shall deliver out of your most holy Word as the means of our salvation; that in all our words and deeds we may seek your glory and the increase of your kingdom; through Jesus Christ our Lord, who lives and reigns with you in the unity of the Holy Spirit, world without end."
+					},
+					{
+						"type": "rubric",
+						"text": "The People in a loud voice respond"
+					},
+					{
+						"type": "line",
+						"text": "**Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The new Priest may now be vested according to the Order of Priests."
+					},
+					{
+						"type": "rubric",
+						"text": "o: As the Priest is vested with a stole, the Bishop says",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "Take the yoke of the Lord, for his yoke is easy and his burden is light.",
+						"optional": true
+					},
+					{
+						"type": "rubric",
+						"text": "o: As the Priest is vested with a chasuble, the Bishop says",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "Receive this priestly garment which symbolizes charity; for God is well able to give you an increase of charity and a perfect work.",
+						"optional": true
+					},
+					{
+						"type": "rubric",
+						"text": "o: The Bishop then anoints the hands of the new Priest with the Oil of Chrism, saying",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "Grant, O Lord, to consecrate and sanctify these hands by this unction and by our blessing, that whatsoever they bless may be blessed, and whatsoever they consecrate may be consecrated and sanctified, in the Name of our Lord Jesus Christ. **Amen.**",
+						"optional": true
+					},
+					{
+						"type": "page_break",
+						"page": 495
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop then gives the new Priest a Bible in one hand and a chalice in the other hand saying"
+					},
+					{
+						"type": "text_block",
+						"text": "Take authority to preach the Word of God and to administer the Holy Sacraments. Do not forget the trust committed to you as a Priest in the Church of God."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop then says to the People"
+					},
+					{
+						"type": "versical",
+						"text": "The peace of the Lord be always with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "rubric",
+						"text": "The liturgy continues with the Offertory. The Deacon prepares the Table."
+					},
+					{
+						"type": "rubric",
+						"text": "Standing at the Holy Table with the Bishop and other Ministers, the newly ordained Priest joins in the celebration of the Holy Communion and in the Breaking of the Bread."
+					},
+					{
+						"type": "rubric",
+						"text": "When the Communion is finished, after the Post Communion Prayer, the new Priest prays the following Collect"
+					},
+					{
+						"type": "text_block",
+						"text": "Go before us, O Lord, in all our doings with your most gracious favor, and further us with your continual help; that in all our works begun, continued, and ended in you, we may glorify your holy Name, and finally, through your mercy, obtain everlasting life; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop then blesses the People saying"
+					},
+					{
+						"type": "versical",
+						"text": "Our help is in the Name of the Lord;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "The maker of heaven and earth."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Blessed be the Name of the Lord;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "From this time forth for evermore."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: The blessing, mercy, and grace of God Almighty,"
+					},
+					{
+						"type": "versical",
+						"text": "the Father, the Son, and the Holy Spirit, be upon"
+					},
+					{
+						"type": "versical",
+						"text": "you, and remain with you for ever. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 496
+					},
+					{
+						"type": "rubric",
+						"text": "Or the Bishop may ask the newly ordained Priest to bless the People saying"
+					},
+					{
+						"type": "text_block",
+						"text": "The peace of God which passes all understanding keep your hearts and minds in the knowledge and love of God, and of his Son Jesus Christ our Lord; and the blessing of God Almighty, the Father, the Son, and the Holy Spirit, be among you, and remain with you always. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon dismisses the People saying"
+					},
+					{
+						"type": "versical",
+						"text": "Let us go forth into the world rejoicing in the power"
+					},
+					{
+						"type": "versical",
+						"text": "of the Holy Spirit."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"type": "rubric",
+						"text": "From the Easter Vigil through the Day of Pentecost, “Alleluia, alleluia” is added to the dismissal. It may be added at other times, except during Lent and on other penitential occasions."
+					},
+					{
+						"type": "rubric",
+						"text": "The People respond"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God. Alleluia, alleluia."
+					}
+				],
+				"pb_page_start": 483,
+				"pb_page_end": 496
+			}
+		]
+	}
+}

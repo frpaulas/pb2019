@@ -67,24 +67,24 @@
 			title: 'Daily Prayers',
 			submenu: [
 				{ title: 'Daily Office (Time-based)', href: `${base}/daily-office-continuous` },
-				{ title: 'Morning Prayer', href: `${base}/daily-office/morning-prayer` },
-				{ title: 'Midday Prayer', href: `${base}/daily-office/midday-prayer` },
-				{ title: 'Evening Prayer', href: `${base}/daily-office/evening-prayer` },
-				{ title: 'Compline', href: `${base}/daily-office/compline` },
-				{ title: 'Family Prayer', href: `${base}/daily-office/family-prayer` }
+				{ title: 'Morning Prayer', href: `${base}/pg/11` },
+				{ title: 'Midday Prayer', href: `${base}/pg/33` },
+				{ title: 'Evening Prayer', href: `${base}/pg/41` },
+				{ title: 'Compline', href: `${base}/pg/57` },
+				{ title: 'Family Prayer', href: `${base}/pg/67` }
 			]
 		},
 		{
 			title: 'Holy Eucharist',
 			submenu: [
-				{ title: 'Concerning the Eucharist', href: `${base}/eucharist/concerning` },
-				{ title: 'Anglican Standard Text', href: `${base}/eucharist/anglican-standard` },
-				{ title: 'Renewed Ancient Text', href: `${base}/eucharist/renewed-ancient` },
-				{ title: 'Additional Directions', href: `${base}/eucharist/additional-directions` },
-				{ title: 'Seasonal Greetings', href: `${base}/eucharist/seasonal-greetings` },
-				{ title: 'Exhortation', href: `${base}/eucharist/exhortation` },
-				{ title: 'Offertory Sentences', href: `${base}/to_do/Offertory Sentences` },
-				{ title: 'Proper Prefaces', href: `${base}/to_do/Proper Prefaces` }
+				{ title: 'Concerning the Eucharist', href: `${base}/pg/100` },
+				{ title: 'Anglican Standard Text', href: `${base}/pg/105` },
+				{ title: 'Renewed Ancient Text', href: `${base}/pg/123` },
+				{ title: 'Additional Directions', href: `${base}/pg/139` },
+				{ title: 'Seasonal Greetings', href: `${base}/pg/145` },
+				{ title: 'Exhortation', href: `${base}/pg/147` },
+				{ title: 'Offertory Sentences', href: `${base}/pg/149` },
+				{ title: 'Proper Prefaces', href: `${base}/pg/152` }
 			]
 		},
 		{

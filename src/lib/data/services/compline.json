@@ -12,6 +12,10 @@
 				"title": "Content",
 				"content": [
 					{
+						"type": "page_break",
+						"page": 57
+					},
+					{
 						"type": "section_title",
 						"text": "compline",
 						"size": "xl"
@@ -244,6 +248,10 @@
 						"text": "Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour. Resist him, firm in your faith."
 					},
 					{
+						"page": 61,
+						"type": "page_break"
+					},
+					{
 						"type": "page_break",
 						"page": 62
 					},
@@ -466,7 +474,7 @@
 						"text": "Either version of the Lord's Prayer may be ended with, \"deliver us from evil. Amen.\" omitting the concluding doxology."
 					}
 				],
-				"pb_page_start": 58,
+				"pb_page_start": 57,
 				"pb_page_end": 65
 			}
 		]

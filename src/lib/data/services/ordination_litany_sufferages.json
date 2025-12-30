@@ -1,0 +1,281 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			510,
+			512
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 510
+					},
+					{
+						"type": "section_title",
+						"text": "the litany and suffrages",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "1 _for_ ordinations"
+					},
+					{
+						"type": "rubric",
+						"text": "Other petitions may be added with the consent of the Ordinary."
+					},
+					{
+						"type": "line",
+						"text": "O God the Father,"
+					},
+					{
+						"type": "line",
+						"text": "Have mercy upon us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O God the Son,"
+					},
+					{
+						"type": "line",
+						"text": "Have mercy upon us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O God the Holy Spirit,"
+					},
+					{
+						"type": "line",
+						"text": "Have mercy upon us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O holy Trinity, one God,"
+					},
+					{
+						"type": "line",
+						"text": "Have mercy upon us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "We beseech you to hear us, good Lord: That it may please you to grant peace to the whole world and to your Church,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "That it may please you to sanctify and bless your holy Church throughout the world,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "That it may please you to inspire all Bishops, Priests, and Deacons with the love of you and of your truth,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "That it may please you to endue all ministers of your Church with devotion to your glory and to the salvation of souls,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "page_break",
+						"page": 511
+					},
+					{
+						"type": "rubric",
+						"text": "o: At the Ordination of Deacons or Priests this petition is said",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "That it may please you to bless these your servants, now to be admitted to the Order of Deacons [or Priests], and to pour your grace upon them, that they may duly execute their office to the edification of your Church, and to the glory of your holy Name,",
+						"optional": true
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"optional": true,
+						"indent": true
+					},
+					{
+						"type": "rubric",
+						"text": "At the Ordination and Consecration of a Bishop this petition is said"
+					},
+					{
+						"type": "text_block",
+						"text": "o That it may please you to bless this our brother N., and to send your grace upon him, that he may duly execute the office to which he is called, to the edification of your Church, and to the honor, praise, and glory of your Name,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"optional": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "That it may please you to guide by your indwelling Spirit those whom you call to the ministry of your Church; that they may go forward with courage, and persevere to the end,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "That it may please you to increase the number of ministers in your Church, that the Gospel may be preached to all people,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "That it may please you to grant us true repentance, amendment of life, and the forgiveness of all our sins,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "That it may please you to hasten the fulfillment of your purpose, that your Church may be one,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "That it may please you to grant that we, with all your saints, may be partakers of your everlasting kingdom,"
+					},
+					{
+						"type": "line",
+						"text": "We beseech you to hear us, good Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "page_break",
+						"page": 512
+					},
+					{
+						"type": "line",
+						"text": "Lord, have mercy upon us."
+					},
+					{
+						"type": "line",
+						"text": "Christ, have mercy upon us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Lord, have mercy upon us."
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "line",
+						"text": "Hear us, O Lord, when we cry out to you;"
+					},
+					{
+						"type": "line",
+						"text": "Have mercy upon us and hear us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O Lord, arise and help us;"
+					},
+					{
+						"type": "line",
+						"text": "And deliver us for your Name’s sake.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Let your priests be clothed with righteousness;"
+					},
+					{
+						"type": "line",
+						"text": "And let your saints sing with joy.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "O Lord, hear our prayer;"
+					},
+					{
+						"type": "line",
+						"text": "And let our cry come to you.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "additional directions",
+						"size": "xl"
+					},
+					{
+						"type": "text_block",
+						"text": "On Ember Days or other occasions, if desired, the Litany of Ordinations may be used in place of the Prayers of the People at the Eucharist, or following the Collects in the Daily Office, or it may be used separately."
+					},
+					{
+						"type": "text_block",
+						"text": "A maniple may also be bestowed at the vesting of a Priest or a Bishop."
+					},
+					{
+						"type": "text_block",
+						"text": "When the Priest or Deacon being ordained is to be immediately instituted as Rector, the rite of the Institution of a Rector is not used. Instead, the Bishop reads the Letter of Institution (page 514) before the Peace during the Ordination liturgy."
+					}
+				],
+				"pb_page_start": 510,
+				"pb_page_end": 512
+			}
+		]
+	}
+}

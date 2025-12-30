@@ -11,6 +11,13 @@
 	import OrThis from '$lib/text_component/or_this.svelte';
 	import Gloria from '$lib/text_component/gloria.svelte';
 
+	// Front matter pages
+	import PageIII from '$lib/text_component/iii.svelte';
+	import PageIV from '$lib/text_component/iv.svelte';
+	import PageV from '$lib/text_component/v.svelte';
+	import PageVI from '$lib/text_component/vi.svelte';
+	import PageVII from '$lib/text_component/vii.svelte';
+
 	let { pageData } = $props();
 </script>
 
@@ -43,6 +50,16 @@
 		<OrThis />
 	{:else if block.type === 'gloria'}
 		<Gloria versical={block.versical || false} />
+	{:else if block.type === 'iii'}
+		<PageIII />
+	{:else if block.type === 'iv'}
+		<PageIV />
+	{:else if block.type === 'v'}
+		<PageV />
+	{:else if block.type === 'vi'}
+		<PageVI />
+	{:else if block.type === 'vii'}
+		<PageVII />
 	{/if}
 {/each}
 

@@ -1,0 +1,71 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			523,
+			524
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 523
+					},
+					{
+						"type": "section_title",
+						"text": "concerning the",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "consecration and dedication",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "of a place of worship",
+						"size": "xl"
+					},
+					{
+						"type": "text_block",
+						"text": "The Bishop presides at this liturgy, and the Rector (or Minister in charge) takes part as indicated. At the discretion of the Bishop, other clergy and leaders from the community may be invited to participate and may be assigned appropriate parts in the liturgy."
+					},
+					{
+						"type": "text_block",
+						"text": "This liturgy provides for the consecration and dedication of a Place of Worship and its furnishings. Places that may be set apart include purpose-built church structures, as well as facilities acquired and renovated for long-term use by a worshiping community. A Place of Worship may be consecrated and dedicated, even if the building is leased or mortgaged, provided the Congregation has exclusive control of the facility and to the extent the Ordinary and local canons allow."
+					},
+					{
+						"type": "text_block",
+						"text": "Shared-use facilities like school auditoriums or community centers are not consecrated and dedicated, but weekly preparation for worship should include spiritual cleansing (exorcising) of any forces of darkness that may have entered, invited or uninvited."
+					},
+					{
+						"type": "text_block",
+						"text": "Portions of the liturgy may be used, or adapted when necessary, for dedicating parts of a building, or furnishings that have been added, altered, or renovated. Likewise, suitable parts of this rite may be used for dedicating a chapel or an oratory within another building."
+					},
+					{
+						"type": "page_break",
+						"page": 524
+					},
+					{
+						"type": "text_block",
+						"text": "This liturgy does not preclude the use of the Place of Worship for educational, missional, or social purposes, or for other activities that give glory to God and build up the Church."
+					},
+					{
+						"type": "text_block",
+						"text": "It is desirable that all members of the Congregation, young and old, have some individual or collective part in the celebration, as well as the architect, builders, musicians, artists, benefactors, and friends."
+					},
+					{
+						"type": "text_block",
+						"text": "Instructions for the setting apart of a church or chapel long in use, and for other special cases, are provided in Additional Directions (page 537). Also provided is a form for secularizing a facility previously used as a Place of Worship, when the use of the building for worship, or for the ministry of the Congregation, has ended (page 538)."
+					}
+				],
+				"pb_page_start": 523,
+				"pb_page_end": 524
+			}
+		]
+	}
+}

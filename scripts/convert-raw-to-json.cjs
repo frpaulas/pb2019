@@ -47,16 +47,19 @@ class RawToJsonConverter {
 		// Process escape sequences first
 		text = this.processEscapeSequences(text);
 
-		// Check if there are any wrappers
-		if (!text.includes('{{')) return text;
+		// Check if there are any wrappers or blank patterns
+		if (!text.includes('{{') && !text.includes('___')) return text;
 
 		const segments = [];
 		let lastIndex = 0;
-		const wrapperRegex = /\{\{([a-z]+)\}\}(.*?)\{\{\/\1\}\}/g;
+
+		// Combined regex to match both wrappers and blank fill-ins
+		// Matches: {{wrapper}}content{{/wrapper}} OR ___content___
+		const combinedRegex = /(\{\{([a-z]+)\}\}(.*?)\{\{\/\2\}\})|(___([^_]+)___)/g;
 		let match;
 
-		while ((match = wrapperRegex.exec(text)) !== null) {
-			// Add text before this wrapper
+		while ((match = combinedRegex.exec(text)) !== null) {
+			// Add text before this match
 			if (match.index > lastIndex) {
 				const beforeText = text.substring(lastIndex, match.index);
 				if (beforeText) {
@@ -64,15 +67,21 @@ class RawToJsonConverter {
 				}
 			}
 
-			// Add the wrapped content
-			const wrapperType = match[1]; // e.g., 'u' for uppercase
-			const content = match[2];
-			segments.push({ type: wrapperType, value: content });
+			if (match[1]) {
+				// This is a wrapper match: {{wrapper}}content{{/wrapper}}
+				const wrapperType = match[2];
+				const content = match[3];
+				segments.push({ type: wrapperType, value: content });
+			} else if (match[4]) {
+				// This is a blank fill-in match: ___content___
+				const blankContent = match[5];
+				segments.push({ type: 'blank', value: blankContent });
+			}
 
 			lastIndex = match.index + match[0].length;
 		}
 
-		// Add remaining text after last wrapper
+		// Add remaining text after last match
 		if (lastIndex < text.length) {
 			const remainingText = text.substring(lastIndex);
 			if (remainingText) {
@@ -80,7 +89,7 @@ class RawToJsonConverter {
 			}
 		}
 
-		// If we found wrappers, return the segments array; otherwise return original text
+		// If we found any patterns, return the segments array; otherwise return original text
 		return segments.length > 0 ? segments : text;
 	}
 
@@ -181,8 +190,8 @@ class RawToJsonConverter {
 			let line = lines[i].trim();
 			const lineNum = i + 1;
 
-			// Skip empty lines and comments (# or //)
-			if (!line || line.startsWith('#') || line.startsWith('//')) {
+			// Skip empty lines and comments (# or // or \\)
+			if (!line || line.startsWith('#') || line.startsWith('//') || line.startsWith('\\\\')) {
 				i++;
 				continue;
 			}
@@ -228,7 +237,11 @@ class RawToJsonConverter {
 					let nextLine = lines[j].trim();
 
 					// Skip comment lines
-					if (nextLine.startsWith('//') || nextLine.startsWith('#')) {
+					if (
+						nextLine.startsWith('//') ||
+						nextLine.startsWith('#') ||
+						nextLine.startsWith('\\\\')
+					) {
 						j++;
 						continue;
 					}
@@ -344,6 +357,9 @@ class RawToJsonConverter {
 
 			case 'blank':
 				return this.handleBlankPage(content);
+
+			case 'vm':
+				return this.handleVerticalMargin(parts, content);
 
 			case 'br':
 				return this.handleLineBreak();
@@ -1029,6 +1045,17 @@ class RawToJsonConverter {
 		};
 	}
 
+	handleVerticalMargin(parts, content) {
+		// Format: vm:2: or vm:4: etc.
+		// parts[1] contains the spacing value
+		const spacing = parseInt(parts[1]) || 1;
+
+		return {
+			type: 'vertical_margin',
+			spacing: spacing
+		};
+	}
+
 	handleLine(parts, afterFirstColon) {
 		const modifiers = this.parseModifiers(parts);
 
@@ -1107,6 +1134,40 @@ class RawToJsonConverter {
 				this.currentSection.content.push(item);
 			}
 		});
+
+		// Auto-generate missing page breaks based on pg: range
+		if (this.metadata.pb_pages.length > 0) {
+			const startPage = this.metadata.pb_pages[0];
+			const endPage = this.metadata.pb_pages[1] || startPage;
+
+			// Get all existing page breaks
+			const existingPages = new Set(this.pageBreaks);
+
+			// Generate missing page breaks
+			const missingPageBreaks = [];
+			for (let page = startPage; page <= endPage; page++) {
+				if (!existingPages.has(page)) {
+					missingPageBreaks.push({
+						page: page,
+						type: 'page_break'
+					});
+				}
+			}
+
+			// Insert missing page breaks into content
+			// We'll insert them in order, distributing them evenly through the content
+			if (missingPageBreaks.length > 0 && this.currentSection.content.length > 0) {
+				const contentLength = this.currentSection.content.length;
+				const interval = Math.floor(contentLength / (missingPageBreaks.length + 1));
+
+				// Insert from end to beginning to maintain indices
+				for (let i = missingPageBreaks.length - 1; i >= 0; i--) {
+					const insertIndex = Math.min((i + 1) * interval, this.currentSection.content.length);
+					this.currentSection.content.splice(insertIndex, 0, missingPageBreaks[i]);
+					this.pageBreaks.push(missingPageBreaks[i].page);
+				}
+			}
+		}
 
 		// Add section if it has content
 		if (this.currentSection.content.length > 0) {

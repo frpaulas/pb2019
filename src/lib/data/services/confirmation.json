@@ -4,13 +4,17 @@
 		"slug": "untitled",
 		"pb_pages": [
 			175,
-			181
+			182
 		],
 		"sections": [
 			{
 				"id": "content",
 				"title": "Content",
 				"content": [
+					{
+						"type": "page_break",
+						"page": 175
+					},
 					{
 						"type": "section_title",
 						"text": "confirmation, reception,",
@@ -421,10 +425,18 @@
 					{
 						"type": "text_block",
 						"text": "Those who have been Received with the laying on of hands according to this liturgy are considered to have been Confirmed in this Church."
+					},
+					{
+						"type": "page_break",
+						"page": 182
+					},
+					{
+						"type": "blank_page",
+						"page": null
 					}
 				],
-				"pb_page_start": 176,
-				"pb_page_end": 181
+				"pb_page_start": null,
+				"pb_page_end": null
 			}
 		]
 	}

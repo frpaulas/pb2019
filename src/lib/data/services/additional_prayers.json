@@ -3,7 +3,7 @@
 		"title": "Untitled Service",
 		"slug": "untitled",
 		"pb_pages": [
-			232,
+			231,
 			235
 		],
 		"sections": [
@@ -13,11 +13,7 @@
 				"content": [
 					{
 						"type": "page_break",
-						"page": 232
-					},
-					{
-						"type": "page_break",
-						"page": 232
+						"page": 231
 					},
 					{
 						"type": "for_sick_person"
@@ -178,7 +174,7 @@
 						]
 					}
 				],
-				"pb_page_start": 232,
+				"pb_page_start": 231,
 				"pb_page_end": 235
 			}
 		]

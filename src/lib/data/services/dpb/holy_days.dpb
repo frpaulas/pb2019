@@ -3,38 +3,38 @@ pg:730-733
 pb:730
 
 st: Holy Days
-hd:11-30 // St. Andrew
-hd:12-21 // St. Thomas
-hd:12-26 // St. Stephen
-hd:12-27 // St. John
-hd:12-28 // holy_innocents
-hd:1-1 // Circumcision and holy name
-hd:1-18 // confession of st peter
-hd:1-25 // conversion of paul
-hd:2-2 // presentation
-hd:2-24 // st matthias
-hd:3-19 // st joseph
-hd:3-25 // annunciation
-hd:4-25 // st mark
-hd:5-1 // sts philip & james
-hd:5-31 // visitation
-hd:6-11 // st barnabas
+hd:11-30 \\ St. Andrew
+hd:12-21 \\ St. Thomas
+hd:12-26 \\ St. Stephen
+hd:12-27 \\ St. John
+hd:12-28 \\ holy_innocents
+hd:1-1 \\ Circumcision and holy name
+hd:1-18 \\ confession of st peter
+hd:1-25 \\ conversion of paul
+hd:2-2 \\ presentation
+hd:2-24 \\ st matthias
+hd:3-19 \\ st joseph
+hd:3-25 \\ annunciation
+hd:4-25 \\ st mark
+hd:5-1 \\ sts philip & james
+hd:5-31 \\ visitation
+hd:6-11 \\ st barnabas
 
 pb:731
-hd:6-24 // nativity of JtB
-hd:6-29 // sts peter & paul
-hd:7-22 // mary magdalene
-hd:7-25 // st james
-hd:8-6 // transfiguration
-hd:8-15 // BVM
-hd:8-24 // st bartholomew
-hd:9-14 // holy cross
-hd:9-21 // st matthew
-hd:9-29 // holy michael and all angels
-hd:10-18 // st luke
-hd:10-23 // james of jerusalem
-hd:10-28 //sts simon & jude
-hd:11-1 // all saints
+hd:6-24 \\ nativity of JtB
+hd:6-29 \\ sts peter & paul
+hd:7-22 \\ mary magdalene
+hd:7-25 \\ st james
+hd:8-6 \\ transfiguration
+hd:8-15 \\ BVM
+hd:8-24 \\ st bartholomew
+hd:9-14 \\ holy cross
+hd:9-21 \\ st matthew
+hd:9-29 \\ holy michael and all angels
+hd:10-18 \\ st luke
+hd:10-23 \\ james of jerusalem
+hd:10-28 \\sts simon & jude
+hd:11-1 \\ all saints
 
 pb:732
 st:1: ember, rogation and national days & commons

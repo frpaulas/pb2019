@@ -1,0 +1,505 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			515,
+			522
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 515
+					},
+					{
+						"type": "section_title",
+						"text": "the"
+					},
+					{
+						"type": "section_title",
+						"text": "institution",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "_of a_ rector",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "A hymn, psalm, or anthem may be sung."
+					},
+					{
+						"type": "section_title",
+						"text": "the acclamation"
+					},
+					{
+						"type": "rubric",
+						"text": "The People standing, the Celebrant says this or a seasonal greeting."
+					},
+					{
+						"type": "versical",
+						"text": "Blessed be God: the Father, the Son, and the Holy Spirit."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And blessed be his kingdom, now and for ever. Amen."
+					},
+					{
+						"type": "section_title",
+						"text": "the collect for purity"
+					},
+					{
+						"type": "rubric",
+						"text": "The Celebrant prays (and the People may be invited to join)"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, to you all hearts are open, all desires known, and from you no secrets are hid: Cleanse the thoughts of our hearts by the inspiration of your Holy Spirit, that we may perfectly love you, and worthily magnify your holy Name; through Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Congregation sits."
+					},
+					{
+						"type": "rubric",
+						"text": "The Wardens and the new Rector stand before the Bishop."
+					},
+					{
+						"type": "page_break",
+						"page": 516
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop says"
+					},
+					{
+						"type": "text_block",
+						"content": [
+							{
+								"type": "text",
+								"value": "Dearly beloved, we have assembled in the presence of God for the purpose of instituting the new Rector of this Congregation. The Wardens present the new Rector to the Bishop, saying Reverend Father in God, on behalf of "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": " Church, we present _N.N_. to be instituted as Rector. We believe that he is well qualified and has been prayerfully and lawfully selected."
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop reads the Letter of Institution."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop gives the Letter to the Rector. The Rector then says"
+					},
+					{
+						"type": "text_block",
+						"text": "I, _N.N._, receive this letter from your hands and recognize your episcopal authority. I promise to be a faithful shepherd to your flock, the Lord being my helper."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop says"
+					},
+					{
+						"type": "text_block",
+						"text": "Let us then offer our prayers to God for all his people, for this Congregation, and for _N._ their Rector."
+					},
+					{
+						"type": "rubric",
+						"text": "The Litany for Ordinations (page 510) is sung or said."
+					},
+					{
+						"type": "rubric",
+						"text": "At the end of the Litany, the Bishop stands and says"
+					},
+					{
+						"type": "versical",
+						"text": "The Lord be with you"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Let us pray"
+					},
+					{
+						"type": "text_block",
+						"text": "Most gracious Father, the Giver of all good and perfect gifts, in your wise providence you appoint leaders for the mission of your Church: Give grace to this your servant, to whom the charge of this Congregation is now given: so empower him with the truth of sound doctrine, and endue him with holiness of life, that he may faithfully serve before you to the glory of your great Name, and the benefit of your holy Church; through Jesus Christ our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 517
+					},
+					{
+						"type": "section_title",
+						"text": "the lessons"
+					},
+					{
+						"type": "rubric",
+						"text": "Lay persons read the Old Testament Lesson and the Epistle. The Deacon (or a Priest) reads the Gospel. Selections are ordinarily made from the following list; but on a Major Feast, Sunday, or Feast of Dedication, selections may be made from the Propers of the Day."
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "joshua 1:7-9"
+							},
+							{
+								"type": "text",
+								"value": " _or_ "
+							},
+							{
+								"type": "u",
+								"value": "numbers 11:16-17, 24-25a"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
+								"type": "text",
+								"value": " 43 _or_ 132:1-9, _or_ 146 _or_ 133 "
+							},
+							{
+								"type": "u",
+								"value": "and"
+							},
+							{
+								"type": "text",
+								"value": " 134 _(especially suitable for use in the evening)_"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}romans 12:1-18{{\\u}} _or_ {{u}}ephesians 4:7-16{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "john 15:9-16"
+							},
+							{
+								"type": "text",
+								"value": " _or_ "
+							},
+							{
+								"type": "u",
+								"value": "luke 10:1-2"
+							},
+							{
+								"type": "text",
+								"value": " _or_ "
+							},
+							{
+								"type": "u",
+								"value": "john 14:11-15"
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "The People sit. One or more Lessons, as appointed, are read, the Reader first saying"
+					},
+					{
+						"type": "versical",
+						"text": [
+							{
+								"type": "text",
+								"value": "A Reading from "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "A citation giving chapter and verse may be added."
+					},
+					{
+						"type": "rubric",
+						"text": "After each Lesson the Reader may say"
+					},
+					{
+						"type": "versical",
+						"text": "The Word of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"type": "line",
+						"text": "_Or the Reader may say_ Here ends the Reading."
+					},
+					{
+						"type": "rubric",
+						"text": "Silence may follow."
+					},
+					{
+						"type": "rubric",
+						"text": "A psalm, hymn, or anthem may follow each reading."
+					},
+					{
+						"type": "page_break",
+						"page": 518
+					},
+					{
+						"type": "rubric",
+						"text": "All standing, the Deacon or Priest reads the Gospel, first saying"
+					},
+					{
+						"type": "versical",
+						"text": [
+							{
+								"type": "text",
+								"value": "The Holy Gospel of our Lord Jesus Christ according to "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Glory to you, Lord Christ."
+					},
+					{
+						"type": "rubric",
+						"text": "After the Gospel, the Reader says"
+					},
+					{
+						"type": "versical",
+						"text": "The Gospel of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Praise to you, Lord Christ."
+					},
+					{
+						"type": "line_break"
+					},
+					{
+						"type": "section_title",
+						"text": "the sermon"
+					},
+					{
+						"type": "section_title",
+						"text": "the nicene creed"
+					},
+					{
+						"type": "nicene_creed"
+					},
+					{
+						"type": "rubric",
+						"text": "A hymn may be sung."
+					},
+					{
+						"type": "section_title",
+						"text": "symbols of the pastoral office"
+					},
+					{
+						"type": "rubric",
+						"text": "Representatives of the Congregation and clergy, standing before the Bishop and new Rector, may present symbols of the work to which the Rector is called. The principal symbols point to leadership in divine worship (Bible and bread and wine), in Christian formation (Book of Common Prayer, and Catechism) and in Congregational mission (keys and water). Additional symbols may be considered as local circumstances dictate."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop says"
+					},
+					{
+						"type": "line",
+						"text": "Let the symbols of this office now be presented."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bible is presented."
+					},
+					{
+						"type": "text_block",
+						"text": "_N._, preach the Word at all times, and let our worship and our life together manifest the grace and truth of this Book. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 519
+					},
+					{
+						"type": "rubric",
+						"text": "Bread and wine are presented."
+					},
+					{
+						"type": "text_block",
+						"text": "_N._, preside in the breaking of the bread and the blessing of the cup, and lead us in our prayers and praises. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Book of Common Prayer is presented."
+					},
+					{
+						"type": "text_block",
+						"text": "_N._, be a man of prayer, and use this book to build us up as living stones of a holy temple. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Catechism is presented."
+					},
+					{
+						"type": "text_block",
+						"text": "_N._, be a teacher of the Faith, making disciples who make disciples. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "Keys to the buildings used by the Congregation for its life and mission are presented."
+					},
+					{
+						"type": "text_block",
+						"text": "_N._, receive these keys, and let the doors of this place be open to all, that many would come to know the good news of salvation in Jesus Christ. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop presents a vessel of water."
+					},
+					{
+						"type": "text_block",
+						"text": "_N._, receive this water and make disciples of all nations, baptizing them in obedience to our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "After all symbols are presented, the Bishop concludes"
+					},
+					{
+						"type": "text_block",
+						"text": "_N._, let all these symbols be signs of the ministry which is the Lord’s and ours in this place. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The new Rector may kneel in the midst of the church and pray"
+					},
+					{
+						"type": "page_break",
+						"page": 520
+					},
+					{
+						"type": "text_block",
+						"text": "O Lord my God, I am not worthy to have you come under my roof; yet you have called your servant to stand in your house, and to serve at your altar. To you and to your service I devote myself, body, soul, and spirit. Fill my memory with the record of your mighty works; enlighten my understanding with the light of your Holy Spirit; and may all the desires of my heart and will center in what you would have me do. Make me an instrument of your salvation for the people entrusted to my care, and grant that I may faithfully preach the Gospel and administer your holy Sacraments, and by my life and teaching set forth your true and living Word. Be always with me in carrying out the duties of my ministry. In prayer, quicken my devotion; in praises, heighten my love and gratitude; in preaching, give me readiness of thought and expression; in worship, increase my zeal for godly preparation; and grant that, by the clearness and brightness of your holy Word, all the world may be drawn into your blessed kingdom. All this I ask for the sake of your Son our Savior Jesus Christ. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The family of the Rector may be presented at this time."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop then says to the People"
+					},
+					{
+						"type": "versical",
+						"text": "The peace of the Lord be always with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "rubric",
+						"text": "If there is no Communion, the service continues after the Peace with the Lord’s"
+					},
+					{
+						"type": "rubric",
+						"text": "Prayer, followed by the Concluding Prayer and the Blessing. If there is to be Holy Communion, the Bishop is chief celebrant, assisted by the newly instituted Rector. The service continues with the Offertory. The following Post Communion Prayer is used."
+					},
+					{
+						"type": "page_break",
+						"page": 521
+					},
+					{
+						"type": "section_title",
+						"text": "post communion prayer"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty Father, we thank you for feeding us with the holy food of the Body and Blood of your Son, and for uniting us with him in the fellowship of your Holy Spirit. We thank you for raising up among us faithful servants for the ministry of your Word and Sacraments. We pray that _N._ may be to us an effective example in word and action, in love and patience, and in holiness of life. Grant that we, with _him_, may serve you now, and always rejoice in your glory; through Jesus Christ your Son our Lord, who lives and reigns with you and the Holy Spirit, one God, now and for ever. **Amen.**"
+					},
+					{
+						"type": "section_title",
+						"text": "the concluding prayer"
+					},
+					{
+						"type": "rubric",
+						"text": "After the Post Communion Prayer and before the Blessing, the Bishop may say"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, you have built your Church upon the foundation of the Apostles and Prophets, Jesus Christ himself being the chief cornerstone: Grant that, by the operation of the Holy Spirit, all Christians may be joined together in unity of spirit and in the bond of peace, that they may be a holy temple acceptable to you. Give the abundance of your grace especially to this Congregation, that with one heart we may desire the health and increase of your holy Church, and with one voice profess the faith once delivered to the saints. Defend us from the sins of heresy and schism. And grant that the course of this world may be so peaceably ordered by your governance, that your Church may joyfully serve you in all godliness and faithfully walk in the ways of truth and peace; so that, on the day of judgment, we all may be numbered with your saints in glory everlasting; through Jesus Christ your Son our Lord, the gracious Shepherd and Bishop of our souls, who lives and reigns with you and the Holy Spirit, one God, world without end. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 522
+					},
+					{
+						"type": "section_title",
+						"text": "additional directions"
+					},
+					{
+						"type": "text_block",
+						"text": "The Collect of the Day or another prayer suitable to the occasion may be used."
+					},
+					{
+						"type": "text_block",
+						"text": "The Sermon may be preached by the Bishop, the newly instituted Rector, or some other person appointed by the Bishop."
+					},
+					{
+						"type": "text_block",
+						"text": "When the new Rector has recently come from another Diocese, the diocesan Canons may be presented, after the presentation of the keys, with these words: “Obey these Canons, and be among us to share in the councils of this Diocese.”"
+					},
+					{
+						"type": "text_block",
+						"text": "The Preface of Apostles and Ordinations is ordinarily used for this service."
+					}
+				],
+				"pb_page_start": 515,
+				"pb_page_end": 522
+			}
+		]
+	}
+}

@@ -1,0 +1,786 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			497,
+			509
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 497
+					},
+					{
+						"type": "section_title",
+						"text": "the form and manner of"
+					},
+					{
+						"type": "section_title",
+						"text": "ordaining _and_",
+						"size": "xl"
+					},
+					{
+						"type": "section_title",
+						"text": "consecrating a bishop",
+						"size": "xl"
+					},
+					{
+						"type": "rubric",
+						"text": "The Archbishop normally presides at the Consecration of a Bishop; however, the Archbishop may choose to designate another Bishop to be the Chief Consecrator. When this happens, all rubrics referring to the Archbishop are to be taken to mean “Chief Consecrator.”"
+					},
+					{
+						"type": "rubric",
+						"text": "A hymn, psalm, or anthem may be sung."
+					},
+					{
+						"type": "rubric",
+						"text": "The People standing, the Archbishop says this or an appropriate seasonal greeting"
+					},
+					{
+						"type": "versical",
+						"text": "The Lord will pour out his Spirit upon all flesh,"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And your sons and daughters shall prophesy."
+					},
+					{
+						"type": "versical",
+						"text": "archbishop: Your old men shall dream dreams,"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And your young men shall see visions."
+					},
+					{
+						"type": "versical",
+						"text": "archbishop: You shall know that the Lord is in the midst of his people,"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "That he is the Lord and there is none else."
+					},
+					{
+						"type": "versical",
+						"text": "archbishop: And it shall come to pass"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "That everyone who calls on the Name of the Lord shall be saved."
+					},
+					{
+						"type": "ref",
+						"text": "joel 2:27-28, 32; acts 2:17, 21 t"
+					},
+					{
+						"type": "page_break",
+						"page": 498
+					},
+					{
+						"type": "rubric",
+						"text": "The Archbishop prays (and the People may be invited to join)"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, to you all hearts are open, all desires known, and from you no secrets are hid: Cleanse the thoughts of our hearts by the inspiration of your Holy Spirit, that we may perfectly love you, and worthily magnify your holy Name; through Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "section_title",
+						"text": "the presentation"
+					},
+					{
+						"type": "rubric",
+						"text": "The Archbishop and People sit."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop Elect, properly vested, is presented to the Archbishop by at least two"
+					},
+					{
+						"type": "text_block",
+						"text": "Bishops of this Church, the Bishops who present him saying Reverend Father in God, we present to you _N.N._, a godly and well-learned man, to be ordained and consecrated Bishop."
+					},
+					{
+						"type": "rubric",
+						"text": "Then the Archbishop causes to be read Testimonials from the President of the Standing Committee and the Secretary of the College of Bishops regarding the person presented for Consecration."
+					},
+					{
+						"type": "rubric",
+						"text": "The Archbishop then requires the Bishop Elect to take the Oath of Conformity and the Oath of Canonical Obedience saying"
+					},
+					{
+						"type": "text_block",
+						"text": "The Canons of this Church require that no Priest may be consecrated as a Bishop in the Church before subscribing without reservation to the Oath of Conformity. It is also required that he subscribe without reservation to the Oath of Canonical Obedience. In the presence of this Congregation, I now charge you to make your solemn declaration of these oaths."
+					},
+					{
+						"type": "page_break",
+						"page": 499
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop Elect then declares"
+					},
+					{
+						"type": "text_block",
+						"text": "I, _N.N._, do believe the Holy Scriptures of the Old and New Testaments to be the Word of God and to contain all things necessary to salvation, and I consequently hold myself bound to conform my life and ministry thereto, and therefore I do solemnly engage to conform to the Doctrine, Discipline, and Worship of Christ as this Church has received them."
+					},
+					{
+						"type": "text_block",
+						"text": "And I do promise, here in the presence of Almighty God and of the Church, that I will pay true and canonical obedience in all things lawful and honest to the Archbishop of the Anglican Church in North America, and his successors, so help me God."
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop Elect then signs the Oath of Conformity and Oath of Canonical Obedience in the sight of all present."
+					},
+					{
+						"type": "rubric",
+						"text": "Then the Archbishop invites the Congregation present to pray, saying"
+					},
+					{
+						"type": "text_block",
+						"text": "Dear brothers and sisters in Christ, it is written in the Gospel of Saint Luke that our Savior Christ continued the whole night in prayer before he chose and sent forth his twelve Apostles. It is written also in the Acts of the Apostles that the disciples at Antioch fasted and prayed before they sent forth Paul and Barnabas by laying their hands upon them. Let us, therefore, following the example of our Savior and his Apostles, offer up our prayers to Almighty God before we admit and send forth this person presented to us, to do the work to which we trust the Holy Spirit has called him."
+					},
+					{
+						"type": "section_title",
+						"text": "the litany for ordinations"
+					},
+					{
+						"type": "rubric",
+						"text": "All kneel. Then the Litanist appointed, with the Clergy and People present, says or sings the Litany for Ordinations (Page 510). The Bishop Elect either kneels or lies prostrate during the Litany."
+					},
+					{
+						"type": "page_break",
+						"page": 500
+					},
+					{
+						"type": "rubric",
+						"text": "At the conclusion of the Litany for Ordinations, the Archbishop stands and prays the following Collect, first saying"
+					},
+					{
+						"type": "versical",
+						"text": "The Lord be with you."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And with your spirit."
+					},
+					{
+						"type": "versical",
+						"text": "archbishop: Let us pray."
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, who by your Son Jesus Christ gave many excellent gifts to your holy Apostles, and charged them to feed your flock: Give your grace to all Bishops, the pastors of your Church, that they may diligently preach your Word, duly administer your Sacraments, and wisely provide godly discipline; and grant to your people that they may obediently follow them, so that all may receive the crown of everlasting glory; through the merits of our Savior Jesus Christ, who lives and reigns with you and the Holy Spirit, world without end. **Amen.**"
+					},
+					{
+						"type": "section_title",
+						"text": "the lessons"
+					},
+					{
+						"type": "rubric",
+						"text": "The following Lessons are appointed for the ordination and consecration of a Bishop. On a Major Feast, or on a Sunday, the Archbishop may select Lessons from the Propers of the Day."
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}isaiah{{\\u}} 61:1-11"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}psalm{{\\u}} 100"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}1 timothy{{\\u}} 3:1-7 or {{u}}acts 20:17-35{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "line",
+						"text": [
+							{
+								"type": "text",
+								"value": "{{u}}john 21:15-19{{\\u}} or {{u}}john 20:19-23{{\\u}} or {{u}}matthew 28:18-20{{\\u}}"
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "The People sit. One or more Lessons, as appointed, are read, the Reader first saying"
+					},
+					{
+						"type": "versical",
+						"text": [
+							{
+								"type": "text",
+								"value": "A Reading from "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
+					},
+					{
+						"type": "rubric",
+						"text": "A citation giving chapter and verse may be added."
+					},
+					{
+						"type": "page_break",
+						"page": 501
+					},
+					{
+						"type": "rubric",
+						"text": "After each Lesson the Reader may say"
+					},
+					{
+						"type": "versical",
+						"text": "The Word of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"type": "line",
+						"text": "_Or the Reader may say_ Here ends the Reading."
+					},
+					{
+						"type": "rubric",
+						"text": "Silence may follow."
+					},
+					{
+						"type": "rubric",
+						"text": "A psalm, hymn, or anthem may follow each reading."
+					},
+					{
+						"type": "rubric",
+						"content": [
+							{
+								"type": "text",
+								"value": "All standing, the Deacon or Priest reads the Gospel, first saying The Holy Gospel of our Lord Jesus Christ according to "
+							},
+							{
+								"type": "blank",
+								"value": "11"
+							},
+							{
+								"type": "text",
+								"value": "."
+							}
+						]
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Glory to you, Lord Christ."
+					},
+					{
+						"type": "rubric",
+						"text": "After the Gospel, the Reader says"
+					},
+					{
+						"type": "versical",
+						"text": "The Gospel of the Lord."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Praise to you, Lord Christ."
+					},
+					{
+						"type": "section_title",
+						"text": "the sermon"
+					},
+					{
+						"type": "section_title",
+						"text": "the nicene creed"
+					},
+					{
+						"type": "rubric",
+						"text": "All stand to recite the Nicene Creed, the Archbishop first saying"
+					},
+					{
+						"type": "line",
+						"text": "Let us confess our faith in the words of the Nicene Creed:"
+					},
+					{
+						"type": "rubric",
+						"text": "Archbishop and People"
+					},
+					{
+						"type": "nicene_creed"
+					},
+					{
+						"type": "page_break",
+						"page": 502
+					},
+					{
+						"type": "section_title",
+						"text": "the exhortation and examination"
+					},
+					{
+						"type": "rubric",
+						"text": "All are seated except the Bishop Elect, who stands before the Archbishop."
+					},
+					{
+						"type": "rubric",
+						"text": "The Archbishop addresses and examines the Bishop Elect as follows"
+					},
+					{
+						"type": "page_break",
+						"page": 503
+					},
+					{
+						"type": "text_block",
+						"text": "Brother, the Holy Scriptures and the ancient Canons command that we should not be hasty in laying on hands and admitting any person to authority in the Church of Christ, which our Lord purchased with no less price than the shedding of his own blood; so before we admit you to this Office, we will examine you, in order that this Congregation may know how you will conduct yourself in the Church of God."
+					},
+					{
+						"type": "text_block",
+						"text": "Are you persuaded that you are truly called to this ministry, according to the will of our Lord Jesus Christ and the Order of this Church?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: I am so persuaded."
+					},
+					{
+						"type": "rubric",
+						"text": "The following questions are addressed to the Bishop Elect by one or more of the Bishops."
+					},
+					{
+						"type": "versical",
+						"text": "question: things necessary for salvation through faith in Jesus"
+					},
+					{
+						"type": "versical",
+						"text": "Christ? And are you determined out of the Holy"
+					},
+					{
+						"type": "versical",
+						"text": "Scriptures to instruct the people committed to your"
+					},
+					{
+						"type": "versical",
+						"text": "charge, and to teach or maintain nothing as necessary"
+					},
+					{
+						"type": "versical",
+						"text": "to eternal salvation but that which may be concluded"
+					},
+					{
+						"type": "versical",
+						"text": "and proved by the Scriptures?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: I do so believe, and I am so determined, the Lord"
+					},
+					{
+						"type": "versical",
+						"text": "being my helper."
+					},
+					{
+						"type": "versical",
+						"text": "question: Will you then faithfully study the Holy Scriptures, and"
+					},
+					{
+						"type": "versical",
+						"text": "call upon God by prayer for the true understanding of"
+					},
+					{
+						"type": "versical",
+						"text": "them, so that you may be able by them to teach and"
+					},
+					{
+						"type": "versical",
+						"text": "exhort with wholesome doctrine, and to withstand and"
+					},
+					{
+						"type": "versical",
+						"text": "convince those who contradict it?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: I will, the Lord being my helper."
+					},
+					{
+						"type": "page_break",
+						"page": 504
+					},
+					{
+						"type": "versical",
+						"text": "question: Are you ready, with all faithful diligence, to banish"
+					},
+					{
+						"type": "versical",
+						"text": "and drive away from the Church all erroneous"
+					},
+					{
+						"type": "versical",
+						"text": "and strange doctrine contrary to God’s Word, and"
+					},
+					{
+						"type": "versical",
+						"text": "both privately and publicly to call upon others and"
+					},
+					{
+						"type": "versical",
+						"text": "encourage them to do the same?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: I am ready, the Lord being my helper."
+					},
+					{
+						"type": "versical",
+						"text": "question: Will you renounce all ungodliness and worldly lusts,"
+					},
+					{
+						"type": "versical",
+						"text": "and live a godly, righteous, and sober life in this"
+					},
+					{
+						"type": "versical",
+						"text": "present world, that you may show yourself in all"
+					},
+					{
+						"type": "versical",
+						"text": "things an example of good works for others, that the"
+					},
+					{
+						"type": "versical",
+						"text": "adversary may be ashamed, having nothing to say"
+					},
+					{
+						"type": "versical",
+						"text": "against you?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: I will, the Lord being my helper."
+					},
+					{
+						"type": "versical",
+						"text": "question: Will you maintain and set forward, as much as you"
+					},
+					{
+						"type": "versical",
+						"text": "are able, quietness, love, and peace among all people,"
+					},
+					{
+						"type": "versical",
+						"text": "and diligently exercise such discipline as is, by the"
+					},
+					{
+						"type": "versical",
+						"text": "authority of God’s Word and by the Order of this"
+					},
+					{
+						"type": "versical",
+						"text": "Church, committed to you?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: I will, the Lord being my helper."
+					},
+					{
+						"type": "versical",
+						"text": "question: Will you be faithful in examining, confirming,"
+					},
+					{
+						"type": "versical",
+						"text": "ordaining, and sending the people of God?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: I will, the Lord being my helper."
+					},
+					{
+						"type": "versical",
+						"text": "question: Will you show yourself gentle, and be merciful for"
+					},
+					{
+						"type": "versical",
+						"text": "Christ’s sake, to poor and needy people and to all"
+					},
+					{
+						"type": "versical",
+						"text": "strangers destitute of help?"
+					},
+					{
+						"type": "versical",
+						"text": "answer: I will, the Lord being my helper."
+					},
+					{
+						"type": "rubric",
+						"text": "The Congregation may kneel, and prays silently for the fulfillment of these purposes."
+					},
+					{
+						"type": "page_break",
+						"page": 505
+					},
+					{
+						"type": "rubric",
+						"text": "The Archbishop prays"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God, our heavenly Father, who has given you a good will to do all these things, grant you also the strength and power to perform them, accomplishing in you the good work which he has begun, that you may be found perfect and without reproach on the last day; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Bishop Elect kneels or lies prostrate, facing the Archbishop, with the bishops present surrounding the Bishop Elect. The Veni, Creator Spiritus is sung or said over him as follows"
+					},
+					{
+						"type": "canticle",
+						"name": "veni_creator_spiritus"
+					},
+					{
+						"type": "page_break",
+						"page": 506
+					},
+					{
+						"type": "section_title",
+						"text": "the consecration of the bishop"
+					},
+					{
+						"type": "rubric",
+						"text": "All now stand as witnesses, except the Bishop Elect, who kneels facing the Archbishop."
+					},
+					{
+						"type": "rubric",
+						"text": "The Archbishop prays the following Prayer of Consecration, first praying"
+					},
+					{
+						"type": "versical",
+						"text": "Lord, hear our prayer;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "And let our cry come to you."
+					},
+					{
+						"type": "versical",
+						"text": "archbishop: Let us pray"
+					},
+					{
+						"type": "text_block",
+						"text": "Almighty God and most merciful Father, of your infinite love and goodness you have given your only Son Jesus Christ to be our redeemer and the author of everlasting life. After he had made perfect our redemption by his death and resurrection, and ascended into heaven, he sent into the whole world his apostles, prophets, evangelists, pastors, and teachers; by the Holy Spirit, through their labor and ministry, he gathered together a great flock to set forth the eternal praise of your holy Name. Grant to this your servant such grace that he may ever be ready to spread abroad your Gospel, the glad tidings of reconciliation with you, and to use the authority given to him, not for destruction, but for salvation; not to hurt, but to help; so that, as a wise and faithful steward, he may give to your family their portion in due season, and at the last may be received into everlasting joy, through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "Then the Archbishop and at least two other Bishops lay their hands upon the head of the Bishop Elect, the Archbishop and other Bishops saying Receive the Holy Spirit for the Office and work of a Bishop in the Church of God, now committed to you by the imposition of our hands; in the Name of the Father, and of the Son, and of the Holy Spirit."
+					},
+					{
+						"type": "page_break",
+						"page": 507
+					},
+					{
+						"type": "rubric",
+						"text": "The Archbishop then continues"
+					},
+					{
+						"type": "text_block",
+						"text": "Most merciful Father, send down upon this your servant your heavenly blessing; so endue him with your Holy Spirit that, in preaching your Word, he may not only be earnest to reprove, beseech, and rebuke, with all love and godly doctrine, but may also present a wholesome example in word and conduct, in love and faith, in chastity and purity; that, having faithfully run his course, at the Last Day he may receive the crown of righteousness, laid up by the Lord Jesus, our righteous Judge, who lives and reigns with you and the same Holy Spirit, one God, world without end."
+					},
+					{
+						"type": "rubric",
+						"text": "The People in a loud voice respond"
+					},
+					{
+						"type": "line",
+						"text": "**Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The new Bishop is now vested according to the Order of Bishops. During the presentations that follow, the Archbishop may be assisted by others."
+					},
+					{
+						"type": "rubric",
+						"text": "The Archbishop presents the new Bishop with a Bible, saying"
+					},
+					{
+						"type": "text_block",
+						"text": "Give heed to reading, exhortation, and doctrine. Think upon the things contained in this Book. Be diligent in them, that your growth in the grace and knowledge of our Lord Jesus Christ may be evident to all. In doing so you shall save both yourself and those who hear you. Be to the flock of Christ a shepherd, not a wolf; feed them, do not devour them. Hold up the weak, heal the sick, bind up the broken, bring back the lapsed, and seek the lost. Do not confuse mercy with indifference; so minister discipline, that you forget not mercy; that when the Chief Shepherd appears, you may receive the never-fading crown of glory; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "page_break",
+						"page": 508
+					},
+					{
+						"type": "rubric",
+						"text": "o: The Archbishop presents him with a pastoral staff saying",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "Take this staff and watch over the flock of Christ.",
+						"optional": true
+					},
+					{
+						"type": "rubric",
+						"text": "o: The Archbishop may anoint the forehead of the new Bishop with the Oil of Chrism saying",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "Receive the anointing of this oil, and remember continually to stir up the grace of God which is given to you; for God has not given us the spirit of fear, but of power, and love, and self-control.",
+						"optional": true
+					},
+					{
+						"type": "rubric",
+						"text": "o: The Archbishop may give him a pectoral cross saying",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "Receive this cross; remember that he whom you serve reconciled us to God by his own blood.",
+						"optional": true
+					},
+					{
+						"type": "rubric",
+						"text": "o: The Archbishop may give him an episcopal ring saying",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "Take this ring; be faithful to the Bride of Christ.",
+						"optional": true
+					},
+					{
+						"type": "rubric",
+						"text": "o: The Archbishop may give him a miter saying",
+						"optional": true
+					},
+					{
+						"type": "text_block",
+						"text": "Receive this miter, and remember that your authority rests in God’s Word and Holy Spirit.",
+						"optional": true
+					},
+					{
+						"type": "rubric",
+						"text": "The Archbishop then says to the People"
+					},
+					{
+						"type": "versical",
+						"text": "The peace of the Lord be always with you."
+					},
+					{
+						"type": "versical",
+						"text": "people: And with your spirit."
+					},
+					{
+						"type": "rubric",
+						"text": "The liturgy continues with the Offertory. The Deacon prepares the Table."
+					},
+					{
+						"type": "rubric",
+						"text": "Standing at the Holy Table, with the Archbishop and other Ministers, the newly consecrated Bishop joins in the celebration of the Holy Communion and in the Breaking of the Bread."
+					},
+					{
+						"type": "page_break",
+						"page": 509
+					},
+					{
+						"type": "rubric",
+						"text": "When the Communion is finished, after the Post Communion Prayer, the new Bishop prays the following Collect"
+					},
+					{
+						"type": "text_block",
+						"text": "Go before us, O Lord, in all our doings with your most gracious favor, and further us with your continual help; that in all our works begun, continued, and ended in you, we may glorify your holy Name, and finally, through your mercy, obtain everlasting life; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "rubric",
+						"text": "The Archbishop, or at his direction the newly-consecrated Bishop, then blesses the People saying"
+					},
+					{
+						"type": "versical",
+						"text": "Our help is in the Name of the Lord;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "The maker of heaven and earth."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: Blessed be the Name of the Lord;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "From this time forth for evermore."
+					},
+					{
+						"type": "versical",
+						"text": "bishop: The blessing, mercy, and grace of God Almighty,"
+					},
+					{
+						"type": "versical",
+						"text": "the Father, the Son, and the Holy Spirit, be upon"
+					},
+					{
+						"type": "versical",
+						"text": "you, and remain with you for ever. Amen."
+					},
+					{
+						"type": "rubric",
+						"text": "The Deacon dismisses the People saying"
+					},
+					{
+						"type": "versical",
+						"text": "Let us go forth into the world rejoicing in the power of the Holy Spirit."
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God."
+					},
+					{
+						"type": "rubric",
+						"text": "From the Easter Vigil through the Day of Pentecost, “Alleluia, alleluia” is added to the dismissal. It may be added at other times, except during Lent and on other penitential occasions."
+					},
+					{
+						"type": "rubric",
+						"text": "The People respond"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "Thanks be to God. Alleluia, alleluia."
+					}
+				],
+				"pb_page_start": 497,
+				"pb_page_end": 509
+			}
+		]
+	}
+}

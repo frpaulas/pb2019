@@ -1,4 +1,5 @@
 pg: 11-32
+pb:11
 tp: Daily Morning Prayer
 
 st:1: daily morning prayer
@@ -10,6 +11,7 @@ scripture:psalm 122:1:: I was glad when they said unto me, "We will go into the 
 r: or this
 scripture:psalm 19:14:: Let the words of my mouth and the meditation of my heart be always acceptable in your sight, O Lord, my rock and my redeemer.
 use:prayer:office_confession:
+vm:2
 st: invitatory
 r: All stand.
 v:officiant: O Lord, open our lips;
@@ -32,22 +34,26 @@ l:i:b: O come, let us adore him.
 r:or this
 l:The mercy of the Lord is everlasting: *
 l:i:b: O come, let us adore him.
+vm:2:
 use:canticle:venite:
 
+pb:15
 r: or this
-use:cantical:jubilate:
+vm:2
+use:canticle:jubilate:
 r: During the first week of Easter, the Pascha Nostrum, without antiphons,
     is used in place of the Invitatory Psalm, and it may be used throughout Eastertide.
 
 pb:16
 use:canticle:pacha_nostrum:
+pb:17
 r: Then follows
 st: the psalm or psalms appointed: the psalm or psalms appointed
 r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
 use:gloria:
 st: the lessons: the lessons
 r: One or more Lessons, as appointed, are read, the Reader first saying
-l: A Reading from _**11**_.
+l: A Reading from ___11___.
 r: A citation giving chapter and verse may be added.
 r: After each lesson the Reader may say
 v:The Word of the Lord.
@@ -66,8 +72,9 @@ pb:19
 use:canticle:benedictus:
 
 r: Officiant and People together, all standing
+pb:20
 use:apostles_creed:
-
+pb:21
 st: The Prayers
 
 v:officiant:The Lord be with you.
@@ -83,6 +90,7 @@ v:officiant: O Lord, guide those who govern us;
 v:people: And lead us in the way of justice and truth.
 v:officiant: Clothe your ministers with righteousness;
 v:people: And let your people sing with joy.
+pb:22
 v:officiant: O Lord, save your people;
 v:people: And bless your inheritance.
 v:officiant: Give peace in our time, O Lord;
@@ -114,6 +122,7 @@ tb: O God, the King eternal, whose light divides the day from the night and turn
     incline our hearts to keep your law, and guide our feet into the way of peace;
     that, having done your will with cheerfulness during the day, we may, when night comes,
     rejoice to give you thanks; through Jesus Christ our Lord.
+pb:23
 st: a collect for peace
 st:lc: _Tuesday_
 tb: O God, the author of peace and lover of concord, to know you is eternal life and
@@ -138,6 +147,7 @@ tb: Almighty God, whose most dear Son went not up to joy but first he suffered p
     and entered not into glory before he was crucified: Mercifully grant that we, walking
     in the way of the Cross, may find it none other than the way of life and peace;
     through Jesus Christ your Son our Lord.
+pb:24
 st: a collect for sabbath rest
 st:lc: _Saturday_
 tb: Almighty God, who after the creation of the world rested from all your works and
@@ -159,10 +169,12 @@ tb: Lord Jesus Christ, you stretched out your arms of love on the hard wood of t
     that everyone might come within the reach of your saving embrace: So clothe us in your
     Spirit that we, reaching forth our hands in love, may bring those who do not know you
     to the knowledge and love of you; for the honor of your Name.
+pb:25
 r: The Officiant may invite the People to offer intercessions and thanksgivings.
 r: A hymn or anthem may be sung.
 r: Before the close of the Office one or both of the following prayers may be used.
 use:prayer:general_thanksgiving:
+pb:26
 use:canticle:chrysostom:
 v:officiant: Let us bless the Lord.
 v:people: Thanks be to God.
@@ -171,66 +183,96 @@ r: The Officiant says one of these concluding sentences (and the People may be i
 scripture:2 corinthians 13:14:: The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore.
 scripture:romans 15:13:: May the God of hope fill us with all joy and peace in believing through the power of the Holy Spirit.
 scripture:ephesians 3:20-21:: Glory to God whose power, working in us, can do infinitely more than we can ask or imagine: Glory to him from generation to generation in the Church, and in Christ Jesus for ever and ever.
+
+pb:27
+vm:3
 st: opening sentences of scripture
+vm:1
 st: advent
 scripture:isaiah 40:3:: In the wilderness prepare the way of the Lord; make straight in the desert a highway for our God.
+vm:1
 st: christmas
 scripture:luke 2:10-11:: Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord.
+vm:1
 st: epiphany
 scripture:malachi 1:11:: From the rising of the sun to its setting my name will be great among the nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the nations, says the Lord of hosts.
+vm:1
 st: lent _and_ other penitential occasions
 scripture:matthew 3:2:: Repent, for the kingdom of heaven is at hand.
 l:i:Turn your face from my sins,
 l:i:and blot out all my misdeeds.
 ref: psalm 51:9
 scripture:mark 8:34:: If anyone would come after me, let him deny himself and take up his cross and follow me.
+vm:1
 st: holy week
 scripture:lamentations 1:12:: Is it nothing to you, all you who pass by? Look and see if there is any sorrow like my sorrow, which was brought upon me, which the Lord inflicted on the day of his fierce anger.
+pb:28
+vm:1
 st: easter
 scripture:colossians 3:1:: If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God.
-st: ascension: ascension
+vm:1
+st: ascension
 scripture:hebrews 4:14, 16:: Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession. Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need.
+vm:1
 st: pentecost: pentecost
 scripture:acts 1:8:: You will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth.
+vm:1
 st: trinity sunday
 scripture:revelation 4:8:: Holy, holy, holy, is the Lord God Almighty, who was and is and is to come!
-st: days of thanksgiving: days of thanksgiving
+vm:1
+st: days of thanksgiving
 scripture:proverbs 3:9-10:: Honor the Lord with your wealth and with the firstfruits of all your produce; then your barns will be filled with plenty, and your vats will be bursting with wine.
+vm:1
 st: at any time
 scripture:habakkuk 2:20:: The Lord is in his holy temple; let all the earth keep silence before him.
+pb:29
 scripture:psalm 43:3:: O send out your light and your truth, that they may lead me, and bring me to your holy hill, and to your dwelling.
 scripture:isaiah 57:15:: Thus says the One who is high and lifted up, who inhabits eternity, whose name is Holy: "I dwell in the high and holy place, and also with him who is of a contrite and lowly spirit, to revive the spirit of the lowly, and to revive the heart of the contrite."
 scripture:john 4:23:: The hour is coming, and is now here, when the true worshipers will worship the Father in spirit and truth, for the Father is seeking such people to worship him.
+vm:3
 st: seasonal antiphons
+vm:1
 st: advent
 l: Our King and Savior now draws near: * O come, let us adore him.
+vm:1
 st: christmas
 l: Alleluia, to us a child is born: *
 l:b:i: O come, let us adore him. Alleluia.
+vm:1
 st: epiphany, and the feast of the transfiguration
 l: The Lord has shown forth his glory: *
 l:b:i: O come, let us adore him.
+vm:1
 st: presentation and annunciation
 l: The Word was made flesh and dwelt among us: *
 l:b:i: O come, let us adore him.
+pb:30
+vm:1
 st: lent
 l: The Lord is full of compassion and mercy: *
 l:b:i: O come, let us adore him.
+vm:1
 st: easter until ascension
 l: Alleluia. The Lord is risen indeed: *
 l:b:i: O come, let us adore him. Alleluia.
+vm:1
 st: ascension until pentecost
 l: Alleluia. Christ the Lord has ascended into heaven: *
 l:b:i: O come, let us adore him. Alleluia.
+vm:1
 st: day of pentecost
 l: Alleluia. The Spirit of the Lord renews the face of the earth: *
 l:b:i: O come, let us adore him. Alleluia.
+vm:1
 st: trinity sunday
 l: Father, Son, and Holy Spirit, one God: *
 l:b:i: O come, let us adore him.
+vm:1
 st: all saints' and other major saints' days
 l: The Lord is glorious in his saints: *
 l:b:i: O come, let us adore him.
+pb:31
+vm:2
 st: additional directions
 tb: The Confession and Apostles' Creed may be omitted, provided each is said at least once during the course of the day.
 tb: The Gloria Patri (Glory be...) in the opening versicles may be said in unison.
@@ -242,3 +284,5 @@ tb: The Officiant and People may join in saying "Alleluia" (except in Lent) as a
 tb: If an offering is to be received, it is appropriate to do so during the hymn or anthem following the Collects.
 tb: A sermon may be preached after the lessons, after the hymn or anthem
     following the Collects, or after the conclusion of the Office.
+pb:32
+blank:

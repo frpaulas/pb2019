@@ -4,13 +4,17 @@
 		"slug": "supplemental_canticles",
 		"pb_pages": [
 			79,
-			88
+			90
 		],
 		"sections": [
 			{
 				"id": "content",
 				"title": "Content",
 				"content": [
+					{
+						"type": "page_break",
+						"page": 79
+					},
 					{
 						"type": "section_title",
 						"text": "supplemental canticles",
@@ -96,10 +100,32 @@
 					{
 						"type": "page_break",
 						"page": 88
+					},
+					{
+						"type": "page_break",
+						"page": 89
+					},
+					{
+						"type": "section_title",
+						"text": "Great Litany",
+						"size": "2xl"
+					},
+					{
+						"type": "section_title",
+						"text": "& Decalogue",
+						"size": "2xl"
+					},
+					{
+						"type": "page_break",
+						"page": 90
+					},
+					{
+						"type": "blank_page",
+						"page": null
 					}
 				],
-				"pb_page_start": 80,
-				"pb_page_end": 88
+				"pb_page_start": null,
+				"pb_page_end": null
 			}
 		]
 	}

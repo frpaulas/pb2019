@@ -82,8 +82,8 @@ class DPBLinter {
 			const line = lines[i];
 			const trimmedLine = line.trim();
 
-			// Skip empty lines and comments
-			if (trimmedLine === '' || line.startsWith('#')) {
+			// Skip empty lines and comments (both # and \\)
+			if (trimmedLine === '' || line.startsWith('#') || line.startsWith('\\\\')) {
 				continue;
 			}
 
@@ -247,7 +247,22 @@ class DPBLinter {
 	lintPageRange(content) {
 		const trimmed = content.trim();
 		if (trimmed.includes('-')) {
-			const [start, end] = trimmed.split('-').map((s) => parseInt(s.trim()));
+			// Handle negative numbers in ranges (e.g., "-4-0" or "1-5")
+			// Split on '-' but account for negative numbers
+			const parts = trimmed.split('-').filter((p) => p !== '');
+
+			// If starts with '-', first element is negative
+			let start, end;
+			if (trimmed.startsWith('-')) {
+				// Format: "-4-0" -> parts = ['4', '0']
+				start = -parseInt(parts[0]);
+				end = parseInt(parts[1]);
+			} else {
+				// Format: "1-5" -> parts = ['1', '5']
+				start = parseInt(parts[0]);
+				end = parseInt(parts[1]);
+			}
+
 			if (isNaN(start) || isNaN(end)) {
 				this.addError(this.lineNumber, 'Invalid page range format');
 			} else if (start >= end) {
@@ -268,9 +283,9 @@ class DPBLinter {
 		const pageNum = parseInt(content.trim());
 		if (isNaN(pageNum)) {
 			this.addError(this.lineNumber, 'Page break must have a valid page number');
-		} else if (pageNum < 1) {
-			this.addError(this.lineNumber, 'Page number must be positive');
 		}
+		// Allow negative page numbers for front matter (pages -4 to 0)
+		// No need to check if positive anymore
 	}
 
 	/**
