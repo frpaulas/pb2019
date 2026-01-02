@@ -29,7 +29,7 @@
 		"psalm": "Ps 92:1-4(5-10)11-14",
 		"epistle": "1 John 1",
 		"gospel": "John 21:9-25 or John 1:1-18",
-		"color": "red"
+		"color": "white"
 	},
 	"12-28": {
 		"name": "Holy Innocents",
@@ -69,7 +69,7 @@
 		"psalm": "Ps 84",
 		"epistle": "Heb 2:14-18",
 		"gospel": "Luke 2:22-40",
-		"color": "red"
+		"color": "white"
 	},
 	"2-24": {
 		"name": "St. Matthias",
@@ -85,7 +85,7 @@
 		"psalm": "Ps 89:1-4(5-18)19-29v",
 		"epistle": "Rom 4:13-18",
 		"gospel": "Luke 2:41-52",
-		"color": "red"
+		"color": "white"
 	},
 	"3-25": {
 		"name": "The Annunciation",
@@ -93,7 +93,7 @@
 		"psalm": "Ps 40:1-13v or Magnificat",
 		"epistle": "Heb 10:5-10",
 		"gospel": "Luke 1:26-38",
-		"color": "red"
+		"color": "white"
 	},
 	"4-25": {
 		"name": "St. Mark",
@@ -117,7 +117,7 @@
 		"psalm": "Ps 113 or Ecce Deus",
 		"epistle": "Col 3:12-17",
 		"gospel": "Luke 1:39-56",
-		"color": "red"
+		"color": "white"
 	},
 	"6-11": {
 		"name": "St. Barnabas",
@@ -133,7 +133,7 @@
 		"psalm": "Ps 85:7-13",
 		"epistle": "Acts 13:14b-26",
 		"gospel": "Luke 1:57-80",
-		"color": "red"
+		"color": "white"
 	},
 	"6-29": {
 		"name": "St. Peter & St. Paul",
@@ -165,7 +165,7 @@
 		"psalm": "Ps 99",
 		"epistle": "2 Pet 1:13-21",
 		"gospel": "Luke 9:28-36",
-		"color": "red"
+		"color": "white"
 	},
 	"8-15": {
 		"name": "St. Mary the Virgin",
@@ -173,7 +173,7 @@
 		"psalm": "Ps 34",
 		"epistle": "Gal 4:4-7",
 		"gospel": "Luke 1:46-55",
-		"color": "red"
+		"color": "white"
 	},
 	"8-24": {
 		"name": "St. Bartholomew",
@@ -237,7 +237,7 @@
 		"psalm": "Ps 149",
 		"epistle": "Rev 7:9-17 or Eph 1:(11-14)15-23",
 		"gospel": "Matt 5:1-12 or Luke 6:20-26(27-36)",
-		"color": "red"
+		"color": "white"
 	},
 	"ascension": {
 		"name": "Ascension",

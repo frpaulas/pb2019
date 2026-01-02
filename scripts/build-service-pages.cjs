@@ -62,7 +62,7 @@ for (const filename of serviceFiles) {
 			// Check if this is a page break or blank page
 			if (block.type === 'page_break' || block.type === 'blank_page') {
 				// Save previous page if exists
-				if (currentPage !== null && currentPageContent.length > 0) {
+				if (currentPage !== null) {
 					if (!servicePages[currentPage]) {
 						servicePages[currentPage] = {
 							pageNumber: currentPage,
@@ -90,7 +90,7 @@ for (const filename of serviceFiles) {
 		}
 
 		// Save last page
-		if (currentPage !== null && currentPageContent.length > 0) {
+		if (currentPage !== null) {
 			if (!servicePages[currentPage]) {
 				servicePages[currentPage] = {
 					pageNumber: currentPage,
