@@ -10,4 +10,4 @@
 	that in the last day, when he shall come again in his glorious majesty to judge both the living
 	and the dead, we may rise to the life immortal; through him who lives and reigns with you and the
 	Holy Spirit, one God, now and for ever. Amen. Preface of Advent **Amen.**
-</TextBlock>/>
+</TextBlock>

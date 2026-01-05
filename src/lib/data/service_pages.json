@@ -25200,7 +25200,7 @@
     "content": [
       {
         "type": "collect",
-        "name": "day"
+        "name": "christmas_day"
       },
       {
         "type": "rubric",

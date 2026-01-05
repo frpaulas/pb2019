@@ -10,4 +10,4 @@
 	Word we may embrace and ever hold fast the blessed hope of everlasting life, which you have given
 	us in our Savior Jesus Christ; who lives and reigns with you and the Holy Spirit, one God, for
 	ever and ever. **Amen.**
-</TextBlock>/>
+</TextBlock>
