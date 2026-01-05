@@ -21,6 +21,14 @@
 	import PageVI from '$lib/text_component/vi.svelte';
 	import PageVII from '$lib/text_component/vii.svelte';
 
+	// Dynamically import all canticles
+	const canticleModules = import.meta.glob('$lib/canticle/*.svelte', { eager: true });
+	const canticleMap = {};
+	for (const path in canticleModules) {
+		const name = path.match(/\/([^/]+)\.svelte$/)[1];
+		canticleMap[name] = canticleModules[path].default;
+	}
+
 	let { pageData } = $props();
 </script>
 
@@ -59,6 +67,13 @@
 		<OfficeConfession />
 	{:else if block.type === 'office_absolution'}
 		<OfficeAbsolution />
+	{:else if block.type === 'canticle'}
+		{@const CanticleComponent = canticleMap[block.name]}
+		{#if CanticleComponent}
+			<CanticleComponent />
+		{:else}
+			<p class="text-red-500">Unknown canticle: {block.name}</p>
+		{/if}
 	{:else if block.type === 'iii'}
 		<PageIII />
 	{:else if block.type === 'iv'}
