@@ -83,7 +83,7 @@
 		aria-labelledby="modal-title"
 	>
 		<div
-			class="relative flex max-h-[90vh] w-full max-w-4xl flex-col rounded-lg bg-white shadow-2xl"
+			class="relative flex max-h-[90vh] w-full max-w-180 flex-col rounded-lg bg-neutral-100 font-serif shadow-2xl"
 			onclick={(e) => e.stopPropagation()}
 		>
 			<!-- Header -->
@@ -127,7 +127,7 @@
 			</div>
 
 			<!-- Footer -->
-			<div class="flex items-center justify-between border-t border-gray-200 bg-gray-50 p-4">
+			<div class="flex items-center justify-between border-t border-gray-200 bg-neutral-100 p-4">
 				{#if $pageLinkModal.returnPage}
 					<p class="text-sm text-gray-600">
 						Returning to page {$pageLinkModal.returnPage}
