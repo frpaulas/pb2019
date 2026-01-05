@@ -200,14 +200,14 @@
 						{block.text}
 					</Component>
 				{:else if block.type === 'rubric'}
-					<Component add_on={block.add_on || ''}>{block.text}</Component>
+					<Component add_on={block.add_on || ''} content={block.content}>{block.text}</Component>
 				{:else if block.type === 'scripture'}
 					<Component ref={block.ref} t={block.t || false}>
 						{block.text}{#if block.amen}
 							Amen.{/if}
 					</Component>
 				{:else if block.type === 'text_block'}
-					<Component bold={block.bold || false}
+					<Component bold={block.bold || false} content={block.content}
 						>{block.text}{#if block.amen}
 							Amen.{/if}</Component
 					>

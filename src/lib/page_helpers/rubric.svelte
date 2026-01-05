@@ -2,8 +2,9 @@
 	import { parseMarkdown } from '$lib/utils/parseMarkdown';
 	import { liturgicalContext } from '$lib/stores/liturgical';
 	import { onMount } from 'svelte';
+	import PageLink from './page_link.svelte';
 
-	let { add_on = '', children } = $props();
+	let { add_on = '', children, content = null } = $props();
 
 	// For slot content, we need to extract and parse it
 	let slotContentElement = $state();
@@ -18,7 +19,16 @@
 </script>
 
 <p class="mt-2 mb-2 text-red-900 italic">
-	{#if parsedSlotContent}
+	{#if content && Array.isArray(content)}
+		<!-- Render content array with mixed text and page_link segments -->
+		{#each content as segment}
+			{#if segment.type === 'text'}
+				{@html parseMarkdown(segment.value, $liturgicalContext)}
+			{:else if segment.type === 'page_link'}
+				<PageLink page={segment.page} text={segment.text} />
+			{/if}
+		{/each}
+	{:else if parsedSlotContent}
 		{@html parsedSlotContent}
 	{:else if children}
 		<span bind:this={slotContentElement} style="display: none;">

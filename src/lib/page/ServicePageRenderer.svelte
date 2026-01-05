@@ -34,11 +34,11 @@
 			{block.text}
 		</SectionTitle>
 	{:else if block.type === 'rubric'}
-		<Rubric>{block.text}</Rubric>
+		<Rubric content={block.content}>{block.text}</Rubric>
 	{:else if block.type === 'scripture'}
 		<Scripture ref={block.ref}>{block.text}</Scripture>
 	{:else if block.type === 'text_block'}
-		<TextBlock>{block.text}</TextBlock>
+		<TextBlock content={block.content}>{block.text}</TextBlock>
 	{:else if block.type === 'line'}
 		<Line bold={block.bold || false} indent={block.indent || false} text={block.text} />
 	{:else if block.type === 'versical'}

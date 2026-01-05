@@ -3,6 +3,7 @@
 	import favicon from '$lib/assets/favicon.svg';
 	import Header from '$lib/page_helpers/header.svelte';
 	import DragNav from '$lib/page_helpers/drag_nav.svelte';
+	import PageLinkModal from '$lib/components/PageLinkModal.svelte';
 	let { children } = $props();
 </script>
 
@@ -34,6 +35,9 @@
 		</div>
 	</div>
 </div>
+
+<!-- Page Link Modal - Global overlay for page references -->
+<PageLinkModal />
 
 <style>
 	@layer utilities {
