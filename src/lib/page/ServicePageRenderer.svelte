@@ -29,6 +29,24 @@
 		canticleMap[name] = canticleModules[path].default;
 	}
 
+	// Dynamically import all collects
+	const collectModules = import.meta.glob('$lib/collect/*.svelte', { eager: true });
+	const collectMap = {};
+	for (const path in collectModules) {
+		const name = path.match(/\/([^/]+)\.svelte$/)[1];
+		collectMap[name] = collectModules[path].default;
+	}
+
+	// Dynamically import all occasional prayers
+	const occasionalPrayerModules = import.meta.glob('$lib/occasional_prayer/*.svelte', {
+		eager: true
+	});
+	const occasionalPrayerMap = {};
+	for (const path in occasionalPrayerModules) {
+		const name = path.match(/\/([^/]+)\.svelte$/)[1];
+		occasionalPrayerMap[name] = occasionalPrayerModules[path].default;
+	}
+
 	let { pageData } = $props();
 </script>
 
@@ -73,6 +91,20 @@
 			<CanticleComponent />
 		{:else}
 			<p class="text-red-500">Unknown canticle: {block.name}</p>
+		{/if}
+	{:else if block.type === 'collect'}
+		{@const CollectComponent = collectMap[block.name]}
+		{#if CollectComponent}
+			<CollectComponent />
+		{:else}
+			<p class="text-red-500">Unknown collect: {block.name}</p>
+		{/if}
+	{:else if block.type === 'occasional_prayer'}
+		{@const PrayerComponent = occasionalPrayerMap[block.name]}
+		{#if PrayerComponent}
+			<PrayerComponent />
+		{:else}
+			<p class="text-red-500">Unknown occasional prayer: {block.name}</p>
 		{/if}
 	{:else if block.type === 'iii'}
 		<PageIII />
