@@ -10,6 +10,7 @@
 	import Ref from '$lib/page_helpers/ref.svelte';
 	import OrThis from '$lib/text_component/or_this.svelte';
 	import Gloria from '$lib/text_component/gloria.svelte';
+	import ShowPsalm from '$lib/page_helpers/show_psalm.svelte';
 	import OfficeConfessionIntro from '$lib/prayer/office_confession_intro.svelte';
 	import OfficeConfession from '$lib/prayer/office_confession.svelte';
 	import OfficeAbsolution from '$lib/prayer/office_absolution.svelte';
@@ -79,6 +80,16 @@
 		<OrThis />
 	{:else if block.type === 'gloria'}
 		<Gloria versical={block.versical || false} />
+	{:else if block.type === 'show_psalm'}
+		<ShowPsalm
+			ps={block.ps}
+			from={block.from}
+			to={block.to}
+			fromLine={block.fromLine}
+			toLine={block.toLine}
+			bold={block.bold || false}
+			showTitle={block.showTitle || false}
+		/>
 	{:else if block.type === 'office_confession_intro'}
 		<OfficeConfessionIntro />
 	{:else if block.type === 'office_confession'}
