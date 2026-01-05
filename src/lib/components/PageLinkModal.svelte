@@ -7,7 +7,6 @@
 	import psalmPagesData from '$lib/data/psalm_pages.json';
 
 	let modalElement;
-	let currentPageIndex = $state(0);
 
 	// Generate array of pages to display
 	let pages = $derived(() => {
@@ -24,22 +23,17 @@
 		return pageList;
 	});
 
-	let currentPage = $derived(pages()[currentPageIndex] || null);
-
-	// Get page data for current page
-	let pageData = $derived(() => {
-		if (!currentPage) return null;
-
+	// Get page data for a specific page number
+	function getPageData(pageNumber) {
 		// Try psalm pages first, then service pages
-		return psalmPagesData[currentPage] || servicePagesData[currentPage] || null;
-	});
+		return psalmPagesData[pageNumber] || servicePagesData[pageNumber] || null;
+	}
 
-	let isPsalmPage = $derived(() => {
-		return currentPage && psalmPagesData[currentPage] !== undefined;
-	});
+	function isPsalmPage(pageNumber) {
+		return psalmPagesData[pageNumber] !== undefined;
+	}
 
 	function close() {
-		currentPageIndex = 0;
 		pageLinkModal.close();
 	}
 
@@ -48,10 +42,6 @@
 
 		if (event.key === 'Escape') {
 			close();
-		} else if (event.key === 'ArrowLeft' && currentPageIndex > 0) {
-			currentPageIndex--;
-		} else if (event.key === 'ArrowRight' && currentPageIndex < pages().length - 1) {
-			currentPageIndex++;
 		}
 	}
 
@@ -61,23 +51,10 @@
 		}
 	}
 
-	function nextPage() {
-		if (currentPageIndex < pages().length - 1) {
-			currentPageIndex++;
-		}
-	}
-
-	function prevPage() {
-		if (currentPageIndex > 0) {
-			currentPageIndex--;
-		}
-	}
-
 	onMount(() => {
-		// Reset page index when modal opens and prevent body scroll
+		// Prevent body scroll when modal is open
 		const unsubscribe = pageLinkModal.subscribe((state) => {
 			if (state.isOpen) {
-				currentPageIndex = 0;
 				// Prevent scrolling on body when modal is open
 				document.body.style.overflow = 'hidden';
 			} else {
@@ -111,38 +88,13 @@
 		>
 			<!-- Header -->
 			<div class="flex items-center justify-between border-b border-gray-200 p-4">
-				<div class="flex items-center gap-4">
-					<h2 id="modal-title" class="text-xl font-semibold text-gray-900">
-						{#if pages().length > 1}
-							Page {currentPage} of {pages()[0]}-{pages()[pages().length - 1]}
-						{:else}
-							Page {currentPage}
-						{/if}
-					</h2>
-
+				<h2 id="modal-title" class="text-xl font-semibold text-gray-900">
 					{#if pages().length > 1}
-						<div class="flex gap-2">
-							<button
-								type="button"
-								onclick={prevPage}
-								disabled={currentPageIndex === 0}
-								class="rounded bg-gray-100 px-3 py-1 text-sm transition-colors hover:bg-gray-200 disabled:cursor-not-allowed disabled:bg-gray-50 disabled:text-gray-400"
-								aria-label="Previous page"
-							>
-								← Prev
-							</button>
-							<button
-								type="button"
-								onclick={nextPage}
-								disabled={currentPageIndex === pages().length - 1}
-								class="rounded bg-gray-100 px-3 py-1 text-sm transition-colors hover:bg-gray-200 disabled:cursor-not-allowed disabled:bg-gray-50 disabled:text-gray-400"
-								aria-label="Next page"
-							>
-								Next →
-							</button>
-						</div>
+						Pages {pages()[0]}-{pages()[pages().length - 1]}
+					{:else}
+						Page {pages()[0]}
 					{/if}
-				</div>
+				</h2>
 
 				<button
 					type="button"
@@ -154,19 +106,24 @@
 				</button>
 			</div>
 
-			<!-- Content -->
+			<!-- Content - Render all pages in the range -->
 			<div class="flex-1 overflow-y-auto overscroll-contain scroll-smooth p-6">
-				{#if pageData()}
-					{#if isPsalmPage()}
-						<PsalmPageRenderer pageData={pageData()} />
+				{#each pages() as pageNumber}
+					{@const pageData = getPageData(pageNumber)}
+					{#if pageData}
+						<div class="mb-8">
+							{#if isPsalmPage(pageNumber)}
+								<PsalmPageRenderer {pageData} />
+							{:else}
+								<ServicePageRenderer {pageData} />
+							{/if}
+						</div>
 					{:else}
-						<ServicePageRenderer pageData={pageData()} />
+						<div class="mb-8 py-8 text-center text-gray-500">
+							Page {pageNumber} not found
+						</div>
 					{/if}
-				{:else}
-					<div class="py-8 text-center text-gray-500">
-						Page {currentPage} not found
-					</div>
-				{/if}
+				{/each}
 			</div>
 
 			<!-- Footer -->
