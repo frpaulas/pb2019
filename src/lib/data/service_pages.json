@@ -223,7 +223,33 @@
         "text": "Let the words of my mouth and the meditation of my heart be always acceptable in your sight, O Lord, my rock and my redeemer."
       },
       {
+        "type": "office_confession_intro"
+      }
+    ]
+  },
+  "12": {
+    "pageNumber": 12,
+    "headerText": "Daily Morning Prayer",
+    "content": [
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "text_block",
+        "text": "Let us humbly confess our sins to Almighty God."
+      },
+      {
         "type": "office_confession"
+      }
+    ]
+  },
+  "13": {
+    "pageNumber": 13,
+    "headerText": "Daily Morning Prayer",
+    "content": [
+      {
+        "type": "office_absolution"
       },
       {
         "type": "vertical_margin",
@@ -276,32 +302,6 @@
         "type": "versical",
         "people": true,
         "text": "The Lord's Name be praised."
-      }
-    ]
-  },
-  "12": {
-    "pageNumber": 12,
-    "headerText": "Daily Morning Prayer",
-    "content": [
-      {
-        "type": "versical",
-        "people": true,
-        "text": "And let your people sing with joy."
-      }
-    ]
-  },
-  "13": {
-    "pageNumber": 13,
-    "headerText": "Daily Morning Prayer",
-    "content": [
-      {
-        "type": "section_title",
-        "text": "holy week"
-      },
-      {
-        "type": "scripture",
-        "ref": "lamentations 1:12",
-        "text": "Is it nothing to you, all you who pass by? Look and see if there is any sorrow like my sorrow, which was brought upon me, which the Lord inflicted on the day of his fierce anger."
       }
     ]
   },
@@ -570,6 +570,11 @@
         "type": "versical",
         "officiant": true,
         "text": "Clothe your ministers with righteousness;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And let your people sing with joy."
       }
     ]
   },
@@ -927,6 +932,15 @@
       {
         "type": "vertical_margin",
         "spacing": 1
+      },
+      {
+        "type": "section_title",
+        "text": "holy week"
+      },
+      {
+        "type": "scripture",
+        "ref": "lamentations 1:12",
+        "text": "Is it nothing to you, all you who pass by? Look and see if there is any sorrow like my sorrow, which was brought upon me, which the Lord inflicted on the day of his fierce anger."
       }
     ]
   },
@@ -4595,7 +4609,7 @@
     "headerText": "The Holy Eucharist: Anglican Standard Text",
     "content": [
       {
-        "type": "gloria_in_exelsis"
+        "type": "gloria_in_excelsis"
       },
       {
         "type": "section_title",
@@ -5655,7 +5669,7 @@
         "type": "kyrie"
       },
       {
-        "type": "gloria_in_exelsis"
+        "type": "gloria_in_excelsis"
       },
       {
         "type": "section_title",

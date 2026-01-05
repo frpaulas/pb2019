@@ -10,8 +10,17 @@ r: or this
 scripture:psalm 122:1:: I was glad when they said unto me, "We will go into the house of the Lord."
 r: or this
 scripture:psalm 19:14:: Let the words of my mouth and the meditation of my heart be always acceptable in your sight, O Lord, my rock and my redeemer.
+
+use:prayer:office_confession_intro:
+pb:12
+r:or this
+tb:Let us humbly confess our sins to Almighty God.
 use:prayer:office_confession:
+
+pb:13
+use:prayer:office_absolution:
 vm:2
+
 st: invitatory
 r: All stand.
 v:officiant: O Lord, open our lips;

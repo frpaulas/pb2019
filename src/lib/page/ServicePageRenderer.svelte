@@ -10,6 +10,9 @@
 	import Ref from '$lib/page_helpers/ref.svelte';
 	import OrThis from '$lib/text_component/or_this.svelte';
 	import Gloria from '$lib/text_component/gloria.svelte';
+	import OfficeConfessionIntro from '$lib/prayer/office_confession_intro.svelte';
+	import OfficeConfession from '$lib/prayer/office_confession.svelte';
+	import OfficeAbsolution from '$lib/prayer/office_absolution.svelte';
 
 	// Front matter pages
 	import PageIII from '$lib/text_component/iii.svelte';
@@ -50,6 +53,12 @@
 		<OrThis />
 	{:else if block.type === 'gloria'}
 		<Gloria versical={block.versical || false} />
+	{:else if block.type === 'office_confession_intro'}
+		<OfficeConfessionIntro />
+	{:else if block.type === 'office_confession'}
+		<OfficeConfession />
+	{:else if block.type === 'office_absolution'}
+		<OfficeAbsolution />
 	{:else if block.type === 'iii'}
 		<PageIII />
 	{:else if block.type === 'iv'}

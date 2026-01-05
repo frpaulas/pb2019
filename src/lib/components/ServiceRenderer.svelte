@@ -1,4 +1,5 @@
 <script>
+	import { match } from '$lib/utils/match';
 	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 	import Rubric from '$lib/page_helpers/rubric.svelte';
 	import Scripture from '$lib/page_helpers/scripture.svelte';
@@ -19,7 +20,9 @@
 	import AgnusDei from '$lib/text_component/agnus_dei.svelte';
 	import Sanctus from '$lib/text_component/sanctus.svelte';
 	import ConfessionCommunion from '$lib/prayer/confession_communion.svelte';
-	import ConfessionOffice from '$lib/prayer/confession_office.svelte';
+	import OfficeConfessionIntro from '$lib/prayer/office_confession_intro.svelte';
+	import OfficeConfession from '$lib/prayer/office_confession.svelte';
+	import OfficeAbsolution from '$lib/prayer/office_absolution.svelte';
 	import GeneralThanksgiving from '$lib/prayer/general_thanksgiving.svelte';
 	import HumbleAccess from '$lib/prayer/humble_access.svelte';
 	import PostCommunionStandard from '$lib/prayer/post_communion_standard.svelte';
@@ -126,6 +129,57 @@
 		occasionalPrayerMap[name] = occasionalPrayerModules[path].default;
 	}
 
+	// Component type mapping
+	const componentMap = {
+		section_title: SectionTitle,
+		rubric: Rubric,
+		scripture: Scripture,
+		text_block: TextBlock,
+		line: Line,
+		versical: Versical,
+		ordered_list_item: OrderedListItem,
+		unordered_list_item: UnorderedListItem,
+		antiphon: Antiphon,
+		ref: Ref,
+		then_follows: ThenFollows,
+		or_this: OrThis,
+		gloria: Gloria,
+		apostles_creed: ApostlesCreed,
+		nicene_creed: NiceneCreed,
+		lords_prayer: LordsPrayer,
+		kyrie: Kyrie,
+		gloria_in_excelsis: GloriaInExcelsis,
+		agnus_dei: AgnusDei,
+		sanctus: Sanctus,
+		confession_communion: ConfessionCommunion,
+		office_confession_intro: OfficeConfessionIntro,
+		office_confession: OfficeConfession,
+		office_absolution: OfficeAbsolution,
+		general_thanksgiving: GeneralThanksgiving,
+		humble_access: HumbleAccess,
+		post_communion_standard: PostCommunionStandard,
+		in_the_morning: InTheMorning,
+		chrysostom: Chrysostom,
+		footnote: Footnote,
+		silence: Silence,
+		vertical_margin: VerticalMargin,
+		page_break: PageBreakMarker,
+		blank_page: IntentionallyBlank,
+		intentionally_blank: IntentionallyBlank,
+		signature_block: SignatureBlock,
+		section_page: SectionPage,
+		show_psalm: ShowPsalm,
+		calendar: Calendar,
+		find_easter: FindEaster,
+		lectionary: Lectionary,
+		holy_day: HolyDay,
+		iii: PageIII,
+		iv: PageIV,
+		v: PageV,
+		vi: PageVI,
+		vii: PageVII
+	};
+
 	let { serviceData } = $props();
 </script>
 
@@ -133,8 +187,10 @@
 	{#each serviceData.sections as section}
 		<section id={section.id} data-section={section.id}>
 			{#each section.content as block}
+				{@const Component = match(block.type, componentMap)}
+
 				{#if block.type === 'section_title'}
-					<SectionTitle
+					<Component
 						size={block.size ? `text-${block.size}` : 'text-base'}
 						fancy={block.fancy || false}
 						latin_size={block.latin_size || false}
@@ -142,100 +198,62 @@
 						lowercase={block.lowercase || false}
 					>
 						{block.text}
-					</SectionTitle>
+					</Component>
 				{:else if block.type === 'rubric'}
-					<Rubric add_on={block.add_on || ''}>{block.text}</Rubric>
+					<Component add_on={block.add_on || ''}>{block.text}</Component>
 				{:else if block.type === 'scripture'}
-					<Scripture ref={block.ref} t={block.t || false}>
+					<Component ref={block.ref} t={block.t || false}>
 						{block.text}{#if block.amen}
 							Amen.{/if}
-					</Scripture>
+					</Component>
 				{:else if block.type === 'text_block'}
-					<TextBlock bold={block.bold || false}
+					<Component bold={block.bold || false}
 						>{block.text}{#if block.amen}
-							Amen.{/if}</TextBlock
+							Amen.{/if}</Component
 					>
 				{:else if block.type === 'line'}
-					<Line bold={block.bold || false} indent={block.indent || false} text={block.text} />
+					<Component bold={block.bold || false} indent={block.indent || false} text={block.text} />
 				{:else if block.type === 'versical'}
-					<Versical officiant={block.officiant || false} people={block.people || false}>
+					<Component officiant={block.officiant || false} people={block.people || false}>
 						{block.text}
-					</Versical>
+					</Component>
 				{:else if block.type === 'ordered_list_item'}
-					<OrderedListItem
+					<Component
 						number={block.number}
 						bold={block.bold}
 						indent={block.indent}
 						optional={block.optional}
 					>
 						{block.text}
-					</OrderedListItem>
+					</Component>
 				{:else if block.type === 'unordered_list_item'}
-					<UnorderedListItem bold={block.bold} indent={block.indent} optional={block.optional}>
+					<Component bold={block.bold} indent={block.indent} optional={block.optional}>
 						{block.text}
-					</UnorderedListItem>
+					</Component>
 				{:else if block.type === 'antiphon'}
-					<Antiphon call={block.call} response={block.response} />
+					<Component call={block.call} response={block.response} />
 				{:else if block.type === 'ref'}
-					<Ref text={block.text} t={block.t || false} />
+					<Component text={block.text} t={block.t || false} />
 				{:else if block.type === 'then_follows'}
-					<ThenFollows>{block.text}</ThenFollows>
-				{:else if block.type === 'or_this'}
-					<OrThis />
+					<Component>{block.text}</Component>
 				{:else if block.type === 'gloria'}
-					<Gloria versical={block.versical || false} />
-				{:else if block.type === 'apostles_creed'}
-					<ApostlesCreed />
-				{:else if block.type === 'nicene_creed'}
-					<NiceneCreed />
+					<Component versical={block.versical || false} />
 				{:else if block.type === 'lords_prayer'}
-					<LordsPrayer toggle={block.toggle || false} />
-				{:else if block.type === 'kyrie'}
-					<Kyrie />
-				{:else if block.type === 'gloria_in_exelsis' || block.type === 'gloria_in_excelsis'}
-					<GloriaInExcelsis />
-				{:else if block.type === 'agnus_dei'}
-					<AgnusDei />
-				{:else if block.type === 'sanctus'}
-					<Sanctus />
-				{:else if block.type === 'confession_communion'}
-					<ConfessionCommunion />
-				{:else if block.type === 'office_confession' || block.type === 'confession_office'}
-					<ConfessionOffice />
-				{:else if block.type === 'general_thanksgiving'}
-					<GeneralThanksgiving />
-				{:else if block.type === 'humble_access'}
-					<HumbleAccess />
-				{:else if block.type === 'post_communion_standard'}
-					<PostCommunionStandard />
-				{:else if block.type === 'in_the_morning'}
-					<InTheMorning />
-				{:else if block.type === 'chrysostom'}
-					<Chrysostom />
+					<Component toggle={block.toggle || false} />
 				{:else if block.type === 'footnote'}
-					<Footnote text={block.text} />
-				{:else if block.type === 'silence'}
-					<Silence />
+					<Component text={block.text} />
 				{:else if block.type === 'line_break'}
 					<br />
 				{:else if block.type === 'vertical_margin'}
-					<VerticalMargin spacing={block.spacing} />
+					<Component spacing={block.spacing} />
 				{:else if block.type === 'page_break'}
-					<PageBreakMarker page={block.page} />
-				{:else if block.type === 'blank_page'}
-					<IntentionallyBlank />
-				{:else if block.type === 'intentionally_blank'}
-					<IntentionallyBlank />
+					<Component page={block.page} />
 				{:else if block.type === 'signature_block'}
-					<SignatureBlock
-						signatures={block.signatures}
-						date={block.date}
-						dateRoman={block.dateRoman}
-					/>
+					<Component signatures={block.signatures} date={block.date} dateRoman={block.dateRoman} />
 				{:else if block.type === 'section_page'}
-					<SectionPage text={block.text} />
+					<Component text={block.text} />
 				{:else if block.type === 'show_psalm'}
-					<ShowPsalm
+					<Component
 						ps={block.ps}
 						from={block.from}
 						to={block.to}
@@ -244,45 +262,32 @@
 						bold={block.bold || false}
 						showTitle={block.showTitle || false}
 					/>
+				{:else if block.type === 'holy_day'}
+					<Component name={block.name} />
 				{:else if block.type === 'canticle'}
-					{#if canticleMap[block.name]}
-						{@const CanticleComponent = canticleMap[block.name]}
+					{@const CanticleComponent = canticleMap[block.name]}
+					{#if CanticleComponent}
 						<CanticleComponent />
 					{:else}
 						<p class="text-red-500">Unknown canticle: {block.name}</p>
 					{/if}
 				{:else if block.type === 'collect'}
-					{#if collectMap[block.name]}
-						{@const CollectComponent = collectMap[block.name]}
+					{@const CollectComponent = collectMap[block.name]}
+					{#if CollectComponent}
 						<CollectComponent />
 					{:else}
 						<p class="text-red-500">Unknown collect: {block.name}</p>
 					{/if}
 				{:else if block.type === 'occasional_prayer'}
-					{#if occasionalPrayerMap[block.name]}
-						{@const PrayerComponent = occasionalPrayerMap[block.name]}
+					{@const PrayerComponent = occasionalPrayerMap[block.name]}
+					{#if PrayerComponent}
 						<PrayerComponent />
 					{:else}
 						<p class="text-red-500">Unknown occasional prayer: {block.name}</p>
 					{/if}
-				{:else if block.type === 'calendar'}
-					<Calendar />
-				{:else if block.type === 'find_easter'}
-					<FindEaster />
-				{:else if block.type === 'lectionary'}
-					<Lectionary />
-				{:else if block.type === 'holy_day'}
-					<HolyDay name={block.name} />
-				{:else if block.type === 'iii'}
-					<PageIII />
-				{:else if block.type === 'iv'}
-					<PageIV />
-				{:else if block.type === 'v'}
-					<PageV />
-				{:else if block.type === 'vi'}
-					<PageVI />
-				{:else if block.type === 'vii'}
-					<PageVII />
+				{:else if Component}
+					<!-- Simple component with no props or children -->
+					<Component />
 				{:else}
 					<!-- Fallback for unhandled types -->
 					<div class="text-sm text-amber-600 italic">

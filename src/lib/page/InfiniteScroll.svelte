@@ -27,7 +27,9 @@
 	}
 
 	let currentPageNumber = $page.params.page_number;
-	let loadedPages = $state([$page.params.page_number]);
+	// For landing page (iii), also load the next page (iv)
+	const initialPages = currentPageNumber === 'iii' ? ['iii', 'iv'] : [$page.params.page_number];
+	let loadedPages = $state(initialPages);
 
 	// Initialize the visible page store with the current route page
 	currentVisiblePage.set($page.params.page_number);

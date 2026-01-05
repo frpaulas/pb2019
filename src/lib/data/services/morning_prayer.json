@@ -48,7 +48,29 @@
 						"text": "Let the words of my mouth and the meditation of my heart be always acceptable in your sight, O Lord, my rock and my redeemer."
 					},
 					{
+						"type": "office_confession_intro"
+					},
+					{
+						"type": "page_break",
+						"page": 12
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
+						"type": "text_block",
+						"text": "Let us humbly confess our sins to Almighty God."
+					},
+					{
 						"type": "office_confession"
+					},
+					{
+						"type": "page_break",
+						"page": 13
+					},
+					{
+						"type": "office_absolution"
 					},
 					{
 						"type": "vertical_margin",
@@ -353,10 +375,6 @@
 						"type": "versical",
 						"officiant": true,
 						"text": "Clothe your ministers with righteousness;"
-					},
-					{
-						"page": 12,
-						"type": "page_break"
 					},
 					{
 						"type": "versical",
@@ -707,10 +725,6 @@
 					{
 						"type": "vertical_margin",
 						"spacing": 1
-					},
-					{
-						"page": 13,
-						"type": "page_break"
 					},
 					{
 						"type": "section_title",

@@ -8,5 +8,5 @@
 	O Lord, support us all the day long through this trouble-filled life, until the shadows lengthen,
 	and the evening comes, and the busy world is hushed, and the fever of life is over, and our work
 	is done. Then in your mercy grant us a safe lodging, and a holy rest, and peace at the last.
-	__Amen.__
+	**Amen.**
 </TextBlock>
