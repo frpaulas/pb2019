@@ -80,7 +80,21 @@
 					},
 					{
 						"type": "text_block",
-						"text": "The Athanasian Creed (page 769) may be used in place of the Nicene Creed on Trinity Sunday and other occasions as appropriate."
+						"content": [
+							{
+								"type": "text",
+								"value": "The Athanasian Creed ("
+							},
+							{
+								"type": "page_link",
+								"page": 769,
+								"text": "769"
+							},
+							{
+								"type": "text",
+								"value": ") may be used in place of the Nicene Creed on Trinity Sunday and other occasions as appropriate."
+							}
+						]
 					},
 					{
 						"type": "text_block",

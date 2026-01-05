@@ -62,7 +62,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "The following and other additional prayers may be said. The Litany at the Time of Death (pages 237-239) may also be used."
+						"content": [
+							{
+								"type": "text",
+								"value": "The following and other additional prayers may be said. The Litany at the Time of Death ("
+							},
+							{
+								"type": "page_link",
+								"page": 237,
+								"text": "237-239"
+							},
+							{
+								"type": "text",
+								"value": ") may also be used."
+							}
+						]
 					},
 					{
 						"type": "text_block",

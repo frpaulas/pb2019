@@ -117,7 +117,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "The Litany for Ordinations (page 510) is sung or said."
+						"content": [
+							{
+								"type": "text",
+								"value": "The Litany for Ordinations ("
+							},
+							{
+								"type": "page_link",
+								"page": 510,
+								"text": "510"
+							},
+							{
+								"type": "text",
+								"value": ") is sung or said."
+							}
+						]
 					},
 					{
 						"type": "rubric",

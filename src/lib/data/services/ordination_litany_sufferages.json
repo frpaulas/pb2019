@@ -270,7 +270,21 @@
 					},
 					{
 						"type": "text_block",
-						"text": "When the Priest or Deacon being ordained is to be immediately instituted as Rector, the rite of the Institution of a Rector is not used. Instead, the Bishop reads the Letter of Institution (page 514) before the Peace during the Ordination liturgy."
+						"content": [
+							{
+								"type": "text",
+								"value": "When the Priest or Deacon being ordained is to be immediately instituted as Rector, the rite of the Institution of a Rector is not used. Instead, the Bishop reads the Letter of Institution ("
+							},
+							{
+								"type": "page_link",
+								"page": 514,
+								"text": "514"
+							},
+							{
+								"type": "text",
+								"value": ") before the Peace during the Ordination liturgy."
+							}
+						]
 					}
 				],
 				"pb_page_start": 510,

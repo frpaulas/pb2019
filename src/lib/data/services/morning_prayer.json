@@ -22,7 +22,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "The Officiant may begin Morning Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office (pages 27-29), is customary."
+						"content": [
+							{
+								"type": "text",
+								"value": "The Officiant may begin Morning Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office ("
+							},
+							{
+								"type": "page_link",
+								"page": 27,
+								"text": "27-29"
+							},
+							{
+								"type": "text",
+								"value": "), is customary."
+							}
+						]
 					},
 					{
 						"type": "scripture",
@@ -134,7 +148,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "One of these antiphons, or one from the seasonal antiphons provided at the end of the Office (pages 29-30), may be sung or said before and after the Invitatory Psalm. antiphon:"
+						"content": [
+							{
+								"type": "text",
+								"value": "One of these antiphons, or one from the seasonal antiphons provided at the end of the Office ("
+							},
+							{
+								"type": "page_link",
+								"page": 29,
+								"text": "29-30"
+							},
+							{
+								"type": "text",
+								"value": "), may be sung or said before and after the Invitatory Psalm. antiphon:"
+							}
+						]
 					},
 					{
 						"type": "line",
@@ -277,7 +305,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "The following Canticles are normally sung or said after each of the lessons. The Officiant may also use a Canticle drawn from the Supplemental Canticles (pages 79-88) or an appropriate song of praise."
+						"content": [
+							{
+								"type": "text",
+								"value": "The following Canticles are normally sung or said after each of the lessons. The Officiant may also use a Canticle drawn from the Supplemental Canticles ("
+							},
+							{
+								"type": "page_link",
+								"page": 79,
+								"text": "79-88"
+							},
+							{
+								"type": "text",
+								"value": ") or an appropriate song of praise."
+							}
+						]
 					},
 					{
 						"type": "canticle",
@@ -430,7 +472,7 @@
 						"content": [
 							{
 								"type": "text",
-								"value": "The Officiant then prays one or more of the following Collects, always beginning with the Collect of the Day (usually the Collect of the Sunday or Principal Feast and of any of the weekdays following, or of the Holy Day being observed), found "
+								"value": "The Officiant then prays one or more of the following Collects, always beginning with the Collect of the Day (usually the Collect of the Sunday or Principal Feast and of any of the weekdays following, or of the Holy Day being observed), found on "
 							},
 							{
 								"type": "page_link",

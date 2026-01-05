@@ -612,7 +612,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "The Ordinands kneel or lie prostrate, facing the Bishop. The Veni, Creator Spiritus (page 492) or other hymn to the Holy Spirit may be sung or said as a prayer for the renewal of the Church."
+						"content": [
+							{
+								"type": "text",
+								"value": "The Ordinands kneel or lie prostrate, facing the Bishop. The Veni, Creator Spiritus ("
+							},
+							{
+								"type": "page_link",
+								"page": 492,
+								"text": "492"
+							},
+							{
+								"type": "text",
+								"value": ") or other hymn to the Holy Spirit may be sung or said as a prayer for the renewal of the Church."
+							}
+						]
 					},
 					{
 						"type": "page_break",

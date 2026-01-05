@@ -54,7 +54,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "This liturgy is intended to be prayed with one who has received Jesus Christ as Savior and Lord. The Officiant may appropriately inquire of the dying person as to his or her acceptance of the Christian faith. If the person has not been baptized, Emergency Baptism (page 173) should be administered before the use of this rite."
+						"content": [
+							{
+								"type": "text",
+								"value": "This liturgy is intended to be prayed with one who has received Jesus Christ as Savior and Lord. The Officiant may appropriately inquire of the dying person as to his or her acceptance of the Christian faith. If the person has not been baptized, Emergency Baptism ("
+							},
+							{
+								"type": "page_link",
+								"page": 173,
+								"text": "173"
+							},
+							{
+								"type": "text",
+								"value": ") should be administered before the use of this rite."
+							}
+						]
 					},
 					{
 						"type": "page_break",

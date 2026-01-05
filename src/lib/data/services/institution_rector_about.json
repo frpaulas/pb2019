@@ -35,7 +35,21 @@
 					},
 					{
 						"type": "text_block",
-						"text": "The Bishop may adapt the Letter of Institution (page 514) and this liturgy as needed, particularly for a Vicar or other person exercising primary pastoral authority."
+						"content": [
+							{
+								"type": "text",
+								"value": "The Bishop may adapt the Letter of Institution ("
+							},
+							{
+								"type": "page_link",
+								"page": 514,
+								"text": "514"
+							},
+							{
+								"type": "text",
+								"value": ") and this liturgy as needed, particularly for a Vicar or other person exercising primary pastoral authority."
+							}
+						]
 					},
 					{
 						"type": "page_break",

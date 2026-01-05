@@ -60,7 +60,30 @@
 					},
 					{
 						"type": "text_block",
-						"text": "Instructions for the setting apart of a church or chapel long in use, and for other special cases, are provided in Additional Directions (page 537). Also provided is a form for secularizing a facility previously used as a Place of Worship, when the use of the building for worship, or for the ministry of the Congregation, has ended (page 538)."
+						"content": [
+							{
+								"type": "text",
+								"value": "Instructions for the setting apart of a church or chapel long in use, and for other special cases, are provided in Additional Directions ("
+							},
+							{
+								"type": "page_link",
+								"page": 537,
+								"text": "537"
+							},
+							{
+								"type": "text",
+								"value": "). Also provided is a form for secularizing a facility previously used as a Place of Worship, when the use of the building for worship, or for the ministry of the Congregation, has ended ("
+							},
+							{
+								"type": "page_link",
+								"page": 538,
+								"text": "538"
+							},
+							{
+								"type": "text",
+								"value": ")."
+							}
+						]
 					}
 				],
 				"pb_page_start": 523,

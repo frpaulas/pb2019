@@ -120,7 +120,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "The following prayer or other Additional Prayers (pages 263-265) may be added."
+						"content": [
+							{
+								"type": "text",
+								"value": "The following prayer or other Additional Prayers ("
+							},
+							{
+								"type": "page_link",
+								"page": 263,
+								"text": "263-265"
+							},
+							{
+								"type": "text",
+								"value": ") may be added."
+							}
+						]
 					},
 					{
 						"type": "text_block",

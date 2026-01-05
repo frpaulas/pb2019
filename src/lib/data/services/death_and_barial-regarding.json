@@ -125,7 +125,21 @@
 					},
 					{
 						"type": "text_block",
-						"text": "It is customary that the Officiant meet the body and go before it into the church (page 247) or towards the grave."
+						"content": [
+							{
+								"type": "text",
+								"value": "It is customary that the Officiant meet the body and go before it into the church ("
+							},
+							{
+								"type": "page_link",
+								"page": 247,
+								"text": "247"
+							},
+							{
+								"type": "text",
+								"value": ") or towards the grave."
+							}
+						]
 					},
 					{
 						"type": "text_block",

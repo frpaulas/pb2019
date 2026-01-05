@@ -133,7 +133,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "A hymn or canticle may be used; the Apostles' Creed (page 75) may be said."
+						"content": [
+							{
+								"type": "text",
+								"value": "A hymn or canticle may be used; the Apostles' Creed ("
+							},
+							{
+								"type": "page_link",
+								"page": 75,
+								"text": "75"
+							},
+							{
+								"type": "text",
+								"value": ") may be said."
+							}
+						]
 					},
 					{
 						"type": "rubric",
@@ -309,7 +323,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "A hymn or canticle may be used; the Apostles' Creed (page 75) may be said."
+						"content": [
+							{
+								"type": "text",
+								"value": "A hymn or canticle may be used; the Apostles' Creed ("
+							},
+							{
+								"type": "page_link",
+								"page": 75,
+								"text": "75"
+							},
+							{
+								"type": "text",
+								"value": ") may be said."
+							}
+						]
 					},
 					{
 						"type": "rubric",
@@ -571,7 +599,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "In Advent, using the Antiphons found in the Calendar of Holy Days and Commemorations (page 712), families might consider singing the appropriate verse of the hymn \"O Come, O Come, Emmanuel\" each night beginning on December 16."
+						"content": [
+							{
+								"type": "text",
+								"value": "In Advent, using the Antiphons found in the Calendar of Holy Days and Commemorations ("
+							},
+							{
+								"type": "page_link",
+								"page": 712,
+								"text": "712"
+							},
+							{
+								"type": "text",
+								"value": "), families might consider singing the appropriate verse of the hymn \"O Come, O Come, Emmanuel\" each night beginning on December 16."
+							}
+						]
 					}
 				],
 				"pb_page_start": 66,

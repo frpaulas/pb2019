@@ -197,7 +197,21 @@
       },
       {
         "type": "rubric",
-        "text": "The Officiant may begin Morning Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office (pages 27-29), is customary."
+        "content": [
+          {
+            "type": "text",
+            "value": "The Officiant may begin Morning Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office ("
+          },
+          {
+            "type": "page_link",
+            "page": 27,
+            "text": "27-29"
+          },
+          {
+            "type": "text",
+            "value": "), is customary."
+          }
+        ]
       },
       {
         "type": "scripture",
@@ -315,7 +329,21 @@
       },
       {
         "type": "rubric",
-        "text": "One of these antiphons, or one from the seasonal antiphons provided at the end of the Office (pages 29-30), may be sung or said before and after the Invitatory Psalm. antiphon:"
+        "content": [
+          {
+            "type": "text",
+            "value": "One of these antiphons, or one from the seasonal antiphons provided at the end of the Office ("
+          },
+          {
+            "type": "page_link",
+            "page": 29,
+            "text": "29-30"
+          },
+          {
+            "type": "text",
+            "value": "), may be sung or said before and after the Invitatory Psalm. antiphon:"
+          }
+        ]
       },
       {
         "type": "line",
@@ -464,7 +492,21 @@
       },
       {
         "type": "rubric",
-        "text": "The following Canticles are normally sung or said after each of the lessons. The Officiant may also use a Canticle drawn from the Supplemental Canticles (pages 79-88) or an appropriate song of praise."
+        "content": [
+          {
+            "type": "text",
+            "value": "The following Canticles are normally sung or said after each of the lessons. The Officiant may also use a Canticle drawn from the Supplemental Canticles ("
+          },
+          {
+            "type": "page_link",
+            "page": 79,
+            "text": "79-88"
+          },
+          {
+            "type": "text",
+            "value": ") or an appropriate song of praise."
+          }
+        ]
       },
       {
         "type": "canticle",
@@ -627,7 +669,7 @@
         "content": [
           {
             "type": "text",
-            "value": "The Officiant then prays one or more of the following Collects, always beginning with the Collect of the Day (usually the Collect of the Sunday or Principal Feast and of any of the weekdays following, or of the Holy Day being observed), found "
+            "value": "The Officiant then prays one or more of the following Collects, always beginning with the Collect of the Day (usually the Collect of the Sunday or Principal Feast and of any of the weekdays following, or of the Holy Day being observed), found on "
           },
           {
             "type": "page_link",
@@ -1589,7 +1631,21 @@
       },
       {
         "type": "rubric",
-        "text": "The Officiant may begin Evening Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office (pages 54-56), is customary."
+        "content": [
+          {
+            "type": "text",
+            "value": "The Officiant may begin Evening Prayer by reading an opening sentence of Scripture. One of the following, or a sentence from among those provided at the end of the Office ("
+          },
+          {
+            "type": "page_link",
+            "page": 54,
+            "text": "54-56"
+          },
+          {
+            "type": "text",
+            "value": "), is customary."
+          }
+        ]
       },
       {
         "type": "scripture",
@@ -1934,7 +1990,21 @@
       },
       {
         "type": "rubric",
-        "text": "The following Canticles are normally sung or said after each of the lessons. The Officiant may also use a Canticle drawn from the Supplemental Canticles (pages 79-88) or an appropriate song of praise."
+        "content": [
+          {
+            "type": "text",
+            "value": "The following Canticles are normally sung or said after each of the lessons. The Officiant may also use a Canticle drawn from the Supplemental Canticles ("
+          },
+          {
+            "type": "page_link",
+            "page": 79,
+            "text": "79-88"
+          },
+          {
+            "type": "text",
+            "value": ") or an appropriate song of praise."
+          }
+        ]
       },
       {
         "type": "canticle",
@@ -2028,7 +2098,7 @@
         "content": [
           {
             "type": "text",
-            "value": "The Officiant then prays one or more of the following Collects, always beginning with the Collect of the Day (usually the Collect of the Sunday or Principal Feast and of any of the weekdays following, or of the Holy Day being observed) found "
+            "value": "The Officiant then prays one or more of the following Collects, always beginning with the Collect of the Day (usually the Collect of the Sunday or Principal Feast and of any of the weekdays following, or of the Holy Day being observed) found on "
           },
           {
             "type": "page_link",
@@ -2982,7 +3052,21 @@
       },
       {
         "type": "rubric",
-        "text": "A hymn or canticle may be used; the Apostles' Creed (page 75) may be said."
+        "content": [
+          {
+            "type": "text",
+            "value": "A hymn or canticle may be used; the Apostles' Creed ("
+          },
+          {
+            "type": "page_link",
+            "page": 75,
+            "text": "75"
+          },
+          {
+            "type": "text",
+            "value": ") may be said."
+          }
+        ]
       },
       {
         "type": "rubric",
@@ -3166,7 +3250,21 @@
       },
       {
         "type": "rubric",
-        "text": "A hymn or canticle may be used; the Apostles' Creed (page 75) may be said."
+        "content": [
+          {
+            "type": "text",
+            "value": "A hymn or canticle may be used; the Apostles' Creed ("
+          },
+          {
+            "type": "page_link",
+            "page": 75,
+            "text": "75"
+          },
+          {
+            "type": "text",
+            "value": ") may be said."
+          }
+        ]
       },
       {
         "type": "rubric",
@@ -3440,7 +3538,21 @@
       },
       {
         "type": "rubric",
-        "text": "In Advent, using the Antiphons found in the Calendar of Holy Days and Commemorations (page 712), families might consider singing the appropriate verse of the hymn \"O Come, O Come, Emmanuel\" each night beginning on December 16."
+        "content": [
+          {
+            "type": "text",
+            "value": "In Advent, using the Antiphons found in the Calendar of Holy Days and Commemorations ("
+          },
+          {
+            "type": "page_link",
+            "page": 712,
+            "text": "712"
+          },
+          {
+            "type": "text",
+            "value": "), families might consider singing the appropriate verse of the hymn \"O Come, O Come, Emmanuel\" each night beginning on December 16."
+          }
+        ]
       }
     ]
   },
@@ -4253,7 +4365,21 @@
       },
       {
         "type": "rubric",
-        "text": "The Supplication may end here, or may conclude with the prayer of St. John Chrysostom and the Grace (page 52)."
+        "content": [
+          {
+            "type": "text",
+            "value": "The Supplication may end here, or may conclude with the prayer of St. John Chrysostom and the Grace ("
+          },
+          {
+            "type": "page_link",
+            "page": 52,
+            "text": "52"
+          },
+          {
+            "type": "text",
+            "value": ")."
+          }
+        ]
       }
     ]
   },
@@ -4524,7 +4650,21 @@
       },
       {
         "type": "rubric",
-        "text": "The People standing, the Celebrant says this or a seasonal greeting (pages 145-146)"
+        "content": [
+          {
+            "type": "text",
+            "value": "The People standing, the Celebrant says this or a seasonal greeting ("
+          },
+          {
+            "type": "page_link",
+            "page": 145,
+            "text": "145-146"
+          },
+          {
+            "type": "text",
+            "value": ")"
+          }
+        ]
       },
       {
         "type": "versical",
@@ -4585,7 +4725,21 @@
       },
       {
         "type": "rubric",
-        "text": "Then follows the Summary of the Law, or The Decalogue (page 100)."
+        "content": [
+          {
+            "type": "text",
+            "value": "Then follows the Summary of the Law, or The Decalogue ("
+          },
+          {
+            "type": "page_link",
+            "page": 100,
+            "text": "100"
+          },
+          {
+            "type": "text",
+            "value": ")."
+          }
+        ]
       },
       {
         "type": "line",
@@ -5200,7 +5354,21 @@
       },
       {
         "type": "rubric",
-        "text": "Here a Proper Preface (pages 152-158) is normally sung or said."
+        "content": [
+          {
+            "type": "text",
+            "value": "Here a Proper Preface ("
+          },
+          {
+            "type": "page_link",
+            "page": 152,
+            "text": "152-158"
+          },
+          {
+            "type": "text",
+            "value": ") is normally sung or said."
+          }
+        ]
       },
       {
         "type": "text_block",
@@ -5590,7 +5758,21 @@
       },
       {
         "type": "rubric",
-        "text": "The People standing, the Celebrant says this or a seasonal greeting (pages 145-146)"
+        "content": [
+          {
+            "type": "text",
+            "value": "The People standing, the Celebrant says this or a seasonal greeting ("
+          },
+          {
+            "type": "page_link",
+            "page": 145,
+            "text": "145-146"
+          },
+          {
+            "type": "text",
+            "value": ")"
+          }
+        ]
       },
       {
         "type": "versical",
@@ -5651,7 +5833,21 @@
       },
       {
         "type": "rubric",
-        "text": "Then follows the Summary of the Law, or The Decalogue (page 100)."
+        "content": [
+          {
+            "type": "text",
+            "value": "Then follows the Summary of the Law, or The Decalogue ("
+          },
+          {
+            "type": "page_link",
+            "page": 100,
+            "text": "100"
+          },
+          {
+            "type": "text",
+            "value": ")."
+          }
+        ]
       },
       {
         "type": "line",
@@ -6193,7 +6389,21 @@
       },
       {
         "type": "rubric",
-        "text": "Here a Proper Preface (pages 152-158) is normally sung or said."
+        "content": [
+          {
+            "type": "text",
+            "value": "Here a Proper Preface ("
+          },
+          {
+            "type": "page_link",
+            "page": 152,
+            "text": "152-158"
+          },
+          {
+            "type": "text",
+            "value": ") is normally sung or said."
+          }
+        ]
       },
       {
         "type": "text_block",
@@ -6715,7 +6925,21 @@
       },
       {
         "type": "text_block",
-        "text": "The Athanasian Creed (page 769) may be used in place of the Nicene Creed on Trinity Sunday and other occasions as appropriate."
+        "content": [
+          {
+            "type": "text",
+            "value": "The Athanasian Creed ("
+          },
+          {
+            "type": "page_link",
+            "page": 769,
+            "text": "769"
+          },
+          {
+            "type": "text",
+            "value": ") may be used in place of the Nicene Creed on Trinity Sunday and other occasions as appropriate."
+          }
+        ]
       },
       {
         "type": "text_block",
@@ -7932,7 +8156,21 @@
       },
       {
         "type": "rubric",
-        "text": "The People standing, the Celebrant says this or a seasonal greeting (pages 145-146)"
+        "content": [
+          {
+            "type": "text",
+            "value": "The People standing, the Celebrant says this or a seasonal greeting ("
+          },
+          {
+            "type": "page_link",
+            "page": 145,
+            "text": "145-146"
+          },
+          {
+            "type": "text",
+            "value": ")"
+          }
+        ]
       },
       {
         "type": "versical",
@@ -10950,7 +11188,7 @@
         "content": [
           {
             "type": "text",
-            "value": "A brief liturgy for the signing of the Declaration of Intention appears "
+            "value": "A brief liturgy for the signing of the Declaration of Intention appears on "
           },
           {
             "type": "page_link",
@@ -11530,7 +11768,21 @@
       },
       {
         "type": "rubric",
-        "text": "The Proper Preface of Holy Matrimony is used (page 156)."
+        "content": [
+          {
+            "type": "text",
+            "value": "The Proper Preface of Holy Matrimony is used ("
+          },
+          {
+            "type": "page_link",
+            "page": 156,
+            "text": "156"
+          },
+          {
+            "type": "text",
+            "value": ")."
+          }
+        ]
       },
       {
         "type": "rubric",
@@ -11568,7 +11820,7 @@
         "content": [
           {
             "type": "text",
-            "value": "In place of the examination of the man and the woman given in this liturgy ("
+            "value": "In place of the examination of the man and the woman given in this liturgy (on "
           },
           {
             "type": "page_link",
@@ -11630,7 +11882,7 @@
         "content": [
           {
             "type": "text",
-            "value": "In place of the sentence given for the exchange of rings ("
+            "value": "In place of the sentence given for the exchange of rings (on "
           },
           {
             "type": "page_link",
@@ -12289,7 +12541,7 @@
         "content": [
           {
             "type": "text",
-            "value": "Additional prayers or intercessions may be said. Additional prayers are "
+            "value": "Additional prayers or intercessions may be said. Additional prayers are on "
           },
           {
             "type": "page_link",
@@ -12298,7 +12550,7 @@
           },
           {
             "type": "text",
-            "value": ". See also Occasional Prayers #56-63 "
+            "value": ". See also Occasional Prayers #56-63 on "
           },
           {
             "type": "page_link",
@@ -12727,7 +12979,7 @@
         "content": [
           {
             "type": "text",
-            "value": "See also the Selections of Psalms "
+            "value": "See also the Selections of Psalms on "
           },
           {
             "type": "page_link",
@@ -12785,7 +13037,21 @@
       },
       {
         "type": "rubric",
-        "text": "This liturgy is intended to be prayed with one who has received Jesus Christ as Savior and Lord. The Officiant may appropriately inquire of the dying person as to his or her acceptance of the Christian faith. If the person has not been baptized, Emergency Baptism (page 173) should be administered before the use of this rite."
+        "content": [
+          {
+            "type": "text",
+            "value": "This liturgy is intended to be prayed with one who has received Jesus Christ as Savior and Lord. The Officiant may appropriately inquire of the dying person as to his or her acceptance of the Christian faith. If the person has not been baptized, Emergency Baptism ("
+          },
+          {
+            "type": "page_link",
+            "page": 173,
+            "text": "173"
+          },
+          {
+            "type": "text",
+            "value": ") should be administered before the use of this rite."
+          }
+        ]
       }
     ]
   },
@@ -13185,7 +13451,21 @@
       },
       {
         "type": "rubric",
-        "text": "The following and other additional prayers may be said. The Litany at the Time of Death (pages 237-239) may also be used."
+        "content": [
+          {
+            "type": "text",
+            "value": "The following and other additional prayers may be said. The Litany at the Time of Death ("
+          },
+          {
+            "type": "page_link",
+            "page": 237,
+            "text": "237-239"
+          },
+          {
+            "type": "text",
+            "value": ") may also be used."
+          }
+        ]
       },
       {
         "type": "text_block",
@@ -13371,7 +13651,21 @@
       },
       {
         "type": "text_block",
-        "text": "It is customary that the Officiant meet the body and go before it into the church (page 247) or towards the grave."
+        "content": [
+          {
+            "type": "text",
+            "value": "It is customary that the Officiant meet the body and go before it into the church ("
+          },
+          {
+            "type": "page_link",
+            "page": 247,
+            "text": "247"
+          },
+          {
+            "type": "text",
+            "value": ") or towards the grave."
+          }
+        ]
       },
       {
         "type": "text_block",
@@ -13901,7 +14195,21 @@
       },
       {
         "type": "rubric",
-        "text": "The Proper Preface of Burial is used (page 156)."
+        "content": [
+          {
+            "type": "text",
+            "value": "The Proper Preface of Burial is used ("
+          },
+          {
+            "type": "page_link",
+            "page": 156,
+            "text": "156"
+          },
+          {
+            "type": "text",
+            "value": ")."
+          }
+        ]
       },
       {
         "type": "section_title",
@@ -14223,7 +14531,21 @@
       },
       {
         "type": "rubric",
-        "text": "The following prayer or other Additional Prayers (pages 263-265) may be added."
+        "content": [
+          {
+            "type": "text",
+            "value": "The following prayer or other Additional Prayers ("
+          },
+          {
+            "type": "page_link",
+            "page": 263,
+            "text": "263-265"
+          },
+          {
+            "type": "text",
+            "value": ") may be added."
+          }
+        ]
       },
       {
         "type": "text_block",
@@ -14398,7 +14720,7 @@
         "content": [
           {
             "type": "text",
-            "value": "Recitation of the Psalms is central to daily worship throughout the Christian Tradition. Anglicanism at the time of the Reformation established that the entire Psalter should be read in the Daily Office every month. This one-month cycle is indicated within the Psalter itself. Contemporary practice sometimes lessens the number of daily psalms, so a sixty-day cycle is also printed alongside the readings in the Daily Office Lectionary "
+            "value": "Recitation of the Psalms is central to daily worship throughout the Christian Tradition. Anglicanism at the time of the Reformation established that the entire Psalter should be read in the Daily Office every month. This one-month cycle is indicated within the Psalter itself. Contemporary practice sometimes lessens the number of daily psalms, so a sixty-day cycle is also printed alongside the readings in the Daily Office Lectionary on "
           },
           {
             "type": "page_link",
@@ -17246,7 +17568,21 @@
       },
       {
         "type": "rubric",
-        "text": "The Ordinands kneel or lie prostrate, facing the Bishop. The Veni, Creator Spiritus (page 492) or other hymn to the Holy Spirit may be sung or said as a prayer for the renewal of the Church."
+        "content": [
+          {
+            "type": "text",
+            "value": "The Ordinands kneel or lie prostrate, facing the Bishop. The Veni, Creator Spiritus ("
+          },
+          {
+            "type": "page_link",
+            "page": 492,
+            "text": "492"
+          },
+          {
+            "type": "text",
+            "value": ") or other hymn to the Holy Spirit may be sung or said as a prayer for the renewal of the Church."
+          }
+        ]
       }
     ]
   },
@@ -17845,7 +18181,21 @@
       },
       {
         "type": "text_block",
-        "text": "You have heard, during the Church’s discernment of your vocation and in the Holy Scriptures themselves, how weighty is this Office to which you are called. I now exhort you, in the † The phrase “and the Son” (Latin filioque) is not in the original Greek text. See the resolution of the College of Bishops concerning the filioque in Documentary Foundations (page 768). Name of our Lord Jesus Christ, to be a messenger, watchman, and steward of the Lord. You are to teach, to warn, to feed, and to provide for the Lord’s family, and to seek for Christ’s sheep who are in the midst of this fallen world, that they may be saved through Christ for ever."
+        "content": [
+          {
+            "type": "text",
+            "value": "You have heard, during the Church’s discernment of your vocation and in the Holy Scriptures themselves, how weighty is this Office to which you are called. I now exhort you, in the † The phrase “and the Son” (Latin filioque) is not in the original Greek text. See the resolution of the College of Bishops concerning the filioque in Documentary Foundations ("
+          },
+          {
+            "type": "page_link",
+            "page": 768,
+            "text": "768"
+          },
+          {
+            "type": "text",
+            "value": "). Name of our Lord Jesus Christ, to be a messenger, watchman, and steward of the Lord. You are to teach, to warn, to feed, and to provide for the Lord’s family, and to seek for Christ’s sheep who are in the midst of this fallen world, that they may be saved through Christ for ever."
+          }
+        ]
       }
     ]
   },
@@ -19391,7 +19741,21 @@
       },
       {
         "type": "text_block",
-        "text": "When the Priest or Deacon being ordained is to be immediately instituted as Rector, the rite of the Institution of a Rector is not used. Instead, the Bishop reads the Letter of Institution (page 514) before the Peace during the Ordination liturgy."
+        "content": [
+          {
+            "type": "text",
+            "value": "When the Priest or Deacon being ordained is to be immediately instituted as Rector, the rite of the Institution of a Rector is not used. Instead, the Bishop reads the Letter of Institution ("
+          },
+          {
+            "type": "page_link",
+            "page": 514,
+            "text": "514"
+          },
+          {
+            "type": "text",
+            "value": ") before the Peace during the Ordination liturgy."
+          }
+        ]
       }
     ]
   },
@@ -19419,7 +19783,21 @@
       },
       {
         "type": "text_block",
-        "text": "The Bishop may adapt the Letter of Institution (page 514) and this liturgy as needed, particularly for a Vicar or other person exercising primary pastoral authority."
+        "content": [
+          {
+            "type": "text",
+            "value": "The Bishop may adapt the Letter of Institution ("
+          },
+          {
+            "type": "page_link",
+            "page": 514,
+            "text": "514"
+          },
+          {
+            "type": "text",
+            "value": ") and this liturgy as needed, particularly for a Vicar or other person exercising primary pastoral authority."
+          }
+        ]
       }
     ]
   },
@@ -19705,7 +20083,21 @@
       },
       {
         "type": "rubric",
-        "text": "The Litany for Ordinations (page 510) is sung or said."
+        "content": [
+          {
+            "type": "text",
+            "value": "The Litany for Ordinations ("
+          },
+          {
+            "type": "page_link",
+            "page": 510,
+            "text": "510"
+          },
+          {
+            "type": "text",
+            "value": ") is sung or said."
+          }
+        ]
       },
       {
         "type": "rubric",
@@ -20149,7 +20541,30 @@
       },
       {
         "type": "text_block",
-        "text": "Instructions for the setting apart of a church or chapel long in use, and for other special cases, are provided in Additional Directions (page 537). Also provided is a form for secularizing a facility previously used as a Place of Worship, when the use of the building for worship, or for the ministry of the Congregation, has ended (page 538)."
+        "content": [
+          {
+            "type": "text",
+            "value": "Instructions for the setting apart of a church or chapel long in use, and for other special cases, are provided in Additional Directions ("
+          },
+          {
+            "type": "page_link",
+            "page": 537,
+            "text": "537"
+          },
+          {
+            "type": "text",
+            "value": "). Also provided is a form for secularizing a facility previously used as a Place of Worship, when the use of the building for worship, or for the ministry of the Congregation, has ended ("
+          },
+          {
+            "type": "page_link",
+            "page": 538,
+            "text": "538"
+          },
+          {
+            "type": "text",
+            "value": ")."
+          }
+        ]
       }
     ]
   },
@@ -27365,7 +27780,7 @@
         "content": [
           {
             "type": "text",
-            "value": "See also the Ember Day Collects "
+            "value": "See also the Ember Day Collects on "
           },
           {
             "type": "page_link",
@@ -27401,7 +27816,7 @@
         "content": [
           {
             "type": "text",
-            "value": "See also the Prayers for Mission in Morning and Evening Prayer "
+            "value": "See also the Prayers for Mission in Morning and Evening Prayer on "
           },
           {
             "type": "page_link",
@@ -27460,7 +27875,7 @@
         "content": [
           {
             "type": "text",
-            "value": "See also Prayer 48 and the Rogation Day Collects "
+            "value": "See also Prayer 48 and the Rogation Day Collects on "
           },
           {
             "type": "page_link",
@@ -27632,7 +28047,7 @@
         "content": [
           {
             "type": "text",
-            "value": "See also Prayer 23 and the Rogation Day Collects "
+            "value": "See also Prayer 23 and the Rogation Day Collects on "
           },
           {
             "type": "page_link",
@@ -27679,7 +28094,7 @@
         "content": [
           {
             "type": "text",
-            "value": "See also Additional Prayers in Family Prayer "
+            "value": "See also Additional Prayers in Family Prayer on "
           },
           {
             "type": "page_link",
@@ -27737,7 +28152,7 @@
         "content": [
           {
             "type": "text",
-            "value": "See also Additional Prayers in The Rites of Healing "
+            "value": "See also Additional Prayers in The Rites of Healing on "
           },
           {
             "type": "page_link",
@@ -27784,7 +28199,7 @@
         "content": [
           {
             "type": "text",
-            "value": "See also Additional Prayers in Family Prayer "
+            "value": "See also Additional Prayers in Family Prayer on "
           },
           {
             "type": "page_link",
@@ -27896,7 +28311,30 @@
       },
       {
         "type": "rubric",
-        "text": "See also Morning Prayer (pages 10-26) and Family Prayer (pages 67-68)"
+        "content": [
+          {
+            "type": "text",
+            "value": "See also Morning Prayer ("
+          },
+          {
+            "type": "page_link",
+            "page": 10,
+            "text": "10-26"
+          },
+          {
+            "type": "text",
+            "value": ") and Family Prayer ("
+          },
+          {
+            "type": "page_link",
+            "page": 67,
+            "text": "67-68"
+          },
+          {
+            "type": "text",
+            "value": ")"
+          }
+        ]
       }
     ]
   },
@@ -27913,7 +28351,7 @@
         "content": [
           {
             "type": "text",
-            "value": "See also Additional Prayers in Family Prayer "
+            "value": "See also Additional Prayers in Family Prayer on "
           },
           {
             "type": "page_link",
@@ -27932,7 +28370,39 @@
       },
       {
         "type": "rubric",
-        "text": "See also Evening Prayer (pages 41-53), Compline (pages 57-65), and Family Prayer (pages 71-74)"
+        "content": [
+          {
+            "type": "text",
+            "value": "See also Evening Prayer ("
+          },
+          {
+            "type": "page_link",
+            "page": 41,
+            "text": "41-53"
+          },
+          {
+            "type": "text",
+            "value": "), Compline ("
+          },
+          {
+            "type": "page_link",
+            "page": 57,
+            "text": "57-65"
+          },
+          {
+            "type": "text",
+            "value": "), and Family Prayer ("
+          },
+          {
+            "type": "page_link",
+            "page": 71,
+            "text": "71-74"
+          },
+          {
+            "type": "text",
+            "value": ")"
+          }
+        ]
       },
       {
         "type": "occasional_prayer",
@@ -28119,7 +28589,7 @@
         "content": [
           {
             "type": "text",
-            "value": "See also Additional Prayers in Burial of the Dead "
+            "value": "See also Additional Prayers in Burial of the Dead on "
           },
           {
             "type": "page_link",
@@ -28147,7 +28617,7 @@
         "content": [
           {
             "type": "text",
-            "value": "See also the General Thanksgiving "
+            "value": "See also the General Thanksgiving on "
           },
           {
             "type": "page_link",
@@ -28156,7 +28626,7 @@
           },
           {
             "type": "text",
-            "value": " and A Litany of Thanksgiving for a Church "
+            "value": " and A Litany of Thanksgiving for a Church on "
           },
           {
             "type": "page_link",

@@ -521,7 +521,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "The Proper Preface of Burial is used (page 156)."
+						"content": [
+							{
+								"type": "text",
+								"value": "The Proper Preface of Burial is used ("
+							},
+							{
+								"type": "page_link",
+								"page": 156,
+								"text": "156"
+							},
+							{
+								"type": "text",
+								"value": ")."
+							}
+						]
 					},
 					{
 						"type": "section_title",

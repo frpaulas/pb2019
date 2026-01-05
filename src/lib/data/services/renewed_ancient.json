@@ -53,7 +53,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "The People standing, the Celebrant says this or a seasonal greeting (pages 145-146)"
+						"content": [
+							{
+								"type": "text",
+								"value": "The People standing, the Celebrant says this or a seasonal greeting ("
+							},
+							{
+								"type": "page_link",
+								"page": 145,
+								"text": "145-146"
+							},
+							{
+								"type": "text",
+								"value": ")"
+							}
+						]
 					},
 					{
 						"type": "versical",
@@ -112,7 +126,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "Then follows the Summary of the Law, or The Decalogue (page 100)."
+						"content": [
+							{
+								"type": "text",
+								"value": "Then follows the Summary of the Law, or The Decalogue ("
+							},
+							{
+								"type": "page_link",
+								"page": 100,
+								"text": "100"
+							},
+							{
+								"type": "text",
+								"value": ")."
+							}
+						]
 					},
 					{
 						"type": "line",
@@ -638,7 +666,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "Here a Proper Preface (pages 152-158) is normally sung or said."
+						"content": [
+							{
+								"type": "text",
+								"value": "Here a Proper Preface ("
+							},
+							{
+								"type": "page_link",
+								"page": 152,
+								"text": "152-158"
+							},
+							{
+								"type": "text",
+								"value": ") is normally sung or said."
+							}
+						]
 					},
 					{
 						"type": "text_block",

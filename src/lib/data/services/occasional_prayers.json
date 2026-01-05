@@ -93,7 +93,7 @@
 						"content": [
 							{
 								"type": "text",
-								"value": "See also the Ember Day Collects "
+								"value": "See also the Ember Day Collects on "
 							},
 							{
 								"type": "page_link",
@@ -127,7 +127,7 @@
 						"content": [
 							{
 								"type": "text",
-								"value": "See also the Prayers for Mission in Morning and Evening Prayer "
+								"value": "See also the Prayers for Mission in Morning and Evening Prayer on "
 							},
 							{
 								"type": "page_link",
@@ -182,7 +182,7 @@
 						"content": [
 							{
 								"type": "text",
-								"value": "See also Prayer 48 and the Rogation Day Collects "
+								"value": "See also Prayer 48 and the Rogation Day Collects on "
 							},
 							{
 								"type": "page_link",
@@ -340,7 +340,7 @@
 						"content": [
 							{
 								"type": "text",
-								"value": "See also Prayer 23 and the Rogation Day Collects "
+								"value": "See also Prayer 23 and the Rogation Day Collects on "
 							},
 							{
 								"type": "page_link",
@@ -383,7 +383,7 @@
 						"content": [
 							{
 								"type": "text",
-								"value": "See also Additional Prayers in Family Prayer "
+								"value": "See also Additional Prayers in Family Prayer on "
 							},
 							{
 								"type": "page_link",
@@ -437,7 +437,7 @@
 						"content": [
 							{
 								"type": "text",
-								"value": "See also Additional Prayers in The Rites of Healing "
+								"value": "See also Additional Prayers in The Rites of Healing on "
 							},
 							{
 								"type": "page_link",
@@ -480,7 +480,7 @@
 						"content": [
 							{
 								"type": "text",
-								"value": "See also Additional Prayers in Family Prayer "
+								"value": "See also Additional Prayers in Family Prayer on "
 							},
 							{
 								"type": "page_link",
@@ -584,7 +584,30 @@
 					},
 					{
 						"type": "rubric",
-						"text": "See also Morning Prayer (pages 10-26) and Family Prayer (pages 67-68)"
+						"content": [
+							{
+								"type": "text",
+								"value": "See also Morning Prayer ("
+							},
+							{
+								"type": "page_link",
+								"page": 10,
+								"text": "10-26"
+							},
+							{
+								"type": "text",
+								"value": ") and Family Prayer ("
+							},
+							{
+								"type": "page_link",
+								"page": 67,
+								"text": "67-68"
+							},
+							{
+								"type": "text",
+								"value": ")"
+							}
+						]
 					},
 					{
 						"type": "page_break",
@@ -599,7 +622,7 @@
 						"content": [
 							{
 								"type": "text",
-								"value": "See also Additional Prayers in Family Prayer "
+								"value": "See also Additional Prayers in Family Prayer on "
 							},
 							{
 								"type": "page_link",
@@ -618,7 +641,39 @@
 					},
 					{
 						"type": "rubric",
-						"text": "See also Evening Prayer (pages 41-53), Compline (pages 57-65), and Family Prayer (pages 71-74)"
+						"content": [
+							{
+								"type": "text",
+								"value": "See also Evening Prayer ("
+							},
+							{
+								"type": "page_link",
+								"page": 41,
+								"text": "41-53"
+							},
+							{
+								"type": "text",
+								"value": "), Compline ("
+							},
+							{
+								"type": "page_link",
+								"page": 57,
+								"text": "57-65"
+							},
+							{
+								"type": "text",
+								"value": "), and Family Prayer ("
+							},
+							{
+								"type": "page_link",
+								"page": 71,
+								"text": "71-74"
+							},
+							{
+								"type": "text",
+								"value": ")"
+							}
+						]
 					},
 					{
 						"type": "occasional_prayer",
@@ -789,7 +844,7 @@
 						"content": [
 							{
 								"type": "text",
-								"value": "See also Additional Prayers in Burial of the Dead "
+								"value": "See also Additional Prayers in Burial of the Dead on "
 							},
 							{
 								"type": "page_link",
@@ -815,7 +870,7 @@
 						"content": [
 							{
 								"type": "text",
-								"value": "See also the General Thanksgiving "
+								"value": "See also the General Thanksgiving on "
 							},
 							{
 								"type": "page_link",
@@ -824,7 +879,7 @@
 							},
 							{
 								"type": "text",
-								"value": " and A Litany of Thanksgiving for a Church "
+								"value": " and A Litany of Thanksgiving for a Church on "
 							},
 							{
 								"type": "page_link",

@@ -113,8 +113,8 @@ class RawToJsonConverter {
 	}
 
 	parsePageLinks(text) {
-		// Pattern: "on page n" or "on pages n-m"
-		const pagePattern = /\bon pages? (\d+)(?:-(\d+))?/g;
+		// Pattern: "page n", "pages n-m", "on page n", or "on pages n-m"
+		const pagePattern = /\bpages? (\d+)(?:-(\d+))?/g;
 		const result = [];
 		let lastIndex = 0;
 

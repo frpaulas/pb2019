@@ -405,7 +405,21 @@
 					},
 					{
 						"type": "text_block",
-						"text": "You have heard, during the Church’s discernment of your vocation and in the Holy Scriptures themselves, how weighty is this Office to which you are called. I now exhort you, in the † The phrase “and the Son” (Latin filioque) is not in the original Greek text. See the resolution of the College of Bishops concerning the filioque in Documentary Foundations (page 768). Name of our Lord Jesus Christ, to be a messenger, watchman, and steward of the Lord. You are to teach, to warn, to feed, and to provide for the Lord’s family, and to seek for Christ’s sheep who are in the midst of this fallen world, that they may be saved through Christ for ever."
+						"content": [
+							{
+								"type": "text",
+								"value": "You have heard, during the Church’s discernment of your vocation and in the Holy Scriptures themselves, how weighty is this Office to which you are called. I now exhort you, in the † The phrase “and the Son” (Latin filioque) is not in the original Greek text. See the resolution of the College of Bishops concerning the filioque in Documentary Foundations ("
+							},
+							{
+								"type": "page_link",
+								"page": 768,
+								"text": "768"
+							},
+							{
+								"type": "text",
+								"value": "). Name of our Lord Jesus Christ, to be a messenger, watchman, and steward of the Lord. You are to teach, to warn, to feed, and to provide for the Lord’s family, and to seek for Christ’s sheep who are in the midst of this fallen world, that they may be saved through Christ for ever."
+							}
+						]
 					},
 					{
 						"type": "page_break",

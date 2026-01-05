@@ -676,7 +676,21 @@
 					},
 					{
 						"type": "rubric",
-						"text": "The Supplication may end here, or may conclude with the prayer of St. John Chrysostom and the Grace (page 52)."
+						"content": [
+							{
+								"type": "text",
+								"value": "The Supplication may end here, or may conclude with the prayer of St. John Chrysostom and the Grace ("
+							},
+							{
+								"type": "page_link",
+								"page": 52,
+								"text": "52"
+							},
+							{
+								"type": "text",
+								"value": ")."
+							}
+						]
 					},
 					{
 						"type": "page_break",
