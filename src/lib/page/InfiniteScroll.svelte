@@ -716,6 +716,7 @@
 	.page-container {
 		/* Removed scroll-snap-align to prevent snapping */
 		contain: layout style paint;
+		margin-left: 1em;
 	}
 
 	.scroll-container {
