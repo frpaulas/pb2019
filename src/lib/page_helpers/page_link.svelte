@@ -22,13 +22,20 @@
 		// Open modal with the page reference
 		pageLinkModal.open(page, actualEndPage, returnPage);
 	}
+
+	// Format display text with "page" or "pages" prefix
+	let displayText = $derived(() => {
+		const isRange = text?.includes('-') || endPage;
+		const prefix = isRange ? 'pages ' : 'page ';
+		return prefix + (text || page);
+	});
 </script>
 
 <button
 	type="button"
 	onclick={handleClick}
-	class="text-blue-600 hover:text-blue-800 underline cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 rounded"
-	aria-label={endPage || text.includes('-') ? `View pages ${text}` : `View page ${page}`}
+	class="cursor-pointer rounded text-blue-600 underline hover:text-blue-800 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none"
+	aria-label={endPage || text?.includes('-') ? `View pages ${text}` : `View page ${page}`}
 >
-	{text || page}
+	{displayText()}
 </button>
