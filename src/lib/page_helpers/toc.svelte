@@ -9,6 +9,7 @@
 
 	function handleClick(event) {
 		event.preventDefault();
+		event.stopPropagation();
 		goto(`${base}/pg/${page}`);
 	}
 </script>
@@ -21,8 +22,8 @@
 	{/if}
 
 	{#if page > 0}
-		<a href="{base}/pg/{page}" class={button_class} onclick={handleClick}>
+		<button type="button" class={button_class} onclick={handleClick}>
 			{page}
-		</a>
+		</button>
 	{/if}
 </div>
