@@ -48,9 +48,9 @@
 	const day = parseInt($page.params.day);
 	const year = new Date().getFullYear();
 
-	// Get feast day information
-	const feastDay = getFeastDay(month, day);
-	const isRLD = isRedLetterDay(month, day);
+	// Get feast day information (with year for transfer logic)
+	const feastDay = getFeastDay(month, day, year);
+	const isRLD = isRedLetterDay(month, day, year);
 
 	// Get RLD Eucharist readings if this is an RLD
 	function getRLDEucharistReadings(): RLDEucharist | null {

@@ -64,7 +64,7 @@
 			const date = new Date(currentYear, currentMonth - 1, dayNum);
 			const month = currentMonth === 0 ? 12 : currentMonth;
 			const year = currentMonth === 0 ? currentYear - 1 : currentYear;
-			const feastDay = getFeastDay(month, dayNum);
+			const feastDay = getFeastDay(month, dayNum, year);
 			const isSunday = date.getDay() === 0;
 			const sundayKey = isSunday ? getSundayLectionaryKey(year, month, dayNum) : null;
 			const sundayName = sundayKey ? formatSundayName(sundayKey) : null;
@@ -78,7 +78,7 @@
 				isNextMonth: false,
 				isToday: isToday(date),
 				isSunday,
-				isRLD: isRedLetterDay(month, dayNum),
+				isRLD: isRedLetterDay(month, dayNum, year),
 				feastDay: feastDay?.name || null,
 				sundayName,
 				sundayFullName,
@@ -90,7 +90,7 @@
 		for (let day = 1; day <= daysInMonth; day++) {
 			const date = new Date(currentYear, currentMonth, day);
 			const month = currentMonth + 1;
-			const feastDay = getFeastDay(month, day);
+			const feastDay = getFeastDay(month, day, currentYear);
 			const isSunday = date.getDay() === 0;
 			const sundayKey = isSunday ? getSundayLectionaryKey(currentYear, month, day) : null;
 			const sundayName = sundayKey ? formatSundayName(sundayKey) : null;
@@ -104,7 +104,7 @@
 				isNextMonth: false,
 				isToday: isToday(date),
 				isSunday,
-				isRLD: isRedLetterDay(month, day),
+				isRLD: isRedLetterDay(month, day, currentYear),
 				feastDay: feastDay?.name || null,
 				sundayName,
 				sundayFullName,
@@ -121,7 +121,7 @@
 				const date = new Date(currentYear, currentMonth + 1, day);
 				const month = currentMonth === 11 ? 1 : currentMonth + 2;
 				const year = currentMonth === 11 ? currentYear + 1 : currentYear;
-				const feastDay = getFeastDay(month, day);
+				const feastDay = getFeastDay(month, day, year);
 				const isSunday = date.getDay() === 0;
 				const sundayKey = isSunday ? getSundayLectionaryKey(year, month, day) : null;
 				const sundayName = sundayKey ? formatSundayName(sundayKey) : null;
@@ -135,7 +135,7 @@
 					isNextMonth: true,
 					isToday: isToday(date),
 					isSunday,
-					isRLD: isRedLetterDay(month, day),
+					isRLD: isRedLetterDay(month, day, year),
 					feastDay: feastDay?.name || null,
 					sundayName,
 					sundayFullName,
@@ -191,7 +191,7 @@
 		sundayKey: string | null
 	): 'red' | 'purple' | 'white' | 'green' {
 		// 1. Check if this is a feast day with its own color
-		const feastDay = getFeastDay(month, day);
+		const feastDay = getFeastDay(month, day, year);
 		if (feastDay?.color) {
 			return feastDay.color;
 		}
