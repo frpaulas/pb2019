@@ -6,7 +6,8 @@
 
 	// Use windowed infinite scroll by default
 	let useInfiniteScroll = $state(true);
-	let page_number = $page.params.page_number;
+	// Make page_number reactive to route changes
+	let page_number = $derived($page.params.page_number);
 
 	onMount(() => {
 		console.log(

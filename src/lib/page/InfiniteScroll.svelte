@@ -26,9 +26,9 @@
 		return romanToPageNumber[displayPage] || displayPage;
 	}
 
-	let currentPageNumber = $page.params.page_number;
+	let currentPageNumber = $derived($page.params.page_number);
 	// For landing page (iii), also load the next page (iv)
-	const initialPages = currentPageNumber === 'iii' ? ['iii', 'iv'] : [$page.params.page_number];
+	const initialPages = currentPageNumber === 'iii' ? ['iii', 'iv'] : [currentPageNumber];
 	let loadedPages = $state(initialPages);
 
 	// Initialize the visible page store with the current route page
