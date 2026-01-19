@@ -1,5 +1,5 @@
 <script>
-	import { onMount, tick } from 'svelte';
+	import { onMount, tick, untrack } from 'svelte';
 	import { goto } from '$app/navigation';
 	import { page } from '$app/stores';
 	import IntentionallyBlank from '$lib/page_helpers/intentionally_blank.svelte';
@@ -422,23 +422,10 @@
 							}
 							// Always update the visible page store for the header
 							currentVisiblePage.set(mostVisible);
-							// Don't update lastHandledPage until user has scrolled
-							// This prevents the $effect from triggering during initial load
-							if (hasUserScrolled && mostVisible !== lastHandledPage) {
-								console.log(
-									'[OBSERVER] Updating to most visible page:',
-									mostVisible,
-									'(from',
-									mostVisiblePageBreak ? 'page-break' : 'page-container',
-									') from:',
-									lastHandledPage
-								);
-								lastHandledPage = mostVisible;
-
-								// DISABLED: URL update during scroll - causes jump to scrollTop: 0
-								// Keep the header updated via currentVisiblePage store
-								// TODO: Find a way to update URL without breaking scroll
-							}
+							// NOTE: We do NOT update lastHandledPage here during scroll.
+							// lastHandledPage tracks what the URL requested, not what's visible.
+							// Updating it here would cause the effect to scroll back to the URL page
+							// when isUserScrolling becomes false.
 						}
 					}, 150); // 150ms debounce - wait for DOM to settle
 				},
@@ -488,27 +475,23 @@
 	});
 
 	// Watch for page parameter changes from navigation
+	// IMPORTANT: Only track $page changes, not scroll state changes
 	$effect(() => {
 		const newPage = $page.params.page_number;
+		const hash = $page.url.hash; // Get the URL hash (e.g., #psalm-77)
 
-		// If infinite scroll is active but user hasn't scrolled recently (navigating via menu),
-		// treat it as true navigation
-		if (isInfiniteScrollActive && isUserScrolling) {
+		// Read scroll state WITHOUT creating dependencies using untrack
+		const scrolling = untrack(() => isUserScrolling);
+		const infiniteActive = untrack(() => isInfiniteScrollActive);
+		const userScrolled = untrack(() => hasUserScrolled);
+
+		// Skip if user is actively scrolling - don't interrupt their browsing
+		if (infiniteActive && scrolling) {
 			console.log('[EFFECT] Skipping - user is actively scrolling');
 			return;
 		}
 
-		// If infinite scroll was active but user stopped scrolling, reset the flag
-		// This allows menu navigation to work properly
-		if (isInfiniteScrollActive && !isUserScrolling) {
-			console.log('[EFFECT] Resetting infinite scroll - user not scrolling');
-			isInfiniteScrollActive = false;
-		}
-		const hash = $page.url.hash; // Get the URL hash (e.g., #psalm-77)
-
 		console.log('[EFFECT] URL changed to:', newPage, {
-			isUpdatingUrlFromScroll,
-			isInfiniteScrollActive,
 			lastHandledPage,
 			loadedPages: $state.snapshot(loadedPages),
 			hash
@@ -564,12 +547,7 @@
 
 			// If page is already loaded, infinite scroll is active, AND user is scrolling
 			// just update tracking. Don't reset or scroll - they're actively browsing.
-			if (
-				isInfiniteScrollActive &&
-				currentPages.includes(newPage) &&
-				hasUserScrolled &&
-				isUserScrolling
-			) {
+			if (infiniteActive && currentPages.includes(newPage) && userScrolled && scrolling) {
 				lastHandledPage = newPage;
 				return;
 			}
@@ -578,7 +556,7 @@
 
 			// If page is already loaded but user navigated via menu (not scrolling),
 			// we need to scroll to show that page
-			if (currentPages.includes(newPage) && !isUserScrolling && container) {
+			if (currentPages.includes(newPage) && !scrolling && container) {
 				console.log('[EFFECT] Page already loaded, scrolling to show it:', newPage);
 				tick().then(() => {
 					const targetPageElement = container?.querySelector(`[data-page="${newPage}"]`);
@@ -600,63 +578,40 @@
 				isInfiniteScrollActive = false;
 				hasUserScrolled = false;
 				const hasPrev = getPrevPage(newPage);
-				const pagesToLoad = hasPrev ? [hasPrev, newPage] : [newPage];
+				const hasNext = getNextPage(newPage);
+				// Load prev and target pages first
+				let pagesToLoad = [newPage];
+				if (hasPrev) pagesToLoad.unshift(hasPrev);
 				loadedPages = pagesToLoad;
 
 				// Scroll to show the target page at top, or to hash anchor if present
 				if (container) {
-					if (hasPrev) {
-						// First, reset scroll to 0 to establish consistent baseline
-						container.scrollTop = 0;
-
-						// Wait for DOM to render, then scroll to target page or anchor
-						tick().then(() => {
-							// Function to try scrolling to anchor with retries
-							const tryScrollToAnchor = (attempt = 0, maxAttempts = 10) => {
-								if (hash) {
-									const anchorElement = container?.querySelector(hash);
-									if (anchorElement) {
-										// Scroll to the anchor element
-										const targetScroll = anchorElement.offsetTop - 50;
-										container.scrollTop = targetScroll;
-
-										// Double-set to override any interference
-										setTimeout(() => {
-											container.scrollTop = targetScroll;
-										}, 100);
-
-										// Triple-set for extra persistence
-										setTimeout(() => {
-											container.scrollTop = targetScroll;
-										}, 300);
-										return;
-									} else if (attempt < maxAttempts) {
-										// Retry after delay
-										setTimeout(() => tryScrollToAnchor(attempt + 1, maxAttempts), 100);
-										return;
-									}
+					// Wait for DOM to fully render before scrolling
+					tick().then(() => {
+						setTimeout(() => {
+							// Set scroll position to target page
+							if (hash) {
+								const anchorElement = container?.querySelector(hash);
+								if (anchorElement) {
+									const targetScroll = anchorElement.offsetTop - 50;
+									container.scrollTop = targetScroll;
 								}
-
-								// No hash or anchor not found, scroll to page top
+							} else {
 								const targetPageElement = container?.querySelector(`[data-page="${newPage}"]`);
 								if (targetPageElement) {
-									// Subtract offset to show page higher on screen
 									const targetScroll = targetPageElement.offsetTop - 50;
 									container.scrollTop = targetScroll;
-
-									// Double-set to override any interference
-									setTimeout(() => {
-										container.scrollTop = targetScroll;
-									}, 100);
+								} else if (!hasPrev) {
+									container.scrollTop = 0;
 								}
-							};
+							}
 
-							setTimeout(() => tryScrollToAnchor(), 50);
-						});
-					} else {
-						// No previous page, just scroll to top
-						container.scrollTop = 0;
-					}
+							// Now add the next page after scroll is set
+							if (hasNext) {
+								loadedPages = [...$state.snapshot(loadedPages), hasNext];
+							}
+						}, 50);
+					});
 				}
 			} else if (!currentPages.includes(newPage)) {
 				// Add to existing pages if adjacent
