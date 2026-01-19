@@ -558,6 +558,8 @@
 			// we need to scroll to show that page
 			if (currentPages.includes(newPage) && !scrolling && container) {
 				console.log('[EFFECT] Page already loaded, scrolling to show it:', newPage);
+				// Update the visible page store immediately for the page indicator
+				currentVisiblePage.set(newPage);
 				tick().then(() => {
 					const targetPageElement = container?.querySelector(`[data-page="${newPage}"]`);
 					if (targetPageElement) {
@@ -577,6 +579,8 @@
 				// True navigation - reset infinite scroll state and load target page
 				isInfiniteScrollActive = false;
 				hasUserScrolled = false;
+				// Update the visible page store immediately for the page indicator
+				currentVisiblePage.set(newPage);
 				const hasPrev = getPrevPage(newPage);
 				const hasNext = getNextPage(newPage);
 				// Load prev and target pages first
