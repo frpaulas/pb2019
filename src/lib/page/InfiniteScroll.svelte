@@ -27,6 +27,8 @@
 	}
 
 	let currentPageNumber = $derived($page.params.page_number);
+	// Track the last page we actually handled/scrolled to (separate from derived value)
+	let lastHandledPage = $state($page.params.page_number);
 	// For landing page (iii), also load the next page (iv)
 	const initialPages = currentPageNumber === 'iii' ? ['iii', 'iv'] : [currentPageNumber];
 	let loadedPages = $state(initialPages);
@@ -420,18 +422,18 @@
 							}
 							// Always update the visible page store for the header
 							currentVisiblePage.set(mostVisible);
-							// Don't update currentPageNumber until user has scrolled
+							// Don't update lastHandledPage until user has scrolled
 							// This prevents the $effect from triggering during initial load
-							if (hasUserScrolled && mostVisible !== currentPageNumber) {
+							if (hasUserScrolled && mostVisible !== lastHandledPage) {
 								console.log(
 									'[OBSERVER] Updating to most visible page:',
 									mostVisible,
 									'(from',
 									mostVisiblePageBreak ? 'page-break' : 'page-container',
 									') from:',
-									currentPageNumber
+									lastHandledPage
 								);
-								currentPageNumber = mostVisible;
+								lastHandledPage = mostVisible;
 
 								// DISABLED: URL update during scroll - causes jump to scrollTop: 0
 								// Keep the header updated via currentVisiblePage store
@@ -507,13 +509,13 @@
 		console.log('[EFFECT] URL changed to:', newPage, {
 			isUpdatingUrlFromScroll,
 			isInfiniteScrollActive,
-			currentPageNumber,
+			lastHandledPage,
 			loadedPages: $state.snapshot(loadedPages),
 			hash
 		});
 
 		// Handle hash anchor even if we're already on the page
-		if (hash && newPage === currentPageNumber && container) {
+		if (hash && newPage === lastHandledPage && container) {
 			tick().then(() => {
 				// Function to try scrolling to anchor with retries
 				const tryScrollToAnchor = (attempt = 0, maxAttempts = 10) => {
@@ -547,7 +549,7 @@
 			});
 		}
 
-		if (newPage && newPage !== currentPageNumber) {
+		if (newPage && newPage !== lastHandledPage) {
 			const currentPages = $state.snapshot(loadedPages);
 
 			// Check if the new page is adjacent to current loaded pages
@@ -562,18 +564,36 @@
 
 			// If page is already loaded, infinite scroll is active, AND user is scrolling
 			// just update tracking. Don't reset or scroll - they're actively browsing.
-			// But if they're NOT scrolling (e.g., navigating via menu), reset everything.
 			if (
 				isInfiniteScrollActive &&
 				currentPages.includes(newPage) &&
 				hasUserScrolled &&
 				isUserScrolling
 			) {
-				currentPageNumber = newPage;
+				lastHandledPage = newPage;
 				return;
 			}
 
-			currentPageNumber = newPage;
+			lastHandledPage = newPage;
+
+			// If page is already loaded but user navigated via menu (not scrolling),
+			// we need to scroll to show that page
+			if (currentPages.includes(newPage) && !isUserScrolling && container) {
+				console.log('[EFFECT] Page already loaded, scrolling to show it:', newPage);
+				tick().then(() => {
+					const targetPageElement = container?.querySelector(`[data-page="${newPage}"]`);
+					if (targetPageElement) {
+						const targetScroll = targetPageElement.offsetTop - 50;
+						container.scrollTop = targetScroll;
+						// Double-set to override any interference
+						setTimeout(() => {
+							if (container) container.scrollTop = targetScroll;
+						}, 100);
+					}
+				});
+				return;
+			}
+
 			if (!currentPages.includes(newPage) && !isAdjacent) {
 				console.log('[EFFECT] TRUE NAVIGATION - Resetting pages to:', newPage);
 				// True navigation - reset infinite scroll state and load target page
