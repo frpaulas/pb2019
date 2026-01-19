@@ -48,7 +48,7 @@ use:canticle:venite:
 
 pb:15
 r: or this
-vm:2
+vm:2:
 use:canticle:jubilate:
 r: During the first week of Easter, the Pascha Nostrum, without antiphons,
     is used in place of the Invitatory Psalm, and it may be used throughout Eastertide.
@@ -58,6 +58,7 @@ use:canticle:pacha_nostrum:
 pb:17
 r: Then follows
 st: the psalm or psalms appointed: the psalm or psalms appointed
+use:appointed_psalms:morning
 r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
 use:gloria:
 st: the lessons: the lessons

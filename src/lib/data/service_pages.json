@@ -399,7 +399,7 @@
     "content": [
       {
         "type": "rubric",
-        "text": "or this vm:2"
+        "text": "or this vm:2:"
       },
       {
         "type": "canticle",
@@ -432,6 +432,10 @@
       {
         "type": "section_title",
         "text": "the psalm or psalms appointed: the psalm or psalms appointed"
+      },
+      {
+        "type": "appointed_psalms",
+        "office": "morning"
       },
       {
         "type": "rubric",
@@ -1869,10 +1873,6 @@
     "headerText": "Daily Evening Prayer",
     "content": [
       {
-        "type": "text_block",
-        "text": "O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you, all nations obey you, all tongues confess and bless you, and men, women, and children everywhere love you and serve you in peace; through Jesus Christ our Lord. **Amen.**"
-      },
-      {
         "type": "rubric",
         "text": "or this"
       },
@@ -1924,6 +1924,10 @@
       {
         "type": "section_title",
         "text": "the psalm or psalms appointed"
+      },
+      {
+        "type": "appointed_psalms",
+        "office": "evening"
       },
       {
         "type": "rubric",
@@ -2226,6 +2230,10 @@
       {
         "type": "section_title",
         "text": "prayer for mission"
+      },
+      {
+        "type": "text_block",
+        "text": "O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you, all nations obey you, all tongues confess and bless you, and men, women, and children everywhere love you and serve you in peace; through Jesus Christ our Lord. **Amen.**"
       }
     ]
   },

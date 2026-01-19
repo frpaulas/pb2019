@@ -29,6 +29,7 @@ use:canticle:phos_hilaron
 
 r: Then follows
 st: the psalm or psalms appointed
+use:appointed_psalms:evening
 r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
 use:gloria:
 

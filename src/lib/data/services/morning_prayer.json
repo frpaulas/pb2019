@@ -216,7 +216,7 @@
 					},
 					{
 						"type": "rubric",
-						"text": "or this vm:2"
+						"text": "or this vm:2:"
 					},
 					{
 						"type": "canticle",
@@ -245,6 +245,10 @@
 					{
 						"type": "section_title",
 						"text": "the psalm or psalms appointed: the psalm or psalms appointed"
+					},
+					{
+						"type": "appointed_psalms",
+						"office": "morning"
 					},
 					{
 						"type": "rubric",

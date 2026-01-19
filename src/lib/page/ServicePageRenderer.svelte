@@ -11,6 +11,7 @@
 	import OrThis from '$lib/text_component/or_this.svelte';
 	import Gloria from '$lib/text_component/gloria.svelte';
 	import ShowPsalm from '$lib/page_helpers/show_psalm.svelte';
+	import ShowAppointedPsalms from '$lib/page_helpers/show_appointed_psalms.svelte';
 	import OfficeConfessionIntro from '$lib/prayer/office_confession_intro.svelte';
 	import OfficeConfession from '$lib/prayer/office_confession.svelte';
 	import OfficeAbsolution from '$lib/prayer/office_absolution.svelte';
@@ -69,9 +70,11 @@
 	{:else if block.type === 'line'}
 		<Line bold={block.bold || false} indent={block.indent || false} text={block.text} />
 	{:else if block.type === 'versical'}
-		<Versical officiant={block.officiant || false} people={block.people || false}>
-			{block.text}
-		</Versical>
+		<Versical
+			officiant={block.officiant || false}
+			people={block.people || false}
+			text={block.text}
+		/>
 	{:else if block.type === 'antiphon'}
 		<Antiphon call={block.call} response={block.response} />
 	{:else if block.type === 'ref'}
@@ -90,6 +93,8 @@
 			bold={block.bold || false}
 			showTitle={block.showTitle || false}
 		/>
+	{:else if block.type === 'appointed_psalms'}
+		<ShowAppointedPsalms office={block.office} />
 	{:else if block.type === 'office_confession_intro'}
 		<OfficeConfessionIntro />
 	{:else if block.type === 'office_confession'}

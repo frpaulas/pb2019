@@ -832,6 +832,16 @@ class RawToJsonConverter {
 			};
 		}
 
+		// Handle appointed_psalms: use:appointed_psalms:morning or use:appointed_psalms:evening
+		// Format: use:appointed_psalms:office - shows psalms appointed for the day
+		if (componentName === 'appointed_psalms') {
+			const office = parts[2] || 'morning';
+			return {
+				type: 'appointed_psalms',
+				office: office
+			};
+		}
+
 		// Default: return component type
 		const item = {
 			type: componentName

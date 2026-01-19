@@ -126,6 +126,10 @@
 						"text": "the psalm or psalms appointed"
 					},
 					{
+						"type": "appointed_psalms",
+						"office": "evening"
+					},
+					{
 						"type": "rubric",
 						"text": "At the end of the Psalms the Gloria Patri (Glory be...) is sung or said"
 					},
@@ -561,12 +565,12 @@
 						"text": "prayer for mission"
 					},
 					{
-						"page": 43,
-						"type": "page_break"
-					},
-					{
 						"type": "text_block",
 						"text": "O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you, all nations obey you, all tongues confess and bless you, and men, women, and children everywhere love you and serve you in peace; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"page": 43,
+						"type": "page_break"
 					},
 					{
 						"type": "rubric",

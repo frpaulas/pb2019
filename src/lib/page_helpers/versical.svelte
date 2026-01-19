@@ -2,8 +2,9 @@
 	import { parseMarkdown } from '$lib/utils/parseMarkdown';
 	import { liturgicalContext } from '$lib/stores/liturgical';
 	import { onMount } from 'svelte';
+	import FormattedText from './formatted_text.svelte';
 
-	let { who = '', officiant = false, people = false, bold = false, children } = $props();
+	let { who = '', officiant = false, people = false, bold = false, text, children } = $props();
 
 	// Determine who is speaking from boolean props or direct who prop
 	let speaker = who;
@@ -29,7 +30,9 @@
 <div class="flex break-after-all gap-4 leading-normal">
 	<div class="w-[70px] flex-shrink-0 text-right capitalize italic">{speaker}</div>
 	<div class="flex-1 {textClass}">
-		{#if parsedSlotContent}
+		{#if text !== undefined}
+			<FormattedText {text} />
+		{:else if parsedSlotContent}
 			{@html parsedSlotContent}
 		{:else}
 			<span bind:this={slotContentElement} style="display: none;">
