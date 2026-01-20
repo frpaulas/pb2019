@@ -262,6 +262,10 @@
 						"text": "the lessons: the lessons"
 					},
 					{
+						"type": "appointed_readings",
+						"office": "morning"
+					},
+					{
 						"type": "rubric",
 						"text": "One or more Lessons, as appointed, are read, the Reader first saying"
 					},

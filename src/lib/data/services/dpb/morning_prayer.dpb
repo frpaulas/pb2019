@@ -62,6 +62,7 @@ use:appointed_psalms:morning
 r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
 use:gloria:
 st: the lessons: the lessons
+use:appointed_readings:morning
 r: One or more Lessons, as appointed, are read, the Reader first saying
 l: A Reading from ___11___.
 r: A citation giving chapter and verse may be added.

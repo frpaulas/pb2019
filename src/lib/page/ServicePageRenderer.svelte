@@ -12,6 +12,7 @@
 	import Gloria from '$lib/text_component/gloria.svelte';
 	import ShowPsalm from '$lib/page_helpers/show_psalm.svelte';
 	import ShowAppointedPsalms from '$lib/page_helpers/show_appointed_psalms.svelte';
+	import ShowAppointedReadings from '$lib/page_helpers/show_appointed_readings.svelte';
 	import OfficeConfessionIntro from '$lib/prayer/office_confession_intro.svelte';
 	import OfficeConfession from '$lib/prayer/office_confession.svelte';
 	import OfficeAbsolution from '$lib/prayer/office_absolution.svelte';
@@ -95,6 +96,8 @@
 		/>
 	{:else if block.type === 'appointed_psalms'}
 		<ShowAppointedPsalms office={block.office} />
+	{:else if block.type === 'appointed_readings'}
+		<ShowAppointedReadings office={block.office} />
 	{:else if block.type === 'office_confession_intro'}
 		<OfficeConfessionIntro />
 	{:else if block.type === 'office_confession'}

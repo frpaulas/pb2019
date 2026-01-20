@@ -449,6 +449,10 @@
         "text": "the lessons: the lessons"
       },
       {
+        "type": "appointed_readings",
+        "office": "morning"
+      },
+      {
         "type": "rubric",
         "text": "One or more Lessons, as appointed, are read, the Reader first saying"
       },
@@ -1723,155 +1727,16 @@
   "42": {
     "pageNumber": 42,
     "headerText": "Daily Evening Prayer",
-    "content": [
-      {
-        "type": "versical",
-        "officiant": true,
-        "text": "Clothe your ministers with righteousness;"
-      },
-      {
-        "type": "versical",
-        "people": true,
-        "text": "And let your people sing with joy."
-      },
-      {
-        "type": "versical",
-        "officiant": true,
-        "text": "O Lord, save your people;"
-      },
-      {
-        "type": "versical",
-        "people": true,
-        "text": "And bless your inheritance."
-      },
-      {
-        "type": "versical",
-        "officiant": true,
-        "text": "Give peace in our time, O Lord;"
-      },
-      {
-        "type": "versical",
-        "people": true,
-        "text": "And defend us by your mighty power."
-      },
-      {
-        "type": "versical",
-        "officiant": true,
-        "text": "Let not the needy, O Lord, be forgotten;"
-      },
-      {
-        "type": "versical",
-        "people": true,
-        "text": "Nor the hope of the poor be taken away."
-      },
-      {
-        "type": "versical",
-        "officiant": true,
-        "text": "Create in us clean hearts, O God;"
-      },
-      {
-        "type": "versical",
-        "people": true,
-        "text": "And take not your Holy Spirit from us."
-      },
-      {
-        "type": "rubric",
-        "text": "or this"
-      },
-      {
-        "type": "line",
-        "text": "That this evening may be holy, good, and peaceful,"
-      },
-      {
-        "type": "line",
-        "text": "We entreat you, O Lord.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "That your holy angels may lead us in paths of peace and goodwill,"
-      },
-      {
-        "type": "line",
-        "text": "We entreat you, O Lord.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "That we may be pardoned and forgiven for our sins and offenses,"
-      },
-      {
-        "type": "line",
-        "text": "We entreat you, O Lord.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "That there may be peace in your Church and in the whole world,"
-      },
-      {
-        "type": "line",
-        "text": "We entreat you, O Lord.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "That we may depart this life in your faith and fear, and not be"
-      },
-      {
-        "type": "line",
-        "text": "condemned before the great judgment seat of Christ,",
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "We entreat you, O Lord.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "That we may be bound together by your Holy Spirit in the"
-      },
-      {
-        "type": "line",
-        "text": [
-          {
-            "type": "text",
-            "value": "communion of [ "
-          },
-          {
-            "type": "blank",
-            "value": "11"
-          },
-          {
-            "type": "text",
-            "value": " and] all your saints, entrusting"
-          }
-        ],
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "one another and all our life to Christ,",
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "We entreat you, O Lord.",
-        "bold": true,
-        "indent": true
-      }
-    ]
+    "content": []
   },
   "43": {
     "pageNumber": 43,
     "headerText": "Daily Evening Prayer",
     "content": [
+      {
+        "type": "text_block",
+        "text": "O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you, all nations obey you, all tongues confess and bless you, and men, women, and children everywhere love you and serve you in peace; through Jesus Christ our Lord. **Amen.**"
+      },
       {
         "type": "rubric",
         "text": "or this"
@@ -1939,6 +1804,10 @@
       {
         "type": "section_title",
         "text": "the lessons"
+      },
+      {
+        "type": "appointed_readings",
+        "office": "evening"
       },
       {
         "type": "rubric",
@@ -2091,7 +1960,150 @@
   "48": {
     "pageNumber": 48,
     "headerText": "Daily Evening Prayer",
-    "content": []
+    "content": [
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "Clothe your ministers with righteousness;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And let your people sing with joy."
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "O Lord, save your people;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And bless your inheritance."
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "Give peace in our time, O Lord;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And defend us by your mighty power."
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "Let not the needy, O Lord, be forgotten;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "Nor the hope of the poor be taken away."
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "Create in us clean hearts, O God;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And take not your Holy Spirit from us."
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "line",
+        "text": "That this evening may be holy, good, and peaceful,"
+      },
+      {
+        "type": "line",
+        "text": "We entreat you, O Lord.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "That your holy angels may lead us in paths of peace and goodwill,"
+      },
+      {
+        "type": "line",
+        "text": "We entreat you, O Lord.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "That we may be pardoned and forgiven for our sins and offenses,"
+      },
+      {
+        "type": "line",
+        "text": "We entreat you, O Lord.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "That there may be peace in your Church and in the whole world,"
+      },
+      {
+        "type": "line",
+        "text": "We entreat you, O Lord.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "That we may depart this life in your faith and fear, and not be"
+      },
+      {
+        "type": "line",
+        "text": "condemned before the great judgment seat of Christ,",
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We entreat you, O Lord.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "That we may be bound together by your Holy Spirit in the"
+      },
+      {
+        "type": "line",
+        "text": [
+          {
+            "type": "text",
+            "value": "communion of [ "
+          },
+          {
+            "type": "blank",
+            "value": "11"
+          },
+          {
+            "type": "text",
+            "value": " and] all your saints, entrusting"
+          }
+        ],
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "one another and all our life to Christ,",
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We entreat you, O Lord.",
+        "bold": true,
+        "indent": true
+      }
+    ]
   },
   "49": {
     "pageNumber": 49,
@@ -2230,10 +2242,6 @@
       {
         "type": "section_title",
         "text": "prayer for mission"
-      },
-      {
-        "type": "text_block",
-        "text": "O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you, all nations obey you, all tongues confess and bless you, and men, women, and children everywhere love you and serve you in peace; through Jesus Christ our Lord. **Amen.**"
       }
     ]
   },

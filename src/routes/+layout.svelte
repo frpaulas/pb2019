@@ -4,6 +4,7 @@
 	import Header from '$lib/page_helpers/header.svelte';
 	import DragNav from '$lib/page_helpers/drag_nav.svelte';
 	import PageLinkModal from '$lib/components/PageLinkModal.svelte';
+	import ScriptureModal from '$lib/components/ScriptureModal.svelte';
 	let { children } = $props();
 </script>
 
@@ -38,6 +39,9 @@
 
 <!-- Page Link Modal - Global overlay for page references -->
 <PageLinkModal />
+
+<!-- Scripture Modal - Global overlay for scripture readings -->
+<ScriptureModal />
 
 <style>
 	@layer utilities {

@@ -842,6 +842,16 @@ class RawToJsonConverter {
 			};
 		}
 
+		// Handle appointed_readings: use:appointed_readings:morning or use:appointed_readings:evening
+		// Format: use:appointed_readings:office - shows scripture readings appointed for the day
+		if (componentName === 'appointed_readings') {
+			const office = parts[2] || 'morning';
+			return {
+				type: 'appointed_readings',
+				office: office
+			};
+		}
+
 		// Default: return component type
 		const item = {
 			type: componentName

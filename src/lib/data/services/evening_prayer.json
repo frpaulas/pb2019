@@ -141,6 +141,10 @@
 						"text": "the lessons"
 					},
 					{
+						"type": "appointed_readings",
+						"office": "evening"
+					},
+					{
 						"type": "rubric",
 						"text": "One or more Lessons, as appointed, are read, the Reader first saying"
 					},
@@ -281,12 +285,12 @@
 						"text": "And lead us in the way of justice and truth."
 					},
 					{
-						"type": "page_break",
-						"page": 48
-					},
-					{
 						"page": 42,
 						"type": "page_break"
+					},
+					{
+						"type": "page_break",
+						"page": 48
 					},
 					{
 						"type": "versical",
@@ -565,12 +569,12 @@
 						"text": "prayer for mission"
 					},
 					{
-						"type": "text_block",
-						"text": "O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you, all nations obey you, all tongues confess and bless you, and men, women, and children everywhere love you and serve you in peace; through Jesus Christ our Lord. **Amen.**"
-					},
-					{
 						"page": 43,
 						"type": "page_break"
+					},
+					{
+						"type": "text_block",
+						"text": "O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you, all nations obey you, all tongues confess and bless you, and men, women, and children everywhere love you and serve you in peace; through Jesus Christ our Lord. **Amen.**"
 					},
 					{
 						"type": "rubric",
