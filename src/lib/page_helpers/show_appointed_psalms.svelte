@@ -1,15 +1,13 @@
 <script lang="ts">
 	import { getMorningPsalms60, getEveningPsalms60, getCycleDay60 } from '$lib/calendar/psalm_cycle';
 	import { selectedDate } from '$lib/stores/liturgical';
-	import ShowPsalm from './show_psalm.svelte';
+	import { psalmModal, parsePsalmRef, type PsalmReference } from '$lib/stores/psalmModal';
 
 	interface Props {
 		office: 'morning' | 'evening';
 	}
 
 	let { office }: Props = $props();
-
-	let expanded = $state(false);
 
 	// Get the current date from liturgical store
 	let currentDate = $derived($selectedDate || new Date());
@@ -27,44 +25,49 @@
 	let cycleDay = $derived(getCycleDay60(currentDate.getDate()));
 
 	// Get the psalms for this day and office
-	let psalms = $derived(
+	let psalmRefs = $derived(
 		office === 'morning' ? getMorningPsalms60(cycleDay) : getEveningPsalms60(cycleDay)
 	);
 
-	// Parse psalm references like "119:33-72" into components for ShowPsalm
-	function parsePsalmRef(ref: string): { ps: number; from?: number; to?: number } {
-		// Handle formats: "23", "119:33-72", "78:1-40"
-		const match = ref.match(/^(\d+)(?::(\d+)-(\d+))?$/);
-		if (match) {
-			const ps = parseInt(match[1]);
-			if (match[2] && match[3]) {
-				return { ps, from: parseInt(match[2]), to: parseInt(match[3]) };
-			}
-			return { ps };
-		}
-		// Fallback: just the psalm number
-		return { ps: parseInt(ref) || 1 };
-	}
+	// Parse all psalm references
+	let parsedPsalms = $derived(psalmRefs ? psalmRefs.map((ref) => parsePsalmRef(ref)) : []);
 
-	function toggle() {
-		expanded = !expanded;
+	// Build display label (e.g., "Psalm 23, 24" or "Psalm 119:33-72")
+	let displayLabel = $derived(() => {
+		if (parsedPsalms.length === 0) return '';
+		if (parsedPsalms.length === 1) return parsedPsalms[0].label;
+
+		// Multiple psalms - show as "Psalms 23, 24, 25"
+		const nums = parsedPsalms.map((p) => {
+			if (p.from && p.to) {
+				return `${p.ps}:${p.from}-${p.to}`;
+			}
+			return p.ps.toString();
+		});
+		return `Psalms ${nums.join(', ')}`;
+	});
+
+	function openPsalms() {
+		psalmModal.open(parsedPsalms);
 	}
 </script>
 
-<div class="my-4">
-	<button
-		onclick={toggle}
-		class="cursor-pointer rounded text-blue-600 underline hover:text-blue-800 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none"
-	>
-		{expanded ? '▼' : '▶'} Show Psalm(s) appointed for {dateStr}
-	</button>
+{#if parsedPsalms.length > 0}
+	<div class="my-4">
+		<p class="mb-2 text-sm text-gray-600 italic">Psalms appointed for {dateStr}:</p>
 
-	{#if expanded && psalms}
-		<div class="mt-4 border-l-4 border-blue-300 pl-4">
-			{#each psalms as psalmRef}
-				{@const parsed = parsePsalmRef(psalmRef)}
-				<ShowPsalm ps={parsed.ps} from={parsed.from} to={parsed.to} showTitle={true} />
-			{/each}
+		<div>
+			<button
+				type="button"
+				onclick={openPsalms}
+				class="cursor-pointer rounded text-blue-600 underline hover:text-blue-800 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none"
+			>
+				{displayLabel()}
+			</button>
 		</div>
-	{/if}
-</div>
+	</div>
+{:else}
+	<div class="my-4 text-sm text-gray-500 italic">
+		No psalms found for {dateStr}
+	</div>
+{/if}

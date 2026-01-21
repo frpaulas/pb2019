@@ -22,9 +22,7 @@
 	);
 
 	// Get lectionary key (month-day format)
-	let lectionaryKey = $derived(
-		`${currentDate.getMonth() + 1}-${currentDate.getDate()}`
-	);
+	let lectionaryKey = $derived(`${currentDate.getMonth() + 1}-${currentDate.getDate()}`);
 
 	// Get readings for this day
 	type DayEntry = {
@@ -40,13 +38,9 @@
 		};
 	};
 
-	let dayReadings = $derived(
-		(dailyLectionary as Record<string, DayEntry>)[lectionaryKey]
-	);
+	let dayReadings = $derived((dailyLectionary as Record<string, DayEntry>)[lectionaryKey]);
 
-	let readings = $derived(
-		dayReadings ? dayReadings[office] : null
-	);
+	let readings = $derived(dayReadings ? dayReadings[office] : null);
 
 	function openReading(req: string, alt?: string) {
 		scriptureModal.open(req, alt || null);
@@ -55,7 +49,7 @@
 
 {#if readings}
 	<div class="my-4">
-		<p class="mb-2 text-sm italic text-gray-600">Readings appointed for {dateStr}:</p>
+		<p class="mb-2 text-sm text-gray-600 italic">Readings appointed for {dateStr}:</p>
 
 		<div class="space-y-2">
 			<!-- Old Testament / First Reading -->
@@ -65,9 +59,9 @@
 					<button
 						type="button"
 						onclick={() => openReading(readings.ot!.req, readings.ot!.alt)}
-						class="cursor-pointer rounded text-blue-600 underline hover:text-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+						class="cursor-pointer rounded text-blue-600 underline hover:text-blue-800 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none"
 					>
-						{readings.ot.req}{#if readings.ot.alt} Or {readings.ot.alt}{/if}
+						{readings.ot.req}{#if readings.ot.alt}, Or {readings.ot.alt}{/if}
 					</button>
 				</div>
 			{/if}
@@ -79,16 +73,16 @@
 					<button
 						type="button"
 						onclick={() => openReading(readings.nt!.req, readings.nt!.alt)}
-						class="cursor-pointer rounded text-blue-600 underline hover:text-blue-800 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+						class="cursor-pointer rounded text-blue-600 underline hover:text-blue-800 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none"
 					>
-						{readings.nt.req}{#if readings.nt.alt} Or {readings.nt.alt}{/if}
+						{readings.nt.req}{#if readings.nt.alt}, Or {readings.nt.alt}{/if}
 					</button>
 				</div>
 			{/if}
 		</div>
 	</div>
 {:else}
-	<div class="my-4 text-sm italic text-gray-500">
+	<div class="my-4 text-sm text-gray-500 italic">
 		No readings found for {dateStr}
 	</div>
 {/if}

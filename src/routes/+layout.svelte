@@ -5,6 +5,7 @@
 	import DragNav from '$lib/page_helpers/drag_nav.svelte';
 	import PageLinkModal from '$lib/components/PageLinkModal.svelte';
 	import ScriptureModal from '$lib/components/ScriptureModal.svelte';
+	import PsalmModal from '$lib/components/PsalmModal.svelte';
 	let { children } = $props();
 </script>
 
@@ -42,6 +43,9 @@
 
 <!-- Scripture Modal - Global overlay for scripture readings -->
 <ScriptureModal />
+
+<!-- Psalm Modal - Global overlay for BCP psalter -->
+<PsalmModal />
 
 <style>
 	@layer utilities {

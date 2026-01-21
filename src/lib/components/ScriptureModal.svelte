@@ -1,3 +1,18 @@
+<script lang="ts" module>
+	/**
+	 * Format verse text, converting \n\n to paragraph breaks
+	 */
+	function formatVerseText(text: string): string {
+		// Replace double newlines with paragraph break
+		// and escape any HTML
+		return text
+			.replace(/&/g, '&amp;')
+			.replace(/</g, '&lt;')
+			.replace(/>/g, '&gt;')
+			.replace(/\n\n/g, '</p><p class="mt-4">');
+	}
+</script>
+
 <script lang="ts">
 	import { scriptureModal } from '$lib/stores/scriptureModal';
 	import { getPassage, type BiblePassage } from '$lib/db/bible';
@@ -56,7 +71,7 @@
 {#if $scriptureModal.isOpen}
 	<div
 		bind:this={modalElement}
-		class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4"
+		class="fixed inset-0 z-50 flex items-start justify-center bg-black/50 p-4 pt-[5em]"
 		onclick={handleOverlayClick}
 		role="dialog"
 		aria-modal="true"
@@ -89,7 +104,9 @@
 						<!-- Render verses with paragraph breaks preserved -->
 						{#each passage.verses as verse, i}
 							<span class="verse">
-								<sup class="mr-1 text-xs text-gray-500">{verse.verse}</sup>{@html formatVerseText(verse.text)}
+								<sup class="mr-1 text-xs text-gray-500">{verse.verse}</sup>{@html formatVerseText(
+									verse.text
+								)}
 							</span>
 						{/each}
 					</div>
@@ -101,7 +118,9 @@
 			</div>
 
 			<!-- Footer -->
-			<div class="flex items-center justify-between border-t border-gray-200 bg-neutral-100 p-4">
+			<div
+				class="flex items-center justify-between rounded-b-lg border-t border-gray-200 bg-neutral-100 p-4"
+			>
 				<div>
 					{#if $scriptureModal.altReference}
 						<button
@@ -121,7 +140,7 @@
 				<button
 					type="button"
 					onclick={close}
-					class="rounded-lg bg-blue-600 px-6 py-2 font-medium text-white transition-colors hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+					class="rounded-lg bg-blue-600 px-6 py-2 font-medium text-white transition-colors hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:outline-none"
 				>
 					Close (ESC)
 				</button>
@@ -129,18 +148,3 @@
 		</div>
 	</div>
 {/if}
-
-<script lang="ts" module>
-	/**
-	 * Format verse text, converting \n\n to paragraph breaks
-	 */
-	function formatVerseText(text: string): string {
-		// Replace double newlines with paragraph break
-		// and escape any HTML
-		return text
-			.replace(/&/g, '&amp;')
-			.replace(/</g, '&lt;')
-			.replace(/>/g, '&gt;')
-			.replace(/\n\n/g, '</p><p class="mt-4">');
-	}
-</script>
