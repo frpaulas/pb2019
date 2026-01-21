@@ -1,11 +1,11 @@
 <script>
 	import { onMount, tick } from 'svelte';
 	import ServiceRenderer from '$lib/components/ServiceRenderer.svelte';
-	import morningPrayerData from '$lib/data/services/morning_prayer.json';
-	import middayPrayerData from '$lib/data/services/midday_prayer.json';
-	import eveningPrayerData from '$lib/data/services/evening_prayer.json';
-	import complineData from '$lib/data/services/compline.json';
-	import familyPrayerData from '$lib/data/services/family_prayer.json';
+	import morningPrayerData from '$lib/data/services/11-32_morning_prayer.json';
+	import middayPrayerData from '$lib/data/services/33-40_midday_prayer.json';
+	import eveningPrayerData from '$lib/data/services/41-56_evening_prayer.json';
+	import complineData from '$lib/data/services/57-65_compline.json';
+	import familyPrayerData from '$lib/data/services/66-78_family_prayer.json';
 
 	// Service order for Daily Office
 	const serviceOrder = ['morning', 'midday', 'evening', 'compline', 'family'];

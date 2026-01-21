@@ -55,7 +55,9 @@
 </script>
 
 {#each pageData.content as block}
-	{#if block.type === 'section_title'}
+	{#if block.type === 'vertical_margin'}
+		<div style="height: {block.spacing}em;"></div>
+	{:else if block.type === 'section_title'}
 		<SectionTitle
 			size={block.size}
 			fancy={block.fancy || false}
