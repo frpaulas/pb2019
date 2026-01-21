@@ -221,6 +221,10 @@
 						]
 					},
 					{
+						"type": "eucharist_readings",
+						"readingType": "lessons"
+					},
+					{
 						"type": "rubric",
 						"text": "A citation giving chapter and verse may be added."
 					},
@@ -273,6 +277,10 @@
 								"value": "."
 							}
 						]
+					},
+					{
+						"type": "eucharist_readings",
+						"readingType": "gospel"
 					},
 					{
 						"type": "versical",
@@ -581,12 +589,12 @@
 						"text": "Then the Ministers and People may greet one another in the Name of the Lord."
 					},
 					{
-						"type": "section_title",
-						"text": "the offertory"
-					},
-					{
 						"page": 125,
 						"type": "page_break"
+					},
+					{
+						"type": "section_title",
+						"text": "the offertory"
 					},
 					{
 						"type": "rubric",

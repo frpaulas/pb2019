@@ -3,7 +3,7 @@
 	import { base } from '$app/paths';
 	import dailyLectionaryData from '$lib/calendar/daily_lectionary_partial.json';
 	import rldEucharistData from '$lib/calendar/rld_eucharist.json';
-	import { getFeastDay, isRedLetterDay } from '$lib/calendar/rlds';
+	import { getFeastDay, isRedLetterDay, getOriginalFeastDateKey } from '$lib/calendar/rlds';
 	import { calendarDateToLdoy, ldoyToCalendarDate } from '$lib/calendar/date_conversion';
 	import {
 		getSundayReadings,
@@ -11,6 +11,8 @@
 		type Reading
 	} from '$lib/calendar/sunday_lectionary';
 	import { getSundayLectionaryKey } from '$lib/calendar/sunday_key_mapping';
+	import { scriptureModal } from '$lib/stores/scriptureModal';
+	import { psalmModal, parsePsalmRef } from '$lib/stores/psalmModal';
 
 	interface DailyReading {
 		req: string;
@@ -52,14 +54,12 @@
 	const feastDay = getFeastDay(month, day, year);
 	const isRLD = isRedLetterDay(month, day, year);
 
-	// Get RLD Eucharist readings if this is an RLD
+	// Get RLD Eucharist readings if this is an RLD (handles transferred feasts)
 	function getRLDEucharistReadings(): RLDEucharist | null {
-		if (!isRLD) return null;
-
-		// Try regular date format first
-		const key = `${month}-${day}`;
-		if (rldEucharist[key]) {
-			return rldEucharist[key];
+		// Use getOriginalFeastDateKey to handle transferred feasts
+		const originalKey = getOriginalFeastDateKey(month, day, year);
+		if (originalKey && rldEucharist[originalKey]) {
+			return rldEucharist[originalKey];
 		}
 
 		// Check for special feast days (kebab-case keys)
@@ -159,6 +159,34 @@
 		month: 'long',
 		day: 'numeric'
 	});
+
+	// Open scripture modal
+	function openScripture(reference: string) {
+		scriptureModal.open(reference, null);
+	}
+
+	// Open psalm modal for a single psalm reference
+	function openPsalm(psalmRef: string) {
+		// Handle formats like "Ps 122", "Ps 80 or 80:1-7"
+		let ref = psalmRef.replace(/^(Ps|Psalm)\s*/i, '');
+
+		// Take the first option if there's an "or"
+		if (ref.includes(' or ')) {
+			ref = ref.split(' or ')[0].trim();
+		}
+
+		// Strip optional verses in parentheses
+		ref = ref.replace(/\([^)]+\)/g, '').trim();
+
+		const parsed = parsePsalmRef(ref);
+		psalmModal.open([parsed]);
+	}
+
+	// Open psalm modal for an array of psalm references (daily office format)
+	function openPsalms(psalmRefs: string[]) {
+		const parsed = psalmRefs.map((ref) => parsePsalmRef(ref));
+		psalmModal.open(parsed);
+	}
 </script>
 
 <svelte:head>
@@ -193,17 +221,49 @@
 			<div class="office-readings">
 				<div class="reading-section">
 					<h3>Old Testament</h3>
-					<p class="reading-ref">{dailyReadings.morning.ot.req}</p>
+					<p class="reading-ref">
+						<button
+							type="button"
+							onclick={() => openScripture(dailyReadings.morning.ot.req)}
+							class="scripture-link"
+						>
+							{dailyReadings.morning.ot.req}
+						</button>
+					</p>
 					{#if dailyReadings.morning.ot.alt}
-						<p class="alt-reading">Alt: {dailyReadings.morning.ot.alt}</p>
+						<p class="alt-reading">
+							Alt: <button
+								type="button"
+								onclick={() => openScripture(dailyReadings.morning.ot.alt)}
+								class="scripture-link"
+							>
+								{dailyReadings.morning.ot.alt}
+							</button>
+						</p>
 					{/if}
 				</div>
 
 				<div class="reading-section">
 					<h3>New Testament</h3>
-					<p class="reading-ref">{dailyReadings.morning.nt.req}</p>
+					<p class="reading-ref">
+						<button
+							type="button"
+							onclick={() => openScripture(dailyReadings.morning.nt.req)}
+							class="scripture-link"
+						>
+							{dailyReadings.morning.nt.req}
+						</button>
+					</p>
 					{#if dailyReadings.morning.nt.alt}
-						<p class="alt-reading">Alt: {dailyReadings.morning.nt.alt}</p>
+						<p class="alt-reading">
+							Alt: <button
+								type="button"
+								onclick={() => openScripture(dailyReadings.morning.nt.alt)}
+								class="scripture-link"
+							>
+								{dailyReadings.morning.nt.alt}
+							</button>
+						</p>
 					{/if}
 				</div>
 
@@ -211,9 +271,21 @@
 					<h3>Psalms</h3>
 					<p class="reading-ref">
 						{#if dailyReadings.morning.psalm}
-							{dailyReadings.morning.psalm.join(', ')}
+							<button
+								type="button"
+								onclick={() => openPsalms(dailyReadings.morning.psalm)}
+								class="scripture-link"
+							>
+								{dailyReadings.morning.psalm.join(', ')}
+							</button>
 						{:else if dailyReadings.morning.psalm60}
-							{dailyReadings.morning.psalm60.join(', ')}
+							<button
+								type="button"
+								onclick={() => openPsalms(dailyReadings.morning.psalm60)}
+								class="scripture-link"
+							>
+								{dailyReadings.morning.psalm60.join(', ')}
+							</button>
 						{:else}
 							Not specified
 						{/if}
@@ -227,17 +299,49 @@
 			<div class="office-readings">
 				<div class="reading-section">
 					<h3>Old Testament</h3>
-					<p class="reading-ref">{dailyReadings.evening.ot.req}</p>
+					<p class="reading-ref">
+						<button
+							type="button"
+							onclick={() => openScripture(dailyReadings.evening.ot.req)}
+							class="scripture-link"
+						>
+							{dailyReadings.evening.ot.req}
+						</button>
+					</p>
 					{#if dailyReadings.evening.ot.alt}
-						<p class="alt-reading">Alt: {dailyReadings.evening.ot.alt}</p>
+						<p class="alt-reading">
+							Alt: <button
+								type="button"
+								onclick={() => openScripture(dailyReadings.evening.ot.alt)}
+								class="scripture-link"
+							>
+								{dailyReadings.evening.ot.alt}
+							</button>
+						</p>
 					{/if}
 				</div>
 
 				<div class="reading-section">
 					<h3>New Testament</h3>
-					<p class="reading-ref">{dailyReadings.evening.nt.req}</p>
+					<p class="reading-ref">
+						<button
+							type="button"
+							onclick={() => openScripture(dailyReadings.evening.nt.req)}
+							class="scripture-link"
+						>
+							{dailyReadings.evening.nt.req}
+						</button>
+					</p>
 					{#if dailyReadings.evening.nt.alt}
-						<p class="alt-reading">Alt: {dailyReadings.evening.nt.alt}</p>
+						<p class="alt-reading">
+							Alt: <button
+								type="button"
+								onclick={() => openScripture(dailyReadings.evening.nt.alt)}
+								class="scripture-link"
+							>
+								{dailyReadings.evening.nt.alt}
+							</button>
+						</p>
 					{/if}
 				</div>
 
@@ -245,9 +349,21 @@
 					<h3>Psalms</h3>
 					<p class="reading-ref">
 						{#if dailyReadings.evening.psalm}
-							{dailyReadings.evening.psalm.join(', ')}
+							<button
+								type="button"
+								onclick={() => openPsalms(dailyReadings.evening.psalm)}
+								class="scripture-link"
+							>
+								{dailyReadings.evening.psalm.join(', ')}
+							</button>
 						{:else if dailyReadings.evening.psalm60}
-							{dailyReadings.evening.psalm60.join(', ')}
+							<button
+								type="button"
+								onclick={() => openPsalms(dailyReadings.evening.psalm60)}
+								class="scripture-link"
+							>
+								{dailyReadings.evening.psalm60.join(', ')}
+							</button>
 						{:else}
 							Not specified
 						{/if}
@@ -262,19 +378,51 @@
 				<div class="office-readings">
 					<div class="reading-section">
 						<h3>Old Testament</h3>
-						<p class="reading-ref">{rldEucharistReadings.ot}</p>
+						<p class="reading-ref">
+							<button
+								type="button"
+								onclick={() => openScripture(rldEucharistReadings.ot)}
+								class="scripture-link"
+							>
+								{rldEucharistReadings.ot}
+							</button>
+						</p>
 					</div>
 					<div class="reading-section">
 						<h3>Psalm</h3>
-						<p class="reading-ref">{rldEucharistReadings.psalm}</p>
+						<p class="reading-ref">
+							<button
+								type="button"
+								onclick={() => openPsalm(rldEucharistReadings.psalm)}
+								class="scripture-link"
+							>
+								{rldEucharistReadings.psalm}
+							</button>
+						</p>
 					</div>
 					<div class="reading-section">
 						<h3>Epistle</h3>
-						<p class="reading-ref">{rldEucharistReadings.epistle}</p>
+						<p class="reading-ref">
+							<button
+								type="button"
+								onclick={() => openScripture(rldEucharistReadings.epistle)}
+								class="scripture-link"
+							>
+								{rldEucharistReadings.epistle}
+							</button>
+						</p>
 					</div>
 					<div class="reading-section">
 						<h3>Gospel</h3>
-						<p class="reading-ref">{rldEucharistReadings.gospel}</p>
+						<p class="reading-ref">
+							<button
+								type="button"
+								onclick={() => openScripture(rldEucharistReadings.gospel)}
+								class="scripture-link"
+							>
+								{rldEucharistReadings.gospel}
+							</button>
+						</p>
 					</div>
 				</div>
 			{:else if previousSundayInfo?.readings}
@@ -293,19 +441,51 @@
 				<div class="office-readings">
 					<div class="reading-section">
 						<h3>Old Testament</h3>
-						<p class="reading-ref">{previousSundayInfo.readings.ot}</p>
+						<p class="reading-ref">
+							<button
+								type="button"
+								onclick={() => openScripture(previousSundayInfo.readings.ot)}
+								class="scripture-link"
+							>
+								{previousSundayInfo.readings.ot}
+							</button>
+						</p>
 					</div>
 					<div class="reading-section">
 						<h3>Psalm</h3>
-						<p class="reading-ref">{previousSundayInfo.readings.psalm}</p>
+						<p class="reading-ref">
+							<button
+								type="button"
+								onclick={() => openPsalm(previousSundayInfo.readings.psalm)}
+								class="scripture-link"
+							>
+								{previousSundayInfo.readings.psalm}
+							</button>
+						</p>
 					</div>
 					<div class="reading-section">
 						<h3>Epistle</h3>
-						<p class="reading-ref">{previousSundayInfo.readings.epistle}</p>
+						<p class="reading-ref">
+							<button
+								type="button"
+								onclick={() => openScripture(previousSundayInfo.readings.epistle)}
+								class="scripture-link"
+							>
+								{previousSundayInfo.readings.epistle}
+							</button>
+						</p>
 					</div>
 					<div class="reading-section">
 						<h3>Gospel</h3>
-						<p class="reading-ref">{previousSundayInfo.readings.gospel}</p>
+						<p class="reading-ref">
+							<button
+								type="button"
+								onclick={() => openScripture(previousSundayInfo.readings.gospel)}
+								class="scripture-link"
+							>
+								{previousSundayInfo.readings.gospel}
+							</button>
+						</p>
 					</div>
 				</div>
 			{:else if previousSundayInfo}
@@ -487,6 +667,20 @@
 		font-size: 1.1rem;
 		text-align: center;
 		padding: 2rem;
+	}
+
+	.scripture-link {
+		color: #0066cc;
+		text-decoration: underline;
+		background: none;
+		border: none;
+		padding: 0;
+		font: inherit;
+		cursor: pointer;
+	}
+
+	.scripture-link:hover {
+		color: #004499;
 	}
 
 	@media (max-width: 640px) {

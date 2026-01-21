@@ -50,16 +50,17 @@ pb:108
 st: the lessons
 r: One or more Lessons, as appointed, are read, the Reader first saying
 v: A Reading from ___11___.
+use:eucharist_readings:lessons
 r: A citation giving chapter and verse may be added.
 r: After each Lesson the Reader may say
 v: The Word of the Lord.
 v:people: Thanks be to God.
 r: Or the Reader may say
-r: Or the Reader may say
 r: Silence may follow.
 r: A psalm, hymn, or anthem may follow each reading.
 r: All standing, the Deacon or Priest reads the Gospel, first saying
 v: The Holy Gospel of our Lord Jesus Christ according to ___11___.
+use:eucharist_readings:gospel
 v:people: Glory to you, Lord Christ.
 r: After the Gospel, the Reader says
 v: The Gospel of the Lord.

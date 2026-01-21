@@ -228,6 +228,10 @@
 						]
 					},
 					{
+						"type": "eucharist_readings",
+						"readingType": "lessons"
+					},
+					{
 						"type": "rubric",
 						"text": "A citation giving chapter and verse may be added."
 					},
@@ -243,10 +247,6 @@
 						"type": "versical",
 						"people": true,
 						"text": "Thanks be to God."
-					},
-					{
-						"type": "rubric",
-						"text": "Or the Reader may say"
 					},
 					{
 						"type": "rubric",
@@ -280,6 +280,10 @@
 								"value": "."
 							}
 						]
+					},
+					{
+						"type": "eucharist_readings",
+						"readingType": "gospel"
 					},
 					{
 						"type": "versical",

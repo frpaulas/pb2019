@@ -1,9 +1,33 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import { base } from '$app/paths';
-	import { getFeastDay, isRedLetterDay } from '$lib/calendar/rlds';
-	import { getSundayLectionaryKey, calculateEaster } from '$lib/calendar/sunday_key_mapping';
-	import { getSundayReadings } from '$lib/calendar/sunday_lectionary';
+	import { getFeastDay, isRedLetterDay, getOriginalFeastDateKey } from '$lib/calendar/rlds';
+	import rldEucharistData from '$lib/calendar/rld_eucharist.json';
+	import {
+		getSundayLectionaryKey,
+		getSundayLectionaryKeyForAnyDate,
+		calculateEaster
+	} from '$lib/calendar/sunday_key_mapping';
+	import {
+		getSundayReadings,
+		getReadings,
+		getLiturgicalYearCycle,
+		type Reading
+	} from '$lib/calendar/sunday_lectionary';
+	import { scriptureModal } from '$lib/stores/scriptureModal';
+	import { psalmModal, parsePsalmRef } from '$lib/stores/psalmModal';
+
+	interface RLDEucharist {
+		name: string;
+		ot: string;
+		psalm: string;
+		epistle: string;
+		gospel: string;
+		color?: string;
+	}
+
+	type RLDEucharistDatabase = Record<string, RLDEucharist>;
+	const rldEucharist: RLDEucharistDatabase = rldEucharistData as RLDEucharistDatabase;
 
 	// Get current date and navigate between months
 	let currentDate = $state(new Date());
@@ -345,6 +369,78 @@
 			selectedDay = displayDay;
 		}
 	});
+
+	// Get eucharist readings for the display day
+	// Priority: 1) RLD readings if available (including transferred feasts), 2) Previous Sunday's readings
+	let displayReadings = $derived.by(() => {
+		if (!displayDay) return null;
+
+		const year = displayDay.date.getFullYear();
+		const month = displayDay.date.getMonth() + 1;
+		const day = displayDay.date.getDate();
+
+		// Check if this is an RLD with readings (handles transferred feasts)
+		const originalFeastKey = getOriginalFeastDateKey(month, day, year);
+		const rldReadings = originalFeastKey ? rldEucharist[originalFeastKey] : null;
+
+		if (rldReadings) {
+			// Use RLD readings
+			return {
+				isRLD: true,
+				rldName: rldReadings.name,
+				readings: {
+					ot: rldReadings.ot,
+					psalm: rldReadings.psalm,
+					epistle: rldReadings.epistle,
+					gospel: rldReadings.gospel
+				}
+			};
+		}
+
+		// Fall back to Sunday lectionary (uses previous Sunday if not a Sunday)
+		const sundayKey = getSundayLectionaryKeyForAnyDate(year, month, day);
+		if (!sundayKey) return null;
+
+		// Get liturgical year cycle
+		const liturgicalYear = getLiturgicalYearCycle(year);
+
+		// Get the readings
+		const readings = getReadings(sundayKey, liturgicalYear);
+		if (!readings) return null;
+
+		// Get the Sunday name
+		const sundayInfo = getSundayReadings(sundayKey);
+
+		return {
+			isRLD: false,
+			sundayKey,
+			sundayName: sundayInfo?.name || sundayKey,
+			liturgicalYear,
+			readings
+		};
+	});
+
+	// Open scripture modal
+	function openScripture(reference: string) {
+		scriptureModal.open(reference, null);
+	}
+
+	// Open psalm modal
+	function openPsalm(psalmRef: string) {
+		// Handle formats like "Ps 122", "Ps 80 or 80:1-7"
+		let ref = psalmRef.replace(/^(Ps|Psalm)\s*/i, '');
+
+		// Take the first option if there's an "or"
+		if (ref.includes(' or ')) {
+			ref = ref.split(' or ')[0].trim();
+		}
+
+		// Strip optional verses in parentheses
+		ref = ref.replace(/\([^)]+\)/g, '').trim();
+
+		const parsed = parsePsalmRef(ref);
+		psalmModal.open([parsed]);
+	}
 </script>
 
 <div class="mx-auto max-w-5xl px-2 py-4 md:px-4 md:py-6" style="overscroll-behavior: contain;">
@@ -356,12 +452,10 @@
 			{currentYear}
 		</h1>
 
-		<!-- Selected Date Display - Fixed height to prevent layout shift -->
-		<div
-			class="mt-3 min-h-[68px] rounded-lg border-2 border-blue-500 bg-blue-50 px-3 py-2 text-center md:mt-4"
-		>
+		<!-- Selected Date Display -->
+		<div class="mt-3 rounded-lg border-2 border-blue-500 bg-blue-50 px-3 py-2 md:mt-4">
 			{#if displayDay}
-				<div class="text-sm font-semibold text-blue-900">
+				<div class="text-center text-sm font-semibold text-blue-900">
 					{displayDay.date.toLocaleDateString('en-US', {
 						weekday: 'long',
 						month: 'long',
@@ -370,17 +464,74 @@
 					})}
 				</div>
 				{#if displayDay.sundayFullName}
-					<div class="mt-0.5 text-xs font-medium text-blue-700">
+					<div class="mt-0.5 text-center text-xs font-medium text-blue-700">
 						{displayDay.sundayFullName}
 					</div>
 				{/if}
 				{#if displayDay.feastDay}
 					<div
-						class="mt-0.5 text-xs {displayDay.isRLD
+						class="mt-0.5 text-center text-xs {displayDay.isRLD
 							? 'font-semibold text-red-700'
 							: 'text-gray-700'}"
 					>
 						{displayDay.feastDay}
+					</div>
+				{/if}
+
+				<!-- Eucharist Readings -->
+				{#if displayReadings}
+					<div class="mt-3 border-t border-blue-200 pt-2">
+						<div class="mb-1 text-center text-xs text-gray-600">
+							{#if displayReadings.isRLD}
+								{displayReadings.rldName}
+							{:else if !displayDay.isSunday}
+								Eucharist readings from {displayReadings.sundayName} (Year {displayReadings.liturgicalYear})
+							{:else}
+								{displayReadings.sundayName} (Year {displayReadings.liturgicalYear})
+							{/if}
+						</div>
+						<div class="grid grid-cols-2 gap-x-4 gap-y-1 text-xs md:grid-cols-4">
+							<div>
+								<span class="text-gray-500">OT:</span>
+								<button
+									type="button"
+									onclick={() => openScripture(displayReadings.readings.ot)}
+									class="ml-1 text-blue-600 underline hover:text-blue-800"
+								>
+									{displayReadings.readings.ot}
+								</button>
+							</div>
+							<div>
+								<span class="text-gray-500">Psalm:</span>
+								<button
+									type="button"
+									onclick={() => openPsalm(displayReadings.readings.psalm)}
+									class="ml-1 text-blue-600 underline hover:text-blue-800"
+								>
+									{displayReadings.readings.psalm}
+								</button>
+							</div>
+							<div>
+								<span class="text-gray-500">Epistle:</span>
+								<button
+									type="button"
+									onclick={() => openScripture(displayReadings.readings.epistle)}
+									class="ml-1 text-blue-600 underline hover:text-blue-800"
+								>
+									{displayReadings.readings.epistle}
+								</button>
+							</div>
+							<div>
+								<span class="text-gray-500">Gospel:</span>
+								<button
+									type="button"
+									onclick={() => openScripture(displayReadings.readings.gospel)}
+									class="ml-1 text-blue-600 underline hover:text-blue-800"
+								>
+									{displayReadings.readings.gospel}
+								</button>
+							</div>
+						</div>
 					</div>
 				{/if}
 			{/if}

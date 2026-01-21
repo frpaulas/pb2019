@@ -214,6 +214,36 @@ export function getSundayLectionaryKey(year: number, month: number, day: number)
 		return null;
 	}
 
+	return getSundayLectionaryKeyForDate(date);
+}
+
+/**
+ * Get the Sunday lectionary key for any date (uses previous Sunday if not a Sunday)
+ *
+ * @param year - Calendar year
+ * @param month - Month (1-12)
+ * @param day - Day of month
+ * @returns Sunday lectionary key (e.g., "advent-1", "easter-3", "proper-15") or null if no applicable Sunday
+ */
+export function getSundayLectionaryKeyForAnyDate(
+	year: number,
+	month: number,
+	day: number
+): string | null {
+	const date = new Date(year, month - 1, day);
+
+	// If it's a Sunday, use this date; otherwise find the previous Sunday
+	const sunday = date.getDay() === 0 ? date : getSundayOnOrBefore(date);
+
+	return getSundayLectionaryKeyForDate(sunday);
+}
+
+/**
+ * Internal function to get Sunday lectionary key for a date (assumes date is a Sunday)
+ */
+function getSundayLectionaryKeyForDate(date: Date): string | null {
+	const year = date.getFullYear();
+
 	const dates = calculateLiturgicalDates(year);
 
 	// Check Advent

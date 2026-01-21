@@ -340,6 +340,47 @@ export function isRedLetterDay(month: number, day: number, year?: number): boole
 }
 
 /**
+ * Get the original calendar date key for a feast on a given date
+ * This handles transferred feasts - if a feast was transferred TO this date,
+ * returns the original date key (for looking up readings in rld_eucharist.json)
+ *
+ * @param month - Month (1-12)
+ * @param day - Day of month (1-31)
+ * @param year - Year for transfer calculations
+ * @returns Original date key (e.g., "1-18") or null if no RLD feast
+ */
+export function getOriginalFeastDateKey(month: number, day: number, year: number): string | null {
+	const key = `${month}-${day}`;
+
+	// First check if there's a feast directly on this date that wasn't transferred away
+	const directFeast = rldsDb[key];
+	if (directFeast && (directFeast.type === 'PF' || directFeast.type === 'RLD')) {
+		const transfer = shouldTransferFeast(year, month, day);
+		if (!transfer.shouldTransfer) {
+			// Feast stays on this date
+			return key;
+		}
+	}
+
+	// Check if any feast was transferred TO this date
+	for (const [feastKey, feast] of Object.entries(rldsDb)) {
+		if (feast.type !== 'PF' && feast.type !== 'RLD') continue;
+
+		const [feastMonth, feastDay] = feastKey.split('-').map(Number);
+		const transfer = shouldTransferFeast(year, feastMonth, feastDay);
+
+		if (transfer.shouldTransfer && transfer.transferredDate) {
+			if (transfer.transferredDate.month === month && transfer.transferredDate.day === day) {
+				// This feast was transferred here - return its original date
+				return feastKey;
+			}
+		}
+	}
+
+	return null;
+}
+
+/**
  * Get all O Antiphons (Dec 16-23)
  *
  * @returns Array of [date, Antiphon] tuples

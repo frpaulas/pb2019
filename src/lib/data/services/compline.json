@@ -108,7 +108,7 @@
 					},
 					{
 						"type": "line",
-						"text": "to the glory of your Name. Amen.",
+						"text": "to the glory of your Name. **Amen.**",
 						"bold": true,
 						"indent": true
 					},

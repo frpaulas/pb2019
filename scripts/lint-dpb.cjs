@@ -29,7 +29,8 @@ const VALID_PREFIXES = {
 	use: /^use:\w+:.+$/,
 	scripture: /^scripture:[^:]+::.+$/,
 	footnote: /^footnote:\s*.+$/,
-	br: /^br:\s*$/
+	br: /^br:\s*$/,
+	vm: /^vm:\d+:?\s*$/
 };
 
 // Valid global arguments

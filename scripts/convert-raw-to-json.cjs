@@ -852,6 +852,17 @@ class RawToJsonConverter {
 			};
 		}
 
+		// Handle eucharist_readings: use:eucharist_readings:lessons or use:eucharist_readings:gospel
+		// Format: use:eucharist_readings:type - shows Sunday lectionary readings
+		// lessons = OT, Psalm, Epistle; gospel = Gospel only
+		if (componentName === 'eucharist_readings') {
+			const readingType = parts[2] || 'lessons';
+			return {
+				type: 'eucharist_readings',
+				readingType: readingType
+			};
+		}
+
 		// Default: return component type
 		const item = {
 			type: componentName

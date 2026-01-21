@@ -26,11 +26,19 @@ tb: text block usage-> tb: text (supports multiline with indented continuation)
 tp: title page usage-> tp:text
 
 use: include directive usage-> use:type:name
+    use:appointed_readings:morning (show morning prayer appointed readings)
+    use:appointed_readings:evening (show evening prayer appointed readings)
+    use:appointed_psalms:morning (show morning prayer appointed psalms)
+    use:appointed_psalms:evening (show evening prayer appointed psalms)
+    use:eucharist_readings:lessons (show eucharist OT, Psalm, Epistle readings)
+    use:eucharist_readings:gospel (show eucharist Gospel reading)
 
 v: versical usage->
     v::text (no speaker)
     v:b: (no speaker, bold text)
     v:speaker:text (speaker proceeds text, bold if speaker is "people")
+
+vm: vertical margin usage-> vm:n (add vertical spacing, n = multiplier 1-4)
 
 global arguments:
     b: make the text bold
