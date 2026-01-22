@@ -60,6 +60,10 @@
 			href: `${base}/calendar`
 		},
 		{
+			title: 'Bible',
+			href: `${base}/bible`
+		},
+		{
 			title: 'Psalter',
 			href: `${base}/psalter`
 		},

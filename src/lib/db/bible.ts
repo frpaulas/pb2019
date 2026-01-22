@@ -655,3 +655,110 @@ export function listBooks(): string[] {
 export function isChapterlessBook(bookCode: string): boolean {
 	return CHAPTERLESS_BOOKS.has(bookCode);
 }
+
+/**
+ * Get all books with their metadata, organized by testament
+ *
+ * @returns Object with OT, NT, and Apocrypha arrays of books
+ */
+export function getAllBooks(): {
+	ot: Array<{ code: string; name: string; shortName: string; chapters: number }>;
+	nt: Array<{ code: string; name: string; shortName: string; chapters: number }>;
+	apocrypha: Array<{ code: string; name: string; shortName: string; chapters: number }>;
+} {
+	const OT_BOOKS = [
+		'GEN',
+		'EXO',
+		'LEV',
+		'NUM',
+		'DEU',
+		'JOS',
+		'JDG',
+		'RUT',
+		'1SA',
+		'2SA',
+		'1KI',
+		'2KI',
+		'1CH',
+		'2CH',
+		'EZR',
+		'NEH',
+		'EST',
+		'JOB',
+		'PSA',
+		'PRO',
+		'ECC',
+		'SNG',
+		'ISA',
+		'JER',
+		'LAM',
+		'EZK',
+		'DAN',
+		'HOS',
+		'JOL',
+		'AMO',
+		'OBA',
+		'JON',
+		'MIC',
+		'NAM',
+		'HAB',
+		'ZEP',
+		'HAG',
+		'ZEC',
+		'MAL'
+	];
+
+	const NT_BOOKS = [
+		'MAT',
+		'MRK',
+		'LUK',
+		'JHN',
+		'ACT',
+		'ROM',
+		'1CO',
+		'2CO',
+		'GAL',
+		'EPH',
+		'PHP',
+		'COL',
+		'1TH',
+		'2TH',
+		'1TI',
+		'2TI',
+		'TIT',
+		'PHM',
+		'HEB',
+		'JAS',
+		'1PE',
+		'2PE',
+		'1JN',
+		'2JN',
+		'3JN',
+		'JUD',
+		'REV'
+	];
+
+	const result = {
+		ot: [] as Array<{ code: string; name: string; shortName: string; chapters: number }>,
+		nt: [] as Array<{ code: string; name: string; shortName: string; chapters: number }>,
+		apocrypha: [] as Array<{ code: string; name: string; shortName: string; chapters: number }>
+	};
+
+	for (const [code, book] of Object.entries(db.books)) {
+		const bookData = { code, name: book.name, shortName: book.shortName, chapters: book.chapters };
+
+		if (OT_BOOKS.includes(code)) {
+			result.ot.push(bookData);
+		} else if (NT_BOOKS.includes(code)) {
+			result.nt.push(bookData);
+		} else {
+			result.apocrypha.push(bookData);
+		}
+	}
+
+	// Sort by canonical order
+	result.ot.sort((a, b) => OT_BOOKS.indexOf(a.code) - OT_BOOKS.indexOf(b.code));
+	result.nt.sort((a, b) => NT_BOOKS.indexOf(a.code) - NT_BOOKS.indexOf(b.code));
+
+	return result;
+}
