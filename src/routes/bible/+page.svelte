@@ -167,7 +167,8 @@
 
 	function openChapter(chapter: number) {
 		if (!selectedBook) return;
-		const reference = `${selectedBook.name} ${chapter}`;
+		// Use shortName (e.g., "Gen", "1 Sam") which the parser recognizes
+		const reference = `${selectedBook.shortName} ${chapter}`;
 		scriptureModal.open(reference, null);
 	}
 </script>
@@ -179,17 +180,15 @@
 	{#if !selectedBook}
 		<!-- BOOK SELECTION VIEW -->
 
-		<!-- Display Area for hovered book -->
-		<div class="text-center">
+		<!-- Display Area for hovered book - fixed height to prevent jumping -->
+		<div class="flex h-16 flex-col items-center justify-center text-center">
 			{#if hoveredBook}
 				<div class="text-2xl font-bold text-gray-900">{hoveredBook.name}</div>
 				<div class="text-sm text-gray-500">{hoveredBook.chapters} chapters</div>
 			{:else if !hasInteractedBooks}
 				<div class="text-xl text-gray-400">Point to a book</div>
-				<div class="text-sm text-gray-400">&nbsp;</div>
 			{:else}
 				<div class="text-xl text-gray-400">&nbsp;</div>
-				<div class="text-sm text-gray-400">&nbsp;</div>
 			{/if}
 		</div>
 
@@ -212,6 +211,15 @@
 					>
 						{book.shortName}
 					</button>
+					{#if book.code === 'PSA'}
+						<!-- BCP Psalter link right after Psalms -->
+						<a
+							href="{base}/psalter"
+							class="flex items-center justify-center rounded border border-red-300 bg-red-50 px-1 py-2 text-xs font-medium text-red-700 transition-colors hover:bg-red-100"
+						>
+							BCP Ps
+						</a>
+					{/if}
 				{/each}
 			</div>
 			<!-- Legend -->
