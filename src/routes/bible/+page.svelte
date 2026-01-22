@@ -12,6 +12,27 @@
 		chapters: number;
 	};
 
+	// Combined book list with section info for color coding
+	type BookWithSection = BookOption & { section: 'ot' | 'nt' | 'ap' };
+	const allBooksFlat: BookWithSection[] = [
+		...allBooks.ot.map((b) => ({ ...b, section: 'ot' as const })),
+		...allBooks.nt.map((b) => ({ ...b, section: 'nt' as const })),
+		...allBooks.apocrypha.map((b) => ({ ...b, section: 'ap' as const }))
+	];
+
+	// Background colors by section
+	function getBookBgColor(section: 'ot' | 'nt' | 'ap', isHovered: boolean): string {
+		if (isHovered) return 'bg-blue-400 border-blue-600 text-white';
+		switch (section) {
+			case 'ot':
+				return 'bg-white border-gray-300 text-gray-700';
+			case 'nt':
+				return 'bg-blue-50 border-blue-200 text-gray-700';
+			case 'ap':
+				return 'bg-amber-50 border-amber-200 text-gray-700';
+		}
+	}
+
 	// State for two-stage selection: book first, then chapter
 	let selectedBook = $state<BookOption | null>(null);
 	let hoveredBook = $state<BookOption | null>(null);
@@ -55,9 +76,7 @@
 			if (button) {
 				const bookCode = button.getAttribute('data-book');
 				if (bookCode) {
-					const book = [...allBooks.ot, ...allBooks.nt, ...allBooks.apocrypha].find(
-						(b) => b.code === bookCode
-					);
+					const book = allBooksFlat.find((b) => b.code === bookCode);
 					if (book) {
 						hoveredBook = book;
 						isFingerOverGrid = true;
@@ -174,19 +193,16 @@
 			{/if}
 		</div>
 
-		<!-- Old Testament Grid -->
+		<!-- Single unified book grid with color-coded sections -->
 		<div class="w-full">
-			<div class="mb-1 text-xs font-semibold tracking-wide text-gray-500 uppercase">
-				Old Testament
-			</div>
-			<div class="grid grid-cols-8 gap-1 sm:grid-cols-10">
-				{#each allBooks.ot as book}
+			<div class="grid grid-cols-8 gap-1 sm:grid-cols-11">
+				{#each allBooksFlat as book}
 					<button
 						data-book={book.code}
-						class="rounded border border-gray-300 bg-white px-1 py-2 text-xs font-medium transition-colors hover:bg-blue-50 active:bg-blue-100 {hoveredBook?.code ===
-						book.code
-							? 'border-blue-600 bg-blue-400 text-white'
-							: 'text-gray-700'}"
+						class="rounded border px-1 py-2 text-xs font-medium transition-colors {getBookBgColor(
+							book.section,
+							hoveredBook?.code === book.code
+						)}"
 						onmouseenter={() => handleBookHover(book)}
 						onmouseleave={() => !isTouchDevice && (hoveredBook = null)}
 						ontouchstart={(e) => handleBookTouchStart(book, e)}
@@ -198,61 +214,19 @@
 					</button>
 				{/each}
 			</div>
-		</div>
-
-		<!-- New Testament Grid -->
-		<div class="w-full">
-			<div class="mb-1 text-xs font-semibold tracking-wide text-gray-500 uppercase">
-				New Testament
-			</div>
-			<div class="grid grid-cols-8 gap-1 sm:grid-cols-10">
-				{#each allBooks.nt as book}
-					<button
-						data-book={book.code}
-						class="rounded border border-gray-300 bg-white px-1 py-2 text-xs font-medium transition-colors hover:bg-blue-50 active:bg-blue-100 {hoveredBook?.code ===
-						book.code
-							? 'border-blue-600 bg-blue-400 text-white'
-							: 'text-gray-700'}"
-						onmouseenter={() => handleBookHover(book)}
-						onmouseleave={() => !isTouchDevice && (hoveredBook = null)}
-						ontouchstart={(e) => handleBookTouchStart(book, e)}
-						ontouchmove={handleBookTouchMove}
-						ontouchend={handleBookTouchEnd}
-						onclick={() => handleBookClick(book)}
-					>
-						{book.shortName}
-					</button>
-				{/each}
+			<!-- Legend -->
+			<div class="mt-2 flex justify-center gap-4 text-xs text-gray-500">
+				<span class="flex items-center gap-1">
+					<span class="inline-block h-3 w-3 rounded border border-gray-300 bg-white"></span> OT
+				</span>
+				<span class="flex items-center gap-1">
+					<span class="inline-block h-3 w-3 rounded border border-blue-200 bg-blue-50"></span> NT
+				</span>
+				<span class="flex items-center gap-1">
+					<span class="inline-block h-3 w-3 rounded border border-amber-200 bg-amber-50"></span> Apocrypha
+				</span>
 			</div>
 		</div>
-
-		<!-- Apocrypha Grid (if present) -->
-		{#if allBooks.apocrypha.length > 0}
-			<div class="w-full">
-				<div class="mb-1 text-xs font-semibold tracking-wide text-gray-500 uppercase">
-					Apocrypha
-				</div>
-				<div class="grid grid-cols-8 gap-1 sm:grid-cols-10">
-					{#each allBooks.apocrypha as book}
-						<button
-							data-book={book.code}
-							class="rounded border border-gray-300 bg-white px-1 py-2 text-xs font-medium transition-colors hover:bg-blue-50 active:bg-blue-100 {hoveredBook?.code ===
-							book.code
-								? 'border-blue-600 bg-blue-400 text-white'
-								: 'text-gray-700'}"
-							onmouseenter={() => handleBookHover(book)}
-							onmouseleave={() => !isTouchDevice && (hoveredBook = null)}
-							ontouchstart={(e) => handleBookTouchStart(book, e)}
-							ontouchmove={handleBookTouchMove}
-							ontouchend={handleBookTouchEnd}
-							onclick={() => handleBookClick(book)}
-						>
-							{book.shortName}
-						</button>
-					{/each}
-				</div>
-			</div>
-		{/if}
 	{:else}
 		<!-- CHAPTER SELECTION VIEW -->
 
