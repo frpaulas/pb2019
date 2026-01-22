@@ -121,6 +121,7 @@
 	function handleChapterHover(chapter: number) {
 		hasInteractedChapters = true;
 		hoveredChapter = chapter;
+		lastSelectedChapter = chapter; // Update on every hover so it persists
 	}
 
 	function handleChapterTouchStart(chapter: number, event: TouchEvent) {
@@ -128,6 +129,7 @@
 		isTouchDevice = true;
 		hasInteractedChapters = true;
 		hoveredChapter = chapter;
+		lastSelectedChapter = chapter; // Update on every touch so it persists
 		isFingerOverGrid = true;
 	}
 
@@ -143,7 +145,9 @@
 			if (button) {
 				const chapterAttr = button.getAttribute('data-chapter');
 				if (chapterAttr) {
-					hoveredChapter = parseInt(chapterAttr);
+					const chapter = parseInt(chapterAttr);
+					hoveredChapter = chapter;
+					lastSelectedChapter = chapter; // Update on move so it persists
 					isFingerOverGrid = true;
 				}
 			} else {
