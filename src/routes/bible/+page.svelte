@@ -37,6 +37,7 @@
 	let selectedBook = $state<BookOption | null>(null);
 	let hoveredBook = $state<BookOption | null>(null);
 	let hoveredChapter = $state<number | null>(null);
+	let lastSelectedChapter = $state<number | null>(null); // Persists after modal opens
 	let hasInteractedBooks = $state(false);
 	let hasInteractedChapters = $state(false);
 	let isTouchDevice = $state(false);
@@ -113,6 +114,7 @@
 		selectedBook = null;
 		hoveredBook = null;
 		hasInteractedBooks = false;
+		lastSelectedChapter = null;
 	}
 
 	// Chapter grid handlers
@@ -169,6 +171,7 @@
 		if (!selectedBook) return;
 		// Use shortName (e.g., "Gen", "1 Sam") which the parser recognizes
 		const reference = `${selectedBook.shortName} ${chapter}`;
+		lastSelectedChapter = chapter; // Remember selected chapter
 		scriptureModal.open(reference, null);
 	}
 </script>
@@ -194,7 +197,7 @@
 
 		<!-- Single unified book grid with color-coded sections -->
 		<div class="w-full">
-			<div class="grid grid-cols-8 gap-1 sm:grid-cols-11">
+			<div class="grid grid-cols-8 gap-1 sm:grid-cols-11" style="touch-action: none;">
 				{#each allBooksFlat as book}
 					<button
 						data-book={book.code}
@@ -250,6 +253,10 @@
 				<div class="text-5xl font-bold text-gray-900">
 					Chapter {hoveredChapter}
 				</div>
+			{:else if lastSelectedChapter}
+				<div class="text-5xl font-bold text-gray-900">
+					Chapter {lastSelectedChapter}
+				</div>
 			{:else if !hasInteractedChapters}
 				<div class="text-xl text-gray-400">Select a chapter</div>
 			{:else}
@@ -260,7 +267,7 @@
 		<!-- Chapter Grid -->
 		<div
 			class="grid gap-1"
-			style="grid-template-columns: repeat({getChapterGridCols(
+			style="touch-action: none; grid-template-columns: repeat({getChapterGridCols(
 				selectedBook.chapters
 			)}, minmax(0, 1fr));"
 		>
