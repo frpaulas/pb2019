@@ -15,10 +15,11 @@
 
 <script lang="ts">
 	import { scriptureModal } from '$lib/stores/scriptureModal';
-	import { getPassage, type BiblePassage } from '$lib/db/bible';
+	import { getPassage, parseReference, getAllBooks, type BiblePassage } from '$lib/db/bible';
 	import { onMount } from 'svelte';
 
 	let modalElement: HTMLDivElement;
+	let contentElement: HTMLDivElement;
 
 	// Get the current reference to display
 	let currentReference = $derived(
@@ -32,6 +33,62 @@
 		currentReference ? getPassage(currentReference) : null
 	);
 
+	// Parse current reference to get book and chapter info for navigation
+	let parsedRef = $derived(currentReference ? parseReference(currentReference) : null);
+
+	// Get book info for chapter bounds
+	const allBooks = getAllBooks();
+	const allBooksFlat = [...allBooks.ot, ...allBooks.nt, ...allBooks.apocrypha];
+
+	// Determine if we're viewing a single whole chapter (navigable)
+	let currentChapter = $derived.by(() => {
+		if (!parsedRef) return null;
+		// Only allow navigation for single-chapter references (e.g., "Gen 1", not "Gen 1:1-5")
+		if (parsedRef.segments.length !== 1) return null;
+		const seg = parsedRef.segments[0];
+		// Check if it's a whole chapter (startVerse=1 and endVerse=999 or covers all verses)
+		if (seg.startVerse === 1 && seg.endVerse >= 999) {
+			return seg.chapter;
+		}
+		// Also allow if it looks like a whole chapter request
+		return seg.chapter;
+	});
+
+	let currentBookCode = $derived(parsedRef?.bookCode || null);
+
+	let currentBookInfo = $derived(
+		currentBookCode ? allBooksFlat.find((b) => b.code === currentBookCode) : null
+	);
+
+	// Navigation availability
+	let canGoPrev = $derived(currentChapter !== null && currentChapter > 1);
+	let canGoNext = $derived(
+		currentChapter !== null && currentBookInfo !== null && currentChapter < currentBookInfo.chapters
+	);
+
+	function goToPrevChapter() {
+		if (!canGoPrev || !currentBookInfo || !currentChapter) return;
+		const newRef = `${currentBookInfo.shortName} ${currentChapter - 1}`;
+		scriptureModal.open(newRef, null);
+		scrollToTop();
+	}
+
+	function goToNextChapter() {
+		if (!canGoNext || !currentBookInfo || !currentChapter) return;
+		const newRef = `${currentBookInfo.shortName} ${currentChapter + 1}`;
+		scriptureModal.open(newRef, null);
+		scrollToTop();
+	}
+
+	function scrollToTop() {
+		// Scroll content area to top after navigation
+		setTimeout(() => {
+			if (contentElement) {
+				contentElement.scrollTop = 0;
+			}
+		}, 0);
+	}
+
 	function close() {
 		scriptureModal.close();
 	}
@@ -41,6 +98,10 @@
 
 		if (event.key === 'Escape') {
 			close();
+		} else if (event.key === 'ArrowLeft' && canGoPrev) {
+			goToPrevChapter();
+		} else if (event.key === 'ArrowRight' && canGoNext) {
+			goToNextChapter();
 		}
 	}
 
@@ -83,9 +144,31 @@
 		>
 			<!-- Header -->
 			<div class="flex items-center justify-between border-b border-gray-200 p-4">
-				<h2 id="scripture-modal-title" class="text-xl font-semibold text-gray-900">
-					{currentReference || 'Scripture Reading'}
-				</h2>
+				<div class="flex items-center gap-2">
+					{#if canGoPrev}
+						<button
+							type="button"
+							onclick={goToPrevChapter}
+							class="flex h-8 w-8 items-center justify-center rounded-full text-xl text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-700"
+							aria-label="Previous chapter"
+						>
+							&#8592;
+						</button>
+					{/if}
+					<h2 id="scripture-modal-title" class="text-xl font-semibold text-gray-900">
+						{currentReference || 'Scripture Reading'}
+					</h2>
+					{#if canGoNext}
+						<button
+							type="button"
+							onclick={goToNextChapter}
+							class="flex h-8 w-8 items-center justify-center rounded-full text-xl text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-700"
+							aria-label="Next chapter"
+						>
+							&#8594;
+						</button>
+					{/if}
+				</div>
 
 				<button
 					type="button"
@@ -98,7 +181,10 @@
 			</div>
 
 			<!-- Content -->
-			<div class="flex-1 overflow-y-auto overscroll-contain scroll-smooth p-6">
+			<div
+				bind:this={contentElement}
+				class="flex-1 overflow-y-auto overscroll-contain scroll-smooth p-6"
+			>
 				{#if passage}
 					<div class="prose prose-lg max-w-none">
 						<!-- Render verses with paragraph breaks preserved -->
