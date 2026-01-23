@@ -183,8 +183,15 @@
 	function handleScroll() {
 		if (!container) return;
 
-		// Mark that user has scrolled
+		// Mark that user has scrolled and is currently scrolling
 		hasUserScrolled = true;
+		isUserScrolling = true;
+
+		// Reset isUserScrolling after scrolling settles
+		clearTimeout(scrollTimeout);
+		scrollTimeout = setTimeout(() => {
+			isUserScrolling = false;
+		}, 500);
 
 		const { scrollTop, scrollHeight, clientHeight } = container;
 		const scrollProgress = (scrollTop + clientHeight) / scrollHeight;
@@ -240,13 +247,8 @@
 	function handleTouchStart(event) {
 		touchStartY = event.touches[0].clientY;
 		touchStartX = event.touches[0].clientX;
-		isUserScrolling = true;
-
-		// Reset the flag after scrolling settles (500ms of no touch)
-		clearTimeout(scrollTimeout);
-		scrollTimeout = setTimeout(() => {
-			isUserScrolling = false;
-		}, 500);
+		// Don't set isUserScrolling here - wait until actual scroll movement
+		// Setting it on touchstart blocks link navigation on mobile
 	}
 
 	function handleTouchEnd(event) {
