@@ -41,10 +41,6 @@
 			submenu: [
 				{ title: 'Anglican Standard Text', href: `${base}/pg/105` },
 				{ title: 'Renewed Ancient Text', href: `${base}/pg/123` },
-				{
-					title: 'Supplemental Eucharistic Text',
-					href: `${base}/to_do/Supplenetal Eucharistic Text`
-				},
 				{ title: 'Seasonal Greetings', href: `${base}/pg/145` },
 				{ title: 'Exhortation', href: `${base}/pg/147` },
 				{ title: 'Offertory Sentences', href: `${base}/pg/149` },
@@ -93,12 +89,9 @@
 		{
 			title: 'Additional Resources',
 			submenu: [
-				{ title: 'Supplemental Canticles', href: `${base}/to_do/Supplemental Canticles` },
-				{
-					title: 'Great Litany and Supplication',
-					href: `${base}/to_do/Great Litany and Supplication`
-				},
-				{ title: 'Decalogue', href: `${base}/to_do/Decalogue` }
+				{ title: 'Supplemental Canticles', href: `${base}/pg/79` },
+				{ title: 'Great Litany', href: `${base}/pg/91` },
+				{ title: 'Decalogue', href: `${base}/pg/100` }
 			]
 		}
 	];

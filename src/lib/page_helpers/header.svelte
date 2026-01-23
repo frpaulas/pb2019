@@ -92,22 +92,34 @@
 			]
 		},
 		{
-			title: 'Pastoral Offices',
+			title: 'Baptism & Confirmation',
 			submenu: [
-				{ title: 'Holy Baptism', href: `${base}/to_do/Holy Baptism` },
-				{ title: 'Confirmation', href: `${base}/to_do/Confirmation` },
-				{ title: 'Baptism With Confirmation', href: `${base}/to_do/Baptism With Confirmation` }
+				{ title: 'Holy Baptism', href: `${base}/pg/161` },
+				{ title: 'Confirmation', href: `${base}/pg/175` },
+				{ title: 'Baptism With Confirmation', href: `${base}/pg/183` },
+				{ title: 'Renewal of Baptismal Vows', href: `${base}/pg/194` }
+			]
+		},
+		{
+			title: 'Pastoral Rites',
+			submenu: [
+				{ title: 'Holy Matrimony', href: `${base}/pg/201` },
+				{ title: 'Thanksgiving for Birth or Adoption', href: `${base}/pg/215` },
+				{ title: 'Reconciliation of Penitents', href: `${base}/pg/223` },
+				{ title: 'Ministry to the Sick', href: `${base}/pg/225` },
+				{ title: 'Communion of the Sick', href: `${base}/pg/227` },
+				{ title: 'Additional Prayers for the Sick', href: `${base}/pg/231` },
+				{ title: 'Ministry to the Dying', href: `${base}/pg/237` },
+				{ title: 'Prayers for a Vigil', href: `${base}/pg/243` },
+				{ title: 'Burial of the Dead', href: `${base}/pg/249` }
 			]
 		},
 		{
 			title: 'Additional Resources',
 			submenu: [
-				{ title: 'Supplemental Canticles', href: `${base}/to_do/Supplemental Canticles` },
-				{
-					title: 'Great Litany and Supplication',
-					href: `${base}/to_do/Great Litany and Supplication`
-				},
-				{ title: 'Decalogue', href: `${base}/to_do/Decalogue` }
+				{ title: 'Supplemental Canticles', href: `${base}/pg/79` },
+				{ title: 'Great Litany', href: `${base}/pg/91` },
+				{ title: 'Decalogue', href: `${base}/pg/100` }
 			]
 		}
 	];
