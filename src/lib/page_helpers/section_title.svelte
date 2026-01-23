@@ -21,7 +21,7 @@
 		caseClass == 'capitalize' ? '' : isSmallSize ? 'tracking-[.2em]' : 'tracking-[.3em]';
 
 	let this_class =
-		'text-center font-medium ' +
+		'text-center font-medium text-[1.15em] ' +
 		caseClass +
 		' ' +
 		tracking +
