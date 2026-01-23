@@ -746,6 +746,7 @@ class RawToJsonConverter {
 
 		// Handle prayer: use:prayer:lords_prayer
 		// Format: use:prayer:name
+		// If a DPB file exists for the prayer, inline its content
 		if (componentName === 'prayer') {
 			const prayerName = parts[2];
 
@@ -754,6 +755,41 @@ class RawToJsonConverter {
 				return null;
 			}
 
+			// Check if a DPB file exists for this prayer
+			const prayerDpbPath = path.join(
+				__dirname,
+				'..',
+				'src',
+				'lib',
+				'data',
+				'prayers',
+				'dpb',
+				`${prayerName}.dpb`
+			);
+
+			if (fs.existsSync(prayerDpbPath)) {
+				// Parse the prayer DPB and return its content blocks
+				console.log(`  📿 Inlining prayer: ${prayerName}`);
+				const prayerContent = fs.readFileSync(prayerDpbPath, 'utf-8');
+				const prayerTokens = this.tokenize(prayerContent);
+				const prayerItems = [];
+
+				prayerTokens.forEach((token) => {
+					const item = this.parseToken(token);
+					if (item) {
+						// Handle nested arrays (unlikely but safe)
+						if (Array.isArray(item)) {
+							prayerItems.push(...item);
+						} else {
+							prayerItems.push(item);
+						}
+					}
+				});
+
+				return prayerItems;
+			}
+
+			// Fall back to component reference if no DPB file
 			return {
 				type: prayerName
 			};
@@ -1162,7 +1198,12 @@ class RawToJsonConverter {
 		tokens.forEach((token) => {
 			const item = this.parseToken(token);
 			if (item) {
-				this.currentSection.content.push(item);
+				// Handle arrays (e.g., from inlined prayers) by flattening
+				if (Array.isArray(item)) {
+					this.currentSection.content.push(...item);
+				} else {
+					this.currentSection.content.push(item);
+				}
 			}
 		});
 
