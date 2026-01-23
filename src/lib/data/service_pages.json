@@ -13,10 +13,6 @@
     "headerText": "Preface",
     "content": [
       {
-        "type": "section_title",
-        "text": "preface"
-      },
-      {
         "type": "text_block",
         "text": "Christianity—the fullness of the good news about Jesus Christ—came very early to what would eventually be called Anglia (England) through the witness of soldiers, sailors, merchants, and missionaries. Legend holds that the biblical tomb-giver, Joseph of Arimathea, was among the first of those scattered evangelists."
       },
@@ -263,7 +259,135 @@
         "text": "Let us humbly confess our sins to Almighty God."
       },
       {
-        "type": "office_confession"
+        "type": "section_title",
+        "text": "confession of sin"
+      },
+      {
+        "type": "rubric",
+        "text": "The Officiant says to the People"
+      },
+      {
+        "type": "text_block",
+        "text": "Dearly beloved, the Scriptures teach us to acknowledge our many sins and offenses, not concealing them from our heavenly Father, but confessing them with humble and obedient hearts that we may obtain forgiveness by his infinite goodness and mercy. We ought at all times humbly to acknowledge our sins before Almighty God, but especially when we come together in his presence to give thanks for the great benefits we have received at his hands, to declare his most worthy praise, to hear his holy Word, and to ask, for ourselves and on behalf of others, those things which are necessary for our life and our salvation. Therefore, draw near with me to the throne of heavenly grace."
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "rubric",
+        "text": "Silence is kept. All kneeling, the Officiant and People say"
+      },
+      {
+        "type": "line",
+        "text": "Almighty and most merciful Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we have erred and strayed from your ways like lost sheep.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We have followed too much the devices and desires",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "of our own hearts.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We have offended against your holy laws.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "We have left undone those things which we ought to have done,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "and we have done those things which we ought not",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to have done;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and apart from your grace, there is no health in us.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "O Lord, have mercy upon us.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Spare all those who confess their faults.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Restore all those who are penitent, according to your promises",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "declared to all people in Christ Jesus our Lord.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "And grant, O most merciful Father, for his sake,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "that we may now live a godly, righteous, and sober life,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to the glory of your holy Name. Amen.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "rubric",
+        "text": "The Priest alone stands and says"
+      },
+      {
+        "type": "text_block",
+        "text": "Almighty God, the Father of our Lord Jesus Christ, desires not the death of sinners, but that they may turn from their wickedness and live. He has empowered and commanded his ministers to pronounce to his people, being penitent, the absolution and remission of their sins. He pardons and absolves all who truly repent and genuinely believe his holy Gospel. For this reason, we beseech him to grant us true repentance and his Holy Spirit, that our present deeds may please him, the rest of our lives may be pure and holy, and that at the last we may come to his eternal joy; through Jesus Christ our Lord. **Amen.**"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "text_block",
+        "text": "The Almighty and merciful Lord grant you absolution and remission of all your sins, true repentance, amendment of life, and the grace and consolation of his Holy Spirit. **Amen.**"
+      },
+      {
+        "type": "rubric",
+        "text": "A Deacon or layperson remains kneeling and prays"
+      },
+      {
+        "type": "text_block",
+        "text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. **Amen.**"
       }
     ]
   },
@@ -272,7 +396,28 @@
     "headerText": "Daily Morning Prayer",
     "content": [
       {
-        "type": "office_absolution"
+        "type": "rubric",
+        "text": "The Priest alone stands and says"
+      },
+      {
+        "type": "text_block",
+        "text": "Almighty God, the Father of our Lord Jesus Christ, desires not the death of sinners, but that they may turn from their wickedness and live. He has empowered and commanded his ministers to pronounce to his people, being penitent, the absolution and remission of their sins. He pardons and absolves all who truly repent and genuinely believe his holy Gospel. For this reason, we beseech him to grant us true repentance and his Holy Spirit, that our present deeds may please him, the rest of our lives may be pure and holy, and that at the last we may come to his eternal joy; through Jesus Christ our Lord. **Amen.**"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "text_block",
+        "text": "The Almighty and merciful Lord grant you absolution and remission of all your sins, true repentance, amendment of life, and the grace and consolation of his Holy Spirit. **Amen.**"
+      },
+      {
+        "type": "rubric",
+        "text": "A Deacon or layperson remains kneeling and prays"
+      },
+      {
+        "type": "text_block",
+        "text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. **Amen.**"
       },
       {
         "type": "vertical_margin",
@@ -807,7 +952,116 @@
         "text": "Before the close of the Office one or both of the following prayers may be used."
       },
       {
-        "type": "general_thanksgiving"
+        "type": "section_title",
+        "text": "the general thanksgiving"
+      },
+      {
+        "type": "rubric",
+        "text": "Officiant and People"
+      },
+      {
+        "type": "line",
+        "text": "Almighty God, Father of all mercies,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we your unworthy servants give you humble thanks",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "for all your goodness and loving-kindness",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to us and to all whom you have made.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We bless you for our creation, preservation,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "and all the blessings of this life;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "but above all for your immeasurable love",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in the redemption of the world by our Lord Jesus Christ;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "for the means of grace, and for the hope of glory.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "And, we pray, give us such an awareness of your mercies,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "that with truly thankful hearts we may show forth your praise,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "not only with our lips, but in our lives,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "by giving up our selves to your service,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and by walking before you",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in holiness and righteousness all our days;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Through Jesus Christ our Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "to whom, with you and the Holy Spirit,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "be honor and glory throughout all ages. Amen.",
+        "bold": true,
+        "indent": true
       }
     ]
   },
@@ -1637,7 +1891,135 @@
         "text": "Let my prayer be set forth in your sight as incense, and let the lifting up of my hands be an evening sacrifice."
       },
       {
-        "type": "office_confession"
+        "type": "section_title",
+        "text": "confession of sin"
+      },
+      {
+        "type": "rubric",
+        "text": "The Officiant says to the People"
+      },
+      {
+        "type": "text_block",
+        "text": "Dearly beloved, the Scriptures teach us to acknowledge our many sins and offenses, not concealing them from our heavenly Father, but confessing them with humble and obedient hearts that we may obtain forgiveness by his infinite goodness and mercy. We ought at all times humbly to acknowledge our sins before Almighty God, but especially when we come together in his presence to give thanks for the great benefits we have received at his hands, to declare his most worthy praise, to hear his holy Word, and to ask, for ourselves and on behalf of others, those things which are necessary for our life and our salvation. Therefore, draw near with me to the throne of heavenly grace."
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "rubric",
+        "text": "Silence is kept. All kneeling, the Officiant and People say"
+      },
+      {
+        "type": "line",
+        "text": "Almighty and most merciful Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we have erred and strayed from your ways like lost sheep.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We have followed too much the devices and desires",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "of our own hearts.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We have offended against your holy laws.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "We have left undone those things which we ought to have done,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "and we have done those things which we ought not",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to have done;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and apart from your grace, there is no health in us.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "O Lord, have mercy upon us.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Spare all those who confess their faults.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Restore all those who are penitent, according to your promises",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "declared to all people in Christ Jesus our Lord.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "And grant, O most merciful Father, for his sake,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "that we may now live a godly, righteous, and sober life,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to the glory of your holy Name. Amen.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "rubric",
+        "text": "The Priest alone stands and says"
+      },
+      {
+        "type": "text_block",
+        "text": "Almighty God, the Father of our Lord Jesus Christ, desires not the death of sinners, but that they may turn from their wickedness and live. He has empowered and commanded his ministers to pronounce to his people, being penitent, the absolution and remission of their sins. He pardons and absolves all who truly repent and genuinely believe his holy Gospel. For this reason, we beseech him to grant us true repentance and his Holy Spirit, that our present deeds may please him, the rest of our lives may be pure and holy, and that at the last we may come to his eternal joy; through Jesus Christ our Lord. **Amen.**"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "text_block",
+        "text": "The Almighty and merciful Lord grant you absolution and remission of all your sins, true repentance, amendment of life, and the grace and consolation of his Holy Spirit. **Amen.**"
+      },
+      {
+        "type": "rubric",
+        "text": "A Deacon or layperson remains kneeling and prays"
+      },
+      {
+        "type": "text_block",
+        "text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. **Amen.**"
       },
       {
         "type": "section_title",
@@ -1685,28 +2067,62 @@
   "42": {
     "pageNumber": 42,
     "headerText": "Daily Evening Prayer",
-    "content": []
+    "content": [
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "The Lord be with you."
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And with your spirit."
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "Let us pray."
+      },
+      {
+        "type": "kyrie"
+      },
+      {
+        "type": "rubric",
+        "text": "Officient and People"
+      },
+      {
+        "type": "lords_prayer"
+      },
+      {
+        "type": "rubric",
+        "text": "Then follows one of these sets of Suffrages"
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "O Lord, show your mercy upon us;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And grant us your salvation."
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "O Lord, guide those who govern us;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And lead us in the way of justice and truth."
+      }
+    ]
   },
   "43": {
     "pageNumber": 43,
     "headerText": "Daily Evening Prayer",
     "content": [
-      {
-        "type": "text_block",
-        "text": "O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you, all nations obey you, all tongues confess and bless you, and men, women, and children everywhere love you and serve you in peace; through Jesus Christ our Lord. **Amen.**"
-      },
-      {
-        "type": "rubric",
-        "text": "or this"
-      },
-      {
-        "type": "text_block",
-        "text": "Keep watch, dear Lord, with those who work, or watch, or weep this night, and give your angels charge over those who sleep. Tend the sick, Lord Christ; give rest to the weary, bless the dying, soothe the suffering, pity the afflicted, shield the joyous; and all for your love's sake. **Amen.**"
-      },
-      {
-        "type": "rubric",
-        "text": "or this"
-      },
       {
         "type": "text_block",
         "text": "O God, you manifest in your servants the signs of your presence: Send forth upon us the Spirit of love, that in companionship with one another your abounding grace may increase among us; through Jesus Christ our Lord. **Amen.**"
@@ -1724,7 +2140,116 @@
         "text": "Before the close of the Office one or both of the following prayers may be used."
       },
       {
-        "type": "general_thanksgiving"
+        "type": "section_title",
+        "text": "the general thanksgiving"
+      },
+      {
+        "type": "rubric",
+        "text": "Officiant and People"
+      },
+      {
+        "type": "line",
+        "text": "Almighty God, Father of all mercies,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we your unworthy servants give you humble thanks",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "for all your goodness and loving-kindness",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to us and to all whom you have made.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We bless you for our creation, preservation,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "and all the blessings of this life;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "but above all for your immeasurable love",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in the redemption of the world by our Lord Jesus Christ;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "for the means of grace, and for the hope of glory.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "And, we pray, give us such an awareness of your mercies,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "that with truly thankful hearts we may show forth your praise,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "not only with our lips, but in our lives,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "by giving up our selves to your service,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and by walking before you",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in holiness and righteousness all our days;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Through Jesus Christ our Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "to whom, with you and the Holy Spirit,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "be honor and glory throughout all ages. Amen.",
+        "bold": true,
+        "indent": true
       }
     ]
   },
@@ -1863,55 +2388,6 @@
       {
         "type": "section_title",
         "text": "the prayers"
-      },
-      {
-        "type": "versical",
-        "officiant": true,
-        "text": "The Lord be with you."
-      },
-      {
-        "type": "versical",
-        "people": true,
-        "text": "And with your spirit."
-      },
-      {
-        "type": "versical",
-        "officiant": true,
-        "text": "Let us pray."
-      },
-      {
-        "type": "kyrie"
-      },
-      {
-        "type": "rubric",
-        "text": "Officient and People"
-      },
-      {
-        "type": "lords_prayer"
-      },
-      {
-        "type": "rubric",
-        "text": "Then follows one of these sets of Suffrages"
-      },
-      {
-        "type": "versical",
-        "officiant": true,
-        "text": "O Lord, show your mercy upon us;"
-      },
-      {
-        "type": "versical",
-        "people": true,
-        "text": "And grant us your salvation."
-      },
-      {
-        "type": "versical",
-        "officiant": true,
-        "text": "O Lord, guide those who govern us;"
-      },
-      {
-        "type": "versical",
-        "people": true,
-        "text": "And lead us in the way of justice and truth."
       }
     ]
   },
@@ -2200,6 +2676,22 @@
       {
         "type": "section_title",
         "text": "prayer for mission"
+      },
+      {
+        "type": "text_block",
+        "text": "O God and Father of all, whom the whole heavens adore: Let the whole earth also worship you, all nations obey you, all tongues confess and bless you, and men, women, and children everywhere love you and serve you in peace; through Jesus Christ our Lord. **Amen.**"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "text_block",
+        "text": "Keep watch, dear Lord, with those who work, or watch, or weep this night, and give your angels charge over those who sleep. Tend the sick, Lord Christ; give rest to the weary, bless the dying, soothe the suffering, pity the afflicted, shield the joyous; and all for your love's sake. **Amen.**"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
       }
     ]
   },
@@ -5524,7 +6016,87 @@
         "text": "In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season."
       },
       {
-        "type": "humble_access"
+        "type": "section_title",
+        "text": "the prayer of humble access"
+      },
+      {
+        "type": "rubric",
+        "text": "Celebrant and People together may say"
+      },
+      {
+        "type": "line",
+        "text": "We do not presume to come to this your table, O merciful Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "trusting in our own righteousness,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "but in your abundant and great mercies.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We are not worthy so much as to gather up",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "the crumbs under your table;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "but you are the same Lord",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "whose character is always to have mercy.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Grant us, therefore, gracious Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "so to eat the flesh of your dear Son Jesus Christ,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and to drink his blood,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "that our sinful bodies may be made clean by his body,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and our souls washed through his most precious blood,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and that we may evermore dwell in him, and he in us. Amen.",
+        "bold": true,
+        "indent": true
       },
       {
         "type": "agnus_dei"
@@ -5603,7 +6175,107 @@
     "headerText": "The Holy Eucharist: Anglican Standard Text",
     "content": [
       {
-        "type": "post_communion_standard"
+        "type": "line",
+        "text": "Almighty and everliving God,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we thank you for feeding us, in these holy mysteries,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "with the spiritual food of the most precious Body and Blood",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "of your Son our Savior Jesus Christ;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and for assuring us, through this Sacrament, of your favor and",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "goodness towards us:",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "that we are true members of the mystical body of your Son,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "the blessed company of all faithful people;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and are also heirs, through hope,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "of your everlasting kingdom.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "And we humbly ask you, heavenly Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "to assist us with your grace,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "that we may continue in that holy fellowship,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and do all the good works that you have prepared for us to",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "walk in;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "through Jesus Christ our Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "to whom, with you and the Holy Spirit,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "be all honor and glory, now and for ever. Amen.",
+        "bold": true,
+        "indent": true
       },
       {
         "type": "rubric",
@@ -5882,14 +6554,6 @@
     "pageNumber": 125,
     "headerText": "The Holy Eucharist: Renewed Ancient Text",
     "content": [
-      {
-        "type": "section_title",
-        "text": "the offertory"
-      },
-      {
-        "type": "rubric",
-        "text": "The Celebrant may begin the Offertory with one of the provided sentences of Scripture. During the Offertory a hymn, psalm, or anthem may be sung. The Deacon or Priest prepares the Holy Table for the celebration. Representatives of the Congregation may bring the People's offerings of bread and wine, and money or other gifts, to the Deacon or Priest."
-      },
       {
         "type": "rubric",
         "text": "The People stand while the offerings are presented. The following may be said."
@@ -6256,7 +6920,66 @@
         "text": "Silence"
       },
       {
-        "type": "confession_communion"
+        "type": "line",
+        "text": "Most merciful God,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we confess that we have sinned against you",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in thought, word and deed,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "by what we have done, and by what we have left undone.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We have not loved you with our whole heart;",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we have not loved our neighbors as ourselves.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We are truly sorry and we humbly repent.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "For the sake of your Son Jesus Christ,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "have mercy on us and forgive us;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "that we may delight in your will, and walk in your ways,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to the glory of your Name. Amen.",
+        "bold": true,
+        "indent": true
       },
       {
         "type": "rubric",
@@ -6323,6 +7046,14 @@
       {
         "type": "rubric",
         "text": "Then the Ministers and People may greet one another in the Name of the Lord."
+      },
+      {
+        "type": "section_title",
+        "text": "the offertory"
+      },
+      {
+        "type": "rubric",
+        "text": "The Celebrant may begin the Offertory with one of the provided sentences of Scripture. During the Offertory a hymn, psalm, or anthem may be sung. The Deacon or Priest prepares the Holy Table for the celebration. Representatives of the Congregation may bring the People's offerings of bread and wine, and money or other gifts, to the Deacon or Priest."
       }
     ]
   },
@@ -6573,7 +7304,87 @@
         "text": "In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season."
       },
       {
-        "type": "humble_access"
+        "type": "section_title",
+        "text": "the prayer of humble access"
+      },
+      {
+        "type": "rubric",
+        "text": "Celebrant and People together may say"
+      },
+      {
+        "type": "line",
+        "text": "We do not presume to come to this your table, O merciful Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "trusting in our own righteousness,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "but in your abundant and great mercies.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We are not worthy so much as to gather up",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "the crumbs under your table;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "but you are the same Lord",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "whose character is always to have mercy.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Grant us, therefore, gracious Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "so to eat the flesh of your dear Son Jesus Christ,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and to drink his blood,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "that our sinful bodies may be made clean by his body,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and our souls washed through his most precious blood,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and that we may evermore dwell in him, and he in us. Amen.",
+        "bold": true,
+        "indent": true
       }
     ]
   },
@@ -12669,7 +13480,66 @@
         "text": "The Minister may say the Confession, and the sick person joins in as able."
       },
       {
-        "type": "confession_communion"
+        "type": "line",
+        "text": "Most merciful God,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we confess that we have sinned against you",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in thought, word and deed,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "by what we have done, and by what we have left undone.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We have not loved you with our whole heart;",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we have not loved our neighbors as ourselves.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We are truly sorry and we humbly repent.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "For the sake of your Son Jesus Christ,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "have mercy on us and forgive us;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "that we may delight in your will, and walk in your ways,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to the glory of your Name. Amen.",
+        "bold": true,
+        "indent": true
       },
       {
         "type": "rubric",
@@ -12778,7 +13648,107 @@
         "text": "After Communion, the Minister says"
       },
       {
-        "type": "post_communion_standard"
+        "type": "line",
+        "text": "Almighty and everliving God,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we thank you for feeding us, in these holy mysteries,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "with the spiritual food of the most precious Body and Blood",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "of your Son our Savior Jesus Christ;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and for assuring us, through this Sacrament, of your favor and",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "goodness towards us:",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "that we are true members of the mystical body of your Son,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "the blessed company of all faithful people;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and are also heirs, through hope,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "of your everlasting kingdom.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "And we humbly ask you, heavenly Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "to assist us with your grace,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "that we may continue in that holy fellowship,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and do all the good works that you have prepared for us to",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "walk in;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "through Jesus Christ our Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "to whom, with you and the Holy Spirit,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "be all honor and glory, now and for ever. Amen.",
+        "bold": true,
+        "indent": true
       },
       {
         "type": "rubric",
@@ -12881,7 +13851,13 @@
         "type": "for_sleep"
       },
       {
-        "type": "in_the_morning"
+        "type": "section_title",
+        "text": "in the morning",
+        "size": "xl"
+      },
+      {
+        "type": "text_block",
+        "text": "O Lord, our heavenly Father, almighty and everlasting God, you have brought us safely to the beginning of this day: Defend us by your mighty power, that we may not fall into sin nor run into any danger; and that, guided by your Spirit, we may do what is righteous in your sight; through Jesus Christ our Lord. **Amen.**"
       },
       {
         "type": "section_title",
@@ -21082,13 +22058,7 @@
         "type": "versical",
         "people": true,
         "text": "Thanks be to God."
-      }
-    ]
-  },
-  "533": {
-    "pageNumber": 533,
-    "headerText": "Untitled Service",
-    "content": [
+      },
       {
         "type": "line",
         "text": "_Or the Reader may say_ Here ends the Reading."
@@ -21121,7 +22091,13 @@
             "value": "."
           }
         ]
-      },
+      }
+    ]
+  },
+  "533": {
+    "pageNumber": 533,
+    "headerText": "Untitled Service",
+    "content": [
       {
         "type": "versical",
         "people": true,
@@ -21254,7 +22230,66 @@
         "text": "The Deacon and People kneel as able and pray"
       },
       {
-        "type": "confession_communion"
+        "type": "line",
+        "text": "Most merciful God,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we confess that we have sinned against you",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in thought, word and deed,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "by what we have done, and by what we have left undone.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We have not loved you with our whole heart;",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we have not loved our neighbors as ourselves.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We are truly sorry and we humbly repent.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "For the sake of your Son Jesus Christ,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "have mercy on us and forgive us;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "that we may delight in your will, and walk in your ways,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to the glory of your Name. Amen.",
+        "bold": true,
+        "indent": true
       },
       {
         "type": "rubric",
@@ -21919,7 +22954,95 @@
         "text": "Silence may follow. The Officiant and People together, all kneeling, pray"
       },
       {
-        "type": "confession"
+        "type": "rubric",
+        "text": "Silence is kept. All kneeling, the Officiant and People say"
+      },
+      {
+        "type": "line",
+        "text": "Almighty and most merciful Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we have erred and strayed from your ways like lost sheep.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We have followed too much the devices and desires",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "of our own hearts.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We have offended against your holy laws.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "We have left undone those things which we ought to have done,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "and we have done those things which we ought not",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to have done;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and apart from your grace, there is no health in us.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "O Lord, have mercy upon us.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Spare all those who confess their faults.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Restore all those who are penitent, according to your promises",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "declared to all people in Christ Jesus our Lord.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "And grant, O most merciful Father, for his sake,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "that we may now live a godly, righteous, and sober life,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to the glory of your holy Name. Amen.",
+        "bold": true,
+        "indent": true
       },
       {
         "type": "versical",
@@ -25101,6 +26224,1352 @@
         "type": "section_title",
         "text": "occasional prayers",
         "size": "3xl"
+      }
+    ]
+  },
+  "598": {
+    "pageNumber": 598,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "section_title",
+        "text": "collects _of the_",
+        "size": "2xl"
+      },
+      {
+        "type": "section_title",
+        "text": "christian year",
+        "size": "2xl"
+      },
+      {
+        "type": "section_title",
+        "text": "advent",
+        "size": "xl"
+      },
+      {
+        "type": "collect",
+        "name": "advent1"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Advent"
+      },
+      {
+        "type": "collect",
+        "name": "advent2"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Advent"
+      }
+    ]
+  },
+  "599": {
+    "pageNumber": 599,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "advent3"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Advent"
+      },
+      {
+        "type": "rubric",
+        "text": "Wednesday, Friday, and Saturday of this week are the traditional winter Ember Days."
+      },
+      {
+        "type": "collect",
+        "name": "advent4"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Advent"
+      },
+      {
+        "type": "section_title",
+        "text": "christmas",
+        "size": "xl"
+      },
+      {
+        "type": "collect",
+        "name": "christmas_eve"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Christmas"
+      }
+    ]
+  },
+  "600": {
+    "pageNumber": 600,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "christmas_day"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Christmas"
+      },
+      {
+        "type": "rubric",
+        "text": "The Collect for Christmas Day and any of the sets of proper lessons for Christmas Day serve for any weekdays between Holy Innocents’ Day and the First Sunday of Christmas"
+      },
+      {
+        "type": "rubric",
+        "text": "When Christmas Day falls on a Sunday, the next Sunday is the Second Sunday of Christmas or The Circumcision and Holy Name of Our Lord Jesus Christ."
+      },
+      {
+        "type": "collect",
+        "name": "christmas1"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Christmas"
+      },
+      {
+        "type": "collect",
+        "name": "holy_name"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Presentation"
+      }
+    ]
+  },
+  "601": {
+    "pageNumber": 601,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "christmas2"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Christmas"
+      },
+      {
+        "type": "section_title",
+        "text": "epiphany",
+        "size": "xl"
+      },
+      {
+        "type": "collect",
+        "name": "the_epiphany"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Epiphany"
+      },
+      {
+        "type": "rubric",
+        "text": "This Collect, with the psalm and lessons for the Epiphany, or those for the Second Sunday after Christmas, serve for weekdays between the Epiphany and the following Sunday."
+      },
+      {
+        "type": "rubric",
+        "text": "When the Epiphany falls on a Sunday, the following Sunday is the First Sunday of Epiphany."
+      },
+      {
+        "type": "collect",
+        "name": "epiphany1"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Epiphany"
+      }
+    ]
+  },
+  "602": {
+    "pageNumber": 602,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "epiphany2"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Epiphany"
+      },
+      {
+        "type": "collect",
+        "name": "epiphany3"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Epiphany"
+      },
+      {
+        "type": "collect",
+        "name": "epiphany4"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Epiphany"
+      }
+    ]
+  },
+  "603": {
+    "pageNumber": 603,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "presentation"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Presentation"
+      },
+      {
+        "type": "collect",
+        "name": "epiphany5"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Lord’s Day, or of the Epiphany"
+      },
+      {
+        "type": "collect",
+        "name": "epiphany6"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Lord’s Day, or of the Epiphany"
+      },
+      {
+        "type": "collect",
+        "name": "epiphany7"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Lord’s Day, or of the Epiphany"
+      }
+    ]
+  },
+  "604": {
+    "pageNumber": 604,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "epiphany8"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Lord’s Day, or of the Epiphany"
+      },
+      {
+        "type": "collect",
+        "name": "epiphany_2nd_to_last"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Epiphany"
+      },
+      {
+        "type": "rubric",
+        "text": "This Collect, with corresponding psalms and lessons, may be substituted for any Sunday of Epiphany, except the First or the Last."
+      },
+      {
+        "type": "collect",
+        "name": "epiphany_last"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Epiphany or of the Transfiguration"
+      }
+    ]
+  },
+  "605": {
+    "pageNumber": 605,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "section_title",
+        "text": "Lent",
+        "size": "xl"
+      },
+      {
+        "type": "collect",
+        "name": "ash_wednesday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Lent"
+      },
+      {
+        "type": "rubric",
+        "text": "This Collect, with the corresponding psalm and lessons, also serves for the weekdays that follow, except as otherwise appointed."
+      },
+      {
+        "type": "collect",
+        "name": "lent1"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Lent"
+      },
+      {
+        "type": "rubric",
+        "text": "Wednesday, Friday, and Saturday of this week are the traditional spring Ember Days."
+      },
+      {
+        "type": "collect",
+        "name": "lent2"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Lent"
+      }
+    ]
+  },
+  "606": {
+    "pageNumber": 606,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "lent3"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Lent"
+      },
+      {
+        "type": "collect",
+        "name": "lent4"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Lent"
+      },
+      {
+        "type": "collect",
+        "name": "lent5"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Lent"
+      }
+    ]
+  },
+  "607": {
+    "pageNumber": 607,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "section_title",
+        "text": "Holy Week",
+        "size": "xl"
+      },
+      {
+        "type": "collect",
+        "name": "pam_sunday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Holy Week"
+      },
+      {
+        "type": "collect",
+        "name": "holy_week_monday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Holy Week"
+      },
+      {
+        "type": "collect",
+        "name": "holy_week_tuesday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Holy Week"
+      }
+    ]
+  },
+  "608": {
+    "pageNumber": 608,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "holy_week_wednesday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Holy Week"
+      },
+      {
+        "type": "collect",
+        "name": "maundy_thursday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Maundy Thursday"
+      },
+      {
+        "type": "collect",
+        "name": "good_friday"
+      },
+      {
+        "type": "collect",
+        "name": "holy_saturday1"
+      }
+    ]
+  },
+  "609": {
+    "pageNumber": 609,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "collect",
+        "name": "holy_saturday_2"
+      },
+      {
+        "type": "section_title",
+        "text": "easter",
+        "size": "xl"
+      },
+      {
+        "type": "collect",
+        "name": "easter_eve"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      },
+      {
+        "type": "collect",
+        "name": "easter_day1"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      }
+    ]
+  },
+  "610": {
+    "pageNumber": 610,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "easterday2"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      },
+      {
+        "type": "collect",
+        "name": "easter_monday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      },
+      {
+        "type": "collect",
+        "name": "easter_tuesday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      },
+      {
+        "type": "collect",
+        "name": "easter_wednesday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      }
+    ]
+  },
+  "611": {
+    "pageNumber": 611,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "easter_thursday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      },
+      {
+        "type": "collect",
+        "name": "easter_friday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      },
+      {
+        "type": "collect",
+        "name": "easter_saturday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      }
+    ]
+  },
+  "612": {
+    "pageNumber": 612,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "easter2"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      },
+      {
+        "type": "collect",
+        "name": "easter3"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      },
+      {
+        "type": "collect",
+        "name": "easter4"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      },
+      {
+        "type": "collect",
+        "name": "easter5"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      }
+    ]
+  },
+  "613": {
+    "pageNumber": 613,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "easter6"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Easter"
+      },
+      {
+        "type": "rubric",
+        "text": "Monday, Tuesday, and Wednesday of this week are the traditional Rogation Days."
+      },
+      {
+        "type": "collect",
+        "name": "ascension"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Ascension"
+      },
+      {
+        "type": "rubric",
+        "text": "The Collect for Ascension Day, with the corresponding psalm and lessons, also serves for the Friday and Saturday following, except as otherwise appointed."
+      },
+      {
+        "type": "collect",
+        "name": "ascension_sunday"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Ascension"
+      }
+    ]
+  },
+  "614": {
+    "pageNumber": 614,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "pentecost1"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Pentecost"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "collect",
+        "name": "pentecost2"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Pentecost"
+      },
+      {
+        "type": "rubric",
+        "text": "The Wednesday, Friday, and Saturday of this week are the traditional summer Ember Days."
+      },
+      {
+        "type": "section_title",
+        "text": "the season after pentecost",
+        "size": "xl"
+      },
+      {
+        "type": "rubric",
+        "text": "The Easter Season includes and ends with the Day of Pentecost. The First Sunday after Pentecost is Trinity Sunday. All subsequent Sundays have numbered propers and may be designated as “after Pentecost” or “after Trinity.” The Collects, lessons, and prefaces for the Day of Pentecost and Trinity Sunday are not used on the following weekdays. In their place, the dated propers for the week are used. There is no seasonal preface for the numbered propers. Prefaces of the Lord’s Day are used on Sundays. No preface is required on the weekdays of this season, except for Holy Days or commemorations."
+      }
+    ]
+  },
+  "615": {
+    "pageNumber": 615,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "trinity"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Trinity Sunday"
+      },
+      {
+        "type": "collect",
+        "name": "proper1"
+      },
+      {
+        "type": "collect",
+        "name": "proper2"
+      }
+    ]
+  },
+  "616": {
+    "pageNumber": 616,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "proper3"
+      },
+      {
+        "type": "collect",
+        "name": "proper4"
+      },
+      {
+        "type": "collect",
+        "name": "proper5"
+      },
+      {
+        "type": "collect",
+        "name": "proper6"
+      }
+    ]
+  },
+  "617": {
+    "pageNumber": 617,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "proper7"
+      },
+      {
+        "type": "collect",
+        "name": "proper8"
+      },
+      {
+        "type": "collect",
+        "name": "proper9"
+      },
+      {
+        "type": "collect",
+        "name": "proper10"
+      }
+    ]
+  },
+  "618": {
+    "pageNumber": 618,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "proper11"
+      },
+      {
+        "type": "collect",
+        "name": "proper12"
+      },
+      {
+        "type": "collect",
+        "name": "proper13"
+      },
+      {
+        "type": "collect",
+        "name": "proper14"
+      }
+    ]
+  },
+  "619": {
+    "pageNumber": 619,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "proper15"
+      },
+      {
+        "type": "collect",
+        "name": "proper16"
+      },
+      {
+        "type": "collect",
+        "name": "proper17"
+      },
+      {
+        "type": "collect",
+        "name": "proper18"
+      }
+    ]
+  },
+  "620": {
+    "pageNumber": 620,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "proper19"
+      },
+      {
+        "type": "collect",
+        "name": "proper20"
+      },
+      {
+        "type": "collect",
+        "name": "proper21"
+      },
+      {
+        "type": "collect",
+        "name": "proper22"
+      }
+    ]
+  },
+  "621": {
+    "pageNumber": 621,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "proper23"
+      },
+      {
+        "type": "collect",
+        "name": "proper24"
+      },
+      {
+        "type": "collect",
+        "name": "proper25"
+      }
+    ]
+  },
+  "622": {
+    "pageNumber": 622,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "all_saints"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of All Saints'"
+      },
+      {
+        "type": "collect",
+        "name": "proper26"
+      },
+      {
+        "type": "collect",
+        "name": "proper27"
+      },
+      {
+        "type": "collect",
+        "name": "proper28"
+      }
+    ]
+  },
+  "623": {
+    "pageNumber": 623,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "proper29"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Christ the King"
+      }
+    ]
+  },
+  "624": {
+    "pageNumber": 624,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "section_title",
+        "text": "holy days",
+        "size": "xl"
+      },
+      {
+        "type": "collect",
+        "name": "st_andrew"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "st_thomas"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "st_stephen"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Christmas"
+      }
+    ]
+  },
+  "625": {
+    "pageNumber": 625,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "st_john_evangelist"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Christmas"
+      },
+      {
+        "type": "collect",
+        "name": "holy_innocents"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Christmas"
+      },
+      {
+        "type": "collect",
+        "name": "holy_name"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Presentation"
+      }
+    ]
+  },
+  "626": {
+    "pageNumber": 626,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "confession_of_peter"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "conversion_of_paul"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "presentation"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Presentation"
+      }
+    ]
+  },
+  "627": {
+    "pageNumber": 627,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "st_matthias"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "st_joseph"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Presentation"
+      },
+      {
+        "type": "collect",
+        "name": "annunciation"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Annunciation"
+      }
+    ]
+  },
+  "628": {
+    "pageNumber": 628,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "st_mark"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of All Saints’"
+      },
+      {
+        "type": "collect",
+        "name": "sts_philip_and_james"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "visitation"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Presentation"
+      }
+    ]
+  },
+  "629": {
+    "pageNumber": 629,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "st_barnabas"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "nativity_of_john_the_baptist"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Advent"
+      },
+      {
+        "type": "collect",
+        "name": "sts_peter_and_paul"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      }
+    ]
+  },
+  "630": {
+    "pageNumber": 630,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "magdalene"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "st_james"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "transiguration"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Transfiguration"
+      }
+    ]
+  },
+  "631": {
+    "pageNumber": 631,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "bvm"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Christmas"
+      },
+      {
+        "type": "collect",
+        "name": "st_bartholomew"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "holy_cross"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Holy Week"
+      }
+    ]
+  },
+  "632": {
+    "pageNumber": 632,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "st_matthew"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "all_angels"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Trinity Sunday"
+      },
+      {
+        "type": "collect",
+        "name": "st_luke"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of All Saints’"
+      }
+    ]
+  },
+  "633": {
+    "pageNumber": 633,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "st_james_of_jerusalem"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "sts_simon_and_jude"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "collect",
+        "name": "all_saints"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of All Saints’"
+      }
+    ]
+  },
+  "634": {
+    "pageNumber": 634,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "section_title",
+        "text": "ember days",
+        "size": "xl"
+      },
+      {
+        "type": "section_title",
+        "text": "_The Ministry of the Church_"
+      },
+      {
+        "type": "rubric",
+        "text": "For use on the traditional days or at other times"
+      },
+      {
+        "type": "collect",
+        "name": "ember_days1"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "collect",
+        "name": "ember_days2"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Apostles"
+      }
+    ]
+  },
+  "635": {
+    "pageNumber": 635,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "section_title",
+        "text": "rogation days",
+        "size": "xl"
+      },
+      {
+        "type": "section_title",
+        "text": "_Agriculture and Industry_"
+      },
+      {
+        "type": "rogation_days1"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Season"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "collect",
+        "name": "rogation_days2"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of the Season"
+      }
+    ]
+  },
+  "636": {
+    "pageNumber": 636,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "section_title",
+        "text": "national days",
+        "size": "xl"
+      },
+      {
+        "type": "collect",
+        "name": "memorial_day"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Burial"
+      },
+      {
+        "type": "canada_day"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Trinity Sunday"
+      },
+      {
+        "type": "collect",
+        "name": "independence_day"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Trinity Sunday"
+      }
+    ]
+  },
+  "637": {
+    "pageNumber": 637,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "thanksgiving_day"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Trinity Sunday"
+      },
+      {
+        "type": "section_title",
+        "text": "common of commemorations",
+        "size": "xl"
+      },
+      {
+        "type": "rubric",
+        "text": "The festival of a saint is observed in accordance with the rules of precedence set forth in the Calendar of the Church Year. At the discretion of the Celebrant, and as appropriate, any of the following Collects, with one of the corresponding sets of psalms and lessons, may be used (a) at the commemoration of a saint listed in the Calendar for which no propers are provided in this Book, or (b) at the Feast of Dedication or commemoration of a saint not listed in the Calendar."
+      },
+      {
+        "type": "collect",
+        "name": "martyr"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of a Martyr"
+      }
+    ]
+  },
+  "638": {
+    "pageNumber": 638,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "evangelist"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of a Missionary or Evangelist"
+      },
+      {
+        "type": "collect",
+        "name": "pastor"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of a Pastor"
+      },
+      {
+        "type": "collect",
+        "name": "teacher"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of a Teacher of the Faith"
+      }
+    ]
+  },
+  "639": {
+    "pageNumber": 639,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "monastic"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of a Monastic or Religious"
+      },
+      {
+        "type": "collect",
+        "name": "ecumenist"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of an Ecumenist"
+      },
+      {
+        "type": "collect",
+        "name": "reformer"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of a Reformer of the Church"
+      }
+    ]
+  },
+  "640": {
+    "pageNumber": 640,
+    "headerText": "Untitled Service",
+    "content": [
+      {
+        "type": "collect",
+        "name": "renewer"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of a Renewer of Society"
+      },
+      {
+        "type": "collect",
+        "name": "any_commereration1"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Any Commemoration"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "collect",
+        "name": "any_commereration2"
+      },
+      {
+        "type": "rubric",
+        "text": "Preface of Any Commemoration"
       }
     ]
   },

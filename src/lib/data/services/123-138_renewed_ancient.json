@@ -522,7 +522,66 @@
 						"text": "Silence"
 					},
 					{
-						"type": "confession_communion"
+						"type": "line",
+						"text": "Most merciful God,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we confess that we have sinned against you",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "in thought, word and deed,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "by what we have done, and by what we have left undone.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "We have not loved you with our whole heart;",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we have not loved our neighbors as ourselves.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "We are truly sorry and we humbly repent.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "For the sake of your Son Jesus Christ,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "have mercy on us and forgive us;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "that we may delight in your will, and walk in your ways,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "to the glory of your Name. Amen.",
+						"bold": true,
+						"indent": true
 					},
 					{
 						"type": "rubric",
@@ -589,16 +648,16 @@
 						"text": "Then the Ministers and People may greet one another in the Name of the Lord."
 					},
 					{
-						"page": 125,
-						"type": "page_break"
-					},
-					{
 						"type": "section_title",
 						"text": "the offertory"
 					},
 					{
 						"type": "rubric",
 						"text": "The Celebrant may begin the Offertory with one of the provided sentences of Scripture. During the Offertory a hymn, psalm, or anthem may be sung. The Deacon or Priest prepares the Holy Table for the celebration. Representatives of the Congregation may bring the People's offerings of bread and wine, and money or other gifts, to the Deacon or Priest."
+					},
+					{
+						"page": 125,
+						"type": "page_break"
 					},
 					{
 						"type": "rubric",
@@ -866,7 +925,87 @@
 						"text": "In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season."
 					},
 					{
-						"type": "humble_access"
+						"type": "section_title",
+						"text": "the prayer of humble access"
+					},
+					{
+						"type": "rubric",
+						"text": "Celebrant and People together may say"
+					},
+					{
+						"type": "line",
+						"text": "We do not presume to come to this your table, O merciful Lord,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "trusting in our own righteousness,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "but in your abundant and great mercies.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "We are not worthy so much as to gather up",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "the crumbs under your table;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "but you are the same Lord",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "whose character is always to have mercy.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Grant us, therefore, gracious Lord,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "so to eat the flesh of your dear Son Jesus Christ,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and to drink his blood,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "that our sinful bodies may be made clean by his body,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and our souls washed through his most precious blood,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and that we may evermore dwell in him, and he in us. Amen.",
+						"bold": true,
+						"indent": true
 					},
 					{
 						"type": "page_break",

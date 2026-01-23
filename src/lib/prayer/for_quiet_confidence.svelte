@@ -9,6 +9,5 @@
 we shall be saved, in quietness and in confidence shall be our
 strength: By the might of thy Spirit lift us, we pray thee, to thy
 presence, where we may be still and know that thou art God;
-through Jesus Christ our Lord."
-	amen
+through Jesus Christ our Lord. **Amen.**"
 />

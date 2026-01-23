@@ -108,7 +108,66 @@
 						"text": "The Minister may say the Confession, and the sick person joins in as able."
 					},
 					{
-						"type": "confession_communion"
+						"type": "line",
+						"text": "Most merciful God,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we confess that we have sinned against you",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "in thought, word and deed,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "by what we have done, and by what we have left undone.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "We have not loved you with our whole heart;",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we have not loved our neighbors as ourselves.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "We are truly sorry and we humbly repent.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "For the sake of your Son Jesus Christ,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "have mercy on us and forgive us;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "that we may delight in your will, and walk in your ways,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "to the glory of your Name. Amen.",
+						"bold": true,
+						"indent": true
 					},
 					{
 						"type": "rubric",
@@ -213,7 +272,107 @@
 						"text": "After Communion, the Minister says"
 					},
 					{
-						"type": "post_communion_standard"
+						"type": "line",
+						"text": "Almighty and everliving God,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we thank you for feeding us, in these holy mysteries,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "with the spiritual food of the most precious Body and Blood",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "of your Son our Savior Jesus Christ;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and for assuring us, through this Sacrament, of your favor and",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "goodness towards us:",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "that we are true members of the mystical body of your Son,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "the blessed company of all faithful people;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and are also heirs, through hope,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "of your everlasting kingdom.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "And we humbly ask you, heavenly Father,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "to assist us with your grace,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "that we may continue in that holy fellowship,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and do all the good works that you have prepared for us to",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "walk in;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "through Jesus Christ our Lord,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "to whom, with you and the Holy Spirit,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "be all honor and glory, now and for ever. Amen.",
+						"bold": true,
+						"indent": true
 					},
 					{
 						"type": "rubric",

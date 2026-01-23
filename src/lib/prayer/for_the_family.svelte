@@ -13,6 +13,5 @@ the knowledge of you, our Lord and Savior. Teach us to love one
 another as you have commanded. Help us to bear one another’s
 burdens in fulfillment of your law, O blessed Jesus, who with the
 Father and the Holy Spirit live and reign, one God, for ever and
-ever."
-	amen
+ever. **Amen.**"
 />

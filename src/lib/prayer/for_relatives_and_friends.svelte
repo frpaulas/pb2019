@@ -13,6 +13,5 @@ are young and in health, that they may give the days of their
 strength to you. Comfort the aged and infirm, that your peace
 may rest upon them. Hallow the ties of kindred, that we may
 help and not hinder one another in all the good works that you
-have prepared for us to walk in; through Jesus Christ our Lord."
-	amen
+have prepared for us to walk in; through Jesus Christ our Lord. **Amen.**"
 />

@@ -255,7 +255,95 @@
 						"text": "Silence may follow. The Officiant and People together, all kneeling, pray"
 					},
 					{
-						"type": "confession"
+						"type": "rubric",
+						"text": "Silence is kept. All kneeling, the Officiant and People say"
+					},
+					{
+						"type": "line",
+						"text": "Almighty and most merciful Father,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we have erred and strayed from your ways like lost sheep.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "We have followed too much the devices and desires",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "of our own hearts.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "We have offended against your holy laws.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "We have left undone those things which we ought to have done,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and we have done those things which we ought not",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "to have done;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and apart from your grace, there is no health in us.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "O Lord, have mercy upon us.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "Spare all those who confess their faults.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "Restore all those who are penitent, according to your promises",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "declared to all people in Christ Jesus our Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "And grant, O most merciful Father, for his sake,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "that we may now live a godly, righteous, and sober life,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "to the glory of your holy Name. Amen.",
+						"bold": true,
+						"indent": true
 					},
 					{
 						"type": "versical",

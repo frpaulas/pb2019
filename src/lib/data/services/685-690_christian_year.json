@@ -1,0 +1,318 @@
+{
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
+		"pb_pages": [
+			685,
+			690
+		],
+		"sections": [
+			{
+				"id": "content",
+				"title": "Content",
+				"content": [
+					{
+						"type": "page_break",
+						"page": 685
+					},
+					{
+						"type": "section_title",
+						"text": "calendars",
+						"size": "3xl"
+					},
+					{
+						"type": "section_title",
+						"text": "& lectionaries",
+						"size": "3xl"
+					},
+					{
+						"type": "page_break",
+						"page": 686
+					},
+					{
+						"type": "blank_page",
+						"page": null
+					},
+					{
+						"type": "page_break",
+						"page": 687
+					},
+					{
+						"type": "section_title",
+						"text": "the calendar",
+						"size": "2xl"
+					},
+					{
+						"type": "section_title",
+						"text": "_of the_ christian year",
+						"size": "2xl"
+					},
+					{
+						"type": "section_title",
+						"text": "an introduction"
+					},
+					{
+						"type": "text_block",
+						"text": "The Christian Year consists of two cycles of holy days. The first is the Paschal Cycle, which follows the lunar calendar and identifies the first Sunday after the full moon that falls on or after March 21 as Easter Day. (Easter Day cannot occur before March 22 or after April 25.) The season of Lent precedes Eastertide and the Season after Pentecost follows it. The second cycle, the Incarnation Cycle, follows the solar calendar and places our Lord’s birth on December 25 (Christmas Day) with the season of Advent preceding it. The season of Epiphany follows the twelve days of the Christmas season (Christmastide.)"
+					},
+					{
+						"type": "section_title",
+						"text": "sundays"
+					},
+					{
+						"type": "text_block",
+						"text": "The sequence of the Sundays of the Calendar depends on the date of Easter, because every Sunday is a celebration of our Lord’s resurrection from the dead. Nevertheless, Sundays also reflect the character of the seasons in which they are set. Following ancient Jewish tradition, the celebration of any Sunday begins at sundown on the Saturday that precedes it. Therefore at Evening Prayer on Saturdays (other than Holy Days), the Collect appointed for the ensuing Sunday is used."
+					},
+					{
+						"type": "page_break",
+						"page": 688
+					},
+					{
+						"type": "line",
+						"text": "st: principal feasts",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Easter Day",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Ascension Day",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Day of Pentecost",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Trinity Sunday",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Christmas Day December 25",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Epiphany January 6",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "All Saints’ Day November 1",
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "These feasts take precedence over any other day or observance. All Saints’ Day may also be observed on the Sunday following November 1, in addition to its observance on the fixed date. In Canada, when Remembrance Day observances fall on the first Sunday of November, All Saints’ Day may be observed on the preceding Sunday."
+					},
+					{
+						"type": "section_title",
+						"text": "holy days"
+					},
+					{
+						"type": "text_block",
+						"text": "The Holy Days, traditionally called Red-Letter Days, observed in this church, in addition to the Principal Feasts, are the following:"
+					},
+					{
+						"type": "line",
+						"text": "The Circumcision and Holy Name _January 1_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Presentation of Christ in the Temple _February 2_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Joseph, the Guardian of Jesus _March 19_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Annunciation _March 25_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Feasts of the Apostles",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Feasts of the Evangelists",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Visitation _May 31_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Nativity of John the Baptist _June 24_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Mary Magdalene _July 22_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Transfiguration _August 6_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Virgin Mary _August 15_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Holy Cross Day _September 14_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Holy Michael and All Angels _September 29_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "James of Jerusalem _October 23_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Stephen, Deacon and Martyr _December 26_",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "The Holy Innocents _December 28_",
+						"indent": true
+					},
+					{
+						"type": "page_break",
+						"page": 689
+					},
+					{
+						"type": "text_block",
+						"text": "Any of these feasts that fall on a Sunday, other than in Advent, Lent, and Easter, may be observed on that Sunday or transferred to the nearest following weekday."
+					},
+					{
+						"type": "text_block",
+						"text": "The last three Sundays before Lent may be observed as Septuagesima, Sexagesima, and Quinquagesima."
+					},
+					{
+						"type": "text_block",
+						"text": "No holy day or observance can replace the fixed propers for Ash Wednesday, Holy Week, or Easter Week."
+					},
+					{
+						"type": "section_title",
+						"text": "days of discipline, denial, and special prayer"
+					},
+					{
+						"type": "text_block",
+						"text": "Ash Wednesday, the first day of Lent, and Good Friday, the day of our Lord’s Crucifixion, are traditionally days of special devotion and total abstinence. Maundy Thursday is observed with rites recalling the Last Supper and betrayal at Gethsemane."
+					},
+					{
+						"type": "text_block",
+						"text": "The weekdays of Lent and every Friday of the year (outside the 12 Days of Christmas and the 50 days of Eastertide) are encouraged as days of fasting. Ember Days and Rogation Days may also be kept in this way."
+					},
+					{
+						"type": "text_block",
+						"text": "Fasting, in addition to reduced consumption, normally also includes prayer, self-examination, and acts of mercy."
+					},
+					{
+						"type": "text_block",
+						"text": "Ember Days are set aside for prayers for those called to Holy Orders, and occur on the following Wednesdays, Fridays, and Saturdays:"
+					},
+					{
+						"type": "line",
+						"text": "After St. Lucy’s Day December 13",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "After the First Sunday in Lent",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "After the Day of Pentecost",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "After Holy Cross Day September 14",
+						"indent": true
+					},
+					{
+						"type": "text_block",
+						"text": "Rogation Days are the three days preceding Ascension Day, especially devoted to asking for God’s blessing on agriculture and industry."
+					},
+					{
+						"type": "page_break",
+						"page": 690
+					},
+					{
+						"type": "line",
+						"text": "National Days with proper lessons are:"
+					},
+					{
+						"type": "line",
+						"text": "Memorial Day (United States on the Monday closest to May 28)",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Canada Day (Canada on July 1)",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Independence Day (United States on July 4)",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Thanksgiving Day (Canada on the second Monday in October;",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "United States on the fourth Thursday in November)",
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Remembrance Day (Canada on November 11)",
+						"indent": true
+					},
+					{
+						"type": "section_title",
+						"text": "commemorations"
+					},
+					{
+						"type": "text_block",
+						"text": "The Book of Common Prayer of 1662 appointed days of optional commemoration (Black Letter Days). In this edition of the Book of Common Prayer, two categories of optional commemorations are presented: Anglican and Ecumenical. These commemorations may be transferred or observed as local needs dictate. Collects and Lessons are offered in nine categories: Martyr, Missionary or Evangelist, Pastor, Teacher of the Faith, Monastic or Religious, Ecumenist, Reformer of the Church, Renewer of Society, and any Saint. The daily psalms and readings at Morning and Evening prayer are not usually superseded by these commemorations."
+					},
+					{
+						"type": "text_block",
+						"text": "Those preparing weekday liturgies are encouraged to limit the number of commemorations, especially in Advent or Lent, in order that the spirit of the season be maintained."
+					}
+				],
+				"pb_page_start": null,
+				"pb_page_end": null
+			}
+		]
+	}
+}

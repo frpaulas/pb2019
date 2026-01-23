@@ -7,6 +7,5 @@
 <TextBlock
 	text="Bless, O Lord, these gifts to our use, and us to your service,
 and make us ever mindful of the needs of others, through Jesus
-Christ our Lord."
-	amen
+Christ our Lord. **Amen.**"
 />
