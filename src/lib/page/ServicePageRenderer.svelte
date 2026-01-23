@@ -33,13 +33,8 @@
 		canticleMap[name] = canticleModules[path].default;
 	}
 
-	// Dynamically import all collects
-	const collectModules = import.meta.glob('$lib/collect/*.svelte', { eager: true });
-	const collectMap = {};
-	for (const path in collectModules) {
-		const name = path.match(/\/([^/]+)\.svelte$/)[1];
-		collectMap[name] = collectModules[path].default;
-	}
+	// Import collects from JSON (lazy lookup instead of eager component loading)
+	import collectsData from '$lib/data/collects/collects.json';
 
 	// Dynamically import all occasional prayers
 	const occasionalPrayerModules = import.meta.glob('$lib/occasional_prayer/*.svelte', {
@@ -117,9 +112,15 @@
 			<p class="text-red-500">Unknown canticle: {block.name}</p>
 		{/if}
 	{:else if block.type === 'collect'}
-		{@const CollectComponent = collectMap[block.name]}
-		{#if CollectComponent}
-			<CollectComponent />
+		{@const collectBlocks = collectsData[block.name]}
+		{#if collectBlocks}
+			{#each collectBlocks as collectBlock}
+				{#if collectBlock.type === 'section_title'}
+					<SectionTitle>{collectBlock.text}</SectionTitle>
+				{:else if collectBlock.type === 'text_block'}
+					<TextBlock>{collectBlock.text}</TextBlock>
+				{/if}
+			{/each}
 		{:else}
 			<p class="text-red-500">Unknown collect: {block.name}</p>
 		{/if}
