@@ -4,7 +4,7 @@
 	import { onMount } from 'svelte';
 
 	let {
-		size = 'text-sm',
+		size = 'text-base',
 		fancy = false,
 		latin_size = false,
 		hebrew = false,
@@ -21,7 +21,7 @@
 		caseClass == 'capitalize' ? '' : isSmallSize ? 'tracking-[.2em]' : 'tracking-[.3em]';
 
 	let this_class =
-		'text-center ' +
+		'text-center font-medium ' +
 		caseClass +
 		' ' +
 		tracking +
