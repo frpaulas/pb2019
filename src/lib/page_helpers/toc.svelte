@@ -1,17 +1,10 @@
 <script>
 	import { base } from '$app/paths';
-	import { goto } from '$app/navigation';
 
 	let { text, page = 0, indent = false } = $props();
 
-	let button_class =
+	let link_class =
 		'block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900 cursor-pointer';
-
-	function handleClick(event) {
-		event.preventDefault();
-		event.stopPropagation();
-		goto(`${base}/pg/${page}`);
-	}
 </script>
 
 <div class="flex break-after-all items-start justify-between gap-3 uppercase">
@@ -22,8 +15,8 @@
 	{/if}
 
 	{#if page > 0}
-		<button type="button" class={button_class} onclick={handleClick}>
+		<a href="{base}/pg/{page}" class={link_class}>
 			{page}
-		</button>
+		</a>
 	{/if}
 </div>
