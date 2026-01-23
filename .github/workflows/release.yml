@@ -2,11 +2,9 @@ name: Release
 
 on:
   push:
-    branches:
-      - master
     tags:
-      - 'v*'
-  workflow_dispatch:
+      - 'v*' # Only run on version tags like v1.0.0
+  workflow_dispatch: # Manual trigger
 
 jobs:
   release:
