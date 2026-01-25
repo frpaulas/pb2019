@@ -65,8 +65,20 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "genesis"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}genesis{{\\u}} 22:1-18 _or_ {{u}}isaiah{{\\u}} 52:13—53:12"
+								"value": " 22:1-18 _or_ "
+							},
+							{
+								"type": "u",
+								"value": "isaiah"
+							},
+							{
+								"type": "text",
+								"value": " 52:13—53:12"
 							}
 						]
 					},
@@ -74,8 +86,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 22:1-11 (12-21) v _or_ 40:1-16 v _or_ 69:1-22 v"
+								"value": " 22:1-11 (12-21) v _or_ 40:1-16 v _or_ 69:1-22 v"
 							}
 						]
 					},
@@ -83,8 +99,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "hebrews"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}hebrews{{\\u}} 10:1-25"
+								"value": " 10:1-25"
 							}
 						]
 					},
@@ -108,8 +128,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "john"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}john{{\\u}} 18:1—19:37 _or_ 19:1-37"
+								"value": " 18:1—19:37 _or_ 19:1-37"
 							}
 						]
 					},

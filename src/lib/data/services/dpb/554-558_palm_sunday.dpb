@@ -44,9 +44,9 @@ r: All standing, the Deacon or Priest reads the Triumphal Entry Gospel, first sa
 v:deacon: The Holy Gospel of our Lord Jesus Christ according to ___8___.
 v:people: Glory to you, Lord Christ.
 
-l: Year A {{u}}matthew{{\u}} 21:1-11
-l: Year B {{u}}mark{{\u}} 11:1-11a
-l: Year C {{u}}luke{{\u}} 19:28-40
+l: Year A {{u}}matthew{{/u}} 21:1-11
+l: Year B {{u}}mark{{/u}} 11:1-11a
+l: Year C {{u}}luke{{/u}} 19:28-40
 
 v:deacon: The Gospel of the Lord.
 v:people: Praise to you, Lord Christ.
@@ -106,18 +106,18 @@ tb: Almighty and everlasting God, in your tender love for us you
     through Jesus Christ our Lord, who lives and reigns with you
     and the Holy Spirit, one God, for ever and ever. **Amen.**
 
-l: {{u}}isaiah{{\u}} 52:13—53:12
-l: {{u}}psalm{{\u}} 22:1-22 v, 22:1-11 v or 31:10-18 v
-l: {{u}}philippians{{\u}} 2:5-11
+l: {{u}}isaiah{{/u}} 52:13—53:12
+l: {{u}}psalm{{/u}} 22:1-22 v, 22:1-11 v or 31:10-18 v
+l: {{u}}philippians{{/u}} 2:5-11
 
 r: The Passion Gospel is announced in the following manner
 v: The Passion of our Lord Jesus Christ
 v: according to ___11___.
 r: The customary responses before and after the Gospel are omitted.
 
-l: Year A {{u}}matthew{{\u}} (26:36-75) 27:1-54 (55-66)
-l: Year B {{u}}mark{{\u}} (14:32-72) 15:1-39 (40-47)
-l: Year C {{u}}luke{{\u}} (22:39-71) 23:1-49 (50-56)
+l: Year A {{u}}matthew{{/u}} (26:36-75) 27:1-54 (55-66)
+l: Year B {{u}}mark{{/u}} (14:32-72) 15:1-39 (40-47)
+l: Year C {{u}}luke{{/u}} (22:39-71) 23:1-49 (50-56)
 
 r: The Passion Gospel may be read or chanted by clergy and lay persons. Specific roles
     may be assigned to individuals, the choir or Congregation taking the part of the

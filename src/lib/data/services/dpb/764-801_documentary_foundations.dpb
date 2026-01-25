@@ -62,20 +62,20 @@ st: concerning the
 st:2: nicene creed
 st:1: _Epiphany, 2013_
 br:
-l: {{\u}}resolved,{{\u}}
+l: {{/u}}resolved,{{/u}}
 tb: The normative form of the Nicene Creed for the Anglican
     Church in North America is the original text as adopted by the
     Councils of Nicaea (325 A.D.) and Constantinople (381 A.D.).
     This form shall be rendered in English in the best and most accurate translation achievable.
 br:
-l: {{\u}}resolved,{{\u}}
+l: {{/u}}resolved,{{/u}}
 tb: The Anglican Church in North America acknowledges that
     the form of the Nicene Creed customary in the West is that of
     the 1662 Book of Common Prayer, including the words “and
     the Son” (filioque), which form may be used in worship and for
     elucidation of doctrine.
 br:
-l: {{\u}}resolved,{{\u}}
+l: {{/u}}resolved,{{/u}}
 tb: Because we are committed to the highest level of global unity
     possible, the College of Bishops of the Anglican Church in North
     America seeks advice of the Theological Commission of the Global
@@ -84,7 +84,7 @@ tb: Because we are committed to the highest level of global unity
     use the normative form of the Nicene Creed at worship.
 
 pb:769
-l: {{\u}}the{{\u}}
+l: {{/u}}the{{/u}}
 st:2: athanasian creed
 l: Whosoever will be saved, *
 l:i: before all things it is necessary that he hold the Catholic Faith.
@@ -182,14 +182,14 @@ st: the thirty-nine
 st:2: articles of religion
 st:1: _of 1571_
 br:
-l: {{u}}i. of faith in the holy trinity{{\u}}
+l: {{u}}i. of faith in the holy trinity{{/u}}
 tb: There is but one living and true God, everlasting, without body,
     parts, or passions; of infinite power, wisdom, and goodness; the
     Maker, and Preserver of all things both visible and invisible.
     And in unity of this Godhead there be three Persons, of one
     substance, power, and eternity; the Father, the Son, and the
     Holy Ghost.
-l: {{u}}ii. of the word or son of god, which was made very man{{\u}}
+l: {{u}}ii. of the word or son of god, which was made very man{{/u}}
 tb: The Son, which is the Word of the Father, begotten from
     everlasting of the Father, the very and eternal God, and of one
     substance with the Father, took Man’s nature in the womb of the
@@ -201,19 +201,19 @@ tb: The Son, which is the Word of the Father, begotten from
     only for original guilt, but also for all actual sins of men.
 
 pb:773
-l: {{u}}iii. of the going down of christ into hell{{\u}}
+l: {{u}}iii. of the going down of christ into hell{{/u}}
 tb: As Christ died for us, and was buried, so also is it to be believed,
     that he went down into Hell.
-l: {{u}}iv. of there surrection of christ{{\u}}
+l: {{u}}iv. of there surrection of christ{{/u}}
 tb: Christ did truly rise again from death, and took again his body,
     with flesh, bones, and all things appertaining to the perfection
     of Man’s nature; wherewith he ascended into Heaven, and there
     sitteth, until he return to judge all Men at the last day.
-l: {{u}}v. of the holy ghost{{\u}}
+l: {{u}}v. of the holy ghost{{/u}}
 tb: The Holy Ghost, proceeding from the Father and the Son, is of
     one substance, majesty, and glory, with the Father and the Son,
     very and eternal God.
-l: {{u}}vi. of the sufficiency of the holy scriptures for salvation{{\u}}
+l: {{u}}vi. of the sufficiency of the holy scriptures for salvation{{/u}}
 tb: Holy Scripture containeth all things necessary to salvation: so
     that whatsoever is not read therein, nor may be proved thereby,
     is not to be required of any man, that it should be believed as
@@ -270,7 +270,7 @@ l: The First Book of Maccabees
 l: The Second Book of Maccabees
 tb: All the Books of the New Testament, as they are commonly
     received, we do receive, and account them Canonical.
-l: {{u}}vii. of the old testament{{\u}}
+l: {{u}}vii. of the old testament{{/u}}
 tb: The Old Testament is not contrary to the New: for both in the
     Old and New Testament everlasting life is offered to Mankind
     by Christ, who is the only Mediator between God and Man,
@@ -282,12 +282,12 @@ tb: The Old Testament is not contrary to the New: for both in the
     in any commonwealth; yet notwithstanding, no Christian man
     whatsoever is free from the obedience of the Commandments
     which are called Moral.
-l: {{u}}viii. of the three creeds{{\u}}
+l: {{u}}viii. of the three creeds{{/u}}
 tb: The Three Creeds, Nicene Creed, Athanasius’s Creed, and that
     which is commonly called the Apostles’ Creed, ought thoroughly
     to be received and believed: for they may be proved by most
     certain warrants of Holy Scripture.
-l: {{u}}ix. of original or birth-sin{{\u}}
+l: {{u}}ix. of original or birth-sin{{/u}}
 tb: Original Sin standeth not in the following of Adam, (as the
     Pelagians do vainly talk;) but it is the fault and corruption of
     the Nature of every man, that naturally is ingendered of the
@@ -305,7 +305,7 @@ tb: Original Sin standeth not in the following of Adam, (as the
     itself the nature of sin.
 
 pb:776
-l: {{u}}x. of free - will{{\u}}
+l: {{u}}x. of free - will{{/u}}
 tb: The condition of Man after the fall of Adam is such, that he
     cannot turn and prepare himself, by his own natural strength
     and good works, to faith, and calling upon God: Wherefore
@@ -313,13 +313,13 @@ tb: The condition of Man after the fall of Adam is such, that he
     God, without the grace of God by Christ preventing us, that we
     may have a good will, and working with us, when we have that
     good will.
-l: {{u}}xi. of the justification of man{{\u}}
+l: {{u}}xi. of the justification of man{{/u}}
 tb: We are accounted righteous before God, only for the merit of
     our Lord and Saviour Jesus Christ by Faith, and not for our own
     works or deservings: Wherefore, that we are justified by Faith
     only is a most wholesome Doctrine, and very full of comfort, as
     more largely is expressed in the Homily of Justification.
-l: {{u}}xii. of good works{{\u}}
+l: {{u}}xii. of good works{{/u}}
 tb: Albeit that Good Works, which are the fruits of Faith, and
     follow after Justification, cannot put away our sins, and endure
     the severity of God’s Judgement; yet are they pleasing and
@@ -328,7 +328,7 @@ tb: Albeit that Good Works, which are the fruits of Faith, and
     be as evidently known as a tree discerned by the fruit.
 
 pb:777
-l: {{u}}xi i i . of wor k s bef or e just if ic at ion{{\u}}
+l: {{u}}xi i i . of wor k s bef or e just if ic at ion{{/u}}
 tb: Works done before the grace of Christ, and the Inspiration of
     his Spirit, are not pleasant to God, forasmuch as they spring
     not of faith in Jesus Christ, neither do they make men meet to
@@ -336,7 +336,7 @@ tb: Works done before the grace of Christ, and the Inspiration of
     congruity: yea rather, for that they are not done as God hath
     willed and commanded them to be done, we doubt not but they
     have the nature of sin.
-l: {{u}}xiv. of works of supererogation{{\u}}
+l: {{u}}xiv. of works of supererogation{{/u}}
 tb: Voluntary Works besides, over, and above, God’s
     Commandments, which they call Works of Supererogation,
     cannot be taught without arrogancy and impiety: for by them
@@ -345,7 +345,7 @@ tb: Voluntary Works besides, over, and above, God’s
     than of bounden duty is required: whereas Christ saith plainly,
     When ye have done all that are commanded to you, say, We are
     unprofitable servants.
-l: {{u}}xv. of christal one without sin{{\u}}
+l: {{u}}xv. of christal one without sin{{/u}}
 tb: Christ in the truth of our nature was made like unto us in all
     things, sin only except, from which he was clearly void, both
     in his flesh, and in his spirit. He came to be the Lamb without
@@ -356,7 +356,7 @@ tb: Christ in the truth of our nature was made like unto us in all
     we deceive ourselves, and the truth is not in us.
 
 pb:778
-l: {{u}}xvi. of sin after baptism{{\u}}
+l: {{u}}xvi. of sin after baptism{{/u}}
 tb: Not every deadly sin willingly committed after Baptism is sin
     against the Holy Ghost, and unpardonable. Wherefore the grant
     of repentance is not to be denied to such as fall into sin after
@@ -365,7 +365,7 @@ tb: Not every deadly sin willingly committed after Baptism is sin
     may arise again, and amend our lives. And therefore they are to
     be condemned, which say, they can no more sin as long as they
     live here, or deny the place of forgiveness to such as truly repent.
-l: {{u}}xvii . of predestination and election{{\u}}
+l: {{u}}xvii . of predestination and election{{/u}}
 tb: Predestination to Life is the everlasting purpose of God,
     whereby (before the foundations of the world were laid) he
     hath constantly decreed by his counsel secret to us, to deliver
@@ -399,7 +399,7 @@ tb: Furthermore, we must receive God’s promises in such wise,
     as they be generally set forth to us in Holy Scripture: and, in
     our doings, that Will of God is to be followed, which we have
     expressly declared unto us in the Word of God.
-l: {{u}}xviii. of obtaining etenal salvation only by the name of christ{{\u}}
+l: {{u}}xviii. of obtaining etenal salvation only by the name of christ{{/u}}
 tb: They also are to be had accursed that presume to say, That every
     man shall be saved by the Law or Sect which he professeth, so
     that he be diligent to frame his life according to that Law, and
@@ -415,7 +415,7 @@ tb: As the Church of _Jerusalem, Alexandria,_ and _Antioch,_ have erred;
     and manner of Ceremonies, but also in matters of Faith.
 
 pg:780
-l: {{u}}xx. of the authority of the church{{\u}}
+l: {{u}}xx. of the authority of the church{{/u}}
 tb: The Church hath power to decree Rites or Ceremonies, and
     authority in Controversies of Faith: And yet it is not lawful for
     the Church to ordain any thing that is contrary to God’s Word
@@ -424,7 +424,7 @@ tb: The Church hath power to decree Rites or Ceremonies, and
     witness and a keeper of Holy Writ, yet, as it ought not to decree
     any thing against the same, so besides the same ought it not to
     enforce any thing to be believed for necessity of Salvation.
-l: {{u}}xxi. of the authority of general councils{{\u}}
+l: {{u}}xxi. of the authority of general councils{{/u}}
 tb: General Councils may not be gathered together without the
     commandment and will of Princes. And when they be gathered
     together, (forasmuch as they be an assembly of men, whereof
@@ -433,13 +433,13 @@ tb: General Councils may not be gathered together without the
     unto God. Wherefore things ordained by them as necessary to
     salvation have neither strength nor authority, unless it may be
     declared that they be taken out of Holy Scripture.
-l: {{u}}xxii. of purgatory{{\u}}
+l: {{u}}xxii. of purgatory{{/u}}
 tb: The Romish Doctrine concerning Purgatory, Pardons,
     Worshipping, and Adoration, as well of Images as of Reliques,
     and also Invocation of Saints, is a fond thing vainly invented,
     and grounded upon no warranty of Scripture, but rather
     repugnant to the Word of God.
-l: {{u}}xxiii. of ministering in the congregation{{\u}}
+l: {{u}}xxiii. of ministering in the congregation{{/u}}
 tb: It is not lawful for any man to take upon him the office of
     publick preaching, or ministering the Sacraments in the
     Congregation, before he be lawfully called, and sent to execute
@@ -450,12 +450,12 @@ tb: And those we ought to judge lawfully called and sent, which
     be chosen and called to this work by men who have publick
     authority given unto them in the Congregation, to call and send
     Ministers into the Lord’s vineyard.
-l: {{u}}xxiv. of speaking in the congregation in such a tongue as the people understandeth{{\u}}
+l: {{u}}xxiv. of speaking in the congregation in such a tongue as the people understandeth{{/u}}
 tb: It is a thing plainly repugnant to the Word of God, and the
     custom of the Primitive Church, to have publick Prayer in
     the Church, or to minister the Sacraments in a tongue not
     understanded of the people.
-l: {{u}}xxv. of the sacraments{{\u}}
+l: {{u}}xxv. of the sacraments{{/u}}
 tb: Sacraments ordained of Christ be not only badges or tokens
     of Christian men’s profession, but rather they be certain sure
     witnesses, and effectual signs of grace, and God’s good will
@@ -479,7 +479,7 @@ tb: The Sacraments were not ordained of Christ to be gazed upon,
     such only as worthily receive the same they have a wholesome
     effect or operation: but they that receive them unworthily
     purchase to themselves damnation, as Saint Paul saith.
-l: {{u}}xxvi. of the unworthiness of the ministers, which hinders not the effect of the sacrament{{\u}}
+l: {{u}}xxvi. of the unworthiness of the ministers, which hinders not the effect of the sacrament{{/u}}
 tb: Although in the visible Church the evil be ever mingled with
     the good, and sometimes the evil have chief authority in the
     Ministration of the Word and Sacraments, yet forasmuch as
@@ -496,7 +496,7 @@ tb: Nevertheless, it appertaineth to the discipline of the Church,
     that inquiry be made of evil Ministers, and that they be
     accused by those that have knowledge of their offences; and
     finally being found guilty, by just judgement be deposed.
-l: {{u}}xxvii. of baptism{{\u}}
+l: {{u}}xxvii. of baptism{{/u}}
 tb: Baptism is not only a sign of profession, and mark of difference,
     whereby Christian men are discerned from others that be not
     christened, but it is also a sign of Regeneration or new Birth,
@@ -509,7 +509,7 @@ tb: Baptism is not only a sign of profession, and mark of difference,
     agreeable with the institution of Christ.
 
 pg:7883
-l: {{u}}xxviii. of the lord’s supper{{\u}}
+l: {{u}}xxviii. of the lord’s supper{{/u}}
 tb: The Supper of the Lord is not only a sign of the love that
     Christians ought to have among themselves one to another;
     but rather is a Sacrament of our Redemption by Christ’s death:
@@ -528,7 +528,7 @@ tb: The Body of Christ is given, taken, and eaten, in the Supper,
     is Faith.
 tb: The Sacrament of the Lord’s Supper was not by Christ’s
     ordinance reserved, carried about, lifted up, or worshipped.
-l: {{u}}xxix. of the wicked which eat not the body of christ in the use of the lord’s supper{{\u}}
+l: {{u}}xxix. of the wicked which eat not the body of christ in the use of the lord’s supper{{/u}}
 tb: The Wicked, and such as be void of a lively faith, although
     they do carnally and visibly press with their teeth (as Saint
     Augustine saith) the Sacrament of the Body and Blood of Christ,
@@ -537,11 +537,11 @@ tb: The Wicked, and such as be void of a lively faith, although
     great a thing.
 
 pg:784
-l: {{u}}xxx. of both kinds{{\u}}
+l: {{u}}xxx. of both kinds{{/u}}
 tb: The Cup of the Lord is not to be denied to the Lay-people: for
     both the parts of the Lord’s Sacrament, by Christ’s ordinance and
     commandment, ought to be ministered to all Christian men alike.
-l: {{u}}xxxi. of the one oblation of christ finished upon the cross{{\u}}
+l: {{u}}xxxi. of the one oblation of christ finished upon the cross{{/u}}
 tb: The Offering of Christ once made is that perfect redemption,
     propitiation, and satisfaction, for all the sins of the whole world,
     both original and actual; and there is none other satisfaction for
@@ -549,13 +549,13 @@ tb: The Offering of Christ once made is that perfect redemption,
     which it was commonly said, that the Priest did offer Christ for
     the quick and the dead, to have remission of pain or guilt, were
     blasphemous fables, and dangerous deceits.
-l: {{u}}xxxii. of the marriage of priests{{\u}}
+l: {{u}}xxxii. of the marriage of priests{{/u}}
 tb: Bishops, Priests, and Deacons, are not commanded by God’s
     Law, either to vow the estate of single life, or to abstain
     from marriage: therefore it is lawful for them, as for all other
     Christian men, to marry at their own discretion, as they shall
     judge the same to serve better to godliness.
-l: {{u}}xxxiii. of excommunicate persons, how they are to be avoided{{\u}}
+l: {{u}}xxxiii. of excommunicate persons, how they are to be avoided{{/u}}
 tb: That person which by open denunciation of the Church
     is rightly cut off from the unity of the Church, and
     excommunicated, ought to be taken of the whole multitude of
@@ -564,7 +564,7 @@ tb: That person which by open denunciation of the Church
     that hath authority thereunto.
 
 pg:785
-l: {{u}}xxxiv. of the traditions of the church{{\u}}
+l: {{u}}xxxiv. of the traditions of the church{{/u}}
 tb: It is not necessary that Traditions and Ceremonies be in all
     places one, and utterly like; for at all times they have been divers,
     and may be changed according to the diversities of countries,
@@ -580,7 +580,7 @@ tb: It is not necessary that Traditions and Ceremonies be in all
 tb: Every particular or national Church hath authority to ordain,
     change, and abolish, ceremonies or rites of the Church ordained
     only by man’s authority, so that all things be done to edifying.
-l: {{u}}xxxv. of the homilies{{\u}}
+l: {{u}}xxxv. of the homilies{{/u}}
 tb: The second Book of Homilies, the several titles whereof we have
     joined under this Article, doth contain a godly and wholesome
     Doctrine, and necessary for these times, as doth the former
@@ -613,7 +613,7 @@ ol:19: Of Repentance.
 ol:20: Against Idleness.
 ol:21: Against Rebellion.
 
-l: {{u}}xxxvi. of consecration of bishops and ministers{{\u}}
+l: {{u}}xxxvi. of consecration of bishops and ministers{{/u}}
 tb: The Book of Consecration of Archbishops and Bishops, and
     Ordering of Priests and Deacons, lately set forth in the time
     of Edward the Sixth, and confirmed at the same time by
@@ -627,7 +627,7 @@ tb: The Book of Consecration of Archbishops and Bishops, and
     lawfully consecrated and ordered.
 
 pg:787
-l: {{u}}xxxvii. of the civil magistrates{{\u}}
+l: {{u}}xxxvii. of the civil magistrates{{/u}}
 tb: The King’s Majesty hath the chief power in this Realm of
     England, and other his Dominions, unto whom the chief
     Government of all Estates of this Realm, whether they be
@@ -651,13 +651,13 @@ tb: It is lawful for Christian men, at the commandment of the
     Magistrate, to wear weapons, and serve in the wars.
 
 pg:788
-l: {{u}}xxxviii. of christian men’s goods, which are not common{{\u}}
+l: {{u}}xxxviii. of christian men’s goods, which are not common{{/u}}
 tb: The Riches and Goods of Christians are not common, as
     touching the right, title, and possession of the same, as certain
     Anabaptists do falsely boast. Notwithstanding, every man ought,
     of such things as he possesseth, liberally to give alms to the poor,
     according to his ability.
-l: {{u}}xxxix. of a christian man’s oath{{\u}}
+l: {{u}}xxxix. of a christian man’s oath{{/u}}
 tb: As we confess that vain and rash Swearing is forbidden
     Christian men by our Lord Jesus Christ, and James his Apostle,
     so we judge, that Christian Religion doth not prohibit, but that
@@ -671,15 +671,15 @@ tb: The General Convention of 1801 of the Protestant Episcopal Church in
     the United States of America amended the Articles of Religion, chiefly
     with respect to the Crown and to the provisions of British constitutional
     government. The amended articles read as follows:
-l: {{u}}viii. of the creeds.{{\u}}
+l: {{u}}viii. of the creeds.{{/u}}
 tb: The Nicene Creed, and that which is commonly called the Apostles’
     Creed, ought thoroughly to be received and believed: for they may be
     proved by most certain warrants of Holy Scripture.
-l: {{u}}xxi. of the authority of general councils.{{\u}}
+l: {{u}}xxi. of the authority of general councils.{{/u}}
 tb:i: [The Twenty-first of the former Articles is omitted; because it is partly of a local
     and civil nature, and is provided for, as to the remaining parts of it, in other
     Articles.]
-l: {{u}}xxxv. of the homilies.{{\u}}
+l: {{u}}xxxv. of the homilies.{{/u}}
 tb:i: [This Article is received in this Church, so far as it declares the Book of Homilies
     to be an explication of Christian doctrine, and instructive in piety and morals.
     But all references to the constitution and laws of England are considered as
@@ -687,7 +687,7 @@ tb:i: [This Article is received in this Church, so far as it declares the Book o
     for the reading of said Homilies in churches, until a revision of them may be
     conveniently made, for the clearing of them, as well from obsolete words and
     phrases, as from the local references.]
-l: {{u}}xxxvi. of consecration of bishops and ministers.{{\u}}
+l: {{u}}xxxvi. of consecration of bishops and ministers.{{/u}}
 tb: The Book of Consecration of Bishops, and Ordering of Priests and Deacons,
     as set forth by the General Convention of this Church in 1792, doth
     contain all things necessary to such Consecration and Ordering; neither
@@ -696,7 +696,7 @@ tb: The Book of Consecration of Bishops, and Ordering of Priests and Deacons,
     decree all such to be rightly, orderly, and lawfully consecrated and ordered.
 
 pg:790
-l: {{u}}xxxvii. of the power of the civil magistrates.{{\u}}
+l: {{u}}xxxvii. of the power of the civil magistrates.{{/u}}
 tb: The Power of the Civil Magistrate extendeth to all men, as well Clergy
     as Laity, in all things temporal; but hath no authority in things purely
     spiritual. And we hold it to be the duty of all men who are professors of

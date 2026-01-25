@@ -311,8 +311,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 104:1-13 (14-24) v _or_"
+								"value": " 104:1-13 (14-24) v _or_"
 							}
 						]
 					},
@@ -320,8 +324,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "a song of creation"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}a song of creation{{\\u}} (_Supplemental Canticle 10_)"
+								"value": " (_Supplemental Canticle 10_)"
 							}
 						]
 					},
@@ -340,8 +348,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}the fall{{\\u}}"
+								"type": "u",
+								"value": "the fall"
 							}
 						]
 					},
@@ -349,8 +357,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}genesis 3{{\\u}}"
+								"type": "u",
+								"value": "genesis 3"
 							}
 						]
 					},
@@ -358,8 +366,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}psalm 32{{\\u}}"
+								"type": "u",
+								"value": "psalm 32"
 							}
 						]
 					},
@@ -379,8 +387,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}t h e f l o od{{\\u}}"
+								"type": "u",
+								"value": "t h e f l o od"
 							}
 						]
 					},
@@ -388,8 +396,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "genesis"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}genesis{{\\u}} 7:1-5, 11-18; 8:6-20; 9:8-13"
+								"value": " 7:1-5, 11-18; 8:6-20; 9:8-13"
 							}
 						]
 					},
@@ -397,8 +409,20 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 36 _or_ {{u}}psalm{{\\u}} 46"
+								"value": " 36 _or_ "
+							},
+							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
+								"type": "text",
+								"value": " 46"
 							}
 						]
 					},
@@ -414,8 +438,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}abrah a m’s s ac r if ic e of isaac{{\\u}}"
+								"type": "u",
+								"value": "abrah a m’s s ac r if ic e of isaac"
 							}
 						]
 					},
@@ -423,8 +447,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "genesis"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}genesis{{\\u}} 22:1-18"
+								"value": " 22:1-18"
 							}
 						]
 					},
@@ -432,8 +460,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 16"
+								"value": " 16"
 							}
 						]
 					},
@@ -453,8 +485,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}israel’s deliverance at the red sea{{\\u}}"
+								"type": "u",
+								"value": "israel’s deliverance at the red sea"
 							}
 						]
 					},
@@ -462,8 +494,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "exodus"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}exodus{{\\u}} 14:10—15:1"
+								"value": " 14:10—15:1"
 							}
 						]
 					},
@@ -471,8 +507,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "the song of moses"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}the song of moses{{\\u}} (Supplemental Canticle 5)"
+								"value": " (Supplemental Canticle 5)"
 							}
 						]
 					},
@@ -488,8 +528,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}god’s presence in a renewed israel{{\\u}}"
+								"type": "u",
+								"value": "god’s presence in a renewed israel"
 							}
 						]
 					},
@@ -497,8 +537,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "isaiah"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}isaiah{{\\u}} 4:2-6"
+								"value": " 4:2-6"
 							}
 						]
 					},
@@ -506,8 +550,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 122"
+								"value": " 122"
 							}
 						]
 					},
@@ -523,8 +571,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}salvation offered freely to al{{\\u}}"
+								"type": "u",
+								"value": "salvation offered freely to al"
 							}
 						]
 					},
@@ -532,8 +580,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "isaiah"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}isaiah{{\\u}} 55:1-11"
+								"value": " 55:1-11"
 							}
 						]
 					},
@@ -541,8 +593,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "surely, it is god who saves me"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}surely, it is god who saves me{{\\u}} (_Supplemental Canticle 8_) _or_"
+								"value": " (_Supplemental Canticle 8_) _or_"
 							}
 						]
 					},
@@ -550,8 +606,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 42:1-7"
+								"value": " 42:1-7"
 							}
 						]
 					},
@@ -571,8 +631,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}a new heart and a new spirit{{\\u}}"
+								"type": "u",
+								"value": "a new heart and a new spirit"
 							}
 						]
 					},
@@ -580,8 +640,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "ezekiel"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}ezekiel{{\\u}} 36:24-28"
+								"value": " 36:24-28"
 							}
 						]
 					},
@@ -589,8 +653,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 42:1-7 _or_"
+								"value": " 42:1-7 _or_"
 							}
 						]
 					},
@@ -598,8 +666,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "surely, it is god who saves me"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}surely, it is god who saves me{{\\u}} (_Supplemental Canticle 8_)"
+								"value": " (_Supplemental Canticle 8_)"
 							}
 						]
 					},
@@ -615,8 +687,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}the valley of dry bones{{\\u}}"
+								"type": "u",
+								"value": "the valley of dry bones"
 							}
 						]
 					},
@@ -624,8 +696,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "ezekiel"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}ezekiel{{\\u}} 37:1-14"
+								"value": " 37:1-14"
 							}
 						]
 					},
@@ -633,8 +709,20 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 30 _or_ {{u}}psalm{{\\u}} 126"
+								"value": " 30 _or_ "
+							},
+							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
+								"type": "text",
+								"value": " 126"
 							}
 						]
 					},
@@ -654,8 +742,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}the three young men in the furnace{{\\u}}"
+								"type": "u",
+								"value": "the three young men in the furnace"
 							}
 						]
 					},
@@ -663,8 +751,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "daniel"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}daniel{{\\u}} 3:1-28"
+								"value": " 3:1-28"
 							}
 						]
 					},
@@ -672,8 +764,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "a song of creation"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}a song of creation{{\\u}} (_Supplemental Canticle 10_) _or_"
+								"value": " (_Supplemental Canticle 10_) _or_"
 							}
 						]
 					},
@@ -681,8 +777,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "a song of praise"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}a song of praise{{\\u}} (_Benedictus es, Domine_)"
+								"value": " (_Benedictus es, Domine_)"
 							}
 						]
 					},
@@ -698,8 +798,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}jonah and the fish{{\\u}}"
+								"type": "u",
+								"value": "jonah and the fish"
 							}
 						]
 					},
@@ -707,8 +807,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "jonah"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}jonah{{\\u}} 1:1—2:10"
+								"value": " 1:1—2:10"
 							}
 						]
 					},
@@ -716,8 +820,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 130"
+								"value": " 130"
 							}
 						]
 					},
@@ -733,8 +841,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}t h e g at h e r i ng of g od’s peopl e{{\\u}}"
+								"type": "u",
+								"value": "t h e g at h e r i ng of g od’s peopl e"
 							}
 						]
 					},
@@ -742,8 +850,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "zephaniah"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}zephaniah{{\\u}} 3:12-20"
+								"value": " 3:12-20"
 							}
 						]
 					},
@@ -751,8 +863,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 98"
+								"value": " 98"
 							}
 						]
 					},
@@ -837,8 +953,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "romans"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}romans{{\\u}} 6:3-11"
+								"value": " 6:3-11"
 							}
 						]
 					},
@@ -867,8 +987,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "matthew"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}matthew{{\\u}} 28:1-10"
+								"value": " 28:1-10"
 							}
 						]
 					},

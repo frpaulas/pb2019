@@ -44,7 +44,20 @@
 					},
 					{
 						"type": "text_block",
-						"text": "Throughout the Old Testament, ashes are used as a sign of sorrow and repentance, and Christians have traditionally used ashes to indicate sorrow for our own sin, and as a reminder that the wages of sin is death (romans 6:23). Like Adam and Eve, we have disobeyed and rebelled against God, and are under the same judgment, “you are dust, and to dust you shall return” ({{u}}genesis{{\\u}} 3:19)."
+						"content": [
+							{
+								"type": "text",
+								"value": "Throughout the Old Testament, ashes are used as a sign of sorrow and repentance, and Christians have traditionally used ashes to indicate sorrow for our own sin, and as a reminder that the wages of sin is death (romans 6:23). Like Adam and Eve, we have disobeyed and rebelled against God, and are under the same judgment, “you are dust, and to dust you shall return” ("
+							},
+							{
+								"type": "u",
+								"value": "genesis"
+							},
+							{
+								"type": "text",
+								"value": " 3:19)."
+							}
+						]
 					},
 					{
 						"type": "text_block",
@@ -120,8 +133,20 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "joel"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}joel{{\\u}} 2:1-2, 12-17 or {{u}}isaiah{{\\u}} 58:1-12"
+								"value": " 2:1-2, 12-17 or "
+							},
+							{
+								"type": "u",
+								"value": "isaiah"
+							},
+							{
+								"type": "text",
+								"value": " 58:1-12"
 							}
 						]
 					},
@@ -138,8 +163,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "2 corinthians"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}2 corinthians{{\\u}} 5:20—6:10"
+								"value": " 5:20—6:10"
 							}
 						]
 					},
@@ -147,8 +176,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "matthew"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}matthew{{\\u}} 6:1-6, 16-21"
+								"value": " 6:1-6, 16-21"
 							}
 						]
 					},

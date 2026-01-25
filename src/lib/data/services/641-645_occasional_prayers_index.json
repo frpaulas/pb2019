@@ -43,7 +43,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "1. {{u}}for the universal church{{\\u}}"
+								"value": "1. "
+							},
+							{
+								"type": "u",
+								"value": "for the universal church"
 							}
 						]
 					},
@@ -52,7 +56,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "2. {{u}}for the universal church{{\\u}} _William Laud_"
+								"value": "2. "
+							},
+							{
+								"type": "u",
+								"value": "for the universal church"
+							},
+							{
+								"type": "text",
+								"value": " _William Laud_"
 							}
 						]
 					},
@@ -61,7 +73,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "3. {{u}}for the unity of the church{{\\u}}"
+								"value": "3. "
+							},
+							{
+								"type": "u",
+								"value": "for the unity of the church"
 							}
 						]
 					},
@@ -70,7 +86,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "4. {{u}}for the unity of all christian people{{\\u}}"
+								"value": "4. "
+							},
+							{
+								"type": "u",
+								"value": "for the unity of all christian people"
 							}
 						]
 					},
@@ -79,7 +99,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "5. {{u}}for the spirit of prayer{{\\u}}"
+								"value": "5. "
+							},
+							{
+								"type": "u",
+								"value": "for the spirit of prayer"
 							}
 						]
 					},
@@ -88,7 +112,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "6. {{u}}for a province or diocese{{\\u}}"
+								"value": "6. "
+							},
+							{
+								"type": "u",
+								"value": "for a province or diocese"
 							}
 						]
 					},
@@ -97,7 +125,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "7. {{u}}for a provincial or diocesan convention or synod{{\\u}}"
+								"value": "7. "
+							},
+							{
+								"type": "u",
+								"value": "for a provincial or diocesan convention or synod"
 							}
 						]
 					},
@@ -106,7 +138,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "8. {{u}}for a provincial or diocesan convention or synod{{\\u}}"
+								"value": "8. "
+							},
+							{
+								"type": "u",
+								"value": "for a provincial or diocesan convention or synod"
 							}
 						]
 					},
@@ -115,7 +151,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "9. {{u}}for vestry and church meetings{{\\u}}"
+								"value": "9. "
+							},
+							{
+								"type": "u",
+								"value": "for vestry and church meetings"
 							}
 						]
 					},
@@ -124,7 +164,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "10. {{u}}for the selection of a bishop or other minister{{\\u}}"
+								"value": "10. "
+							},
+							{
+								"type": "u",
+								"value": "for the selection of a bishop or other minister"
 							}
 						]
 					},
@@ -133,7 +177,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "11. {{u}}for the local congregation{{\\u}}"
+								"value": "11. "
+							},
+							{
+								"type": "u",
+								"value": "for the local congregation"
 							}
 						]
 					},
@@ -142,7 +190,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "12. {{u}}for the local congregation{{\\u}}"
+								"value": "12. "
+							},
+							{
+								"type": "u",
+								"value": "for the local congregation"
 							}
 						]
 					},
@@ -151,7 +203,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "13. {{u}}for vocations to ordained ministry{{\\u}}"
+								"value": "13. "
+							},
+							{
+								"type": "u",
+								"value": "for vocations to ordained ministry"
 							}
 						]
 					},
@@ -160,7 +216,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "14. {{u}}for church musicians and artists{{\\u}}"
+								"value": "14. "
+							},
+							{
+								"type": "u",
+								"value": "for church musicians and artists"
 							}
 						]
 					},
@@ -169,7 +229,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "15. {{u}}for monastic orders and vocations{{\\u}}"
+								"value": "15. "
+							},
+							{
+								"type": "u",
+								"value": "for monastic orders and vocations"
 							}
 						]
 					},
@@ -178,7 +242,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "16. {{u}}for the mission of the church{{\\u}}"
+								"value": "16. "
+							},
+							{
+								"type": "u",
+								"value": "for the mission of the church"
 							}
 						]
 					},
@@ -187,7 +255,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "17. {{u}}for the mission of the church{{\\u}}"
+								"value": "17. "
+							},
+							{
+								"type": "u",
+								"value": "for the mission of the church"
 							}
 						]
 					},
@@ -196,7 +268,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "18. {{u}}for missionary societies{{\\u}}"
+								"value": "18. "
+							},
+							{
+								"type": "u",
+								"value": "for missionary societies"
 							}
 						]
 					},
@@ -205,7 +281,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "19. {{u}}for all missionaries{{\\u}}"
+								"value": "19. "
+							},
+							{
+								"type": "u",
+								"value": "for all missionaries"
 							}
 						]
 					},
@@ -214,7 +294,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "20. {{u}}for a spirit of evangelism{{\\u}}"
+								"value": "20. "
+							},
+							{
+								"type": "u",
+								"value": "for a spirit of evangelism"
 							}
 						]
 					},
@@ -227,7 +311,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "21. {{u}}for joy in god’s creation{{\\u}}"
+								"value": "21. "
+							},
+							{
+								"type": "u",
+								"value": "for joy in god’s creation"
 							}
 						]
 					},
@@ -236,7 +324,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "22. {{u}}for stewardship of creation{{\\u}}"
+								"value": "22. "
+							},
+							{
+								"type": "u",
+								"value": "for stewardship of creation"
 							}
 						]
 					},
@@ -245,7 +337,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "23. {{u}}for the harvest of lands and waters{{\\u}}"
+								"value": "23. "
+							},
+							{
+								"type": "u",
+								"value": "for the harvest of lands and waters"
 							}
 						]
 					},
@@ -254,7 +350,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "24. {{u}}for rain{{\\u}}"
+								"value": "24. "
+							},
+							{
+								"type": "u",
+								"value": "for rain"
 							}
 						]
 					},
@@ -263,7 +363,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "25. {{u}}in time of scarcity and famine{{\\u}}"
+								"value": "25. "
+							},
+							{
+								"type": "u",
+								"value": "in time of scarcity and famine"
 							}
 						]
 					},
@@ -272,7 +376,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "26. {{u}}in times of natural disaster{{\\u}}"
+								"value": "26. "
+							},
+							{
+								"type": "u",
+								"value": "in times of natural disaster"
 							}
 						]
 					},
@@ -285,7 +393,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "27. {{u}}for the peace of the world{{\\u}}"
+								"value": "27. "
+							},
+							{
+								"type": "u",
+								"value": "for the peace of the world"
 							}
 						]
 					},
@@ -294,7 +406,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "28. {{u}}for the peace of the world{{\\u}}"
+								"value": "28. "
+							},
+							{
+								"type": "u",
+								"value": "for the peace of the world"
 							}
 						]
 					},
@@ -303,7 +419,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "29. {{u}}for courts of justice{{\\u}}"
+								"value": "29. "
+							},
+							{
+								"type": "u",
+								"value": "for courts of justice"
 							}
 						]
 					},
@@ -312,7 +432,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "30. {{u}}for civil authorities{{\\u}}"
+								"value": "30. "
+							},
+							{
+								"type": "u",
+								"value": "for civil authorities"
 							}
 						]
 					},
@@ -321,7 +445,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "31. {{u}}for an election{{\\u}}"
+								"value": "31. "
+							},
+							{
+								"type": "u",
+								"value": "for an election"
 							}
 						]
 					},
@@ -330,7 +458,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "32. {{u}}for those in the armed forces{{\\u}}"
+								"value": "32. "
+							},
+							{
+								"type": "u",
+								"value": "for those in the armed forces"
 							}
 						]
 					},
@@ -339,7 +471,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "33. {{u}}for our enemies{{\\u}}"
+								"value": "33. "
+							},
+							{
+								"type": "u",
+								"value": "for our enemies"
 							}
 						]
 					},
@@ -356,7 +492,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "34. {{u}}for the sovereign{{\\u}}"
+								"value": "34. "
+							},
+							{
+								"type": "u",
+								"value": "for the sovereign"
 							}
 						]
 					},
@@ -365,7 +505,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "35. {{u}}for the royal family{{\\u}}"
+								"value": "35. "
+							},
+							{
+								"type": "u",
+								"value": "for the royal family"
 							}
 						]
 					},
@@ -374,7 +518,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "36. {{u}}for the prime minister of canada, lieutenant governors, and premiers of the provinces{{\\u}}"
+								"value": "36. "
+							},
+							{
+								"type": "u",
+								"value": "for the prime minister of canada, lieutenant governors, and premiers of the provinces"
 							}
 						]
 					},
@@ -387,7 +535,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "37. {{u}}for the president and all in civil authority{{\\u}}"
+								"value": "37. "
+							},
+							{
+								"type": "u",
+								"value": "for the president and all in civil authority"
 							}
 						]
 					},
@@ -396,7 +548,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "38. {{u}}for congress or a state legislature{{\\u}}"
+								"value": "38. "
+							},
+							{
+								"type": "u",
+								"value": "for congress or a state legislature"
 							}
 						]
 					},
@@ -405,7 +561,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "39. {{u}}for our nation{{\\u}}"
+								"value": "39. "
+							},
+							{
+								"type": "u",
+								"value": "for our nation"
 							}
 						]
 					},
@@ -418,7 +578,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "40. {{u}}for all sorts and conditions of men{{\\u}}"
+								"value": "40. "
+							},
+							{
+								"type": "u",
+								"value": "for all sorts and conditions of men"
 							}
 						]
 					},
@@ -427,7 +591,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "41. {{u}}for cities, towns, and other communities{{\\u}}"
+								"value": "41. "
+							},
+							{
+								"type": "u",
+								"value": "for cities, towns, and other communities"
 							}
 						]
 					},
@@ -436,7 +604,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "42. {{u}}for the human family{{\\u}}"
+								"value": "42. "
+							},
+							{
+								"type": "u",
+								"value": "for the human family"
 							}
 						]
 					},
@@ -445,7 +617,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "43. {{u}}for social justice{{\\u}}"
+								"value": "43. "
+							},
+							{
+								"type": "u",
+								"value": "for social justice"
 							}
 						]
 					},
@@ -454,7 +630,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "44. {{u}}in times of social conflict or distress{{\\u}}"
+								"value": "44. "
+							},
+							{
+								"type": "u",
+								"value": "in times of social conflict or distress"
 							}
 						]
 					},
@@ -463,7 +643,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "45. {{u}}for those who serve others{{\\u}}"
+								"value": "45. "
+							},
+							{
+								"type": "u",
+								"value": "for those who serve others"
 							}
 						]
 					},
@@ -472,7 +656,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "46. {{u}}for commerce and industry{{\\u}}"
+								"value": "46. "
+							},
+							{
+								"type": "u",
+								"value": "for commerce and industry"
 							}
 						]
 					},
@@ -481,7 +669,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "47. {{u}}for the unemployed{{\\u}}"
+								"value": "47. "
+							},
+							{
+								"type": "u",
+								"value": "for the unemployed"
 							}
 						]
 					},
@@ -490,7 +682,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "48. {{u}}for agriculture and farming{{\\u}}"
+								"value": "48. "
+							},
+							{
+								"type": "u",
+								"value": "for agriculture and farming"
 							}
 						]
 					},
@@ -499,7 +695,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "49. {{u}}for schools, colleges, and universities{{\\u}}"
+								"value": "49. "
+							},
+							{
+								"type": "u",
+								"value": "for schools, colleges, and universities"
 							}
 						]
 					},
@@ -508,7 +708,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "50. {{u}}for the medical professions{{\\u}}"
+								"value": "50. "
+							},
+							{
+								"type": "u",
+								"value": "for the medical professions"
 							}
 						]
 					},
@@ -517,7 +721,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "51. {{u}}for those who inform public opinion{{\\u}}"
+								"value": "51. "
+							},
+							{
+								"type": "u",
+								"value": "for those who inform public opinion"
 							}
 						]
 					},
@@ -530,7 +738,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "52. {{u}}for those we love{{\\u}}"
+								"value": "52. "
+							},
+							{
+								"type": "u",
+								"value": "for those we love"
 							}
 						]
 					},
@@ -539,7 +751,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "53. {{u}}for those who travel{{\\u}}"
+								"value": "53. "
+							},
+							{
+								"type": "u",
+								"value": "for those who travel"
 							}
 						]
 					},
@@ -548,7 +764,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "54. {{u}}for the absent{{\\u}}"
+								"value": "54. "
+							},
+							{
+								"type": "u",
+								"value": "for the absent"
 							}
 						]
 					},
@@ -557,7 +777,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "55. {{u}}for those who live alone{{\\u}}"
+								"value": "55. "
+							},
+							{
+								"type": "u",
+								"value": "for those who live alone"
 							}
 						]
 					},
@@ -566,7 +790,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "56. {{u}}for the elderly{{\\u}}"
+								"value": "56. "
+							},
+							{
+								"type": "u",
+								"value": "for the elderly"
 							}
 						]
 					},
@@ -575,7 +803,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "57. {{u}}for those with chronic disease{{\\u}}"
+								"value": "57. "
+							},
+							{
+								"type": "u",
+								"value": "for those with chronic disease"
 							}
 						]
 					},
@@ -584,7 +816,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "58. {{u}}for a person in trouble or bereavement{{\\u}}"
+								"value": "58. "
+							},
+							{
+								"type": "u",
+								"value": "for a person in trouble or bereavement"
 							}
 						]
 					},
@@ -593,7 +829,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "59. {{u}}for the discouraged and downcast{{\\u}}"
+								"value": "59. "
+							},
+							{
+								"type": "u",
+								"value": "for the discouraged and downcast"
 							}
 						]
 					},
@@ -602,7 +842,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "60. {{u}}for prisoners{{\\u}}"
+								"value": "60. "
+							},
+							{
+								"type": "u",
+								"value": "for prisoners"
 							}
 						]
 					},
@@ -611,7 +855,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "61. {{u}}for the recovery of a sick person{{\\u}}"
+								"value": "61. "
+							},
+							{
+								"type": "u",
+								"value": "for the recovery of a sick person"
 							}
 						]
 					},
@@ -620,7 +868,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "62. {{u}}for those afflicted with mental suffering{{\\u}}"
+								"value": "62. "
+							},
+							{
+								"type": "u",
+								"value": "for those afflicted with mental suffering"
 							}
 						]
 					},
@@ -629,7 +881,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "63. {{u}}for those in bondage to addiction{{\\u}}"
+								"value": "63. "
+							},
+							{
+								"type": "u",
+								"value": "for those in bondage to addiction"
 							}
 						]
 					},
@@ -638,7 +894,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "64. {{u}}for the unrepentant{{\\u}}"
+								"value": "64. "
+							},
+							{
+								"type": "u",
+								"value": "for the unrepentant"
 							}
 						]
 					},
@@ -655,7 +915,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "65. {{u}}for families{{\\u}}"
+								"value": "65. "
+							},
+							{
+								"type": "u",
+								"value": "for families"
 							}
 						]
 					},
@@ -664,7 +928,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "66. {{u}}for the care of children{{\\u}}"
+								"value": "66. "
+							},
+							{
+								"type": "u",
+								"value": "for the care of children"
 							}
 						]
 					},
@@ -673,7 +941,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "67. {{u}}for a birthday{{\\u}}"
+								"value": "67. "
+							},
+							{
+								"type": "u",
+								"value": "for a birthday"
 							}
 						]
 					},
@@ -682,7 +954,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "68. {{u}}for a child, or for a birthday{{\\u}}"
+								"value": "68. "
+							},
+							{
+								"type": "u",
+								"value": "for a child, or for a birthday"
 							}
 						]
 					},
@@ -691,7 +967,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "69. {{u}}for a marriage or anniversary{{\\u}}"
+								"value": "69. "
+							},
+							{
+								"type": "u",
+								"value": "for a marriage or anniversary"
 							}
 						]
 					},
@@ -700,7 +980,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "70. {{u}}for inner renewal through the word{{\\u}}"
+								"value": "70. "
+							},
+							{
+								"type": "u",
+								"value": "for inner renewal through the word"
 							}
 						]
 					},
@@ -709,7 +993,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "71. {{u}}for christ to be formed in us{{\\u}}"
+								"value": "71. "
+							},
+							{
+								"type": "u",
+								"value": "for christ to be formed in us"
 							}
 						]
 					},
@@ -718,7 +1006,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "72. {{u}}for knowing and loving god{{\\u}}"
+								"value": "72. "
+							},
+							{
+								"type": "u",
+								"value": "for knowing and loving god"
 							}
 						]
 					},
@@ -727,7 +1019,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "73. {{u}}a prayer of self-dedication{{\\u}} _William Temple_"
+								"value": "73. "
+							},
+							{
+								"type": "u",
+								"value": "a prayer of self-dedication"
+							},
+							{
+								"type": "text",
+								"value": " _William Temple_"
 							}
 						]
 					},
@@ -736,7 +1036,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "74. {{u}}for desiring god{{\\u}} _Francis Xavier_"
+								"value": "74. "
+							},
+							{
+								"type": "u",
+								"value": "for desiring god"
+							},
+							{
+								"type": "text",
+								"value": " _Francis Xavier_"
 							}
 						]
 					},
@@ -745,7 +1053,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "75. {{u}}for holy thought{{\\u}}"
+								"value": "75. "
+							},
+							{
+								"type": "u",
+								"value": "for holy thought"
 							}
 						]
 					},
@@ -754,7 +1066,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "76. {{u}}for guidance{{\\u}}"
+								"value": "76. "
+							},
+							{
+								"type": "u",
+								"value": "for guidance"
 							}
 						]
 					},
@@ -763,7 +1079,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "77. {{u}}for guidance{{\\u}}"
+								"value": "77. "
+							},
+							{
+								"type": "u",
+								"value": "for guidance"
 							}
 						]
 					},
@@ -772,7 +1092,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "78. {{u}}to please god rather than men{{\\u}} _Thomas à Kempis_"
+								"value": "78. "
+							},
+							{
+								"type": "u",
+								"value": "to please god rather than men"
+							},
+							{
+								"type": "text",
+								"value": " _Thomas à Kempis_"
 							}
 						]
 					},
@@ -781,7 +1109,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "79. {{u}}for mercy{{\\u}}"
+								"value": "79. "
+							},
+							{
+								"type": "u",
+								"value": "for mercy"
 							}
 						]
 					},
@@ -790,7 +1122,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "80. {{u}}for trustfulness in times of worry and anxiety{{\\u}}"
+								"value": "80. "
+							},
+							{
+								"type": "u",
+								"value": "for trustfulness in times of worry and anxiety"
 							}
 						]
 					},
@@ -799,7 +1135,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "81. {{u}}for help to bear bereavement{{\\u}}"
+								"value": "81. "
+							},
+							{
+								"type": "u",
+								"value": "for help to bear bereavement"
 							}
 						]
 					},
@@ -808,7 +1148,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "82. {{u}}for quiet confidence{{\\u}}"
+								"value": "82. "
+							},
+							{
+								"type": "u",
+								"value": "for quiet confidence"
 							}
 						]
 					},
@@ -821,7 +1165,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "83. {{u}}in the morning{{\\u}}"
+								"value": "83. "
+							},
+							{
+								"type": "u",
+								"value": "in the morning"
 							}
 						]
 					},
@@ -830,7 +1178,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "84. {{u}}grace at meals{{\\u}}"
+								"value": "84. "
+							},
+							{
+								"type": "u",
+								"value": "grace at meals"
 							}
 						]
 					},
@@ -839,7 +1191,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "85. {{u}}in the evening{{\\u}} _John Henry Newman_"
+								"value": "85. "
+							},
+							{
+								"type": "u",
+								"value": "in the evening"
+							},
+							{
+								"type": "text",
+								"value": " _John Henry Newman_"
 							}
 						]
 					},
@@ -848,7 +1208,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "86. {{u}}for sleep{{\\u}}"
+								"value": "86. "
+							},
+							{
+								"type": "u",
+								"value": "for sleep"
 							}
 						]
 					},
@@ -861,7 +1225,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "87. {{u}}for participation in the peace of god{{\\u}} _Francis of Assisi_"
+								"value": "87. "
+							},
+							{
+								"type": "u",
+								"value": "for participation in the peace of god"
+							},
+							{
+								"type": "text",
+								"value": " _Francis of Assisi_"
 							}
 						]
 					},
@@ -870,7 +1242,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "88. {{u}}for daily growth{{\\u}} _Richard of Chichester_"
+								"value": "88. "
+							},
+							{
+								"type": "u",
+								"value": "for daily growth"
+							},
+							{
+								"type": "text",
+								"value": " _Richard of Chichester_"
 							}
 						]
 					},
@@ -879,7 +1259,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "89. {{u}}for seeking god{{\\u}} _Anselm of Canterbury_"
+								"value": "89. "
+							},
+							{
+								"type": "u",
+								"value": "for seeking god"
+							},
+							{
+								"type": "text",
+								"value": " _Anselm of Canterbury_"
 							}
 						]
 					},
@@ -888,7 +1276,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "90. {{u}}for grace to seek god in every way{{\\u}} _Benedict of Nursia_"
+								"value": "90. "
+							},
+							{
+								"type": "u",
+								"value": "for grace to seek god in every way"
+							},
+							{
+								"type": "text",
+								"value": " _Benedict of Nursia_"
 							}
 						]
 					},
@@ -897,7 +1293,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "91. {{u}}for submission to god’s will{{\\u}} _Joseph Mercier_"
+								"value": "91. "
+							},
+							{
+								"type": "u",
+								"value": "for submission to god’s will"
+							},
+							{
+								"type": "text",
+								"value": " _Joseph Mercier_"
 							}
 						]
 					},
@@ -906,7 +1310,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "92. {{u}}for satisfaction in christ{{\\u}} _Julian of Norwich_"
+								"value": "92. "
+							},
+							{
+								"type": "u",
+								"value": "for satisfaction in christ"
+							},
+							{
+								"type": "text",
+								"value": " _Julian of Norwich_"
 							}
 						]
 					},
@@ -915,7 +1327,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "93. {{u}}a covenant prayer{{\\u}} _John Wesley_"
+								"value": "93. "
+							},
+							{
+								"type": "u",
+								"value": "a covenant prayer"
+							},
+							{
+								"type": "text",
+								"value": " _John Wesley_"
 							}
 						]
 					},
@@ -924,7 +1344,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "94. {{u}}for a virtuous heart{{\\u}} _Thomas Aquinas_"
+								"value": "94. "
+							},
+							{
+								"type": "u",
+								"value": "for a virtuous heart"
+							},
+							{
+								"type": "text",
+								"value": " _Thomas Aquinas_"
 							}
 						]
 					},
@@ -933,7 +1361,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "95. {{u}}in times of suffering or weakness{{\\u}}"
+								"value": "95. "
+							},
+							{
+								"type": "u",
+								"value": "in times of suffering or weakness"
 							}
 						]
 					},
@@ -942,7 +1374,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "96. {{u}}for union with christ{{\\u}} _Anima Christi_"
+								"value": "96. "
+							},
+							{
+								"type": "u",
+								"value": "for union with christ"
+							},
+							{
+								"type": "text",
+								"value": " _Anima Christi_"
 							}
 						]
 					},
@@ -959,7 +1399,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "97. {{u}}preparation for personal prayer{{\\u}}"
+								"value": "97. "
+							},
+							{
+								"type": "u",
+								"value": "preparation for personal prayer"
 							}
 						]
 					},
@@ -968,7 +1412,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "98. {{u}}for the acceptance of prayer{{\\u}}"
+								"value": "98. "
+							},
+							{
+								"type": "u",
+								"value": "for the acceptance of prayer"
 							}
 						]
 					},
@@ -977,7 +1425,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "99. {{u}}for the acceptance of prayer{{\\u}}"
+								"value": "99. "
+							},
+							{
+								"type": "u",
+								"value": "for the acceptance of prayer"
 							}
 						]
 					},
@@ -986,7 +1438,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "100. {{u}}for the answering of prayer{{\\u}}"
+								"value": "100. "
+							},
+							{
+								"type": "u",
+								"value": "for the answering of prayer"
 							}
 						]
 					},
@@ -995,7 +1451,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "101. {{u}}before the reading of scripture{{\\u}}"
+								"value": "101. "
+							},
+							{
+								"type": "u",
+								"value": "before the reading of scripture"
 							}
 						]
 					},
@@ -1004,7 +1464,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "102. {{u}}on sundays{{\\u}}"
+								"value": "102. "
+							},
+							{
+								"type": "u",
+								"value": "on sundays"
 							}
 						]
 					},
@@ -1013,7 +1477,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "103. {{u}}preparation for public worship{{\\u}}"
+								"value": "103. "
+							},
+							{
+								"type": "u",
+								"value": "preparation for public worship"
 							}
 						]
 					},
@@ -1022,7 +1490,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "104. {{u}}before receiving communion{{\\u}}"
+								"value": "104. "
+							},
+							{
+								"type": "u",
+								"value": "before receiving communion"
 							}
 						]
 					},
@@ -1031,7 +1503,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "105. {{u}}after receiving communion{{\\u}}"
+								"value": "105. "
+							},
+							{
+								"type": "u",
+								"value": "after receiving communion"
 							}
 						]
 					},
@@ -1040,7 +1516,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "106. {{u}}for spiritual communion{{\\u}}"
+								"value": "106. "
+							},
+							{
+								"type": "u",
+								"value": "for spiritual communion"
 							}
 						]
 					},
@@ -1049,7 +1529,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "107. {{u}}after communion{{\\u}} _Liturgy of St. Basil_"
+								"value": "107. "
+							},
+							{
+								"type": "u",
+								"value": "after communion"
+							},
+							{
+								"type": "text",
+								"value": " _Liturgy of St. Basil_"
 							}
 						]
 					},
@@ -1058,7 +1546,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "108. {{u}}after public worship{{\\u}}"
+								"value": "108. "
+							},
+							{
+								"type": "u",
+								"value": "after public worship"
 							}
 						]
 					},
@@ -1071,7 +1563,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "109. {{u}}for watchfulness Lancelot Andrewes{{\\u}}"
+								"value": "109. "
+							},
+							{
+								"type": "u",
+								"value": "for watchfulness Lancelot Andrewes"
 							}
 						]
 					},
@@ -1080,7 +1576,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "110. {{u}}for joy at the end of life{{\\u}} _Miles Coverdale_"
+								"value": "110. "
+							},
+							{
+								"type": "u",
+								"value": "for joy at the end of life"
+							},
+							{
+								"type": "text",
+								"value": " _Miles Coverdale_"
 							}
 						]
 					},
@@ -1089,7 +1593,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "111. {{u}}for an anniversary of one departed{{\\u}}"
+								"value": "111. "
+							},
+							{
+								"type": "u",
+								"value": "for an anniversary of one departed"
 							}
 						]
 					},
@@ -1098,7 +1606,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "112. {{u}}the communion of saints{{\\u}}"
+								"value": "112. "
+							},
+							{
+								"type": "u",
+								"value": "the communion of saints"
 							}
 						]
 					},
@@ -1107,7 +1619,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "113. {{u}}the communion of saints{{\\u}}"
+								"value": "113. "
+							},
+							{
+								"type": "u",
+								"value": "the communion of saints"
 							}
 						]
 					},
@@ -1116,7 +1632,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "114. {{u}}for all faithful departed{{\\u}}"
+								"value": "114. "
+							},
+							{
+								"type": "u",
+								"value": "for all faithful departed"
 							}
 						]
 					},
@@ -1125,7 +1645,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "115. {{u}}for the coming of god’s kingdom{{\\u}}"
+								"value": "115. "
+							},
+							{
+								"type": "u",
+								"value": "for the coming of god’s kingdom"
 							}
 						]
 					},
@@ -1138,7 +1662,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "116. {{u}}a litany of thanksgiving{{\\u}}"
+								"value": "116. "
+							},
+							{
+								"type": "u",
+								"value": "a litany of thanksgiving"
 							}
 						]
 					},
@@ -1147,7 +1675,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "117. {{u}}a thanksgiving prayer{{\\u}}"
+								"value": "117. "
+							},
+							{
+								"type": "u",
+								"value": "a thanksgiving prayer"
 							}
 						]
 					},
@@ -1156,7 +1688,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "118. {{u}}for the mission of the church{{\\u}}"
+								"value": "118. "
+							},
+							{
+								"type": "u",
+								"value": "for the mission of the church"
 							}
 						]
 					},
@@ -1165,7 +1701,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "119. {{u}}for the harvest{{\\u}}"
+								"value": "119. "
+							},
+							{
+								"type": "u",
+								"value": "for the harvest"
 							}
 						]
 					},
@@ -1174,7 +1714,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "120. {{u}}for the beauty of the earth{{\\u}}"
+								"value": "120. "
+							},
+							{
+								"type": "u",
+								"value": "for the beauty of the earth"
 							}
 						]
 					},
@@ -1183,7 +1727,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "121. {{u}}for the diversity of races and cultures{{\\u}}"
+								"value": "121. "
+							},
+							{
+								"type": "u",
+								"value": "for the diversity of races and cultures"
 							}
 						]
 					},
@@ -1192,7 +1740,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "122. {{u}}for military veterans{{\\u}}"
+								"value": "122. "
+							},
+							{
+								"type": "u",
+								"value": "for military veterans"
 							}
 						]
 					},
@@ -1201,7 +1753,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "123. {{u}}for deliverance from peril{{\\u}}"
+								"value": "123. "
+							},
+							{
+								"type": "u",
+								"value": "for deliverance from peril"
 							}
 						]
 					},
@@ -1210,7 +1766,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "124. {{u}}for the restoration of health{{\\u}}"
+								"value": "124. "
+							},
+							{
+								"type": "u",
+								"value": "for the restoration of health"
 							}
 						]
 					},
@@ -1219,7 +1779,11 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "125. {{u}}for the saints and faithful departed{{\\u}}"
+								"value": "125. "
+							},
+							{
+								"type": "u",
+								"value": "for the saints and faithful departed"
 							}
 						]
 					},

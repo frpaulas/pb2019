@@ -18978,8 +18978,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "isaiah"
+          },
+          {
             "type": "text",
-            "value": "{{u}}isaiah{{\\u}} 6:1-8"
+            "value": " 6:1-8"
           }
         ]
       },
@@ -18987,8 +18991,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 119:33-40"
+            "value": " 119:33-40"
           }
         ]
       },
@@ -18996,8 +19004,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "ephesians"
+          },
+          {
             "type": "text",
-            "value": "{{u}}ephesians{{\\u}} 4:7-16 _or_ philippians 4:4-9"
+            "value": " 4:7-16 _or_ philippians 4:4-9"
           }
         ]
       },
@@ -19005,8 +19017,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "luke"
+          },
+          {
             "type": "text",
-            "value": "{{u}}luke{{\\u}} 10:1-9 _or_ john 10:1-16"
+            "value": " 10:1-9 _or_ john 10:1-16"
           }
         ]
       },
@@ -19837,8 +19853,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "isaiah"
+          },
+          {
             "type": "text",
-            "value": "{{u}}isaiah{{\\u}} 61:1-11"
+            "value": " 61:1-11"
           }
         ]
       },
@@ -19846,8 +19866,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 100"
+            "value": " 100"
           }
         ]
       },
@@ -19855,8 +19879,16 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "1 timothy"
+          },
+          {
             "type": "text",
-            "value": "{{u}}1 timothy{{\\u}} 3:1-7 or {{u}}acts 20:17-35{{\\u}}"
+            "value": " 3:1-7 or "
+          },
+          {
+            "type": "u",
+            "value": "acts 20:17-35"
           }
         ]
       },
@@ -19864,8 +19896,24 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "john 21:15-19"
+          },
+          {
             "type": "text",
-            "value": "{{u}}john 21:15-19{{\\u}} or {{u}}john 20:19-23{{\\u}} or {{u}}matthew 28:18-20{{\\u}}"
+            "value": " or "
+          },
+          {
+            "type": "u",
+            "value": "john 20:19-23"
+          },
+          {
+            "type": "text",
+            "value": " or "
+          },
+          {
+            "type": "u",
+            "value": "matthew 28:18-20"
           }
         ]
       },
@@ -21138,8 +21186,16 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "romans 12:1-18"
+          },
+          {
             "type": "text",
-            "value": "{{u}}romans 12:1-18{{\\u}} _or_ {{u}}ephesians 4:7-16{{\\u}}"
+            "value": " _or_ "
+          },
+          {
+            "type": "u",
+            "value": "ephesians 4:7-16"
           }
         ]
       },
@@ -21990,7 +22046,23 @@
           },
           {
             "type": "text",
-            "value": " 8:22-30 _or_ {{u}}2 samuel{{\\u}} 6:12-19 _or_ {{u}}haggai{{\\u}} 2:1-8"
+            "value": " 8:22-30 _or_ "
+          },
+          {
+            "type": "u",
+            "value": "2 samuel"
+          },
+          {
+            "type": "text",
+            "value": " 6:12-19 _or_ "
+          },
+          {
+            "type": "u",
+            "value": "haggai"
+          },
+          {
+            "type": "text",
+            "value": " 2:1-8"
           }
         ]
       },
@@ -21998,8 +22070,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 84 _or_ 48"
+            "value": " 84 _or_ 48"
           }
         ]
       },
@@ -22007,8 +22083,28 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "revelation"
+          },
+          {
             "type": "text",
-            "value": "{{u}}revelation{{\\u}} 21:2-7 _or_ {{u}}1 corinthians{{\\u}} 3:1-17 _or_ {{u}}1 peter{{\\u}} 2:1-9"
+            "value": " 21:2-7 _or_ "
+          },
+          {
+            "type": "u",
+            "value": "1 corinthians"
+          },
+          {
+            "type": "text",
+            "value": " 3:1-17 _or_ "
+          },
+          {
+            "type": "u",
+            "value": "1 peter"
+          },
+          {
+            "type": "text",
+            "value": " 2:1-9"
           }
         ]
       },
@@ -22016,8 +22112,20 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "matthew"
+          },
+          {
             "type": "text",
-            "value": "{{u}}matthew{{\\u}} 7:13-25 _or_ {{u}}matthew{{\\u}} 21:10-14"
+            "value": " 7:13-25 _or_ "
+          },
+          {
+            "type": "u",
+            "value": "matthew"
+          },
+          {
+            "type": "text",
+            "value": " 21:10-14"
           }
         ]
       },
@@ -22733,7 +22841,20 @@
       },
       {
         "type": "text_block",
-        "text": "Throughout the Old Testament, ashes are used as a sign of sorrow and repentance, and Christians have traditionally used ashes to indicate sorrow for our own sin, and as a reminder that the wages of sin is death (romans 6:23). Like Adam and Eve, we have disobeyed and rebelled against God, and are under the same judgment, “you are dust, and to dust you shall return” ({{u}}genesis{{\\u}} 3:19)."
+        "content": [
+          {
+            "type": "text",
+            "value": "Throughout the Old Testament, ashes are used as a sign of sorrow and repentance, and Christians have traditionally used ashes to indicate sorrow for our own sin, and as a reminder that the wages of sin is death (romans 6:23). Like Adam and Eve, we have disobeyed and rebelled against God, and are under the same judgment, “you are dust, and to dust you shall return” ("
+          },
+          {
+            "type": "u",
+            "value": "genesis"
+          },
+          {
+            "type": "text",
+            "value": " 3:19)."
+          }
+        ]
       },
       {
         "type": "text_block",
@@ -22813,8 +22934,20 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "joel"
+          },
+          {
             "type": "text",
-            "value": "{{u}}joel{{\\u}} 2:1-2, 12-17 or {{u}}isaiah{{\\u}} 58:1-12"
+            "value": " 2:1-2, 12-17 or "
+          },
+          {
+            "type": "u",
+            "value": "isaiah"
+          },
+          {
+            "type": "text",
+            "value": " 58:1-12"
           }
         ]
       },
@@ -22831,8 +22964,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "2 corinthians"
+          },
+          {
             "type": "text",
-            "value": "{{u}}2 corinthians{{\\u}} 5:20—6:10"
+            "value": " 5:20—6:10"
           }
         ]
       },
@@ -22840,8 +22977,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "matthew"
+          },
+          {
             "type": "text",
-            "value": "{{u}}matthew{{\\u}} 6:1-6, 16-21"
+            "value": " 6:1-6, 16-21"
           }
         ]
       },
@@ -23459,7 +23600,15 @@
         "text": [
           {
             "type": "text",
-            "value": "Year A {{u}}matthew{{\\u}} 21:1-11"
+            "value": "Year A "
+          },
+          {
+            "type": "u",
+            "value": "matthew"
+          },
+          {
+            "type": "text",
+            "value": " 21:1-11"
           }
         ]
       },
@@ -23468,7 +23617,15 @@
         "text": [
           {
             "type": "text",
-            "value": "Year B {{u}}mark{{\\u}} 11:1-11a"
+            "value": "Year B "
+          },
+          {
+            "type": "u",
+            "value": "mark"
+          },
+          {
+            "type": "text",
+            "value": " 11:1-11a"
           }
         ]
       },
@@ -23477,7 +23634,15 @@
         "text": [
           {
             "type": "text",
-            "value": "Year C {{u}}luke{{\\u}} 19:28-40"
+            "value": "Year C "
+          },
+          {
+            "type": "u",
+            "value": "luke"
+          },
+          {
+            "type": "text",
+            "value": " 19:28-40"
           }
         ]
       },
@@ -23592,8 +23757,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "isaiah"
+          },
+          {
             "type": "text",
-            "value": "{{u}}isaiah{{\\u}} 52:13—53:12"
+            "value": " 52:13—53:12"
           }
         ]
       },
@@ -23601,8 +23770,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 22:1-22 v, 22:1-11 v or 31:10-18 v"
+            "value": " 22:1-22 v, 22:1-11 v or 31:10-18 v"
           }
         ]
       },
@@ -23610,8 +23783,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "philippians"
+          },
+          {
             "type": "text",
-            "value": "{{u}}philippians{{\\u}} 2:5-11"
+            "value": " 2:5-11"
           }
         ]
       },
@@ -23649,7 +23826,15 @@
         "text": [
           {
             "type": "text",
-            "value": "Year A {{u}}matthew{{\\u}} (26:36-75) 27:1-54 (55-66)"
+            "value": "Year A "
+          },
+          {
+            "type": "u",
+            "value": "matthew"
+          },
+          {
+            "type": "text",
+            "value": " (26:36-75) 27:1-54 (55-66)"
           }
         ]
       },
@@ -23658,7 +23843,15 @@
         "text": [
           {
             "type": "text",
-            "value": "Year B {{u}}mark{{\\u}} (14:32-72) 15:1-39 (40-47)"
+            "value": "Year B "
+          },
+          {
+            "type": "u",
+            "value": "mark"
+          },
+          {
+            "type": "text",
+            "value": " (14:32-72) 15:1-39 (40-47)"
           }
         ]
       },
@@ -23667,7 +23860,15 @@
         "text": [
           {
             "type": "text",
-            "value": "Year C {{u}}luke{{\\u}} (22:39-71) 23:1-49 (50-56)"
+            "value": "Year C "
+          },
+          {
+            "type": "u",
+            "value": "luke"
+          },
+          {
+            "type": "text",
+            "value": " (22:39-71) 23:1-49 (50-56)"
           }
         ]
       },
@@ -23787,8 +23988,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "exodus"
+          },
+          {
             "type": "text",
-            "value": "{{u}}exodus{{\\u}} 12:1-14"
+            "value": " 12:1-14"
           }
         ]
       },
@@ -23796,8 +24001,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 78:15-26 v"
+            "value": " 78:15-26 v"
           }
         ]
       },
@@ -23805,8 +24014,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "1 corinthians"
+          },
+          {
             "type": "text",
-            "value": "{{u}}1 corinthians{{\\u}} 11:23-26(27-34)"
+            "value": " 11:23-26(27-34)"
           }
         ]
       },
@@ -23814,8 +24027,20 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "john"
+          },
+          {
             "type": "text",
-            "value": "{{u}}john{{\\u}} 13:1-15 or {{u}}luke{{\\u}} 22:14-30"
+            "value": " 13:1-15 or "
+          },
+          {
+            "type": "u",
+            "value": "luke"
+          },
+          {
+            "type": "text",
+            "value": " 22:14-30"
           }
         ]
       },
@@ -23979,8 +24204,20 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "genesis"
+          },
+          {
             "type": "text",
-            "value": "{{u}}genesis{{\\u}} 22:1-18 _or_ {{u}}isaiah{{\\u}} 52:13—53:12"
+            "value": " 22:1-18 _or_ "
+          },
+          {
+            "type": "u",
+            "value": "isaiah"
+          },
+          {
+            "type": "text",
+            "value": " 52:13—53:12"
           }
         ]
       },
@@ -23988,8 +24225,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 22:1-11 (12-21) v _or_ 40:1-16 v _or_ 69:1-22 v"
+            "value": " 22:1-11 (12-21) v _or_ 40:1-16 v _or_ 69:1-22 v"
           }
         ]
       },
@@ -23997,8 +24238,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "hebrews"
+          },
+          {
             "type": "text",
-            "value": "{{u}}hebrews{{\\u}} 10:1-25"
+            "value": " 10:1-25"
           }
         ]
       }
@@ -24024,8 +24269,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "john"
+          },
+          {
             "type": "text",
-            "value": "{{u}}john{{\\u}} 18:1—19:37 _or_ 19:1-37"
+            "value": " 18:1—19:37 _or_ 19:1-37"
           }
         ]
       },
@@ -24894,8 +25143,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "job"
+          },
+          {
             "type": "text",
-            "value": "{{u}}job{{\\u}} 14:1-14"
+            "value": " 14:1-14"
           }
         ]
       },
@@ -24903,8 +25156,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 130 _or_ 88 _or_ 31:1-6 v"
+            "value": " 130 _or_ 88 _or_ 31:1-6 v"
           }
         ]
       },
@@ -24912,8 +25169,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "1 peter"
+          },
+          {
             "type": "text",
-            "value": "{{u}}1 peter{{\\u}} 4:1-8"
+            "value": " 4:1-8"
           }
         ]
       },
@@ -24921,8 +25182,16 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "matthew"
+          },
+          {
             "type": "text",
-            "value": "{{u}}matthew{{\\u}} 27:57-66 _or_ {{u}}john 19:38-42{{\\u}}"
+            "value": " 27:57-66 _or_ "
+          },
+          {
+            "type": "u",
+            "value": "john 19:38-42"
           }
         ]
       },
@@ -25420,8 +25689,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 104:1-13 (14-24) v _or_"
+            "value": " 104:1-13 (14-24) v _or_"
           }
         ]
       },
@@ -25429,8 +25702,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "a song of creation"
+          },
+          {
             "type": "text",
-            "value": "{{u}}a song of creation{{\\u}} (_Supplemental Canticle 10_)"
+            "value": " (_Supplemental Canticle 10_)"
           }
         ]
       },
@@ -25449,8 +25726,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}the fall{{\\u}}"
+            "type": "u",
+            "value": "the fall"
           }
         ]
       },
@@ -25458,8 +25735,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}genesis 3{{\\u}}"
+            "type": "u",
+            "value": "genesis 3"
           }
         ]
       },
@@ -25467,8 +25744,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}psalm 32{{\\u}}"
+            "type": "u",
+            "value": "psalm 32"
           }
         ]
       },
@@ -25490,8 +25767,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}t h e f l o od{{\\u}}"
+            "type": "u",
+            "value": "t h e f l o od"
           }
         ]
       },
@@ -25499,8 +25776,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "genesis"
+          },
+          {
             "type": "text",
-            "value": "{{u}}genesis{{\\u}} 7:1-5, 11-18; 8:6-20; 9:8-13"
+            "value": " 7:1-5, 11-18; 8:6-20; 9:8-13"
           }
         ]
       },
@@ -25508,8 +25789,20 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 36 _or_ {{u}}psalm{{\\u}} 46"
+            "value": " 36 _or_ "
+          },
+          {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
+            "type": "text",
+            "value": " 46"
           }
         ]
       },
@@ -25525,8 +25818,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}abrah a m’s s ac r if ic e of isaac{{\\u}}"
+            "type": "u",
+            "value": "abrah a m’s s ac r if ic e of isaac"
           }
         ]
       },
@@ -25534,8 +25827,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "genesis"
+          },
+          {
             "type": "text",
-            "value": "{{u}}genesis{{\\u}} 22:1-18"
+            "value": " 22:1-18"
           }
         ]
       },
@@ -25543,8 +25840,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 16"
+            "value": " 16"
           }
         ]
       },
@@ -25566,8 +25867,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}israel’s deliverance at the red sea{{\\u}}"
+            "type": "u",
+            "value": "israel’s deliverance at the red sea"
           }
         ]
       },
@@ -25575,8 +25876,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "exodus"
+          },
+          {
             "type": "text",
-            "value": "{{u}}exodus{{\\u}} 14:10—15:1"
+            "value": " 14:10—15:1"
           }
         ]
       },
@@ -25584,8 +25889,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "the song of moses"
+          },
+          {
             "type": "text",
-            "value": "{{u}}the song of moses{{\\u}} (Supplemental Canticle 5)"
+            "value": " (Supplemental Canticle 5)"
           }
         ]
       },
@@ -25601,8 +25910,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}god’s presence in a renewed israel{{\\u}}"
+            "type": "u",
+            "value": "god’s presence in a renewed israel"
           }
         ]
       },
@@ -25610,8 +25919,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "isaiah"
+          },
+          {
             "type": "text",
-            "value": "{{u}}isaiah{{\\u}} 4:2-6"
+            "value": " 4:2-6"
           }
         ]
       },
@@ -25619,8 +25932,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 122"
+            "value": " 122"
           }
         ]
       },
@@ -25636,8 +25953,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}salvation offered freely to al{{\\u}}"
+            "type": "u",
+            "value": "salvation offered freely to al"
           }
         ]
       },
@@ -25645,8 +25962,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "isaiah"
+          },
+          {
             "type": "text",
-            "value": "{{u}}isaiah{{\\u}} 55:1-11"
+            "value": " 55:1-11"
           }
         ]
       },
@@ -25654,8 +25975,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "surely, it is god who saves me"
+          },
+          {
             "type": "text",
-            "value": "{{u}}surely, it is god who saves me{{\\u}} (_Supplemental Canticle 8_) _or_"
+            "value": " (_Supplemental Canticle 8_) _or_"
           }
         ]
       },
@@ -25663,8 +25988,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 42:1-7"
+            "value": " 42:1-7"
           }
         ]
       },
@@ -25686,8 +26015,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}a new heart and a new spirit{{\\u}}"
+            "type": "u",
+            "value": "a new heart and a new spirit"
           }
         ]
       },
@@ -25695,8 +26024,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "ezekiel"
+          },
+          {
             "type": "text",
-            "value": "{{u}}ezekiel{{\\u}} 36:24-28"
+            "value": " 36:24-28"
           }
         ]
       },
@@ -25704,8 +26037,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 42:1-7 _or_"
+            "value": " 42:1-7 _or_"
           }
         ]
       },
@@ -25713,8 +26050,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "surely, it is god who saves me"
+          },
+          {
             "type": "text",
-            "value": "{{u}}surely, it is god who saves me{{\\u}} (_Supplemental Canticle 8_)"
+            "value": " (_Supplemental Canticle 8_)"
           }
         ]
       },
@@ -25730,8 +26071,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}the valley of dry bones{{\\u}}"
+            "type": "u",
+            "value": "the valley of dry bones"
           }
         ]
       },
@@ -25739,8 +26080,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "ezekiel"
+          },
+          {
             "type": "text",
-            "value": "{{u}}ezekiel{{\\u}} 37:1-14"
+            "value": " 37:1-14"
           }
         ]
       },
@@ -25748,8 +26093,20 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 30 _or_ {{u}}psalm{{\\u}} 126"
+            "value": " 30 _or_ "
+          },
+          {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
+            "type": "text",
+            "value": " 126"
           }
         ]
       },
@@ -25771,8 +26128,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}the three young men in the furnace{{\\u}}"
+            "type": "u",
+            "value": "the three young men in the furnace"
           }
         ]
       },
@@ -25780,8 +26137,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "daniel"
+          },
+          {
             "type": "text",
-            "value": "{{u}}daniel{{\\u}} 3:1-28"
+            "value": " 3:1-28"
           }
         ]
       },
@@ -25789,8 +26150,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "a song of creation"
+          },
+          {
             "type": "text",
-            "value": "{{u}}a song of creation{{\\u}} (_Supplemental Canticle 10_) _or_"
+            "value": " (_Supplemental Canticle 10_) _or_"
           }
         ]
       },
@@ -25798,8 +26163,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "a song of praise"
+          },
+          {
             "type": "text",
-            "value": "{{u}}a song of praise{{\\u}} (_Benedictus es, Domine_)"
+            "value": " (_Benedictus es, Domine_)"
           }
         ]
       },
@@ -25815,8 +26184,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}jonah and the fish{{\\u}}"
+            "type": "u",
+            "value": "jonah and the fish"
           }
         ]
       },
@@ -25824,8 +26193,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "jonah"
+          },
+          {
             "type": "text",
-            "value": "{{u}}jonah{{\\u}} 1:1—2:10"
+            "value": " 1:1—2:10"
           }
         ]
       },
@@ -25833,8 +26206,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 130"
+            "value": " 130"
           }
         ]
       },
@@ -25850,8 +26227,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}t h e g at h e r i ng of g od’s peopl e{{\\u}}"
+            "type": "u",
+            "value": "t h e g at h e r i ng of g od’s peopl e"
           }
         ]
       },
@@ -25859,8 +26236,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "zephaniah"
+          },
+          {
             "type": "text",
-            "value": "{{u}}zephaniah{{\\u}} 3:12-20"
+            "value": " 3:12-20"
           }
         ]
       },
@@ -25868,8 +26249,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm{{\\u}} 98"
+            "value": " 98"
           }
         ]
       },
@@ -25958,8 +26343,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "romans"
+          },
+          {
             "type": "text",
-            "value": "{{u}}romans{{\\u}} 6:3-11"
+            "value": " 6:3-11"
           }
         ]
       },
@@ -25990,8 +26379,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "matthew"
+          },
+          {
             "type": "text",
-            "value": "{{u}}matthew{{\\u}} 28:1-10"
+            "value": " 28:1-10"
           }
         ]
       },
@@ -27607,7 +28000,11 @@
         "text": [
           {
             "type": "text",
-            "value": "1. {{u}}for the universal church{{\\u}}"
+            "value": "1. "
+          },
+          {
+            "type": "u",
+            "value": "for the universal church"
           }
         ]
       },
@@ -27616,7 +28013,15 @@
         "text": [
           {
             "type": "text",
-            "value": "2. {{u}}for the universal church{{\\u}} _William Laud_"
+            "value": "2. "
+          },
+          {
+            "type": "u",
+            "value": "for the universal church"
+          },
+          {
+            "type": "text",
+            "value": " _William Laud_"
           }
         ]
       },
@@ -27625,7 +28030,11 @@
         "text": [
           {
             "type": "text",
-            "value": "3. {{u}}for the unity of the church{{\\u}}"
+            "value": "3. "
+          },
+          {
+            "type": "u",
+            "value": "for the unity of the church"
           }
         ]
       },
@@ -27634,7 +28043,11 @@
         "text": [
           {
             "type": "text",
-            "value": "4. {{u}}for the unity of all christian people{{\\u}}"
+            "value": "4. "
+          },
+          {
+            "type": "u",
+            "value": "for the unity of all christian people"
           }
         ]
       },
@@ -27643,7 +28056,11 @@
         "text": [
           {
             "type": "text",
-            "value": "5. {{u}}for the spirit of prayer{{\\u}}"
+            "value": "5. "
+          },
+          {
+            "type": "u",
+            "value": "for the spirit of prayer"
           }
         ]
       },
@@ -27652,7 +28069,11 @@
         "text": [
           {
             "type": "text",
-            "value": "6. {{u}}for a province or diocese{{\\u}}"
+            "value": "6. "
+          },
+          {
+            "type": "u",
+            "value": "for a province or diocese"
           }
         ]
       },
@@ -27661,7 +28082,11 @@
         "text": [
           {
             "type": "text",
-            "value": "7. {{u}}for a provincial or diocesan convention or synod{{\\u}}"
+            "value": "7. "
+          },
+          {
+            "type": "u",
+            "value": "for a provincial or diocesan convention or synod"
           }
         ]
       },
@@ -27670,7 +28095,11 @@
         "text": [
           {
             "type": "text",
-            "value": "8. {{u}}for a provincial or diocesan convention or synod{{\\u}}"
+            "value": "8. "
+          },
+          {
+            "type": "u",
+            "value": "for a provincial or diocesan convention or synod"
           }
         ]
       },
@@ -27679,7 +28108,11 @@
         "text": [
           {
             "type": "text",
-            "value": "9. {{u}}for vestry and church meetings{{\\u}}"
+            "value": "9. "
+          },
+          {
+            "type": "u",
+            "value": "for vestry and church meetings"
           }
         ]
       },
@@ -27688,7 +28121,11 @@
         "text": [
           {
             "type": "text",
-            "value": "10. {{u}}for the selection of a bishop or other minister{{\\u}}"
+            "value": "10. "
+          },
+          {
+            "type": "u",
+            "value": "for the selection of a bishop or other minister"
           }
         ]
       },
@@ -27697,7 +28134,11 @@
         "text": [
           {
             "type": "text",
-            "value": "11. {{u}}for the local congregation{{\\u}}"
+            "value": "11. "
+          },
+          {
+            "type": "u",
+            "value": "for the local congregation"
           }
         ]
       },
@@ -27706,7 +28147,11 @@
         "text": [
           {
             "type": "text",
-            "value": "12. {{u}}for the local congregation{{\\u}}"
+            "value": "12. "
+          },
+          {
+            "type": "u",
+            "value": "for the local congregation"
           }
         ]
       },
@@ -27715,7 +28160,11 @@
         "text": [
           {
             "type": "text",
-            "value": "13. {{u}}for vocations to ordained ministry{{\\u}}"
+            "value": "13. "
+          },
+          {
+            "type": "u",
+            "value": "for vocations to ordained ministry"
           }
         ]
       },
@@ -27724,7 +28173,11 @@
         "text": [
           {
             "type": "text",
-            "value": "14. {{u}}for church musicians and artists{{\\u}}"
+            "value": "14. "
+          },
+          {
+            "type": "u",
+            "value": "for church musicians and artists"
           }
         ]
       },
@@ -27733,7 +28186,11 @@
         "text": [
           {
             "type": "text",
-            "value": "15. {{u}}for monastic orders and vocations{{\\u}}"
+            "value": "15. "
+          },
+          {
+            "type": "u",
+            "value": "for monastic orders and vocations"
           }
         ]
       },
@@ -27742,7 +28199,11 @@
         "text": [
           {
             "type": "text",
-            "value": "16. {{u}}for the mission of the church{{\\u}}"
+            "value": "16. "
+          },
+          {
+            "type": "u",
+            "value": "for the mission of the church"
           }
         ]
       },
@@ -27751,7 +28212,11 @@
         "text": [
           {
             "type": "text",
-            "value": "17. {{u}}for the mission of the church{{\\u}}"
+            "value": "17. "
+          },
+          {
+            "type": "u",
+            "value": "for the mission of the church"
           }
         ]
       },
@@ -27760,7 +28225,11 @@
         "text": [
           {
             "type": "text",
-            "value": "18. {{u}}for missionary societies{{\\u}}"
+            "value": "18. "
+          },
+          {
+            "type": "u",
+            "value": "for missionary societies"
           }
         ]
       },
@@ -27769,7 +28238,11 @@
         "text": [
           {
             "type": "text",
-            "value": "19. {{u}}for all missionaries{{\\u}}"
+            "value": "19. "
+          },
+          {
+            "type": "u",
+            "value": "for all missionaries"
           }
         ]
       },
@@ -27778,7 +28251,11 @@
         "text": [
           {
             "type": "text",
-            "value": "20. {{u}}for a spirit of evangelism{{\\u}}"
+            "value": "20. "
+          },
+          {
+            "type": "u",
+            "value": "for a spirit of evangelism"
           }
         ]
       },
@@ -27791,7 +28268,11 @@
         "text": [
           {
             "type": "text",
-            "value": "21. {{u}}for joy in god’s creation{{\\u}}"
+            "value": "21. "
+          },
+          {
+            "type": "u",
+            "value": "for joy in god’s creation"
           }
         ]
       },
@@ -27800,7 +28281,11 @@
         "text": [
           {
             "type": "text",
-            "value": "22. {{u}}for stewardship of creation{{\\u}}"
+            "value": "22. "
+          },
+          {
+            "type": "u",
+            "value": "for stewardship of creation"
           }
         ]
       },
@@ -27809,7 +28294,11 @@
         "text": [
           {
             "type": "text",
-            "value": "23. {{u}}for the harvest of lands and waters{{\\u}}"
+            "value": "23. "
+          },
+          {
+            "type": "u",
+            "value": "for the harvest of lands and waters"
           }
         ]
       },
@@ -27818,7 +28307,11 @@
         "text": [
           {
             "type": "text",
-            "value": "24. {{u}}for rain{{\\u}}"
+            "value": "24. "
+          },
+          {
+            "type": "u",
+            "value": "for rain"
           }
         ]
       },
@@ -27827,7 +28320,11 @@
         "text": [
           {
             "type": "text",
-            "value": "25. {{u}}in time of scarcity and famine{{\\u}}"
+            "value": "25. "
+          },
+          {
+            "type": "u",
+            "value": "in time of scarcity and famine"
           }
         ]
       },
@@ -27836,7 +28333,11 @@
         "text": [
           {
             "type": "text",
-            "value": "26. {{u}}in times of natural disaster{{\\u}}"
+            "value": "26. "
+          },
+          {
+            "type": "u",
+            "value": "in times of natural disaster"
           }
         ]
       },
@@ -27849,7 +28350,11 @@
         "text": [
           {
             "type": "text",
-            "value": "27. {{u}}for the peace of the world{{\\u}}"
+            "value": "27. "
+          },
+          {
+            "type": "u",
+            "value": "for the peace of the world"
           }
         ]
       },
@@ -27858,7 +28363,11 @@
         "text": [
           {
             "type": "text",
-            "value": "28. {{u}}for the peace of the world{{\\u}}"
+            "value": "28. "
+          },
+          {
+            "type": "u",
+            "value": "for the peace of the world"
           }
         ]
       },
@@ -27867,7 +28376,11 @@
         "text": [
           {
             "type": "text",
-            "value": "29. {{u}}for courts of justice{{\\u}}"
+            "value": "29. "
+          },
+          {
+            "type": "u",
+            "value": "for courts of justice"
           }
         ]
       },
@@ -27876,7 +28389,11 @@
         "text": [
           {
             "type": "text",
-            "value": "30. {{u}}for civil authorities{{\\u}}"
+            "value": "30. "
+          },
+          {
+            "type": "u",
+            "value": "for civil authorities"
           }
         ]
       },
@@ -27885,7 +28402,11 @@
         "text": [
           {
             "type": "text",
-            "value": "31. {{u}}for an election{{\\u}}"
+            "value": "31. "
+          },
+          {
+            "type": "u",
+            "value": "for an election"
           }
         ]
       },
@@ -27894,7 +28415,11 @@
         "text": [
           {
             "type": "text",
-            "value": "32. {{u}}for those in the armed forces{{\\u}}"
+            "value": "32. "
+          },
+          {
+            "type": "u",
+            "value": "for those in the armed forces"
           }
         ]
       },
@@ -27903,7 +28428,11 @@
         "text": [
           {
             "type": "text",
-            "value": "33. {{u}}for our enemies{{\\u}}"
+            "value": "33. "
+          },
+          {
+            "type": "u",
+            "value": "for our enemies"
           }
         ]
       }
@@ -27922,7 +28451,11 @@
         "text": [
           {
             "type": "text",
-            "value": "34. {{u}}for the sovereign{{\\u}}"
+            "value": "34. "
+          },
+          {
+            "type": "u",
+            "value": "for the sovereign"
           }
         ]
       },
@@ -27931,7 +28464,11 @@
         "text": [
           {
             "type": "text",
-            "value": "35. {{u}}for the royal family{{\\u}}"
+            "value": "35. "
+          },
+          {
+            "type": "u",
+            "value": "for the royal family"
           }
         ]
       },
@@ -27940,7 +28477,11 @@
         "text": [
           {
             "type": "text",
-            "value": "36. {{u}}for the prime minister of canada, lieutenant governors, and premiers of the provinces{{\\u}}"
+            "value": "36. "
+          },
+          {
+            "type": "u",
+            "value": "for the prime minister of canada, lieutenant governors, and premiers of the provinces"
           }
         ]
       },
@@ -27953,7 +28494,11 @@
         "text": [
           {
             "type": "text",
-            "value": "37. {{u}}for the president and all in civil authority{{\\u}}"
+            "value": "37. "
+          },
+          {
+            "type": "u",
+            "value": "for the president and all in civil authority"
           }
         ]
       },
@@ -27962,7 +28507,11 @@
         "text": [
           {
             "type": "text",
-            "value": "38. {{u}}for congress or a state legislature{{\\u}}"
+            "value": "38. "
+          },
+          {
+            "type": "u",
+            "value": "for congress or a state legislature"
           }
         ]
       },
@@ -27971,7 +28520,11 @@
         "text": [
           {
             "type": "text",
-            "value": "39. {{u}}for our nation{{\\u}}"
+            "value": "39. "
+          },
+          {
+            "type": "u",
+            "value": "for our nation"
           }
         ]
       },
@@ -27984,7 +28537,11 @@
         "text": [
           {
             "type": "text",
-            "value": "40. {{u}}for all sorts and conditions of men{{\\u}}"
+            "value": "40. "
+          },
+          {
+            "type": "u",
+            "value": "for all sorts and conditions of men"
           }
         ]
       },
@@ -27993,7 +28550,11 @@
         "text": [
           {
             "type": "text",
-            "value": "41. {{u}}for cities, towns, and other communities{{\\u}}"
+            "value": "41. "
+          },
+          {
+            "type": "u",
+            "value": "for cities, towns, and other communities"
           }
         ]
       },
@@ -28002,7 +28563,11 @@
         "text": [
           {
             "type": "text",
-            "value": "42. {{u}}for the human family{{\\u}}"
+            "value": "42. "
+          },
+          {
+            "type": "u",
+            "value": "for the human family"
           }
         ]
       },
@@ -28011,7 +28576,11 @@
         "text": [
           {
             "type": "text",
-            "value": "43. {{u}}for social justice{{\\u}}"
+            "value": "43. "
+          },
+          {
+            "type": "u",
+            "value": "for social justice"
           }
         ]
       },
@@ -28020,7 +28589,11 @@
         "text": [
           {
             "type": "text",
-            "value": "44. {{u}}in times of social conflict or distress{{\\u}}"
+            "value": "44. "
+          },
+          {
+            "type": "u",
+            "value": "in times of social conflict or distress"
           }
         ]
       },
@@ -28029,7 +28602,11 @@
         "text": [
           {
             "type": "text",
-            "value": "45. {{u}}for those who serve others{{\\u}}"
+            "value": "45. "
+          },
+          {
+            "type": "u",
+            "value": "for those who serve others"
           }
         ]
       },
@@ -28038,7 +28615,11 @@
         "text": [
           {
             "type": "text",
-            "value": "46. {{u}}for commerce and industry{{\\u}}"
+            "value": "46. "
+          },
+          {
+            "type": "u",
+            "value": "for commerce and industry"
           }
         ]
       },
@@ -28047,7 +28628,11 @@
         "text": [
           {
             "type": "text",
-            "value": "47. {{u}}for the unemployed{{\\u}}"
+            "value": "47. "
+          },
+          {
+            "type": "u",
+            "value": "for the unemployed"
           }
         ]
       },
@@ -28056,7 +28641,11 @@
         "text": [
           {
             "type": "text",
-            "value": "48. {{u}}for agriculture and farming{{\\u}}"
+            "value": "48. "
+          },
+          {
+            "type": "u",
+            "value": "for agriculture and farming"
           }
         ]
       },
@@ -28065,7 +28654,11 @@
         "text": [
           {
             "type": "text",
-            "value": "49. {{u}}for schools, colleges, and universities{{\\u}}"
+            "value": "49. "
+          },
+          {
+            "type": "u",
+            "value": "for schools, colleges, and universities"
           }
         ]
       },
@@ -28074,7 +28667,11 @@
         "text": [
           {
             "type": "text",
-            "value": "50. {{u}}for the medical professions{{\\u}}"
+            "value": "50. "
+          },
+          {
+            "type": "u",
+            "value": "for the medical professions"
           }
         ]
       },
@@ -28083,7 +28680,11 @@
         "text": [
           {
             "type": "text",
-            "value": "51. {{u}}for those who inform public opinion{{\\u}}"
+            "value": "51. "
+          },
+          {
+            "type": "u",
+            "value": "for those who inform public opinion"
           }
         ]
       },
@@ -28096,7 +28697,11 @@
         "text": [
           {
             "type": "text",
-            "value": "52. {{u}}for those we love{{\\u}}"
+            "value": "52. "
+          },
+          {
+            "type": "u",
+            "value": "for those we love"
           }
         ]
       },
@@ -28105,7 +28710,11 @@
         "text": [
           {
             "type": "text",
-            "value": "53. {{u}}for those who travel{{\\u}}"
+            "value": "53. "
+          },
+          {
+            "type": "u",
+            "value": "for those who travel"
           }
         ]
       },
@@ -28114,7 +28723,11 @@
         "text": [
           {
             "type": "text",
-            "value": "54. {{u}}for the absent{{\\u}}"
+            "value": "54. "
+          },
+          {
+            "type": "u",
+            "value": "for the absent"
           }
         ]
       },
@@ -28123,7 +28736,11 @@
         "text": [
           {
             "type": "text",
-            "value": "55. {{u}}for those who live alone{{\\u}}"
+            "value": "55. "
+          },
+          {
+            "type": "u",
+            "value": "for those who live alone"
           }
         ]
       },
@@ -28132,7 +28749,11 @@
         "text": [
           {
             "type": "text",
-            "value": "56. {{u}}for the elderly{{\\u}}"
+            "value": "56. "
+          },
+          {
+            "type": "u",
+            "value": "for the elderly"
           }
         ]
       },
@@ -28141,7 +28762,11 @@
         "text": [
           {
             "type": "text",
-            "value": "57. {{u}}for those with chronic disease{{\\u}}"
+            "value": "57. "
+          },
+          {
+            "type": "u",
+            "value": "for those with chronic disease"
           }
         ]
       },
@@ -28150,7 +28775,11 @@
         "text": [
           {
             "type": "text",
-            "value": "58. {{u}}for a person in trouble or bereavement{{\\u}}"
+            "value": "58. "
+          },
+          {
+            "type": "u",
+            "value": "for a person in trouble or bereavement"
           }
         ]
       },
@@ -28159,7 +28788,11 @@
         "text": [
           {
             "type": "text",
-            "value": "59. {{u}}for the discouraged and downcast{{\\u}}"
+            "value": "59. "
+          },
+          {
+            "type": "u",
+            "value": "for the discouraged and downcast"
           }
         ]
       },
@@ -28168,7 +28801,11 @@
         "text": [
           {
             "type": "text",
-            "value": "60. {{u}}for prisoners{{\\u}}"
+            "value": "60. "
+          },
+          {
+            "type": "u",
+            "value": "for prisoners"
           }
         ]
       },
@@ -28177,7 +28814,11 @@
         "text": [
           {
             "type": "text",
-            "value": "61. {{u}}for the recovery of a sick person{{\\u}}"
+            "value": "61. "
+          },
+          {
+            "type": "u",
+            "value": "for the recovery of a sick person"
           }
         ]
       },
@@ -28186,7 +28827,11 @@
         "text": [
           {
             "type": "text",
-            "value": "62. {{u}}for those afflicted with mental suffering{{\\u}}"
+            "value": "62. "
+          },
+          {
+            "type": "u",
+            "value": "for those afflicted with mental suffering"
           }
         ]
       },
@@ -28195,7 +28840,11 @@
         "text": [
           {
             "type": "text",
-            "value": "63. {{u}}for those in bondage to addiction{{\\u}}"
+            "value": "63. "
+          },
+          {
+            "type": "u",
+            "value": "for those in bondage to addiction"
           }
         ]
       },
@@ -28204,7 +28853,11 @@
         "text": [
           {
             "type": "text",
-            "value": "64. {{u}}for the unrepentant{{\\u}}"
+            "value": "64. "
+          },
+          {
+            "type": "u",
+            "value": "for the unrepentant"
           }
         ]
       }
@@ -28223,7 +28876,11 @@
         "text": [
           {
             "type": "text",
-            "value": "65. {{u}}for families{{\\u}}"
+            "value": "65. "
+          },
+          {
+            "type": "u",
+            "value": "for families"
           }
         ]
       },
@@ -28232,7 +28889,11 @@
         "text": [
           {
             "type": "text",
-            "value": "66. {{u}}for the care of children{{\\u}}"
+            "value": "66. "
+          },
+          {
+            "type": "u",
+            "value": "for the care of children"
           }
         ]
       },
@@ -28241,7 +28902,11 @@
         "text": [
           {
             "type": "text",
-            "value": "67. {{u}}for a birthday{{\\u}}"
+            "value": "67. "
+          },
+          {
+            "type": "u",
+            "value": "for a birthday"
           }
         ]
       },
@@ -28250,7 +28915,11 @@
         "text": [
           {
             "type": "text",
-            "value": "68. {{u}}for a child, or for a birthday{{\\u}}"
+            "value": "68. "
+          },
+          {
+            "type": "u",
+            "value": "for a child, or for a birthday"
           }
         ]
       },
@@ -28259,7 +28928,11 @@
         "text": [
           {
             "type": "text",
-            "value": "69. {{u}}for a marriage or anniversary{{\\u}}"
+            "value": "69. "
+          },
+          {
+            "type": "u",
+            "value": "for a marriage or anniversary"
           }
         ]
       },
@@ -28268,7 +28941,11 @@
         "text": [
           {
             "type": "text",
-            "value": "70. {{u}}for inner renewal through the word{{\\u}}"
+            "value": "70. "
+          },
+          {
+            "type": "u",
+            "value": "for inner renewal through the word"
           }
         ]
       },
@@ -28277,7 +28954,11 @@
         "text": [
           {
             "type": "text",
-            "value": "71. {{u}}for christ to be formed in us{{\\u}}"
+            "value": "71. "
+          },
+          {
+            "type": "u",
+            "value": "for christ to be formed in us"
           }
         ]
       },
@@ -28286,7 +28967,11 @@
         "text": [
           {
             "type": "text",
-            "value": "72. {{u}}for knowing and loving god{{\\u}}"
+            "value": "72. "
+          },
+          {
+            "type": "u",
+            "value": "for knowing and loving god"
           }
         ]
       },
@@ -28295,7 +28980,15 @@
         "text": [
           {
             "type": "text",
-            "value": "73. {{u}}a prayer of self-dedication{{\\u}} _William Temple_"
+            "value": "73. "
+          },
+          {
+            "type": "u",
+            "value": "a prayer of self-dedication"
+          },
+          {
+            "type": "text",
+            "value": " _William Temple_"
           }
         ]
       },
@@ -28304,7 +28997,15 @@
         "text": [
           {
             "type": "text",
-            "value": "74. {{u}}for desiring god{{\\u}} _Francis Xavier_"
+            "value": "74. "
+          },
+          {
+            "type": "u",
+            "value": "for desiring god"
+          },
+          {
+            "type": "text",
+            "value": " _Francis Xavier_"
           }
         ]
       },
@@ -28313,7 +29014,11 @@
         "text": [
           {
             "type": "text",
-            "value": "75. {{u}}for holy thought{{\\u}}"
+            "value": "75. "
+          },
+          {
+            "type": "u",
+            "value": "for holy thought"
           }
         ]
       },
@@ -28322,7 +29027,11 @@
         "text": [
           {
             "type": "text",
-            "value": "76. {{u}}for guidance{{\\u}}"
+            "value": "76. "
+          },
+          {
+            "type": "u",
+            "value": "for guidance"
           }
         ]
       },
@@ -28331,7 +29040,11 @@
         "text": [
           {
             "type": "text",
-            "value": "77. {{u}}for guidance{{\\u}}"
+            "value": "77. "
+          },
+          {
+            "type": "u",
+            "value": "for guidance"
           }
         ]
       },
@@ -28340,7 +29053,15 @@
         "text": [
           {
             "type": "text",
-            "value": "78. {{u}}to please god rather than men{{\\u}} _Thomas à Kempis_"
+            "value": "78. "
+          },
+          {
+            "type": "u",
+            "value": "to please god rather than men"
+          },
+          {
+            "type": "text",
+            "value": " _Thomas à Kempis_"
           }
         ]
       },
@@ -28349,7 +29070,11 @@
         "text": [
           {
             "type": "text",
-            "value": "79. {{u}}for mercy{{\\u}}"
+            "value": "79. "
+          },
+          {
+            "type": "u",
+            "value": "for mercy"
           }
         ]
       },
@@ -28358,7 +29083,11 @@
         "text": [
           {
             "type": "text",
-            "value": "80. {{u}}for trustfulness in times of worry and anxiety{{\\u}}"
+            "value": "80. "
+          },
+          {
+            "type": "u",
+            "value": "for trustfulness in times of worry and anxiety"
           }
         ]
       },
@@ -28367,7 +29096,11 @@
         "text": [
           {
             "type": "text",
-            "value": "81. {{u}}for help to bear bereavement{{\\u}}"
+            "value": "81. "
+          },
+          {
+            "type": "u",
+            "value": "for help to bear bereavement"
           }
         ]
       },
@@ -28376,7 +29109,11 @@
         "text": [
           {
             "type": "text",
-            "value": "82. {{u}}for quiet confidence{{\\u}}"
+            "value": "82. "
+          },
+          {
+            "type": "u",
+            "value": "for quiet confidence"
           }
         ]
       },
@@ -28389,7 +29126,11 @@
         "text": [
           {
             "type": "text",
-            "value": "83. {{u}}in the morning{{\\u}}"
+            "value": "83. "
+          },
+          {
+            "type": "u",
+            "value": "in the morning"
           }
         ]
       },
@@ -28398,7 +29139,11 @@
         "text": [
           {
             "type": "text",
-            "value": "84. {{u}}grace at meals{{\\u}}"
+            "value": "84. "
+          },
+          {
+            "type": "u",
+            "value": "grace at meals"
           }
         ]
       },
@@ -28407,7 +29152,15 @@
         "text": [
           {
             "type": "text",
-            "value": "85. {{u}}in the evening{{\\u}} _John Henry Newman_"
+            "value": "85. "
+          },
+          {
+            "type": "u",
+            "value": "in the evening"
+          },
+          {
+            "type": "text",
+            "value": " _John Henry Newman_"
           }
         ]
       },
@@ -28416,7 +29169,11 @@
         "text": [
           {
             "type": "text",
-            "value": "86. {{u}}for sleep{{\\u}}"
+            "value": "86. "
+          },
+          {
+            "type": "u",
+            "value": "for sleep"
           }
         ]
       },
@@ -28429,7 +29186,15 @@
         "text": [
           {
             "type": "text",
-            "value": "87. {{u}}for participation in the peace of god{{\\u}} _Francis of Assisi_"
+            "value": "87. "
+          },
+          {
+            "type": "u",
+            "value": "for participation in the peace of god"
+          },
+          {
+            "type": "text",
+            "value": " _Francis of Assisi_"
           }
         ]
       },
@@ -28438,7 +29203,15 @@
         "text": [
           {
             "type": "text",
-            "value": "88. {{u}}for daily growth{{\\u}} _Richard of Chichester_"
+            "value": "88. "
+          },
+          {
+            "type": "u",
+            "value": "for daily growth"
+          },
+          {
+            "type": "text",
+            "value": " _Richard of Chichester_"
           }
         ]
       },
@@ -28447,7 +29220,15 @@
         "text": [
           {
             "type": "text",
-            "value": "89. {{u}}for seeking god{{\\u}} _Anselm of Canterbury_"
+            "value": "89. "
+          },
+          {
+            "type": "u",
+            "value": "for seeking god"
+          },
+          {
+            "type": "text",
+            "value": " _Anselm of Canterbury_"
           }
         ]
       },
@@ -28456,7 +29237,15 @@
         "text": [
           {
             "type": "text",
-            "value": "90. {{u}}for grace to seek god in every way{{\\u}} _Benedict of Nursia_"
+            "value": "90. "
+          },
+          {
+            "type": "u",
+            "value": "for grace to seek god in every way"
+          },
+          {
+            "type": "text",
+            "value": " _Benedict of Nursia_"
           }
         ]
       },
@@ -28465,7 +29254,15 @@
         "text": [
           {
             "type": "text",
-            "value": "91. {{u}}for submission to god’s will{{\\u}} _Joseph Mercier_"
+            "value": "91. "
+          },
+          {
+            "type": "u",
+            "value": "for submission to god’s will"
+          },
+          {
+            "type": "text",
+            "value": " _Joseph Mercier_"
           }
         ]
       },
@@ -28474,7 +29271,15 @@
         "text": [
           {
             "type": "text",
-            "value": "92. {{u}}for satisfaction in christ{{\\u}} _Julian of Norwich_"
+            "value": "92. "
+          },
+          {
+            "type": "u",
+            "value": "for satisfaction in christ"
+          },
+          {
+            "type": "text",
+            "value": " _Julian of Norwich_"
           }
         ]
       },
@@ -28483,7 +29288,15 @@
         "text": [
           {
             "type": "text",
-            "value": "93. {{u}}a covenant prayer{{\\u}} _John Wesley_"
+            "value": "93. "
+          },
+          {
+            "type": "u",
+            "value": "a covenant prayer"
+          },
+          {
+            "type": "text",
+            "value": " _John Wesley_"
           }
         ]
       },
@@ -28492,7 +29305,15 @@
         "text": [
           {
             "type": "text",
-            "value": "94. {{u}}for a virtuous heart{{\\u}} _Thomas Aquinas_"
+            "value": "94. "
+          },
+          {
+            "type": "u",
+            "value": "for a virtuous heart"
+          },
+          {
+            "type": "text",
+            "value": " _Thomas Aquinas_"
           }
         ]
       },
@@ -28501,7 +29322,11 @@
         "text": [
           {
             "type": "text",
-            "value": "95. {{u}}in times of suffering or weakness{{\\u}}"
+            "value": "95. "
+          },
+          {
+            "type": "u",
+            "value": "in times of suffering or weakness"
           }
         ]
       },
@@ -28510,7 +29335,15 @@
         "text": [
           {
             "type": "text",
-            "value": "96. {{u}}for union with christ{{\\u}} _Anima Christi_"
+            "value": "96. "
+          },
+          {
+            "type": "u",
+            "value": "for union with christ"
+          },
+          {
+            "type": "text",
+            "value": " _Anima Christi_"
           }
         ]
       }
@@ -28529,7 +29362,11 @@
         "text": [
           {
             "type": "text",
-            "value": "97. {{u}}preparation for personal prayer{{\\u}}"
+            "value": "97. "
+          },
+          {
+            "type": "u",
+            "value": "preparation for personal prayer"
           }
         ]
       },
@@ -28538,7 +29375,11 @@
         "text": [
           {
             "type": "text",
-            "value": "98. {{u}}for the acceptance of prayer{{\\u}}"
+            "value": "98. "
+          },
+          {
+            "type": "u",
+            "value": "for the acceptance of prayer"
           }
         ]
       },
@@ -28547,7 +29388,11 @@
         "text": [
           {
             "type": "text",
-            "value": "99. {{u}}for the acceptance of prayer{{\\u}}"
+            "value": "99. "
+          },
+          {
+            "type": "u",
+            "value": "for the acceptance of prayer"
           }
         ]
       },
@@ -28556,7 +29401,11 @@
         "text": [
           {
             "type": "text",
-            "value": "100. {{u}}for the answering of prayer{{\\u}}"
+            "value": "100. "
+          },
+          {
+            "type": "u",
+            "value": "for the answering of prayer"
           }
         ]
       },
@@ -28565,7 +29414,11 @@
         "text": [
           {
             "type": "text",
-            "value": "101. {{u}}before the reading of scripture{{\\u}}"
+            "value": "101. "
+          },
+          {
+            "type": "u",
+            "value": "before the reading of scripture"
           }
         ]
       },
@@ -28574,7 +29427,11 @@
         "text": [
           {
             "type": "text",
-            "value": "102. {{u}}on sundays{{\\u}}"
+            "value": "102. "
+          },
+          {
+            "type": "u",
+            "value": "on sundays"
           }
         ]
       },
@@ -28583,7 +29440,11 @@
         "text": [
           {
             "type": "text",
-            "value": "103. {{u}}preparation for public worship{{\\u}}"
+            "value": "103. "
+          },
+          {
+            "type": "u",
+            "value": "preparation for public worship"
           }
         ]
       },
@@ -28592,7 +29453,11 @@
         "text": [
           {
             "type": "text",
-            "value": "104. {{u}}before receiving communion{{\\u}}"
+            "value": "104. "
+          },
+          {
+            "type": "u",
+            "value": "before receiving communion"
           }
         ]
       },
@@ -28601,7 +29466,11 @@
         "text": [
           {
             "type": "text",
-            "value": "105. {{u}}after receiving communion{{\\u}}"
+            "value": "105. "
+          },
+          {
+            "type": "u",
+            "value": "after receiving communion"
           }
         ]
       },
@@ -28610,7 +29479,11 @@
         "text": [
           {
             "type": "text",
-            "value": "106. {{u}}for spiritual communion{{\\u}}"
+            "value": "106. "
+          },
+          {
+            "type": "u",
+            "value": "for spiritual communion"
           }
         ]
       },
@@ -28619,7 +29492,15 @@
         "text": [
           {
             "type": "text",
-            "value": "107. {{u}}after communion{{\\u}} _Liturgy of St. Basil_"
+            "value": "107. "
+          },
+          {
+            "type": "u",
+            "value": "after communion"
+          },
+          {
+            "type": "text",
+            "value": " _Liturgy of St. Basil_"
           }
         ]
       },
@@ -28628,7 +29509,11 @@
         "text": [
           {
             "type": "text",
-            "value": "108. {{u}}after public worship{{\\u}}"
+            "value": "108. "
+          },
+          {
+            "type": "u",
+            "value": "after public worship"
           }
         ]
       },
@@ -28641,7 +29526,11 @@
         "text": [
           {
             "type": "text",
-            "value": "109. {{u}}for watchfulness Lancelot Andrewes{{\\u}}"
+            "value": "109. "
+          },
+          {
+            "type": "u",
+            "value": "for watchfulness Lancelot Andrewes"
           }
         ]
       },
@@ -28650,7 +29539,15 @@
         "text": [
           {
             "type": "text",
-            "value": "110. {{u}}for joy at the end of life{{\\u}} _Miles Coverdale_"
+            "value": "110. "
+          },
+          {
+            "type": "u",
+            "value": "for joy at the end of life"
+          },
+          {
+            "type": "text",
+            "value": " _Miles Coverdale_"
           }
         ]
       },
@@ -28659,7 +29556,11 @@
         "text": [
           {
             "type": "text",
-            "value": "111. {{u}}for an anniversary of one departed{{\\u}}"
+            "value": "111. "
+          },
+          {
+            "type": "u",
+            "value": "for an anniversary of one departed"
           }
         ]
       },
@@ -28668,7 +29569,11 @@
         "text": [
           {
             "type": "text",
-            "value": "112. {{u}}the communion of saints{{\\u}}"
+            "value": "112. "
+          },
+          {
+            "type": "u",
+            "value": "the communion of saints"
           }
         ]
       },
@@ -28677,7 +29582,11 @@
         "text": [
           {
             "type": "text",
-            "value": "113. {{u}}the communion of saints{{\\u}}"
+            "value": "113. "
+          },
+          {
+            "type": "u",
+            "value": "the communion of saints"
           }
         ]
       },
@@ -28686,7 +29595,11 @@
         "text": [
           {
             "type": "text",
-            "value": "114. {{u}}for all faithful departed{{\\u}}"
+            "value": "114. "
+          },
+          {
+            "type": "u",
+            "value": "for all faithful departed"
           }
         ]
       },
@@ -28695,7 +29608,11 @@
         "text": [
           {
             "type": "text",
-            "value": "115. {{u}}for the coming of god’s kingdom{{\\u}}"
+            "value": "115. "
+          },
+          {
+            "type": "u",
+            "value": "for the coming of god’s kingdom"
           }
         ]
       },
@@ -28708,7 +29625,11 @@
         "text": [
           {
             "type": "text",
-            "value": "116. {{u}}a litany of thanksgiving{{\\u}}"
+            "value": "116. "
+          },
+          {
+            "type": "u",
+            "value": "a litany of thanksgiving"
           }
         ]
       },
@@ -28717,7 +29638,11 @@
         "text": [
           {
             "type": "text",
-            "value": "117. {{u}}a thanksgiving prayer{{\\u}}"
+            "value": "117. "
+          },
+          {
+            "type": "u",
+            "value": "a thanksgiving prayer"
           }
         ]
       },
@@ -28726,7 +29651,11 @@
         "text": [
           {
             "type": "text",
-            "value": "118. {{u}}for the mission of the church{{\\u}}"
+            "value": "118. "
+          },
+          {
+            "type": "u",
+            "value": "for the mission of the church"
           }
         ]
       },
@@ -28735,7 +29664,11 @@
         "text": [
           {
             "type": "text",
-            "value": "119. {{u}}for the harvest{{\\u}}"
+            "value": "119. "
+          },
+          {
+            "type": "u",
+            "value": "for the harvest"
           }
         ]
       },
@@ -28744,7 +29677,11 @@
         "text": [
           {
             "type": "text",
-            "value": "120. {{u}}for the beauty of the earth{{\\u}}"
+            "value": "120. "
+          },
+          {
+            "type": "u",
+            "value": "for the beauty of the earth"
           }
         ]
       },
@@ -28753,7 +29690,11 @@
         "text": [
           {
             "type": "text",
-            "value": "121. {{u}}for the diversity of races and cultures{{\\u}}"
+            "value": "121. "
+          },
+          {
+            "type": "u",
+            "value": "for the diversity of races and cultures"
           }
         ]
       },
@@ -28762,7 +29703,11 @@
         "text": [
           {
             "type": "text",
-            "value": "122. {{u}}for military veterans{{\\u}}"
+            "value": "122. "
+          },
+          {
+            "type": "u",
+            "value": "for military veterans"
           }
         ]
       },
@@ -28771,7 +29716,11 @@
         "text": [
           {
             "type": "text",
-            "value": "123. {{u}}for deliverance from peril{{\\u}}"
+            "value": "123. "
+          },
+          {
+            "type": "u",
+            "value": "for deliverance from peril"
           }
         ]
       },
@@ -28780,7 +29729,11 @@
         "text": [
           {
             "type": "text",
-            "value": "124. {{u}}for the restoration of health{{\\u}}"
+            "value": "124. "
+          },
+          {
+            "type": "u",
+            "value": "for the restoration of health"
           }
         ]
       },
@@ -28789,7 +29742,11 @@
         "text": [
           {
             "type": "text",
-            "value": "125. {{u}}for the saints and faithful departed{{\\u}}"
+            "value": "125. "
+          },
+          {
+            "type": "u",
+            "value": "for the saints and faithful departed"
           }
         ]
       },
@@ -30603,8 +31560,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "of the holy trinity"
+          },
+          {
             "type": "text",
-            "value": "{{u}}of the holy trinity{{\\u}}\t\t_Propers for Trinity Sunday_"
+            "value": "\t\t_Propers for Trinity Sunday_"
           }
         ]
       },
@@ -30612,8 +31573,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "of the holy spirit"
+          },
+          {
             "type": "text",
-            "value": "{{u}}of the holy spirit{{\\u}}\t\t_Propers for Day of Pentecost_"
+            "value": "\t\t_Propers for Day of Pentecost_"
           }
         ]
       },
@@ -30621,8 +31586,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "of the holy angels"
+          },
+          {
             "type": "text",
-            "value": "{{u}}of the holy angels{{\\u}}\t\t_Propers for Holy Michael and All Angels_"
+            "value": "\t\t_Propers for Holy Michael and All Angels_"
           }
         ]
       },
@@ -30630,8 +31599,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "of the incarnation"
+          },
+          {
             "type": "text",
-            "value": "{{u}}of the incarnation{{\\u}}\t\t_Propers for Christmas Day_"
+            "value": "\t\t_Propers for Christmas Day_"
           }
         ]
       },
@@ -30639,8 +31612,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "of the holy eucharist"
+          },
+          {
             "type": "text",
-            "value": "{{u}}of the holy eucharist{{\\u}}   _Propers for Maundy Thursday_"
+            "value": "   _Propers for Maundy Thursday_"
           }
         ]
       },
@@ -30648,8 +31625,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "of the holy cross"
+          },
+          {
             "type": "text",
-            "value": "{{u}}of the holy cross{{\\u}}\t\t_Propers for Holy Cross Day_"
+            "value": "\t\t_Propers for Holy Cross Day_"
           }
         ]
       },
@@ -30657,8 +31638,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "for the departed"
+          },
+          {
             "type": "text",
-            "value": "{{u}}for the departed{{\\u}} \t\t_Propers for Burial of the Dead_"
+            "value": " \t\t_Propers for Burial of the Dead_"
           }
         ]
       },
@@ -30666,8 +31651,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "of the reign of christ"
+          },
+          {
             "type": "text",
-            "value": "{{u}}of the reign of christ{{\\u}}  _Propers for Christ the King_"
+            "value": "  _Propers for Christ the King_"
           }
         ]
       },
@@ -30675,8 +31664,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "for baptism"
+          },
+          {
             "type": "text",
-            "value": "{{u}}for baptism{{\\u}}\t\t        _Propers of the Day_"
+            "value": "\t\t        _Propers of the Day_"
           }
         ]
       },
@@ -30684,8 +31677,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "for confirmation"
+          },
+          {
             "type": "text",
-            "value": "{{u}}for confirmation{{\\u}} \t\t_Propers of the Day_"
+            "value": " \t\t_Propers of the Day_"
           }
         ]
       },
@@ -30731,8 +31728,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}for the unity of the church{{\\u}}"
+            "type": "u",
+            "value": "for the unity of the church"
           }
         ]
       },
@@ -30760,8 +31757,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "for the ministry"
+          },
+          {
             "type": "text",
-            "value": "{{u}}for the ministry{{\\u}}\t\t_Propers for Ember Days_"
+            "value": "\t\t_Propers for Ember Days_"
           }
         ]
       },
@@ -30769,8 +31770,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "for the mission of the church"
+          },
+          {
             "type": "text",
-            "value": "{{u}}for the mission of the church{{\\u}} _Propers for World Mission Sunday_"
+            "value": " _Propers for World Mission Sunday_"
           }
         ]
       },
@@ -30778,8 +31783,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "for the nation"
+          },
+          {
             "type": "text",
-            "value": "{{u}}for the nation{{\\u}}\t\t_Propers for a National Day_"
+            "value": "\t\t_Propers for a National Day_"
           }
         ]
       },
@@ -30787,8 +31796,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}for peace{{\\u}}"
+            "type": "u",
+            "value": "for peace"
           }
         ]
       },
@@ -30816,8 +31825,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "for the sick"
+          },
+          {
             "type": "text",
-            "value": "{{u}}for the sick{{\\u}}\t\t_Scriptures on page 235_"
+            "value": "\t\t_Scriptures on page 235_"
           }
         ]
       },
@@ -30825,8 +31838,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}for social justice{{\\u}}"
+            "type": "u",
+            "value": "for social justice"
           }
         ]
       },
@@ -31187,7 +32200,7 @@
         "text": [
           {
             "type": "text",
-            "value": "{{\\u}}resolved,{{\\u}}"
+            "value": "{{/u}}resolved,{{/u}}"
           }
         ]
       },
@@ -31203,7 +32216,7 @@
         "text": [
           {
             "type": "text",
-            "value": "{{\\u}}resolved,{{\\u}}"
+            "value": "{{/u}}resolved,{{/u}}"
           }
         ]
       },
@@ -31219,7 +32232,7 @@
         "text": [
           {
             "type": "text",
-            "value": "{{\\u}}resolved,{{\\u}}"
+            "value": "{{/u}}resolved,{{/u}}"
           }
         ]
       },
@@ -31238,7 +32251,7 @@
         "text": [
           {
             "type": "text",
-            "value": "{{\\u}}the{{\\u}}"
+            "value": "{{/u}}the{{/u}}"
           }
         ]
       },
@@ -31671,8 +32684,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}i. of faith in the holy trinity{{\\u}}"
+            "type": "u",
+            "value": "i. of faith in the holy trinity"
           }
         ]
       },
@@ -31684,8 +32697,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}ii. of the word or son of god, which was made very man{{\\u}}"
+            "type": "u",
+            "value": "ii. of the word or son of god, which was made very man"
           }
         ]
       },
@@ -31703,8 +32716,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}iii. of the going down of christ into hell{{\\u}}"
+            "type": "u",
+            "value": "iii. of the going down of christ into hell"
           }
         ]
       },
@@ -31716,8 +32729,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}iv. of there surrection of christ{{\\u}}"
+            "type": "u",
+            "value": "iv. of there surrection of christ"
           }
         ]
       },
@@ -31729,8 +32742,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}v. of the holy ghost{{\\u}}"
+            "type": "u",
+            "value": "v. of the holy ghost"
           }
         ]
       },
@@ -31742,8 +32755,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}vi. of the sufficiency of the holy scriptures for salvation{{\\u}}"
+            "type": "u",
+            "value": "vi. of the sufficiency of the holy scriptures for salvation"
           }
         ]
       },
@@ -31907,8 +32920,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}vii. of the old testament{{\\u}}"
+            "type": "u",
+            "value": "vii. of the old testament"
           }
         ]
       },
@@ -31920,8 +32933,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}viii. of the three creeds{{\\u}}"
+            "type": "u",
+            "value": "viii. of the three creeds"
           }
         ]
       },
@@ -31933,8 +32946,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}ix. of original or birth-sin{{\\u}}"
+            "type": "u",
+            "value": "ix. of original or birth-sin"
           }
         ]
       },
@@ -31952,8 +32965,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}x. of free - will{{\\u}}"
+            "type": "u",
+            "value": "x. of free - will"
           }
         ]
       },
@@ -31965,8 +32978,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xi. of the justification of man{{\\u}}"
+            "type": "u",
+            "value": "xi. of the justification of man"
           }
         ]
       },
@@ -31978,8 +32991,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xii. of good works{{\\u}}"
+            "type": "u",
+            "value": "xii. of good works"
           }
         ]
       },
@@ -31997,8 +33010,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xi i i . of wor k s bef or e just if ic at ion{{\\u}}"
+            "type": "u",
+            "value": "xi i i . of wor k s bef or e just if ic at ion"
           }
         ]
       },
@@ -32010,8 +33023,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xiv. of works of supererogation{{\\u}}"
+            "type": "u",
+            "value": "xiv. of works of supererogation"
           }
         ]
       },
@@ -32023,8 +33036,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xv. of christal one without sin{{\\u}}"
+            "type": "u",
+            "value": "xv. of christal one without sin"
           }
         ]
       },
@@ -32042,8 +33055,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xvi. of sin after baptism{{\\u}}"
+            "type": "u",
+            "value": "xvi. of sin after baptism"
           }
         ]
       },
@@ -32055,8 +33068,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xvii . of predestination and election{{\\u}}"
+            "type": "u",
+            "value": "xvii . of predestination and election"
           }
         ]
       },
@@ -32076,8 +33089,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xviii. of obtaining etenal salvation only by the name of christ{{\\u}}"
+            "type": "u",
+            "value": "xviii. of obtaining etenal salvation only by the name of christ"
           }
         ]
       },
@@ -32106,8 +33119,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xx. of the authority of the church{{\\u}}"
+            "type": "u",
+            "value": "xx. of the authority of the church"
           }
         ]
       },
@@ -32119,8 +33132,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxi. of the authority of general councils{{\\u}}"
+            "type": "u",
+            "value": "xxi. of the authority of general councils"
           }
         ]
       },
@@ -32132,8 +33145,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxii. of purgatory{{\\u}}"
+            "type": "u",
+            "value": "xxii. of purgatory"
           }
         ]
       },
@@ -32145,8 +33158,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxiii. of ministering in the congregation{{\\u}}"
+            "type": "u",
+            "value": "xxiii. of ministering in the congregation"
           }
         ]
       },
@@ -32162,8 +33175,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxiv. of speaking in the congregation in such a tongue as the people understandeth{{\\u}}"
+            "type": "u",
+            "value": "xxiv. of speaking in the congregation in such a tongue as the people understandeth"
           }
         ]
       },
@@ -32175,8 +33188,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxv. of the sacraments{{\\u}}"
+            "type": "u",
+            "value": "xxv. of the sacraments"
           }
         ]
       },
@@ -32206,8 +33219,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxvi. of the unworthiness of the ministers, which hinders not the effect of the sacrament{{\\u}}"
+            "type": "u",
+            "value": "xxvi. of the unworthiness of the ministers, which hinders not the effect of the sacrament"
           }
         ]
       },
@@ -32223,8 +33236,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxvii. of baptism{{\\u}}"
+            "type": "u",
+            "value": "xxvii. of baptism"
           }
         ]
       },
@@ -32236,8 +33249,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxviii. of the lord’s supper{{\\u}}"
+            "type": "u",
+            "value": "xxviii. of the lord’s supper"
           }
         ]
       },
@@ -32261,8 +33274,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxix. of the wicked which eat not the body of christ in the use of the lord’s supper{{\\u}}"
+            "type": "u",
+            "value": "xxix. of the wicked which eat not the body of christ in the use of the lord’s supper"
           }
         ]
       },
@@ -32274,8 +33287,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxx. of both kinds{{\\u}}"
+            "type": "u",
+            "value": "xxx. of both kinds"
           }
         ]
       },
@@ -32287,8 +33300,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxxi. of the one oblation of christ finished upon the cross{{\\u}}"
+            "type": "u",
+            "value": "xxxi. of the one oblation of christ finished upon the cross"
           }
         ]
       },
@@ -32300,8 +33313,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxxii. of the marriage of priests{{\\u}}"
+            "type": "u",
+            "value": "xxxii. of the marriage of priests"
           }
         ]
       },
@@ -32313,8 +33326,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxxiii. of excommunicate persons, how they are to be avoided{{\\u}}"
+            "type": "u",
+            "value": "xxxiii. of excommunicate persons, how they are to be avoided"
           }
         ]
       },
@@ -32326,8 +33339,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxxiv. of the traditions of the church{{\\u}}"
+            "type": "u",
+            "value": "xxxiv. of the traditions of the church"
           }
         ]
       },
@@ -32343,8 +33356,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxxv. of the homilies{{\\u}}"
+            "type": "u",
+            "value": "xxxv. of the homilies"
           }
         ]
       },
@@ -32465,8 +33478,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxxvi. of consecration of bishops and ministers{{\\u}}"
+            "type": "u",
+            "value": "xxxvi. of consecration of bishops and ministers"
           }
         ]
       },
@@ -32478,8 +33491,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxxvii. of the civil magistrates{{\\u}}"
+            "type": "u",
+            "value": "xxxvii. of the civil magistrates"
           }
         ]
       },
@@ -32507,8 +33520,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxxviii. of christian men’s goods, which are not common{{\\u}}"
+            "type": "u",
+            "value": "xxxviii. of christian men’s goods, which are not common"
           }
         ]
       },
@@ -32520,8 +33533,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxxix. of a christian man’s oath{{\\u}}"
+            "type": "u",
+            "value": "xxxix. of a christian man’s oath"
           }
         ]
       },
@@ -32542,8 +33555,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}viii. of the creeds.{{\\u}}"
+            "type": "u",
+            "value": "viii. of the creeds."
           }
         ]
       },
@@ -32555,8 +33568,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxi. of the authority of general councils.{{\\u}}"
+            "type": "u",
+            "value": "xxi. of the authority of general councils."
           }
         ]
       },
@@ -32569,8 +33582,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxxv. of the homilies.{{\\u}}"
+            "type": "u",
+            "value": "xxxv. of the homilies."
           }
         ]
       },
@@ -32583,8 +33596,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxxvi. of consecration of bishops and ministers.{{\\u}}"
+            "type": "u",
+            "value": "xxxvi. of consecration of bishops and ministers."
           }
         ]
       },
@@ -32596,8 +33609,8 @@
         "type": "line",
         "text": [
           {
-            "type": "text",
-            "value": "{{u}}xxxvii. of the power of the civil magistrates.{{\\u}}"
+            "type": "u",
+            "value": "xxxvii. of the power of the civil magistrates."
           }
         ]
       },

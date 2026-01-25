@@ -194,8 +194,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "isaiah"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}isaiah{{\\u}} 61:1-11"
+								"value": " 61:1-11"
 							}
 						]
 					},
@@ -203,8 +207,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 100"
+								"value": " 100"
 							}
 						]
 					},
@@ -212,8 +220,16 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "1 timothy"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}1 timothy{{\\u}} 3:1-7 or {{u}}acts 20:17-35{{\\u}}"
+								"value": " 3:1-7 or "
+							},
+							{
+								"type": "u",
+								"value": "acts 20:17-35"
 							}
 						]
 					},
@@ -221,8 +237,24 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "john 21:15-19"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}john 21:15-19{{\\u}} or {{u}}john 20:19-23{{\\u}} or {{u}}matthew 28:18-20{{\\u}}"
+								"value": " or "
+							},
+							{
+								"type": "u",
+								"value": "john 20:19-23"
+							},
+							{
+								"type": "text",
+								"value": " or "
+							},
+							{
+								"type": "u",
+								"value": "matthew 28:18-20"
 							}
 						]
 					},

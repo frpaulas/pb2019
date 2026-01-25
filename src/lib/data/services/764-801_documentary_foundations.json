@@ -125,7 +125,7 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "{{\\u}}resolved,{{\\u}}"
+								"value": "{{/u}}resolved,{{/u}}"
 							}
 						]
 					},
@@ -141,7 +141,7 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "{{\\u}}resolved,{{\\u}}"
+								"value": "{{/u}}resolved,{{/u}}"
 							}
 						]
 					},
@@ -157,7 +157,7 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "{{\\u}}resolved,{{\\u}}"
+								"value": "{{/u}}resolved,{{/u}}"
 							}
 						]
 					},
@@ -174,7 +174,7 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "{{\\u}}the{{\\u}}"
+								"value": "{{/u}}the{{/u}}"
 							}
 						]
 					},
@@ -601,8 +601,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}i. of faith in the holy trinity{{\\u}}"
+								"type": "u",
+								"value": "i. of faith in the holy trinity"
 							}
 						]
 					},
@@ -614,8 +614,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}ii. of the word or son of god, which was made very man{{\\u}}"
+								"type": "u",
+								"value": "ii. of the word or son of god, which was made very man"
 							}
 						]
 					},
@@ -631,8 +631,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}iii. of the going down of christ into hell{{\\u}}"
+								"type": "u",
+								"value": "iii. of the going down of christ into hell"
 							}
 						]
 					},
@@ -644,8 +644,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}iv. of there surrection of christ{{\\u}}"
+								"type": "u",
+								"value": "iv. of there surrection of christ"
 							}
 						]
 					},
@@ -657,8 +657,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}v. of the holy ghost{{\\u}}"
+								"type": "u",
+								"value": "v. of the holy ghost"
 							}
 						]
 					},
@@ -670,8 +670,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}vi. of the sufficiency of the holy scriptures for salvation{{\\u}}"
+								"type": "u",
+								"value": "vi. of the sufficiency of the holy scriptures for salvation"
 							}
 						]
 					},
@@ -855,8 +855,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}vii. of the old testament{{\\u}}"
+								"type": "u",
+								"value": "vii. of the old testament"
 							}
 						]
 					},
@@ -868,8 +868,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}viii. of the three creeds{{\\u}}"
+								"type": "u",
+								"value": "viii. of the three creeds"
 							}
 						]
 					},
@@ -881,8 +881,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}ix. of original or birth-sin{{\\u}}"
+								"type": "u",
+								"value": "ix. of original or birth-sin"
 							}
 						]
 					},
@@ -898,8 +898,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}x. of free - will{{\\u}}"
+								"type": "u",
+								"value": "x. of free - will"
 							}
 						]
 					},
@@ -911,8 +911,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xi. of the justification of man{{\\u}}"
+								"type": "u",
+								"value": "xi. of the justification of man"
 							}
 						]
 					},
@@ -924,8 +924,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xii. of good works{{\\u}}"
+								"type": "u",
+								"value": "xii. of good works"
 							}
 						]
 					},
@@ -941,8 +941,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xi i i . of wor k s bef or e just if ic at ion{{\\u}}"
+								"type": "u",
+								"value": "xi i i . of wor k s bef or e just if ic at ion"
 							}
 						]
 					},
@@ -954,8 +954,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xiv. of works of supererogation{{\\u}}"
+								"type": "u",
+								"value": "xiv. of works of supererogation"
 							}
 						]
 					},
@@ -967,8 +967,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xv. of christal one without sin{{\\u}}"
+								"type": "u",
+								"value": "xv. of christal one without sin"
 							}
 						]
 					},
@@ -984,8 +984,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xvi. of sin after baptism{{\\u}}"
+								"type": "u",
+								"value": "xvi. of sin after baptism"
 							}
 						]
 					},
@@ -997,8 +997,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xvii . of predestination and election{{\\u}}"
+								"type": "u",
+								"value": "xvii . of predestination and election"
 							}
 						]
 					},
@@ -1018,8 +1018,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xviii. of obtaining etenal salvation only by the name of christ{{\\u}}"
+								"type": "u",
+								"value": "xviii. of obtaining etenal salvation only by the name of christ"
 							}
 						]
 					},
@@ -1048,8 +1048,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xx. of the authority of the church{{\\u}}"
+								"type": "u",
+								"value": "xx. of the authority of the church"
 							}
 						]
 					},
@@ -1061,8 +1061,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxi. of the authority of general councils{{\\u}}"
+								"type": "u",
+								"value": "xxi. of the authority of general councils"
 							}
 						]
 					},
@@ -1074,8 +1074,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxii. of purgatory{{\\u}}"
+								"type": "u",
+								"value": "xxii. of purgatory"
 							}
 						]
 					},
@@ -1087,8 +1087,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxiii. of ministering in the congregation{{\\u}}"
+								"type": "u",
+								"value": "xxiii. of ministering in the congregation"
 							}
 						]
 					},
@@ -1104,8 +1104,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxiv. of speaking in the congregation in such a tongue as the people understandeth{{\\u}}"
+								"type": "u",
+								"value": "xxiv. of speaking in the congregation in such a tongue as the people understandeth"
 							}
 						]
 					},
@@ -1117,8 +1117,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxv. of the sacraments{{\\u}}"
+								"type": "u",
+								"value": "xxv. of the sacraments"
 							}
 						]
 					},
@@ -1146,8 +1146,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxvi. of the unworthiness of the ministers, which hinders not the effect of the sacrament{{\\u}}"
+								"type": "u",
+								"value": "xxvi. of the unworthiness of the ministers, which hinders not the effect of the sacrament"
 							}
 						]
 					},
@@ -1163,8 +1163,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxvii. of baptism{{\\u}}"
+								"type": "u",
+								"value": "xxvii. of baptism"
 							}
 						]
 					},
@@ -1176,8 +1176,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxviii. of the lord’s supper{{\\u}}"
+								"type": "u",
+								"value": "xxviii. of the lord’s supper"
 							}
 						]
 					},
@@ -1201,8 +1201,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxix. of the wicked which eat not the body of christ in the use of the lord’s supper{{\\u}}"
+								"type": "u",
+								"value": "xxix. of the wicked which eat not the body of christ in the use of the lord’s supper"
 							}
 						]
 					},
@@ -1214,8 +1214,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxx. of both kinds{{\\u}}"
+								"type": "u",
+								"value": "xxx. of both kinds"
 							}
 						]
 					},
@@ -1227,8 +1227,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxxi. of the one oblation of christ finished upon the cross{{\\u}}"
+								"type": "u",
+								"value": "xxxi. of the one oblation of christ finished upon the cross"
 							}
 						]
 					},
@@ -1240,8 +1240,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxxii. of the marriage of priests{{\\u}}"
+								"type": "u",
+								"value": "xxxii. of the marriage of priests"
 							}
 						]
 					},
@@ -1253,8 +1253,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxxiii. of excommunicate persons, how they are to be avoided{{\\u}}"
+								"type": "u",
+								"value": "xxxiii. of excommunicate persons, how they are to be avoided"
 							}
 						]
 					},
@@ -1266,8 +1266,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxxiv. of the traditions of the church{{\\u}}"
+								"type": "u",
+								"value": "xxxiv. of the traditions of the church"
 							}
 						]
 					},
@@ -1283,8 +1283,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxxv. of the homilies{{\\u}}"
+								"type": "u",
+								"value": "xxxv. of the homilies"
 							}
 						]
 					},
@@ -1405,8 +1405,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxxvi. of consecration of bishops and ministers{{\\u}}"
+								"type": "u",
+								"value": "xxxvi. of consecration of bishops and ministers"
 							}
 						]
 					},
@@ -1418,8 +1418,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxxvii. of the civil magistrates{{\\u}}"
+								"type": "u",
+								"value": "xxxvii. of the civil magistrates"
 							}
 						]
 					},
@@ -1447,8 +1447,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxxviii. of christian men’s goods, which are not common{{\\u}}"
+								"type": "u",
+								"value": "xxxviii. of christian men’s goods, which are not common"
 							}
 						]
 					},
@@ -1460,8 +1460,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxxix. of a christian man’s oath{{\\u}}"
+								"type": "u",
+								"value": "xxxix. of a christian man’s oath"
 							}
 						]
 					},
@@ -1482,8 +1482,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}viii. of the creeds.{{\\u}}"
+								"type": "u",
+								"value": "viii. of the creeds."
 							}
 						]
 					},
@@ -1495,8 +1495,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxi. of the authority of general councils.{{\\u}}"
+								"type": "u",
+								"value": "xxi. of the authority of general councils."
 							}
 						]
 					},
@@ -1509,8 +1509,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxxv. of the homilies.{{\\u}}"
+								"type": "u",
+								"value": "xxxv. of the homilies."
 							}
 						]
 					},
@@ -1523,8 +1523,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxxvi. of consecration of bishops and ministers.{{\\u}}"
+								"type": "u",
+								"value": "xxxvi. of consecration of bishops and ministers."
 							}
 						]
 					},
@@ -1536,8 +1536,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}xxxvii. of the power of the civil magistrates.{{\\u}}"
+								"type": "u",
+								"value": "xxxvii. of the power of the civil magistrates."
 							}
 						]
 					},

@@ -457,7 +457,23 @@
 							},
 							{
 								"type": "text",
-								"value": " 8:22-30 _or_ {{u}}2 samuel{{\\u}} 6:12-19 _or_ {{u}}haggai{{\\u}} 2:1-8"
+								"value": " 8:22-30 _or_ "
+							},
+							{
+								"type": "u",
+								"value": "2 samuel"
+							},
+							{
+								"type": "text",
+								"value": " 6:12-19 _or_ "
+							},
+							{
+								"type": "u",
+								"value": "haggai"
+							},
+							{
+								"type": "text",
+								"value": " 2:1-8"
 							}
 						]
 					},
@@ -465,8 +481,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 84 _or_ 48"
+								"value": " 84 _or_ 48"
 							}
 						]
 					},
@@ -474,8 +494,28 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "revelation"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}revelation{{\\u}} 21:2-7 _or_ {{u}}1 corinthians{{\\u}} 3:1-17 _or_ {{u}}1 peter{{\\u}} 2:1-9"
+								"value": " 21:2-7 _or_ "
+							},
+							{
+								"type": "u",
+								"value": "1 corinthians"
+							},
+							{
+								"type": "text",
+								"value": " 3:1-17 _or_ "
+							},
+							{
+								"type": "u",
+								"value": "1 peter"
+							},
+							{
+								"type": "text",
+								"value": " 2:1-9"
 							}
 						]
 					},
@@ -483,8 +523,20 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "matthew"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}matthew{{\\u}} 7:13-25 _or_ {{u}}matthew{{\\u}} 21:10-14"
+								"value": " 7:13-25 _or_ "
+							},
+							{
+								"type": "u",
+								"value": "matthew"
+							},
+							{
+								"type": "text",
+								"value": " 21:10-14"
 							}
 						]
 					},

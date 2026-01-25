@@ -110,7 +110,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "Year A {{u}}matthew{{\\u}} 21:1-11"
+								"value": "Year A "
+							},
+							{
+								"type": "u",
+								"value": "matthew"
+							},
+							{
+								"type": "text",
+								"value": " 21:1-11"
 							}
 						]
 					},
@@ -119,7 +127,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "Year B {{u}}mark{{\\u}} 11:1-11a"
+								"value": "Year B "
+							},
+							{
+								"type": "u",
+								"value": "mark"
+							},
+							{
+								"type": "text",
+								"value": " 11:1-11a"
 							}
 						]
 					},
@@ -128,7 +144,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "Year C {{u}}luke{{\\u}} 19:28-40"
+								"value": "Year C "
+							},
+							{
+								"type": "u",
+								"value": "luke"
+							},
+							{
+								"type": "text",
+								"value": " 19:28-40"
 							}
 						]
 					},
@@ -239,8 +263,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "isaiah"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}isaiah{{\\u}} 52:13—53:12"
+								"value": " 52:13—53:12"
 							}
 						]
 					},
@@ -248,8 +276,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 22:1-22 v, 22:1-11 v or 31:10-18 v"
+								"value": " 22:1-22 v, 22:1-11 v or 31:10-18 v"
 							}
 						]
 					},
@@ -257,8 +289,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "philippians"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}philippians{{\\u}} 2:5-11"
+								"value": " 2:5-11"
 							}
 						]
 					},
@@ -296,7 +332,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "Year A {{u}}matthew{{\\u}} (26:36-75) 27:1-54 (55-66)"
+								"value": "Year A "
+							},
+							{
+								"type": "u",
+								"value": "matthew"
+							},
+							{
+								"type": "text",
+								"value": " (26:36-75) 27:1-54 (55-66)"
 							}
 						]
 					},
@@ -305,7 +349,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "Year B {{u}}mark{{\\u}} (14:32-72) 15:1-39 (40-47)"
+								"value": "Year B "
+							},
+							{
+								"type": "u",
+								"value": "mark"
+							},
+							{
+								"type": "text",
+								"value": " (14:32-72) 15:1-39 (40-47)"
 							}
 						]
 					},
@@ -314,7 +366,15 @@
 						"text": [
 							{
 								"type": "text",
-								"value": "Year C {{u}}luke{{\\u}} (22:39-71) 23:1-49 (50-56)"
+								"value": "Year C "
+							},
+							{
+								"type": "u",
+								"value": "luke"
+							},
+							{
+								"type": "text",
+								"value": " (22:39-71) 23:1-49 (50-56)"
 							}
 						]
 					},

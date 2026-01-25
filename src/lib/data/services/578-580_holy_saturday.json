@@ -56,8 +56,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "job"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}job{{\\u}} 14:1-14"
+								"value": " 14:1-14"
 							}
 						]
 					},
@@ -65,8 +69,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 130 _or_ 88 _or_ 31:1-6 v"
+								"value": " 130 _or_ 88 _or_ 31:1-6 v"
 							}
 						]
 					},
@@ -74,8 +82,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "1 peter"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}1 peter{{\\u}} 4:1-8"
+								"value": " 4:1-8"
 							}
 						]
 					},
@@ -83,8 +95,16 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "matthew"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}matthew{{\\u}} 27:57-66 _or_ {{u}}john 19:38-42{{\\u}}"
+								"value": " 27:57-66 _or_ "
+							},
+							{
+								"type": "u",
+								"value": "john 19:38-42"
 							}
 						]
 					},

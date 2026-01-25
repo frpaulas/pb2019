@@ -86,8 +86,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "exodus"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}exodus{{\\u}} 12:1-14"
+								"value": " 12:1-14"
 							}
 						]
 					},
@@ -95,8 +99,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 78:15-26 v"
+								"value": " 78:15-26 v"
 							}
 						]
 					},
@@ -104,8 +112,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "1 corinthians"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}1 corinthians{{\\u}} 11:23-26(27-34)"
+								"value": " 11:23-26(27-34)"
 							}
 						]
 					},
@@ -113,8 +125,20 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "john"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}john{{\\u}} 13:1-15 or {{u}}luke{{\\u}} 22:14-30"
+								"value": " 13:1-15 or "
+							},
+							{
+								"type": "u",
+								"value": "luke"
+							},
+							{
+								"type": "text",
+								"value": " 22:14-30"
 							}
 						]
 					},

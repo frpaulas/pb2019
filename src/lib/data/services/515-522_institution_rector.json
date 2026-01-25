@@ -208,8 +208,16 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "romans 12:1-18"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}romans 12:1-18{{\\u}} _or_ {{u}}ephesians 4:7-16{{\\u}}"
+								"value": " _or_ "
+							},
+							{
+								"type": "u",
+								"value": "ephesians 4:7-16"
 							}
 						]
 					},

@@ -251,8 +251,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "of the holy trinity"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}of the holy trinity{{\\u}}\t\t_Propers for Trinity Sunday_"
+								"value": "\t\t_Propers for Trinity Sunday_"
 							}
 						]
 					},
@@ -260,8 +264,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "of the holy spirit"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}of the holy spirit{{\\u}}\t\t_Propers for Day of Pentecost_"
+								"value": "\t\t_Propers for Day of Pentecost_"
 							}
 						]
 					},
@@ -269,8 +277,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "of the holy angels"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}of the holy angels{{\\u}}\t\t_Propers for Holy Michael and All Angels_"
+								"value": "\t\t_Propers for Holy Michael and All Angels_"
 							}
 						]
 					},
@@ -278,8 +290,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "of the incarnation"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}of the incarnation{{\\u}}\t\t_Propers for Christmas Day_"
+								"value": "\t\t_Propers for Christmas Day_"
 							}
 						]
 					},
@@ -287,8 +303,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "of the holy eucharist"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}of the holy eucharist{{\\u}}   _Propers for Maundy Thursday_"
+								"value": "   _Propers for Maundy Thursday_"
 							}
 						]
 					},
@@ -296,8 +316,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "of the holy cross"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}of the holy cross{{\\u}}\t\t_Propers for Holy Cross Day_"
+								"value": "\t\t_Propers for Holy Cross Day_"
 							}
 						]
 					},
@@ -305,8 +329,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "for the departed"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}for the departed{{\\u}} \t\t_Propers for Burial of the Dead_"
+								"value": " \t\t_Propers for Burial of the Dead_"
 							}
 						]
 					},
@@ -314,8 +342,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "of the reign of christ"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}of the reign of christ{{\\u}}  _Propers for Christ the King_"
+								"value": "  _Propers for Christ the King_"
 							}
 						]
 					},
@@ -323,8 +355,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "for baptism"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}for baptism{{\\u}}\t\t        _Propers of the Day_"
+								"value": "\t\t        _Propers of the Day_"
 							}
 						]
 					},
@@ -332,8 +368,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "for confirmation"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}for confirmation{{\\u}} \t\t_Propers of the Day_"
+								"value": " \t\t_Propers of the Day_"
 							}
 						]
 					},
@@ -379,8 +419,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}for the unity of the church{{\\u}}"
+								"type": "u",
+								"value": "for the unity of the church"
 							}
 						]
 					},
@@ -408,8 +448,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "for the ministry"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}for the ministry{{\\u}}\t\t_Propers for Ember Days_"
+								"value": "\t\t_Propers for Ember Days_"
 							}
 						]
 					},
@@ -417,8 +461,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "for the mission of the church"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}for the mission of the church{{\\u}} _Propers for World Mission Sunday_"
+								"value": " _Propers for World Mission Sunday_"
 							}
 						]
 					},
@@ -426,8 +474,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "for the nation"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}for the nation{{\\u}}\t\t_Propers for a National Day_"
+								"value": "\t\t_Propers for a National Day_"
 							}
 						]
 					},
@@ -435,8 +487,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}for peace{{\\u}}"
+								"type": "u",
+								"value": "for peace"
 							}
 						]
 					},
@@ -464,8 +516,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "for the sick"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}for the sick{{\\u}}\t\t_Scriptures on page 235_"
+								"value": "\t\t_Scriptures on page 235_"
 							}
 						]
 					},
@@ -473,8 +529,8 @@
 						"type": "line",
 						"text": [
 							{
-								"type": "text",
-								"value": "{{u}}for social justice{{\\u}}"
+								"type": "u",
+								"value": "for social justice"
 							}
 						]
 					},

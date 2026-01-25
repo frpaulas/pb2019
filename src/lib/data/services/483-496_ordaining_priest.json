@@ -244,8 +244,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "isaiah"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}isaiah{{\\u}} 6:1-8"
+								"value": " 6:1-8"
 							}
 						]
 					},
@@ -253,8 +257,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm{{\\u}} 119:33-40"
+								"value": " 119:33-40"
 							}
 						]
 					},
@@ -262,8 +270,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "ephesians"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}ephesians{{\\u}} 4:7-16 _or_ philippians 4:4-9"
+								"value": " 4:7-16 _or_ philippians 4:4-9"
 							}
 						]
 					},
@@ -271,8 +283,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "luke"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}luke{{\\u}} 10:1-9 _or_ john 10:1-16"
+								"value": " 10:1-9 _or_ john 10:1-16"
 							}
 						]
 					},
