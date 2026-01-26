@@ -15,7 +15,6 @@ use:prayer:office_confession_intro:
 pb:12
 r:or this
 tb:Let us humbly confess our sins to Almighty God.
-use:prayer:office_confession:
 
 pb:13
 use:prayer:office_absolution:
@@ -58,11 +57,11 @@ pb:16
 use:canticle:pascha_nostrum:
 pb:17
 r: Then follows
-st: the psalm or psalms appointed: the psalm or psalms appointed
+st: the psalm or psalms appointed
 use:appointed_psalms:morning
 r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
 use:gloria:
-st: the lessons: the lessons
+st: the lessons
 use:appointed_readings:morning
 r: One or more Lessons, as appointed, are read, the Reader first saying
 l: A Reading from ___11___.
@@ -118,8 +117,7 @@ r: The Officiant then prays one or more of the following Collects, always beginn
     It is traditional to pray the Collects for Peace and Grace daily.
     Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics.
 
-st: the collect of the day
-st:lc: _From the Collects of the Christian Year_
+st: the collect of the day{br}_From the Collects of the Christian Year_
 vm:2:
 use:collect:mp_sunday:
 vm:2:
@@ -156,6 +154,7 @@ r: A hymn or anthem may be sung.
 r: Before the close of the Office one or both of the following prayers may be used.
 use:prayer:general_thanksgiving:
 pb:26
+vm:2
 use:canticle:chrysostom:
 v:officiant: Let us bless the Lord.
 v:people: Thanks be to God.
@@ -171,39 +170,29 @@ st: opening sentences of scripture
 vm:1:
 st: advent
 scripture:isaiah 40:3:: In the wilderness prepare the way of the Lord; make straight in the desert a highway for our God.
-vm:1:
 st: christmas
 scripture:luke 2:10-11:: Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord.
-vm:1:
 st: epiphany
 scripture:malachi 1:11:: From the rising of the sun to its setting my name will be great among the nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the nations, says the Lord of hosts.
-vm:1:
 st: lent _and_ other penitential occasions
 scripture:matthew 3:2:: Repent, for the kingdom of heaven is at hand.
 l:i:Turn your face from my sins,
 l:i:and blot out all my misdeeds.
 ref: psalm 51:9
 scripture:mark 8:34:: If anyone would come after me, let him deny himself and take up his cross and follow me.
-vm:1:
 st: holy week
 scripture:lamentations 1:12:: Is it nothing to you, all you who pass by? Look and see if there is any sorrow like my sorrow, which was brought upon me, which the Lord inflicted on the day of his fierce anger.
 pb:28
-vm:1:
 st: easter
 scripture:colossians 3:1:: If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God.
-vm:1:
 st: ascension
 scripture:hebrews 4:14, 16:: Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession. Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need.
-vm:1:
 st: pentecost: pentecost
 scripture:acts 1:8:: You will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth.
-vm:1:
 st: trinity sunday
 scripture:revelation 4:8:: Holy, holy, holy, is the Lord God Almighty, who was and is and is to come!
-vm:1:
 st: days of thanksgiving
 scripture:proverbs 3:9-10:: Honor the Lord with your wealth and with the firstfruits of all your produce; then your barns will be filled with plenty, and your vats will be bursting with wine.
-vm:1:
 st: at any time
 scripture:habakkuk 2:20:: The Lord is in his holy temple; let all the earth keep silence before him.
 pb:29
@@ -212,48 +201,37 @@ scripture:isaiah 57:15:: Thus says the One who is high and lifted up, who inhabi
 scripture:john 4:23:: The hour is coming, and is now here, when the true worshipers will worship the Father in spirit and truth, for the Father is seeking such people to worship him.
 vm:3:
 st: seasonal antiphons
-vm:1:
 st: advent
 l: Our King and Savior now draws near: * O come, let us adore him.
-vm:1:
 st: christmas
 l: Alleluia, to us a child is born: *
 l:b:i: O come, let us adore him. Alleluia.
-vm:1:
 st: epiphany, and the feast of the transfiguration
 l: The Lord has shown forth his glory: *
 l:b:i: O come, let us adore him.
-vm:1:
 st: presentation and annunciation
 l: The Word was made flesh and dwelt among us: *
 l:b:i: O come, let us adore him.
 pb:30
-vm:1:
 st: lent
 l: The Lord is full of compassion and mercy: *
 l:b:i: O come, let us adore him.
-vm:1:
 st: easter until ascension
 l: Alleluia. The Lord is risen indeed: *
 l:b:i: O come, let us adore him. Alleluia.
-vm:1:
 st: ascension until pentecost
 l: Alleluia. Christ the Lord has ascended into heaven: *
 l:b:i: O come, let us adore him. Alleluia.
-vm:1:
 st: day of pentecost
 l: Alleluia. The Spirit of the Lord renews the face of the earth: *
 l:b:i: O come, let us adore him. Alleluia.
-vm:1:
 st: trinity sunday
 l: Father, Son, and Holy Spirit, one God: *
 l:b:i: O come, let us adore him.
-vm:1:
 st: all saints' and other major saints' days
 l: The Lord is glorious in his saints: *
 l:b:i: O come, let us adore him.
 pb:31
-vm:2:
 st: additional directions
 tb: The Confession and Apostles' Creed may be omitted, provided each is said at least once during the course of the day.
 tb: The Gloria Patri (Glory be...) in the opening versicles may be said in unison.

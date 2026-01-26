@@ -21,7 +21,7 @@
 		caseClass == 'capitalize' ? '' : isSmallSize ? 'tracking-[.2em]' : 'tracking-[.3em]';
 
 	let this_class =
-		'text-center font-medium text-[1.15em] ' +
+		'text-center font-semibold text-[1.15em] mt-4 ' +
 		caseClass +
 		' ' +
 		tracking +
@@ -37,8 +37,8 @@
 
 	onMount(() => {
 		if (slotContentElement) {
-			const textContent = slotContentElement.textContent || '';
-			parsedSlotContent = parseMarkdown(textContent, $liturgicalContext);
+			const htmlContent = slotContentElement.innerHTML || '';
+			parsedSlotContent = parseMarkdown(htmlContent, $liturgicalContext);
 		}
 	});
 </script>

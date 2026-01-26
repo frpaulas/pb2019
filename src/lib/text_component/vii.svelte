@@ -4,8 +4,7 @@
 	import TOC from '$lib/page_helpers/toc.svelte';
 </script>
 
-<SectionTitle size="3xl">special liturgies</SectionTitle>
-<SectionTitle size="3xl">of lent & holy week</SectionTitle>
+<SectionTitle size="3xl">special liturgies<br />of lent & holy week</SectionTitle>
 <TOC text="ash wednesday" page={543} />
 <TOC text="palm sunday" page={554} />
 <TOC text="maundy thursday" page={560} />

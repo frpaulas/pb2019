@@ -353,7 +353,121 @@
 						"name": "nunc_dimittis"
 					},
 					{
-						"type": "apostles_creed"
+						"type": "section_title",
+						"text": "The Apostles' Creed"
+					},
+					{
+						"type": "rubric",
+						"text": "Officiant and People together, all standing"
+					},
+					{
+						"type": "line",
+						"text": "I believe in God, the Father almighty,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "creator of heaven and earth.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "I believe in Jesus Christ, his only Son, our Lord.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "He was conceived by the Holy Spirit",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and born of the Virgin Mary.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "He suffered under Pontius Pilate,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "was crucified, died, and was buried.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"page": 42,
+						"type": "page_break"
+					},
+					{
+						"type": "line",
+						"text": "He descended to the dead.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "On the third day he rose again.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "He ascended into heaven,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and is seated at the right hand of the Father.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "He will come again to judge the living and the dead.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "I believe in the Holy Spirit,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "the holy catholic Church,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "the communion of saints,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "the forgiveness of sins,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "the resurrection of the body,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and the life everlasting. Amen.",
+						"bold": true,
+						"indent": true
 					},
 					{
 						"type": "page_break",
@@ -362,10 +476,6 @@
 					{
 						"type": "section_title",
 						"text": "the prayers"
-					},
-					{
-						"page": 42,
-						"type": "page_break"
 					},
 					{
 						"type": "versical",
@@ -685,6 +795,10 @@
 						"lowercase": true
 					},
 					{
+						"page": 43,
+						"type": "page_break"
+					},
+					{
 						"type": "text_block",
 						"text": "O God, the source of eternal light: Shed forth your unending day upon us who watch for you, that our lips may praise you, our lives may bless you, and our worship on the morrow give you glory; through Jesus Christ our Lord."
 					},
@@ -711,10 +825,6 @@
 					{
 						"type": "rubric",
 						"text": "or this"
-					},
-					{
-						"page": 43,
-						"type": "page_break"
 					},
 					{
 						"type": "text_block",

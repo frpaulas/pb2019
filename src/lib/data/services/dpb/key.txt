@@ -4,6 +4,8 @@ button: add button usage->
 
 footnote: footnote text usage-> footnote: text
 
+hr: horizontal rule usage-> hr: (double grey line)
+
 l: line usage-> l:text (supports multiline with indented continuation)
 
 lords_prayer: insert the Lord's Prayer
@@ -25,6 +27,11 @@ tb: text block usage-> tb: text (supports multiline with indented continuation)
 
 tp: title page usage-> tp:text
 
+{{u}}text{{/u}} = **uppercase** wrapper
+{br} = line break (newline within a text string)
+`<br />` works directly in Svelte files
+
+Happy writing!
 use: include directive usage-> use:type:name
     use:appointed_readings:morning (show morning prayer appointed readings)
     use:appointed_readings:evening (show evening prayer appointed readings)

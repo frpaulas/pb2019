@@ -48,7 +48,77 @@ if [ "$REBUILD_NEEDED" = true ]; then
     node "$(dirname "$0")/build-service-pages.cjs"
 
     echo ""
-    echo "✅ All files updated!"
+    echo "✅ Service files updated!"
 else
-    echo "✅ All JSON files are up to date!"
+    echo "✅ All service JSON files are up to date!"
+fi
+
+# Check canticles
+echo ""
+echo "🔍 Checking for outdated canticles.json..."
+
+CANTICLES_DIR="$(dirname "$0")/../src/lib/data/canticles"
+CANTICLES_DPB_DIR="$CANTICLES_DIR/dpb"
+CANTICLES_JSON="$CANTICLES_DIR/canticles.json"
+CANTICLES_REBUILD_NEEDED=false
+
+if [ ! -f "$CANTICLES_JSON" ]; then
+    echo "⚠️  Missing canticles.json"
+    CANTICLES_REBUILD_NEEDED=true
+else
+    for dpb_file in "$CANTICLES_DPB_DIR"/*.dpb; do
+        if [ ! -f "$dpb_file" ]; then
+            continue
+        fi
+        if [ "$dpb_file" -nt "$CANTICLES_JSON" ]; then
+            basename=$(basename "$dpb_file" .dpb)
+            echo "📝 Outdated: canticles.json ($basename.dpb is newer)"
+            CANTICLES_REBUILD_NEEDED=true
+            break
+        fi
+    done
+fi
+
+if [ "$CANTICLES_REBUILD_NEEDED" = true ]; then
+    echo ""
+    echo "🔨 Rebuilding canticles.json..."
+    node "$(dirname "$0")/build-canticles-json.cjs"
+    echo "✅ Canticles updated!"
+else
+    echo "✅ canticles.json is up to date!"
+fi
+
+# Check collects
+echo ""
+echo "🔍 Checking for outdated collects.json..."
+
+COLLECTS_DIR="$(dirname "$0")/../src/lib/data/collects"
+COLLECTS_DPB_DIR="$COLLECTS_DIR/dpb"
+COLLECTS_JSON="$COLLECTS_DIR/collects.json"
+COLLECTS_REBUILD_NEEDED=false
+
+if [ ! -f "$COLLECTS_JSON" ]; then
+    echo "⚠️  Missing collects.json"
+    COLLECTS_REBUILD_NEEDED=true
+else
+    for dpb_file in "$COLLECTS_DPB_DIR"/*.dpb; do
+        if [ ! -f "$dpb_file" ]; then
+            continue
+        fi
+        if [ "$dpb_file" -nt "$COLLECTS_JSON" ]; then
+            basename=$(basename "$dpb_file" .dpb)
+            echo "📝 Outdated: collects.json ($basename.dpb is newer)"
+            COLLECTS_REBUILD_NEEDED=true
+            break
+        fi
+    done
+fi
+
+if [ "$COLLECTS_REBUILD_NEEDED" = true ]; then
+    echo ""
+    echo "🔨 Rebuilding collects.json..."
+    node "$(dirname "$0")/build-collects-json.cjs"
+    echo "✅ Collects updated!"
+else
+    echo "✅ collects.json is up to date!"
 fi

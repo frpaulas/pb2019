@@ -1,7 +1,7 @@
 {
-	"preface": {
-		"title": "Preface",
-		"slug": "preface",
+	"service": {
+		"title": "Untitled Service",
+		"slug": "untitled",
 		"pb_pages": [
 			1,
 			5
@@ -14,6 +14,10 @@
 					{
 						"type": "page_break",
 						"page": 1
+					},
+					{
+						"type": "section_title",
+						"text": "Preface"
 					},
 					{
 						"type": "text_block",

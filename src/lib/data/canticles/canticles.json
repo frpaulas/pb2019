@@ -1,0 +1,2630 @@
+{
+	"against_perils_ep": [
+		{
+			"type": "section_title",
+			"text": "a collect for aid against perils{br}_Tuesday_"
+		},
+		{
+			"type": "text_block",
+			"amen": true,
+			"text": "Lighten our darkness, we beseech you, O Lord; and by your great mercy defend us from all perils and dangers of this night; for the love of your only Son, our Savior Jesus Christ."
+		}
+	],
+	"benedicite_onmia_opera_domini": [
+		{
+			"type": "section_title",
+			"text": "10"
+		},
+		{
+			"type": "section_title",
+			"text": "benedicite, onmia opera domini{br}_A Song of Creation_"
+		},
+		{
+			"type": "rubric",
+			"text": "Especially suitable for use on Saturday"
+		},
+		{
+			"type": "section_title",
+			"latin_size": true,
+			"text": "invocation"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glorify the Lord, all you works of the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "In the firmament of his power, glorify the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "section_title",
+			"latin_size": true,
+			"text": "i. the cosmic order"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glorify the Lord, you angels and all powers of the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "O heavens and all waters above the heavens."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Sun and moon and stars of the sky, glorify the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glorify the Lord, every shower of rain and fall of dew, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "all winds and fire and heat."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Winter and summer, glorify the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glorify the Lord, O chill and cold, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "drops of dew and flakes of snow."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Frost and cold, ice and sleet, glorify the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glorify the Lord, O nights and days, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "O shining light and enfolding dark."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Storm clouds and thunderbolts, glorify the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "section_title",
+			"latin_size": true,
+			"text": "ii. the earth and its creatures"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Let the earth glorify the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glorify the Lord, O mountains and hills,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "and all that grows upon the earth, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glorify the Lord, O springs of water, seas, and streams, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "O whales and all that move in the waters."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "All birds of the air, glorify the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glorify the Lord, O beasts of the wild, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and all you flocks and herds."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "O men and women everywhere, glorify the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "section_title",
+			"latin_size": true,
+			"text": "iii. the people of god"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Let the people of God glorify the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glorify the Lord, O priests and servants of the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glorify the Lord, O spirits and souls of the righteous, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "You that are holy and humble of heart, glorify the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "section_title",
+			"latin_size": true,
+			"text": "doxology"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Let us glorify the Lord : the Father, the Son, and the Holy Spirit; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "In the firmament of his power, glorify the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "praise him and highly exalt him for ever."
+		},
+		{
+			"type": "ref",
+			"text": "song of the three young men, 35-65"
+		}
+	],
+	"benedictus": [
+		{
+			"type": "section_title",
+			"text": "benedictus{br}_The Song of Zechariah_"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Blessed be the Lord, the God of Israel; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "he has come to his people and set them free."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "He has raised up for us a mighty savior, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "born of the house of his servant David."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Through his holy prophets he promised of old"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "that he would save us from our enemies, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "from the hands of all who hate us."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "He promised to show mercy to our fathers *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and to remember his holy covenant."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "This was the oath he swore to our father Abraham, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "to set us free from the hands of our enemies,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Free to worship him without fear, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "holy and righteous in his sight"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "all the days of our life."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "You, my child, shall be called the prophet of the Most High, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "for you will go before the Lord to prepare his way,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "To give his people knowledge of salvation *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "by the forgiveness of their sins."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "In the tender compassion of our God *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the dawn from on high shall break upon us,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "To shine on those who dwell in darkness"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and in the shadow of death, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and to guide our feet into the way of peace."
+		},
+		{
+			"type": "ref",
+			"text": "luke 1:68-79"
+		}
+	],
+	"benedictus_es_domine": [
+		{
+			"type": "section_title",
+			"text": "benedictuses, domine{br}_A Song of Praise_"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glory to you, Lord God of our fathers; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "you are worthy of praise; glory to you."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glory to you for the radiance of your holy Name; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "we will praise you and highly exalt you for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glory to you in the splendor of your temple; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "on the throne of your majesty, glory to you."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glory to you, seated between the Cherubim; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "we will praise you and highly exalt you for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glory to you, beholding the depths; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "in the high vault of heaven, glory to you."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glory to you, Father, Son, and Holy Spirit; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "we will praise you and highly exalt you for ever."
+		},
+		{
+			"type": "ref",
+			"text": "song of the three young men, 29-34"
+		}
+	],
+	"cantate_domino": [
+		{
+			"type": "section_title",
+			"text": "7"
+		},
+		{
+			"type": "section_title",
+			"text": "cantate domino{br}_Sing unto the Lord_"
+		},
+		{
+			"type": "rubric",
+			"text": "Especially suitable for use in Easter and at any time outside penitential seasons"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "O sing unto the Lord a new song, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "for he has done marvelous things."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "With his own right hand, and with his holy arm, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "he has won for himself the victory."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The Lord declared his salvation; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "his righteousness he has openly shown in the sight of the nations."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "He has remembered his mercy and truth toward the house of Israel,*"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and all the ends of the world have seen the salvation of our God."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Show yourselves joyful unto the Lord, all you lands; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "sing, rejoice, and give thanks."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Praise the Lord with the harp; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "sing with the harp a psalm of thanksgiving."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "With trumpets also and horns, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "O show yourselves joyful before the Lord, the King."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Let the sea make a noise, and all that is in it, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the round world, and those that dwell therein."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Let the rivers clap their hands, and let the hills be joyful"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "together before the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "for he has come to judge the earth."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "With righteousness shall he judge the world *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and the peoples with equity."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glory be to the Father, and to the Son, and to the Holy Spirit; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "as it was in the beginning, is now, and ever shall be,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "world without end. Amen."
+		},
+		{
+			"type": "ref",
+			"text": "psalm 98"
+		}
+	],
+	"cantemus_domino": [
+		{
+			"type": "section_title",
+			"text": "5"
+		},
+		{
+			"type": "section_title",
+			"text": "cantemus domino{br}_The Song of Moses_"
+		},
+		{
+			"type": "rubric",
+			"text": "Especially suitable for use in Easter"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "I will sing to the Lord, for he is lofty and uplifted; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the horse and its rider has he hurled into the sea."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The Lord is my strength and my refuge; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the Lord has become my Savior."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "This is my God and I will praise him, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the God of my people and I will exalt him."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The Lord is a mighty warrior; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "The Lord is his Name."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The chariots of Pharaoh and his army has he hurled into the sea; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the finest of those who bear armor"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "have been drowned in the Red Sea."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The fathomless deep has overwhelmed them; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "they sank into the depths like a stone."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Your right hand, O Lord, is glorious in might; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "your right hand, O Lord, has overthrown the enemy."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Who can be compared with you, O Lord, among the gods? *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "Who is like you, glorious in holiness,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "awesome in renown, and worker of wonders?"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "You stretched forth your right hand; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the earth swallowed them up."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "With your constant love you led the people you redeemed; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "you brought them in safety to your holy dwelling."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "You will bring them in and plant them *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "on the mount of your possession,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The resting-place you have made for yourself, O Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the sanctuary, O Lord, that your hand has established."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The Lord shall reign *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "for ever and for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glory be to the Father, and to the Son, and to the Holy Spirit; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "as it was in the beginning, is now, and ever shall be,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "world without end. Amen."
+		},
+		{
+			"type": "ref",
+			"text": "exodus 15:1-6, 11-13, 17-18"
+		}
+	],
+	"chrysostom": [
+		{
+			"type": "section_title",
+			"text": "a prayer of st. john chrysostom"
+		},
+		{
+			"type": "text_block",
+			"text": "Almighty God, you have given us grace at this time, with one accord to make our common supplications to you; and you have promised through your well-beloved Son that when two or three are gathered together in his Name you will grant their requests: Fulfill now, O Lord, our desires and petitions as may be best for us; granting us in this world knowledge of your truth, and in the age to come life everlasting. **Amen.**"
+		}
+	],
+	"deus_misereatur": [
+		{
+			"type": "section_title",
+			"text": "9"
+		},
+		{
+			"type": "section_title",
+			"text": "deus misereatur{br}_God be merciful_"
+		},
+		{
+			"type": "rubric",
+			"text": "Suitable for use at any time"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "May God be merciful unto us, and bless us, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and show us the light of his countenance, and be merciful"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "unto us."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Let your way be known upon earth, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "your saving health among all nations."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Let the peoples praise you, O God; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "indeed, let all the peoples praise you."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "O let the nations rejoice and be glad, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "for you shall judge the peoples righteously, and govern"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the nations upon earth."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Let the peoples praise you, O God; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "let all the peoples praise you."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Then shall the earth bring forth her increase, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and God, even our own God, shall give us his blessing."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "God shall bless us, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and all the ends of the world shall fear him."
+		},
+		{
+			"type": "ref",
+			"text": "psalm 67"
+		}
+	],
+	"dignu_es": [
+		{
+			"type": "section_title",
+			"text": "6"
+		},
+		{
+			"type": "section_title",
+			"text": "dignu es{br}_A Song to the Lamb_"
+		},
+		{
+			"type": "rubric",
+			"text": "Especially suitable for use after Ascension and in Easter Season"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Splendor and honor and kingly power *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "are yours by right, O Lord our God,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For you created everything that is, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and by your will they were created and have their being;"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "And yours by right, O Lamb that was slain, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "for with your blood you have redeemed for God,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "From every family, language, people, and nation, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "a kingdom of priests to serve our God."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "And so, to him who sits upon the throne, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and to Christ the Lamb,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Be worship and praise, dominion and splendor, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "for ever and for evermore. Amen."
+		},
+		{
+			"type": "ref",
+			"text": "revelation 4:11; 5:9-10, 13, 14"
+		}
+	],
+	"ecce_deus": [
+		{
+			"type": "section_title",
+			"text": "8"
+		},
+		{
+			"type": "section_title",
+			"text": "ecce, deus{br}_Surely, it is God who saves me_"
+		},
+		{
+			"type": "rubric",
+			"text": "Suitable for use at any time"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Surely, it is God who saves me; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "I will trust in him and not be afraid."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For the Lord is my stronghold and my sure defense, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and he will be my Savior."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Therefore you shall draw water with rejoicing *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "from the springs of salvation."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "And on that day you shall say, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "Give thanks to the Lord and call upon his Name;"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Make his deeds known among the peoples; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "see that they remember that his Name is exalted."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Sing the praises of the Lord, for he has done great things, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and this is known in all the world."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Cry aloud, inhabitants of Zion, ring out your joy, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "for the great one in the midst of you is the Holy One of Israel."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glory be to the Father, and to the Son, and to the Holy Spirit; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "as it was in the beginning, is now, and ever shall be,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "world without end. Amen."
+		},
+		{
+			"type": "ref",
+			"text": "isaiah 12:2-6"
+		}
+	],
+	"eve_of_worship_ep": [
+		{
+			"type": "section_title",
+			"text": "a collect for the eve of worship{br}_Saturday_"
+		},
+		{
+			"type": "text_block",
+			"amen": true,
+			"text": "O God, the source of eternal light: Shed forth your unending day upon us who watch for you, that our lips may praise you, our lives may bless you, and our worship on the morrow give you glory; through Jesus Christ our Lord."
+		}
+	],
+	"faith_ep": [
+		{
+			"type": "section_title",
+			"text": "a collect for faith{br}_Friday_"
+		},
+		{
+			"type": "text_block",
+			"amen": true,
+			"text": "Lord Jesus Christ, by your death you took away the sting of death: Grant to us your servants so to follow in faith where you have led the way, that we may at length fall asleep peacefully in you and wake up in your likeness; for your tender mercies' sake."
+		}
+	],
+	"jubilate": [
+		{
+			"type": "section_title",
+			"text": "jubilate{br}_Be Joyful_"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "O be joyful in the Lord, all you lands; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "serve the Lord with gladness,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and come before his presence with a song."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Be assured that the Lord, he is God; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "it is he that has made us, and not we ourselves;"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "we are his people, and the sheep of his pasture."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "O go your way into his gates with thanksgiving,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "and into his courts with praise; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "be thankful unto him, and speak good of his Name."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For the Lord is gracious, his mercy is everlasting, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and his truth endures from generation to generation."
+		},
+		{
+			"type": "ref",
+			"text": "psalm 100"
+		}
+	],
+	"kyrie_pantokrator": [
+		{
+			"type": "section_title",
+			"text": "3"
+		},
+		{
+			"type": "section_title",
+			"text": "kyrie Pantokrator{br}_A Song of Penitence_"
+		},
+		{
+			"type": "rubric",
+			"text": "Especially suitable for use during Lent"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "O Lord and Ruler of the hosts of heaven, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "God of Abraham, Isaac, and Jacob,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and of all their righteous offspring:"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "You made the heavens and the earth, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "with all their vast array."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "All things quake with fear at your presence; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "they tremble because of your power."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "But your merciful promise is beyond all measure; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "it surpasses all that our minds can fathom."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "O Lord, you are full of compassion, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "long-suffering, and abounding in mercy."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "You hold back your hand; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "you do not punish as we deserve."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "In your great goodness, Lord,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "you have promised forgiveness to sinners, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "that they may repent of their sin and be saved."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "And now, O Lord, I bend the knee of my heart, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and make my appeal, sure of your gracious goodness."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "I have sinned, O Lord, I have sinned, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and I know my wickedness only too well."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Therefore I make this prayer to you: *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "Forgive me, Lord, forgive me."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Do not let me perish in my sin, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "nor condemn me to the depths of the earth."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For you, O Lord, are the God of those who repent, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and in me you will show forth your goodness."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Unworthy as I am, you will save me,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "in accordance with your great mercy, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and I will praise you without ceasing all the days of my life."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For all the powers of heaven sing your praises, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and yours is the glory to ages of ages. Amen."
+		},
+		{
+			"type": "ref",
+			"text": "prayer of manasseh, 1-2, 4, 6-7, 11-15"
+		}
+	],
+	"magna_et_mirabilia": [
+		{
+			"type": "section_title",
+			"text": "1"
+		},
+		{
+			"type": "section_title",
+			"text": "magna et mirabilia{br}_The Song of the Redeemed_"
+		},
+		{
+			"type": "rubric",
+			"text": "Especially suitable for use in Advent and Easter"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "O ruler of the universe, Lord God,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "great deeds are they that you have done, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "surpassing human understanding."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Your ways are ways of righteousness and truth, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "O King of all the ages."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Who can fail to do you homage, Lord,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "and sing the praises of your Name? *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "For you only are the Holy One."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "All nations will draw near and fall down before you, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "because your just and holy works have been revealed."
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "Glory be to the Father, and to the Son, and to the Holy Spirit; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "as it was in the beginning, is now, and ever shall be,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "world without end. Amen."
+		},
+		{
+			"type": "ref",
+			"text": "revelation 15:3-4"
+		}
+	],
+	"magnificat": [
+		{
+			"type": "section_title",
+			"text": "magnificat{br}_The Song of Mary_"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "My soul magnifies the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and my spirit rejoices in God my Savior;"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "For he has regarded *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "the lowliness of his handmaiden."
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "For behold, from now on, *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "all generations will call me blessed;"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "For he that is mighty has magnified me, *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "and holy is his Name."
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "And his mercy is on those who fear him, *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "throughout all generations."
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "He has shown the strength of his arm; *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "he has scattered the proud in the imagination of their hearts."
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "He has brought down the mighty from their thrones, *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "and has exalted the humble and meek."
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "He has filled the hungry with good things, *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "and the rich he has sent empty away."
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "He, remembering his mercy, has helped his servant Israel, *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "as he promised to our fathers, Abraham and his seed for ever."
+		},
+		{
+			"type": "gloria"
+		},
+		{
+			"type": "ref",
+			"text": "luke 1:46-55"
+		}
+	],
+	"nunc_dimittis": [
+		{
+			"type": "section_title",
+			"text": "nunc dimittis{br}_The Song of Simeon_"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Lord, now let your servant depart in peace, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "according to your word."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For my eyes have seen your salvation, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "which you have prepared before the face of all people;"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "To be a light to lighten the Gentiles, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and to be the glory of your people Israel."
+		},
+		{
+			"type": "gloria"
+		},
+		{
+			"type": "ref",
+			"text": "luke 2:29-32"
+		}
+	],
+	"pascha_nostrum": [
+		{
+			"type": "section_title",
+			"text": "pashca nostrum{br}_Christ our Passover_"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Alleluia. Christ our Passover has been sacrificed for us; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "therefore let us keep the feast,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Not with the old leaven, the leaven of malice and evil, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "but with the unleavened bread of sincerity and truth. Alleluia."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Christ being raised from the dead will never die again; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "death no longer has dominion over him."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The death that he died, he died to sin, once for all; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "but the life he lives, he lives to God."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "So also consider yourselves dead to sin, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and alive to God in Jesus Christ our Lord. Alleluia."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Christ has been raised from the dead, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the firstfruits of those who have fallen asleep."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For since by a man came death, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "by a man has come also the resurrection of the dead."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For as in Adam all die, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "so also in Christ shall all be made alive. Alleluia."
+		},
+		{
+			"type": "ref",
+			"text": "1 corinthians 5:7-8; romans 6:9-11; 1 corinthians 15:20-22"
+		}
+	],
+	"peace_ep": [
+		{
+			"type": "section_title",
+			"text": "a collect for peace{br}_Monday_"
+		},
+		{
+			"type": "text_block",
+			"amen": true,
+			"text": "O God, the source of all holy desires, all good counsels, and all just works: Give to your servants that peace which the world cannot give, that our hearts may be set to obey your commandments, and that we, being defended from the fear of our enemies, may pass our time in rest and quietness; through the merits of Jesus Christ our Savior."
+		}
+	],
+	"phos_hilaron": [
+		{
+			"type": "section_title",
+			"text": "phos hilaron{br}_O Gladsome Light_"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "O gladsome light,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "pure brightness of the everliving Father in heaven, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "O Jesus Christ, holy and blessed!"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Now as we come to the setting of the sun,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "and our eyes behold the vesper light, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "we sing your praises, O God: Father, Son, and Holy Spirit."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "You are worthy at all times to be praised by happy voices, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "O Son of God, O Giver of Life,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and to be glorified through all the worlds."
+		}
+	],
+	"presence_christ_ep": [
+		{
+			"type": "section_title",
+			"text": "a collect for the presence of christ{br}_Thursday_"
+		},
+		{
+			"type": "text_block",
+			"amen": true,
+			"text": "Lord Jesus, stay with us, for evening is at hand and the day is past; be our companion in the way, kindle our hearts, and awaken hope, that we may know you as you are revealed in Scripture and the breaking of bread. Grant this for the sake of your love."
+		}
+	],
+	"protection_ep": [
+		{
+			"type": "section_title",
+			"text": "a collect for protection{br}_Wednesday_"
+		},
+		{
+			"type": "text_block",
+			"amen": true,
+			"text": "O God, the life of all who live, the light of the faithful, the strength of those who labor, and the repose of the dead: We thank you for the blessings of the day that is past, and humbly ask for your protection through the coming night. Bring us in safety to the morning hours; through him who died and rose again for us, your Son our Savior Jesus Christ."
+		}
+	],
+	"quaerite_dominum": [
+		{
+			"type": "section_title",
+			"text": "4"
+		},
+		{
+			"type": "section_title",
+			"text": "quaerite dominum{br}_Seek the Lord while he wills to be found_"
+		},
+		{
+			"type": "rubric",
+			"text": "Especially suitable for use during Lent"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Seek the Lord while he wills to be found; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "call upon him when he draws near."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Let the wicked forsake their ways *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and the evil ones their thoughts;"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "And let them turn to the Lord, and he will have compassion, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and to our God, for he will richly pardon."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For my thoughts are not your thoughts, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "nor your ways my ways, says the Lord."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For as the heavens are higher than the earth, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "so are my ways higher than your ways,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and my thoughts than your thoughts."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For as rain and snow fall from the heavens *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and return not again, but water the earth,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Bringing forth life and giving growth, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "seed for sowing and bread for eating,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "So is my word that goes forth from my mouth; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "it will not return to me empty;"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "But it will accomplish that which I have purposed, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and prosper in that for which I sent it."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glory be to the Father, and to the Son, and to the Holy Spirit; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "as it was in the beginning, is now, and ever shall be,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "world without end. Amen."
+		},
+		{
+			"type": "ref",
+			"text": "isaiah 55:6-11"
+		}
+	],
+	"resurrection_hope_ep": [
+		{
+			"type": "section_title",
+			"text": "a collect for resurrection hope{br}_Sunday_"
+		},
+		{
+			"type": "text_block",
+			"amen": true,
+			"text": "Lord God, whose Son our Savior Jesus Christ triumphed over the powers of death and prepared for us our place in the new Jerusalem: Grant that we, who have this day given thanks for his resurrection, may praise you in that City of which he is the light, and where he lives and reigns for ever and ever."
+		}
+	],
+	"surge_illuminare": [
+		{
+			"type": "section_title",
+			"text": "2"
+		},
+		{
+			"type": "section_title",
+			"text": "surge, illuminare{br}_Arise, shine, for your light has come_"
+		},
+		{
+			"type": "rubric",
+			"text": "Especially suitable for use during the season after Epiphany"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Arise, shine, for your light has come, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and the glory of the Lord has dawned upon you."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For behold, darkness covers the land; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "deep gloom enshrouds the peoples."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "But over you the Lord will rise, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and his glory will appear upon you."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Nations will stream to your light, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and kings to the brightness of your dawning."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Your gates will always be open; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "by day or night they will never be shut."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "They will call you, The City of the Lord, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the Zion of the Holy One of Israel."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Violence will no more be heard in your land, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "ruin or destruction within your borders."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "You will call your walls, Salvation, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and all your portals, Praise."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The sun will no more be your light by day; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "by night you will not need the brightness of the moon."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The Lord will be your everlasting light, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and your God will be your glory."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Glory be to the Father, and to the Son, and to the Holy Spirit; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "as it was in the beginning, is now, and ever shall be,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "world without end. Amen."
+		},
+		{
+			"type": "ref",
+			"text": "isaiah 60:1-3, 11, 14, 18-19"
+		}
+	],
+	"te_deum_laudamus": [
+		{
+			"type": "section_title",
+			"text": "te deum laudamus{br}_We Praise You, O God_"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "We praise you, O God; we acclaim you as Lord; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "all creation worships you, the Father everlasting."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "To you all angels, all the powers of heaven, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the cherubim and seraphim, sing in endless praise:"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Holy, Holy, Holy, Lord God of power and might, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "heaven and earth are full of your glory."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The glorious company of apostles praise you. *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "The noble fellowship of prophets praise you."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The white-robed army of martyrs praise you. *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "Throughout the world the holy Church acclaims you:"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Father, of majesty unbounded,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "your true and only Son, worthy of all praise, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and the Holy Spirit, advocate and guide."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "You, Christ, are the king of glory, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the eternal Son of the Father."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "When you took our flesh to set us free *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "you humbly chose the Virgin's womb."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "You overcame the sting of death *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and opened the kingdom of heaven to all believers."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "You are seated at God's right hand in glory. *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "We believe that you will come to be our judge."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Come then, Lord, and help your people, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "bought with the price of your own blood,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "and bring us with your saints *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "to glory everlasting."
+		},
+		{
+			"type": "rubric",
+			"text": "The following verses may be omitted"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Save your people, Lord, and bless your inheritance; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "govern and uphold them now and always."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Day by day we bless you; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "we praise your Name for ever."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Keep us today, Lord, from all sin; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "have mercy on us, Lord, have mercy."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Lord, show us your love and mercy, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "for we have put our trust in you."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "In you, Lord, is our hope; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "let us never be put to shame."
+		}
+	],
+	"veni_creator_spiritus": [
+		{
+			"type": "section_title",
+			"text": "veni, creator spiritus"
+		},
+		{
+			"type": "line",
+			"text": "Come, Holy Ghost, our souls inspire,"
+		},
+		{
+			"type": "line",
+			"text": "And lighten with celestial fire."
+		},
+		{
+			"type": "line",
+			"text": "Thou the anointing Spirit art,"
+		},
+		{
+			"type": "line",
+			"text": "Who dost thy sevenfold gifts impart."
+		},
+		{
+			"type": "vertical_margin",
+			"spacing": 1
+		},
+		{
+			"type": "line",
+			"text": "Thy blessed unction from above"
+		},
+		{
+			"type": "line",
+			"text": "Is comfort, life, and fire of love."
+		},
+		{
+			"type": "line",
+			"text": "Enable with perpetual light"
+		},
+		{
+			"type": "line",
+			"text": "The dullness of our blinded sight."
+		},
+		{
+			"type": "vertical_margin",
+			"spacing": 1
+		},
+		{
+			"type": "line",
+			"text": "Anoint and cheer our soiled face"
+		},
+		{
+			"type": "line",
+			"text": "With the abundance of thy grace."
+		},
+		{
+			"type": "line",
+			"text": "Keep far our foes, give peace at home;"
+		},
+		{
+			"type": "line",
+			"text": "Where thou art guide, no ill can come."
+		},
+		{
+			"type": "vertical_margin",
+			"spacing": 1
+		},
+		{
+			"type": "line",
+			"text": "Teach us to know the Father, Son,"
+		},
+		{
+			"type": "line",
+			"text": "And thee, of both, to be but One;"
+		},
+		{
+			"type": "line",
+			"text": "That, through the ages all along,"
+		},
+		{
+			"type": "line",
+			"text": "This may be our endless song"
+		},
+		{
+			"type": "vertical_margin",
+			"spacing": 1
+		},
+		{
+			"type": "line",
+			"text": "Praise to thy eternal merit,"
+		},
+		{
+			"type": "line",
+			"text": "Father, Son, and Holy Spirit."
+		}
+	],
+	"venite": [
+		{
+			"type": "section_title",
+			"text": "venite{br}_O Come_"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "O come, let us sing unto the Lord; *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "let us heartily rejoice in the strength of our salvation."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Let us come before his presence with thanksgiving *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and show ourselves glad in him with psalms."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For the Lord is a great God *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and a great King above all gods."
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "In his hand are all the depths of the earth, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and the heights of the hills are his also."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "The sea is his, for he made it, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and his hands prepared the dry land."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "O come, let us worship and fall down, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and kneel before the Lord our Maker."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "For he is our God, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and we are the people of his pasture,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and the sheep of his hand."
+		},
+		{
+			"type": "rubric",
+			"text": "The following verses may be omitted, except in Lent."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Today, if you will hear his voice, harden not your hearts *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "as in the provocation, and as in the day of temptation in"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "the wilderness,"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "When your fathers tested me, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "and put me to the proof, though they had seen my works."
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Forty years long was I grieved with this generation and said, *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "\"It is a people that err in their hearts,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "for they have not known my ways,\""
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"text": "Of whom I swore in my wrath *"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"bold": true,
+			"text": "that they should not enter into my rest."
+		},
+		{
+			"type": "ref",
+			"text": "psalm 95:1-7, 8-11"
+		}
+	]
+}

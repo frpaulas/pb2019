@@ -10,8 +10,12 @@
   },
   "1": {
     "pageNumber": 1,
-    "headerText": "Preface",
+    "headerText": "Untitled Service",
     "content": [
+      {
+        "type": "section_title",
+        "text": "Preface"
+      },
       {
         "type": "text_block",
         "text": "Christianity—the fullness of the good news about Jesus Christ—came very early to what would eventually be called Anglia (England) through the witness of soldiers, sailors, merchants, and missionaries. Legend holds that the biblical tomb-giver, Joseph of Arimathea, was among the first of those scattered evangelists."
@@ -24,7 +28,7 @@
   },
   "2": {
     "pageNumber": 2,
-    "headerText": "Preface",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "text_block",
@@ -42,7 +46,7 @@
   },
   "3": {
     "pageNumber": 3,
-    "headerText": "Preface",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "text_block",
@@ -56,7 +60,7 @@
   },
   "4": {
     "pageNumber": 4,
-    "headerText": "Preface",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "text_block",
@@ -70,7 +74,7 @@
   },
   "5": {
     "pageNumber": 5,
-    "headerText": "Preface",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "text_block",
@@ -87,17 +91,7 @@
     "content": [
       {
         "type": "section_title",
-        "text": "concerning",
-        "size": "xl"
-      },
-      {
-        "type": "section_title",
-        "text": "the divine service",
-        "size": "xl"
-      },
-      {
-        "type": "section_title",
-        "text": "_of the church_",
+        "text": "concerning{br}the divine service{br}_of the church_",
         "size": "xl"
       },
       {
@@ -257,137 +251,6 @@
       {
         "type": "text_block",
         "text": "Let us humbly confess our sins to Almighty God."
-      },
-      {
-        "type": "section_title",
-        "text": "confession of sin"
-      },
-      {
-        "type": "rubric",
-        "text": "The Officiant says to the People"
-      },
-      {
-        "type": "text_block",
-        "text": "Dearly beloved, the Scriptures teach us to acknowledge our many sins and offenses, not concealing them from our heavenly Father, but confessing them with humble and obedient hearts that we may obtain forgiveness by his infinite goodness and mercy. We ought at all times humbly to acknowledge our sins before Almighty God, but especially when we come together in his presence to give thanks for the great benefits we have received at his hands, to declare his most worthy praise, to hear his holy Word, and to ask, for ourselves and on behalf of others, those things which are necessary for our life and our salvation. Therefore, draw near with me to the throne of heavenly grace."
-      },
-      {
-        "type": "rubric",
-        "text": "or this"
-      },
-      {
-        "type": "rubric",
-        "text": "Silence is kept. All kneeling, the Officiant and People say"
-      },
-      {
-        "type": "line",
-        "text": "Almighty and most merciful Father,",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "we have erred and strayed from your ways like lost sheep.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "We have followed too much the devices and desires",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "of our own hearts.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "We have offended against your holy laws.",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "We have left undone those things which we ought to have done,",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "and we have done those things which we ought not",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "to have done;",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "and apart from your grace, there is no health in us.",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "O Lord, have mercy upon us.",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "Spare all those who confess their faults.",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "Restore all those who are penitent, according to your promises",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "declared to all people in Christ Jesus our Lord.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "And grant, O most merciful Father, for his sake,",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "that we may now live a godly, righteous, and sober life,",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "to the glory of your holy Name. Amen.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "rubric",
-        "text": "The Priest alone stands and says"
-      },
-      {
-        "type": "text_block",
-        "text": "Almighty God, the Father of our Lord Jesus Christ, desires not the death of sinners, but that they may turn from their wickedness and live. He has empowered and commanded his ministers to pronounce to his people, being penitent, the absolution and remission of their sins. He pardons and absolves all who truly repent and genuinely believe his holy Gospel. For this reason, we beseech him to grant us true repentance and his Holy Spirit, that our present deeds may please him, the rest of our lives may be pure and holy, and that at the last we may come to his eternal joy; through Jesus Christ our Lord. **Amen.**"
-      },
-      {
-        "type": "rubric",
-        "text": "or this"
-      },
-      {
-        "type": "text_block",
-        "text": "The Almighty and merciful Lord grant you absolution and remission of all your sins, true repentance, amendment of life, and the grace and consolation of his Holy Spirit. **Amen.**"
-      },
-      {
-        "type": "rubric",
-        "text": "A Deacon or layperson remains kneeling and prays"
-      },
-      {
-        "type": "text_block",
-        "text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. **Amen.**"
       }
     ]
   },
@@ -589,7 +452,7 @@
       },
       {
         "type": "section_title",
-        "text": "the psalm or psalms appointed: the psalm or psalms appointed"
+        "text": "the psalm or psalms appointed"
       },
       {
         "type": "appointed_psalms",
@@ -604,7 +467,7 @@
       },
       {
         "type": "section_title",
-        "text": "the lessons: the lessons"
+        "text": "the lessons"
       },
       {
         "type": "appointed_readings",
@@ -713,7 +576,117 @@
     "headerText": "Daily Morning Prayer",
     "content": [
       {
-        "type": "apostles_creed"
+        "type": "section_title",
+        "text": "The Apostles' Creed"
+      },
+      {
+        "type": "rubric",
+        "text": "Officiant and People together, all standing"
+      },
+      {
+        "type": "line",
+        "text": "I believe in God, the Father almighty,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "creator of heaven and earth.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "I believe in Jesus Christ, his only Son, our Lord.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "He was conceived by the Holy Spirit",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and born of the Virgin Mary.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "He suffered under Pontius Pilate,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "was crucified, died, and was buried.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "He descended to the dead.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "On the third day he rose again.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "He ascended into heaven,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and is seated at the right hand of the Father.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "He will come again to judge the living and the dead.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "I believe in the Holy Spirit,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "the holy catholic Church,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "the communion of saints,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "the forgiveness of sins,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "the resurrection of the body,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and the life everlasting. Amen.",
+        "bold": true,
+        "indent": true
       }
     ]
   },
@@ -850,12 +823,7 @@
       },
       {
         "type": "section_title",
-        "text": "the collect of the day"
-      },
-      {
-        "type": "section_title",
-        "text": "_From the Collects of the Christian Year_",
-        "lowercase": true
+        "text": "the collect of the day{br}_From the Collects of the Christian Year_"
       },
       {
         "type": "vertical_margin",
@@ -1070,6 +1038,10 @@
     "headerText": "Daily Morning Prayer",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "canticle",
         "name": "chrysostom"
       },
@@ -1134,10 +1106,6 @@
         "text": "In the wilderness prepare the way of the Lord; make straight in the desert a highway for our God."
       },
       {
-        "type": "vertical_margin",
-        "spacing": 1
-      },
-      {
         "type": "section_title",
         "text": "christmas"
       },
@@ -1147,10 +1115,6 @@
         "text": "Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord."
       },
       {
-        "type": "vertical_margin",
-        "spacing": 1
-      },
-      {
         "type": "section_title",
         "text": "epiphany"
       },
@@ -1158,10 +1122,6 @@
         "type": "scripture",
         "ref": "malachi 1:11",
         "text": "From the rising of the sun to its setting my name will be great among the nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the nations, says the Lord of hosts."
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 1
       },
       {
         "type": "section_title",
@@ -1192,10 +1152,6 @@
         "text": "If anyone would come after me, let him deny himself and take up his cross and follow me."
       },
       {
-        "type": "vertical_margin",
-        "spacing": 1
-      },
-      {
         "type": "section_title",
         "text": "holy week"
       },
@@ -1211,10 +1167,6 @@
     "headerText": "Daily Morning Prayer",
     "content": [
       {
-        "type": "vertical_margin",
-        "spacing": 1
-      },
-      {
         "type": "section_title",
         "text": "easter"
       },
@@ -1222,10 +1174,6 @@
         "type": "scripture",
         "ref": "colossians 3:1",
         "text": "If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God."
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 1
       },
       {
         "type": "section_title",
@@ -1237,10 +1185,6 @@
         "text": "Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession. Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need."
       },
       {
-        "type": "vertical_margin",
-        "spacing": 1
-      },
-      {
         "type": "section_title",
         "text": "pentecost: pentecost"
       },
@@ -1248,10 +1192,6 @@
         "type": "scripture",
         "ref": "acts 1:8",
         "text": "You will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth."
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 1
       },
       {
         "type": "section_title",
@@ -1263,10 +1203,6 @@
         "text": "Holy, holy, holy, is the Lord God Almighty, who was and is and is to come!"
       },
       {
-        "type": "vertical_margin",
-        "spacing": 1
-      },
-      {
         "type": "section_title",
         "text": "days of thanksgiving"
       },
@@ -1274,10 +1210,6 @@
         "type": "scripture",
         "ref": "proverbs 3:9-10",
         "text": "Honor the Lord with your wealth and with the firstfruits of all your produce; then your barns will be filled with plenty, and your vats will be bursting with wine."
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 1
       },
       {
         "type": "section_title",
@@ -1318,20 +1250,12 @@
         "text": "seasonal antiphons"
       },
       {
-        "type": "vertical_margin",
-        "spacing": 1
-      },
-      {
         "type": "section_title",
         "text": "advent"
       },
       {
         "type": "line",
         "text": "Our King and Savior now draws near: * O come, let us adore him."
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 1
       },
       {
         "type": "section_title",
@@ -1348,10 +1272,6 @@
         "indent": true
       },
       {
-        "type": "vertical_margin",
-        "spacing": 1
-      },
-      {
         "type": "section_title",
         "text": "epiphany, and the feast of the transfiguration"
       },
@@ -1364,10 +1284,6 @@
         "text": "O come, let us adore him.",
         "bold": true,
         "indent": true
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 1
       },
       {
         "type": "section_title",
@@ -1390,10 +1306,6 @@
     "headerText": "Daily Morning Prayer",
     "content": [
       {
-        "type": "vertical_margin",
-        "spacing": 1
-      },
-      {
         "type": "section_title",
         "text": "lent"
       },
@@ -1406,10 +1318,6 @@
         "text": "O come, let us adore him.",
         "bold": true,
         "indent": true
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 1
       },
       {
         "type": "section_title",
@@ -1426,10 +1334,6 @@
         "indent": true
       },
       {
-        "type": "vertical_margin",
-        "spacing": 1
-      },
-      {
         "type": "section_title",
         "text": "ascension until pentecost"
       },
@@ -1442,10 +1346,6 @@
         "text": "O come, let us adore him. Alleluia.",
         "bold": true,
         "indent": true
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 1
       },
       {
         "type": "section_title",
@@ -1462,10 +1362,6 @@
         "indent": true
       },
       {
-        "type": "vertical_margin",
-        "spacing": 1
-      },
-      {
         "type": "section_title",
         "text": "trinity sunday"
       },
@@ -1478,10 +1374,6 @@
         "text": "O come, let us adore him.",
         "bold": true,
         "indent": true
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 1
       },
       {
         "type": "section_title",
@@ -1503,10 +1395,6 @@
     "pageNumber": 31,
     "headerText": "Daily Morning Prayer",
     "content": [
-      {
-        "type": "vertical_margin",
-        "spacing": 2
-      },
       {
         "type": "section_title",
         "text": "additional directions"
@@ -1553,6 +1441,13 @@
     "pageNumber": 33,
     "headerText": "Midday Prayer",
     "content": [
+      {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
       {
         "type": "section_title",
         "text": "midday prayer",
@@ -2069,53 +1964,69 @@
     "headerText": "Daily Evening Prayer",
     "content": [
       {
-        "type": "versical",
-        "officiant": true,
-        "text": "The Lord be with you."
+        "type": "line",
+        "text": "He descended to the dead.",
+        "bold": true,
+        "indent": true
       },
       {
-        "type": "versical",
-        "people": true,
-        "text": "And with your spirit."
+        "type": "line",
+        "text": "On the third day he rose again.",
+        "bold": true,
+        "indent": true
       },
       {
-        "type": "versical",
-        "officiant": true,
-        "text": "Let us pray."
+        "type": "line",
+        "text": "He ascended into heaven,",
+        "bold": true,
+        "indent": true
       },
       {
-        "type": "kyrie"
+        "type": "line",
+        "text": "and is seated at the right hand of the Father.",
+        "bold": true,
+        "indent": true
       },
       {
-        "type": "rubric",
-        "text": "Officient and People"
+        "type": "line",
+        "text": "He will come again to judge the living and the dead.",
+        "bold": true,
+        "indent": true
       },
       {
-        "type": "lords_prayer"
+        "type": "line",
+        "text": "I believe in the Holy Spirit,",
+        "bold": true
       },
       {
-        "type": "rubric",
-        "text": "Then follows one of these sets of Suffrages"
+        "type": "line",
+        "text": "the holy catholic Church,",
+        "bold": true,
+        "indent": true
       },
       {
-        "type": "versical",
-        "officiant": true,
-        "text": "O Lord, show your mercy upon us;"
+        "type": "line",
+        "text": "the communion of saints,",
+        "bold": true,
+        "indent": true
       },
       {
-        "type": "versical",
-        "people": true,
-        "text": "And grant us your salvation."
+        "type": "line",
+        "text": "the forgiveness of sins,",
+        "bold": true,
+        "indent": true
       },
       {
-        "type": "versical",
-        "officiant": true,
-        "text": "O Lord, guide those who govern us;"
+        "type": "line",
+        "text": "the resurrection of the body,",
+        "bold": true,
+        "indent": true
       },
       {
-        "type": "versical",
-        "people": true,
-        "text": "And lead us in the way of justice and truth."
+        "type": "line",
+        "text": "and the life everlasting. Amen.",
+        "bold": true,
+        "indent": true
       }
     ]
   },
@@ -2125,131 +2036,7 @@
     "content": [
       {
         "type": "text_block",
-        "text": "O God, you manifest in your servants the signs of your presence: Send forth upon us the Spirit of love, that in companionship with one another your abounding grace may increase among us; through Jesus Christ our Lord. **Amen.**"
-      },
-      {
-        "type": "rubric",
-        "text": "The Officiant may invite the People to offer intercessions and thanksgivings."
-      },
-      {
-        "type": "rubric",
-        "text": "A hymn or anthem may be sung."
-      },
-      {
-        "type": "rubric",
-        "text": "Before the close of the Office one or both of the following prayers may be used."
-      },
-      {
-        "type": "section_title",
-        "text": "the general thanksgiving"
-      },
-      {
-        "type": "rubric",
-        "text": "Officiant and People"
-      },
-      {
-        "type": "line",
-        "text": "Almighty God, Father of all mercies,",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "we your unworthy servants give you humble thanks",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "for all your goodness and loving-kindness",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "to us and to all whom you have made.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "We bless you for our creation, preservation,",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "and all the blessings of this life;",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "but above all for your immeasurable love",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "in the redemption of the world by our Lord Jesus Christ;",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "for the means of grace, and for the hope of glory.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "And, we pray, give us such an awareness of your mercies,",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "that with truly thankful hearts we may show forth your praise,",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "not only with our lips, but in our lives,",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "by giving up our selves to your service,",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "and by walking before you",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "in holiness and righteousness all our days;",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "Through Jesus Christ our Lord,",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "to whom, with you and the Holy Spirit,",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "be honor and glory throughout all ages. Amen.",
-        "bold": true,
-        "indent": true
+        "text": "O God, the source of eternal light: Shed forth your unending day upon us who watch for you, that our lips may praise you, our lives may bless you, and our worship on the morrow give you glory; through Jesus Christ our Lord."
       }
     ]
   },
@@ -2377,7 +2164,52 @@
         "name": "nunc_dimittis"
       },
       {
-        "type": "apostles_creed"
+        "type": "section_title",
+        "text": "The Apostles' Creed"
+      },
+      {
+        "type": "rubric",
+        "text": "Officiant and People together, all standing"
+      },
+      {
+        "type": "line",
+        "text": "I believe in God, the Father almighty,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "creator of heaven and earth.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "I believe in Jesus Christ, his only Son, our Lord.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "He was conceived by the Holy Spirit",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and born of the Virgin Mary.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "He suffered under Pontius Pilate,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "was crucified, died, and was buried.",
+        "bold": true,
+        "indent": true
       }
     ]
   },
@@ -2388,6 +2220,55 @@
       {
         "type": "section_title",
         "text": "the prayers"
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "The Lord be with you."
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And with your spirit."
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "Let us pray."
+      },
+      {
+        "type": "kyrie"
+      },
+      {
+        "type": "rubric",
+        "text": "Officient and People"
+      },
+      {
+        "type": "lords_prayer"
+      },
+      {
+        "type": "rubric",
+        "text": "Then follows one of these sets of Suffrages"
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "O Lord, show your mercy upon us;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And grant us your salvation."
+      },
+      {
+        "type": "versical",
+        "officiant": true,
+        "text": "O Lord, guide those who govern us;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And lead us in the way of justice and truth."
       }
     ]
   },
@@ -2662,10 +2543,6 @@
         "type": "section_title",
         "text": "_Saturday_",
         "lowercase": true
-      },
-      {
-        "type": "text_block",
-        "text": "O God, the source of eternal light: Shed forth your unending day upon us who watch for you, that our lips may praise you, our lives may bless you, and our worship on the morrow give you glory; through Jesus Christ our Lord."
       }
     ]
   },
@@ -2692,6 +2569,134 @@
       {
         "type": "rubric",
         "text": "or this"
+      },
+      {
+        "type": "text_block",
+        "text": "O God, you manifest in your servants the signs of your presence: Send forth upon us the Spirit of love, that in companionship with one another your abounding grace may increase among us; through Jesus Christ our Lord. **Amen.**"
+      },
+      {
+        "type": "rubric",
+        "text": "The Officiant may invite the People to offer intercessions and thanksgivings."
+      },
+      {
+        "type": "rubric",
+        "text": "A hymn or anthem may be sung."
+      },
+      {
+        "type": "rubric",
+        "text": "Before the close of the Office one or both of the following prayers may be used."
+      },
+      {
+        "type": "section_title",
+        "text": "the general thanksgiving"
+      },
+      {
+        "type": "rubric",
+        "text": "Officiant and People"
+      },
+      {
+        "type": "line",
+        "text": "Almighty God, Father of all mercies,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we your unworthy servants give you humble thanks",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "for all your goodness and loving-kindness",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to us and to all whom you have made.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We bless you for our creation, preservation,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "and all the blessings of this life;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "but above all for your immeasurable love",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in the redemption of the world by our Lord Jesus Christ;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "for the means of grace, and for the hope of glory.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "And, we pray, give us such an awareness of your mercies,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "that with truly thankful hearts we may show forth your praise,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "not only with our lips, but in our lives,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "by giving up our selves to your service,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and by walking before you",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in holiness and righteousness all our days;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Through Jesus Christ our Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "to whom, with you and the Holy Spirit,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "be honor and glory throughout all ages. Amen.",
+        "bold": true,
+        "indent": true
       }
     ]
   },
@@ -3872,7 +3877,117 @@
         "text": "When the Apostles Creed is included in Family Prayer, the text is as follows:"
       },
       {
-        "type": "apostles_creed"
+        "type": "section_title",
+        "text": "The Apostles' Creed"
+      },
+      {
+        "type": "rubric",
+        "text": "Officiant and People together, all standing"
+      },
+      {
+        "type": "line",
+        "text": "I believe in God, the Father almighty,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "creator of heaven and earth.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "I believe in Jesus Christ, his only Son, our Lord.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "He was conceived by the Holy Spirit",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and born of the Virgin Mary.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "He suffered under Pontius Pilate,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "was crucified, died, and was buried.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "He descended to the dead.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "On the third day he rose again.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "He ascended into heaven,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and is seated at the right hand of the Father.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "He will come again to judge the living and the dead.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "I believe in the Holy Spirit,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "the holy catholic Church,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "the communion of saints,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "the forgiveness of sins,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "the resurrection of the body,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and the life everlasting. Amen.",
+        "bold": true,
+        "indent": true
       }
     ]
   },
@@ -5229,7 +5344,110 @@
     "headerText": "The Holy Eucharist: Anglican Standard Text",
     "content": [
       {
-        "type": "gloria_in_excelsis"
+        "type": "section_title",
+        "text": "the gloria in excelsis"
+      },
+      {
+        "type": "rubric",
+        "text": "Gloria or some other song of praise may be sung or said, all standing. It is appropriate to omit the song of praise during penitential seasons and days appointed for fasting."
+      },
+      {
+        "type": "line",
+        "text": "Glory to God in the highest,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "and peace to his people on earth.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Lord God, heavenly King,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "almighty God and Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we worship you, we give you thanks,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "we praise you for your glory.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Lord Jesus Christ, only Son of the Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Lord God, Lamb of God,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "you take away the sin of the world:",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "have mercy on us;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "you are seated at the right hand of the Father:",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "receive our prayer.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "For you alone are the Holy One,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "you alone are the Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "you alone are the Most High,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Jesus Christ,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "with the Holy Spirit,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in the glory of God the Father. Amen.",
+        "bold": true,
+        "indent": true
       },
       {
         "type": "section_title",
@@ -6099,7 +6317,42 @@
         "indent": true
       },
       {
-        "type": "agnus_dei"
+        "type": "section_title",
+        "text": "the agnus dei"
+      },
+      {
+        "type": "rubric",
+        "text": "The following or some other suitable anthem may be sung or said here"
+      },
+      {
+        "type": "line",
+        "text": "Lamb of God, you take away the sin of the world;"
+      },
+      {
+        "type": "line",
+        "text": "have mercy on us.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Lamb of God, you take away the sin of the world;"
+      },
+      {
+        "type": "line",
+        "text": "have mercy on us.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Lamb of God, you take away the sin of the world;"
+      },
+      {
+        "type": "line",
+        "text": "grant us your peace.",
+        "bold": true,
+        "indent": true
       },
       {
         "type": "section_title",
@@ -6515,7 +6768,110 @@
         "type": "kyrie"
       },
       {
-        "type": "gloria_in_excelsis"
+        "type": "section_title",
+        "text": "the gloria in excelsis"
+      },
+      {
+        "type": "rubric",
+        "text": "Gloria or some other song of praise may be sung or said, all standing. It is appropriate to omit the song of praise during penitential seasons and days appointed for fasting."
+      },
+      {
+        "type": "line",
+        "text": "Glory to God in the highest,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "and peace to his people on earth.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Lord God, heavenly King,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "almighty God and Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we worship you, we give you thanks,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "we praise you for your glory.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Lord Jesus Christ, only Son of the Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Lord God, Lamb of God,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "you take away the sin of the world:",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "have mercy on us;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "you are seated at the right hand of the Father:",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "receive our prayer.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "For you alone are the Holy One,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "you alone are the Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "you alone are the Most High,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Jesus Christ,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "with the Holy Spirit,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in the glory of God the Father. Amen.",
+        "bold": true,
+        "indent": true
       },
       {
         "type": "section_title",
@@ -6554,6 +6910,44 @@
     "pageNumber": 125,
     "headerText": "The Holy Eucharist: Renewed Ancient Text",
     "content": [
+      {
+        "type": "scripture",
+        "ref": "1 timothy 1:15: The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners."
+      },
+      {
+        "type": "scripture",
+        "ref": "1 john 2:1-2",
+        "text": "If anyone sins, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world."
+      },
+      {
+        "type": "section_title",
+        "text": "the peace"
+      },
+      {
+        "type": "rubric",
+        "text": "In Easter Season, add"
+      },
+      {
+        "type": "versical",
+        "text": "celebrant: The Peace of the Lord be always with you."
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And with your spirit."
+      },
+      {
+        "type": "rubric",
+        "text": "Then the Ministers and People may greet one another in the Name of the Lord."
+      },
+      {
+        "type": "section_title",
+        "text": "the offertory"
+      },
+      {
+        "type": "rubric",
+        "text": "The Celebrant may begin the Offertory with one of the provided sentences of Scripture. During the Offertory a hymn, psalm, or anthem may be sung. The Deacon or Priest prepares the Holy Table for the celebration. Representatives of the Congregation may bring the People's offerings of bread and wine, and money or other gifts, to the Deacon or Priest."
+      },
       {
         "type": "rubric",
         "text": "The People stand while the offerings are presented. The following may be said."
@@ -7016,46 +7410,7 @@
   "131": {
     "pageNumber": 131,
     "headerText": "The Holy Eucharist: Renewed Ancient Text",
-    "content": [
-      {
-        "type": "scripture",
-        "ref": "1 timothy 1:15: The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners."
-      },
-      {
-        "type": "scripture",
-        "ref": "1 john 2:1-2",
-        "text": "If anyone sins, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world."
-      },
-      {
-        "type": "section_title",
-        "text": "the peace"
-      },
-      {
-        "type": "rubric",
-        "text": "In Easter Season, add"
-      },
-      {
-        "type": "versical",
-        "text": "celebrant: The Peace of the Lord be always with you."
-      },
-      {
-        "type": "versical",
-        "people": true,
-        "text": "And with your spirit."
-      },
-      {
-        "type": "rubric",
-        "text": "Then the Ministers and People may greet one another in the Name of the Lord."
-      },
-      {
-        "type": "section_title",
-        "text": "the offertory"
-      },
-      {
-        "type": "rubric",
-        "text": "The Celebrant may begin the Offertory with one of the provided sentences of Scripture. During the Offertory a hymn, psalm, or anthem may be sung. The Deacon or Priest prepares the Holy Table for the celebration. Representatives of the Congregation may bring the People's offerings of bread and wine, and money or other gifts, to the Deacon or Priest."
-      }
-    ]
+    "content": []
   },
   "132": {
     "pageNumber": 132,
@@ -26306,7 +26661,110 @@
         "text": "The Gloria in Excelsis, or some other hymn of praise, is sung or said"
       },
       {
-        "type": "gloria_in_excelsis"
+        "type": "section_title",
+        "text": "the gloria in excelsis"
+      },
+      {
+        "type": "rubric",
+        "text": "Gloria or some other song of praise may be sung or said, all standing. It is appropriate to omit the song of praise during penitential seasons and days appointed for fasting."
+      },
+      {
+        "type": "line",
+        "text": "Glory to God in the highest,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "and peace to his people on earth.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Lord God, heavenly King,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "almighty God and Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we worship you, we give you thanks,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "we praise you for your glory.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Lord Jesus Christ, only Son of the Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Lord God, Lamb of God,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "you take away the sin of the world:",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "have mercy on us;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "you are seated at the right hand of the Father:",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "receive our prayer.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "For you alone are the Holy One,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "you alone are the Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "you alone are the Most High,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Jesus Christ,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "with the Holy Spirit,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in the glory of God the Father. Amen.",
+        "bold": true,
+        "indent": true
       }
     ]
   },

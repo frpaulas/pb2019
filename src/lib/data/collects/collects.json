@@ -32,11 +32,7 @@
 	"advent4": [
 		{
 			"type": "section_title",
-			"text": "the fourth sunday in advent"
-		},
-		{
-			"type": "section_title",
-			"text": "_Annunciation_"
+			"text": "the fourth sunday in advent{br}_Annunciation_"
 		},
 		{
 			"type": "text_block",
@@ -46,11 +42,7 @@
 	"all_angels": [
 		{
 			"type": "section_title",
-			"text": "holy michael and all angels"
-		},
-		{
-			"type": "section_title",
-			"text": "_September 29_"
+			"text": "holy michael and all angels{br}_September 29_"
 		},
 		{
 			"type": "text_block",
@@ -60,11 +52,7 @@
 	"all_saints": [
 		{
 			"type": "section_title",
-			"text": "all saints’ day"
-		},
-		{
-			"type": "section_title",
-			"text": "_November 1_"
+			"text": "all saints’ day{br}_November 1_"
 		},
 		{
 			"type": "text_block",
@@ -74,11 +62,7 @@
 	"annunciation": [
 		{
 			"type": "section_title",
-			"text": "the annunciation"
-		},
-		{
-			"type": "section_title",
-			"text": "_March 25_"
+			"text": "the annunciation{br}_March 25_"
 		},
 		{
 			"type": "text_block",
@@ -138,11 +122,7 @@
 	"bvm": [
 		{
 			"type": "section_title",
-			"text": "saint mary the virgin"
-		},
-		{
-			"type": "section_title",
-			"text": "_August 15_"
+			"text": "saint mary the virgin{br}_August 15_"
 		},
 		{
 			"type": "text_block",
@@ -152,11 +132,7 @@
 	"canada_day": [
 		{
 			"type": "section_title",
-			"text": "canada day"
-		},
-		{
-			"type": "section_title",
-			"text": "_Canada on July 1_"
+			"text": "canada day{br}_Canada on July 1_"
 		},
 		{
 			"type": "text_block",
@@ -206,11 +182,7 @@
 	"confession_of_peter": [
 		{
 			"type": "section_title",
-			"text": "confession of saint peter"
-		},
-		{
-			"type": "section_title",
-			"text": "_January 18_"
+			"text": "confession of saint peter{br}_January 18_"
 		},
 		{
 			"type": "text_block",
@@ -220,11 +192,7 @@
 	"conversion": [
 		{
 			"type": "section_title",
-			"text": "the presentation of christ in the temple"
-		},
-		{
-			"type": "section_title",
-			"text": "_February 2_"
+			"text": "the presentation of christ in the temple{br}_February 2_"
 		},
 		{
 			"type": "text_block",
@@ -234,11 +202,7 @@
 	"conversion_of_paul": [
 		{
 			"type": "section_title",
-			"text": "conversion of saint paul"
-		},
-		{
-			"type": "section_title",
-			"text": "_January 25_"
+			"text": "conversion of saint paul{br}_January 25_"
 		},
 		{
 			"type": "text_block",
@@ -268,11 +232,7 @@
 	"easter4": [
 		{
 			"type": "section_title",
-			"text": "the fourth sunday of easter"
-		},
-		{
-			"type": "section_title",
-			"text": "Good Shepherd"
+			"text": "the fourth sunday of easter{br}Good Shepherd"
 		},
 		{
 			"type": "text_block",
@@ -292,11 +252,7 @@
 	"easter6": [
 		{
 			"type": "section_title",
-			"text": "t h e sixt h sunday of east er"
-		},
-		{
-			"type": "section_title",
-			"text": "Rogation"
+			"text": "the sixth sunday of easter{br}_Rogation_"
 		},
 		{
 			"type": "text_block",
@@ -418,11 +374,7 @@
 	"epiphany1": [
 		{
 			"type": "section_title",
-			"text": "the first sunday of epiphany"
-		},
-		{
-			"type": "section_title",
-			"text": "_The Baptism of Our Lord_"
+			"text": "the first sunday of epiphany{br}_The Baptism of Our Lord_"
 		},
 		{
 			"type": "text_block",
@@ -502,11 +454,7 @@
 	"epiphany_2nd_to_last": [
 		{
 			"type": "section_title",
-			"text": "the second to last sunday of epiphany"
-		},
-		{
-			"type": "section_title",
-			"text": "World Mission Sunday"
+			"text": "the second to last sunday of epiphany{br}_World Mission Sunday_"
 		},
 		{
 			"type": "text_block",
@@ -516,11 +464,7 @@
 	"epiphany_last": [
 		{
 			"type": "section_title",
-			"text": "the last sunday of epiphany"
-		},
-		{
-			"type": "section_title",
-			"text": "Transfiguration"
+			"text": "the last sunday of epiphany{br}_Transfiguration_"
 		},
 		{
 			"type": "text_block",
@@ -550,11 +494,7 @@
 	"holy_cross": [
 		{
 			"type": "section_title",
-			"text": "holy cross day"
-		},
-		{
-			"type": "section_title",
-			"text": "_September 14_"
+			"text": "holy cross day{br}_September 14_"
 		},
 		{
 			"type": "text_block",
@@ -564,11 +504,7 @@
 	"holy_innocents": [
 		{
 			"type": "section_title",
-			"text": "the holy innocents"
-		},
-		{
-			"type": "section_title",
-			"text": "_December 28_"
+			"text": "the holy innocents{br}_December 28_"
 		},
 		{
 			"type": "text_block",
@@ -578,15 +514,7 @@
 	"holy_name": [
 		{
 			"type": "section_title",
-			"text": "the circumcision and holy name"
-		},
-		{
-			"type": "section_title",
-			"text": "of our lord jesus christ"
-		},
-		{
-			"type": "section_title",
-			"text": "_January 1_"
+			"text": "the circumcision and holy name{br}of our lord jesus christ{br}_January 1_"
 		},
 		{
 			"type": "text_block",
@@ -646,11 +574,7 @@
 	"independence_day": [
 		{
 			"type": "section_title",
-			"text": "independence day"
-		},
-		{
-			"type": "section_title",
-			"text": "_United States of America on July 4_"
+			"text": "independence day{br}_United States of America on July 4_"
 		},
 		{
 			"type": "text_block",
@@ -690,11 +614,7 @@
 	"lent5": [
 		{
 			"type": "section_title",
-			"text": "the fifth sunday in lent"
-		},
-		{
-			"type": "section_title",
-			"text": "_Passion Sunday_"
+			"text": "the fifth sunday in lent{br}_Passion Sunday_"
 		},
 		{
 			"type": "text_block",
@@ -704,11 +624,7 @@
 	"magdalene": [
 		{
 			"type": "section_title",
-			"text": "saint mary magdalene"
-		},
-		{
-			"type": "section_title",
-			"text": "_July 22_"
+			"text": "saint mary magdalene{br}_July 22_"
 		},
 		{
 			"type": "text_block",
@@ -738,15 +654,7 @@
 	"memorial_day": [
 		{
 			"type": "section_title",
-			"text": "memorial day & remembrance day"
-		},
-		{
-			"type": "section_title",
-			"text": "_United States of America, Monday from May 25 to May 31;_"
-		},
-		{
-			"type": "section_title",
-			"text": "_Canada, November 11_"
+			"text": "memorial day & remembrance day{br}_United States of America,{br}Monday from May 25 to May 31;{br}_Canada, November 11_"
 		},
 		{
 			"type": "text_block",
@@ -776,11 +684,7 @@
 	"mp_friday": [
 		{
 			"type": "section_title",
-			"text": "a collect for endurance"
-		},
-		{
-			"type": "section_title",
-			"text": "_Friday_"
+			"text": "a collect for endurance{br}_Friday_"
 		},
 		{
 			"type": "text_block",
@@ -790,11 +694,7 @@
 	"mp_monday": [
 		{
 			"type": "section_title",
-			"text": "a collect for the renewal of life"
-		},
-		{
-			"type": "section_title",
-			"text": "_Monday_"
+			"text": "a collect for the renewal of life{br}_Monday_"
 		},
 		{
 			"type": "text_block",
@@ -804,11 +704,7 @@
 	"mp_saturday": [
 		{
 			"type": "section_title",
-			"text": "a collect for sabbath rest"
-		},
-		{
-			"type": "section_title",
-			"text": "_Saturday_"
+			"text": "a collect for sabbath rest{br}_Saturday_"
 		},
 		{
 			"type": "text_block",
@@ -818,11 +714,7 @@
 	"mp_sunday": [
 		{
 			"type": "section_title",
-			"text": "a collect for strength to await christ's return"
-		},
-		{
-			"type": "section_title",
-			"text": "_Sunday_"
+			"text": "a collect for strength{br}to await christ's return{br}_Sunday_"
 		},
 		{
 			"type": "text_block",
@@ -832,11 +724,7 @@
 	"mp_thursday": [
 		{
 			"type": "section_title",
-			"text": "a collect for guidance"
-		},
-		{
-			"type": "section_title",
-			"text": "_Thursday_"
+			"text": "a collect for guidance{br}_Thursday_"
 		},
 		{
 			"type": "text_block",
@@ -846,11 +734,7 @@
 	"mp_tuesday": [
 		{
 			"type": "section_title",
-			"text": "a collect for peace"
-		},
-		{
-			"type": "section_title",
-			"text": "_Tuesday_"
+			"text": "a collect for peace{br}_Tuesday_"
 		},
 		{
 			"type": "text_block",
@@ -860,11 +744,7 @@
 	"mp_wednesday": [
 		{
 			"type": "section_title",
-			"text": "a collect for grace"
-		},
-		{
-			"type": "section_title",
-			"text": "_Wednesday_"
+			"text": "a collect for grace{br}_Wednesday_"
 		},
 		{
 			"type": "text_block",
@@ -874,11 +754,7 @@
 	"nativity_of_john_the_baptist": [
 		{
 			"type": "section_title",
-			"text": "the nativity of saint john the baptist"
-		},
-		{
-			"type": "section_title",
-			"text": "_June 24_"
+			"text": "the nativity of saint john the baptist{br}_June 24_"
 		},
 		{
 			"type": "text_block",
@@ -908,11 +784,7 @@
 	"pentecost1": [
 		{
 			"type": "section_title",
-			"text": "day of pentecost"
-		},
-		{
-			"type": "section_title",
-			"text": "_Whitsunday_"
+			"text": "day of pentecost{br}_Whitsunday_"
 		},
 		{
 			"type": "text_block",
@@ -922,11 +794,7 @@
 	"pentecost2": [
 		{
 			"type": "section_title",
-			"text": "day of pentecost"
-		},
-		{
-			"type": "section_title",
-			"text": "_Whitsunday_"
+			"text": "day of pentecost{br}_Whitsunday_"
 		},
 		{
 			"type": "text_block",
@@ -936,11 +804,7 @@
 	"presentation": [
 		{
 			"type": "section_title",
-			"text": "the presentation of christ in the temple"
-		},
-		{
-			"type": "section_title",
-			"text": "February 2"
+			"text": "the presentation of christ in the temple{br}_February 2_"
 		},
 		{
 			"type": "text_block",
@@ -950,11 +814,7 @@
 	"proper1": [
 		{
 			"type": "section_title",
-			"text": "proper 1"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from May 8 to May 14_"
+			"text": "proper 1{br}_Week of the Sunday from May 8 to May 14_"
 		},
 		{
 			"type": "text_block",
@@ -964,11 +824,7 @@
 	"proper10": [
 		{
 			"type": "section_title",
-			"text": "pr oper 10"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from July 10 to July 16_"
+			"text": "proper 10{br}_Week of the Sunday from July 10 to July 16_"
 		},
 		{
 			"type": "text_block",
@@ -978,11 +834,7 @@
 	"proper11": [
 		{
 			"type": "section_title",
-			"text": "proper 11"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from July 17 to July 23_"
+			"text": "proper 11{br}_Week of the Sunday from July 17 to July 23_"
 		},
 		{
 			"type": "text_block",
@@ -992,11 +844,7 @@
 	"proper12": [
 		{
 			"type": "section_title",
-			"text": "proper 12"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from July 24 to July 30_"
+			"text": "proper 12{br}_Week of the Sunday from July 24 to July 30_"
 		},
 		{
 			"type": "text_block",
@@ -1006,11 +854,7 @@
 	"proper13": [
 		{
 			"type": "section_title",
-			"text": "proper 13"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from July 31 to August 6_"
+			"text": "proper 13{br}_Week of the Sunday from July 31 to August 6_"
 		},
 		{
 			"type": "text_block",
@@ -1020,11 +864,7 @@
 	"proper14": [
 		{
 			"type": "section_title",
-			"text": "proper 14"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from August 7 to August 13_"
+			"text": "proper 14{br}_Week of the Sunday from August 7 to August 13_"
 		},
 		{
 			"type": "text_block",
@@ -1034,11 +874,7 @@
 	"proper15": [
 		{
 			"type": "section_title",
-			"text": "proper 15"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from August 14 to August 20_"
+			"text": "proper 15{br}_Week of the Sunday from August 14 to August 20_"
 		},
 		{
 			"type": "text_block",
@@ -1048,11 +884,7 @@
 	"proper16": [
 		{
 			"type": "section_title",
-			"text": "proper 16"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from August 21 to August 27_"
+			"text": "proper 16{br}_Week of the Sunday from August 21 to August 27_"
 		},
 		{
 			"type": "text_block",
@@ -1062,11 +894,7 @@
 	"proper17": [
 		{
 			"type": "section_title",
-			"text": "proper 17"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from August 28 to September 3_"
+			"text": "proper 17{br} of the Sunday from August 28 to September 3_"
 		},
 		{
 			"type": "text_block",
@@ -1076,11 +904,7 @@
 	"proper18": [
 		{
 			"type": "section_title",
-			"text": "proper 18"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from September 4 to September 10_"
+			"text": "proper 18{br}_Week of the Sunday from September 4 to September 10_"
 		},
 		{
 			"type": "text_block",
@@ -1090,11 +914,7 @@
 	"proper19": [
 		{
 			"type": "section_title",
-			"text": "proper 19"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from September 11 to September 17_"
+			"text": "proper 19{br}_Week of the Sunday from September 11 to September 17_"
 		},
 		{
 			"type": "text_block",
@@ -1104,11 +924,7 @@
 	"proper2": [
 		{
 			"type": "section_title",
-			"text": "proper 2"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from May 15 to May 21_"
+			"text": "proper 2{br}_Week of the Sunday from May 15 to May 21_"
 		},
 		{
 			"type": "text_block",
@@ -1118,11 +934,7 @@
 	"proper20": [
 		{
 			"type": "section_title",
-			"text": "proper 20"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from September 18 to September 24_"
+			"text": "proper 20{br}_Week of the Sunday from September 18 to September 24_"
 		},
 		{
 			"type": "text_block",
@@ -1132,11 +944,7 @@
 	"proper21": [
 		{
 			"type": "section_title",
-			"text": "proper 21"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from September 25 to October 1_"
+			"text": "proper 21{br}_Week of the Sunday from September 25 to October 1_"
 		},
 		{
 			"type": "text_block",
@@ -1146,11 +954,7 @@
 	"proper22": [
 		{
 			"type": "section_title",
-			"text": "proper 22"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from October 2 to October 8_"
+			"text": "proper 22{br}_Week of the Sunday from October 2 to October 8_"
 		},
 		{
 			"type": "text_block",
@@ -1160,11 +964,7 @@
 	"proper23": [
 		{
 			"type": "section_title",
-			"text": "pr oper 23"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of theSunday from October 9 to October 15_"
+			"text": "proper 23{br}_Week of theSunday from October 9 to October 15_"
 		},
 		{
 			"type": "text_block",
@@ -1174,11 +974,7 @@
 	"proper24": [
 		{
 			"type": "section_title",
-			"text": "proper 24"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from October 16 to October 22_"
+			"text": "proper 24{br}_Week of the Sunday from October 16 to October 22_"
 		},
 		{
 			"type": "text_block",
@@ -1188,11 +984,7 @@
 	"proper25": [
 		{
 			"type": "section_title",
-			"text": "proper 25"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from October 23 to October 29_"
+			"text": "proper 25{br}_Week of the Sunday from October 23 to October 29_"
 		},
 		{
 			"type": "text_block",
@@ -1202,11 +994,7 @@
 	"proper26": [
 		{
 			"type": "section_title",
-			"text": "pr oper 26"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from October 30 to November 5_"
+			"text": "proper 26{br}_Week of the Sunday from October 30 to November 5_"
 		},
 		{
 			"type": "text_block",
@@ -1216,11 +1004,7 @@
 	"proper27": [
 		{
 			"type": "section_title",
-			"text": "proper 27"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from November 6 to November 12_"
+			"text": "proper 27{br}_Week of the Sunday from November 6 to November 12_"
 		},
 		{
 			"type": "text_block",
@@ -1230,11 +1014,7 @@
 	"proper28": [
 		{
 			"type": "section_title",
-			"text": "proper 28"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from November 13 to November 19_"
+			"text": "proper 28{br}_Week of the Sunday from November 13 to November 19_"
 		},
 		{
 			"type": "text_block",
@@ -1244,15 +1024,7 @@
 	"proper29": [
 		{
 			"type": "section_title",
-			"text": "proper 29"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from November 20 to November 26_"
-		},
-		{
-			"type": "section_title",
-			"text": "_Christ the King_"
+			"text": "proper 29{br}_Week of the Sunday from November 20 to November 26_{br}_Christ the King_"
 		},
 		{
 			"type": "text_block",
@@ -1262,11 +1034,7 @@
 	"proper3": [
 		{
 			"type": "section_title",
-			"text": "proper 3"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from May 22 to May 28_"
+			"text": "proper 3{br}_Week of the Sunday from May 22 to May 28_"
 		},
 		{
 			"type": "text_block",
@@ -1276,11 +1044,7 @@
 	"proper4": [
 		{
 			"type": "section_title",
-			"text": "proper 4"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from May 29 to June 4_"
+			"text": "proper 4{br}_Week of the Sunday from May 29 to June 4_"
 		},
 		{
 			"type": "text_block",
@@ -1290,11 +1054,7 @@
 	"proper5": [
 		{
 			"type": "section_title",
-			"text": "proper 5"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from June 5 to June 11_"
+			"text": "proper 5{br}_Week of the Sunday from June 5 to June 11_"
 		},
 		{
 			"type": "text_block",
@@ -1304,11 +1064,7 @@
 	"proper6": [
 		{
 			"type": "section_title",
-			"text": "pr oper 6"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from June 12 to June 18_"
+			"text": "proper 6{br}_Week of the Sunday from June 12 to June 18_"
 		},
 		{
 			"type": "text_block",
@@ -1318,11 +1074,7 @@
 	"proper7": [
 		{
 			"type": "section_title",
-			"text": "proper 7"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from June 19 to June 25_"
+			"text": "proper 7{br}_Week of the Sunday from June 19 to June 25_"
 		},
 		{
 			"type": "text_block",
@@ -1332,11 +1084,7 @@
 	"proper8": [
 		{
 			"type": "section_title",
-			"text": "proper 8"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from June 26 to July 2_"
+			"text": "proper 8{br}_Week of the Sunday from June 26 to July 2_"
 		},
 		{
 			"type": "text_block",
@@ -1346,11 +1094,7 @@
 	"proper9": [
 		{
 			"type": "section_title",
-			"text": "pr oper 9"
-		},
-		{
-			"type": "section_title",
-			"text": "_Week of the Sunday from July 3 to July 9_"
+			"text": "proper 9{br}_Week of the Sunday from July 3 to July 9_"
 		},
 		{
 			"type": "text_block",
@@ -1392,11 +1136,7 @@
 	"st_andrew": [
 		{
 			"type": "section_title",
-			"text": "saint andrew"
-		},
-		{
-			"type": "section_title",
-			"text": "_November 30_"
+			"text": "saint andrew{br}_November 30_"
 		},
 		{
 			"type": "text_block",
@@ -1406,11 +1146,7 @@
 	"st_barnabas": [
 		{
 			"type": "section_title",
-			"text": "saint barnabas"
-		},
-		{
-			"type": "section_title",
-			"text": "_June 11_"
+			"text": "saint barnabas{br}_June 11_"
 		},
 		{
 			"type": "text_block",
@@ -1420,11 +1156,7 @@
 	"st_bartholomew": [
 		{
 			"type": "section_title",
-			"text": "saint bartholomew"
-		},
-		{
-			"type": "section_title",
-			"text": "_August 24_"
+			"text": "saint bartholomew{br}_August 24_"
 		},
 		{
 			"type": "text_block",
@@ -1434,11 +1166,7 @@
 	"st_james": [
 		{
 			"type": "section_title",
-			"text": "saint james"
-		},
-		{
-			"type": "section_title",
-			"text": "_July 25_"
+			"text": "saint james{br}_July 25_"
 		},
 		{
 			"type": "text_block",
@@ -1448,11 +1176,7 @@
 	"st_james_of_jerusalem": [
 		{
 			"type": "section_title",
-			"text": "saint james of jerusalem"
-		},
-		{
-			"type": "section_title",
-			"text": "_October 23_"
+			"text": "saint james of jerusalem{br}_October 23_"
 		},
 		{
 			"type": "text_block",
@@ -1462,11 +1186,7 @@
 	"st_john_evangelist": [
 		{
 			"type": "section_title",
-			"text": "saint john the evangelist"
-		},
-		{
-			"type": "section_title",
-			"text": "_December 27_"
+			"text": "saint john the evangelist{br}_December 27_"
 		},
 		{
 			"type": "text_block",
@@ -1476,11 +1196,7 @@
 	"st_joseph": [
 		{
 			"type": "section_title",
-			"text": "saint joseph"
-		},
-		{
-			"type": "section_title",
-			"text": "_March 19_"
+			"text": "saint joseph{br}_March 19_"
 		},
 		{
 			"type": "text_block",
@@ -1490,11 +1206,7 @@
 	"st_luke": [
 		{
 			"type": "section_title",
-			"text": "saint luke"
-		},
-		{
-			"type": "section_title",
-			"text": "_October 18_"
+			"text": "saint luke{br}_October 18_"
 		},
 		{
 			"type": "text_block",
@@ -1504,11 +1216,7 @@
 	"st_mark": [
 		{
 			"type": "section_title",
-			"text": "saint mark"
-		},
-		{
-			"type": "section_title",
-			"text": "_April 25_"
+			"text": "saint mark{br}_April 25_"
 		},
 		{
 			"type": "text_block",
@@ -1518,11 +1226,7 @@
 	"st_matthew": [
 		{
 			"type": "section_title",
-			"text": "saint matthew"
-		},
-		{
-			"type": "section_title",
-			"text": "_September 21_"
+			"text": "saint matthew{br}_September 21_"
 		},
 		{
 			"type": "text_block",
@@ -1532,11 +1236,7 @@
 	"st_matthias": [
 		{
 			"type": "section_title",
-			"text": "saint matthias"
-		},
-		{
-			"type": "section_title",
-			"text": "_February 24_"
+			"text": "saint matthias{br}_February 24_"
 		},
 		{
 			"type": "text_block",
@@ -1546,11 +1246,7 @@
 	"st_stephen": [
 		{
 			"type": "section_title",
-			"text": "saint stephen"
-		},
-		{
-			"type": "section_title",
-			"text": "_December 26_"
+			"text": "saint stephen{br}_December 26_"
 		},
 		{
 			"type": "text_block",
@@ -1560,11 +1256,7 @@
 	"st_thomas": [
 		{
 			"type": "section_title",
-			"text": "saint thomas"
-		},
-		{
-			"type": "section_title",
-			"text": "_December 21_"
+			"text": "saint thomas{br}_December 21_"
 		},
 		{
 			"type": "text_block",
@@ -1574,11 +1266,7 @@
 	"sts_peter_and_paul": [
 		{
 			"type": "section_title",
-			"text": "saint peter and saint paul"
-		},
-		{
-			"type": "section_title",
-			"text": "_June 29_"
+			"text": "saint peter and saint paul{br}_June 29_"
 		},
 		{
 			"type": "text_block",
@@ -1588,11 +1276,7 @@
 	"sts_philip_and_james": [
 		{
 			"type": "section_title",
-			"text": "saint philip and saint james"
-		},
-		{
-			"type": "section_title",
-			"text": "_May 1_"
+			"text": "saint philip and saint james{br}_May 1_"
 		},
 		{
 			"type": "text_block",
@@ -1602,11 +1286,7 @@
 	"sts_simon_and_jude": [
 		{
 			"type": "section_title",
-			"text": "saint simon and saint jude"
-		},
-		{
-			"type": "section_title",
-			"text": "_October 28_"
+			"text": "saint simon and saint jude{br}_October 28_"
 		},
 		{
 			"type": "text_block",
@@ -1626,11 +1306,7 @@
 	"thanksgiving_day": [
 		{
 			"type": "section_title",
-			"text": "thanksgiving day"
-		},
-		{
-			"type": "section_title",
-			"text": "_Canada and United States of America_"
+			"text": "thanksgiving day{br}_Canada and United States of America_"
 		},
 		{
 			"type": "text_block",
@@ -1640,11 +1316,7 @@
 	"the_epiphany": [
 		{
 			"type": "section_title",
-			"text": "the epiphany"
-		},
-		{
-			"type": "section_title",
-			"text": "_The Manifestation of Christ to the Gentiles_"
+			"text": "the epiphany{br}_The Manifestation of Christ to the Gentiles_"
 		},
 		{
 			"type": "text_block",
@@ -1654,11 +1326,7 @@
 	"transfiguration": [
 		{
 			"type": "section_title",
-			"text": "the transfiguration"
-		},
-		{
-			"type": "section_title",
-			"text": "_August 6_"
+			"text": "the transfiguration{br}_August 6_"
 		},
 		{
 			"type": "text_block",
@@ -1678,11 +1346,7 @@
 	"visitation": [
 		{
 			"type": "section_title",
-			"text": "the visitation"
-		},
-		{
-			"type": "section_title",
-			"text": "_May 31_"
+			"text": "the visitation{br}_May 31_"
 		},
 		{
 			"type": "text_block",

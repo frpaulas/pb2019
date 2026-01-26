@@ -283,7 +283,9 @@ class RawToJsonConverter {
 							'lords_prayer',
 							'scripture',
 							'ol',
-							'ul'
+							'ul',
+							'hr',
+							'vm'
 						];
 						if (validTypes.includes(nextType)) {
 							break;
@@ -381,6 +383,9 @@ class RawToJsonConverter {
 
 			case 'scripture':
 				return this.handleScripture(parts, content);
+
+			case 'hr':
+				return this.handleHorizontalRule();
 
 			default:
 				console.warn(`Warning line ${lineNum}: Unknown type "${type}"`);
@@ -899,7 +904,40 @@ class RawToJsonConverter {
 			};
 		}
 
-		// Default: return component type
+		// Default: check if a DPB file exists for this component in prayers/dpb
+		const componentDpbPath = path.join(
+			__dirname,
+			'..',
+			'src',
+			'lib',
+			'data',
+			'prayers',
+			'dpb',
+			`${componentName}.dpb`
+		);
+
+		if (fs.existsSync(componentDpbPath)) {
+			// Parse the component DPB and return its content blocks
+			console.log(`  📿 Inlining component: ${componentName}`);
+			const componentContent = fs.readFileSync(componentDpbPath, 'utf-8');
+			const componentTokens = this.tokenize(componentContent);
+			const componentItems = [];
+
+			componentTokens.forEach((token) => {
+				const item = this.parseToken(token);
+				if (item) {
+					if (Array.isArray(item)) {
+						componentItems.push(...item);
+					} else {
+						componentItems.push(item);
+					}
+				}
+			});
+
+			return componentItems;
+		}
+
+		// Fall back to component reference if no DPB file
 		const item = {
 			type: componentName
 		};
@@ -1109,6 +1147,12 @@ class RawToJsonConverter {
 	handleLineBreak() {
 		return {
 			type: 'line_break'
+		};
+	}
+
+	handleHorizontalRule() {
+		return {
+			type: 'hr'
 		};
 	}
 

@@ -16,6 +16,13 @@
 						"page": 33
 					},
 					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "midday prayer",
 						"size": "3xl"

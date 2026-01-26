@@ -2,9 +2,7 @@ pg: 6-10
 pb:6
 tp: Concerning the Divine Service of the Church
 
-st:1: concerning
-st:1: the divine service
-st:1: _of the church_
+st:1: concerning{br}the divine service{br}_of the church_
 tb: Daily Morning and Evening Prayer, the Great Litany, the Order for Holy Communion, and the Orders for Holy Baptism and Confirmation, as set forth in this Book, are the regular liturgies appointed for worship in this Church.
 tb: Daily Morning Prayer and Daily Evening Prayer are the established rites (offices) by which, both corporately and individually, God's people annually encounter the whole of the Holy Scriptures, daily confess their sins and praise Almighty God, and offer timely thanksgivings, petitions, and intercessions. The Prayer Book tradition has historically expected clergy to pray the Daily Office morning and evening each day.
 tb: The Great Litany is commonly used before the Holy Eucharist on the First Sunday of Advent and the First Sunday in Lent, and may be used on other Sundays as needed or as the Bishop directs. The Great Litany is especially appropriate for Rogation days, other days of fasting or thanksgiving, and occasions of solemn and comprehensive entreaty. It can be used as an independent rite, or at the conclusion of Morning or Evening Prayer.

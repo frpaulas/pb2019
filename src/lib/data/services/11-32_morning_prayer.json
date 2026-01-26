@@ -86,137 +86,6 @@
 						"text": "Let us humbly confess our sins to Almighty God."
 					},
 					{
-						"type": "section_title",
-						"text": "confession of sin"
-					},
-					{
-						"type": "rubric",
-						"text": "The Officiant says to the People"
-					},
-					{
-						"type": "text_block",
-						"text": "Dearly beloved, the Scriptures teach us to acknowledge our many sins and offenses, not concealing them from our heavenly Father, but confessing them with humble and obedient hearts that we may obtain forgiveness by his infinite goodness and mercy. We ought at all times humbly to acknowledge our sins before Almighty God, but especially when we come together in his presence to give thanks for the great benefits we have received at his hands, to declare his most worthy praise, to hear his holy Word, and to ask, for ourselves and on behalf of others, those things which are necessary for our life and our salvation. Therefore, draw near with me to the throne of heavenly grace."
-					},
-					{
-						"type": "rubric",
-						"text": "or this"
-					},
-					{
-						"type": "rubric",
-						"text": "Silence is kept. All kneeling, the Officiant and People say"
-					},
-					{
-						"type": "line",
-						"text": "Almighty and most merciful Father,",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "we have erred and strayed from your ways like lost sheep.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "We have followed too much the devices and desires",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "of our own hearts.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "We have offended against your holy laws.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "We have left undone those things which we ought to have done,",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "and we have done those things which we ought not",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "to have done;",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "and apart from your grace, there is no health in us.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "O Lord, have mercy upon us.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "Spare all those who confess their faults.",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "Restore all those who are penitent, according to your promises",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "declared to all people in Christ Jesus our Lord.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "And grant, O most merciful Father, for his sake,",
-						"bold": true
-					},
-					{
-						"type": "line",
-						"text": "that we may now live a godly, righteous, and sober life,",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "line",
-						"text": "to the glory of your holy Name. Amen.",
-						"bold": true,
-						"indent": true
-					},
-					{
-						"type": "rubric",
-						"text": "The Priest alone stands and says"
-					},
-					{
-						"type": "text_block",
-						"text": "Almighty God, the Father of our Lord Jesus Christ, desires not the death of sinners, but that they may turn from their wickedness and live. He has empowered and commanded his ministers to pronounce to his people, being penitent, the absolution and remission of their sins. He pardons and absolves all who truly repent and genuinely believe his holy Gospel. For this reason, we beseech him to grant us true repentance and his Holy Spirit, that our present deeds may please him, the rest of our lives may be pure and holy, and that at the last we may come to his eternal joy; through Jesus Christ our Lord. **Amen.**"
-					},
-					{
-						"type": "rubric",
-						"text": "or this"
-					},
-					{
-						"type": "text_block",
-						"text": "The Almighty and merciful Lord grant you absolution and remission of all your sins, true repentance, amendment of life, and the grace and consolation of his Holy Spirit. **Amen.**"
-					},
-					{
-						"type": "rubric",
-						"text": "A Deacon or layperson remains kneeling and prays"
-					},
-					{
-						"type": "text_block",
-						"text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. **Amen.**"
-					},
-					{
 						"type": "page_break",
 						"page": 13
 					},
@@ -406,7 +275,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "the psalm or psalms appointed: the psalm or psalms appointed"
+						"text": "the psalm or psalms appointed"
 					},
 					{
 						"type": "appointed_psalms",
@@ -421,7 +290,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "the lessons: the lessons"
+						"text": "the lessons"
 					},
 					{
 						"type": "appointed_readings",
@@ -524,7 +393,117 @@
 						"page": 20
 					},
 					{
-						"type": "apostles_creed"
+						"type": "section_title",
+						"text": "The Apostles' Creed"
+					},
+					{
+						"type": "rubric",
+						"text": "Officiant and People together, all standing"
+					},
+					{
+						"type": "line",
+						"text": "I believe in God, the Father almighty,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "creator of heaven and earth.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "I believe in Jesus Christ, his only Son, our Lord.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "He was conceived by the Holy Spirit",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and born of the Virgin Mary.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "He suffered under Pontius Pilate,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "was crucified, died, and was buried.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "He descended to the dead.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "On the third day he rose again.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "He ascended into heaven,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and is seated at the right hand of the Father.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "He will come again to judge the living and the dead.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "I believe in the Holy Spirit,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "the holy catholic Church,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "the communion of saints,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "the forgiveness of sins,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "the resurrection of the body,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and the life everlasting. Amen.",
+						"bold": true,
+						"indent": true
 					},
 					{
 						"type": "page_break",
@@ -657,12 +636,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "the collect of the day"
-					},
-					{
-						"type": "section_title",
-						"text": "_From the Collects of the Christian Year_",
-						"lowercase": true
+						"text": "the collect of the day{br}_From the Collects of the Christian Year_"
 					},
 					{
 						"type": "vertical_margin",
@@ -869,6 +843,10 @@
 						"page": 26
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "canticle",
 						"name": "chrysostom"
 					},
@@ -931,10 +909,6 @@
 						"text": "In the wilderness prepare the way of the Lord; make straight in the desert a highway for our God."
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 1
-					},
-					{
 						"type": "section_title",
 						"text": "christmas"
 					},
@@ -944,10 +918,6 @@
 						"text": "Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord."
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 1
-					},
-					{
 						"type": "section_title",
 						"text": "epiphany"
 					},
@@ -955,10 +925,6 @@
 						"type": "scripture",
 						"ref": "malachi 1:11",
 						"text": "From the rising of the sun to its setting my name will be great among the nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the nations, says the Lord of hosts."
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -989,10 +955,6 @@
 						"text": "If anyone would come after me, let him deny himself and take up his cross and follow me."
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 1
-					},
-					{
 						"type": "section_title",
 						"text": "holy week"
 					},
@@ -1006,10 +968,6 @@
 						"page": 28
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 1
-					},
-					{
 						"type": "section_title",
 						"text": "easter"
 					},
@@ -1017,10 +975,6 @@
 						"type": "scripture",
 						"ref": "colossians 3:1",
 						"text": "If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God."
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -1032,10 +986,6 @@
 						"text": "Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession. Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need."
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 1
-					},
-					{
 						"type": "section_title",
 						"text": "pentecost: pentecost"
 					},
@@ -1043,10 +993,6 @@
 						"type": "scripture",
 						"ref": "acts 1:8",
 						"text": "You will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth."
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -1058,10 +1004,6 @@
 						"text": "Holy, holy, holy, is the Lord God Almighty, who was and is and is to come!"
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 1
-					},
-					{
 						"type": "section_title",
 						"text": "days of thanksgiving"
 					},
@@ -1069,10 +1011,6 @@
 						"type": "scripture",
 						"ref": "proverbs 3:9-10",
 						"text": "Honor the Lord with your wealth and with the firstfruits of all your produce; then your barns will be filled with plenty, and your vats will be bursting with wine."
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -1111,20 +1049,12 @@
 						"text": "seasonal antiphons"
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 1
-					},
-					{
 						"type": "section_title",
 						"text": "advent"
 					},
 					{
 						"type": "line",
 						"text": "Our King and Savior now draws near: * O come, let us adore him."
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -1141,10 +1071,6 @@
 						"indent": true
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 1
-					},
-					{
 						"type": "section_title",
 						"text": "epiphany, and the feast of the transfiguration"
 					},
@@ -1157,10 +1083,6 @@
 						"text": "O come, let us adore him.",
 						"bold": true,
 						"indent": true
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -1181,10 +1103,6 @@
 						"page": 30
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 1
-					},
-					{
 						"type": "section_title",
 						"text": "lent"
 					},
@@ -1197,10 +1115,6 @@
 						"text": "O come, let us adore him.",
 						"bold": true,
 						"indent": true
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -1217,10 +1131,6 @@
 						"indent": true
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 1
-					},
-					{
 						"type": "section_title",
 						"text": "ascension until pentecost"
 					},
@@ -1233,10 +1143,6 @@
 						"text": "O come, let us adore him. Alleluia.",
 						"bold": true,
 						"indent": true
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -1253,10 +1159,6 @@
 						"indent": true
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 1
-					},
-					{
 						"type": "section_title",
 						"text": "trinity sunday"
 					},
@@ -1269,10 +1171,6 @@
 						"text": "O come, let us adore him.",
 						"bold": true,
 						"indent": true
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -1291,10 +1189,6 @@
 					{
 						"type": "page_break",
 						"page": 31
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 2
 					},
 					{
 						"type": "section_title",

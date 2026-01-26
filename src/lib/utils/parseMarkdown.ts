@@ -3,7 +3,7 @@ import type { LiturgicalContextState } from '$lib/stores/liturgical';
 
 /**
  * Parse markdown for bold (**text**), italic (*text* or _text_), lowercase (~text~),
- * and template substitutions (__template__)
+ * line breaks ({{br}}), and template substitutions (__template__)
  * @param input - The text to parse
  * @param context - Optional liturgical context for template resolution
  * @returns HTML string with markdown converted to HTML tags
@@ -17,6 +17,9 @@ export function parseMarkdown(input: string, context?: LiturgicalContextState): 
 	if (context) {
 		result = resolveTemplate(result, context);
 	}
+
+	// Handle line breaks: {br}
+	result = result.replace(/\{br\}/g, '<br />');
 
 	// Handle blank lines NEXT: ___10___ creates a 10-character underscore blank
 	// Replace with a temporary placeholder to avoid conflicts with bold/italic

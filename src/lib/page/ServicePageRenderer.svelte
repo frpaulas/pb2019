@@ -8,7 +8,6 @@
 	import Versical from '$lib/page_helpers/versical.svelte';
 	import Antiphon from '$lib/page_helpers/antiphon.svelte';
 	import Ref from '$lib/page_helpers/ref.svelte';
-	import OrThis from '$lib/text_component/or_this.svelte';
 	import Gloria from '$lib/text_component/gloria.svelte';
 	import ShowPsalm from '$lib/page_helpers/show_psalm.svelte';
 	import ShowAppointedPsalms from '$lib/page_helpers/show_appointed_psalms.svelte';
@@ -25,13 +24,8 @@
 	import PageVI from '$lib/text_component/vi.svelte';
 	import PageVII from '$lib/text_component/vii.svelte';
 
-	// Dynamically import all canticles
-	const canticleModules = import.meta.glob('$lib/canticle/*.svelte', { eager: true });
-	const canticleMap = {};
-	for (const path in canticleModules) {
-		const name = path.match(/\/([^/]+)\.svelte$/)[1];
-		canticleMap[name] = canticleModules[path].default;
-	}
+	// Import canticles from JSON (lazy lookup instead of eager component loading)
+	import canticlesData from '$lib/data/canticles/canticles.json';
 
 	// Import collects from JSON (lazy lookup instead of eager component loading)
 	import collectsData from '$lib/data/collects/collects.json';
@@ -52,6 +46,8 @@
 {#each pageData.content as block}
 	{#if block.type === 'vertical_margin'}
 		<div style="height: {block.spacing}em;"></div>
+	{:else if block.type === 'hr'}
+		<hr class="horizontal-rule" />
 	{:else if block.type === 'section_title'}
 		<SectionTitle
 			size={block.size}
@@ -78,8 +74,6 @@
 		<Antiphon call={block.call} response={block.response} />
 	{:else if block.type === 'ref'}
 		<Ref text={block.text} />
-	{:else if block.type === 'or_this'}
-		<OrThis />
 	{:else if block.type === 'gloria'}
 		<Gloria versical={block.versical || false} />
 	{:else if block.type === 'show_psalm'}
@@ -105,9 +99,32 @@
 	{:else if block.type === 'office_absolution'}
 		<OfficeAbsolution />
 	{:else if block.type === 'canticle'}
-		{@const CanticleComponent = canticleMap[block.name]}
-		{#if CanticleComponent}
-			<CanticleComponent />
+		{@const canticleBlocks = canticlesData[block.name]}
+		{#if canticleBlocks}
+			{#each canticleBlocks as canticleBlock}
+				{#if canticleBlock.type === 'section_title'}
+					<SectionTitle
+						fancy={canticleBlock.fancy || false}
+						latin_size={canticleBlock.latin_size || false}>{canticleBlock.text}</SectionTitle
+					>
+				{:else if canticleBlock.type === 'rubric'}
+					<Rubric>{canticleBlock.text}</Rubric>
+				{:else if canticleBlock.type === 'text_block'}
+					<TextBlock amen={canticleBlock.amen || false}>{canticleBlock.text}</TextBlock>
+				{:else if canticleBlock.type === 'line'}
+					<Line
+						bold={canticleBlock.bold || false}
+						indent={canticleBlock.indent || false}
+						text={canticleBlock.text}
+					/>
+				{:else if canticleBlock.type === 'ref'}
+					<Ref text={canticleBlock.text} />
+				{:else if canticleBlock.type === 'gloria'}
+					<Gloria />
+				{:else if canticleBlock.type === 'vertical_margin'}
+					<div style="height: {canticleBlock.spacing}em;"></div>
+				{/if}
+			{/each}
 		{:else}
 			<p class="text-red-500">Unknown canticle: {block.name}</p>
 		{/if}
@@ -145,3 +162,13 @@
 {/each}
 
 <PageNumber page={pageData.pageNumber} text={pageData.headerText} />
+
+<style>
+	.horizontal-rule {
+		border: none;
+		border-top: 1px solid #9ca3af;
+		border-bottom: 1px solid #9ca3af;
+		height: 3px;
+		margin: 1em 0;
+	}
+</style>

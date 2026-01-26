@@ -17,17 +17,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "concerning",
-						"size": "xl"
-					},
-					{
-						"type": "section_title",
-						"text": "the divine service",
-						"size": "xl"
-					},
-					{
-						"type": "section_title",
-						"text": "_of the church_",
+						"text": "concerning{br}the divine service{br}_of the church_",
 						"size": "xl"
 					},
 					{

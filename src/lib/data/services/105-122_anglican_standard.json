@@ -165,7 +165,110 @@
 						"page": 107
 					},
 					{
-						"type": "gloria_in_excelsis"
+						"type": "section_title",
+						"text": "the gloria in excelsis"
+					},
+					{
+						"type": "rubric",
+						"text": "Gloria or some other song of praise may be sung or said, all standing. It is appropriate to omit the song of praise during penitential seasons and days appointed for fasting."
+					},
+					{
+						"type": "line",
+						"text": "Glory to God in the highest,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and peace to his people on earth.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Lord God, heavenly King,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "almighty God and Father,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we worship you, we give you thanks,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "we praise you for your glory.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Lord Jesus Christ, only Son of the Father,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "Lord God, Lamb of God,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "you take away the sin of the world:",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "have mercy on us;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "you are seated at the right hand of the Father:",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "receive our prayer.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "For you alone are the Holy One,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "you alone are the Lord,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "you alone are the Most High,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "Jesus Christ,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "with the Holy Spirit,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "in the glory of God the Father. Amen.",
+						"bold": true,
+						"indent": true
 					},
 					{
 						"type": "section_title",
@@ -1011,7 +1114,42 @@
 						"indent": true
 					},
 					{
-						"type": "agnus_dei"
+						"type": "section_title",
+						"text": "the agnus dei"
+					},
+					{
+						"type": "rubric",
+						"text": "The following or some other suitable anthem may be sung or said here"
+					},
+					{
+						"type": "line",
+						"text": "Lamb of God, you take away the sin of the world;"
+					},
+					{
+						"type": "line",
+						"text": "have mercy on us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Lamb of God, you take away the sin of the world;"
+					},
+					{
+						"type": "line",
+						"text": "have mercy on us.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "Lamb of God, you take away the sin of the world;"
+					},
+					{
+						"type": "line",
+						"text": "grant us your peace.",
+						"bold": true,
+						"indent": true
 					},
 					{
 						"type": "section_title",
