@@ -880,6 +880,15 @@ class RawToJsonConverter {
 			};
 		}
 
+		// Handle seasonal_antiphon: use:seasonal_antiphon
+		// Format: use:seasonal_antiphon
+		// Renders the appropriate seasonal antiphon at runtime based on liturgical season
+		if (componentName === 'seasonal_antiphon') {
+			return {
+				type: 'seasonal_antiphon'
+			};
+		}
+
 		// Handle occasional_prayer: use:occasional_prayer:1
 		// Format: use:occasional_prayer:number
 		if (componentName === 'occasional_prayer') {

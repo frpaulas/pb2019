@@ -1,0 +1,156 @@
+{
+	"advent": [
+		{
+			"type": "section_title",
+			"text": "advent"
+		},
+		{
+			"type": "line",
+			"text": "Our King and Savior now draws near: * O come, let us adore him."
+		}
+	],
+	"all_saints": [
+		{
+			"type": "section_title",
+			"text": "all saints' and other major saints' days"
+		},
+		{
+			"type": "line",
+			"text": "The Lord is glorious in his saints: *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"indent": true,
+			"text": "O come, let us adore him."
+		}
+	],
+	"ascension": [
+		{
+			"type": "section_title",
+			"text": "ascension until pentecost"
+		},
+		{
+			"type": "line",
+			"text": "Alleluia. Christ the Lord has ascended into heaven: *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"indent": true,
+			"text": "O come, let us adore him. Alleluia."
+		}
+	],
+	"christmas": [
+		{
+			"type": "section_title",
+			"text": "christmas"
+		},
+		{
+			"type": "line",
+			"text": "Alleluia, to us a child is born: *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"indent": true,
+			"text": "O come, let us adore him. Alleluia."
+		}
+	],
+	"easter": [
+		{
+			"type": "section_title",
+			"text": "easter until ascension"
+		},
+		{
+			"type": "line",
+			"text": "Alleluia. The Lord is risen indeed: *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"indent": true,
+			"text": "O come, let us adore him. Alleluia."
+		}
+	],
+	"epiphany": [
+		{
+			"type": "section_title",
+			"text": "epiphany, and the feast of the transfiguration"
+		},
+		{
+			"type": "line",
+			"text": "The Lord has shown forth his glory: *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"indent": true,
+			"text": "O come, let us adore him."
+		}
+	],
+	"lent": [
+		{
+			"type": "section_title",
+			"text": "lent"
+		},
+		{
+			"type": "line",
+			"text": "The Lord is full of compassion and mercy: *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"indent": true,
+			"text": "O come, let us adore him."
+		}
+	],
+	"pentecost": [
+		{
+			"type": "section_title",
+			"text": "day of pentecost"
+		},
+		{
+			"type": "line",
+			"text": "Alleluia. The Spirit of the Lord renews the face of the earth: *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"indent": true,
+			"text": "O come, let us adore him. Alleluia."
+		}
+	],
+	"presentation": [
+		{
+			"type": "section_title",
+			"text": "presentation and annunciation"
+		},
+		{
+			"type": "line",
+			"text": "The Word was made flesh and dwelt among us: *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"indent": true,
+			"text": "O come, let us adore him."
+		}
+	],
+	"trinity": [
+		{
+			"type": "section_title",
+			"text": "trinity sunday"
+		},
+		{
+			"type": "line",
+			"text": "Father, Son, and Holy Spirit, one God: *"
+		},
+		{
+			"type": "line",
+			"bold": true,
+			"indent": true,
+			"text": "O come, let us adore him."
+		}
+	]
+}

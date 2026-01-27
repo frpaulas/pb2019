@@ -14,6 +14,7 @@
 	import ShowAppointedReadings from '$lib/page_helpers/show_appointed_readings.svelte';
 	import ShowEucharistReadings from '$lib/page_helpers/show_eucharist_readings.svelte';
 	import SeasonalScripture from '$lib/page_helpers/seasonal_scripture.svelte';
+	import SeasonalAntiphon from '$lib/page_helpers/seasonal_antiphon.svelte';
 	import OfficeConfessionIntro from '$lib/prayer/office_confession_intro.svelte';
 	import OfficeConfession from '$lib/prayer/office_confession.svelte';
 	import OfficeAbsolution from '$lib/prayer/office_absolution.svelte';
@@ -95,6 +96,8 @@
 		<ShowEucharistReadings type={block.readingType} />
 	{:else if block.type === 'seasonal_scripture'}
 		<SeasonalScripture office={block.office} />
+	{:else if block.type === 'seasonal_antiphon'}
+		<SeasonalAntiphon />
 	{:else if block.type === 'office_confession_intro'}
 		<OfficeConfessionIntro />
 	{:else if block.type === 'office_confession'}

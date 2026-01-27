@@ -35,6 +35,9 @@ pb:14
 r: Then follows the Venite. Alternatively, the Jubilate may be used.
 r: One of these antiphons, or one from the seasonal antiphons provided
     at the end of the Office (pages 29-30), may be sung or said before and after the Invitatory Psalm. antiphon:
+vm:2
+use:seasonal_antiphon:
+r:or this
 l:The earth is the Lord’s for he made it: *
 l:i:b: O come, let us adore him.
 r:or this

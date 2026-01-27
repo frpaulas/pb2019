@@ -291,6 +291,17 @@
 						]
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
+						"type": "seasonal_antiphon"
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
 						"type": "line",
 						"text": "The earth is the Lord’s for he made it: *"
 					},

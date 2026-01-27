@@ -157,3 +157,38 @@ if [ "$SENTENCES_REBUILD_NEEDED" = true ]; then
 else
     echo "✅ opening_sentences.json is up to date!"
 fi
+
+# Check antiphons
+echo ""
+echo "🔍 Checking for outdated antiphons.json..."
+
+ANTIPHONS_DIR="$(dirname "$0")/../src/lib/data/antiphon"
+ANTIPHONS_DPB_DIR="$ANTIPHONS_DIR/dpb"
+ANTIPHONS_JSON="$ANTIPHONS_DIR/antiphons.json"
+ANTIPHONS_REBUILD_NEEDED=false
+
+if [ ! -f "$ANTIPHONS_JSON" ]; then
+    echo "⚠️  Missing antiphons.json"
+    ANTIPHONS_REBUILD_NEEDED=true
+else
+    for dpb_file in "$ANTIPHONS_DPB_DIR"/*.dpb; do
+        if [ ! -f "$dpb_file" ]; then
+            continue
+        fi
+        if [ "$dpb_file" -nt "$ANTIPHONS_JSON" ]; then
+            basename=$(basename "$dpb_file" .dpb)
+            echo "📝 Outdated: antiphons.json ($basename.dpb is newer)"
+            ANTIPHONS_REBUILD_NEEDED=true
+            break
+        fi
+    done
+fi
+
+if [ "$ANTIPHONS_REBUILD_NEEDED" = true ]; then
+    echo ""
+    echo "🔨 Rebuilding antiphons.json..."
+    node "$(dirname "$0")/build-antiphons-json.cjs"
+    echo "✅ Antiphons updated!"
+else
+    echo "✅ antiphons.json is up to date!"
+fi
