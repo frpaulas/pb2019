@@ -4,6 +4,35 @@
 	import { goto } from '$app/navigation';
 	import { getPageName } from '$lib/page_helpers/nav_helpers.svelte';
 	import { currentVisiblePage } from '$lib/stores/currentPage.js';
+	import { season, colors } from '$lib/stores/liturgical';
+
+	// Map season to display name
+	const seasonDisplayNames: Record<string, string> = {
+		advent: 'Advent',
+		christmas: 'Christmas',
+		epiphany: 'Epiphany',
+		lent: 'Lent',
+		easter: 'Easter',
+		ascension: 'Ascension',
+		pentecost: 'Pentecost',
+		trinity: 'Trinity',
+		proper: 'Ordinary Time'
+	};
+
+	// Map liturgical colors to CSS background colors
+	const colorMap: Record<string, { bg: string; text: string }> = {
+		purple: { bg: '#6B21A8', text: 'white' },
+		white: { bg: '#F5F5F4', text: '#1C1917' },
+		green: { bg: '#166534', text: 'white' },
+		red: { bg: '#991B1B', text: 'white' },
+		blue: { bg: '#1E40AF', text: 'white' },
+		rose: { bg: '#BE185D', text: 'white' },
+		black: { bg: '#1C1917', text: 'white' }
+	};
+
+	let seasonName = $derived(seasonDisplayNames[$season] || '');
+	let liturgicalColor = $derived($colors?.[0] || 'green');
+	let headerColors = $derived(colorMap[liturgicalColor] || colorMap.green);
 
 	// Use the currentVisiblePage store which updates during infinite scroll
 	let page_number = $derived($currentVisiblePage || $page.params.page_number || 'iii');
@@ -125,28 +154,45 @@
 	];
 </script>
 
-<header class="fixed w-full max-w-180 border-b bg-white shadow-md">
+<header
+	class="fixed w-full max-w-180 border-b shadow-md"
+	style="background-color: {headerColors.bg};"
+>
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-		<div class="flex items-center justify-between py-4">
+		<div class="flex items-center justify-between py-3">
 			<!-- Logo/Title -->
 			<div class="flex-shrink-0">
-				<a href="{base}/pg/iii" class="text-xl font-bold text-gray-900">PB2019</a>
+				<a
+					href="{base}/pg/iii"
+					class="block leading-tight font-bold"
+					style="color: {headerColors.text};"
+				>
+					<span class="text-lg">PB2019</span>
+					{#if seasonName}
+						<span class="block text-xs font-normal opacity-80">{seasonName}</span>
+					{/if}
+				</a>
 			</div>
-			<div class="flex items-center gap-2 text-sm text-gray-500">
+			<div
+				class="flex items-center gap-2 text-sm"
+				style="color: {headerColors.text}; opacity: 0.8;"
+			>
 				<span>{getPageName(page_number)}</span>
 				<input
 					type="text"
 					bind:value={inputPageNumber}
 					onkeydown={handlePageNavigation}
 					placeholder={page_number}
-					class="w-16 rounded border border-gray-300 px-2 py-1 text-center text-sm focus:border-blue-500 focus:ring-1 focus:ring-blue-500 focus:outline-none"
+					class="w-16 rounded border border-white/30 bg-white/20 px-2 py-1 text-center text-sm focus:border-white/60 focus:ring-1 focus:ring-white/40 focus:outline-none"
+					style="color: {headerColors.text};"
 				/>
 			</div>
 
 			<!-- Hamburger Button -->
 			<button
 				onclick={toggleMenu}
-				class="inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-100 hover:text-gray-900 focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-inset"
+				class="inline-flex items-center justify-center rounded-md p-2 hover:bg-white/20 focus:ring-2 focus:ring-white/50 focus:outline-none focus:ring-inset"
+				style="color: {headerColors.text};"
 				aria-expanded={isMenuOpen}
 			>
 				<span class="sr-only">Open main menu</span>

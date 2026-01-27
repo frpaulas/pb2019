@@ -3,6 +3,8 @@
  * Maps calendar dates to Sunday lectionary keys based on liturgical calendar rules
  */
 
+import { getSundayReadings } from './sunday_lectionary';
+
 /**
  * Calculate Easter Sunday for a given year using the Anonymous Gregorian algorithm
  * (Meeus/Jones/Butcher algorithm)
@@ -480,4 +482,31 @@ export function getDetailedLiturgicalSeason(date: Date): string {
 	}
 
 	return 'proper';
+}
+
+/**
+ * Get the liturgical color based on the most recent Sunday.
+ * On a Sunday, returns that Sunday's color. On weekdays, returns the previous Sunday's color.
+ *
+ * @param date - The date to check
+ * @returns Liturgical color string ('white' | 'red' | 'purple' | 'green')
+ */
+export function getPreviousSundayColor(date: Date): string {
+	const dayOfWeek = date.getDay();
+
+	// Get the most recent Sunday (or today if it's Sunday)
+	const sunday = new Date(date);
+	if (dayOfWeek !== 0) {
+		sunday.setDate(sunday.getDate() - dayOfWeek);
+	}
+
+	const key = getSundayLectionaryKeyForDate(sunday);
+	if (key) {
+		const readings = getSundayReadings(key);
+		if (readings?.color) {
+			return readings.color;
+		}
+	}
+
+	return 'green';
 }
