@@ -1,28 +1,40 @@
 pg: 41-56
 pb:41
+hr:
+vm:2
 tp: Daily Evening Prayer
 
 st:2: daily evening prayer
 r: The Officiant may begin Evening Prayer by reading an opening sentence of Scripture.
     One of the following, or a sentence from among those provided at the end of the Office
     (pages 54-56), is customary.
+use:seasonal_scripture:ep
+r: or this
 scripture:john 8:12:: Jesus spoke to them, saying, "I am the light of the world. Whoever follows me will not walk in darkness, but will have the light of life."
 r: or this
 scripture:psalm 26:8:: Lord, I have loved the habitation of your house and the place where your honor dwells.
 r: or this
 scripture:psalm 141:2:: Let my prayer be set forth in your sight as incense, and let the lifting up of my hands be an evening sacrifice.
 
-use:prayer:office_confession:
+use:prayer:office_confession_intro:
 
+pb:42
+use:prayer:confession:
+
+pb:43
+use:prayer:office_absolution
+vm:2
 st: the invitatory
 r: All stand.
 v:officiant: O Lord, open our lips;
 v:people: And our mouth shall proclaim your praise.
 v:officiant: O God, make speed to save us;
 v:people: O Lord, make haste to help us.
-use:gloria:
-v:officiant: Officiant Praise the Lord.
+v:officiant: Glory be to the Father, and to the Son, and to the Holy Spirit;
+v:people: As it was in the beginning, is now, and ever shall be,world without end. Amen.
+v:officiant: Praise the Lord.
 v:people: The Lord's Name be praised.
+
 pb:44
 r: The following or some other suitable hymn or Psalm may be sung or said.
 use:canticle:phos_hilaron
@@ -101,50 +113,16 @@ r: The Officiant then prays one or more of the following Collects, always beginn
     of any of the weekdays following, or of the Holy Day being observed) found on pages 598-640.
     It is traditional to pray the Collects for Peace and Aid against Perils daily.
     Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics.
-st: the collect of the day
-st:lc: _From the Collects of the Christian Year_
-st: a collect for resurrection hope
-st:lc: _Sunday_
-tb: Lord God, whose Son our Savior Jesus Christ triumphed over the powers of death and prepared
-    for us our place in the new Jerusalem: Grant that we, who have this day given thanks for
-    his resurrection, may praise you in that City of which he is the light, and where he lives
-    and reigns for ever and ever.
-st: a collect for peace
-st:lc: _Monday_
-tb: O God, the source of all holy desires, all good counsels, and all just works:
-    Give to your servants that peace which the world cannot give, that our hearts
-    may be set to obey your commandments, and that we, being defended from the fear
-    of our enemies, may pass our time in rest and quietness; through the merits of Jesus Christ our Savior.
-st: a collect for aid against perils
-st:lc: _Tuesday_
-tb: Lighten our darkness, we beseech you, O Lord; and by your great mercy defend us
-    from all perils and dangers of this night; for the love of your only Son, our Savior Jesus Christ.
-
+st: the collect of the day{br}_From the Collects of the Christian Year_
+use:collects:ep_sunday
+use:collects:ep_monday
+use:collects:ep_tuesday
+use:collects:ep_wednesday
 pb:50
-st: a collect for protection
-st:lc: _Wednesday_
-tb: O God, the life of all who live, the light of the faithful, the strength of those
-    who labor, and the repose of the dead: We thank you for the blessings of the day
-    that is past, and humbly ask for your protection through the coming night.
-    Bring us in safety to the morning hours; through him who died and rose again for us,
-    your Son our Savior Jesus Christ.
-st: a collect for the presence of christ
-st:lc: _Thursday_
-tb: Lord Jesus, stay with us, for evening is at hand and the day is past;
-    be our companion in the way, kindle our hearts, and awaken hope, that
-    we may know you as you are revealed in Scripture and the breaking of bread.
-    Grant this for the sake of your love.
-st: a collect for faith
-st:lc: _Friday_
-tb: Lord Jesus Christ, by your death you took away the sting of death:
-    Grant to us your servants so to follow in faith where you have led the way,
-    that we may at length fall asleep peacefully in you and wake up in your likeness;
-    for your tender mercies' sake.
-st: a collect for the eve of worship
-st:lc: _Saturday_
-tb: O God, the source of eternal light: Shed forth your unending day upon us who
-    watch for you, that our lips may praise you, our lives may bless you, and our worship
-    on the morrow give you glory; through Jesus Christ our Lord.
+use:collects:ep_thursday
+use:collects:ep_friday
+use:collects:ep_saturday
+
 
 pb:51
 st: prayer for mission
@@ -165,6 +143,7 @@ r: A hymn or anthem may be sung.
 r: Before the close of the Office one or both of the following prayers may be used.
 use:prayer:general_thanksgiving:
 pb:52
+vm:2
 use:canticle:chrysostom:
 v:officiant: Let us bless the Lord.
 v:people: Thanks be to God.
@@ -178,36 +157,20 @@ scripture:ephesians 3:20-21:: Glory to God whose power, working in us, can do in
 
 pb:54
 st: opening sentences of scripture
-st: advent
-scripture:mark 13:35-36:: Therefore stay awake—for you do not know when the master of the house will come, in the evening, or at midnight, or when the rooster crows, or in the morning—lest he come suddenly and find you asleep.
-st: christmas
-scripture:revelation 21:3:: Behold, the dwelling place of God is with man. He will dwell with them, and they will be his people, and God himself will be with them as their God.
-st: epiphany
-scripture:isaiah 60:3:: Nations shall come to your light, and kings to the brightness of your rising.
-st: lent and other penitential occasions
-scripture:1 john 1:8-9:: If we say we have no sin, we deceive ourselves, and the truth is not in us. If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.
-scripture:psalm 51:3:: For I acknowledge my faults, and my sin is ever before me.
-scripture:daniel 9:9:: To the Lord our God belong mercy and forgiveness, for we have rebelled against him.
-
+use:opening_sentences:ep_advent
+use:opening_sentences:ep_christmas
+use:opening_sentences:ep_epiphany
+use:opening_sentences:ep_lent
 pb:55
-st: holy week
-scripture:isaiah 53:6:: All we like sheep have gone astray; we have turned every one to his own way; and the Lord has laid on him the iniquity of us all.
-st: easter
-scripture:1 corinthians 15:57:: Thanks be to God, who gives us the victory through our Lord Jesus Christ.
-st: ascension
-scripture:hebrews 9:24:: For Christ has entered, not into holy places made with hands, which are copies of the true things, but into heaven itself, now to appear in the presence of God on our behalf.
-st: pentecost
-scripture:revelation 22:17:: The Spirit and the Bride say, "Come." And let the one who hears say, "Come." And let the one who is thirsty come; let the one who desires take the water of life without price.
-scripture:psalm 46:4:: There is a river whose streams make glad the city of God, the holy dwelling place of the Most High.
-st: trinity sunday
-scripture:isaiah 6:3:: Holy, holy, holy is the Lord of Hosts; the whole earth is full of his glory!
-st: days of thanksgiving
-scripture:proverbs 3:19-20:: The Lord by wisdom founded the earth; by understanding he established the heavens; by his knowledge the deeps broke open, and the clouds drop down the dew.
+use:opening_sentences:ep_holy_week
+use:opening_sentences:ep_easter
+use:opening_sentences:ep_ascension
+use:opening_sentences:ep_pentecost
+use:opening_sentences:ep_trinity_sunday
+use:opening_sentences:ep_thanksgiving
 
 pb:56
-st: at any time
-scripture:psalm 96:9:: O worship the Lord in the beauty of holiness; let the whole earth stand in awe of him.
-scripture:psalm 16:8-9:: I will thank the Lord for giving me counsel; my heart also chastens me in the night season. I have set the Lord always before me; he is at my right hand, therefore I shall not fall.
+use:opening_sentences:ep_any_time
 
 st:1: additional directions
 tb: The Confession and Apostles' Creed may be omitted, provided each is said at least once during the course of the day.

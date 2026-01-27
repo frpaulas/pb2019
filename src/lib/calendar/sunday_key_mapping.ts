@@ -399,3 +399,85 @@ export function getLiturgicalSeason(
 
 	return null;
 }
+
+/**
+ * Get the detailed liturgical season for the store, distinguishing
+ * ascension, trinity, and proper seasons.
+ *
+ * Returns a season key matching the LiturgicalSeason type:
+ * 'advent' | 'christmas' | 'epiphany' | 'lent' | 'easter' | 'ascension' | 'pentecost' | 'trinity' | 'proper'
+ */
+export function getDetailedLiturgicalSeason(date: Date): string {
+	const year = date.getFullYear();
+
+	// We need to check two possible liturgical years:
+	// - If before Advent 1 of this year, we're in the liturgical year that started last year
+	// - If after Advent 1 of this year, we've started a new liturgical year
+	const dates = calculateLiturgicalDates(year);
+	const prevYearDates = calculateLiturgicalDates(year - 1);
+
+	// Handle Jan-early Jan: could be in previous year's Christmas season
+	// Christmas of prev year to Epiphany of this year
+	const prevChristmas = prevYearDates.christmasDay;
+	const thisEpiphany = new Date(year, 0, 6); // Jan 6
+
+	if (date >= prevChristmas && date < thisEpiphany) {
+		return 'christmas';
+	}
+
+	// Advent: Advent 1 to Christmas Eve
+	if (date >= dates.advent1 && date < dates.christmasDay) {
+		return 'advent';
+	}
+
+	// Christmas: Christmas Day to Dec 31
+	if (date >= dates.christmasDay) {
+		return 'christmas';
+	}
+
+	// Epiphany: Jan 6 to Ash Wednesday Eve
+	if (date >= thisEpiphany && date < dates.ashWednesday) {
+		return 'epiphany';
+	}
+
+	// Lent: Ash Wednesday to Palm Sunday Eve
+	// Holy Week: Palm Sunday to Easter Eve
+	if (date >= dates.ashWednesday && date < dates.palmSunday) {
+		return 'lent';
+	}
+	if (date >= dates.palmSunday && date < dates.easterDay) {
+		return 'lent'; // Holy Week is still Lent for opening sentences
+	}
+
+	// Easter: Easter Day to Ascension Thursday Eve
+	if (date >= dates.easterDay && date < dates.ascensionThursday) {
+		return 'easter';
+	}
+
+	// Ascension: Ascension Thursday to Pentecost Eve
+	if (date >= dates.ascensionThursday && date < dates.pentecostSunday) {
+		return 'ascension';
+	}
+
+	// Pentecost Sunday
+	if (isSameDay(date, dates.pentecostSunday)) {
+		return 'pentecost';
+	}
+
+	// Trinity Sunday
+	if (isSameDay(date, dates.trinitySunday)) {
+		return 'trinity';
+	}
+
+	// Proper season (ordinary time after Trinity)
+	if (date > dates.trinitySunday && date < dates.advent1) {
+		return 'proper';
+	}
+
+	// Pentecost week (between Pentecost and Trinity)
+	if (date > dates.pentecostSunday && date <= dates.trinitySunday) {
+		return 'pentecost';
+	}
+
+	return 'proper';
+}

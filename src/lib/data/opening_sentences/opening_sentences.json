@@ -1,0 +1,308 @@
+{
+	"ep_advent": [
+		{
+			"type": "section_title",
+			"text": "advent"
+		},
+		{
+			"type": "scripture",
+			"ref": "mark 13:35-36",
+			"text": "Therefore stay awake—for you do not know when the master of the house will come, in the evening, or at midnight, or when the rooster crows, or in the morning—lest he come suddenly and find you asleep."
+		}
+	],
+	"ep_any_time": [
+		{
+			"type": "section_title",
+			"text": "at any time"
+		},
+		{
+			"type": "scripture",
+			"ref": "psalm 96:9",
+			"text": "O worship the Lord in the beauty of holiness; let the whole earth stand in awe of him."
+		},
+		{
+			"type": "scripture",
+			"ref": "psalm 16:8-9",
+			"text": "I will thank the Lord for giving me counsel; my heart also chastens me in the night    season. I have set the Lord always before me; he is at my right hand, therefore I shall not fall."
+		}
+	],
+	"ep_ascension": [
+		{
+			"type": "section_title",
+			"text": "ascension"
+		},
+		{
+			"type": "scripture",
+			"ref": "hebrews 9:24",
+			"text": "For Christ has entered, not into holy places made with hands, which are copies of the true things, but into heaven itself, now to appear in the presence of God on our behalf."
+		}
+	],
+	"ep_christmas": [
+		{
+			"type": "section_title",
+			"text": "christmas"
+		},
+		{
+			"type": "scripture",
+			"ref": "revelation 21:3",
+			"text": "Behold, the dwelling place of God is with man. He will dwell with them, and they will be his people, and God himself will be with them as their God."
+		}
+	],
+	"ep_easter": [
+		{
+			"type": "section_title",
+			"text": "easter"
+		},
+		{
+			"type": "scripture",
+			"ref": "1 corinthians 15:57",
+			"text": "Thanks be to God, who gives us the victory through our Lord Jesus Christ."
+		}
+	],
+	"ep_epiphany": [
+		{
+			"type": "section_title",
+			"text": "epiphany"
+		},
+		{
+			"type": "scripture",
+			"ref": "isaiah 60:3",
+			"text": "Nations shall come to your light, and kings to the brightness of your rising."
+		}
+	],
+	"ep_holy_week": [
+		{
+			"type": "section_title",
+			"text": "holy week"
+		},
+		{
+			"type": "scripture",
+			"ref": "1 john 1:8-9",
+			"text": "If we say we have no sin, we deceive ourselves, and the truth is not in us. If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness."
+		},
+		{
+			"type": "scripture",
+			"ref": "psalm 51:3",
+			"text": "For I acknowledge my faults, and my sin is ever before me."
+		},
+		{
+			"type": "scripture",
+			"ref": "daniel 9:9",
+			"text": "To the Lord our God belong mercy and forgiveness, for we have rebelled against him."
+		}
+	],
+	"ep_lent": [
+		{
+			"type": "section_title",
+			"text": "lent and other penitential occasions"
+		},
+		{
+			"type": "scripture",
+			"ref": "1 john 1:8-9",
+			"text": "If we say we have no sin, we deceive ourselves, and the truth is not in us. If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness."
+		},
+		{
+			"type": "scripture",
+			"ref": "psalm 51:3",
+			"text": "For I acknowledge my faults, and my sin is ever before me."
+		},
+		{
+			"type": "scripture",
+			"ref": "daniel 9:9",
+			"text": "To the Lord our God belong mercy and forgiveness, for we have rebelled against him."
+		}
+	],
+	"ep_pentecost": [
+		{
+			"type": "section_title",
+			"text": "pentecost"
+		},
+		{
+			"type": "scripture",
+			"ref": "revelation 22:17",
+			"text": "The Spirit and the Bride say, \"Come.\" And let the one who hears say, \"Come.\" And let the one who is thirsty come; let the one who desires take the water of life without price."
+		},
+		{
+			"type": "scripture",
+			"ref": "psalm 46:4",
+			"text": "There is a river whose streams make glad the city of God, the holy dwelling place of the Most High."
+		}
+	],
+	"ep_thanksgiving": [
+		{
+			"type": "section_title",
+			"text": "days of thanksgiving"
+		},
+		{
+			"type": "scripture",
+			"ref": "proverbs 3:19-20",
+			"text": "The Lord by wisdom founded the earth; by understanding he established the heavens; by his knowledge the deeps broke open, and the clouds drop down the dew."
+		}
+	],
+	"ep_trinity_sunday": [
+		{
+			"type": "section_title",
+			"text": "trinity sunday"
+		},
+		{
+			"type": "scripture",
+			"ref": "isaiah 6:3",
+			"text": "Holy, holy, holy is the Lord of Hosts; the whole earth is full of his glory!"
+		}
+	],
+	"mp_advent": [
+		{
+			"type": "section_title",
+			"text": "advent"
+		},
+		{
+			"type": "scripture",
+			"ref": "isaiah 40:3",
+			"text": "In the wilderness prepare the way of the Lord; make straight in the desert a highway for our God."
+		}
+	],
+	"mp_any_time": [
+		{
+			"type": "section_title",
+			"text": "at any time"
+		},
+		{
+			"type": "scripture",
+			"ref": "habakkuk 2:20",
+			"text": "The Lord is in his holy temple; let all the earth keep silence before him."
+		},
+		{
+			"type": "scripture",
+			"ref": "psalm 43:3",
+			"text": "O send out your light and your truth, that they may lead me, and bring me to your holy hill, and to your dwelling."
+		},
+		{
+			"type": "scripture",
+			"ref": "isaiah 57:15",
+			"text": "Thus says the One who is high and lifted up, who inhabits eternity, whose name is Holy: \"I dwell in the high and holy place, and also with him who is of a contrite and lowly spirit, to revive the spirit of the lowly, and to revive the heart of the contrite.\""
+		},
+		{
+			"type": "scripture",
+			"ref": "john 4:23",
+			"text": "The hour is coming, and is now here, when the true worshipers will worship the Father in spirit and truth, for the Father is seeking such people to worship him."
+		}
+	],
+	"mp_ascension": [
+		{
+			"type": "section_title",
+			"text": "ascension"
+		},
+		{
+			"type": "scripture",
+			"ref": "hebrews 4:14, 16",
+			"text": "Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession. Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need."
+		}
+	],
+	"mp_christmas": [
+		{
+			"type": "section_title",
+			"text": "christmas"
+		},
+		{
+			"type": "scripture",
+			"ref": "luke 2:10-11",
+			"text": "Fear not, for behold, I bring you good news of great joy that will be for all the people. For unto you is born this day in the city of David a Savior, who is Christ the Lord."
+		}
+	],
+	"mp_easter": [
+		{
+			"type": "section_title",
+			"text": "easter"
+		},
+		{
+			"type": "scripture",
+			"ref": "colossians 3:1",
+			"text": "If then you have been raised with Christ, seek the things that are above, where Christ is, seated at the right hand of God."
+		}
+	],
+	"mp_epiphany": [
+		{
+			"type": "section_title",
+			"text": "epiphany"
+		},
+		{
+			"type": "scripture",
+			"ref": "malachi 1:11",
+			"text": "From the rising of the sun to its setting my name will be great among the nations, and in every place incense will be offered to my name, and a pure offering. For my name will be great among the nations, says the Lord of hosts."
+		}
+	],
+	"mp_holy_week": [
+		{
+			"type": "section_title",
+			"text": "holy week"
+		},
+		{
+			"type": "scripture",
+			"ref": "lamentations 1:12",
+			"text": "Is it nothing to you, all you who pass by? Look and see if there is any sorrow like my sorrow, which was brought upon me, which the Lord inflicted on the day of his fierce anger."
+		}
+	],
+	"mp_lent": [
+		{
+			"type": "section_title",
+			"text": "lent and other penitential occasions"
+		},
+		{
+			"type": "scripture",
+			"ref": "matthew 3:2",
+			"text": "Repent, for the kingdom of heaven is at hand."
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"text": "Turn your face from my sins,"
+		},
+		{
+			"type": "line",
+			"indent": true,
+			"text": "and blot out all my misdeeds."
+		},
+		{
+			"type": "ref",
+			"text": "psalm 51:9"
+		},
+		{
+			"type": "scripture",
+			"ref": "mark 8:34",
+			"text": "If anyone would come after me, let him deny himself and take up his cross and follow me."
+		}
+	],
+	"mp_pentecost": [
+		{
+			"type": "section_title",
+			"text": "pentecost"
+		},
+		{
+			"type": "scripture",
+			"ref": "acts 1:8",
+			"text": "You will receive power when the Holy Spirit has come upon you, and you will be my witnesses in Jerusalem and in all Judea and Samaria, and to the end of the earth."
+		}
+	],
+	"mp_thanksgiving": [
+		{
+			"type": "section_title",
+			"text": "days of thanksgiving"
+		},
+		{
+			"type": "scripture",
+			"ref": "proverbs 3:9-10",
+			"text": "Honor the Lord with your wealth and with the firstfruits of all your produce; then your barns will be filled with plenty, and your vats will be bursting with wine."
+		}
+	],
+	"mp_trinity_sunday": [
+		{
+			"type": "section_title",
+			"text": "trinity sunday"
+		},
+		{
+			"type": "scripture",
+			"ref": "revelation 4:8",
+			"text": "Holy, holy, holy, is the Lord God Almighty, who was and is and is to come!"
+		}
+	]
+}

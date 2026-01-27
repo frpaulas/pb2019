@@ -16,6 +16,13 @@
 						"page": 41
 					},
 					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "daily evening prayer",
 						"size": "2xl"
@@ -37,6 +44,14 @@
 								"value": "), is customary."
 							}
 						]
+					},
+					{
+						"type": "seasonal_scripture",
+						"office": "ep"
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
 					},
 					{
 						"type": "scripture",
@@ -76,6 +91,14 @@
 					{
 						"type": "rubric",
 						"text": "or this"
+					},
+					{
+						"type": "text_block",
+						"text": "Let us humbly confess our sins to Almighty God."
+					},
+					{
+						"type": "page_break",
+						"page": 42
 					},
 					{
 						"type": "rubric",
@@ -169,6 +192,10 @@
 						"indent": true
 					},
 					{
+						"type": "page_break",
+						"page": 43
+					},
+					{
 						"type": "rubric",
 						"text": "The Priest alone stands and says"
 					},
@@ -191,6 +218,10 @@
 					{
 						"type": "text_block",
 						"text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. **Amen.**"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -221,12 +252,19 @@
 						"text": "O Lord, make haste to help us."
 					},
 					{
-						"type": "gloria"
+						"type": "versical",
+						"officiant": true,
+						"text": "Glory be to the Father, and to the Son, and to the Holy Spirit;"
+					},
+					{
+						"type": "versical",
+						"people": true,
+						"text": "As it was in the beginning, is now, and ever shall be,world without end. Amen."
 					},
 					{
 						"type": "versical",
 						"officiant": true,
-						"text": "Officiant Praise the Lord."
+						"text": "Praise the Lord."
 					},
 					{
 						"type": "versical",
@@ -399,10 +437,6 @@
 						"text": "was crucified, died, and was buried.",
 						"bold": true,
 						"indent": true
-					},
-					{
-						"page": 42,
-						"type": "page_break"
 					},
 					{
 						"type": "line",
@@ -696,111 +730,39 @@
 					},
 					{
 						"type": "section_title",
-						"text": "the collect of the day"
+						"text": "the collect of the day{br}_From the Collects of the Christian Year_"
 					},
 					{
-						"type": "section_title",
-						"text": "_From the Collects of the Christian Year_",
-						"lowercase": true
+						"type": "collect",
+						"name": "ep_sunday"
 					},
 					{
-						"type": "section_title",
-						"text": "a collect for resurrection hope"
+						"type": "collect",
+						"name": "ep_monday"
 					},
 					{
-						"type": "section_title",
-						"text": "_Sunday_",
-						"lowercase": true
+						"type": "collect",
+						"name": "ep_tuesday"
 					},
 					{
-						"type": "text_block",
-						"text": "Lord God, whose Son our Savior Jesus Christ triumphed over the powers of death and prepared for us our place in the new Jerusalem: Grant that we, who have this day given thanks for his resurrection, may praise you in that City of which he is the light, and where he lives and reigns for ever and ever."
-					},
-					{
-						"type": "section_title",
-						"text": "a collect for peace"
-					},
-					{
-						"type": "section_title",
-						"text": "_Monday_",
-						"lowercase": true
-					},
-					{
-						"type": "text_block",
-						"text": "O God, the source of all holy desires, all good counsels, and all just works: Give to your servants that peace which the world cannot give, that our hearts may be set to obey your commandments, and that we, being defended from the fear of our enemies, may pass our time in rest and quietness; through the merits of Jesus Christ our Savior."
-					},
-					{
-						"type": "section_title",
-						"text": "a collect for aid against perils"
-					},
-					{
-						"type": "section_title",
-						"text": "_Tuesday_",
-						"lowercase": true
-					},
-					{
-						"type": "text_block",
-						"text": "Lighten our darkness, we beseech you, O Lord; and by your great mercy defend us from all perils and dangers of this night; for the love of your only Son, our Savior Jesus Christ."
+						"type": "collect",
+						"name": "ep_wednesday"
 					},
 					{
 						"type": "page_break",
 						"page": 50
 					},
 					{
-						"type": "section_title",
-						"text": "a collect for protection"
+						"type": "collect",
+						"name": "ep_thursday"
 					},
 					{
-						"type": "section_title",
-						"text": "_Wednesday_",
-						"lowercase": true
+						"type": "collect",
+						"name": "ep_friday"
 					},
 					{
-						"type": "text_block",
-						"text": "O God, the life of all who live, the light of the faithful, the strength of those who labor, and the repose of the dead: We thank you for the blessings of the day that is past, and humbly ask for your protection through the coming night. Bring us in safety to the morning hours; through him who died and rose again for us, your Son our Savior Jesus Christ."
-					},
-					{
-						"type": "section_title",
-						"text": "a collect for the presence of christ"
-					},
-					{
-						"type": "section_title",
-						"text": "_Thursday_",
-						"lowercase": true
-					},
-					{
-						"type": "text_block",
-						"text": "Lord Jesus, stay with us, for evening is at hand and the day is past; be our companion in the way, kindle our hearts, and awaken hope, that we may know you as you are revealed in Scripture and the breaking of bread. Grant this for the sake of your love."
-					},
-					{
-						"type": "section_title",
-						"text": "a collect for faith"
-					},
-					{
-						"type": "section_title",
-						"text": "_Friday_",
-						"lowercase": true
-					},
-					{
-						"type": "text_block",
-						"text": "Lord Jesus Christ, by your death you took away the sting of death: Grant to us your servants so to follow in faith where you have led the way, that we may at length fall asleep peacefully in you and wake up in your likeness; for your tender mercies' sake."
-					},
-					{
-						"type": "section_title",
-						"text": "a collect for the eve of worship"
-					},
-					{
-						"type": "section_title",
-						"text": "_Saturday_",
-						"lowercase": true
-					},
-					{
-						"page": 43,
-						"type": "page_break"
-					},
-					{
-						"type": "text_block",
-						"text": "O God, the source of eternal light: Shed forth your unending day upon us who watch for you, that our lips may praise you, our lives may bless you, and our worship on the morrow give you glory; through Jesus Christ our Lord."
+						"type": "collect",
+						"name": "ep_saturday"
 					},
 					{
 						"type": "page_break",
@@ -959,6 +921,10 @@
 						"page": 52
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "canticle",
 						"name": "chrysostom"
 					},
@@ -1063,8 +1029,18 @@
 					},
 					{
 						"type": "scripture",
-						"ref": "isaiah 53:6",
-						"text": "All we like sheep have gone astray; we have turned every one to his own way; and the Lord has laid on him the iniquity of us all."
+						"ref": "1 john 1:8-9",
+						"text": "If we say we have no sin, we deceive ourselves, and the truth is not in us. If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness."
+					},
+					{
+						"type": "scripture",
+						"ref": "psalm 51:3",
+						"text": "For I acknowledge my faults, and my sin is ever before me."
+					},
+					{
+						"type": "scripture",
+						"ref": "daniel 9:9",
+						"text": "To the Lord our God belong mercy and forgiveness, for we have rebelled against him."
 					},
 					{
 						"type": "section_title",
@@ -1132,7 +1108,7 @@
 					{
 						"type": "scripture",
 						"ref": "psalm 16:8-9",
-						"text": "I will thank the Lord for giving me counsel; my heart also chastens me in the night season. I have set the Lord always before me; he is at my right hand, therefore I shall not fall."
+						"text": "I will thank the Lord for giving me counsel;"
 					},
 					{
 						"type": "section_title",

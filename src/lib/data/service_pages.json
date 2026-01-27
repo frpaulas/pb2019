@@ -204,6 +204,14 @@
         ]
       },
       {
+        "type": "seasonal_scripture",
+        "office": "mp"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
         "type": "scripture",
         "ref": "philippians 1:2",
         "text": "Grace to you and peace from God our Father and the Lord Jesus Christ.\""
@@ -237,6 +245,14 @@
       {
         "type": "text_block",
         "text": "Dearly beloved, the Scriptures teach us to acknowledge our many sins and offenses, not concealing them from our heavenly Father, but confessing them with humble and obedient hearts that we may obtain forgiveness by his infinite goodness and mercy. We ought at all times humbly to acknowledge our sins before Almighty God, but especially when we come together in his presence to give thanks for the great benefits we have received at his hands, to declare his most worthy praise, to hear his holy Word, and to ask, for ourselves and on behalf of others, those things which are necessary for our life and our salvation. Therefore, draw near with me to the throne of heavenly grace."
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "text_block",
+        "text": "Let us humbly confess our sins to Almighty God."
       }
     ]
   },
@@ -246,11 +262,94 @@
     "content": [
       {
         "type": "rubric",
-        "text": "or this"
+        "text": "Silence is kept. All kneeling, the Officiant and People say"
       },
       {
-        "type": "text_block",
-        "text": "Let us humbly confess our sins to Almighty God."
+        "type": "line",
+        "text": "Almighty and most merciful Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we have erred and strayed from your ways like lost sheep.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We have followed too much the devices and desires",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "of our own hearts.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We have offended against your holy laws.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "We have left undone those things which we ought to have done,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "and we have done those things which we ought not",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to have done;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and apart from your grace, there is no health in us.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "O Lord, have mercy upon us.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Spare all those who confess their faults.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "Restore all those who are penitent, according to your promises",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "declared to all people in Christ Jesus our Lord.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "And grant, O most merciful Father, for his sake,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "that we may now live a godly, righteous, and sober life,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to the glory of your holy Name. Amen.",
+        "bold": true,
+        "indent": true
       }
     ]
   },
@@ -1125,7 +1224,7 @@
       },
       {
         "type": "section_title",
-        "text": "lent _and_ other penitential occasions"
+        "text": "lent and other penitential occasions"
       },
       {
         "type": "scripture",
@@ -1186,7 +1285,7 @@
       },
       {
         "type": "section_title",
-        "text": "pentecost: pentecost"
+        "text": "pentecost"
       },
       {
         "type": "scripture",
@@ -1210,7 +1309,13 @@
         "type": "scripture",
         "ref": "proverbs 3:9-10",
         "text": "Honor the Lord with your wealth and with the firstfruits of all your produce; then your barns will be filled with plenty, and your vats will be bursting with wine."
-      },
+      }
+    ]
+  },
+  "29": {
+    "pageNumber": 29,
+    "headerText": "Daily Morning Prayer",
+    "content": [
       {
         "type": "section_title",
         "text": "at any time"
@@ -1219,13 +1324,7 @@
         "type": "scripture",
         "ref": "habakkuk 2:20",
         "text": "The Lord is in his holy temple; let all the earth keep silence before him."
-      }
-    ]
-  },
-  "29": {
-    "pageNumber": 29,
-    "headerText": "Daily Morning Prayer",
-    "content": [
+      },
       {
         "type": "scripture",
         "ref": "psalm 43:3",
@@ -1491,12 +1590,7 @@
       },
       {
         "type": "section_title",
-        "text": "psalm 119:105-112"
-      },
-      {
-        "type": "section_title",
-        "text": "_Lucerna pedibus meis_",
-        "lowercase": true
+        "text": "psalm 119:105-112{br}_Lucerna pedibus meis_"
       },
       {
         "type": "show_psalm",
@@ -1513,12 +1607,7 @@
     "content": [
       {
         "type": "section_title",
-        "text": "psalm 121"
-      },
-      {
-        "type": "section_title",
-        "text": "_Levavi oculos_",
-        "lowercase": true
+        "text": "psalm 121{br}_Levavi oculos_"
       },
       {
         "type": "show_psalm",
@@ -1534,12 +1623,7 @@
     "content": [
       {
         "type": "section_title",
-        "text": "psalm 124"
-      },
-      {
-        "type": "section_title",
-        "text": "_Nisi quia Dominus_",
-        "lowercase": true
+        "text": "psalm 124{br}_Nisi quia Dominus_"
       },
       {
         "type": "show_psalm",
@@ -1549,12 +1633,7 @@
       },
       {
         "type": "section_title",
-        "text": "psalm 126"
-      },
-      {
-        "type": "section_title",
-        "text": "_In convertendo_",
-        "lowercase": true
+        "text": "psalm 126{br}_In convertendo_"
       },
       {
         "type": "show_psalm",
@@ -1740,6 +1819,13 @@
     "headerText": "Daily Evening Prayer",
     "content": [
       {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "daily evening prayer",
         "size": "2xl"
@@ -1761,6 +1847,14 @@
             "value": "), is customary."
           }
         ]
+      },
+      {
+        "type": "seasonal_scripture",
+        "office": "ep"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
       },
       {
         "type": "scripture",
@@ -1801,6 +1895,16 @@
         "type": "rubric",
         "text": "or this"
       },
+      {
+        "type": "text_block",
+        "text": "Let us humbly confess our sins to Almighty God."
+      }
+    ]
+  },
+  "42": {
+    "pageNumber": 42,
+    "headerText": "Daily Evening Prayer",
+    "content": [
       {
         "type": "rubric",
         "text": "Silence is kept. All kneeling, the Officiant and People say"
@@ -1891,7 +1995,13 @@
         "text": "to the glory of your holy Name. Amen.",
         "bold": true,
         "indent": true
-      },
+      }
+    ]
+  },
+  "43": {
+    "pageNumber": 43,
+    "headerText": "Daily Evening Prayer",
+    "content": [
       {
         "type": "rubric",
         "text": "The Priest alone stands and says"
@@ -1915,6 +2025,10 @@
       {
         "type": "text_block",
         "text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. **Amen.**"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -1945,98 +2059,24 @@
         "text": "O Lord, make haste to help us."
       },
       {
-        "type": "gloria"
+        "type": "versical",
+        "officiant": true,
+        "text": "Glory be to the Father, and to the Son, and to the Holy Spirit;"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "As it was in the beginning, is now, and ever shall be,world without end. Amen."
       },
       {
         "type": "versical",
         "officiant": true,
-        "text": "Officiant Praise the Lord."
+        "text": "Praise the Lord."
       },
       {
         "type": "versical",
         "people": true,
         "text": "The Lord's Name be praised."
-      }
-    ]
-  },
-  "42": {
-    "pageNumber": 42,
-    "headerText": "Daily Evening Prayer",
-    "content": [
-      {
-        "type": "line",
-        "text": "He descended to the dead.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "On the third day he rose again.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "He ascended into heaven,",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "and is seated at the right hand of the Father.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "He will come again to judge the living and the dead.",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "I believe in the Holy Spirit,",
-        "bold": true
-      },
-      {
-        "type": "line",
-        "text": "the holy catholic Church,",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "the communion of saints,",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "the forgiveness of sins,",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "the resurrection of the body,",
-        "bold": true,
-        "indent": true
-      },
-      {
-        "type": "line",
-        "text": "and the life everlasting. Amen.",
-        "bold": true,
-        "indent": true
-      }
-    ]
-  },
-  "43": {
-    "pageNumber": 43,
-    "headerText": "Daily Evening Prayer",
-    "content": [
-      {
-        "type": "text_block",
-        "text": "O God, the source of eternal light: Shed forth your unending day upon us who watch for you, that our lips may praise you, our lives may bless you, and our worship on the morrow give you glory; through Jesus Christ our Lord."
       }
     ]
   },
@@ -2208,6 +2248,71 @@
       {
         "type": "line",
         "text": "was crucified, died, and was buried.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "He descended to the dead.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "On the third day he rose again.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "He ascended into heaven,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and is seated at the right hand of the Father.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "He will come again to judge the living and the dead.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "I believe in the Holy Spirit,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "the holy catholic Church,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "the communion of saints,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "the forgiveness of sins,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "the resurrection of the body,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and the life everlasting. Amen.",
         "bold": true,
         "indent": true
       }
@@ -2444,51 +2549,23 @@
       },
       {
         "type": "section_title",
-        "text": "the collect of the day"
+        "text": "the collect of the day{br}_From the Collects of the Christian Year_"
       },
       {
-        "type": "section_title",
-        "text": "_From the Collects of the Christian Year_",
-        "lowercase": true
+        "type": "collect",
+        "name": "ep_sunday"
       },
       {
-        "type": "section_title",
-        "text": "a collect for resurrection hope"
+        "type": "collect",
+        "name": "ep_monday"
       },
       {
-        "type": "section_title",
-        "text": "_Sunday_",
-        "lowercase": true
+        "type": "collect",
+        "name": "ep_tuesday"
       },
       {
-        "type": "text_block",
-        "text": "Lord God, whose Son our Savior Jesus Christ triumphed over the powers of death and prepared for us our place in the new Jerusalem: Grant that we, who have this day given thanks for his resurrection, may praise you in that City of which he is the light, and where he lives and reigns for ever and ever."
-      },
-      {
-        "type": "section_title",
-        "text": "a collect for peace"
-      },
-      {
-        "type": "section_title",
-        "text": "_Monday_",
-        "lowercase": true
-      },
-      {
-        "type": "text_block",
-        "text": "O God, the source of all holy desires, all good counsels, and all just works: Give to your servants that peace which the world cannot give, that our hearts may be set to obey your commandments, and that we, being defended from the fear of our enemies, may pass our time in rest and quietness; through the merits of Jesus Christ our Savior."
-      },
-      {
-        "type": "section_title",
-        "text": "a collect for aid against perils"
-      },
-      {
-        "type": "section_title",
-        "text": "_Tuesday_",
-        "lowercase": true
-      },
-      {
-        "type": "text_block",
-        "text": "Lighten our darkness, we beseech you, O Lord; and by your great mercy defend us from all perils and dangers of this night; for the love of your only Son, our Savior Jesus Christ."
+        "type": "collect",
+        "name": "ep_wednesday"
       }
     ]
   },
@@ -2497,52 +2574,16 @@
     "headerText": "Daily Evening Prayer",
     "content": [
       {
-        "type": "section_title",
-        "text": "a collect for protection"
+        "type": "collect",
+        "name": "ep_thursday"
       },
       {
-        "type": "section_title",
-        "text": "_Wednesday_",
-        "lowercase": true
+        "type": "collect",
+        "name": "ep_friday"
       },
       {
-        "type": "text_block",
-        "text": "O God, the life of all who live, the light of the faithful, the strength of those who labor, and the repose of the dead: We thank you for the blessings of the day that is past, and humbly ask for your protection through the coming night. Bring us in safety to the morning hours; through him who died and rose again for us, your Son our Savior Jesus Christ."
-      },
-      {
-        "type": "section_title",
-        "text": "a collect for the presence of christ"
-      },
-      {
-        "type": "section_title",
-        "text": "_Thursday_",
-        "lowercase": true
-      },
-      {
-        "type": "text_block",
-        "text": "Lord Jesus, stay with us, for evening is at hand and the day is past; be our companion in the way, kindle our hearts, and awaken hope, that we may know you as you are revealed in Scripture and the breaking of bread. Grant this for the sake of your love."
-      },
-      {
-        "type": "section_title",
-        "text": "a collect for faith"
-      },
-      {
-        "type": "section_title",
-        "text": "_Friday_",
-        "lowercase": true
-      },
-      {
-        "type": "text_block",
-        "text": "Lord Jesus Christ, by your death you took away the sting of death: Grant to us your servants so to follow in faith where you have led the way, that we may at length fall asleep peacefully in you and wake up in your likeness; for your tender mercies' sake."
-      },
-      {
-        "type": "section_title",
-        "text": "a collect for the eve of worship"
-      },
-      {
-        "type": "section_title",
-        "text": "_Saturday_",
-        "lowercase": true
+        "type": "collect",
+        "name": "ep_saturday"
       }
     ]
   },
@@ -2705,6 +2746,10 @@
     "headerText": "Daily Evening Prayer",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "canticle",
         "name": "chrysostom"
       },
@@ -2815,8 +2860,18 @@
       },
       {
         "type": "scripture",
-        "ref": "isaiah 53:6",
-        "text": "All we like sheep have gone astray; we have turned every one to his own way; and the Lord has laid on him the iniquity of us all."
+        "ref": "1 john 1:8-9",
+        "text": "If we say we have no sin, we deceive ourselves, and the truth is not in us. If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness."
+      },
+      {
+        "type": "scripture",
+        "ref": "psalm 51:3",
+        "text": "For I acknowledge my faults, and my sin is ever before me."
+      },
+      {
+        "type": "scripture",
+        "ref": "daniel 9:9",
+        "text": "To the Lord our God belong mercy and forgiveness, for we have rebelled against him."
       },
       {
         "type": "section_title",
@@ -2886,7 +2941,7 @@
       {
         "type": "scripture",
         "ref": "psalm 16:8-9",
-        "text": "I will thank the Lord for giving me counsel; my heart also chastens me in the night season. I have set the Lord always before me; he is at my right hand, therefore I shall not fall."
+        "text": "I will thank the Lord for giving me counsel;"
       },
       {
         "type": "section_title",

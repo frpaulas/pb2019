@@ -122,3 +122,38 @@ if [ "$COLLECTS_REBUILD_NEEDED" = true ]; then
 else
     echo "✅ collects.json is up to date!"
 fi
+
+# Check opening sentences
+echo ""
+echo "🔍 Checking for outdated opening_sentences.json..."
+
+SENTENCES_DIR="$(dirname "$0")/../src/lib/data/opening_sentences"
+SENTENCES_DPB_DIR="$SENTENCES_DIR/dpb"
+SENTENCES_JSON="$SENTENCES_DIR/opening_sentences.json"
+SENTENCES_REBUILD_NEEDED=false
+
+if [ ! -f "$SENTENCES_JSON" ]; then
+    echo "⚠️  Missing opening_sentences.json"
+    SENTENCES_REBUILD_NEEDED=true
+else
+    for dpb_file in "$SENTENCES_DPB_DIR"/*.dpb; do
+        if [ ! -f "$dpb_file" ]; then
+            continue
+        fi
+        if [ "$dpb_file" -nt "$SENTENCES_JSON" ]; then
+            basename=$(basename "$dpb_file" .dpb)
+            echo "📝 Outdated: opening_sentences.json ($basename.dpb is newer)"
+            SENTENCES_REBUILD_NEEDED=true
+            break
+        fi
+    done
+fi
+
+if [ "$SENTENCES_REBUILD_NEEDED" = true ]; then
+    echo ""
+    echo "🔨 Rebuilding opening_sentences.json..."
+    node "$(dirname "$0")/build-opening-sentences-json.cjs"
+    echo "✅ Opening sentences updated!"
+else
+    echo "✅ opening_sentences.json is up to date!"
+fi

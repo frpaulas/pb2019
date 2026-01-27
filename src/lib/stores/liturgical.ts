@@ -1,4 +1,5 @@
 import { writable, derived } from 'svelte/store';
+import { getDetailedLiturgicalSeason } from '$lib/calendar/sunday_key_mapping';
 
 export type LiturgicalSeason =
 	| 'advent'
@@ -24,10 +25,12 @@ export interface LiturgicalState {
 function createLiturgicalStore() {
 	const now = new Date();
 
+	const initialSeason = getDetailedLiturgicalSeason(now) as LiturgicalSeason;
+
 	const { subscribe, set, update } = writable<LiturgicalState>({
 		actualDateTime: now,
 		selectedDate: now,
-		season: 'proper',
+		season: initialSeason,
 		colors: ['green']
 	});
 

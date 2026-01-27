@@ -816,6 +816,70 @@ class RawToJsonConverter {
 			};
 		}
 
+		// Handle opening_sentences: use:opening_sentences:mp_advent
+		// Format: use:opening_sentences:name
+		// Inlines the opening sentence blocks from the JSON
+		if (componentName === 'opening_sentences') {
+			const sentenceName = parts[2];
+
+			if (!sentenceName) {
+				console.warn('Warning: use:opening_sentences: requires a name');
+				return null;
+			}
+
+			// Check if a DPB file exists for this opening sentence
+			const sentenceDpbPath = path.join(
+				__dirname,
+				'..',
+				'src',
+				'lib',
+				'data',
+				'opening_sentences',
+				'dpb',
+				`${sentenceName}.dpb`
+			);
+
+			if (fs.existsSync(sentenceDpbPath)) {
+				console.log(`  📖 Inlining opening sentence: ${sentenceName}`);
+				const sentenceContent = fs.readFileSync(sentenceDpbPath, 'utf-8');
+				const sentenceTokens = this.tokenize(sentenceContent);
+				const sentenceItems = [];
+
+				sentenceTokens.forEach((token) => {
+					const item = this.parseToken(token);
+					if (item) {
+						if (Array.isArray(item)) {
+							sentenceItems.push(...item);
+						} else {
+							sentenceItems.push(item);
+						}
+					}
+				});
+
+				return sentenceItems;
+			}
+
+			console.warn(`Warning: Opening sentence DPB not found: ${sentenceName}`);
+			return null;
+		}
+
+		// Handle seasonal_scripture: use:seasonal_scripture:mp or use:seasonal_scripture:ep
+		// Format: use:seasonal_scripture:office
+		// Renders the appropriate seasonal opening scripture at runtime
+		if (componentName === 'seasonal_scripture') {
+			const office = parts[2];
+
+			if (!office || (office !== 'mp' && office !== 'ep')) {
+				console.warn('Warning: use:seasonal_scripture: requires office (mp or ep)');
+				return null;
+			}
+
+			return {
+				type: 'seasonal_scripture',
+				office: office
+			};
+		}
+
 		// Handle occasional_prayer: use:occasional_prayer:1
 		// Format: use:occasional_prayer:number
 		if (componentName === 'occasional_prayer') {

@@ -65,12 +65,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "psalm 119:105-112"
-					},
-					{
-						"type": "section_title",
-						"text": "_Lucerna pedibus meis_",
-						"lowercase": true
+						"text": "psalm 119:105-112{br}_Lucerna pedibus meis_"
 					},
 					{
 						"type": "show_psalm",
@@ -85,12 +80,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "psalm 121"
-					},
-					{
-						"type": "section_title",
-						"text": "_Levavi oculos_",
-						"lowercase": true
+						"text": "psalm 121{br}_Levavi oculos_"
 					},
 					{
 						"type": "show_psalm",
@@ -104,12 +94,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "psalm 124"
-					},
-					{
-						"type": "section_title",
-						"text": "_Nisi quia Dominus_",
-						"lowercase": true
+						"text": "psalm 124{br}_Nisi quia Dominus_"
 					},
 					{
 						"type": "show_psalm",
@@ -119,12 +104,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "psalm 126"
-					},
-					{
-						"type": "section_title",
-						"text": "_In convertendo_",
-						"lowercase": true
+						"text": "psalm 126{br}_In convertendo_"
 					},
 					{
 						"type": "show_psalm",

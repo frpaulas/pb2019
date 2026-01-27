@@ -39,6 +39,14 @@
 						]
 					},
 					{
+						"type": "seasonal_scripture",
+						"office": "mp"
+					},
+					{
+						"type": "rubric",
+						"text": "or this"
+					},
+					{
 						"type": "scripture",
 						"ref": "philippians 1:2",
 						"text": "Grace to you and peace from God our Father and the Lord Jesus Christ.\""
@@ -74,16 +82,107 @@
 						"text": "Dearly beloved, the Scriptures teach us to acknowledge our many sins and offenses, not concealing them from our heavenly Father, but confessing them with humble and obedient hearts that we may obtain forgiveness by his infinite goodness and mercy. We ought at all times humbly to acknowledge our sins before Almighty God, but especially when we come together in his presence to give thanks for the great benefits we have received at his hands, to declare his most worthy praise, to hear his holy Word, and to ask, for ourselves and on behalf of others, those things which are necessary for our life and our salvation. Therefore, draw near with me to the throne of heavenly grace."
 					},
 					{
-						"type": "page_break",
-						"page": 12
-					},
-					{
 						"type": "rubric",
 						"text": "or this"
 					},
 					{
 						"type": "text_block",
 						"text": "Let us humbly confess our sins to Almighty God."
+					},
+					{
+						"type": "page_break",
+						"page": 12
+					},
+					{
+						"type": "rubric",
+						"text": "Silence is kept. All kneeling, the Officiant and People say"
+					},
+					{
+						"type": "line",
+						"text": "Almighty and most merciful Father,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "we have erred and strayed from your ways like lost sheep.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "We have followed too much the devices and desires",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "of our own hearts.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "We have offended against your holy laws.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "We have left undone those things which we ought to have done,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "and we have done those things which we ought not",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "to have done;",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "and apart from your grace, there is no health in us.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "O Lord, have mercy upon us.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "Spare all those who confess their faults.",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "Restore all those who are penitent, according to your promises",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "declared to all people in Christ Jesus our Lord.",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "And grant, O most merciful Father, for his sake,",
+						"bold": true
+					},
+					{
+						"type": "line",
+						"text": "that we may now live a godly, righteous, and sober life,",
+						"bold": true,
+						"indent": true
+					},
+					{
+						"type": "line",
+						"text": "to the glory of your holy Name. Amen.",
+						"bold": true,
+						"indent": true
 					},
 					{
 						"type": "page_break",
@@ -928,7 +1027,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "lent _and_ other penitential occasions"
+						"text": "lent and other penitential occasions"
 					},
 					{
 						"type": "scripture",
@@ -987,7 +1086,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "pentecost: pentecost"
+						"text": "pentecost"
 					},
 					{
 						"type": "scripture",
@@ -1013,6 +1112,10 @@
 						"text": "Honor the Lord with your wealth and with the firstfruits of all your produce; then your barns will be filled with plenty, and your vats will be bursting with wine."
 					},
 					{
+						"type": "page_break",
+						"page": 29
+					},
+					{
 						"type": "section_title",
 						"text": "at any time"
 					},
@@ -1020,10 +1123,6 @@
 						"type": "scripture",
 						"ref": "habakkuk 2:20",
 						"text": "The Lord is in his holy temple; let all the earth keep silence before him."
-					},
-					{
-						"type": "page_break",
-						"page": 29
 					},
 					{
 						"type": "scripture",

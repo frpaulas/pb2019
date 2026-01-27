@@ -15,22 +15,18 @@ r: Except in Lent, add **Alleluia**
 r: A suitable hymn may be sung.
 r: One or more of the following, or some other suitable Psalm, is sung or said.
 
-st: psalm 119:105-112
-st:lc: _Lucerna pedibus meis_
+st: psalm 119:105-112{br}_Lucerna pedibus meis_
 use:psalm:119:105:112:b:
 
 pb:34
-st: psalm 121
-st:lc: _Levavi oculos_
+st: psalm 121{br}_Levavi oculos_
 use:psalm:121:1:8:b:
 
 pb:35
-st: psalm 124
-st:lc: _Nisi quia Dominus_
+st: psalm 124{br}_Nisi quia Dominus_
 use:psalm:124:1:6:b:
 
-st: psalm 126
-st:lc: _In convertendo_
+st: psalm 126{br}_In convertendo_
 use:psalm:126:1:7:b:
 
 pb:36
