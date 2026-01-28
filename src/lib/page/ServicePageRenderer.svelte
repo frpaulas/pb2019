@@ -15,9 +15,8 @@
 	import ShowEucharistReadings from '$lib/page_helpers/show_eucharist_readings.svelte';
 	import SeasonalScripture from '$lib/page_helpers/seasonal_scripture.svelte';
 	import SeasonalAntiphon from '$lib/page_helpers/seasonal_antiphon.svelte';
-	import OfficeConfessionIntro from '$lib/prayer/office_confession_intro.svelte';
-	import OfficeConfession from '$lib/prayer/office_confession.svelte';
-	import OfficeAbsolution from '$lib/prayer/office_absolution.svelte';
+	import LordsPrayer from '$lib/prayer/lords_prayer.svelte';
+	import LordsPrayerNoDox from '$lib/prayer/lords_prayer_nodox.svelte';
 
 	// Front matter pages
 	import PageIII from '$lib/text_component/iii.svelte';
@@ -98,12 +97,10 @@
 		<SeasonalScripture office={block.office} />
 	{:else if block.type === 'seasonal_antiphon'}
 		<SeasonalAntiphon />
-	{:else if block.type === 'office_confession_intro'}
-		<OfficeConfessionIntro />
-	{:else if block.type === 'office_confession'}
-		<OfficeConfession />
-	{:else if block.type === 'office_absolution'}
-		<OfficeAbsolution />
+	{:else if block.type === 'lords_prayer'}
+		<LordsPrayer />
+	{:else if block.type === 'lords_prayer_nodox'}
+		<LordsPrayerNoDox />
 	{:else if block.type === 'canticle'}
 		{@const canticleBlocks = canticlesData[block.name]}
 		{#if canticleBlocks}
