@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { season } from '$lib/stores/liturgical';
 	import openingSentencesData from '$lib/data/opening_sentences/opening_sentences.json';
-	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 	import Scripture from '$lib/page_helpers/scripture.svelte';
 	import Rubric from '$lib/page_helpers/rubric.svelte';
 	import Line from '$lib/page_helpers/line.svelte';
@@ -33,17 +32,13 @@
 		return `${office}_${seasonSuffix}`;
 	});
 
-	let blocks = $derived(
-		(openingSentencesData as Record<string, any[]>)[sentenceKey()] || []
-	);
+	let blocks = $derived((openingSentencesData as Record<string, any[]>)[sentenceKey()] || []);
 </script>
 
 {#if blocks.length > 0}
 	{#each blocks as block}
 		{#if block.type === 'section_title'}
-			<SectionTitle fancy={block.fancy || false} latin_size={block.latin_size || false}>
-				{block.text}
-			</SectionTitle>
+			<p class="seasonal-title">{block.text}</p>
 		{:else if block.type === 'scripture'}
 			<Scripture ref={block.ref}>{block.text}</Scripture>
 		{:else if block.type === 'rubric'}
@@ -55,3 +50,13 @@
 		{/if}
 	{/each}
 {/if}
+
+<style>
+	.seasonal-title {
+		color: rgb(127 29 29); /* text-red-900 */
+		font-style: italic;
+		text-align: left;
+		text-transform: capitalize;
+		margin-top: 1rem;
+	}
+</style>

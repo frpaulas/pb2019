@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { season } from '$lib/stores/liturgical';
 	import antiphonsData from '$lib/data/antiphon/antiphons.json';
-	import SectionTitle from '$lib/page_helpers/section_title.svelte';
 	import Line from '$lib/page_helpers/line.svelte';
 	import Ref from '$lib/page_helpers/ref.svelte';
 	import Rubric from '$lib/page_helpers/rubric.svelte';
@@ -25,17 +24,13 @@
 		return seasonKeyMap[currentSeason] || 'advent';
 	});
 
-	let blocks = $derived(
-		(antiphonsData as Record<string, any[]>)[antiphonKey()] || []
-	);
+	let blocks = $derived((antiphonsData as Record<string, any[]>)[antiphonKey()] || []);
 </script>
 
 {#if blocks.length > 0}
 	{#each blocks as block}
 		{#if block.type === 'section_title'}
-			<SectionTitle fancy={block.fancy || false} latin_size={block.latin_size || false}>
-				{block.text}
-			</SectionTitle>
+			<p class="seasonal-title">{block.text}</p>
 		{:else if block.type === 'line'}
 			<Line bold={block.bold || false} indent={block.indent || false} text={block.text} />
 		{:else if block.type === 'rubric'}
@@ -45,3 +40,13 @@
 		{/if}
 	{/each}
 {/if}
+
+<style>
+	.seasonal-title {
+		color: rgb(127 29 29); /* text-red-900 */
+		font-style: italic;
+		text-align: left;
+		text-transform: capitalize;
+		margin-top: 1rem;
+	}
+</style>
