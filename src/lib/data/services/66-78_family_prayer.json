@@ -16,6 +16,13 @@
 						"page": 66
 					},
 					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
 						"type": "section_title",
 						"text": "concerning family prayer",
 						"size": "xl"
@@ -61,9 +68,26 @@
 						"page": 67
 					},
 					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
 						"type": "section_title",
-						"text": "family prayer",
-						"size": "xl"
+						"text": "family prayer"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
 					},
 					{
 						"type": "section_title",
@@ -88,6 +112,10 @@
 						"from": 10,
 						"to": 12,
 						"bold": true
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "gloria"
@@ -173,6 +201,13 @@
 						"page": 69
 					},
 					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
 						"type": "section_title",
 						"text": "at midday",
 						"size": "xl"
@@ -188,18 +223,17 @@
 					},
 					{
 						"type": "section_title",
-						"text": "Psalm 113:1-4"
-					},
-					{
-						"type": "section_title",
-						"text": "_Laudate, pueri_",
-						"lowercase": true
+						"text": "Psalm 113:1-4{br}_Laudate, pueri_"
 					},
 					{
 						"type": "show_psalm",
 						"ps": 113,
 						"to": 4,
 						"bold": true
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "gloria"
@@ -252,6 +286,13 @@
 					{
 						"type": "page_break",
 						"page": 71
+					},
+					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
 					},
 					{
 						"type": "section_title",
@@ -363,6 +404,13 @@
 						"page": 73
 					},
 					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
 						"type": "section_title",
 						"text": "at the close of day",
 						"size": "xl"
@@ -383,12 +431,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "psalm 134"
-					},
-					{
-						"type": "section_title",
-						"text": "Ecce nunc",
-						"lowercase": true
+						"text": "psalm 134{br}_Ecce nunc_"
 					},
 					{
 						"type": "show_psalm",
@@ -448,6 +491,10 @@
 					{
 						"type": "canticle",
 						"name": "nunc_dimittis"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "gloria"

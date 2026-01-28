@@ -1,5 +1,7 @@
 pg: 57-65
 pb:57
+hr:
+vm:3
 tp: Compline
 
 st:1: compline
@@ -48,6 +50,7 @@ st: psalm 134{br}_Ecce nunc_
 pb:60
 use:psalm:134:1:4:
 vm:2
+pb:61
 r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
 use:gloria:
 
@@ -86,6 +89,7 @@ tb: Be present, O merciful God, and protect us through the hours of this night,
 tb: Look down, O Lord, from your heavenly throne, illumine this night with your
     celestial brightness, and from the children of light banish the deeds of darkness;
     through Jesus Christ our Lord. **Amen.**
+vm:2
 st: a collect for saturdays
 tb: We give you thanks, O God, for revealing your Son Jesus Christ to us by
     the light of his resurrection: Grant that as we sing your glory at the close
@@ -106,7 +110,8 @@ r: Silence may be kept, and other intercessions and thanksgivings may be offered
 r: The Officiant and People say or sing the Song of Simeon with this Antiphon
 tb:b: Guide us waking, O Lord, and guard us sleeping; that awake we may watch with Christ, and asleep we may rest in peace.
 r: In Easter Season, add **Alleluia, alleluia, alleluia.**
-use:canticle:nunc_demittis:
+vm:1
+use:canticle:nunc_dimittis:
 
 pb:65
 tb:b: Guide us waking, O Lord, and guard us sleeping; that awake we may watch with Christ, and asleep we may rest in peace.
@@ -115,15 +120,15 @@ v:officiant: Let us bless the Lord.
 v:people: Thanks be to God.
 r: The Officiant concludes with the following
 tb: The almighty and merciful Lord, Father, Son, and Holy Spirit, bless us and keep us, this night and evermore.
-
+vm:2
 st:1: additional directions
 tb: A Bishop or Priest, if present, may pronounce absolution after the confession.
 tb: For those saying Compline every day, particularly in families or other communities, additional short Scriptural readings may be desired. Some appropriate readings include:
-l:i: isaiah 26:3-4
-l:i: isaiah 30:15
-l:i: matthew 6:31-34
-l:i: 2 corinthians 4:6
-l:i: 1 thessalonians 5:9-10
-l:i: 1 thessalonians 5:23
-l:i: ephesians 4:26-27
+sl:i: Isaiah 26:3-4
+sl:i: Isaiah 30:15
+sl:i: Matthew 6:31-34
+sl:i: 2 Corinthians 4:6
+sl:i: 1 Thessalonians 5:9-10
+sl:i: 1 Thessalonians 5:23
+sl:i: Ephesians 4:26-27
 tb: Either version of the Lord's Prayer may be ended with, "deliver us from evil. Amen." omitting the concluding doxology.

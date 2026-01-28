@@ -157,6 +157,9 @@
     "headerText": "Concerning the Divine Service of the Church",
     "content": [
       {
+        "type": "hr"
+      },
+      {
         "type": "vertical_margin",
         "spacing": 3
       },
@@ -178,8 +181,15 @@
   },
   "11": {
     "pageNumber": 11,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
+      {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
       {
         "type": "section_title",
         "text": "daily morning prayer",
@@ -258,7 +268,7 @@
   },
   "12": {
     "pageNumber": 12,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "rubric",
@@ -355,7 +365,7 @@
   },
   "13": {
     "pageNumber": 13,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "rubric",
@@ -437,7 +447,7 @@
   },
   "14": {
     "pageNumber": 14,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "rubric",
@@ -522,7 +532,7 @@
   },
   "15": {
     "pageNumber": 15,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "rubric",
@@ -540,7 +550,7 @@
   },
   "16": {
     "pageNumber": 16,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "canticle",
@@ -550,7 +560,7 @@
   },
   "17": {
     "pageNumber": 17,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "rubric",
@@ -651,7 +661,7 @@
   },
   "18": {
     "pageNumber": 18,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "rubric",
@@ -665,7 +675,7 @@
   },
   "19": {
     "pageNumber": 19,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "canticle",
@@ -679,7 +689,7 @@
   },
   "20": {
     "pageNumber": 20,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "section_title",
@@ -798,7 +808,7 @@
   },
   "21": {
     "pageNumber": 21,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "section_title",
@@ -867,7 +877,7 @@
   },
   "22": {
     "pageNumber": 22,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "versical",
@@ -943,12 +953,12 @@
   },
   "23": {
     "pageNumber": 23,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": []
   },
   "24": {
     "pageNumber": 24,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "rubric",
@@ -982,7 +992,7 @@
   },
   "25": {
     "pageNumber": 25,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "rubric",
@@ -1112,7 +1122,7 @@
   },
   "26": {
     "pageNumber": 26,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "vertical_margin",
@@ -1159,7 +1169,7 @@
   },
   "27": {
     "pageNumber": 27,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "vertical_margin",
@@ -1237,7 +1247,7 @@
   },
   "28": {
     "pageNumber": 28,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "section_title",
@@ -1288,7 +1298,7 @@
   },
   "29": {
     "pageNumber": 29,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "section_title",
@@ -1376,7 +1386,7 @@
   },
   "30": {
     "pageNumber": 30,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "section_title",
@@ -1466,7 +1476,7 @@
   },
   "31": {
     "pageNumber": 31,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": [
       {
         "type": "section_title",
@@ -1507,7 +1517,7 @@
   },
   "32": {
     "pageNumber": 32,
-    "headerText": "Daily Morning Prayer",
+    "headerText": "Untitled Service",
     "content": []
   },
   "33": {
@@ -1797,7 +1807,7 @@
       },
       {
         "type": "vertical_margin",
-        "spacing": 2
+        "spacing": 3
       },
       {
         "type": "section_title",
@@ -2935,6 +2945,13 @@
     "headerText": "Compline",
     "content": [
       {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
+      {
         "type": "section_title",
         "text": "compline",
         "size": "xl"
@@ -3136,7 +3153,13 @@
       {
         "type": "vertical_margin",
         "spacing": 2
-      },
+      }
+    ]
+  },
+  "61": {
+    "pageNumber": 61,
+    "headerText": "Compline",
+    "content": [
       {
         "type": "rubric",
         "text": "At the end of the Psalms the Gloria Patri (Glory be...) is sung or said"
@@ -3169,11 +3192,6 @@
         "text": "Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour. Resist him, firm in your faith."
       }
     ]
-  },
-  "61": {
-    "pageNumber": 61,
-    "headerText": "Compline",
-    "content": []
   },
   "62": {
     "pageNumber": 62,
@@ -3268,6 +3286,10 @@
         "text": "Look down, O Lord, from your heavenly throne, illumine this night with your celestial brightness, and from the children of light banish the deeds of darkness; through Jesus Christ our Lord. **Amen.**"
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "a collect for saturdays"
       },
@@ -3315,8 +3337,12 @@
         "text": "In Easter Season, add **Alleluia, alleluia, alleluia.**"
       },
       {
+        "type": "vertical_margin",
+        "spacing": 1
+      },
+      {
         "type": "canticle",
-        "name": "nunc_demittis"
+        "name": "nunc_dimittis"
       }
     ]
   },
@@ -3352,6 +3378,10 @@
         "text": "The almighty and merciful Lord, Father, Son, and Holy Spirit, bless us and keep us, this night and evermore."
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "additional directions",
         "size": "xl"
@@ -3365,38 +3395,38 @@
         "text": "For those saying Compline every day, particularly in families or other communities, additional short Scriptural readings may be desired. Some appropriate readings include:"
       },
       {
-        "type": "line",
-        "text": "isaiah 26:3-4",
+        "type": "scripture_link",
+        "reference": "Isaiah 26:3-4",
         "indent": true
       },
       {
-        "type": "line",
-        "text": "isaiah 30:15",
+        "type": "scripture_link",
+        "reference": "Isaiah 30:15",
         "indent": true
       },
       {
-        "type": "line",
-        "text": "matthew 6:31-34",
+        "type": "scripture_link",
+        "reference": "Matthew 6:31-34",
         "indent": true
       },
       {
-        "type": "line",
-        "text": "2 corinthians 4:6",
+        "type": "scripture_link",
+        "reference": "2 Corinthians 4:6",
         "indent": true
       },
       {
-        "type": "line",
-        "text": "1 thessalonians 5:9-10",
+        "type": "scripture_link",
+        "reference": "1 Thessalonians 5:9-10",
         "indent": true
       },
       {
-        "type": "line",
-        "text": "1 thessalonians 5:23",
+        "type": "scripture_link",
+        "reference": "1 Thessalonians 5:23",
         "indent": true
       },
       {
-        "type": "line",
-        "text": "ephesians 4:26-27",
+        "type": "scripture_link",
+        "reference": "Ephesians 4:26-27",
         "indent": true
       },
       {
@@ -3409,6 +3439,13 @@
     "pageNumber": 66,
     "headerText": "Family Prayer",
     "content": [
+      {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
       {
         "type": "section_title",
         "text": "concerning family prayer",
@@ -3457,9 +3494,26 @@
     "headerText": "Family Prayer",
     "content": [
       {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
+      {
         "type": "section_title",
-        "text": "family prayer",
-        "size": "xl"
+        "text": "family prayer"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
       },
       {
         "type": "section_title",
@@ -3484,6 +3538,10 @@
         "from": 10,
         "to": 12,
         "bold": true
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "gloria"
@@ -3573,6 +3631,13 @@
     "headerText": "Family Prayer",
     "content": [
       {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
+      {
         "type": "section_title",
         "text": "at midday",
         "size": "xl"
@@ -3588,18 +3653,17 @@
       },
       {
         "type": "section_title",
-        "text": "Psalm 113:1-4"
-      },
-      {
-        "type": "section_title",
-        "text": "_Laudate, pueri_",
-        "lowercase": true
+        "text": "Psalm 113:1-4{br}_Laudate, pueri_"
       },
       {
         "type": "show_psalm",
         "ps": 113,
         "to": 4,
         "bold": true
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "gloria"
@@ -3657,6 +3721,13 @@
     "pageNumber": 71,
     "headerText": "Family Prayer",
     "content": [
+      {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
       {
         "type": "section_title",
         "text": "in the early evening",
@@ -3771,6 +3842,13 @@
     "headerText": "Family Prayer",
     "content": [
       {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
+      {
         "type": "section_title",
         "text": "at the close of day",
         "size": "xl"
@@ -3791,12 +3869,7 @@
       },
       {
         "type": "section_title",
-        "text": "psalm 134"
-      },
-      {
-        "type": "section_title",
-        "text": "Ecce nunc",
-        "lowercase": true
+        "text": "psalm 134{br}_Ecce nunc_"
       },
       {
         "type": "show_psalm",
@@ -3858,6 +3931,10 @@
       {
         "type": "canticle",
         "name": "nunc_dimittis"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "gloria"

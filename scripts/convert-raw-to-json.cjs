@@ -282,6 +282,7 @@ class RawToJsonConverter {
 							'hd',
 							'lords_prayer',
 							'scripture',
+							'sl',
 							'ol',
 							'ul',
 							'hr',
@@ -383,6 +384,9 @@ class RawToJsonConverter {
 
 			case 'scripture':
 				return this.handleScripture(parts, content);
+
+			case 'sl':
+				return this.handleScriptureLink(parts, content);
 
 			case 'hr':
 				return this.handleHorizontalRule();
@@ -1244,6 +1248,44 @@ class RawToJsonConverter {
 		return {
 			type: 'hr'
 		};
+	}
+
+	handleScriptureLink(parts, afterFirstColon) {
+		// sl:i: Isaiah 26:3-4 (indented scripture link)
+		// sl: Isaiah 26:3-4 (regular scripture link)
+		const modifiers = this.parseModifiers(parts);
+
+		// Get reference text after modifiers
+		let reference = afterFirstColon;
+
+		// Count modifiers to skip
+		let modCount = 0;
+		for (let i = 1; i < parts.length; i++) {
+			if (['b', 'o', 'i', 'lc'].includes(parts[i])) {
+				modCount++;
+			} else {
+				break;
+			}
+		}
+
+		// Skip past modifiers
+		for (let i = 0; i < modCount; i++) {
+			const colonIndex = reference.indexOf(':');
+			if (colonIndex > -1) {
+				reference = reference.substring(colonIndex + 1);
+			}
+		}
+
+		reference = reference.trim();
+
+		const item = {
+			type: 'scripture_link',
+			reference: reference
+		};
+
+		if (modifiers.indent) item.indent = true;
+
+		return item;
 	}
 
 	handleVerticalMargin(parts, content) {

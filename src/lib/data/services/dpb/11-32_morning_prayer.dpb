@@ -1,7 +1,7 @@
 pg: 11-32
 pb:11
-tp: Daily Morning Prayer
-
+hr:
+vm:3
 st:1: daily morning prayer
 r: The Officiant may begin Morning Prayer by reading an opening sentence of Scripture.
     One of the following, or a sentence from among those provided at the end of the Office (pages 27-29), is customary.

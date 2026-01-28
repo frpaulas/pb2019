@@ -16,6 +16,13 @@
 						"page": 57
 					},
 					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
 						"type": "section_title",
 						"text": "compline",
 						"size": "xl"
@@ -213,6 +220,10 @@
 						"spacing": 2
 					},
 					{
+						"type": "page_break",
+						"page": 61
+					},
+					{
 						"type": "rubric",
 						"text": "At the end of the Psalms the Gloria Patri (Glory be...) is sung or said"
 					},
@@ -242,10 +253,6 @@
 						"type": "scripture",
 						"ref": "1 peter 5:8‑9",
 						"text": "Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour. Resist him, firm in your faith."
-					},
-					{
-						"page": 61,
-						"type": "page_break"
 					},
 					{
 						"type": "page_break",
@@ -338,6 +345,10 @@
 						"text": "Look down, O Lord, from your heavenly throne, illumine this night with your celestial brightness, and from the children of light banish the deeds of darkness; through Jesus Christ our Lord. **Amen.**"
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "a collect for saturdays"
 					},
@@ -383,8 +394,12 @@
 						"text": "In Easter Season, add **Alleluia, alleluia, alleluia.**"
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "canticle",
-						"name": "nunc_demittis"
+						"name": "nunc_dimittis"
 					},
 					{
 						"type": "page_break",
@@ -418,6 +433,10 @@
 						"text": "The almighty and merciful Lord, Father, Son, and Holy Spirit, bless us and keep us, this night and evermore."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "additional directions",
 						"size": "xl"
@@ -431,38 +450,38 @@
 						"text": "For those saying Compline every day, particularly in families or other communities, additional short Scriptural readings may be desired. Some appropriate readings include:"
 					},
 					{
-						"type": "line",
-						"text": "isaiah 26:3-4",
+						"type": "scripture_link",
+						"reference": "Isaiah 26:3-4",
 						"indent": true
 					},
 					{
-						"type": "line",
-						"text": "isaiah 30:15",
+						"type": "scripture_link",
+						"reference": "Isaiah 30:15",
 						"indent": true
 					},
 					{
-						"type": "line",
-						"text": "matthew 6:31-34",
+						"type": "scripture_link",
+						"reference": "Matthew 6:31-34",
 						"indent": true
 					},
 					{
-						"type": "line",
-						"text": "2 corinthians 4:6",
+						"type": "scripture_link",
+						"reference": "2 Corinthians 4:6",
 						"indent": true
 					},
 					{
-						"type": "line",
-						"text": "1 thessalonians 5:9-10",
+						"type": "scripture_link",
+						"reference": "1 Thessalonians 5:9-10",
 						"indent": true
 					},
 					{
-						"type": "line",
-						"text": "1 thessalonians 5:23",
+						"type": "scripture_link",
+						"reference": "1 Thessalonians 5:23",
 						"indent": true
 					},
 					{
-						"type": "line",
-						"text": "ephesians 4:26-27",
+						"type": "scripture_link",
+						"reference": "Ephesians 4:26-27",
 						"indent": true
 					},
 					{

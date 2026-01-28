@@ -20,6 +20,7 @@
 	import LordsPrayerNoDox from '$lib/prayer/lords_prayer_nodox.svelte';
 	import Kyrie from '$lib/text_component/kyrie.svelte';
 	import NiceneCreed from '$lib/text_component/nicene_creed.svelte';
+	import ScriptureLink from '$lib/page_helpers/scripture_link.svelte';
 
 	// Front matter pages
 	import PageIII from '$lib/text_component/iii.svelte';
@@ -110,6 +111,10 @@
 		<Kyrie />
 	{:else if block.type === 'nicene_creed'}
 		<NiceneCreed />
+	{:else if block.type === 'scripture_link'}
+		<p class:ml-8={block.indent}>
+			<ScriptureLink reference={block.reference} />
+		</p>
 	{:else if block.type === 'canticle'}
 		{@const canticleBlocks = canticlesData[block.name]}
 		{#if canticleBlocks}
