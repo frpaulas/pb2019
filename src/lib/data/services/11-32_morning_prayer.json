@@ -356,10 +356,6 @@
 						"text": "or this"
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 6
-					},
-					{
 						"type": "canticle",
 						"name": "jubilate"
 					},
@@ -745,52 +741,24 @@
 						]
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "the collect of the day{br}_From the Collects of the Christian Year_"
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 2
-					},
-					{
-						"type": "collect",
-						"name": "mp_sunday"
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 2
-					},
-					{
-						"type": "collect",
-						"name": "mp_monday"
+						"type": "weekly_collects",
+						"office": "mp"
 					},
 					{
 						"type": "page_break",
 						"page": 23
 					},
 					{
-						"type": "collect",
-						"name": "mp_tuesday"
-					},
-					{
-						"type": "collect",
-						"name": "mp_wednesday"
-					},
-					{
-						"type": "collect",
-						"name": "mp_thursday"
-					},
-					{
-						"type": "collect",
-						"name": "mp_friday"
-					},
-					{
 						"type": "page_break",
 						"page": 24
-					},
-					{
-						"type": "collect",
-						"name": "mp_saturday"
 					},
 					{
 						"type": "rubric",
@@ -1004,10 +972,6 @@
 					{
 						"type": "section_title",
 						"text": "opening sentences of scripture"
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 1
 					},
 					{
 						"type": "section_title",

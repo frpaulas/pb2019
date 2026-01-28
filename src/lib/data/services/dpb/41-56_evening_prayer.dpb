@@ -70,6 +70,7 @@ st: the prayers
 v:officiant: The Lord be with you.
 v:people: And with your spirit.
 v:officiant: Let us pray.
+r: The People kneel or stand as they are able.
 use:kyrie:
 r:Officient and People
 use:prayer:lords_prayer:
@@ -113,15 +114,11 @@ r: The Officiant then prays one or more of the following Collects, always beginn
     of any of the weekdays following, or of the Holy Day being observed) found on pages 598-640.
     It is traditional to pray the Collects for Peace and Aid against Perils daily.
     Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics.
+vm:2
 st: the collect of the day{br}_From the Collects of the Christian Year_
-use:collects:ep_sunday
-use:collects:ep_monday
-use:collects:ep_tuesday
-use:collects:ep_wednesday
+
+use:weekly_collects:ep
 pb:50
-use:collects:ep_thursday
-use:collects:ep_friday
-use:collects:ep_saturday
 
 
 pb:51

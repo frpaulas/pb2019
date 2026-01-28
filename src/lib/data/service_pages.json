@@ -529,10 +529,6 @@
         "text": "or this"
       },
       {
-        "type": "vertical_margin",
-        "spacing": 6
-      },
-      {
         "type": "canticle",
         "name": "jubilate"
       },
@@ -932,57 +928,28 @@
         ]
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the collect of the day{br}_From the Collects of the Christian Year_"
       },
       {
-        "type": "vertical_margin",
-        "spacing": 2
-      },
-      {
-        "type": "collect",
-        "name": "mp_sunday"
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 2
-      },
-      {
-        "type": "collect",
-        "name": "mp_monday"
+        "type": "weekly_collects",
+        "office": "mp"
       }
     ]
   },
   "23": {
     "pageNumber": 23,
     "headerText": "Daily Morning Prayer",
-    "content": [
-      {
-        "type": "collect",
-        "name": "mp_tuesday"
-      },
-      {
-        "type": "collect",
-        "name": "mp_wednesday"
-      },
-      {
-        "type": "collect",
-        "name": "mp_thursday"
-      },
-      {
-        "type": "collect",
-        "name": "mp_friday"
-      }
-    ]
+    "content": []
   },
   "24": {
     "pageNumber": 24,
     "headerText": "Daily Morning Prayer",
     "content": [
-      {
-        "type": "collect",
-        "name": "mp_saturday"
-      },
       {
         "type": "rubric",
         "text": "Unless the Great Litany or the Eucharist is to follow, one of the following prayers for mission is added. If the Great Litany is used, it follows here, or after a hymn or anthem, and concludes the Office."
@@ -1201,10 +1168,6 @@
       {
         "type": "section_title",
         "text": "opening sentences of scripture"
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 1
       },
       {
         "type": "section_title",
@@ -2353,6 +2316,10 @@
         "text": "Let us pray."
       },
       {
+        "type": "rubric",
+        "text": "The People kneel or stand as they are able."
+      },
+      {
         "type": "kyrie"
       },
       {
@@ -2559,44 +2526,23 @@
         ]
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the collect of the day{br}_From the Collects of the Christian Year_"
       },
       {
-        "type": "collect",
-        "name": "ep_sunday"
-      },
-      {
-        "type": "collect",
-        "name": "ep_monday"
-      },
-      {
-        "type": "collect",
-        "name": "ep_tuesday"
-      },
-      {
-        "type": "collect",
-        "name": "ep_wednesday"
+        "type": "weekly_collects",
+        "office": "ep"
       }
     ]
   },
   "50": {
     "pageNumber": 50,
     "headerText": "Daily Evening Prayer",
-    "content": [
-      {
-        "type": "collect",
-        "name": "ep_thursday"
-      },
-      {
-        "type": "collect",
-        "name": "ep_friday"
-      },
-      {
-        "type": "collect",
-        "name": "ep_saturday"
-      }
-    ]
+    "content": []
   },
   "51": {
     "pageNumber": 51,
@@ -3129,12 +3075,7 @@
       },
       {
         "type": "section_title",
-        "text": "psalm 4"
-      },
-      {
-        "type": "section_title",
-        "text": "_Cum invocarem_",
-        "lowercase": true
+        "text": "psalm 4{br}_Cum invocarem_"
       },
       {
         "type": "show_psalm",
@@ -3148,13 +3089,12 @@
     "headerText": "Compline",
     "content": [
       {
-        "type": "section_title",
-        "text": "psalm 31:1-6"
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
-        "text": "_In te, Domine, speravi_",
-        "lowercase": true
+        "text": "psalm 31:1-6{br}_In te, Domine, speravi_"
       },
       {
         "type": "show_psalm",
@@ -3162,13 +3102,12 @@
         "to": 6
       },
       {
-        "type": "section_title",
-        "text": "psalm 91"
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
-        "text": "_Qui habitat_",
-        "lowercase": true
+        "text": "psalm 91{br}_Qui habitat_"
       },
       {
         "type": "show_psalm",
@@ -3176,13 +3115,12 @@
         "to": 16
       },
       {
-        "type": "section_title",
-        "text": "psalm 134"
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
-        "text": "_Ecce nunc_",
-        "lowercase": true
+        "text": "psalm 134{br}_Ecce nunc_"
       }
     ]
   },
@@ -3194,6 +3132,10 @@
         "type": "show_psalm",
         "ps": 134,
         "to": 4
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "rubric",

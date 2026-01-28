@@ -154,12 +154,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "psalm 4"
-					},
-					{
-						"type": "section_title",
-						"text": "_Cum invocarem_",
-						"lowercase": true
+						"text": "psalm 4{br}_Cum invocarem_"
 					},
 					{
 						"type": "show_psalm",
@@ -171,13 +166,12 @@
 						"page": 59
 					},
 					{
-						"type": "section_title",
-						"text": "psalm 31:1-6"
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
-						"text": "_In te, Domine, speravi_",
-						"lowercase": true
+						"text": "psalm 31:1-6{br}_In te, Domine, speravi_"
 					},
 					{
 						"type": "show_psalm",
@@ -185,13 +179,12 @@
 						"to": 6
 					},
 					{
-						"type": "section_title",
-						"text": "psalm 91"
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
-						"text": "_Qui habitat_",
-						"lowercase": true
+						"text": "psalm 91{br}_Qui habitat_"
 					},
 					{
 						"type": "show_psalm",
@@ -199,13 +192,12 @@
 						"to": 16
 					},
 					{
-						"type": "section_title",
-						"text": "psalm 134"
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
-						"text": "_Ecce nunc_",
-						"lowercase": true
+						"text": "psalm 134{br}_Ecce nunc_"
 					},
 					{
 						"type": "page_break",
@@ -215,6 +207,10 @@
 						"type": "show_psalm",
 						"ps": 134,
 						"to": 4
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "rubric",

@@ -889,6 +889,23 @@ class RawToJsonConverter {
 			};
 		}
 
+		// Handle weekly_collects: use:weekly_collects:mp or use:weekly_collects:ep
+		// Format: use:weekly_collects:office
+		// Shows current day's collect with radio buttons to view other days
+		if (componentName === 'weekly_collects') {
+			const office = parts[2];
+
+			if (!office || (office !== 'mp' && office !== 'ep')) {
+				console.warn('Warning: use:weekly_collects: requires office (mp or ep)');
+				return null;
+			}
+
+			return {
+				type: 'weekly_collects',
+				office: office
+			};
+		}
+
 		// Handle occasional_prayer: use:occasional_prayer:1
 		// Format: use:occasional_prayer:number
 		if (componentName === 'occasional_prayer') {

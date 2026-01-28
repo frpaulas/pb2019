@@ -15,8 +15,11 @@
 	import ShowEucharistReadings from '$lib/page_helpers/show_eucharist_readings.svelte';
 	import SeasonalScripture from '$lib/page_helpers/seasonal_scripture.svelte';
 	import SeasonalAntiphon from '$lib/page_helpers/seasonal_antiphon.svelte';
+	import WeeklyCollects from '$lib/page_helpers/weekly_collects.svelte';
 	import LordsPrayer from '$lib/prayer/lords_prayer.svelte';
 	import LordsPrayerNoDox from '$lib/prayer/lords_prayer_nodox.svelte';
+	import Kyrie from '$lib/text_component/kyrie.svelte';
+	import NiceneCreed from '$lib/text_component/nicene_creed.svelte';
 
 	// Front matter pages
 	import PageIII from '$lib/text_component/iii.svelte';
@@ -97,10 +100,16 @@
 		<SeasonalScripture office={block.office} />
 	{:else if block.type === 'seasonal_antiphon'}
 		<SeasonalAntiphon />
+	{:else if block.type === 'weekly_collects'}
+		<WeeklyCollects office={block.office} />
 	{:else if block.type === 'lords_prayer'}
 		<LordsPrayer />
 	{:else if block.type === 'lords_prayer_nodox'}
 		<LordsPrayerNoDox />
+	{:else if block.type === 'kyrie'}
+		<Kyrie />
+	{:else if block.type === 'nicene_creed'}
+		<NiceneCreed />
 	{:else if block.type === 'canticle'}
 		{@const canticleBlocks = canticlesData[block.name]}
 		{#if canticleBlocks}

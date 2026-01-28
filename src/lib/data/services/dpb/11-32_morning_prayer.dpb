@@ -52,7 +52,7 @@ use:canticle:venite:
 pb:15
 r: or this
 
-vm:6:
+
 use:canticle:jubilate:
 r: During the first week of Easter, the Pascha Nostrum, without antiphons,
     is used in place of the Invitatory Psalm, and it may be used throughout Eastertide.
@@ -120,23 +120,13 @@ r: The Officiant then prays one or more of the following Collects, always beginn
     found on pages 598-640.
     It is traditional to pray the Collects for Peace and Grace daily.
     Alternatively, one may pray the Collects on a weekly rotation, using the suggestions in italics.
-
+vm:2
 st: the collect of the day{br}_From the Collects of the Christian Year_
-vm:2:
-use:collect:mp_sunday:
-vm:2:
-use:collect:mp_monday:
-
+use:weekly_collects:mp
 pb:23
-use:collect:mp_tuesday:
-use:collect:mp_wednesday:
-use:collect:mp_thursday:
-use:collect:mp_friday:
-
 
 
 pb:24
-use:collect:mp_saturday:
 
 r: Unless the Great Litany or the Eucharist is to follow, one of the following prayers
     for mission is added. If the Great Litany is used, it follows here, or after a hymn or anthem, and concludes the Office.
@@ -171,7 +161,6 @@ scripture:ephesians 3:20-21:: Glory to God whose power, working in us, can do in
 pb:27
 vm:3:
 st: opening sentences of scripture
-vm:1:
 use:opening_sentences:mp_advent
 use:opening_sentences:mp_christmas
 use:opening_sentences:mp_epiphany

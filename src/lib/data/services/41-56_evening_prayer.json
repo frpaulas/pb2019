@@ -527,6 +527,10 @@
 						"text": "Let us pray."
 					},
 					{
+						"type": "rubric",
+						"text": "The People kneel or stand as they are able."
+					},
+					{
 						"type": "kyrie"
 					},
 					{
@@ -729,40 +733,20 @@
 						]
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "the collect of the day{br}_From the Collects of the Christian Year_"
 					},
 					{
-						"type": "collect",
-						"name": "ep_sunday"
-					},
-					{
-						"type": "collect",
-						"name": "ep_monday"
-					},
-					{
-						"type": "collect",
-						"name": "ep_tuesday"
-					},
-					{
-						"type": "collect",
-						"name": "ep_wednesday"
+						"type": "weekly_collects",
+						"office": "ep"
 					},
 					{
 						"type": "page_break",
 						"page": 50
-					},
-					{
-						"type": "collect",
-						"name": "ep_thursday"
-					},
-					{
-						"type": "collect",
-						"name": "ep_friday"
-					},
-					{
-						"type": "collect",
-						"name": "ep_saturday"
 					},
 					{
 						"type": "page_break",
