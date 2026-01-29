@@ -4,13 +4,30 @@
 	import { onMount } from 'svelte';
 	import FormattedText from './formatted_text.svelte';
 
-	let { who = '', officiant = false, people = false, bold = false, text, children } = $props();
+	let {
+		who = '',
+		officiant = false,
+		people = false,
+		reader = false,
+		deacon = false,
+		minister = false,
+		celebrant = false,
+		bishop = false,
+		bold = false,
+		text,
+		children
+	} = $props();
 
 	// Determine who is speaking from boolean props or direct who prop
 	let speaker = who;
 	if (!speaker) {
 		if (officiant) speaker = 'officiant';
 		else if (people) speaker = 'people';
+		else if (reader) speaker = 'reader';
+		else if (deacon) speaker = 'deacon';
+		else if (minister) speaker = 'minister';
+		else if (celebrant) speaker = 'celebrant';
+		else if (bishop) speaker = 'bishop';
 	}
 
 	let textClass = speaker == 'people' || bold ? 'font-bold' : '';

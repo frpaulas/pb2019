@@ -176,7 +176,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "deacon: The Lord be with you."
+						"deacon": true,
+						"text": "The Lord be with you."
 					},
 					{
 						"type": "versical",
@@ -185,7 +186,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "deacon: Lift up your hearts."
+						"deacon": true,
+						"text": "Lift up your hearts."
 					},
 					{
 						"type": "versical",
@@ -194,7 +196,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "deacon: Let us give thanks to the Lord our God."
+						"deacon": true,
+						"text": "Let us give thanks to the Lord our God."
 					},
 					{
 						"type": "versical",
@@ -902,7 +905,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Alleluia! Christ is risen!"
+						"celebrant": true,
+						"text": "Alleluia! Christ is risen!"
 					},
 					{
 						"type": "versical",
@@ -1033,7 +1037,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: The Lord be with you."
+						"celebrant": true,
+						"text": "The Lord be with you."
 					},
 					{
 						"type": "versical",
@@ -1042,7 +1047,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Let us pray."
+						"celebrant": true,
+						"text": "Let us pray."
 					},
 					{
 						"type": "text_block",

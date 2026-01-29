@@ -26,7 +26,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Blessed be our God."
+						"celebrant": true,
+						"text": "Blessed be our God."
 					},
 					{
 						"type": "versical",
@@ -63,7 +64,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: The Lord be with you."
+						"celebrant": true,
+						"text": "The Lord be with you."
 					},
 					{
 						"type": "versical",
@@ -72,7 +74,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Let us pray."
+						"celebrant": true,
+						"text": "Let us pray."
 					},
 					{
 						"type": "text_block",

@@ -403,7 +403,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Yours is the kingdom, O Lord;"
+						"bishop": true,
+						"text": "Yours is the kingdom, O Lord;"
 					},
 					{
 						"type": "versical",
@@ -425,7 +426,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: The Lord be with you."
+						"bishop": true,
+						"text": "The Lord be with you."
 					},
 					{
 						"type": "versical",
@@ -434,7 +436,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Let us pray."
+						"bishop": true,
+						"text": "Let us pray."
 					},
 					{
 						"type": "text_block",
@@ -1172,7 +1175,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Yours, O Lord, is the greatness, and the power, and"
+						"celebrant": true,
+						"text": "Yours, O Lord, is the greatness, and the power, and"
 					},
 					{
 						"type": "versical",

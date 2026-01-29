@@ -1,5 +1,8 @@
 pg: 91-99
 pb:91
+vm:3
+hr:
+vm:3
 tp: The Great Litany
 
 st:1: the great litany
@@ -125,6 +128,7 @@ r: The Officiant may add other prayers, and may end the Litany, saying
 tb: The grace of our Lord Jesus Christ, and the love of God,
     and the fellowship of the Holy Spirit, be with us all evermore. **Amen.**
 
+vm:2
 st: the supplication
 r: For use in the Litany in place of the Versicle and Collect which follows the Lord's Prayer; or at the end of Morning or Evening Prayer; or as a separate devotion. The Supplication is especially appropriate in times of war, or of great anxiety, or of disaster.
 l: O Lord, arise and help us;
@@ -163,3 +167,4 @@ tb: It is particularly appropriate to use the Great Litany on the First Sunday o
     and the First Sunday in Lent. It is also appropriate for Rogation days,
     other days of fasting or thanksgiving, and occasions of solemn and comprehensive entreaty.
 tb: Where local circumstance or pastoral need dictates, the Officiant may reduce the number of petitions and responses prayed.
+hr:

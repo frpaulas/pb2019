@@ -228,7 +228,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you turn to Jesus Christ and confess him as your Lord and Savior?"
+						"bishop": true,
+						"text": "Do you turn to Jesus Christ and confess him as your Lord and Savior?"
 					},
 					{
 						"type": "versical",
@@ -236,7 +237,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you joyfully receive the Christian Faith,"
+						"bishop": true,
+						"text": "Do you joyfully receive the Christian Faith,"
 					},
 					{
 						"type": "versical",
@@ -248,7 +250,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Will you obediently keep God’s holy will and"
+						"bishop": true,
+						"text": "Will you obediently keep God’s holy will and"
 					},
 					{
 						"type": "versical",
@@ -281,7 +284,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you believe and trust in God the Father?"
+						"bishop": true,
+						"text": "Do you believe and trust in God the Father?"
 					},
 					{
 						"type": "versical",
@@ -300,7 +304,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you believe and trust in Jesus Christ?"
+						"bishop": true,
+						"text": "Do you believe and trust in Jesus Christ?"
 					},
 					{
 						"type": "versical",
@@ -363,7 +368,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you believe and trust in the Holy Spirit?"
+						"bishop": true,
+						"text": "Do you believe and trust in the Holy Spirit?"
 					},
 					{
 						"type": "versical",
@@ -434,7 +440,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: The Lord be with you."
+						"bishop": true,
+						"text": "The Lord be with you."
 					},
 					{
 						"type": "versical",
@@ -443,7 +450,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Lift up your hearts."
+						"bishop": true,
+						"text": "Lift up your hearts."
 					},
 					{
 						"type": "versical",
@@ -452,7 +460,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Let us give thanks to the Lord our God."
+						"bishop": true,
+						"text": "Let us give thanks to the Lord our God."
 					},
 					{
 						"type": "versical",

@@ -129,7 +129,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Have they been adequately prepared?"
+						"bishop": true,
+						"text": "Have they been adequately prepared?"
 					},
 					{
 						"type": "versical",
@@ -173,7 +174,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you renounce the devil and all the spiritual forces"
+						"bishop": true,
+						"text": "Do you renounce the devil and all the spiritual forces"
 					},
 					{
 						"type": "versical",
@@ -185,7 +187,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you renounce the empty promises and deadly"
+						"bishop": true,
+						"text": "Do you renounce the empty promises and deadly"
 					},
 					{
 						"type": "versical",
@@ -201,7 +204,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you renounce the sinful desires of the flesh that"
+						"bishop": true,
+						"text": "Do you renounce the sinful desires of the flesh that"
 					},
 					{
 						"type": "versical",
@@ -213,7 +217,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you turn to Jesus Christ and confess him as your Lord and Savior?"
+						"bishop": true,
+						"text": "Do you turn to Jesus Christ and confess him as your Lord and Savior?"
 					},
 					{
 						"type": "versical",
@@ -221,7 +226,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you joyfully receive the Christian Faith, as"
+						"bishop": true,
+						"text": "Do you joyfully receive the Christian Faith, as"
 					},
 					{
 						"type": "versical",
@@ -233,7 +239,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Will you obediently keep God’s holy will and commandments,"
+						"bishop": true,
+						"text": "Will you obediently keep God’s holy will and commandments,"
 					},
 					{
 						"type": "versical",
@@ -382,7 +389,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: The Peace of the Lord be always with you."
+						"bishop": true,
+						"text": "The Peace of the Lord be always with you."
 					},
 					{
 						"type": "versical",

@@ -125,6 +125,10 @@
 						"text": "Alternatively, Psalm 5:1-3 may be used."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "a reading from holy scripture"
 					},
@@ -180,6 +184,10 @@
 					{
 						"type": "rubric",
 						"text": "Prayers may be offered for ourselves and others."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -239,6 +247,10 @@
 						"type": "gloria"
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "a reading from holy scripture"
 					},
@@ -267,6 +279,10 @@
 					{
 						"type": "rubric",
 						"text": "Prayers may be offered for ourselves and others."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -328,6 +344,10 @@
 						"name": "phos_hilaron"
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "a reading from holy scripture"
 					},
@@ -385,6 +405,10 @@
 						"text": "Prayers may be offered for ourselves and others."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "the lord's prayer"
 					},
@@ -440,6 +464,10 @@
 						"bold": true
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "a reading from holy scripture"
 					},
@@ -472,6 +500,10 @@
 					{
 						"type": "page_break",
 						"page": 74
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",

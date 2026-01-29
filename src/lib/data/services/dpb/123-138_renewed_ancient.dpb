@@ -2,15 +2,10 @@ pg: 123-138
 pb:123
 tp: The Holy Eucharist: Renewed Ancient Text
 
-st: the order for the administration of
-st: the lord's supper
-st: or
-st: holy communion,
-st: commonly called
-st: the holy eucharist
-st: Renewed Ancient Text
+st: the order for the administration of{br}the lord's supper{br}_or_{br}holy communion,{br}commonly called{br}the holy eucharist{br}Renewed Ancient Text
 r: A hymn, psalm, or anthem may be sung.
 
+vm:2
 st: the acclamation
 r: The People standing, the Celebrant says this or a seasonal greeting (pages 145-146)
 v: Blessed be God: the Father, the Son, and the Holy Spirit.
@@ -23,12 +18,14 @@ v:celebrant: Alleluia! Christ is risen!
 v:people: The Lord is risen indeed! Alleluia!
 
 pb:124
+vm:2
 st: the collect for purity
 r: The Celebrant prays (and the People may be invited to join)
 tb: Almighty God, to you all hearts are open, all desires known, and from you no secrets are hid:
     Cleanse the thoughts of our hearts by the inspiration of your Holy Spirit,
     that we may perfectly love you, and worthily magnify your holy Name; through Christ our Lord.
 
+vm:2
 st: the summary of the law
 r: Then follows the Summary of the Law, or The Decalogue (page 100).
 l: Hear what our Lord Jesus Christ says:
@@ -37,9 +34,15 @@ tb: You shall love the Lord your God with all your heart and with all your soul 
     as yourself. On these two commandments depend all the Law and the Prophets.
 ref: matthew 22:37-40
 
+st: The kyrie
 use:kyrie:
+r: or this
+use:trisagion
+vm:1
 use:gloria_in_excelsis:
 
+pb:125
+vm:2
 st: the collect of the day
 r: The Celebrant says to the People
 v: The Lord be with you.
@@ -69,8 +72,10 @@ r: After the Gospel, the Reader says
 v: The Gospel of the Lord.
 v:people: Praise to you, Lord Christ.
 
-st: the sermon
 
+vm:2
+st: the sermon
+vm:2
 st: The Nicene Creed
 r: On Sundays, other Major Feast Days, and other times as appointed, all stand to recite the Nicene Creed, the Celebrant first saying
 l: Let us confess our faith in the words of the Nicene Creed:
@@ -78,6 +83,7 @@ pb:127
 use:nicene_creed:
 
 pb:128
+vm:2
 st: the prayers of the people
 r: The Deacon or other person appointed says these prayers, or the Prayers of the People in the Anglican Standard Text. The reader pauses after each bidding, and the people may add petitions, either silently or aloud.
 l: Let us pray for the Church and for the world, saying,
@@ -112,6 +118,7 @@ tb: Heavenly Father, grant these our prayers for the sake of Jesus Christ,
         the Holy Spirit, one God, now and for ever.
 r: The Celebrant may then say the Exhortation.
 
+vm:2
 st: the confession and absolution of sin
 r: The Deacon or other person appointed says the following
 l: Let us humbly confess our sins to Almighty God.
@@ -129,6 +136,7 @@ tb: Almighty God, our heavenly Father, who in his great mercy has promised forgi
     have mercy upon you, pardon and deliver you from all your sins, confirm and
     strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord.
 
+vm:2
 st: the comfortable words
 r: The Celebrant may then say one or more of the following sentences, first saying
 l: Hear the Word of God to all who truly turn to him.
@@ -136,7 +144,7 @@ scripture:matthew 11:28:: Come to me, all who labor and are heavy laden, and I w
 scripture:john 3:16:: God so loved the world, that he gave his only-begotten Son, that whoever believes in him should not perish but have eternal life.
 
 pb:131
-scripture:1 timothy 1:15: The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners.
+scripture:1 timothy 1:15:: The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners.
 scripture:1 john 2:1-2:: If anyone sins, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world.
 
 st: the peace
@@ -145,6 +153,7 @@ v:celebrant: The Peace of the Lord be always with you.
 v:people: And with your spirit.
 r: Then the Ministers and People may greet one another in the Name of the Lord.
 
+vm:2
 st: the offertory
 r: The Celebrant may begin the Offertory with one of the provided sentences of Scripture.
     During the Offertory a hymn, psalm, or anthem may be sung. The Deacon or Priest prepares
@@ -158,6 +167,7 @@ v:people: And of your own have we given you.
 ref: 1 chronicles 29:11, 14
 
 pb:132
+vm:2
 st: the sursum corda
 r: The People remain standing. The Celebrant faces them and sings or says
 v: The Lord be with you.
@@ -171,6 +181,7 @@ tb: It is right, our duty and our joy, always and everywhere to give thanks to y
 r: Here a Proper Preface (pages 152-158) is normally sung or said.
 tb: Therefore we praise you, joining our voices with Angels and Archangels and with all the company of heaven, who for ever sing this hymn to proclaim the glory of your Name:
 
+vm:2
 st: the sanctus
 r: Celebrant and People
 l:b: Holy, Holy, Holy, Lord God of power and might, heaven and
@@ -179,6 +190,7 @@ l:b:i: Hosanna in the highest.
 l:b: Blessed is he who comes in the Name of the Lord.
 l:b:i: Hosanna in the highest.
 
+vm:2
 st: the prayer of consecration
 r: The People stand or kneel. The Celebrant continues
 
@@ -207,6 +219,7 @@ r: Celebrant and People
 l:b:i: Christ has died.
 l:b:i: Christ is risen.
 l:b:i: Christ will come again.
+vm:1
 tb: We celebrate the memorial of our redemption, O Father, in this sacrifice of praise
     and thanksgiving, and we offer you these gifts.
 
@@ -221,6 +234,7 @@ tb: All this we ask through your Son Jesus Christ: By him, and with him,
     and in him, in the unity of the Holy Spirit, all honor and glory is yours,
     Almighty Father, now and for ever.
 
+vm:2
 st: the lord's prayer
 r: The Celebrant then says
 l: And now as our Savior Christ has taught us, we are bold to pray:
@@ -239,9 +253,11 @@ v:celebrant: [Alleluia.] Christ our Passover Lamb has been sacrificed, once for 
 v:people: Therefore let us keep the feast. [Alleluia.]
 r: In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season.
 
+vm:2
 use:prayer:humble_access
 
 pb:136
+vm:2
 st: the agnus dei
 r: The following or some other suitable anthem may be sung or said here
 l: Lamb of God, you take away the sin of the world;
@@ -251,6 +267,7 @@ l:b:i: have mercy on us.
 l: Lamb of God, you take away the sin of the world;
 l:b:i: grant us your peace.
 
+vm:2
 st: the ministration of communion
 r: Facing the People, the Celebrant may say the following invitation
 tb: The gifts of God for the people of God.
@@ -265,6 +282,7 @@ r: During the ministration of Communion, hymns, psalms, or anthems may be sung.
 r: The Celebrant may offer a sentence of Scripture at the conclusion of the Communion.
 
 pb:137
+vm:2
 st: the post communion prayer
 r: After Communion, the Celebrant says
 l: Let us pray.
@@ -289,6 +307,7 @@ tb: The peace of God, which passes all understanding, keep your hearts and minds
 r: A hymn, psalm, or anthem may be sung after the Blessing (or following the Dismissal).
 
 pb:138
+vm:2
 st: the dismissal
 r: The Deacon, or the Priest, may dismiss the People with these words
 v: Let us go forth in the Name of Christ.
@@ -307,3 +326,4 @@ r: From the Easter Vigil through the Day of Pentecost, "Alleluia, alleluia"
     except during Lent and on other penitential occasions.
 r: The People respond
 v:people: Thanks be to God. [Alleluia, alleluia.]
+hr:

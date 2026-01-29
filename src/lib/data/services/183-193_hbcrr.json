@@ -86,7 +86,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Have you already been baptized?"
+						"bishop": true,
+						"text": "Have you already been baptized?"
 					},
 					{
 						"type": "versical",
@@ -94,7 +95,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you desire to be baptized?"
+						"bishop": true,
+						"text": "Do you desire to be baptized?"
 					},
 					{
 						"type": "versical",
@@ -165,7 +167,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Have they been adequately prepared?"
+						"bishop": true,
+						"text": "Have they been adequately prepared?"
 					},
 					{
 						"type": "versical",
@@ -305,7 +308,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you believe and trust in God the Father?"
+						"bishop": true,
+						"text": "Do you believe and trust in God the Father?"
 					},
 					{
 						"type": "versical",
@@ -324,7 +328,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you believe and trust in Jesus Christ?"
+						"bishop": true,
+						"text": "Do you believe and trust in Jesus Christ?"
 					},
 					{
 						"type": "versical",
@@ -387,7 +392,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you believe and trust in the Holy Spirit?"
+						"bishop": true,
+						"text": "Do you believe and trust in the Holy Spirit?"
 					},
 					{
 						"type": "versical",
@@ -460,7 +466,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: The Lord be with you."
+						"bishop": true,
+						"text": "The Lord be with you."
 					},
 					{
 						"type": "versical",
@@ -469,7 +476,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Lift up your hearts."
+						"bishop": true,
+						"text": "Lift up your hearts."
 					},
 					{
 						"type": "versical",
@@ -478,7 +486,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Let us give thanks to the Lord our God."
+						"bishop": true,
+						"text": "Let us give thanks to the Lord our God."
 					},
 					{
 						"type": "versical",

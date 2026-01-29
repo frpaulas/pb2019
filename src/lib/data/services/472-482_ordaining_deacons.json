@@ -43,7 +43,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop:  Your old men shall dream dreams,"
+						"bishop": true,
+						"text": "Your old men shall dream dreams,"
 					},
 					{
 						"type": "versical",
@@ -52,7 +53,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop:  You shall know that the Lord is in the midst of his people,"
+						"bishop": true,
+						"text": "You shall know that the Lord is in the midst of his people,"
 					},
 					{
 						"type": "versical",
@@ -61,7 +63,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop:  And it shall come to pass"
+						"bishop": true,
+						"text": "And it shall come to pass"
 					},
 					{
 						"type": "versical",
@@ -102,7 +105,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: _Have these persons_ been selected in accordance with"
+						"bishop": true,
+						"text": "_Have these persons_ been selected in accordance with"
 					},
 					{
 						"type": "versical",
@@ -192,7 +196,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop:  Will you uphold them in their ministry?"
+						"bishop": true,
+						"text": "Will you uphold them in their ministry?"
 					},
 					{
 						"type": "versical",
@@ -201,7 +206,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop:  In peace let us pray to the Lord."
+						"bishop": true,
+						"text": "In peace let us pray to the Lord."
 					},
 					{
 						"type": "section_title",
@@ -230,7 +236,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Let us pray."
+						"bishop": true,
+						"text": "Let us pray."
 					},
 					{
 						"type": "text_block",
@@ -472,7 +479,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you trust that you are inwardly moved by the"
+						"bishop": true,
+						"text": "Do you trust that you are inwardly moved by the"
 					},
 					{
 						"type": "versical",
@@ -492,7 +500,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you believe that you are truly called, according to"
+						"bishop": true,
+						"text": "Do you believe that you are truly called, according to"
 					},
 					{
 						"type": "versical",
@@ -512,7 +521,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Are you persuaded that the Holy Scriptures contain"
+						"bishop": true,
+						"text": "Are you persuaded that the Holy Scriptures contain"
 					},
 					{
 						"type": "versical",
@@ -532,7 +542,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Will you diligently read these Scriptures to the"
+						"bishop": true,
+						"text": "Will you diligently read these Scriptures to the"
 					},
 					{
 						"type": "versical",
@@ -548,7 +559,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Will you be diligent to frame and fashion your own"
+						"bishop": true,
+						"text": "Will you be diligent to frame and fashion your own"
 					},
 					{
 						"type": "versical",
@@ -572,7 +584,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Will you reverently obey your Bishop and other"
+						"bishop": true,
+						"text": "Will you reverently obey your Bishop and other"
 					},
 					{
 						"type": "versical",
@@ -764,7 +777,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Blessed be the Name of the Lord;"
+						"bishop": true,
+						"text": "Blessed be the Name of the Lord;"
 					},
 					{
 						"type": "versical",
@@ -773,7 +787,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: The blessing, mercy, and grace of God Almighty,"
+						"bishop": true,
+						"text": "The blessing, mercy, and grace of God Almighty,"
 					},
 					{
 						"type": "versical",

@@ -1,5 +1,7 @@
 pg: 79-90
 pb:79
+hr:
+vm:3
 tp: Supplemental Canticles
 
 st:1: supplemental canticles
@@ -33,8 +35,9 @@ use:canticle:benedicite_onmia_opera_domini
 pb:88
 
 pb:89
-st:2: Great Litany
-st:2: & Decalogue
+hr:
+vm:3
+st:2: Great Litany{br}& Decalogue
 
 pb:90
 blank:

@@ -43,7 +43,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Do you renounce the devil and all the spiritual forces"
+						"celebrant": true,
+						"text": "Do you renounce the devil and all the spiritual forces"
 					},
 					{
 						"type": "versical",
@@ -60,7 +61,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Do you renounce the empty promises and deadly"
+						"celebrant": true,
+						"text": "Do you renounce the empty promises and deadly"
 					},
 					{
 						"type": "versical",
@@ -77,7 +79,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Do you renounce the sinful desires of the flesh that"
+						"celebrant": true,
+						"text": "Do you renounce the sinful desires of the flesh that"
 					},
 					{
 						"type": "versical",
@@ -90,7 +93,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Do you turn to Jesus Christ and confess him as your"
+						"celebrant": true,
+						"text": "Do you turn to Jesus Christ and confess him as your"
 					},
 					{
 						"type": "versical",
@@ -103,7 +107,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Do you joyfully receive the Christian Faith,"
+						"celebrant": true,
+						"text": "Do you joyfully receive the Christian Faith,"
 					},
 					{
 						"type": "versical",
@@ -116,7 +121,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Will you obediently keep God’s holy will and"
+						"celebrant": true,
+						"text": "Will you obediently keep God’s holy will and"
 					},
 					{
 						"type": "versical",
@@ -141,7 +147,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Do you believe and trust in God the Father?"
+						"celebrant": true,
+						"text": "Do you believe and trust in God the Father?"
 					},
 					{
 						"type": "versical",
@@ -160,7 +167,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Do you believe and trust in Jesus Christ?"
+						"celebrant": true,
+						"text": "Do you believe and trust in Jesus Christ?"
 					},
 					{
 						"type": "versical",
@@ -223,7 +231,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Do you believe and trust in the Holy Spirit?"
+						"celebrant": true,
+						"text": "Do you believe and trust in the Holy Spirit?"
 					},
 					{
 						"type": "versical",

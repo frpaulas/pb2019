@@ -16,39 +16,20 @@
 						"page": 105
 					},
 					{
-						"type": "section_title",
-						"text": "the order for the administration of"
+						"type": "vertical_margin",
+						"spacing": 3
 					},
 					{
 						"type": "section_title",
-						"text": "the lord's supper"
-					},
-					{
-						"type": "section_title",
-						"text": "_or_",
-						"lowercase": true
-					},
-					{
-						"type": "section_title",
-						"text": "holy communion,"
-					},
-					{
-						"type": "section_title",
-						"text": "commonly called",
-						"lowercase": true
-					},
-					{
-						"type": "section_title",
-						"text": "the holy eucharist"
-					},
-					{
-						"type": "section_title",
-						"text": "_Anglican Standard Text_",
-						"lowercase": true
+						"text": "the order for the administration of{br}the lord's supper{br}_or_{br}holy communion,{br}commonly called{br}the holy eucharist{br}_Anglican Standard Text_{br}"
 					},
 					{
 						"type": "rubric",
 						"text": "A hymn, psalm, or anthem may be sung."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -87,7 +68,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Bless the Lord who forgives all our sins."
+						"celebrant": true,
+						"text": "Bless the Lord who forgives all our sins."
 					},
 					{
 						"type": "versical",
@@ -100,7 +82,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Alleluia! Christ is risen!"
+						"celebrant": true,
+						"text": "Alleluia! Christ is risen!"
 					},
 					{
 						"type": "versical",
@@ -110,6 +93,10 @@
 					{
 						"type": "page_break",
 						"page": 106
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -122,6 +109,10 @@
 					{
 						"type": "text_block",
 						"text": "Almighty God, to you all hearts are open, all desires known, and from you no secrets are hid: Cleanse the thoughts of our hearts by the inspiration of your Holy Spirit, that we may perfectly love you, and worthily magnify your holy Name; through Christ our Lord."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -158,11 +149,19 @@
 						"text": "matthew 22:37-40"
 					},
 					{
+						"type": "section_title",
+						"text": "The kyrie"
+					},
+					{
 						"type": "kyrie"
 					},
 					{
 						"type": "page_break",
 						"page": 107
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -269,6 +268,10 @@
 						"text": "in the glory of God the Father. Amen.",
 						"bold": true,
 						"indent": true
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -407,6 +410,10 @@
 						"text": "Praise to you, Lord Christ."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "the sermon"
 					},
@@ -415,11 +422,35 @@
 						"page": 109
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
+						"type": "section_title",
+						"text": "the nicene creed"
+					},
+					{
+						"type": "rubric",
+						"text": "On Sundays, other Major Feast Days, and other times as appointed, all stand to recite the Nicene Creed, the Celebrant first saying"
+					},
+					{
+						"type": "line",
+						"text": "Let us confess our faith in the words of the Nicene Creed:"
+					},
+					{
+						"type": "rubric",
+						"text": "Celebrant and People"
+					},
+					{
 						"type": "nicene_creed"
 					},
 					{
 						"type": "page_break",
 						"page": 110
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -443,7 +474,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy"
+						"reader": true,
+						"text": "Lord, in your mercy"
 					},
 					{
 						"type": "versical",
@@ -460,7 +492,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy"
+						"reader": true,
+						"text": "Lord, in your mercy"
 					},
 					{
 						"type": "versical",
@@ -481,7 +514,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy"
+						"reader": true,
+						"text": "Lord, in your mercy"
 					},
 					{
 						"type": "versical",
@@ -498,7 +532,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy"
+						"reader": true,
+						"text": "Lord, in your mercy"
 					},
 					{
 						"type": "versical",
@@ -528,7 +563,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy"
+						"reader": true,
+						"text": "Lord, in your mercy"
 					},
 					{
 						"type": "versical",
@@ -562,7 +598,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy"
+						"reader": true,
+						"text": "Lord, in your mercy"
 					},
 					{
 						"type": "versical",
@@ -584,6 +621,10 @@
 					{
 						"type": "rubric",
 						"text": "The Celebrant may then say the Exhortation."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -717,6 +758,10 @@
 						"text": "Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord. **Amen.**"
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "the comfortable words"
 					},
@@ -753,6 +798,10 @@
 						"text": "If anyone sins, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "the peace"
 					},
@@ -762,7 +811,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: The Peace of the Lord be always with you."
+						"celebrant": true,
+						"text": "The Peace of the Lord be always with you."
 					},
 					{
 						"type": "versical",
@@ -772,6 +822,10 @@
 					{
 						"type": "rubric",
 						"text": "Then the Ministers and People may greet one another in the Name of the Lord."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -787,7 +841,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Yours, O Lord, is the greatness, and the power, and the glory, and the victory, and the majesty: for everything in heaven and on earth is yours; yours is the Kingdom, O Lord, and you are exalted as Head above all. All things come from you, O Lord,"
+						"celebrant": true,
+						"text": "Yours, O Lord, is the greatness, and the power, and the glory, and the victory, and the majesty: for everything in heaven and on earth is yours; yours is the Kingdom, O Lord, and you are exalted as Head above all. All things come from you, O Lord,"
 					},
 					{
 						"type": "versical",
@@ -801,6 +856,10 @@
 					{
 						"type": "page_break",
 						"page": 115
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -821,7 +880,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Lift up your hearts."
+						"celebrant": true,
+						"text": "Lift up your hearts."
 					},
 					{
 						"type": "versical",
@@ -830,7 +890,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Let us give thanks to the Lord our God."
+						"celebrant": true,
+						"text": "Let us give thanks to the Lord our God."
 					},
 					{
 						"type": "versical",
@@ -868,6 +929,10 @@
 						"text": "Therefore we praise you, joining our voices with Angels and Archangels and with all the company of heaven, who for ever sing this hymn to proclaim the glory of your Name:"
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "the sanctus"
 					},
@@ -902,6 +967,10 @@
 						"text": "Hosanna in the highest.",
 						"bold": true,
 						"indent": true
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -966,6 +1035,10 @@
 						"page": 118
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "section_title",
 						"text": "the lord's prayer"
 					},
@@ -1002,7 +1075,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: [Alleluia.] Christ our Passover is sacrificed for us."
+						"celebrant": true,
+						"text": "[Alleluia.] Christ our Passover is sacrificed for us."
 					},
 					{
 						"type": "versical",
@@ -1015,7 +1089,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: [Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross."
+						"celebrant": true,
+						"text": "[Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross."
 					},
 					{
 						"type": "versical",
@@ -1029,6 +1104,10 @@
 					{
 						"type": "rubric",
 						"text": "In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -1114,6 +1193,10 @@
 						"indent": true
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "the agnus dei"
 					},
@@ -1150,6 +1233,10 @@
 						"text": "grant us your peace.",
 						"bold": true,
 						"indent": true
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -1199,6 +1286,10 @@
 					{
 						"type": "rubric",
 						"text": "The Celebrant may offer a sentence of Scripture at the conclusion of the Communion."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -1340,6 +1431,10 @@
 						"page": 122
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "the dismissal"
 					},
@@ -1362,7 +1457,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "deacon: Go in peace to love and serve the Lord."
+						"deacon": true,
+						"text": "Go in peace to love and serve the Lord."
 					},
 					{
 						"type": "versical",
@@ -1375,7 +1471,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "deacon: Let us go forth into the world, rejoicing in the power of the Holy Spirit."
+						"deacon": true,
+						"text": "Let us go forth into the world, rejoicing in the power of the Holy Spirit."
 					},
 					{
 						"type": "versical",
@@ -1388,7 +1485,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "deacon: Let us bless the Lord."
+						"deacon": true,
+						"text": "Let us bless the Lord."
 					},
 					{
 						"type": "versical",
@@ -1407,6 +1505,9 @@
 						"type": "versical",
 						"people": true,
 						"text": "Thanks be to God. [Alleluia, alleluia.]"
+					},
+					{
+						"type": "hr"
 					}
 				],
 				"pb_page_start": 105,

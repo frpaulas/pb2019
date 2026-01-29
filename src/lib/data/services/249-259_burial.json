@@ -402,7 +402,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy:"
+						"reader": true,
+						"text": "Lord, in your mercy:"
 					},
 					{
 						"type": "versical",
@@ -419,7 +420,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy:"
+						"reader": true,
+						"text": "Lord, in your mercy:"
 					},
 					{
 						"type": "versical",
@@ -432,7 +434,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy:"
+						"reader": true,
+						"text": "Lord, in your mercy:"
 					},
 					{
 						"type": "versical",
@@ -445,7 +448,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy:"
+						"reader": true,
+						"text": "Lord, in your mercy:"
 					},
 					{
 						"type": "versical",
@@ -458,7 +462,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy:"
+						"reader": true,
+						"text": "Lord, in your mercy:"
 					},
 					{
 						"type": "versical",
@@ -471,7 +476,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy:"
+						"reader": true,
+						"text": "Lord, in your mercy:"
 					},
 					{
 						"type": "versical",
@@ -488,7 +494,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, in your mercy:"
+						"reader": true,
+						"text": "Lord, in your mercy:"
 					},
 					{
 						"type": "versical",

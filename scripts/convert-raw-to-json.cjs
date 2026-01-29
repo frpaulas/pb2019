@@ -1060,8 +1060,24 @@ class RawToJsonConverter {
 		// v:b: text (bold, no speaker)
 		// v:officiant: text
 		// v:people: text
+		// v:reader: text
+		// v:deacon: text
+		// v:minister: text
+		// v:celebrant: text
+		// v:bishop: text
 		const modifiers = this.parseModifiers(parts);
-		const validSpeakers = ['officiant', 'people', 'b', 'o', 'i'];
+		const validSpeakers = [
+			'officiant',
+			'people',
+			'reader',
+			'deacon',
+			'minister',
+			'celebrant',
+			'bishop',
+			'b',
+			'o',
+			'i'
+		];
 
 		// Check if parts[1] is a valid speaker/modifier or just text
 		const potentialSpeaker = parts[1] || '';

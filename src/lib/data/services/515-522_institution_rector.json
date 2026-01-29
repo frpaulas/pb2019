@@ -148,7 +148,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Let us pray"
+						"bishop": true,
+						"text": "Let us pray"
 					},
 					{
 						"type": "text_block",

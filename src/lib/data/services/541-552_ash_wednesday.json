@@ -380,7 +380,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "reader: Lord, have mercy upon us:"
+						"reader": true,
+						"text": "Lord, have mercy upon us:"
 					},
 					{
 						"type": "versical",

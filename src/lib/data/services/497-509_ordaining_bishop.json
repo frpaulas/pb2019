@@ -764,7 +764,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Blessed be the Name of the Lord;"
+						"bishop": true,
+						"text": "Blessed be the Name of the Lord;"
 					},
 					{
 						"type": "versical",
@@ -773,7 +774,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: The blessing, mercy, and grace of God Almighty,"
+						"bishop": true,
+						"text": "The blessing, mercy, and grace of God Almighty,"
 					},
 					{
 						"type": "versical",

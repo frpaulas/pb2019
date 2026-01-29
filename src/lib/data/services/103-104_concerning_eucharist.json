@@ -16,9 +16,24 @@
 						"page": 103
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
 						"type": "section_title",
 						"text": "the holy eucharist",
 						"size": "2xl"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
 					},
 					{
 						"type": "page_break",
@@ -39,6 +54,9 @@
 					{
 						"type": "text_block",
 						"text": "The Renewed Ancient Text is drawn from liturgies of the Early Church, reflects the influence of twentieth century ecumenical consensus, and includes elements of historic Anglican piety. A comprehensive collection of Additional Directions concerning Holy Communion is found after the Renewed Ancient Text."
+					},
+					{
+						"type": "hr"
 					}
 				],
 				"pb_page_start": 103,

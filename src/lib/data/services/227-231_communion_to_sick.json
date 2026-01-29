@@ -191,7 +191,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "minister: The peace of the Lord be always with you."
+						"minister": true,
+						"text": "The peace of the Lord be always with you."
 					},
 					{
 						"type": "versical",
@@ -200,7 +201,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "minister: Let us pray."
+						"minister": true,
+						"text": "Let us pray."
 					},
 					{
 						"type": "rubric",
@@ -397,7 +399,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "minister: Let us bless the Lord."
+						"minister": true,
+						"text": "Let us bless the Lord."
 					},
 					{
 						"type": "versical",

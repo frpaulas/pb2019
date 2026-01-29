@@ -35,7 +35,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Hosanna to the Son of David, the King of Israel."
+						"celebrant": true,
+						"text": "Hosanna to the Son of David, the King of Israel."
 					},
 					{
 						"type": "versical",
@@ -64,7 +65,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: The Lord be with you."
+						"celebrant": true,
+						"text": "The Lord be with you."
 					},
 					{
 						"type": "versical",
@@ -73,7 +75,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Let us pray."
+						"celebrant": true,
+						"text": "Let us pray."
 					},
 					{
 						"type": "text_block",
@@ -85,10 +88,11 @@
 					},
 					{
 						"type": "versical",
+						"deacon": true,
 						"text": [
 							{
 								"type": "text",
-								"value": "deacon: The Holy Gospel of our Lord Jesus Christ according to "
+								"value": "The Holy Gospel of our Lord Jesus Christ according to "
 							},
 							{
 								"type": "blank",
@@ -158,7 +162,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "deacon: The Gospel of the Lord."
+						"deacon": true,
+						"text": "The Gospel of the Lord."
 					},
 					{
 						"type": "versical",
@@ -187,7 +192,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Hosanna to the Son of David, the King of Israel."
+						"celebrant": true,
+						"text": "Hosanna to the Son of David, the King of Israel."
 					},
 					{
 						"type": "versical",
@@ -206,7 +212,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "deacon: Let us go forth in peace."
+						"deacon": true,
+						"text": "Let us go forth in peace."
 					},
 					{
 						"type": "versical",
@@ -244,7 +251,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: The Lord be with you."
+						"celebrant": true,
+						"text": "The Lord be with you."
 					},
 					{
 						"type": "versical",
@@ -253,7 +261,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Let us pray."
+						"celebrant": true,
+						"text": "Let us pray."
 					},
 					{
 						"type": "text_block",

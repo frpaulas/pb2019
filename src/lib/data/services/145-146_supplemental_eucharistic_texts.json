@@ -39,7 +39,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant:Surely the Lord is coming soon."
+						"celebrant": true,
+						"text": "Surely the Lord is coming soon."
 					},
 					{
 						"type": "versical",
@@ -60,7 +61,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant:For unto us a child is born,"
+						"celebrant": true,
+						"text": "For unto us a child is born,"
 					},
 					{
 						"type": "versical",
@@ -81,7 +83,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant:I will make you as a light for the nations,"
+						"celebrant": true,
+						"text": "I will make you as a light for the nations,"
 					},
 					{
 						"type": "versical",
@@ -106,7 +109,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant:Bless the Lord who forgives all our sins."
+						"celebrant": true,
+						"text": "Bless the Lord who forgives all our sins."
 					},
 					{
 						"type": "versical",
@@ -119,7 +123,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant:Blessed be our God."
+						"celebrant": true,
+						"text": "Blessed be our God."
 					},
 					{
 						"type": "versical",
@@ -132,7 +137,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant:Alleluia! Christ is risen!"
+						"celebrant": true,
+						"text": "Alleluia! Christ is risen!"
 					},
 					{
 						"type": "versical",
@@ -149,7 +155,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant:The Lord will pour out his Spirit upon all flesh,"
+						"celebrant": true,
+						"text": "The Lord will pour out his Spirit upon all flesh,"
 					},
 					{
 						"type": "versical",
@@ -158,7 +165,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant:Your old men shall dream dreams,"
+						"celebrant": true,
+						"text": "Your old men shall dream dreams,"
 					},
 					{
 						"type": "versical",
@@ -167,7 +175,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant:You shall know that the Lord is in the midst of his people,"
+						"celebrant": true,
+						"text": "You shall know that the Lord is in the midst of his people,"
 					},
 					{
 						"type": "versical",
@@ -176,7 +185,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant:And it shall come to pass"
+						"celebrant": true,
+						"text": "And it shall come to pass"
 					},
 					{
 						"type": "versical",
@@ -201,7 +211,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant:Worthy is the Lord our God,"
+						"celebrant": true,
+						"text": "Worthy is the Lord our God,"
 					},
 					{
 						"type": "versical",

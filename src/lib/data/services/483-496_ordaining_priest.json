@@ -42,7 +42,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Your old men shall dream dreams,"
+						"bishop": true,
+						"text": "Your old men shall dream dreams,"
 					},
 					{
 						"type": "versical",
@@ -50,11 +51,13 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop:You shall know that the Lord is in the midst"
+						"bishop": true,
+						"text": "You shall know that the Lord is in the midst"
 					},
 					{
 						"type": "versical",
-						"text": "bishop: of his people,"
+						"bishop": true,
+						"text": "of his people,"
 					},
 					{
 						"type": "versical",
@@ -62,7 +65,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: And it shall come to pass"
+						"bishop": true,
+						"text": "And it shall come to pass"
 					},
 					{
 						"type": "versical",
@@ -102,7 +106,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Has _he_ been selected in accordance with the Canons"
+						"bishop": true,
+						"text": "Has _he_ been selected in accordance with the Canons"
 					},
 					{
 						"type": "versical",
@@ -188,7 +193,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Will you uphold him in this ministry?"
+						"bishop": true,
+						"text": "Will you uphold him in this ministry?"
 					},
 					{
 						"type": "versical",
@@ -197,7 +203,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: In peace let us pray to the Lord."
+						"bishop": true,
+						"text": "In peace let us pray to the Lord."
 					},
 					{
 						"type": "section_title",
@@ -226,7 +233,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop:Let us pray."
+						"bishop": true,
+						"text": "Let us pray."
 					},
 					{
 						"type": "text_block",
@@ -491,7 +499,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Do you believe that the Holy Scriptures contain"
+						"bishop": true,
+						"text": "Do you believe that the Holy Scriptures contain"
 					},
 					{
 						"type": "versical",
@@ -527,7 +536,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Will you then give your faithful diligence always so"
+						"bishop": true,
+						"text": "Will you then give your faithful diligence always so"
 					},
 					{
 						"type": "versical",
@@ -563,7 +573,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Will you be ready, with all faithful diligence, to"
+						"bishop": true,
+						"text": "Will you be ready, with all faithful diligence, to"
 					},
 					{
 						"type": "versical",
@@ -595,7 +606,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Will you be diligent in prayer, and in the reading of"
+						"bishop": true,
+						"text": "Will you be diligent in prayer, and in the reading of"
 					},
 					{
 						"type": "versical",
@@ -615,7 +627,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Will you be diligent to frame and fashion your own"
+						"bishop": true,
+						"text": "Will you be diligent to frame and fashion your own"
 					},
 					{
 						"type": "versical",
@@ -639,7 +652,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Will you maintain and set forward, as much as"
+						"bishop": true,
+						"text": "Will you maintain and set forward, as much as"
 					},
 					{
 						"type": "versical",
@@ -659,7 +673,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Will you reverently obey your Bishop and other chief"
+						"bishop": true,
+						"text": "Will you reverently obey your Bishop and other chief"
 					},
 					{
 						"type": "versical",
@@ -847,7 +862,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: Blessed be the Name of the Lord;"
+						"bishop": true,
+						"text": "Blessed be the Name of the Lord;"
 					},
 					{
 						"type": "versical",
@@ -856,7 +872,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "bishop: The blessing, mercy, and grace of God Almighty,"
+						"bishop": true,
+						"text": "The blessing, mercy, and grace of God Almighty,"
 					},
 					{
 						"type": "versical",

@@ -65,7 +65,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: One Lord, one Faith, one Baptism;"
+						"celebrant": true,
+						"text": "One Lord, one Faith, one Baptism;"
 					},
 					{
 						"type": "versical",
@@ -74,7 +75,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: The Lord be with you."
+						"celebrant": true,
+						"text": "The Lord be with you."
 					},
 					{
 						"type": "versical",
@@ -83,7 +85,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Let us pray."
+						"celebrant": true,
+						"text": "Let us pray."
 					},
 					{
 						"type": "rubric",
@@ -148,7 +151,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Have you already been baptized?"
+						"celebrant": true,
+						"text": "Have you already been baptized?"
 					},
 					{
 						"type": "versical",
@@ -156,7 +160,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Do you desire to be baptized?"
+						"celebrant": true,
+						"text": "Do you desire to be baptized?"
 					},
 					{
 						"type": "versical",
@@ -329,7 +334,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Do you believe and trust in God the Father?"
+						"celebrant": true,
+						"text": "Do you believe and trust in God the Father?"
 					},
 					{
 						"type": "versical",
@@ -348,7 +354,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Do you believe and trust in Jesus Christ?"
+						"celebrant": true,
+						"text": "Do you believe and trust in Jesus Christ?"
 					},
 					{
 						"type": "versical",
@@ -411,7 +418,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Do you believe and trust in the Holy Spirit?"
+						"celebrant": true,
+						"text": "Do you believe and trust in the Holy Spirit?"
 					},
 					{
 						"type": "versical",
@@ -574,7 +582,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: The Lord be with you."
+						"celebrant": true,
+						"text": "The Lord be with you."
 					},
 					{
 						"type": "versical",
@@ -583,7 +592,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Lift up your hearts."
+						"celebrant": true,
+						"text": "Lift up your hearts."
 					},
 					{
 						"type": "versical",
@@ -592,7 +602,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: Let us give thanks to the Lord our God."
+						"celebrant": true,
+						"text": "Let us give thanks to the Lord our God."
 					},
 					{
 						"type": "versical",
@@ -711,7 +722,8 @@
 					},
 					{
 						"type": "versical",
-						"text": "celebrant: The Peace of the Lord be always with you."
+						"celebrant": true,
+						"text": "The Peace of the Lord be always with you."
 					},
 					{
 						"type": "versical",

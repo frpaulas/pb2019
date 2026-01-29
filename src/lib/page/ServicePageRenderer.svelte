@@ -73,6 +73,12 @@
 		<Versical
 			officiant={block.officiant || false}
 			people={block.people || false}
+			reader={block.reader || false}
+			deacon={block.deacon || false}
+			minister={block.minister || false}
+			celebrant={block.celebrant || false}
+			bishop={block.bishop || false}
+			bold={block.bold || false}
 			text={block.text}
 		/>
 	{:else if block.type === 'antiphon'}

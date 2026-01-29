@@ -3551,6 +3551,10 @@
         "text": "Alternatively, Psalm 5:1-3 may be used."
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "a reading from holy scripture"
       },
@@ -3608,6 +3612,10 @@
       {
         "type": "rubric",
         "text": "Prayers may be offered for ourselves and others."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -3669,6 +3677,10 @@
         "type": "gloria"
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "a reading from holy scripture"
       },
@@ -3699,6 +3711,10 @@
       {
         "type": "rubric",
         "text": "Prayers may be offered for ourselves and others."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -3762,6 +3778,10 @@
         "name": "phos_hilaron"
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "a reading from holy scripture"
       },
@@ -3821,6 +3841,10 @@
         "text": "Prayers may be offered for ourselves and others."
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the lord's prayer"
       },
@@ -3878,6 +3902,10 @@
         "bold": true
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "a reading from holy scripture"
       },
@@ -3913,6 +3941,10 @@
     "pageNumber": 74,
     "headerText": "Family Prayer",
     "content": [
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
       {
         "type": "section_title",
         "text": "the lord's prayer"
@@ -4227,6 +4259,13 @@
     "headerText": "Supplemental Canticles",
     "content": [
       {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
+      {
         "type": "section_title",
         "text": "supplemental canticles",
         "size": "xl"
@@ -4336,13 +4375,15 @@
     "headerText": "Supplemental Canticles",
     "content": [
       {
-        "type": "section_title",
-        "text": "Great Litany",
-        "size": "2xl"
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
       },
       {
         "type": "section_title",
-        "text": "& Decalogue",
+        "text": "Great Litany{br}& Decalogue",
         "size": "2xl"
       }
     ]
@@ -4356,6 +4397,17 @@
     "pageNumber": 91,
     "headerText": "The Great Litany",
     "content": [
+      {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
       {
         "type": "section_title",
         "text": "the great litany",
@@ -4926,6 +4978,10 @@
         "text": "The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore. **Amen.**"
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the supplication"
       },
@@ -5068,6 +5124,9 @@
       {
         "type": "text_block",
         "text": "Where local circumstance or pastoral need dictates, the Officiant may reduce the number of petitions and responses prayed."
+      },
+      {
+        "type": "hr"
       }
     ]
   },
@@ -5076,12 +5135,17 @@
     "headerText": "The Decalogue",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
+      {
         "type": "section_title",
         "text": "the decalogue"
       },
       {
         "type": "versical",
-        "text": "celebrant: God spoke these words and said:"
+        "celebrant": true,
+        "text": "God spoke these words and said:"
       },
       {
         "type": "versical",
@@ -5102,7 +5166,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: You shall not make for yourself any idol."
+        "celebrant": true,
+        "text": "You shall not make for yourself any idol."
       },
       {
         "type": "versical",
@@ -5115,7 +5180,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: You shall not take the Name of the Lord your God in vain."
+        "celebrant": true,
+        "text": "You shall not take the Name of the Lord your God in vain."
       },
       {
         "type": "versical",
@@ -5128,7 +5194,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Remember the Sabbath day and keep it holy."
+        "celebrant": true,
+        "text": "Remember the Sabbath day and keep it holy."
       },
       {
         "type": "versical",
@@ -5141,7 +5208,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Honor your father and your mother."
+        "celebrant": true,
+        "text": "Honor your father and your mother."
       },
       {
         "type": "versical",
@@ -5154,7 +5222,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: You shall not murder."
+        "celebrant": true,
+        "text": "You shall not murder."
       },
       {
         "type": "versical",
@@ -5173,7 +5242,8 @@
     "content": [
       {
         "type": "versical",
-        "text": "celebrant: You shall not commit adultery."
+        "celebrant": true,
+        "text": "You shall not commit adultery."
       },
       {
         "type": "versical",
@@ -5186,7 +5256,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: You shall not steal."
+        "celebrant": true,
+        "text": "You shall not steal."
       },
       {
         "type": "versical",
@@ -5199,7 +5270,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: You shall not bear false witness against your neighbor."
+        "celebrant": true,
+        "text": "You shall not bear false witness against your neighbor."
       },
       {
         "type": "versical",
@@ -5212,7 +5284,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: You shall not covet."
+        "celebrant": true,
+        "text": "You shall not covet."
       },
       {
         "type": "versical",
@@ -5230,6 +5303,9 @@
       {
         "type": "ref",
         "text": "exodus 20:1-17 t; deuteronomy 5:6-21"
+      },
+      {
+        "type": "hr"
       }
     ]
   },
@@ -5243,9 +5319,24 @@
     "headerText": "Concerning the Holy Eucharist",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
+      {
         "type": "section_title",
         "text": "the holy eucharist",
         "size": "2xl"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 3
       }
     ]
   },
@@ -5268,6 +5359,9 @@
       {
         "type": "text_block",
         "text": "The Renewed Ancient Text is drawn from liturgies of the Early Church, reflects the influence of twentieth century ecumenical consensus, and includes elements of historic Anglican piety. A comprehensive collection of Additional Directions concerning Holy Communion is found after the Renewed Ancient Text."
+      },
+      {
+        "type": "hr"
       }
     ]
   },
@@ -5276,39 +5370,20 @@
     "headerText": "The Holy Eucharist: Anglican Standard Text",
     "content": [
       {
-        "type": "section_title",
-        "text": "the order for the administration of"
+        "type": "vertical_margin",
+        "spacing": 3
       },
       {
         "type": "section_title",
-        "text": "the lord's supper"
-      },
-      {
-        "type": "section_title",
-        "text": "_or_",
-        "lowercase": true
-      },
-      {
-        "type": "section_title",
-        "text": "holy communion,"
-      },
-      {
-        "type": "section_title",
-        "text": "commonly called",
-        "lowercase": true
-      },
-      {
-        "type": "section_title",
-        "text": "the holy eucharist"
-      },
-      {
-        "type": "section_title",
-        "text": "_Anglican Standard Text_",
-        "lowercase": true
+        "text": "the order for the administration of{br}the lord's supper{br}_or_{br}holy communion,{br}commonly called{br}the holy eucharist{br}_Anglican Standard Text_{br}"
       },
       {
         "type": "rubric",
         "text": "A hymn, psalm, or anthem may be sung."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -5347,7 +5422,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Bless the Lord who forgives all our sins."
+        "celebrant": true,
+        "text": "Bless the Lord who forgives all our sins."
       },
       {
         "type": "versical",
@@ -5360,7 +5436,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Alleluia! Christ is risen!"
+        "celebrant": true,
+        "text": "Alleluia! Christ is risen!"
       },
       {
         "type": "versical",
@@ -5374,6 +5451,10 @@
     "headerText": "The Holy Eucharist: Anglican Standard Text",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the collect for purity"
       },
@@ -5384,6 +5465,10 @@
       {
         "type": "text_block",
         "text": "Almighty God, to you all hearts are open, all desires known, and from you no secrets are hid: Cleanse the thoughts of our hearts by the inspiration of your Holy Spirit, that we may perfectly love you, and worthily magnify your holy Name; through Christ our Lord."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -5420,6 +5505,10 @@
         "text": "matthew 22:37-40"
       },
       {
+        "type": "section_title",
+        "text": "The kyrie"
+      },
+      {
         "type": "kyrie"
       }
     ]
@@ -5428,6 +5517,10 @@
     "pageNumber": 107,
     "headerText": "The Holy Eucharist: Anglican Standard Text",
     "content": [
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
       {
         "type": "section_title",
         "text": "the gloria in excelsis"
@@ -5533,6 +5626,10 @@
         "text": "in the glory of God the Father. Amen.",
         "bold": true,
         "indent": true
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -5673,6 +5770,10 @@
         "text": "Praise to you, Lord Christ."
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the sermon"
       }
@@ -5683,6 +5784,26 @@
     "headerText": "The Holy Eucharist: Anglican Standard Text",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
+        "type": "section_title",
+        "text": "the nicene creed"
+      },
+      {
+        "type": "rubric",
+        "text": "On Sundays, other Major Feast Days, and other times as appointed, all stand to recite the Nicene Creed, the Celebrant first saying"
+      },
+      {
+        "type": "line",
+        "text": "Let us confess our faith in the words of the Nicene Creed:"
+      },
+      {
+        "type": "rubric",
+        "text": "Celebrant and People"
+      },
+      {
         "type": "nicene_creed"
       }
     ]
@@ -5691,6 +5812,10 @@
     "pageNumber": 110,
     "headerText": "The Holy Eucharist: Anglican Standard Text",
     "content": [
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
       {
         "type": "section_title",
         "text": "the prayers of the people"
@@ -5713,7 +5838,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -5730,7 +5856,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -5753,7 +5880,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -5770,7 +5898,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -5800,7 +5929,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -5836,7 +5966,8 @@
     "content": [
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -5858,6 +5989,10 @@
       {
         "type": "rubric",
         "text": "The Celebrant may then say the Exhortation."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -5993,6 +6128,10 @@
         "text": "Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord. **Amen.**"
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the comfortable words"
       },
@@ -6031,6 +6170,10 @@
         "text": "If anyone sins, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world."
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the peace"
       },
@@ -6040,7 +6183,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: The Peace of the Lord be always with you."
+        "celebrant": true,
+        "text": "The Peace of the Lord be always with you."
       },
       {
         "type": "versical",
@@ -6050,6 +6194,10 @@
       {
         "type": "rubric",
         "text": "Then the Ministers and People may greet one another in the Name of the Lord."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -6065,7 +6213,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Yours, O Lord, is the greatness, and the power, and the glory, and the victory, and the majesty: for everything in heaven and on earth is yours; yours is the Kingdom, O Lord, and you are exalted as Head above all. All things come from you, O Lord,"
+        "celebrant": true,
+        "text": "Yours, O Lord, is the greatness, and the power, and the glory, and the victory, and the majesty: for everything in heaven and on earth is yours; yours is the Kingdom, O Lord, and you are exalted as Head above all. All things come from you, O Lord,"
       },
       {
         "type": "versical",
@@ -6082,6 +6231,10 @@
     "pageNumber": 115,
     "headerText": "The Holy Eucharist: Anglican Standard Text",
     "content": [
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
       {
         "type": "section_title",
         "text": "the sursum corda"
@@ -6101,7 +6254,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Lift up your hearts."
+        "celebrant": true,
+        "text": "Lift up your hearts."
       },
       {
         "type": "versical",
@@ -6110,7 +6264,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Let us give thanks to the Lord our God."
+        "celebrant": true,
+        "text": "Let us give thanks to the Lord our God."
       },
       {
         "type": "versical",
@@ -6148,6 +6303,10 @@
         "text": "Therefore we praise you, joining our voices with Angels and Archangels and with all the company of heaven, who for ever sing this hymn to proclaim the glory of your Name:"
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the sanctus"
       },
@@ -6182,6 +6341,10 @@
         "text": "Hosanna in the highest.",
         "bold": true,
         "indent": true
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -6252,6 +6415,10 @@
     "headerText": "The Holy Eucharist: Anglican Standard Text",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 1
+      },
+      {
         "type": "section_title",
         "text": "the lord's prayer"
       },
@@ -6288,7 +6455,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: [Alleluia.] Christ our Passover is sacrificed for us."
+        "celebrant": true,
+        "text": "[Alleluia.] Christ our Passover is sacrificed for us."
       },
       {
         "type": "versical",
@@ -6301,7 +6469,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: [Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross."
+        "celebrant": true,
+        "text": "[Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross."
       },
       {
         "type": "versical",
@@ -6317,6 +6486,10 @@
       {
         "type": "rubric",
         "text": "In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -6402,6 +6575,10 @@
         "indent": true
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the agnus dei"
       },
@@ -6438,6 +6615,10 @@
         "text": "grant us your peace.",
         "bold": true,
         "indent": true
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -6489,6 +6670,10 @@
       {
         "type": "rubric",
         "text": "The Celebrant may offer a sentence of Scripture at the conclusion of the Communion."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -6634,6 +6819,10 @@
     "headerText": "The Holy Eucharist: Anglican Standard Text",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the dismissal"
       },
@@ -6656,7 +6845,8 @@
       },
       {
         "type": "versical",
-        "text": "deacon: Go in peace to love and serve the Lord."
+        "deacon": true,
+        "text": "Go in peace to love and serve the Lord."
       },
       {
         "type": "versical",
@@ -6669,7 +6859,8 @@
       },
       {
         "type": "versical",
-        "text": "deacon: Let us go forth into the world, rejoicing in the power of the Holy Spirit."
+        "deacon": true,
+        "text": "Let us go forth into the world, rejoicing in the power of the Holy Spirit."
       },
       {
         "type": "versical",
@@ -6682,7 +6873,8 @@
       },
       {
         "type": "versical",
-        "text": "deacon: Let us bless the Lord."
+        "deacon": true,
+        "text": "Let us bless the Lord."
       },
       {
         "type": "versical",
@@ -6701,6 +6893,9 @@
         "type": "versical",
         "people": true,
         "text": "Thanks be to God. [Alleluia, alleluia.]"
+      },
+      {
+        "type": "hr"
       }
     ]
   },
@@ -6710,35 +6905,15 @@
     "content": [
       {
         "type": "section_title",
-        "text": "the order for the administration of"
-      },
-      {
-        "type": "section_title",
-        "text": "the lord's supper"
-      },
-      {
-        "type": "section_title",
-        "text": "or"
-      },
-      {
-        "type": "section_title",
-        "text": "holy communion,"
-      },
-      {
-        "type": "section_title",
-        "text": "commonly called"
-      },
-      {
-        "type": "section_title",
-        "text": "the holy eucharist"
-      },
-      {
-        "type": "section_title",
-        "text": "Renewed Ancient Text"
+        "text": "the order for the administration of{br}the lord's supper{br}_or_{br}holy communion,{br}commonly called{br}the holy eucharist{br}Renewed Ancient Text"
       },
       {
         "type": "rubric",
         "text": "A hymn, psalm, or anthem may be sung."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -6777,7 +6952,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Bless the Lord who forgives all our sins."
+        "celebrant": true,
+        "text": "Bless the Lord who forgives all our sins."
       },
       {
         "type": "versical",
@@ -6790,7 +6966,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Alleluia! Christ is risen!"
+        "celebrant": true,
+        "text": "Alleluia! Christ is risen!"
       },
       {
         "type": "versical",
@@ -6804,6 +6981,10 @@
     "headerText": "The Holy Eucharist: Renewed Ancient Text",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the collect for purity"
       },
@@ -6814,6 +6995,10 @@
       {
         "type": "text_block",
         "text": "Almighty God, to you all hearts are open, all desires known, and from you no secrets are hid: Cleanse the thoughts of our hearts by the inspiration of your Holy Spirit, that we may perfectly love you, and worthily magnify your holy Name; through Christ our Lord."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -6850,7 +7035,40 @@
         "text": "matthew 22:37-40"
       },
       {
+        "type": "section_title",
+        "text": "The kyrie"
+      },
+      {
         "type": "kyrie"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "section_title",
+        "text": "the trisagion"
+      },
+      {
+        "type": "line",
+        "text": "Holy God"
+      },
+      {
+        "type": "line",
+        "text": "Holy and Mighty"
+      },
+      {
+        "type": "line",
+        "text": "Holy Immortal One,"
+      },
+      {
+        "type": "line",
+        "text": "Have mercy on us.",
+        "bold": true
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 1
       },
       {
         "type": "section_title",
@@ -6957,6 +7175,16 @@
         "text": "in the glory of God the Father. Amen.",
         "bold": true,
         "indent": true
+      }
+    ]
+  },
+  "125": {
+    "pageNumber": 125,
+    "headerText": "The Holy Eucharist: Renewed Ancient Text",
+    "content": [
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -6988,75 +7216,6 @@
         "type": "versical",
         "people": true,
         "text": "Amen."
-      }
-    ]
-  },
-  "125": {
-    "pageNumber": 125,
-    "headerText": "The Holy Eucharist: Renewed Ancient Text",
-    "content": [
-      {
-        "type": "scripture",
-        "ref": "1 timothy 1:15: The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners."
-      },
-      {
-        "type": "scripture",
-        "ref": "1 john 2:1-2",
-        "text": "If anyone sins, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world."
-      },
-      {
-        "type": "section_title",
-        "text": "the peace"
-      },
-      {
-        "type": "rubric",
-        "text": "In Easter Season, add"
-      },
-      {
-        "type": "versical",
-        "text": "celebrant: The Peace of the Lord be always with you."
-      },
-      {
-        "type": "versical",
-        "people": true,
-        "text": "And with your spirit."
-      },
-      {
-        "type": "rubric",
-        "text": "Then the Ministers and People may greet one another in the Name of the Lord."
-      },
-      {
-        "type": "section_title",
-        "text": "the offertory"
-      },
-      {
-        "type": "rubric",
-        "text": "The Celebrant may begin the Offertory with one of the provided sentences of Scripture. During the Offertory a hymn, psalm, or anthem may be sung. The Deacon or Priest prepares the Holy Table for the celebration. Representatives of the Congregation may bring the People's offerings of bread and wine, and money or other gifts, to the Deacon or Priest."
-      },
-      {
-        "type": "rubric",
-        "text": "The People stand while the offerings are presented. The following may be said."
-      },
-      {
-        "type": "versical",
-        "text": "celebrant: Yours, O Lord, is the greatness, and the power, and the glory, and the victory,"
-      },
-      {
-        "type": "versical",
-        "text": "and the majesty: for everything in heaven and on earth is yours; yours is the Kingdom, O Lord,"
-      },
-      {
-        "type": "versical",
-        "text": "and you are exalted as Head above all. All things come from you, O Lord,"
-      },
-      {
-        "type": "versical",
-        "people": true,
-        "text": "And of your own have we given you."
-      },
-      {
-        "type": "ref",
-        "text": "1 chronicles 29:11, 14"
       }
     ]
   },
@@ -7170,8 +7329,16 @@
         "text": "Praise to you, Lord Christ."
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the sermon"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -7201,6 +7368,10 @@
     "headerText": "The Holy Eucharist: Renewed Ancient Text",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the prayers of the people"
       },
@@ -7222,7 +7393,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -7235,7 +7407,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -7248,7 +7421,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -7261,7 +7435,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -7287,7 +7462,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -7319,7 +7495,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -7345,7 +7522,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy"
+        "reader": true,
+        "text": "Lord, in your mercy"
       },
       {
         "type": "versical",
@@ -7367,6 +7545,10 @@
       {
         "type": "rubric",
         "text": "The Celebrant may then say the Exhortation."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -7469,6 +7651,10 @@
         "text": "Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord."
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the comfortable words"
       },
@@ -7495,12 +7681,87 @@
   "131": {
     "pageNumber": 131,
     "headerText": "The Holy Eucharist: Renewed Ancient Text",
-    "content": []
+    "content": [
+      {
+        "type": "scripture",
+        "ref": "1 timothy 1:15",
+        "text": "The saying is trustworthy and deserving of full acceptance, that Christ Jesus came into the world to save sinners."
+      },
+      {
+        "type": "scripture",
+        "ref": "1 john 2:1-2",
+        "text": "If anyone sins, we have an advocate with the Father, Jesus Christ the righteous. He is the propitiation for our sins, and not for ours only, but also for the sins of the whole world."
+      },
+      {
+        "type": "section_title",
+        "text": "the peace"
+      },
+      {
+        "type": "rubric",
+        "text": "In Easter Season, add"
+      },
+      {
+        "type": "versical",
+        "celebrant": true,
+        "text": "The Peace of the Lord be always with you."
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And with your spirit."
+      },
+      {
+        "type": "rubric",
+        "text": "Then the Ministers and People may greet one another in the Name of the Lord."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
+        "type": "section_title",
+        "text": "the offertory"
+      },
+      {
+        "type": "rubric",
+        "text": "The Celebrant may begin the Offertory with one of the provided sentences of Scripture. During the Offertory a hymn, psalm, or anthem may be sung. The Deacon or Priest prepares the Holy Table for the celebration. Representatives of the Congregation may bring the People's offerings of bread and wine, and money or other gifts, to the Deacon or Priest."
+      },
+      {
+        "type": "rubric",
+        "text": "The People stand while the offerings are presented. The following may be said."
+      },
+      {
+        "type": "versical",
+        "celebrant": true,
+        "text": "Yours, O Lord, is the greatness, and the power, and the glory, and the victory,"
+      },
+      {
+        "type": "versical",
+        "text": "and the majesty: for everything in heaven and on earth is yours; yours is the Kingdom, O Lord,"
+      },
+      {
+        "type": "versical",
+        "text": "and you are exalted as Head above all. All things come from you, O Lord,"
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And of your own have we given you."
+      },
+      {
+        "type": "ref",
+        "text": "1 chronicles 29:11, 14"
+      }
+    ]
   },
   "132": {
     "pageNumber": 132,
     "headerText": "The Holy Eucharist: Renewed Ancient Text",
     "content": [
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
       {
         "type": "section_title",
         "text": "the sursum corda"
@@ -7520,7 +7781,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Lift up your hearts."
+        "celebrant": true,
+        "text": "Lift up your hearts."
       },
       {
         "type": "versical",
@@ -7529,7 +7791,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Let us give thanks to the Lord our God."
+        "celebrant": true,
+        "text": "Let us give thanks to the Lord our God."
       },
       {
         "type": "versical",
@@ -7567,6 +7830,10 @@
         "text": "Therefore we praise you, joining our voices with Angels and Archangels and with all the company of heaven, who for ever sing this hymn to proclaim the glory of your Name:"
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the sanctus"
       },
@@ -7601,6 +7868,10 @@
         "text": "Hosanna in the highest.",
         "bold": true,
         "indent": true
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -7659,6 +7930,10 @@
         "indent": true
       },
       {
+        "type": "vertical_margin",
+        "spacing": 1
+      },
+      {
         "type": "text_block",
         "text": "We celebrate the memorial of our redemption, O Father, in this sacrifice of praise and thanksgiving, and we offer you these gifts."
       }
@@ -7675,6 +7950,10 @@
       {
         "type": "text_block",
         "text": "All this we ask through your Son Jesus Christ: By him, and with him, and in him, in the unity of the Holy Spirit, all honor and glory is yours, Almighty Father, now and for ever."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -7719,7 +7998,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: [Alleluia.] Christ our Passover is sacrificed for us."
+        "celebrant": true,
+        "text": "[Alleluia.] Christ our Passover is sacrificed for us."
       },
       {
         "type": "versical",
@@ -7732,7 +8012,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: [Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross."
+        "celebrant": true,
+        "text": "[Alleluia.] Christ our Passover Lamb has been sacrificed, once for all upon the Cross."
       },
       {
         "type": "versical",
@@ -7742,6 +8023,10 @@
       {
         "type": "rubric",
         "text": "In Lent, Alleluia is omitted, and may be omitted at other times except during Easter Season."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -7833,6 +8118,10 @@
     "headerText": "The Holy Eucharist: Renewed Ancient Text",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the agnus dei"
       },
@@ -7869,6 +8158,10 @@
         "text": "grant us your peace.",
         "bold": true,
         "indent": true
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -7920,6 +8213,10 @@
     "pageNumber": 137,
     "headerText": "The Holy Eucharist: Renewed Ancient Text",
     "content": [
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
       {
         "type": "section_title",
         "text": "the post communion prayer"
@@ -8023,6 +8320,10 @@
     "headerText": "The Holy Eucharist: Renewed Ancient Text",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the dismissal"
       },
@@ -8045,7 +8346,8 @@
       },
       {
         "type": "versical",
-        "text": "deacon: Go in peace to love and serve the Lord."
+        "deacon": true,
+        "text": "Go in peace to love and serve the Lord."
       },
       {
         "type": "versical",
@@ -8058,7 +8360,8 @@
       },
       {
         "type": "versical",
-        "text": "deacon: Let us go forth into the world, rejoicing in the power of the Holy Spirit."
+        "deacon": true,
+        "text": "Let us go forth into the world, rejoicing in the power of the Holy Spirit."
       },
       {
         "type": "versical",
@@ -8071,7 +8374,8 @@
       },
       {
         "type": "versical",
-        "text": "deacon: Let us bless the Lord."
+        "deacon": true,
+        "text": "Let us bless the Lord."
       },
       {
         "type": "versical",
@@ -8090,6 +8394,9 @@
         "type": "versical",
         "people": true,
         "text": "Thanks be to God. [Alleluia, alleluia.]"
+      },
+      {
+        "type": "hr"
       }
     ]
   },
@@ -8546,7 +8853,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Surely the Lord is coming soon."
+        "celebrant": true,
+        "text": "Surely the Lord is coming soon."
       },
       {
         "type": "versical",
@@ -8563,7 +8871,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: For unto us a child is born,"
+        "celebrant": true,
+        "text": "For unto us a child is born,"
       },
       {
         "type": "versical",
@@ -8580,7 +8889,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: I will make you as a light for the nations,"
+        "celebrant": true,
+        "text": "I will make you as a light for the nations,"
       },
       {
         "type": "versical",
@@ -8597,7 +8907,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Bless the Lord who forgives all our sins."
+        "celebrant": true,
+        "text": "Bless the Lord who forgives all our sins."
       },
       {
         "type": "versical",
@@ -8628,7 +8939,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant:Surely the Lord is coming soon."
+        "celebrant": true,
+        "text": "Surely the Lord is coming soon."
       },
       {
         "type": "versical",
@@ -8649,7 +8961,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant:For unto us a child is born,"
+        "celebrant": true,
+        "text": "For unto us a child is born,"
       },
       {
         "type": "versical",
@@ -8670,7 +8983,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant:I will make you as a light for the nations,"
+        "celebrant": true,
+        "text": "I will make you as a light for the nations,"
       },
       {
         "type": "versical",
@@ -8703,7 +9017,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Blessed be our God."
+        "celebrant": true,
+        "text": "Blessed be our God."
       },
       {
         "type": "versical",
@@ -8716,7 +9031,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Alleluia! Christ is risen!"
+        "celebrant": true,
+        "text": "Alleluia! Christ is risen!"
       },
       {
         "type": "versical",
@@ -8729,7 +9045,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: The Lord will pour out his Spirit upon all flesh,"
+        "celebrant": true,
+        "text": "The Lord will pour out his Spirit upon all flesh,"
       },
       {
         "type": "versical",
@@ -8738,7 +9055,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Your old men shall dream dreams,"
+        "celebrant": true,
+        "text": "Your old men shall dream dreams,"
       },
       {
         "type": "versical",
@@ -8747,7 +9065,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: You shall know that the Lord is in the midst of his people,"
+        "celebrant": true,
+        "text": "You shall know that the Lord is in the midst of his people,"
       },
       {
         "type": "versical",
@@ -8756,7 +9075,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: And it shall come to pass"
+        "celebrant": true,
+        "text": "And it shall come to pass"
       },
       {
         "type": "versical",
@@ -8777,7 +9097,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Worthy is the Lord our God,"
+        "celebrant": true,
+        "text": "Worthy is the Lord our God,"
       },
       {
         "type": "versical",
@@ -8798,7 +9119,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant:Bless the Lord who forgives all our sins."
+        "celebrant": true,
+        "text": "Bless the Lord who forgives all our sins."
       },
       {
         "type": "versical",
@@ -8811,7 +9133,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant:Blessed be our God."
+        "celebrant": true,
+        "text": "Blessed be our God."
       },
       {
         "type": "versical",
@@ -8824,7 +9147,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant:Alleluia! Christ is risen!"
+        "celebrant": true,
+        "text": "Alleluia! Christ is risen!"
       },
       {
         "type": "versical",
@@ -8841,7 +9165,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant:The Lord will pour out his Spirit upon all flesh,"
+        "celebrant": true,
+        "text": "The Lord will pour out his Spirit upon all flesh,"
       },
       {
         "type": "versical",
@@ -8850,7 +9175,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant:Your old men shall dream dreams,"
+        "celebrant": true,
+        "text": "Your old men shall dream dreams,"
       },
       {
         "type": "versical",
@@ -8859,7 +9185,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant:You shall know that the Lord is in the midst of his people,"
+        "celebrant": true,
+        "text": "You shall know that the Lord is in the midst of his people,"
       },
       {
         "type": "versical",
@@ -8868,7 +9195,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant:And it shall come to pass"
+        "celebrant": true,
+        "text": "And it shall come to pass"
       },
       {
         "type": "versical",
@@ -8893,7 +9221,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant:Worthy is the Lord our God,"
+        "celebrant": true,
+        "text": "Worthy is the Lord our God,"
       },
       {
         "type": "versical",
@@ -9433,7 +9762,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: One Lord, one Faith, one Baptism;"
+        "celebrant": true,
+        "text": "One Lord, one Faith, one Baptism;"
       },
       {
         "type": "versical",
@@ -9442,7 +9772,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: The Lord be with you."
+        "celebrant": true,
+        "text": "The Lord be with you."
       },
       {
         "type": "versical",
@@ -9451,7 +9782,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Let us pray."
+        "celebrant": true,
+        "text": "Let us pray."
       },
       {
         "type": "rubric",
@@ -9520,7 +9852,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Have you already been baptized?"
+        "celebrant": true,
+        "text": "Have you already been baptized?"
       },
       {
         "type": "versical",
@@ -9528,7 +9861,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Do you desire to be baptized?"
+        "celebrant": true,
+        "text": "Do you desire to be baptized?"
       },
       {
         "type": "versical",
@@ -9705,7 +10039,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Do you believe and trust in God the Father?"
+        "celebrant": true,
+        "text": "Do you believe and trust in God the Father?"
       },
       {
         "type": "versical",
@@ -9724,7 +10059,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Do you believe and trust in Jesus Christ?"
+        "celebrant": true,
+        "text": "Do you believe and trust in Jesus Christ?"
       },
       {
         "type": "versical",
@@ -9789,7 +10125,8 @@
     "content": [
       {
         "type": "versical",
-        "text": "celebrant: Do you believe and trust in the Holy Spirit?"
+        "celebrant": true,
+        "text": "Do you believe and trust in the Holy Spirit?"
       },
       {
         "type": "versical",
@@ -9956,7 +10293,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: The Lord be with you."
+        "celebrant": true,
+        "text": "The Lord be with you."
       },
       {
         "type": "versical",
@@ -9965,7 +10303,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Lift up your hearts."
+        "celebrant": true,
+        "text": "Lift up your hearts."
       },
       {
         "type": "versical",
@@ -9974,7 +10313,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Let us give thanks to the Lord our God."
+        "celebrant": true,
+        "text": "Let us give thanks to the Lord our God."
       },
       {
         "type": "versical",
@@ -10097,7 +10437,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: The Peace of the Lord be always with you."
+        "celebrant": true,
+        "text": "The Peace of the Lord be always with you."
       },
       {
         "type": "versical",
@@ -10360,7 +10701,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Have they been adequately prepared?"
+        "bishop": true,
+        "text": "Have they been adequately prepared?"
       },
       {
         "type": "versical",
@@ -10406,7 +10748,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you renounce the devil and all the spiritual forces"
+        "bishop": true,
+        "text": "Do you renounce the devil and all the spiritual forces"
       },
       {
         "type": "versical",
@@ -10418,7 +10761,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you renounce the empty promises and deadly"
+        "bishop": true,
+        "text": "Do you renounce the empty promises and deadly"
       },
       {
         "type": "versical",
@@ -10434,7 +10778,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you renounce the sinful desires of the flesh that"
+        "bishop": true,
+        "text": "Do you renounce the sinful desires of the flesh that"
       },
       {
         "type": "versical",
@@ -10446,7 +10791,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you turn to Jesus Christ and confess him as your Lord and Savior?"
+        "bishop": true,
+        "text": "Do you turn to Jesus Christ and confess him as your Lord and Savior?"
       },
       {
         "type": "versical",
@@ -10454,7 +10800,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you joyfully receive the Christian Faith, as"
+        "bishop": true,
+        "text": "Do you joyfully receive the Christian Faith, as"
       },
       {
         "type": "versical",
@@ -10466,7 +10813,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Will you obediently keep God’s holy will and commandments,"
+        "bishop": true,
+        "text": "Will you obediently keep God’s holy will and commandments,"
       },
       {
         "type": "versical",
@@ -10621,7 +10969,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: The Peace of the Lord be always with you."
+        "bishop": true,
+        "text": "The Peace of the Lord be always with you."
       },
       {
         "type": "versical",
@@ -10858,7 +11207,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Have you already been baptized?"
+        "bishop": true,
+        "text": "Have you already been baptized?"
       },
       {
         "type": "versical",
@@ -10866,7 +11216,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you desire to be baptized?"
+        "bishop": true,
+        "text": "Do you desire to be baptized?"
       },
       {
         "type": "versical",
@@ -11027,7 +11378,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Have they been adequately prepared?"
+        "bishop": true,
+        "text": "Have they been adequately prepared?"
       },
       {
         "type": "versical",
@@ -11105,7 +11457,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you turn to Jesus Christ and confess him as your Lord and Savior?"
+        "bishop": true,
+        "text": "Do you turn to Jesus Christ and confess him as your Lord and Savior?"
       },
       {
         "type": "versical",
@@ -11113,7 +11466,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you joyfully receive the Christian Faith,"
+        "bishop": true,
+        "text": "Do you joyfully receive the Christian Faith,"
       },
       {
         "type": "versical",
@@ -11125,7 +11479,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Will you obediently keep God’s holy will and"
+        "bishop": true,
+        "text": "Will you obediently keep God’s holy will and"
       },
       {
         "type": "versical",
@@ -11158,7 +11513,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you believe and trust in God the Father?"
+        "bishop": true,
+        "text": "Do you believe and trust in God the Father?"
       },
       {
         "type": "versical",
@@ -11177,7 +11533,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you believe and trust in Jesus Christ?"
+        "bishop": true,
+        "text": "Do you believe and trust in Jesus Christ?"
       },
       {
         "type": "versical",
@@ -11274,7 +11631,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you believe and trust in God the Father?"
+        "bishop": true,
+        "text": "Do you believe and trust in God the Father?"
       },
       {
         "type": "versical",
@@ -11293,7 +11651,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you believe and trust in Jesus Christ?"
+        "bishop": true,
+        "text": "Do you believe and trust in Jesus Christ?"
       },
       {
         "type": "versical",
@@ -11358,7 +11717,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you believe and trust in the Holy Spirit?"
+        "bishop": true,
+        "text": "Do you believe and trust in the Holy Spirit?"
       },
       {
         "type": "versical",
@@ -11451,7 +11811,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you believe and trust in the Holy Spirit?"
+        "bishop": true,
+        "text": "Do you believe and trust in the Holy Spirit?"
       },
       {
         "type": "versical",
@@ -11526,7 +11887,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: The Lord be with you."
+        "bishop": true,
+        "text": "The Lord be with you."
       },
       {
         "type": "versical",
@@ -11535,7 +11897,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Lift up your hearts."
+        "bishop": true,
+        "text": "Lift up your hearts."
       },
       {
         "type": "versical",
@@ -11544,7 +11907,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Let us give thanks to the Lord our God."
+        "bishop": true,
+        "text": "Let us give thanks to the Lord our God."
       },
       {
         "type": "versical",
@@ -11577,7 +11941,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: The Lord be with you."
+        "bishop": true,
+        "text": "The Lord be with you."
       },
       {
         "type": "versical",
@@ -11586,7 +11951,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Lift up your hearts."
+        "bishop": true,
+        "text": "Lift up your hearts."
       },
       {
         "type": "versical",
@@ -11595,7 +11961,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Let us give thanks to the Lord our God."
+        "bishop": true,
+        "text": "Let us give thanks to the Lord our God."
       },
       {
         "type": "versical",
@@ -12095,7 +12462,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Do you renounce the devil and all the spiritual forces"
+        "celebrant": true,
+        "text": "Do you renounce the devil and all the spiritual forces"
       },
       {
         "type": "versical",
@@ -12114,7 +12482,8 @@
     "content": [
       {
         "type": "versical",
-        "text": "celebrant: Do you renounce the empty promises and deadly"
+        "celebrant": true,
+        "text": "Do you renounce the empty promises and deadly"
       },
       {
         "type": "versical",
@@ -12131,7 +12500,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Do you renounce the sinful desires of the flesh that"
+        "celebrant": true,
+        "text": "Do you renounce the sinful desires of the flesh that"
       },
       {
         "type": "versical",
@@ -12144,7 +12514,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Do you turn to Jesus Christ and confess him as your"
+        "celebrant": true,
+        "text": "Do you turn to Jesus Christ and confess him as your"
       },
       {
         "type": "versical",
@@ -12157,7 +12528,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Do you joyfully receive the Christian Faith,"
+        "celebrant": true,
+        "text": "Do you joyfully receive the Christian Faith,"
       },
       {
         "type": "versical",
@@ -12170,7 +12542,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Will you obediently keep God’s holy will and"
+        "celebrant": true,
+        "text": "Will you obediently keep God’s holy will and"
       },
       {
         "type": "versical",
@@ -12195,7 +12568,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Do you believe and trust in God the Father?"
+        "celebrant": true,
+        "text": "Do you believe and trust in God the Father?"
       },
       {
         "type": "versical",
@@ -12214,7 +12588,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Do you believe and trust in Jesus Christ?"
+        "celebrant": true,
+        "text": "Do you believe and trust in Jesus Christ?"
       },
       {
         "type": "versical",
@@ -12279,7 +12654,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Do you believe and trust in the Holy Spirit?"
+        "celebrant": true,
+        "text": "Do you believe and trust in the Holy Spirit?"
       },
       {
         "type": "versical",
@@ -12834,7 +13210,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -12847,7 +13224,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -12860,7 +13238,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -12879,7 +13258,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -12892,7 +13272,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -12905,7 +13286,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -12918,7 +13300,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -12931,7 +13314,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -14005,7 +14389,8 @@
     "content": [
       {
         "type": "versical",
-        "text": "minister: The peace of the Lord be always with you."
+        "minister": true,
+        "text": "The peace of the Lord be always with you."
       },
       {
         "type": "versical",
@@ -14014,7 +14399,8 @@
       },
       {
         "type": "versical",
-        "text": "minister: Let us pray."
+        "minister": true,
+        "text": "Let us pray."
       },
       {
         "type": "rubric",
@@ -14215,7 +14601,8 @@
       },
       {
         "type": "versical",
-        "text": "minister: Let us bless the Lord."
+        "minister": true,
+        "text": "Let us bless the Lord."
       },
       {
         "type": "versical",
@@ -15474,7 +15861,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -15493,7 +15881,8 @@
     "content": [
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -15506,7 +15895,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -15519,7 +15909,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -15532,7 +15923,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -15545,7 +15937,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -15564,7 +15957,8 @@
     "content": [
       {
         "type": "versical",
-        "text": "reader: Lord, in your mercy:"
+        "reader": true,
+        "text": "Lord, in your mercy:"
       },
       {
         "type": "versical",
@@ -18387,7 +18781,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop:  Your old men shall dream dreams,"
+        "bishop": true,
+        "text": "Your old men shall dream dreams,"
       },
       {
         "type": "versical",
@@ -18396,7 +18791,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop:  You shall know that the Lord is in the midst of his people,"
+        "bishop": true,
+        "text": "You shall know that the Lord is in the midst of his people,"
       },
       {
         "type": "versical",
@@ -18405,7 +18801,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop:  And it shall come to pass"
+        "bishop": true,
+        "text": "And it shall come to pass"
       },
       {
         "type": "versical",
@@ -18448,7 +18845,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: _Have these persons_ been selected in accordance with"
+        "bishop": true,
+        "text": "_Have these persons_ been selected in accordance with"
       },
       {
         "type": "versical",
@@ -18540,7 +18938,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop:  Will you uphold them in their ministry?"
+        "bishop": true,
+        "text": "Will you uphold them in their ministry?"
       },
       {
         "type": "versical",
@@ -18549,7 +18948,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop:  In peace let us pray to the Lord."
+        "bishop": true,
+        "text": "In peace let us pray to the Lord."
       },
       {
         "type": "section_title",
@@ -18580,7 +18980,8 @@
     "content": [
       {
         "type": "versical",
-        "text": "bishop: Let us pray."
+        "bishop": true,
+        "text": "Let us pray."
       },
       {
         "type": "text_block",
@@ -18828,7 +19229,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you trust that you are inwardly moved by the"
+        "bishop": true,
+        "text": "Do you trust that you are inwardly moved by the"
       },
       {
         "type": "versical",
@@ -18848,7 +19250,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you believe that you are truly called, according to"
+        "bishop": true,
+        "text": "Do you believe that you are truly called, according to"
       },
       {
         "type": "versical",
@@ -18868,7 +19271,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Are you persuaded that the Holy Scriptures contain"
+        "bishop": true,
+        "text": "Are you persuaded that the Holy Scriptures contain"
       },
       {
         "type": "versical",
@@ -18890,7 +19294,8 @@
     "content": [
       {
         "type": "versical",
-        "text": "bishop: Will you diligently read these Scriptures to the"
+        "bishop": true,
+        "text": "Will you diligently read these Scriptures to the"
       },
       {
         "type": "versical",
@@ -18906,7 +19311,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Will you be diligent to frame and fashion your own"
+        "bishop": true,
+        "text": "Will you be diligent to frame and fashion your own"
       },
       {
         "type": "versical",
@@ -18930,7 +19336,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Will you reverently obey your Bishop and other"
+        "bishop": true,
+        "text": "Will you reverently obey your Bishop and other"
       },
       {
         "type": "versical",
@@ -19128,7 +19535,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Blessed be the Name of the Lord;"
+        "bishop": true,
+        "text": "Blessed be the Name of the Lord;"
       },
       {
         "type": "versical",
@@ -19137,7 +19545,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: The blessing, mercy, and grace of God Almighty,"
+        "bishop": true,
+        "text": "The blessing, mercy, and grace of God Almighty,"
       },
       {
         "type": "versical",
@@ -19210,7 +19619,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Your old men shall dream dreams,"
+        "bishop": true,
+        "text": "Your old men shall dream dreams,"
       },
       {
         "type": "versical",
@@ -19218,11 +19628,13 @@
       },
       {
         "type": "versical",
-        "text": "bishop:You shall know that the Lord is in the midst"
+        "bishop": true,
+        "text": "You shall know that the Lord is in the midst"
       },
       {
         "type": "versical",
-        "text": "bishop: of his people,"
+        "bishop": true,
+        "text": "of his people,"
       },
       {
         "type": "versical",
@@ -19230,7 +19642,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: And it shall come to pass"
+        "bishop": true,
+        "text": "And it shall come to pass"
       },
       {
         "type": "versical",
@@ -19272,7 +19685,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Has _he_ been selected in accordance with the Canons"
+        "bishop": true,
+        "text": "Has _he_ been selected in accordance with the Canons"
       },
       {
         "type": "versical",
@@ -19360,7 +19774,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Will you uphold him in this ministry?"
+        "bishop": true,
+        "text": "Will you uphold him in this ministry?"
       },
       {
         "type": "versical",
@@ -19369,7 +19784,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: In peace let us pray to the Lord."
+        "bishop": true,
+        "text": "In peace let us pray to the Lord."
       },
       {
         "type": "section_title",
@@ -19400,7 +19816,8 @@
     "content": [
       {
         "type": "versical",
-        "text": "bishop:Let us pray."
+        "bishop": true,
+        "text": "Let us pray."
       },
       {
         "type": "text_block",
@@ -19673,7 +20090,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Do you believe that the Holy Scriptures contain"
+        "bishop": true,
+        "text": "Do you believe that the Holy Scriptures contain"
       },
       {
         "type": "versical",
@@ -19709,7 +20127,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Will you then give your faithful diligence always so"
+        "bishop": true,
+        "text": "Will you then give your faithful diligence always so"
       },
       {
         "type": "versical",
@@ -19747,7 +20166,8 @@
     "content": [
       {
         "type": "versical",
-        "text": "bishop: Will you be ready, with all faithful diligence, to"
+        "bishop": true,
+        "text": "Will you be ready, with all faithful diligence, to"
       },
       {
         "type": "versical",
@@ -19779,7 +20199,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Will you be diligent in prayer, and in the reading of"
+        "bishop": true,
+        "text": "Will you be diligent in prayer, and in the reading of"
       },
       {
         "type": "versical",
@@ -19799,7 +20220,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Will you be diligent to frame and fashion your own"
+        "bishop": true,
+        "text": "Will you be diligent to frame and fashion your own"
       },
       {
         "type": "versical",
@@ -19823,7 +20245,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Will you maintain and set forward, as much as"
+        "bishop": true,
+        "text": "Will you maintain and set forward, as much as"
       },
       {
         "type": "versical",
@@ -19843,7 +20266,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Will you reverently obey your Bishop and other chief"
+        "bishop": true,
+        "text": "Will you reverently obey your Bishop and other chief"
       },
       {
         "type": "versical",
@@ -20039,7 +20463,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Blessed be the Name of the Lord;"
+        "bishop": true,
+        "text": "Blessed be the Name of the Lord;"
       },
       {
         "type": "versical",
@@ -20048,7 +20473,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: The blessing, mercy, and grace of God Almighty,"
+        "bishop": true,
+        "text": "The blessing, mercy, and grace of God Almighty,"
       },
       {
         "type": "versical",
@@ -20881,7 +21307,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Blessed be the Name of the Lord;"
+        "bishop": true,
+        "text": "Blessed be the Name of the Lord;"
       },
       {
         "type": "versical",
@@ -20890,7 +21317,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: The blessing, mercy, and grace of God Almighty,"
+        "bishop": true,
+        "text": "The blessing, mercy, and grace of God Almighty,"
       },
       {
         "type": "versical",
@@ -21564,7 +21992,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Let us pray"
+        "bishop": true,
+        "text": "Let us pray"
       },
       {
         "type": "text_block",
@@ -22432,7 +22861,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Yours is the kingdom, O Lord;"
+        "bishop": true,
+        "text": "Yours is the kingdom, O Lord;"
       },
       {
         "type": "versical",
@@ -22454,7 +22884,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: The Lord be with you."
+        "bishop": true,
+        "text": "The Lord be with you."
       },
       {
         "type": "versical",
@@ -22463,7 +22894,8 @@
       },
       {
         "type": "versical",
-        "text": "bishop: Let us pray."
+        "bishop": true,
+        "text": "Let us pray."
       },
       {
         "type": "text_block",
@@ -23217,7 +23649,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Yours, O Lord, is the greatness, and the power, and"
+        "celebrant": true,
+        "text": "Yours, O Lord, is the greatness, and the power, and"
       },
       {
         "type": "versical",
@@ -23627,7 +24060,8 @@
       },
       {
         "type": "versical",
-        "text": "reader: Lord, have mercy upon us:"
+        "reader": true,
+        "text": "Lord, have mercy upon us:"
       },
       {
         "type": "versical",
@@ -23963,7 +24397,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Hosanna to the Son of David, the King of Israel."
+        "celebrant": true,
+        "text": "Hosanna to the Son of David, the King of Israel."
       },
       {
         "type": "versical",
@@ -23994,7 +24429,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: The Lord be with you."
+        "celebrant": true,
+        "text": "The Lord be with you."
       },
       {
         "type": "versical",
@@ -24003,7 +24439,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Let us pray."
+        "celebrant": true,
+        "text": "Let us pray."
       },
       {
         "type": "text_block",
@@ -24015,10 +24452,11 @@
       },
       {
         "type": "versical",
+        "deacon": true,
         "text": [
           {
             "type": "text",
-            "value": "deacon: The Holy Gospel of our Lord Jesus Christ according to "
+            "value": "The Holy Gospel of our Lord Jesus Christ according to "
           },
           {
             "type": "blank",
@@ -24088,7 +24526,8 @@
       },
       {
         "type": "versical",
-        "text": "deacon: The Gospel of the Lord."
+        "deacon": true,
+        "text": "The Gospel of the Lord."
       },
       {
         "type": "versical",
@@ -24119,7 +24558,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Hosanna to the Son of David, the King of Israel."
+        "celebrant": true,
+        "text": "Hosanna to the Son of David, the King of Israel."
       },
       {
         "type": "versical",
@@ -24138,7 +24578,8 @@
       },
       {
         "type": "versical",
-        "text": "deacon: Let us go forth in peace."
+        "deacon": true,
+        "text": "Let us go forth in peace."
       },
       {
         "type": "versical",
@@ -24178,7 +24619,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: The Lord be with you."
+        "celebrant": true,
+        "text": "The Lord be with you."
       },
       {
         "type": "versical",
@@ -24187,7 +24629,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Let us pray."
+        "celebrant": true,
+        "text": "Let us pray."
       },
       {
         "type": "text_block",
@@ -24366,7 +24809,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Blessed be our God."
+        "celebrant": true,
+        "text": "Blessed be our God."
       },
       {
         "type": "versical",
@@ -24405,7 +24849,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: The Lord be with you."
+        "celebrant": true,
+        "text": "The Lord be with you."
       },
       {
         "type": "versical",
@@ -24414,7 +24859,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Let us pray."
+        "celebrant": true,
+        "text": "Let us pray."
       },
       {
         "type": "text_block",
@@ -25990,7 +26436,8 @@
       },
       {
         "type": "versical",
-        "text": "deacon: The Lord be with you."
+        "deacon": true,
+        "text": "The Lord be with you."
       },
       {
         "type": "versical",
@@ -25999,7 +26446,8 @@
       },
       {
         "type": "versical",
-        "text": "deacon: Lift up your hearts."
+        "deacon": true,
+        "text": "Lift up your hearts."
       },
       {
         "type": "versical",
@@ -26008,7 +26456,8 @@
       },
       {
         "type": "versical",
-        "text": "deacon: Let us give thanks to the Lord our God."
+        "deacon": true,
+        "text": "Let us give thanks to the Lord our God."
       },
       {
         "type": "versical",
@@ -26730,7 +27179,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Alleluia! Christ is risen!"
+        "celebrant": true,
+        "text": "Alleluia! Christ is risen!"
       },
       {
         "type": "versical",
@@ -26863,7 +27313,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: The Lord be with you."
+        "celebrant": true,
+        "text": "The Lord be with you."
       },
       {
         "type": "versical",
@@ -26872,7 +27323,8 @@
       },
       {
         "type": "versical",
-        "text": "celebrant: Let us pray."
+        "celebrant": true,
+        "text": "Let us pray."
       },
       {
         "type": "text_block",

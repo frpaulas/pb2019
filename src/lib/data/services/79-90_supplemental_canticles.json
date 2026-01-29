@@ -16,6 +16,13 @@
 						"page": 79
 					},
 					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
+					},
+					{
 						"type": "section_title",
 						"text": "supplemental canticles",
 						"size": "xl"
@@ -106,13 +113,15 @@
 						"page": 89
 					},
 					{
-						"type": "section_title",
-						"text": "Great Litany",
-						"size": "2xl"
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 3
 					},
 					{
 						"type": "section_title",
-						"text": "& Decalogue",
+						"text": "Great Litany{br}& Decalogue",
 						"size": "2xl"
 					},
 					{

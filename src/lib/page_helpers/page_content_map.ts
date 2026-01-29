@@ -12,16 +12,7 @@ type PageContentMap = {
 };
 
 export const PAGE_CONTENT_MAP: PageContentMap = {
-	// Consolidated pages 131-135
-	'131': { file: '131-135', isConsolidated: true, consolidatedRange: ['131', '132', '133', '134', '135'] },
-	'132': { file: '131-135', isConsolidated: true, consolidatedRange: ['131', '132', '133', '134', '135'] },
-	'133': { file: '131-135', isConsolidated: true, consolidatedRange: ['131', '132', '133', '134', '135'] },
-	'134': { file: '131-135', isConsolidated: true, consolidatedRange: ['131', '132', '133', '134', '135'] },
-	'135': { file: '131-135', isConsolidated: true, consolidatedRange: ['131', '132', '133', '134', '135'] },
-
-	// Add more consolidated ranges here as you migrate them
-	// Example:
-	// '140': { file: '140-145', isConsolidated: true, consolidatedRange: ['140', '141', '142', '143', '144', '145'] },
+	// All content now comes from service_pages.json - no consolidation needed
 };
 
 /**
@@ -50,7 +41,9 @@ export function getConsolidatedRange(pageNum: string): string[] | null {
  * Given a list of page numbers to load, deduplicate consolidated files
  * Returns unique content files to load with their display page numbers
  */
-export function deduplicatePageLoads(pageNums: string[]): Array<{ file: string; displayPage: string }> {
+export function deduplicatePageLoads(
+	pageNums: string[]
+): Array<{ file: string; displayPage: string }> {
 	const seen = new Set<string>();
 	const result: Array<{ file: string; displayPage: string }> = [];
 

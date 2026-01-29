@@ -4,7 +4,7 @@
 	import Rubric from '$lib/page_helpers/rubric.svelte';
 </script>
 
-<div class="mt-8 flex break-after-all flex-col gap-3 sm:flex-row sm:gap-6">
+<div class="flex break-after-all flex-col gap-3 sm:flex-row sm:gap-6">
 	<div>
 		<Line>Lord, have mercy [upon us].</Line>
 		<Line bold>Christ, have mercy [upon us].</Line>
