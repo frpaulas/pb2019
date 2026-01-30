@@ -16,6 +16,8 @@
 	import SeasonalScripture from '$lib/page_helpers/seasonal_scripture.svelte';
 	import SeasonalAntiphon from '$lib/page_helpers/seasonal_antiphon.svelte';
 	import WeeklyCollects from '$lib/page_helpers/weekly_collects.svelte';
+	import ComplinePsalms from '$lib/page_helpers/compline_psalms.svelte';
+	import MiddayPsalms from '$lib/page_helpers/midday_psalms.svelte';
 	import LordsPrayer from '$lib/prayer/lords_prayer.svelte';
 	import LordsPrayerNoDox from '$lib/prayer/lords_prayer_nodox.svelte';
 	import Kyrie from '$lib/text_component/kyrie.svelte';
@@ -109,6 +111,10 @@
 		<SeasonalAntiphon />
 	{:else if block.type === 'weekly_collects'}
 		<WeeklyCollects office={block.office} />
+	{:else if block.type === 'compline_psalms'}
+		<ComplinePsalms />
+	{:else if block.type === 'midday_psalms'}
+		<MiddayPsalms />
 	{:else if block.type === 'lords_prayer'}
 		<LordsPrayer />
 	{:else if block.type === 'lords_prayer_nodox'}

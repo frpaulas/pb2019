@@ -669,6 +669,13 @@
 						"page": 76
 					},
 					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "additional prayers",
 						"size": "xl"

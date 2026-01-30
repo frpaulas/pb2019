@@ -34,22 +34,11 @@ v:people: As it was in the beginning, is now, and ever shall be, world without e
 r: Except in Lent, add **Alleluia.**
 r: One or more of the following, or some other suitable Psalm, is sung or said.
 
-st: psalm 4{br}_Cum invocarem_
-use:psalm:4:1:8:
+vm:2
+use:compline_psalms:
 
 pb:59
-vm:2
-st: psalm 31:1-6{br}_In te, Domine, speravi_
-use:psalm:31:1:6:
-vm:2
-st: psalm 91{br}_Qui habitat_
-use:psalm:91:1:16:
-vm:2
-st: psalm 134{br}_Ecce nunc_
-
 pb:60
-use:psalm:134:1:4:
-vm:2
 pb:61
 r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
 use:gloria:

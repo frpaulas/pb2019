@@ -6,12 +6,16 @@
 	function toggleVersion() {
 		showTraditional = !showTraditional;
 	}
+	// st: the lord’s prayer
+	// r: The Celebrant then says
+	// l: And now as our Savior Christ has taught us, we are bold to pray:
+	// r: Celebrant and People together pray
 </script>
 
-<div class="mt-8 mb-8 break-after-all">
+<div class="mb-8 break-after-all">
 	<button
 		onclick={toggleVersion}
-		class="mb-4 w-64 rounded bg-blue-500 px-4 py-2 text-sm font-bold text-white hover:bg-blue-600 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+		class="w-48 text-left text-sm font-bold text-blue-600 hover:bg-blue-100 focus:outline-none"
 	>
 		{showTraditional ? 'Show Modern Version' : 'Show Traditional Version'}
 	</button>

@@ -280,12 +280,20 @@
 						"text": "The following or some other suitable hymn or Psalm may be sung or said."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "canticle",
 						"name": "phos_hilaron"
 					},
 					{
 						"type": "rubric",
 						"text": "Then follows"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -301,6 +309,10 @@
 					},
 					{
 						"type": "gloria"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -377,6 +389,10 @@
 								"value": ") or an appropriate song of praise."
 							}
 						]
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "canticle",
@@ -506,6 +522,10 @@
 					{
 						"type": "page_break",
 						"page": 47
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -789,6 +809,10 @@
 						"text": "Before the close of the Office one or both of the following prayers may be used."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "the general thanksgiving"
 					},
@@ -954,6 +978,13 @@
 						"page": 54
 					},
 					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "opening sentences of scripture"
 					},
@@ -1093,6 +1124,13 @@
 						"type": "scripture",
 						"ref": "psalm 16:8-9",
 						"text": "I will thank the Lord for giving me counsel;"
+					},
+					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",

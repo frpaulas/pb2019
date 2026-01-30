@@ -522,7 +522,7 @@
       },
       {
         "type": "vertical_margin",
-        "spacing": 2
+        "spacing": 1
       },
       {
         "type": "canticle",
@@ -553,6 +553,10 @@
     "headerText": "Untitled Service",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "canticle",
         "name": "pascha_nostrum"
       }
@@ -565,6 +569,10 @@
       {
         "type": "rubric",
         "text": "Then follows"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 1
       },
       {
         "type": "section_title",
@@ -580,6 +588,10 @@
       },
       {
         "type": "gloria"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -654,6 +666,10 @@
         ]
       },
       {
+        "type": "vertical_margin",
+        "spacing": 1
+      },
+      {
         "type": "canticle",
         "name": "te_deum_laudamus"
       }
@@ -668,6 +684,10 @@
         "text": "During Lent the Benedictus es, Domine usually replaces the Te Deum, and it may be used at other times."
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "canticle",
         "name": "benedictus_es_domine"
       }
@@ -677,6 +697,10 @@
     "pageNumber": 19,
     "headerText": "Untitled Service",
     "content": [
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
       {
         "type": "canticle",
         "name": "benedictus"
@@ -691,6 +715,10 @@
     "pageNumber": 20,
     "headerText": "Untitled Service",
     "content": [
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
       {
         "type": "section_title",
         "text": "The Apostles' Creed"
@@ -811,6 +839,10 @@
     "headerText": "Untitled Service",
     "content": [
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "The Prayers"
       },
@@ -837,8 +869,24 @@
         "type": "kyrie"
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
+        "type": "section_title",
+        "text": "the lord’s prayer"
+      },
+      {
         "type": "rubric",
-        "text": "Officiant and People"
+        "text": "The Celebrant then says"
+      },
+      {
+        "type": "line",
+        "text": "And now as our Savior Christ has taught us, we are bold to pray:"
+      },
+      {
+        "type": "rubric",
+        "text": "Celebrant and People together pray"
       },
       {
         "type": "lords_prayer"
@@ -965,6 +1013,10 @@
         "text": "Unless the Great Litany or the Eucharist is to follow, one of the following prayers for mission is added. If the Great Litany is used, it follows here, or after a hymn or anthem, and concludes the Office."
       },
       {
+        "type": "vertical_margin",
+        "spacing": 1
+      },
+      {
         "type": "section_title",
         "text": "prayer for mission"
       },
@@ -1005,6 +1057,10 @@
       {
         "type": "rubric",
         "text": "Before the close of the Office one or both of the following prayers may be used."
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -1172,6 +1228,9 @@
     "headerText": "Untitled Service",
     "content": [
       {
+        "type": "hr"
+      },
+      {
         "type": "vertical_margin",
         "spacing": 3
       },
@@ -1323,6 +1382,9 @@
         "type": "scripture",
         "ref": "john 4:23",
         "text": "The hour is coming, and is now here, when the true worshipers will worship the Father in spirit and truth, for the Father is seeking such people to worship him."
+      },
+      {
+        "type": "hr"
       },
       {
         "type": "vertical_margin",
@@ -1479,6 +1541,13 @@
     "headerText": "Untitled Service",
     "content": [
       {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 1
+      },
+      {
         "type": "section_title",
         "text": "additional directions"
       },
@@ -1573,59 +1642,23 @@
         "text": "One or more of the following, or some other suitable Psalm, is sung or said."
       },
       {
-        "type": "section_title",
-        "text": "psalm 119:105-112{br}_Lucerna pedibus meis_"
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
-        "type": "show_psalm",
-        "ps": 119,
-        "from": 105,
-        "to": 112,
-        "bold": true
+        "type": "midday_psalms"
       }
     ]
   },
   "34": {
     "pageNumber": 34,
     "headerText": "Midday Prayer",
-    "content": [
-      {
-        "type": "section_title",
-        "text": "psalm 121{br}_Levavi oculos_"
-      },
-      {
-        "type": "show_psalm",
-        "ps": 121,
-        "to": 8,
-        "bold": true
-      }
-    ]
+    "content": []
   },
   "35": {
     "pageNumber": 35,
     "headerText": "Midday Prayer",
-    "content": [
-      {
-        "type": "section_title",
-        "text": "psalm 124{br}_Nisi quia Dominus_"
-      },
-      {
-        "type": "show_psalm",
-        "ps": 124,
-        "to": 6,
-        "bold": true
-      },
-      {
-        "type": "section_title",
-        "text": "psalm 126{br}_In convertendo_"
-      },
-      {
-        "type": "show_psalm",
-        "ps": 126,
-        "to": 7,
-        "bold": true
-      }
-    ]
+    "content": []
   },
   "36": {
     "pageNumber": 36,
@@ -1777,6 +1810,10 @@
         "type": "scripture",
         "ref": "2 corinthians 13:14",
         "text": "The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore. **Amen.**"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -2073,12 +2110,20 @@
         "text": "The following or some other suitable hymn or Psalm may be sung or said."
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "canticle",
         "name": "phos_hilaron"
       },
       {
         "type": "rubric",
         "text": "Then follows"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -2094,6 +2139,10 @@
       },
       {
         "type": "gloria"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -2172,6 +2221,10 @@
             "value": ") or an appropriate song of praise."
           }
         ]
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 1
       },
       {
         "type": "canticle",
@@ -2306,6 +2359,10 @@
     "pageNumber": 47,
     "headerText": "Daily Evening Prayer",
     "content": [
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
       {
         "type": "section_title",
         "text": "the prayers"
@@ -2595,6 +2652,10 @@
         "text": "Before the close of the Office one or both of the following prayers may be used."
       },
       {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "the general thanksgiving"
       },
@@ -2766,6 +2827,13 @@
     "headerText": "Daily Evening Prayer",
     "content": [
       {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
+      {
         "type": "section_title",
         "text": "opening sentences of scripture"
       },
@@ -2909,6 +2977,13 @@
         "type": "scripture",
         "ref": "psalm 16:8-9",
         "text": "I will thank the Lord for giving me counsel;"
+      },
+      {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
         "type": "section_title",
@@ -3091,70 +3166,23 @@
         "text": "One or more of the following, or some other suitable Psalm, is sung or said."
       },
       {
-        "type": "section_title",
-        "text": "psalm 4{br}_Cum invocarem_"
+        "type": "vertical_margin",
+        "spacing": 2
       },
       {
-        "type": "show_psalm",
-        "ps": 4,
-        "to": 8
+        "type": "compline_psalms"
       }
     ]
   },
   "59": {
     "pageNumber": 59,
     "headerText": "Compline",
-    "content": [
-      {
-        "type": "vertical_margin",
-        "spacing": 2
-      },
-      {
-        "type": "section_title",
-        "text": "psalm 31:1-6{br}_In te, Domine, speravi_"
-      },
-      {
-        "type": "show_psalm",
-        "ps": 31,
-        "to": 6
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 2
-      },
-      {
-        "type": "section_title",
-        "text": "psalm 91{br}_Qui habitat_"
-      },
-      {
-        "type": "show_psalm",
-        "ps": 91,
-        "to": 16
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 2
-      },
-      {
-        "type": "section_title",
-        "text": "psalm 134{br}_Ecce nunc_"
-      }
-    ]
+    "content": []
   },
   "60": {
     "pageNumber": 60,
     "headerText": "Compline",
-    "content": [
-      {
-        "type": "show_psalm",
-        "ps": 134,
-        "to": 4
-      },
-      {
-        "type": "vertical_margin",
-        "spacing": 2
-      }
-    ]
+    "content": []
   },
   "61": {
     "pageNumber": 61,
@@ -4112,6 +4140,13 @@
     "pageNumber": 76,
     "headerText": "Family Prayer",
     "content": [
+      {
+        "type": "hr"
+      },
+      {
+        "type": "vertical_margin",
+        "spacing": 2
+      },
       {
         "type": "section_title",
         "text": "additional prayers",

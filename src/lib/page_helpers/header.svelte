@@ -99,7 +99,6 @@
 		{
 			title: 'Daily Prayers',
 			submenu: [
-				{ title: 'Daily Office (Time-based)', href: `${base}/daily-office-continuous` },
 				{ title: 'Morning Prayer', href: `${base}/pg/11` },
 				{ title: 'Midday Prayer', href: `${base}/pg/33` },
 				{ title: 'Evening Prayer', href: `${base}/pg/41` },

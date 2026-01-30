@@ -910,6 +910,24 @@ class RawToJsonConverter {
 			};
 		}
 
+		// Handle compline_psalms: use:compline_psalms
+		// Format: use:compline_psalms
+		// Shows psalm selector with 4 buttons (Psalm 4, 31:1-6, 91, 134) cycling by day of year
+		if (componentName === 'compline_psalms') {
+			return {
+				type: 'compline_psalms'
+			};
+		}
+
+		// Handle midday_psalms: use:midday_psalms
+		// Format: use:midday_psalms
+		// Shows psalm selector with 4 buttons (Psalm 119:105-112, 121, 124, 126) cycling by day of year
+		if (componentName === 'midday_psalms') {
+			return {
+				type: 'midday_psalms'
+			};
+		}
+
 		// Handle occasional_prayer: use:occasional_prayer:1
 		// Format: use:occasional_prayer:number
 		if (componentName === 'occasional_prayer') {

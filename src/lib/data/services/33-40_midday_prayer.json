@@ -64,53 +64,19 @@
 						"text": "One or more of the following, or some other suitable Psalm, is sung or said."
 					},
 					{
-						"type": "section_title",
-						"text": "psalm 119:105-112{br}_Lucerna pedibus meis_"
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
-						"type": "show_psalm",
-						"ps": 119,
-						"from": 105,
-						"to": 112,
-						"bold": true
+						"type": "midday_psalms"
 					},
 					{
 						"type": "page_break",
 						"page": 34
 					},
 					{
-						"type": "section_title",
-						"text": "psalm 121{br}_Levavi oculos_"
-					},
-					{
-						"type": "show_psalm",
-						"ps": 121,
-						"to": 8,
-						"bold": true
-					},
-					{
 						"type": "page_break",
 						"page": 35
-					},
-					{
-						"type": "section_title",
-						"text": "psalm 124{br}_Nisi quia Dominus_"
-					},
-					{
-						"type": "show_psalm",
-						"ps": 124,
-						"to": 6,
-						"bold": true
-					},
-					{
-						"type": "section_title",
-						"text": "psalm 126{br}_In convertendo_"
-					},
-					{
-						"type": "show_psalm",
-						"ps": 126,
-						"to": 7,
-						"bold": true
 					},
 					{
 						"type": "page_break",
@@ -256,6 +222,10 @@
 						"type": "scripture",
 						"ref": "2 corinthians 13:14",
 						"text": "The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore. **Amen.**"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",

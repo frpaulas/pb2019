@@ -46,7 +46,7 @@ l:i:b: O come, let us adore him.
 r:or this
 l:The mercy of the Lord is everlasting: *
 l:i:b: O come, let us adore him.
-vm:2:
+vm:1:
 use:canticle:venite:
 
 pb:15
@@ -58,13 +58,16 @@ r: During the first week of Easter, the Pascha Nostrum, without antiphons,
     is used in place of the Invitatory Psalm, and it may be used throughout Eastertide.
 
 pb:16
+vm:2
 use:canticle:pascha_nostrum:
 pb:17
 r: Then follows
+vm:1
 st: the psalm or psalms appointed
 use:appointed_psalms:morning
 r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
 use:gloria:
+vm:2
 st: the lessons
 use:appointed_readings:morning
 r: One or more Lessons, as appointed, are read, the Reader first saying
@@ -78,18 +81,23 @@ v:Here ends the Reading.
 r: The following Canticles are normally sung or said after each of the lessons.
     The Officiant may also use a Canticle drawn from the Supplemental Canticles (pages 79-88)
     or an appropriate song of praise.
+vm:1
 use:canticle:te_deum_laudamus:
 pb:18
 r: During Lent the Benedictus es, Domine usually replaces the Te Deum, and it may be used at other times.
+vm:2
 use:canticle:benedictus_es_domine:
 
 pb:19
+vm:2
 use:canticle:benedictus:
 
 r: Officiant and People together, all standing
 pb:20
+vm:2
 use:apostles_creed:
 pb:21
+vm:2
 st: The Prayers
 
 v:officiant:The Lord be with you.
@@ -97,7 +105,11 @@ v:people:And with your spirit.
 v:officiant:Let us pray.
 r:The People kneel or stand.
 use:kyrie:
-r: Officiant and People
+vm:2
+st: the lord’s prayer
+r: The Celebrant then says
+l: And now as our Savior Christ has taught us, we are bold to pray:
+r: Celebrant and People together pray
 use:prayer:lords_prayer:
 v:officiant: O Lord, show your mercy upon us;
 v:people: And grant us your salvation.
@@ -130,6 +142,7 @@ pb:24
 
 r: Unless the Great Litany or the Eucharist is to follow, one of the following prayers
     for mission is added. If the Great Litany is used, it follows here, or after a hymn or anthem, and concludes the Office.
+vm:1
 st: prayer for mission
 tb: Almighty and everlasting God, who alone works great marvels: Send down upon our clergy and the congregations committed to their charge the life-giving Spirit of your grace, shower them with the continual dew of your blessing, and ignite in them a zealous love of your Gospel; through Jesus Christ our Lord.
 r: or this
@@ -146,6 +159,7 @@ pb:25
 r: The Officiant may invite the People to offer intercessions and thanksgivings.
 r: A hymn or anthem may be sung.
 r: Before the close of the Office one or both of the following prayers may be used.
+vm:2
 use:prayer:general_thanksgiving:
 pb:26
 vm:2
@@ -159,6 +173,7 @@ scripture:romans 15:13:: May the God of hope fill us with all joy and peace in b
 scripture:ephesians 3:20-21:: Glory to God whose power, working in us, can do infinitely more than we can ask or imagine: Glory to him from generation to generation in the Church, and in Christ Jesus for ever and ever.
 
 pb:27
+hr:
 vm:3:
 st: opening sentences of scripture
 use:opening_sentences:mp_advent
@@ -174,6 +189,7 @@ use:opening_sentences:mp_trinity_sunday
 use:opening_sentences:mp_thanksgiving
 pb:29
 use:opening_sentences:mp_any_time
+hr:
 vm:3:
 st: seasonal antiphons
 st: advent
@@ -207,6 +223,8 @@ st: all saints' and other major saints' days
 l: The Lord is glorious in his saints: *
 l:b:i: O come, let us adore him.
 pb:31
+hr:
+vm:1
 st: additional directions
 tb: The Confession and Apostles' Creed may be omitted, provided each is said at least once during the course of the day.
 tb: The Gloria Patri (Glory be...) in the opening versicles may be said in unison.

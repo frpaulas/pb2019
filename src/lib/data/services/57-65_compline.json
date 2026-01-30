@@ -160,64 +160,19 @@
 						"text": "One or more of the following, or some other suitable Psalm, is sung or said."
 					},
 					{
-						"type": "section_title",
-						"text": "psalm 4{br}_Cum invocarem_"
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
-						"type": "show_psalm",
-						"ps": 4,
-						"to": 8
+						"type": "compline_psalms"
 					},
 					{
 						"type": "page_break",
 						"page": 59
 					},
 					{
-						"type": "vertical_margin",
-						"spacing": 2
-					},
-					{
-						"type": "section_title",
-						"text": "psalm 31:1-6{br}_In te, Domine, speravi_"
-					},
-					{
-						"type": "show_psalm",
-						"ps": 31,
-						"to": 6
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 2
-					},
-					{
-						"type": "section_title",
-						"text": "psalm 91{br}_Qui habitat_"
-					},
-					{
-						"type": "show_psalm",
-						"ps": 91,
-						"to": 16
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 2
-					},
-					{
-						"type": "section_title",
-						"text": "psalm 134{br}_Ecce nunc_"
-					},
-					{
 						"type": "page_break",
 						"page": 60
-					},
-					{
-						"type": "show_psalm",
-						"ps": 134,
-						"to": 4
-					},
-					{
-						"type": "vertical_margin",
-						"spacing": 2
 					},
 					{
 						"type": "page_break",

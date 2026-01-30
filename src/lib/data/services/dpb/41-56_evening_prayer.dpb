@@ -37,14 +37,17 @@ v:people: The Lord's Name be praised.
 
 pb:44
 r: The following or some other suitable hymn or Psalm may be sung or said.
+vm:2
 use:canticle:phos_hilaron
 
 r: Then follows
+vm:2
 st: the psalm or psalms appointed
 use:appointed_psalms:evening
 r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
 use:gloria:
 
+vm:2
 st: the lessons
 use:appointed_readings:evening
 r: One or more Lessons, as appointed, are read, the Reader first saying
@@ -60,12 +63,14 @@ v: Here ends the Reading.
 r: The following Canticles are normally sung or said after each of the lessons.
     The Officiant may also use a Canticle drawn from the Supplemental Canticles
     (pages 79-88) or an appropriate song of praise.
+vm:1
 use:canticle:magnificat:
 pb:46
 use:canticle:nunc_dimittis:
 use:apostles_creed:
 
 pb:47
+vm:2
 st: the prayers
 v:officiant: The Lord be with you.
 v:people: And with your spirit.
@@ -138,6 +143,7 @@ tb: O God, you manifest in your servants the signs of your presence:
 r: The Officiant may invite the People to offer intercessions and thanksgivings.
 r: A hymn or anthem may be sung.
 r: Before the close of the Office one or both of the following prayers may be used.
+vm:2
 use:prayer:general_thanksgiving:
 pb:52
 vm:2
@@ -153,6 +159,8 @@ scripture:romans 15:13:: May the God of hope fill us with all joy and peace in b
 scripture:ephesians 3:20-21:: Glory to God whose power, working in us, can do infinitely more than we can ask or imagine: Glory to him from generation to generation in the Church, and in Christ Jesus for ever and ever.
 
 pb:54
+hr:
+vm:2
 st: opening sentences of scripture
 use:opening_sentences:ep_advent
 use:opening_sentences:ep_christmas
@@ -168,7 +176,8 @@ use:opening_sentences:ep_thanksgiving
 
 pb:56
 use:opening_sentences:ep_any_time
-
+hr:
+vm:2
 st:1: additional directions
 tb: The Confession and Apostles' Creed may be omitted, provided each is said at least once during the course of the day.
 tb: The Gloria Patri (Glory be...) in the opening versicles may be said in unison.

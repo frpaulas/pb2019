@@ -15,20 +15,11 @@ r: Except in Lent, add **Alleluia**
 r: A suitable hymn may be sung.
 r: One or more of the following, or some other suitable Psalm, is sung or said.
 
-st: psalm 119:105-112{br}_Lucerna pedibus meis_
-use:psalm:119:105:112:b:
+vm:2
+use:midday_psalms:
 
 pb:34
-st: psalm 121{br}_Levavi oculos_
-use:psalm:121:1:8:b:
-
 pb:35
-st: psalm 124{br}_Nisi quia Dominus_
-use:psalm:124:1:6:b:
-
-st: psalm 126{br}_In convertendo_
-use:psalm:126:1:7:b:
-
 pb:36
 r: At the end of the Psalms the Gloria Patri (Glory be...) is sung or said
 use:gloria:
@@ -80,6 +71,7 @@ r: The Officiant may conclude with this, or one of the other concluding sentence
     Morning and Evening Prayer.
 scripture:2 corinthians 13:14:: The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore. **Amen.**
 
+vm:2
 st:1: additional directions
 tb: Other suitable selections from the Psalter include Psalms 19, 67, one or more
     sections of Psalm 119, or a selection from Psalms 120 through 133.

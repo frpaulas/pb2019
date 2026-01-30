@@ -348,7 +348,7 @@
 					},
 					{
 						"type": "vertical_margin",
-						"spacing": 2
+						"spacing": 1
 					},
 					{
 						"type": "canticle",
@@ -375,6 +375,10 @@
 						"page": 16
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "canticle",
 						"name": "pascha_nostrum"
 					},
@@ -385,6 +389,10 @@
 					{
 						"type": "rubric",
 						"text": "Then follows"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "section_title",
@@ -400,6 +408,10 @@
 					},
 					{
 						"type": "gloria"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -474,6 +486,10 @@
 						]
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "canticle",
 						"name": "te_deum_laudamus"
 					},
@@ -486,12 +502,20 @@
 						"text": "During Lent the Benedictus es, Domine usually replaces the Te Deum, and it may be used at other times."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "canticle",
 						"name": "benedictus_es_domine"
 					},
 					{
 						"type": "page_break",
 						"page": 19
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "canticle",
@@ -504,6 +528,10 @@
 					{
 						"type": "page_break",
 						"page": 20
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -623,6 +651,10 @@
 						"page": 21
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
 						"type": "section_title",
 						"text": "The Prayers"
 					},
@@ -649,8 +681,24 @@
 						"type": "kyrie"
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 2
+					},
+					{
+						"type": "section_title",
+						"text": "the lord’s prayer"
+					},
+					{
 						"type": "rubric",
-						"text": "Officiant and People"
+						"text": "The Celebrant then says"
+					},
+					{
+						"type": "line",
+						"text": "And now as our Savior Christ has taught us, we are bold to pray:"
+					},
+					{
+						"type": "rubric",
+						"text": "Celebrant and People together pray"
 					},
 					{
 						"type": "lords_prayer"
@@ -772,6 +820,10 @@
 						"text": "Unless the Great Litany or the Eucharist is to follow, one of the following prayers for mission is added. If the Great Litany is used, it follows here, or after a hymn or anthem, and concludes the Office."
 					},
 					{
+						"type": "vertical_margin",
+						"spacing": 1
+					},
+					{
 						"type": "section_title",
 						"text": "prayer for mission"
 					},
@@ -810,6 +862,10 @@
 					{
 						"type": "rubric",
 						"text": "Before the close of the Office one or both of the following prayers may be used."
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 2
 					},
 					{
 						"type": "section_title",
@@ -973,6 +1029,9 @@
 						"page": 27
 					},
 					{
+						"type": "hr"
+					},
+					{
 						"type": "vertical_margin",
 						"spacing": 3
 					},
@@ -1120,6 +1179,9 @@
 						"type": "scripture",
 						"ref": "john 4:23",
 						"text": "The hour is coming, and is now here, when the true worshipers will worship the Father in spirit and truth, for the Father is seeking such people to worship him."
+					},
+					{
+						"type": "hr"
 					},
 					{
 						"type": "vertical_margin",
@@ -1270,6 +1332,13 @@
 					{
 						"type": "page_break",
 						"page": 31
+					},
+					{
+						"type": "hr"
+					},
+					{
+						"type": "vertical_margin",
+						"spacing": 1
 					},
 					{
 						"type": "section_title",
