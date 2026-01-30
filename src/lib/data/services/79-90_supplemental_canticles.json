@@ -24,12 +24,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "supplemental canticles",
-						"size": "xl"
-					},
-					{
-						"type": "section_title",
-						"text": "_for_ worship",
+						"text": "supplemental canticles{br}_for_ worship",
 						"size": "xl"
 					},
 					{

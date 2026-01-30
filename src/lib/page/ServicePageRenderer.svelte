@@ -18,6 +18,7 @@
 	import WeeklyCollects from '$lib/page_helpers/weekly_collects.svelte';
 	import ComplinePsalms from '$lib/page_helpers/compline_psalms.svelte';
 	import MiddayPsalms from '$lib/page_helpers/midday_psalms.svelte';
+	import SupplementalCanticlesNav from '$lib/page_helpers/supplemental_canticles_nav.svelte';
 	import LordsPrayer from '$lib/prayer/lords_prayer.svelte';
 	import LordsPrayerNoDox from '$lib/prayer/lords_prayer_nodox.svelte';
 	import Kyrie from '$lib/text_component/kyrie.svelte';
@@ -115,6 +116,8 @@
 		<ComplinePsalms />
 	{:else if block.type === 'midday_psalms'}
 		<MiddayPsalms />
+	{:else if block.type === 'supplemental_canticles_nav'}
+		<SupplementalCanticlesNav />
 	{:else if block.type === 'lords_prayer'}
 		<LordsPrayer />
 	{:else if block.type === 'lords_prayer_nodox'}
@@ -129,31 +132,34 @@
 		</p>
 	{:else if block.type === 'canticle'}
 		{@const canticleBlocks = canticlesData[block.name]}
+		{@const canticleTitle = canticleBlocks?.find((b) => b.type === 'section_title')?.text}
 		{#if canticleBlocks}
-			{#each canticleBlocks as canticleBlock}
-				{#if canticleBlock.type === 'section_title'}
-					<SectionTitle
-						fancy={canticleBlock.fancy || false}
-						latin_size={canticleBlock.latin_size || false}>{canticleBlock.text}</SectionTitle
-					>
-				{:else if canticleBlock.type === 'rubric'}
-					<Rubric>{canticleBlock.text}</Rubric>
-				{:else if canticleBlock.type === 'text_block'}
-					<TextBlock amen={canticleBlock.amen || false}>{canticleBlock.text}</TextBlock>
-				{:else if canticleBlock.type === 'line'}
-					<Line
-						bold={canticleBlock.bold || false}
-						indent={canticleBlock.indent || false}
-						text={canticleBlock.text}
-					/>
-				{:else if canticleBlock.type === 'ref'}
-					<Ref text={canticleBlock.text} />
-				{:else if canticleBlock.type === 'gloria'}
-					<Gloria />
-				{:else if canticleBlock.type === 'vertical_margin'}
-					<div style="height: {canticleBlock.spacing}em;"></div>
-				{/if}
-			{/each}
+			<div id={canticleTitle ? `canticle-${canticleTitle}` : undefined}>
+				{#each canticleBlocks as canticleBlock}
+					{#if canticleBlock.type === 'section_title'}
+						<SectionTitle
+							fancy={canticleBlock.fancy || false}
+							latin_size={canticleBlock.latin_size || false}>{canticleBlock.text}</SectionTitle
+						>
+					{:else if canticleBlock.type === 'rubric'}
+						<Rubric>{canticleBlock.text}</Rubric>
+					{:else if canticleBlock.type === 'text_block'}
+						<TextBlock amen={canticleBlock.amen || false}>{canticleBlock.text}</TextBlock>
+					{:else if canticleBlock.type === 'line'}
+						<Line
+							bold={canticleBlock.bold || false}
+							indent={canticleBlock.indent || false}
+							text={canticleBlock.text}
+						/>
+					{:else if canticleBlock.type === 'ref'}
+						<Ref text={canticleBlock.text} />
+					{:else if canticleBlock.type === 'gloria'}
+						<Gloria />
+					{:else if canticleBlock.type === 'vertical_margin'}
+						<div style="height: {canticleBlock.spacing}em;"></div>
+					{/if}
+				{/each}
+			</div>
 		{:else}
 			<p class="text-red-500">Unknown canticle: {block.name}</p>
 		{/if}

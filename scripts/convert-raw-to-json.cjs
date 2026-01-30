@@ -928,6 +928,15 @@ class RawToJsonConverter {
 			};
 		}
 
+		// Handle supplemental_canticles_nav: use:supplemental_canticles_nav
+		// Format: use:supplemental_canticles_nav
+		// Shows 10 buttons to jump to each supplemental canticle
+		if (componentName === 'supplemental_canticles_nav') {
+			return {
+				type: 'supplemental_canticles_nav'
+			};
+		}
+
 		// Handle occasional_prayer: use:occasional_prayer:1
 		// Format: use:occasional_prayer:number
 		if (componentName === 'occasional_prayer') {

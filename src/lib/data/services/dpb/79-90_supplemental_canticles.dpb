@@ -4,8 +4,7 @@ hr:
 vm:3
 tp: Supplemental Canticles
 
-st:1: supplemental canticles
-st:1: _for_ worship
+st:1: supplemental canticles{br}_for_ worship
 use:canticle:magna_et_mirabilia:
 
 pb:80
