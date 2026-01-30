@@ -5510,6 +5510,31 @@
       },
       {
         "type": "kyrie"
+      },
+      {
+        "type": "rubric",
+        "text": "or this"
+      },
+      {
+        "type": "section_title",
+        "text": "the trisagion"
+      },
+      {
+        "type": "line",
+        "text": "Holy God"
+      },
+      {
+        "type": "line",
+        "text": "Holy and Mighty"
+      },
+      {
+        "type": "line",
+        "text": "Holy Immortal One,"
+      },
+      {
+        "type": "line",
+        "text": "Have mercy on us.",
+        "bold": true
       }
     ]
   },

@@ -14,14 +14,6 @@
 	import NiceneCreed from '$lib/text_component/nicene_creed.svelte';
 	import LordsPrayer from '$lib/prayer/lords_prayer.svelte';
 	import Kyrie from '$lib/text_component/kyrie.svelte';
-	import ConfessionCommunion from '$lib/prayer/confession_communion.svelte';
-	import OfficeConfessionIntro from '$lib/prayer/office_confession_intro.svelte';
-	import OfficeConfession from '$lib/prayer/office_confession.svelte';
-	import OfficeAbsolution from '$lib/prayer/office_absolution.svelte';
-	import GeneralThanksgiving from '$lib/prayer/general_thanksgiving.svelte';
-	import HumbleAccess from '$lib/prayer/humble_access.svelte';
-	import PostCommunionStandard from '$lib/prayer/post_communion_standard.svelte';
-	import InTheMorning from '$lib/prayer/in_the_morning.svelte';
 	import Footnote from '$lib/page_helpers/footnote.svelte';
 	import Silence from '$lib/page_helpers/silence.svelte';
 	import IntentionallyBlank from '$lib/page_helpers/intentionally_blank.svelte';
@@ -82,14 +74,6 @@
 		nicene_creed: NiceneCreed,
 		lords_prayer: LordsPrayer,
 		kyrie: Kyrie,
-		confession_communion: ConfessionCommunion,
-		office_confession_intro: OfficeConfessionIntro,
-		office_confession: OfficeConfession,
-		office_absolution: OfficeAbsolution,
-		general_thanksgiving: GeneralThanksgiving,
-		humble_access: HumbleAccess,
-		post_communion_standard: PostCommunionStandard,
-		in_the_morning: InTheMorning,
 		footnote: Footnote,
 		silence: Silence,
 		vertical_margin: VerticalMargin,
