@@ -370,21 +370,31 @@
 		}
 	});
 
-	// Get eucharist readings for the display day
-	// Priority: 1) RLD readings if available (including transferred feasts), 2) Previous Sunday's readings
+	// Calculate the next Sunday from a given date
+	function getNextSunday(date: Date): Date {
+		const result = new Date(date);
+		const dayOfWeek = result.getDay();
+		// If it's Sunday (0), go to next Sunday (7 days); otherwise days until Sunday
+		const daysUntilSunday = dayOfWeek === 0 ? 7 : 7 - dayOfWeek;
+		result.setDate(result.getDate() + daysUntilSunday);
+		return result;
+	}
+
+	// Get eucharist readings for the NEXT Sunday from the display day
 	let displayReadings = $derived.by(() => {
 		if (!displayDay) return null;
 
-		const year = displayDay.date.getFullYear();
-		const month = displayDay.date.getMonth() + 1;
-		const day = displayDay.date.getDate();
+		const nextSunday = getNextSunday(displayDay.date);
+		const year = nextSunday.getFullYear();
+		const month = nextSunday.getMonth() + 1;
+		const day = nextSunday.getDate();
 
-		// Check if this is an RLD with readings (handles transferred feasts)
+		// Check if next Sunday is an RLD with readings
 		const originalFeastKey = getOriginalFeastDateKey(month, day, year);
 		const rldReadings = originalFeastKey ? rldEucharist[originalFeastKey] : null;
 
 		if (rldReadings) {
-			// Use RLD readings
+			// Use RLD readings for next Sunday
 			return {
 				isRLD: true,
 				rldName: rldReadings.name,
@@ -397,7 +407,7 @@
 			};
 		}
 
-		// Fall back to Sunday lectionary (uses previous Sunday if not a Sunday)
+		// Get next Sunday's lectionary readings
 		const sundayKey = getSundayLectionaryKeyForAnyDate(year, month, day);
 		if (!sundayKey) return null;
 
@@ -483,11 +493,9 @@
 					<div class="mt-3 border-t border-blue-200 pt-2">
 						<div class="mb-1 text-center text-xs text-gray-600">
 							{#if displayReadings.isRLD}
-								{displayReadings.rldName}
-							{:else if !displayDay.isSunday}
-								Eucharist readings from {displayReadings.sundayName} (Year {displayReadings.liturgicalYear})
+								Eucharistic readings for next Sunday: {displayReadings.rldName}
 							{:else}
-								{displayReadings.sundayName} (Year {displayReadings.liturgicalYear})
+								Eucharistic readings for next Sunday: {displayReadings.sundayName} (Year {displayReadings.liturgicalYear})
 							{/if}
 						</div>
 						<div class="grid grid-cols-2 gap-x-4 gap-y-1 text-xs md:grid-cols-4">
