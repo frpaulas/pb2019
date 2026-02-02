@@ -295,7 +295,4 @@
 			{/each}
 		</div>
 	{/if}
-
-	<!-- Home link -->
-	<a href="{base}/pg/iii" class="mt-4 text-blue-600 hover:underline">&larr; Back to Home</a>
 </div>

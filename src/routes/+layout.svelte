@@ -42,8 +42,14 @@
 			if (lastActive) {
 				const elapsed = Date.now() - parseInt(lastActive, 10);
 				if (elapsed >= INACTIVITY_THRESHOLD_MS) {
-					const page = getOfficePageByTime();
-					goto(`${base}/pg/${page}`);
+					// Only redirect if we're on a /pg/ route (not on special pages like /bible, /calendar, etc.)
+					const currentPath = window.location.pathname;
+					const isPageRoute =
+						currentPath.includes('/pg/') || currentPath === base || currentPath === base + '/';
+					if (isPageRoute) {
+						const page = getOfficePageByTime();
+						goto(`${base}/pg/${page}`);
+					}
 				}
 			}
 			updateLastActive();
