@@ -139,30 +139,35 @@
 		aria-labelledby="scripture-modal-title"
 	>
 		<div
-			class="relative flex max-h-[90vh] w-full max-w-180 flex-col rounded-lg bg-neutral-100 font-serif shadow-2xl"
+			class="relative flex max-h-[90vh] w-full max-w-180 flex-col rounded-lg bg-neutral-100 font-serif shadow-2xl dark:bg-gray-800"
 			onclick={(e) => e.stopPropagation()}
 		>
 			<!-- Header -->
-			<div class="flex items-center justify-between border-b border-gray-200 p-4">
+			<div
+				class="flex items-center justify-between border-b border-gray-200 p-4 dark:border-gray-700"
+			>
 				<div class="flex items-center gap-2">
 					{#if canGoPrev}
 						<button
 							type="button"
 							onclick={goToPrevChapter}
-							class="flex h-8 w-8 items-center justify-center rounded-full text-xl text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-700"
+							class="flex h-8 w-8 items-center justify-center rounded-full text-xl text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200"
 							aria-label="Previous chapter"
 						>
 							&#8592;
 						</button>
 					{/if}
-					<h2 id="scripture-modal-title" class="text-xl font-semibold text-gray-900">
+					<h2
+						id="scripture-modal-title"
+						class="text-xl font-semibold text-gray-900 dark:text-gray-100"
+					>
 						{currentReference || 'Scripture Reading'}
 					</h2>
 					{#if canGoNext}
 						<button
 							type="button"
 							onclick={goToNextChapter}
-							class="flex h-8 w-8 items-center justify-center rounded-full text-xl text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-700"
+							class="flex h-8 w-8 items-center justify-center rounded-full text-xl text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200"
 							aria-label="Next chapter"
 						>
 							&#8594;
@@ -173,7 +178,7 @@
 				<button
 					type="button"
 					onclick={close}
-					class="flex h-8 w-8 items-center justify-center rounded-full text-2xl font-bold text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-700"
+					class="flex h-8 w-8 items-center justify-center rounded-full text-2xl font-bold text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-200"
 					aria-label="Close modal"
 				>
 					&times;
@@ -183,21 +188,20 @@
 			<!-- Content -->
 			<div
 				bind:this={contentElement}
-				class="flex-1 overflow-y-auto overscroll-contain scroll-smooth p-6"
+				class="flex-1 overflow-y-auto overscroll-contain scroll-smooth p-6 dark:text-gray-100"
 			>
 				{#if passage}
-					<div class="prose prose-lg max-w-none">
+					<div class="prose prose-lg max-w-none dark:prose-invert">
 						<!-- Render verses with paragraph breaks preserved -->
 						{#each passage.verses as verse, i}
 							<span class="verse">
-								<sup class="mr-1 text-xs text-gray-500">{verse.verse}</sup>{@html formatVerseText(
-									verse.text
-								)}
+								<sup class="mr-1 text-xs text-gray-500 dark:text-gray-400">{verse.verse}</sup
+								>{@html formatVerseText(verse.text)}
 							</span>
 						{/each}
 					</div>
 				{:else if currentReference}
-					<div class="py-8 text-center text-gray-500">
+					<div class="py-8 text-center text-gray-500 dark:text-gray-400">
 						Unable to load: {currentReference}
 					</div>
 				{/if}
@@ -205,7 +209,7 @@
 
 			<!-- Footer -->
 			<div
-				class="flex items-center justify-between rounded-b-lg border-t border-gray-200 bg-neutral-100 p-4"
+				class="flex items-center justify-between rounded-b-lg border-t border-gray-200 bg-neutral-100 p-4 dark:border-gray-700 dark:bg-gray-800"
 			>
 				<div>
 					{#if $scriptureModal.altReference}
