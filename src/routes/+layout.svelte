@@ -6,9 +6,12 @@
 	import PageLinkModal from '$lib/components/PageLinkModal.svelte';
 	import ScriptureModal from '$lib/components/ScriptureModal.svelte';
 	import PsalmModal from '$lib/components/PsalmModal.svelte';
+	import PreferencesModal from '$lib/components/PreferencesModal.svelte';
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
 	import { base } from '$app/paths';
+	import { get } from 'svelte/store';
+	import { fontSize, officeTimes, theme } from '$lib/stores/preferences';
 
 	let { children } = $props();
 
@@ -20,15 +23,16 @@
 		const hours = now.getHours();
 		const minutes = now.getMinutes();
 		const timeValue = hours * 100 + minutes;
+		const times = get(officeTimes);
 
-		if (timeValue < 1130) {
-			return '11'; // Morning Prayer (before 11:30 AM)
-		} else if (timeValue < 1500) {
-			return '33'; // Midday Prayer (11:30 AM - 2:59 PM)
-		} else if (timeValue < 2000) {
-			return '41'; // Evening Prayer (3:00 PM - 7:59 PM)
+		if (timeValue < times.morning) {
+			return '11'; // Morning Prayer
+		} else if (timeValue < times.midday) {
+			return '33'; // Midday Prayer
+		} else if (timeValue < times.evening) {
+			return '41'; // Evening Prayer
 		} else {
-			return '57'; // Compline (8:00 PM onwards)
+			return '57'; // Compline
 		}
 	}
 
@@ -58,6 +62,36 @@
 			updateLastActive();
 		}
 	}
+
+	// Apply font size preference to document root
+	$effect(() => {
+		document.documentElement.style.setProperty('--user-font-scale', $fontSize.toString());
+	});
+
+	// Apply theme preference
+	$effect(() => {
+		const applyTheme = (isDark: boolean) => {
+			if (isDark) {
+				document.documentElement.classList.add('dark');
+			} else {
+				document.documentElement.classList.remove('dark');
+			}
+		};
+
+		if ($theme === 'system') {
+			// Use system preference
+			const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+			applyTheme(mediaQuery.matches);
+
+			// Listen for system theme changes
+			const handler = (e: MediaQueryListEvent) => applyTheme(e.matches);
+			mediaQuery.addEventListener('change', handler);
+
+			return () => mediaQuery.removeEventListener('change', handler);
+		} else {
+			applyTheme($theme === 'dark');
+		}
+	});
 
 	onMount(() => {
 		updateLastActive();
@@ -106,6 +140,9 @@
 
 <!-- Psalm Modal - Global overlay for BCP psalter -->
 <PsalmModal />
+
+<!-- Preferences Modal - Global overlay for settings -->
+<PreferencesModal />
 
 <style>
 	@layer utilities {

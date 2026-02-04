@@ -18,7 +18,7 @@
 	});
 </script>
 
-<p class="mt-2 mb-2 text-red-900 italic">
+<p class="rubric mt-2 mb-2 italic">
 	{#if content && Array.isArray(content)}
 		<!-- Render content array with mixed text and page_link segments -->
 		{#each content as segment}
@@ -39,3 +39,13 @@
 		<span class="font-bold">{add_on}</span>
 	{/if}
 </p>
+
+<style>
+	.rubric {
+		color: #7f1d1d; /* red-900 */
+	}
+
+	:global(.dark) .rubric {
+		color: #fef9c3; /* yellow-100 */
+	}
+</style>

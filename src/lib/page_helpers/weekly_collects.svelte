@@ -65,6 +65,7 @@
 		border-radius: 0.25rem;
 		font-size: 0.875rem;
 		background: white;
+		color: #374151;
 		transition: all 0.15s;
 	}
 
@@ -73,6 +74,23 @@
 	}
 
 	.day-option.selected {
+		background: #1e40af;
+		color: white;
+		border-color: #1e40af;
+	}
+
+	/* Dark mode */
+	:global(.dark) .day-option {
+		background: #374151;
+		color: #e5e5e5;
+		border-color: #4b5563;
+	}
+
+	:global(.dark) .day-option:hover {
+		background: #4b5563;
+	}
+
+	:global(.dark) .day-option.selected {
 		background: #1e40af;
 		color: white;
 		border-color: #1e40af;

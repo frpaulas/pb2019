@@ -1,7 +1,15 @@
 <script lang="ts">
-	import { getMorningPsalms60, getEveningPsalms60, getCycleDay60 } from '$lib/calendar/psalm_cycle';
+	import {
+		getMorningPsalms60,
+		getEveningPsalms60,
+		getCycleDay60,
+		getMorningPsalms30,
+		getEveningPsalms30,
+		getCycleDay30
+	} from '$lib/calendar/psalm_cycle';
 	import { selectedDate } from '$lib/stores/liturgical';
 	import { psalmModal, parsePsalmRef, type PsalmReference } from '$lib/stores/psalmModal';
+	import { psalmCycle } from '$lib/stores/preferences';
 
 	interface Props {
 		office: 'morning' | 'evening';
@@ -21,12 +29,32 @@
 		})
 	);
 
-	// Get the day in the 60-day cycle
-	let cycleDay = $derived(getCycleDay60(currentDate.getDate()));
+	/**
+	 * Calculate day of year (1-366)
+	 */
+	function getDayOfYear(date: Date): number {
+		const start = new Date(date.getFullYear(), 0, 0);
+		const diff = date.getTime() - start.getTime();
+		const oneDay = 1000 * 60 * 60 * 24;
+		return Math.floor(diff / oneDay);
+	}
 
-	// Get the psalms for this day and office
+	// Get the day in the psalm cycle based on preference
+	let cycleDay = $derived(
+		$psalmCycle === 60
+			? getCycleDay60(getDayOfYear(currentDate)) // 60-day uses day of year
+			: getCycleDay30(currentDate.getDate()) // 30-day uses day of month
+	);
+
+	// Get the psalms for this day and office based on cycle preference
 	let psalmRefs = $derived(
-		office === 'morning' ? getMorningPsalms60(cycleDay) : getEveningPsalms60(cycleDay)
+		$psalmCycle === 60
+			? office === 'morning'
+				? getMorningPsalms60(cycleDay)
+				: getEveningPsalms60(cycleDay)
+			: office === 'morning'
+				? getMorningPsalms30(cycleDay)
+				: getEveningPsalms30(cycleDay)
 	);
 
 	// Parse all psalm references

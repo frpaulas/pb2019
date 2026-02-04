@@ -6,6 +6,150 @@
 	--font-family: 'Playfair Display', serif;
 }
 
+:root {
+	--user-font-scale: 1;
+}
+
+/* Apply user font scale to main content */
+.font-serif {
+	font-size: calc(1rem * var(--user-font-scale));
+}
+
+/* Dark mode base styles */
+.dark {
+	color-scheme: dark;
+}
+
+.dark body {
+	background-color: #1a1a1a;
+	color: #e5e5e5;
+}
+
+/* Dark mode for main content area */
+.dark .bg-neutral-100 {
+	background-color: #262626 !important;
+}
+
+/* Dark mode text colors */
+.dark .text-gray-900 {
+	color: #f5f5f5 !important;
+}
+
+.dark .text-gray-700 {
+	color: #d4d4d4 !important;
+}
+
+.dark .text-gray-600 {
+	color: #a3a3a3 !important;
+}
+
+.dark .text-gray-500 {
+	color: #737373 !important;
+}
+
+/* Dark mode borders */
+.dark .border-red-800 {
+	border-color: #7f1d1d !important;
+}
+
+.dark .border-r-green-900 {
+	border-color: #14532d !important;
+}
+
+/* Dark mode for links */
+.dark .text-blue-600 {
+	color: #60a5fa !important;
+}
+
+.dark .text-blue-700 {
+	color: #93c5fd !important;
+}
+
+/* Dark mode backgrounds */
+.dark .bg-white {
+	background-color: #2a2a2a !important;
+}
+
+.dark .bg-gray-50 {
+	background-color: #333333 !important;
+}
+
+/* Dark mode for calendar liturgical backgrounds */
+.dark .bg-red-50 {
+	background-color: #450a0a !important;
+}
+
+.dark .bg-purple-50 {
+	background-color: #2e1065 !important;
+}
+
+.dark .bg-green-50 {
+	background-color: #052e16 !important;
+}
+
+.dark .bg-blue-50 {
+	background-color: #172554 !important;
+}
+
+/* Dark mode hover states for calendar */
+.dark .hover\:bg-red-100:hover {
+	background-color: #7f1d1d !important;
+}
+
+.dark .hover\:bg-purple-100:hover {
+	background-color: #4c1d95 !important;
+}
+
+.dark .hover\:bg-green-100:hover {
+	background-color: #14532d !important;
+}
+
+.dark .hover\:bg-gray-50:hover {
+	background-color: #404040 !important;
+}
+
+/* Dark mode for calendar header and grid */
+.dark .border-gray-300 {
+	border-color: #4b5563 !important;
+}
+
+.dark .border-blue-500 {
+	border-color: #3b82f6 !important;
+}
+
+.dark .border-blue-200 {
+	border-color: #1e40af !important;
+}
+
+.dark .text-blue-900 {
+	color: #93c5fd !important;
+}
+
+.dark .text-purple-700 {
+	color: #c4b5fd !important;
+}
+
+.dark .bg-purple-50 {
+	background-color: #2e1065 !important;
+}
+
+.dark .border-purple-300 {
+	border-color: #6b21a8 !important;
+}
+
+/* Dark mode for Bible page */
+.dark .bg-amber-50 {
+	background-color: #451a03 !important;
+}
+
+.dark .border-amber-200 {
+	border-color: #92400e !important;
+}
+
+.dark .border-blue-200 {
+	border-color: #1e40af !important;
+}
+
 /* Hide scrollbars globally while keeping scroll functionality */
 * {
 	scrollbar-width: none; /* Firefox */

@@ -49,4 +49,8 @@
 		text-transform: capitalize;
 		margin-top: 1rem;
 	}
+
+	:global(.dark) .seasonal-title {
+		color: #fef9c3; /* yellow-100 */
+	}
 </style>

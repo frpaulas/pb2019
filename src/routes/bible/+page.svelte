@@ -25,11 +25,11 @@
 		if (isHovered) return 'bg-blue-400 border-blue-600 text-white';
 		switch (section) {
 			case 'ot':
-				return 'bg-white border-gray-300 text-gray-700';
+				return 'bg-white border-gray-300 text-gray-700 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-200';
 			case 'nt':
-				return 'bg-blue-50 border-blue-200 text-gray-700';
+				return 'bg-blue-50 border-blue-200 text-gray-700 dark:bg-blue-900 dark:border-blue-700 dark:text-blue-100';
 			case 'ap':
-				return 'bg-amber-50 border-amber-200 text-gray-700';
+				return 'bg-amber-50 border-amber-200 text-gray-700 dark:bg-amber-900 dark:border-amber-700 dark:text-amber-100';
 		}
 	}
 
@@ -180,9 +180,9 @@
 	}
 </script>
 
-<div class="flex h-full w-full flex-col items-center gap-4 bg-white p-4">
+<div class="flex h-full w-full flex-col items-center gap-4 bg-white p-4 dark:bg-gray-900">
 	<!-- Header -->
-	<h1 class="text-3xl font-bold text-gray-900">Bible</h1>
+	<h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100">Bible</h1>
 
 	{#if !selectedBook}
 		<!-- BOOK SELECTION VIEW -->
@@ -190,8 +190,8 @@
 		<!-- Display Area for hovered book - fixed height to prevent jumping -->
 		<div class="flex h-16 flex-col items-center justify-center text-center">
 			{#if hoveredBook}
-				<div class="text-2xl font-bold text-gray-900">{hoveredBook.name}</div>
-				<div class="text-sm text-gray-500">{hoveredBook.chapters} chapters</div>
+				<div class="text-2xl font-bold text-gray-900 dark:text-gray-100">{hoveredBook.name}</div>
+				<div class="text-sm text-gray-500 dark:text-gray-400">{hoveredBook.chapters} chapters</div>
 			{:else if !hasInteractedBooks}
 				<div class="text-xl text-gray-400">Point to a book</div>
 			{:else}
@@ -230,15 +230,21 @@
 				{/each}
 			</div>
 			<!-- Legend -->
-			<div class="mt-2 flex justify-center gap-4 text-xs text-gray-500">
+			<div class="mt-2 flex justify-center gap-4 text-xs text-gray-500 dark:text-gray-400">
 				<span class="flex items-center gap-1">
-					<span class="inline-block h-3 w-3 rounded border border-gray-300 bg-white"></span> OT
+					<span
+						class="inline-block h-3 w-3 rounded border border-gray-300 bg-white dark:border-gray-600 dark:bg-gray-700"
+					></span> OT
 				</span>
 				<span class="flex items-center gap-1">
-					<span class="inline-block h-3 w-3 rounded border border-blue-200 bg-blue-50"></span> NT
+					<span
+						class="inline-block h-3 w-3 rounded border border-blue-200 bg-blue-50 dark:border-blue-700 dark:bg-blue-900"
+					></span> NT
 				</span>
 				<span class="flex items-center gap-1">
-					<span class="inline-block h-3 w-3 rounded border border-amber-200 bg-amber-50"></span> Apocrypha
+					<span
+						class="inline-block h-3 w-3 rounded border border-amber-200 bg-amber-50 dark:border-amber-700 dark:bg-amber-900"
+					></span> Apocrypha
 				</span>
 			</div>
 		</div>
@@ -246,19 +252,19 @@
 		<!-- CHAPTER SELECTION VIEW -->
 
 		<!-- Back button and book name -->
-		<button onclick={goBackToBooks} class="text-blue-600 hover:underline">
+		<button onclick={goBackToBooks} class="text-blue-600 hover:underline dark:text-blue-400">
 			&larr; Back to books
 		</button>
 
 		<!-- Display Area -->
 		<div class="text-center">
-			<div class="text-lg font-medium text-gray-700">{selectedBook.name}</div>
+			<div class="text-lg font-medium text-gray-700 dark:text-gray-300">{selectedBook.name}</div>
 			{#if hoveredChapter}
-				<div class="text-5xl font-bold text-gray-900">
+				<div class="text-5xl font-bold text-gray-900 dark:text-gray-100">
 					Chapter {hoveredChapter}
 				</div>
 			{:else if lastSelectedChapter}
-				<div class="text-5xl font-bold text-gray-900">
+				<div class="text-5xl font-bold text-gray-900 dark:text-gray-100">
 					Chapter {lastSelectedChapter}
 				</div>
 			{:else if !hasInteractedChapters}
@@ -279,10 +285,10 @@
 				{@const chapter = index + 1}
 				<button
 					data-chapter={chapter}
-					class="flex aspect-square min-w-10 items-center justify-center rounded border border-gray-300 bg-white text-sm transition-colors hover:bg-blue-50 active:bg-blue-100 {hoveredChapter ===
+					class="flex aspect-square min-w-10 items-center justify-center rounded border border-gray-300 bg-white text-sm transition-colors hover:bg-blue-50 active:bg-blue-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:bg-gray-600 {hoveredChapter ===
 					chapter
 						? 'border-blue-600 bg-blue-400 font-bold text-white'
-						: 'text-gray-600'}"
+						: 'text-gray-600 dark:text-gray-200'}"
 					onmouseenter={() => handleChapterHover(chapter)}
 					onmouseleave={() => !isTouchDevice && (hoveredChapter = null)}
 					ontouchstart={(e) => handleChapterTouchStart(chapter, e)}

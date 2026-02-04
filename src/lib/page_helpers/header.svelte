@@ -5,6 +5,9 @@
 	import { getPageName } from '$lib/page_helpers/nav_helpers.svelte';
 	import { currentVisiblePage } from '$lib/stores/currentPage.js';
 	import { season, colors } from '$lib/stores/liturgical';
+	import { preferencesModal } from '$lib/stores/preferencesModal';
+	import { theme } from '$lib/stores/preferences';
+	import { browser } from '$app/environment';
 
 	// Map season to display name
 	const seasonDisplayNames: Record<string, string> = {
@@ -19,8 +22,8 @@
 		proper: 'Ordinary Time'
 	};
 
-	// Map liturgical colors to CSS background colors
-	const colorMap: Record<string, { bg: string; text: string }> = {
+	// Map liturgical colors to CSS background colors (light mode)
+	const colorMapLight: Record<string, { bg: string; text: string }> = {
 		purple: { bg: '#6B21A8', text: 'white' },
 		white: { bg: '#F5F5F4', text: '#1C1917' },
 		green: { bg: '#166534', text: 'white' },
@@ -30,8 +33,29 @@
 		black: { bg: '#1C1917', text: 'white' }
 	};
 
+	// Muted colors for dark mode
+	const colorMapDark: Record<string, { bg: string; text: string }> = {
+		purple: { bg: '#4c1d95', text: '#e9d5ff' },
+		white: { bg: '#404040', text: '#fafafa' },
+		green: { bg: '#14532d', text: '#bbf7d0' },
+		red: { bg: '#7f1d1d', text: '#fecaca' },
+		blue: { bg: '#1e3a5f', text: '#bfdbfe' },
+		rose: { bg: '#831843', text: '#fbcfe8' },
+		black: { bg: '#171717', text: '#e5e5e5' }
+	};
+
+	// Determine if dark mode is active
+	let isDarkMode = $derived(() => {
+		if (!browser) return false;
+		if ($theme === 'dark') return true;
+		if ($theme === 'light') return false;
+		// System preference
+		return window.matchMedia('(prefers-color-scheme: dark)').matches;
+	});
+
 	let seasonName = $derived(seasonDisplayNames[$season] || '');
 	let liturgicalColor = $derived($colors?.[0] || 'green');
+	let colorMap = $derived(isDarkMode() ? colorMapDark : colorMapLight);
 	let headerColors = $derived(colorMap[liturgicalColor] || colorMap.green);
 
 	// Use the currentVisiblePage store which updates during infinite scroll
@@ -41,11 +65,11 @@
 	let isMenuOpen = $state(false);
 	let openSubmenus = $state(new Set());
 	let button_class =
-		'block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900';
+		'block rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white';
 	let submenu_button_class =
-		'flex items-center justify-between w-full rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900';
+		'flex items-center justify-between w-full rounded-md px-3 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white';
 	let submenu_item_class =
-		'block rounded-md px-6 py-2 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900';
+		'block rounded-md px-6 py-2 text-sm font-medium text-gray-600 hover:bg-gray-50 hover:text-gray-900 dark:text-gray-300 dark:hover:bg-gray-700 dark:hover:text-white';
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
@@ -66,6 +90,11 @@
 	function navigate(href: string) {
 		toggleMenu();
 		goto(href, { invalidateAll: true });
+	}
+
+	function openSettings() {
+		toggleMenu();
+		preferencesModal.open();
 	}
 
 	function handlePageNavigation(event: KeyboardEvent) {
@@ -149,6 +178,10 @@
 				{ title: 'Great Litany', href: `${base}/pg/91` },
 				{ title: 'Decalogue', href: `${base}/pg/100` }
 			]
+		},
+		{
+			title: 'Settings',
+			action: 'openSettings'
 		}
 	];
 </script>
@@ -219,12 +252,17 @@
 
 	<!-- Multi-layered menu -->
 	{#if isMenuOpen}
-		<div class="w-min border-t border-gray-200 bg-white">
+		<div class="w-min border-t border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800">
 			<div class="space-y-1 px-2 pt-2 pb-3 whitespace-nowrap sm:px-3">
 				{#each menuStructure as item}
 					{#if item.href}
 						<!-- Direct link -->
 						<button class={button_class} onclick={() => navigate(item.href)}>
+							{item.title}
+						</button>
+					{:else if item.action === 'openSettings'}
+						<!-- Settings action -->
+						<button class={button_class} onclick={openSettings}>
 							{item.title}
 						</button>
 					{:else if item.submenu}
@@ -254,12 +292,12 @@
 							<!-- Fly-out submenu -->
 							{#if openSubmenus.has(item.title)}
 								<div
-									class="absolute top-0 left-full z-50 ml-2 w-64 origin-left transform rounded-md border border-gray-200 bg-white shadow-lg transition-all duration-200 ease-out"
+									class="absolute top-0 left-full z-50 ml-2 w-64 origin-left transform rounded-md border border-gray-200 bg-white shadow-lg transition-all duration-200 ease-out dark:border-gray-600 dark:bg-gray-800"
 								>
 									<div class="py-2">
 										{#each item.submenu as subitem}
 											<button
-												class="block w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+												class="block w-full px-4 py-2 text-left text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900 dark:text-gray-200 dark:hover:bg-gray-700 dark:hover:text-white"
 												onclick={() => navigate(subitem.href)}
 											>
 												{subitem.title}
