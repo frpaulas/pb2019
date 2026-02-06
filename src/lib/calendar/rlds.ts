@@ -277,6 +277,17 @@ export function getAllFeastDays(month: number, day: number, year?: number): Feas
  * getFeastDay(1, 1, 2025);   // Returns Circumcision and Holy Name (checks if transferred)
  */
 export function getFeastDay(month: number, day: number, year?: number): FeastDay | null {
+	const actualYear = year || new Date().getFullYear();
+
+	// Ash Wednesday takes precedence over any other feast day
+	if (isAshWednesday(actualYear, month, day)) {
+		return {
+			type: 'PF',
+			name: 'Ash Wednesday',
+			color: 'purple'
+		};
+	}
+
 	const feasts = getAllFeastDays(month, day, year);
 
 	if (feasts.length === 0) return null;

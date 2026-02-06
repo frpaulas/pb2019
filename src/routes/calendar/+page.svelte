@@ -6,7 +6,8 @@
 	import {
 		getSundayLectionaryKey,
 		getSundayLectionaryKeyForAnyDate,
-		calculateEaster
+		calculateEaster,
+		calculateLiturgicalDates
 	} from '$lib/calendar/sunday_key_mapping';
 	import {
 		getSundayReadings,
@@ -228,8 +229,15 @@
 			}
 		}
 
-		// 3. For weekdays, inherit color from previous Sunday
+		// 3. Special case: Ash Wednesday through Saturday before Lent 1
+		// These days are in Lent but the previous Sunday is still Last Epiphany (green)
 		const date = new Date(year, month - 1, day);
+		const dates = calculateLiturgicalDates(year);
+		if (date >= dates.ashWednesday && date < dates.lent1) {
+			return 'purple';
+		}
+
+		// 4. For weekdays, inherit color from previous Sunday
 		const currentDayOfWeek = date.getDay(); // 0 = Sunday
 
 		if (currentDayOfWeek !== 0) {
@@ -252,7 +260,7 @@
 			}
 		}
 
-		// 4. Default fallback
+		// 5. Default fallback
 		return 'green';
 	}
 

@@ -192,12 +192,12 @@
 			>
 				{#if passage}
 					<div class="prose prose-lg max-w-none dark:prose-invert">
-						<!-- Render verses with paragraph breaks preserved -->
+						<!-- Render verses, one per line -->
 						{#each passage.verses as verse, i}
-							<span class="verse">
+							<div class="verse mb-1">
 								<sup class="mr-1 text-xs text-gray-500 dark:text-gray-400">{verse.verse}</sup
 								>{@html formatVerseText(verse.text)}
-							</span>
+							</div>
 						{/each}
 					</div>
 				{:else if currentReference}

@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import { getAllBooks } from '$lib/db/bible';
 	import { scriptureModal } from '$lib/stores/scriptureModal';
+	import { psalmModal, parsePsalmRef } from '$lib/stores/psalmModal';
 
 	const allBooks = getAllBooks();
 
@@ -35,6 +36,7 @@
 
 	// State for two-stage selection: book first, then chapter
 	let selectedBook = $state<BookOption | null>(null);
+	let selectedPsalmVersion = $state<'web' | 'bcp' | null>(null); // Track which psalm button was clicked
 	let hoveredBook = $state<BookOption | null>(null);
 	let hoveredChapter = $state<number | null>(null);
 	let lastSelectedChapter = $state<number | null>(null); // Persists after modal opens
@@ -93,25 +95,37 @@
 
 	function handleBookTouchEnd() {
 		if (isTouchDevice && hoveredBook && isFingerOverGrid) {
-			selectBook(hoveredBook);
+			// For Psalms, default to WEB version
+			if (hoveredBook.code === 'PSA') {
+				selectBook(hoveredBook, 'web');
+			} else {
+				selectBook(hoveredBook);
+			}
 		}
 		isFingerOverGrid = true;
 	}
 
 	function handleBookClick(book: BookOption) {
 		if (!isTouchDevice) {
-			selectBook(book);
+			// For Psalms, default to WEB version
+			if (book.code === 'PSA') {
+				selectBook(book, 'web');
+			} else {
+				selectBook(book);
+			}
 		}
 	}
 
-	function selectBook(book: BookOption) {
+	function selectBook(book: BookOption, psalmVersion?: 'web' | 'bcp') {
 		selectedBook = book;
+		selectedPsalmVersion = psalmVersion || null;
 		hoveredChapter = null;
 		hasInteractedChapters = false;
 	}
 
 	function goBackToBooks() {
 		selectedBook = null;
+		selectedPsalmVersion = null;
 		hoveredBook = null;
 		hasInteractedBooks = false;
 		lastSelectedChapter = null;
@@ -173,16 +187,29 @@
 
 	function openChapter(chapter: number) {
 		if (!selectedBook) return;
-		// Use shortName (e.g., "Gen", "1 Sam") which the parser recognizes
-		const reference = `${selectedBook.shortName} ${chapter}`;
 		lastSelectedChapter = chapter; // Remember selected chapter
-		scriptureModal.open(reference, null);
+
+		// For Psalms, use the version that was selected
+		if (selectedBook.code === 'PSA' && selectedPsalmVersion === 'bcp') {
+			const ref = parsePsalmRef(String(chapter));
+			psalmModal.open([ref]);
+		} else {
+			// Use shortName (e.g., "Gen", "1 Sam") which the parser recognizes
+			const reference = `${selectedBook.shortName} ${chapter}`;
+			scriptureModal.open(reference, null);
+		}
 	}
 </script>
 
 <div class="flex h-full w-full flex-col items-center gap-4 bg-white p-4 dark:bg-gray-900">
 	<!-- Header -->
-	<h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100">Bible</h1>
+	<h1 class="text-3xl font-bold text-gray-900 dark:text-gray-100">
+		{#if selectedPsalmVersion === 'bcp'}
+			New Coverdale
+		{:else}
+			Bible
+		{/if}
+	</h1>
 
 	{#if !selectedBook}
 		<!-- BOOK SELECTION VIEW -->
@@ -219,13 +246,16 @@
 						{book.shortName}
 					</button>
 					{#if book.code === 'PSA'}
-						<!-- BCP Psalter link right after Psalms -->
-						<a
-							href="{base}/psalter"
-							class="flex items-center justify-center rounded border border-red-300 bg-red-50 px-1 py-2 text-xs font-medium text-red-700 transition-colors hover:bg-red-100"
+						<!-- BCP Psalter button right after Psalms -->
+						<button
+							data-book="PSA-BCP"
+							class="rounded border border-purple-300 bg-purple-50 px-1 py-2 text-xs font-medium text-purple-700 transition-colors hover:bg-purple-100 dark:border-purple-600 dark:bg-purple-900 dark:text-purple-200 dark:hover:bg-purple-800"
+							onmouseenter={() => handleBookHover(book)}
+							onmouseleave={() => !isTouchDevice && (hoveredBook = null)}
+							onclick={() => selectBook(book, 'bcp')}
 						>
-							BCP Ps
-						</a>
+							Ps BCP
+						</button>
 					{/if}
 				{/each}
 			</div>
@@ -276,7 +306,7 @@
 
 		<!-- Chapter Grid -->
 		<div
-			class="grid gap-1"
+			class="grid gap-0.5"
 			style="touch-action: none; grid-template-columns: repeat({getChapterGridCols(
 				selectedBook.chapters
 			)}, minmax(0, 1fr));"
@@ -285,7 +315,7 @@
 				{@const chapter = index + 1}
 				<button
 					data-chapter={chapter}
-					class="flex aspect-square min-w-10 items-center justify-center rounded border border-gray-300 bg-white text-sm transition-colors hover:bg-blue-50 active:bg-blue-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:bg-gray-600 {hoveredChapter ===
+					class="flex aspect-square min-w-7 items-center justify-center rounded border border-gray-300 bg-white text-xs transition-colors hover:bg-blue-50 active:bg-blue-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:bg-gray-600 {hoveredChapter ===
 					chapter
 						? 'border-blue-600 bg-blue-400 font-bold text-white'
 						: 'text-gray-600 dark:text-gray-200'}"

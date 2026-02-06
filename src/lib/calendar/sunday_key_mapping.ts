@@ -487,11 +487,21 @@ export function getDetailedLiturgicalSeason(date: Date): string {
 /**
  * Get the liturgical color based on the most recent Sunday.
  * On a Sunday, returns that Sunday's color. On weekdays, returns the previous Sunday's color.
+ * Special case: Days between Ash Wednesday and the first Sunday of Lent return purple.
  *
  * @param date - The date to check
  * @returns Liturgical color string ('white' | 'red' | 'purple' | 'green')
  */
 export function getPreviousSundayColor(date: Date): string {
+	const year = date.getFullYear();
+	const dates = calculateLiturgicalDates(year);
+
+	// Special case: Ash Wednesday through Saturday before Lent 1
+	// These days are in Lent but the previous Sunday is still Last Epiphany (green)
+	if (date >= dates.ashWednesday && date < dates.lent1) {
+		return 'purple';
+	}
+
 	const dayOfWeek = date.getDay();
 
 	// Get the most recent Sunday (or today if it's Sunday)

@@ -12,9 +12,11 @@ export interface OfficeTimes {
 }
 
 export type Theme = 'light' | 'dark' | 'system';
+export type PsalmVersion = 'web' | 'bcp';
 
 export interface Preferences {
 	psalmCycle: 30 | 60;
+	psalmVersion: PsalmVersion; // 'web' for WEB Bible, 'bcp' for BCP Psalter
 	fontSize: number; // 0.8 - 1.4, default 1.0
 	dateOverride: string | null; // ISO date string or null for "today"
 	officeTimes: OfficeTimes;
@@ -25,6 +27,7 @@ const STORAGE_KEY = 'pb2019_preferences';
 
 const defaultPreferences: Preferences = {
 	psalmCycle: 60,
+	psalmVersion: 'bcp',
 	fontSize: 1.0,
 	dateOverride: null,
 	officeTimes: {
@@ -90,6 +93,13 @@ function createPreferencesStore() {
 		},
 
 		/**
+		 * Set psalm version preference (WEB or BCP)
+		 */
+		setPsalmVersion: (version: PsalmVersion) => {
+			update((prefs) => ({ ...prefs, psalmVersion: version }));
+		},
+
+		/**
 		 * Set font size multiplier
 		 */
 		setFontSize: (size: number) => {
@@ -140,6 +150,7 @@ export const preferences = createPreferencesStore();
 
 // Derived stores for individual preferences (convenience)
 export const psalmCycle = derived(preferences, ($p) => $p.psalmCycle);
+export const psalmVersion = derived(preferences, ($p) => $p.psalmVersion);
 export const fontSize = derived(preferences, ($p) => $p.fontSize);
 export const dateOverride = derived(preferences, ($p) => $p.dateOverride);
 export const officeTimes = derived(preferences, ($p) => $p.officeTimes);

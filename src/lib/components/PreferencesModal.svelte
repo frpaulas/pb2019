@@ -1,12 +1,18 @@
 <script lang="ts">
 	import { preferencesModal } from '$lib/stores/preferencesModal';
-	import { preferences, type OfficeTimes, type Theme } from '$lib/stores/preferences';
+	import {
+		preferences,
+		type OfficeTimes,
+		type Theme,
+		type PsalmVersion
+	} from '$lib/stores/preferences';
 	import { onMount } from 'svelte';
 
 	let modalElement: HTMLDivElement;
 
 	// Local state bound to inputs
 	let psalmCycle = $state<30 | 60>(60);
+	let psalmVersion = $state<PsalmVersion>('bcp');
 	let fontSize = $state(1.0);
 	let useDateOverride = $state(false);
 	let dateOverrideValue = $state('');
@@ -21,6 +27,7 @@
 	$effect(() => {
 		if ($preferencesModal.isOpen) {
 			psalmCycle = $preferences.psalmCycle;
+			psalmVersion = $preferences.psalmVersion;
 			fontSize = $preferences.fontSize;
 			useDateOverride = $preferences.dateOverride !== null;
 			dateOverrideValue = $preferences.dateOverride || getTodayISO();
@@ -55,6 +62,11 @@
 	function handlePsalmCycleChange(cycle: 30 | 60) {
 		psalmCycle = cycle;
 		preferences.setPsalmCycle(cycle);
+	}
+
+	function handlePsalmVersionChange(version: PsalmVersion) {
+		psalmVersion = version;
+		preferences.setPsalmVersion(version);
 	}
 
 	function handleFontSizeChange(event: Event) {
@@ -102,6 +114,7 @@
 	function handleReset() {
 		const defaults = preferences.getDefaults();
 		psalmCycle = defaults.psalmCycle;
+		psalmVersion = defaults.psalmVersion;
 		fontSize = defaults.fontSize;
 		useDateOverride = false;
 		dateOverrideValue = getTodayISO();
@@ -177,10 +190,12 @@
 			<div class="flex-1 space-y-6 overflow-y-auto overscroll-contain p-6">
 				<!-- Psalm Cycle -->
 				<section>
-					<h3 class="mb-2 text-sm font-semibold tracking-wide text-gray-700 uppercase">
+					<h3
+						class="mb-2 text-sm font-semibold tracking-wide text-gray-700 uppercase dark:text-gray-300"
+					>
 						Psalm Cycle
 					</h3>
-					<p class="mb-3 text-sm text-gray-500">
+					<p class="mb-3 text-sm text-gray-500 dark:text-gray-400">
 						Choose how psalms are assigned in the Daily Office.
 					</p>
 					<div class="flex gap-4">
@@ -193,7 +208,7 @@
 								onchange={() => handlePsalmCycleChange(60)}
 								class="h-4 w-4 text-blue-600"
 							/>
-							<span class="text-gray-700">60-day cycle</span>
+							<span class="text-gray-700 dark:text-gray-300">60-day cycle</span>
 						</label>
 						<label class="flex cursor-pointer items-center gap-2">
 							<input
@@ -204,7 +219,43 @@
 								onchange={() => handlePsalmCycleChange(30)}
 								class="h-4 w-4 text-blue-600"
 							/>
-							<span class="text-gray-700">30-day cycle</span>
+							<span class="text-gray-700 dark:text-gray-300">30-day cycle</span>
+						</label>
+					</div>
+				</section>
+
+				<!-- Psalm Version -->
+				<section>
+					<h3
+						class="mb-2 text-sm font-semibold tracking-wide text-gray-700 uppercase dark:text-gray-300"
+					>
+						Psalm Version
+					</h3>
+					<p class="mb-3 text-sm text-gray-500 dark:text-gray-400">
+						Choose which translation to use when viewing psalms from the Bible page.
+					</p>
+					<div class="flex gap-4">
+						<label class="flex cursor-pointer items-center gap-2">
+							<input
+								type="radio"
+								name="psalmVersion"
+								value="bcp"
+								checked={psalmVersion === 'bcp'}
+								onchange={() => handlePsalmVersionChange('bcp')}
+								class="h-4 w-4 text-blue-600"
+							/>
+							<span class="text-gray-700 dark:text-gray-300">BCP Psalter</span>
+						</label>
+						<label class="flex cursor-pointer items-center gap-2">
+							<input
+								type="radio"
+								name="psalmVersion"
+								value="web"
+								checked={psalmVersion === 'web'}
+								onchange={() => handlePsalmVersionChange('web')}
+								class="h-4 w-4 text-blue-600"
+							/>
+							<span class="text-gray-700 dark:text-gray-300">WEB Bible</span>
 						</label>
 					</div>
 				</section>
