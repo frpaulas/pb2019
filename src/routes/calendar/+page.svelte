@@ -609,15 +609,17 @@
 					ontouchend={(e) => handleTouchEnd(e, day)}
 					class="relative block p-1 transition-colors md:h-24 md:p-1.5
 						{day.liturgicalColor === 'red'
-						? 'bg-red-50 hover:bg-red-100'
+						? 'bg-red-50 hover:bg-red-100 dark:bg-red-950 dark:hover:bg-red-900'
 						: day.liturgicalColor === 'purple'
-							? 'bg-purple-50 hover:bg-purple-100'
+							? 'bg-purple-50 hover:bg-purple-100 dark:bg-purple-950 dark:hover:bg-purple-900'
 							: day.liturgicalColor === 'white'
-								? 'bg-white hover:bg-gray-50'
-								: 'bg-green-50 hover:bg-green-100'}
+								? 'hover:bg-gray-50 dark:hover:bg-gray-100'
+								: 'bg-green-50 hover:bg-green-100 dark:bg-green-950 dark:hover:bg-green-900'}
 						{day.isToday ? 'z-10' : ''}
 						{hoveredDay === day ? 'z-10' : ''}"
-					style="border: 1px solid rgb(209 213 219); {day.isToday
+					style="border: 1px solid rgb(209 213 219); {day.liturgicalColor === 'white'
+						? 'background-color: white;'
+						: ''} {day.isToday
 						? 'box-shadow: inset 0 0 0 3px rgb(59 130 246); background-color: rgba(59, 130, 246, 0.2);'
 						: hoveredDay === day
 							? 'box-shadow: inset 0 0 0 3px rgb(37, 99, 235); background-color: rgba(37, 99, 235, 0.3);'

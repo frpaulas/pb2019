@@ -287,9 +287,9 @@ function getSundayLectionaryKeyForDate(date: Date): string | null {
 			sundayCount++;
 		}
 
-		// Special case: last Sunday of Epiphany is always "last-epiphany"
+		// Special case: last Sunday of Epiphany is always "epiphany-last"
 		if (isSameDay(date, dates.lastEpiphany)) {
-			return 'last-epiphany';
+			return 'epiphany-last';
 		}
 
 		return `epiphany-${sundayCount}`;
