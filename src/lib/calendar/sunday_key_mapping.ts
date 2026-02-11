@@ -529,8 +529,76 @@ export function getHolyWeekLectionaryKey(year: number, month: number, day: numbe
 }
 
 /**
- * Get the lectionary key for any date, including Holy Week weekdays
- * This extends getSundayLectionaryKeyForAnyDate to also return Holy Week keys
+ * Get the lectionary key for Easter Week days (Monday-Saturday after Easter)
+ * Returns null if not in Easter Week, or the appropriate key like 'easter-week-monday', etc.
+ *
+ * @param year - Calendar year
+ * @param month - Month (1-12)
+ * @param day - Day of month
+ * @returns Easter Week lectionary key or null if not in Easter Week
+ */
+export function getEasterWeekLectionaryKey(
+	year: number,
+	month: number,
+	day: number
+): string | null {
+	const date = new Date(year, month - 1, day);
+	const dates = calculateLiturgicalDates(year);
+
+	// Easter Sunday itself - has multiple services
+	if (isSameDay(date, dates.easterDay)) {
+		return 'easter-day-principal'; // Default to principal service
+	}
+
+	// Easter Week Monday through Saturday (the week after Easter Sunday)
+	const easterTime = dates.easterDay.getTime();
+	const easter2Time = dates.easter2.getTime();
+	const dateTime = date.getTime();
+
+	if (dateTime > easterTime && dateTime < easter2Time) {
+		const dayOfWeek = date.getDay();
+		switch (dayOfWeek) {
+			case 1:
+				return 'easter-week-monday';
+			case 2:
+				return 'easter-week-tuesday';
+			case 3:
+				return 'easter-week-wednesday';
+			case 4:
+				return 'easter-week-thursday';
+			case 5:
+				return 'easter-week-friday';
+			case 6:
+				return 'easter-week-saturday';
+		}
+	}
+
+	return null;
+}
+
+/**
+ * Check if a date is in Easter Week (Easter Sunday through the following Saturday)
+ *
+ * @param year - Calendar year
+ * @param month - Month (1-12)
+ * @param day - Day of month
+ * @returns true if the date is in Easter Week
+ */
+export function isInEasterWeek(year: number, month: number, day: number): boolean {
+	const date = new Date(year, month - 1, day);
+	const dates = calculateLiturgicalDates(year);
+
+	const easterTime = dates.easterDay.getTime();
+	const easter2Time = dates.easter2.getTime();
+	const dateTime = date.getTime();
+
+	// Include Easter Sunday itself and the days up to (but not including) Easter 2
+	return dateTime >= easterTime && dateTime < easter2Time;
+}
+
+/**
+ * Get the lectionary key for any date, including Holy Week and Easter Week weekdays
+ * This extends getSundayLectionaryKeyForAnyDate to also return Holy Week and Easter Week keys
  *
  * @param year - Calendar year
  * @param month - Month (1-12)
@@ -542,6 +610,12 @@ export function getLectionaryKeyForDate(year: number, month: number, day: number
 	const holyWeekKey = getHolyWeekLectionaryKey(year, month, day);
 	if (holyWeekKey) {
 		return holyWeekKey;
+	}
+
+	// Check Easter Week
+	const easterWeekKey = getEasterWeekLectionaryKey(year, month, day);
+	if (easterWeekKey) {
+		return easterWeekKey;
 	}
 
 	// Check if it's Ash Wednesday
