@@ -806,7 +806,7 @@
 			"epistle": "1 Cor 11:23-26(27-34)",
 			"gospel": "John 13:1-15 or Luke 22:14-30"
 		},
-		"color": "purple",
+		"color": "white",
 		"altName": "Maundy Thursday"
 	},
 	"good-friday": {
@@ -830,7 +830,7 @@
 			"epistle": "Heb 10:1-25",
 			"gospel": "John (18:1-40) 19:1-37"
 		},
-		"color": "purple",
+		"color": "black",
 		"altName": "Good Friday"
 	},
 	"holy-saturday": {
@@ -854,7 +854,7 @@
 			"epistle": "1 Pet 4:1-8",
 			"gospel": "Matt 27:57-66 or John 19:38-42"
 		},
-		"color": "purple",
+		"color": "white",
 		"altName": "Holy Saturday"
 	},
 	"easter-vigil": {

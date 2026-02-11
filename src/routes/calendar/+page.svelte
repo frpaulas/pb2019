@@ -7,7 +7,8 @@
 		getSundayLectionaryKey,
 		getSundayLectionaryKeyForAnyDate,
 		calculateEaster,
-		calculateLiturgicalDates
+		calculateLiturgicalDates,
+		getHolyWeekLectionaryKey
 	} from '$lib/calendar/sunday_key_mapping';
 	import {
 		getSundayReadings,
@@ -65,7 +66,8 @@
 		feastDay: string | null;
 		sundayName: string | null; // Short name for calendar cells
 		sundayFullName: string | null; // Full name for header display
-		liturgicalColor: 'red' | 'purple' | 'white' | 'green';
+		liturgicalColor: 'red' | 'purple' | 'white' | 'green' | 'black';
+		holyWeekName: string | null; // Name for Holy Week days (e.g., "Maundy Thursday")
 	}
 
 	let calendarDays = $derived.by(() => {
@@ -91,9 +93,13 @@
 			const year = currentMonth === 0 ? currentYear - 1 : currentYear;
 			const feastDay = getFeastDay(month, dayNum, year);
 			const isSunday = date.getDay() === 0;
-			const sundayKey = isSunday ? getSundayLectionaryKey(year, month, dayNum) : null;
+			const holyWeekKey = getHolyWeekLectionaryKey(year, month, dayNum);
+			const sundayKey = isSunday
+				? holyWeekKey || getSundayLectionaryKey(year, month, dayNum)
+				: null;
 			const sundayName = sundayKey ? formatSundayName(sundayKey) : null;
 			const sundayFullName = sundayKey ? formatSundayFullName(sundayKey) : null;
+			const holyWeekName = holyWeekKey ? getHolyWeekName(year, month, dayNum) : null;
 
 			days.push({
 				date,
@@ -104,10 +110,11 @@
 				isToday: isToday(date),
 				isSunday,
 				isRLD: isRedLetterDay(month, dayNum, year),
-				feastDay: feastDay?.name || null,
+				feastDay: holyWeekKey ? null : feastDay?.name || null, // Hide saints during Holy Week
 				sundayName,
 				sundayFullName,
-				liturgicalColor: getLiturgicalColor(year, month, dayNum, sundayKey)
+				liturgicalColor: getLiturgicalColor(year, month, dayNum, sundayKey),
+				holyWeekName
 			});
 		}
 
@@ -117,9 +124,13 @@
 			const month = currentMonth + 1;
 			const feastDay = getFeastDay(month, day, currentYear);
 			const isSunday = date.getDay() === 0;
-			const sundayKey = isSunday ? getSundayLectionaryKey(currentYear, month, day) : null;
+			const holyWeekKey = getHolyWeekLectionaryKey(currentYear, month, day);
+			const sundayKey = isSunday
+				? holyWeekKey || getSundayLectionaryKey(currentYear, month, day)
+				: null;
 			const sundayName = sundayKey ? formatSundayName(sundayKey) : null;
 			const sundayFullName = sundayKey ? formatSundayFullName(sundayKey) : null;
+			const holyWeekName = holyWeekKey ? getHolyWeekName(currentYear, month, day) : null;
 
 			days.push({
 				date,
@@ -130,10 +141,11 @@
 				isToday: isToday(date),
 				isSunday,
 				isRLD: isRedLetterDay(month, day, currentYear),
-				feastDay: feastDay?.name || null,
+				feastDay: holyWeekKey ? null : feastDay?.name || null, // Hide saints during Holy Week
 				sundayName,
 				sundayFullName,
-				liturgicalColor: getLiturgicalColor(currentYear, month, day, sundayKey)
+				liturgicalColor: getLiturgicalColor(currentYear, month, day, sundayKey),
+				holyWeekName
 			});
 		}
 
@@ -148,9 +160,11 @@
 				const year = currentMonth === 11 ? currentYear + 1 : currentYear;
 				const feastDay = getFeastDay(month, day, year);
 				const isSunday = date.getDay() === 0;
-				const sundayKey = isSunday ? getSundayLectionaryKey(year, month, day) : null;
+				const holyWeekKey = getHolyWeekLectionaryKey(year, month, day);
+				const sundayKey = isSunday ? holyWeekKey || getSundayLectionaryKey(year, month, day) : null;
 				const sundayName = sundayKey ? formatSundayName(sundayKey) : null;
 				const sundayFullName = sundayKey ? formatSundayFullName(sundayKey) : null;
+				const holyWeekName = holyWeekKey ? getHolyWeekName(year, month, day) : null;
 
 				days.push({
 					date,
@@ -161,10 +175,11 @@
 					isToday: isToday(date),
 					isSunday,
 					isRLD: isRedLetterDay(month, day, year),
-					feastDay: feastDay?.name || null,
+					feastDay: holyWeekKey ? null : feastDay?.name || null, // Hide saints during Holy Week
 					sundayName,
 					sundayFullName,
-					liturgicalColor: getLiturgicalColor(year, month, day, sundayKey)
+					liturgicalColor: getLiturgicalColor(year, month, day, sundayKey),
+					holyWeekName
 				});
 			}
 		}
@@ -214,22 +229,31 @@
 		month: number,
 		day: number,
 		sundayKey: string | null
-	): 'red' | 'purple' | 'white' | 'green' {
+	): 'red' | 'purple' | 'white' | 'green' | 'black' {
 		// 1. Check if this is a feast day with its own color
 		const feastDay = getFeastDay(month, day, year);
 		if (feastDay?.color) {
 			return feastDay.color;
 		}
 
-		// 2. Check if this is a Sunday with its own color
-		if (sundayKey) {
-			const sundayLectionary = getSundayReadings(sundayKey);
-			if (sundayLectionary?.color) {
-				return sundayLectionary.color;
+		// 2. Check Holy Week days (they have their own colors)
+		const holyWeekKey = getHolyWeekLectionaryKey(year, month, day);
+		if (holyWeekKey) {
+			const holyWeekLectionary = getSundayReadings(holyWeekKey);
+			if (holyWeekLectionary?.color) {
+				return holyWeekLectionary.color as 'red' | 'purple' | 'white' | 'green' | 'black';
 			}
 		}
 
-		// 3. Special case: Ash Wednesday through Saturday before Lent 1
+		// 3. Check if this is a Sunday with its own color
+		if (sundayKey) {
+			const sundayLectionary = getSundayReadings(sundayKey);
+			if (sundayLectionary?.color) {
+				return sundayLectionary.color as 'red' | 'purple' | 'white' | 'green' | 'black';
+			}
+		}
+
+		// 4. Special case: Ash Wednesday through Saturday before Lent 1
 		// These days are in Lent but the previous Sunday is still Last Epiphany (green)
 		const date = new Date(year, month - 1, day);
 		const dates = calculateLiturgicalDates(year);
@@ -237,7 +261,7 @@
 			return 'purple';
 		}
 
-		// 4. For weekdays, inherit color from previous Sunday
+		// 5. For weekdays, inherit color from previous Sunday
 		const currentDayOfWeek = date.getDay(); // 0 = Sunday
 
 		if (currentDayOfWeek !== 0) {
@@ -255,13 +279,22 @@
 			if (prevSundayKey) {
 				const prevSundayLectionary = getSundayReadings(prevSundayKey);
 				if (prevSundayLectionary?.color) {
-					return prevSundayLectionary.color;
+					return prevSundayLectionary.color as 'red' | 'purple' | 'white' | 'green' | 'black';
 				}
 			}
 		}
 
-		// 5. Default fallback
+		// 6. Default fallback
 		return 'green';
+	}
+
+	function getHolyWeekName(year: number, month: number, day: number): string | null {
+		const holyWeekKey = getHolyWeekLectionaryKey(year, month, day);
+		if (holyWeekKey) {
+			const lectionary = getSundayReadings(holyWeekKey);
+			return lectionary?.altName || lectionary?.name || null;
+		}
+		return null;
 	}
 
 	function previousMonth() {
@@ -481,9 +514,9 @@
 						year: 'numeric'
 					})}
 				</div>
-				{#if displayDay.sundayFullName}
+				{#if displayDay.sundayFullName || displayDay.holyWeekName}
 					<div class="mt-0.5 text-center text-xs font-medium text-blue-700">
-						{displayDay.sundayFullName}
+						{displayDay.sundayFullName || displayDay.holyWeekName}
 					</div>
 				{/if}
 				{#if displayDay.feastDay}
@@ -613,12 +646,14 @@
 						: day.liturgicalColor === 'purple'
 							? 'bg-purple-50 hover:bg-purple-100 dark:bg-purple-950 dark:hover:bg-purple-900'
 							: day.liturgicalColor === 'white'
-								? 'hover:bg-gray-50 dark:hover:bg-gray-100'
-								: 'bg-green-50 hover:bg-green-100 dark:bg-green-950 dark:hover:bg-green-900'}
+								? 'hover:bg-gray-50 dark:hover:bg-amber-200'
+								: day.liturgicalColor === 'black'
+									? 'bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700'
+									: 'bg-green-50 hover:bg-green-100 dark:bg-green-950 dark:hover:bg-green-900'}
 						{day.isToday ? 'z-10' : ''}
 						{hoveredDay === day ? 'z-10' : ''}"
 					style="border: 1px solid rgb(209 213 219); {day.liturgicalColor === 'white'
-						? 'background-color: white;'
+						? 'background-color: #fef3c7;'
 						: ''} {day.isToday
 						? 'box-shadow: inset 0 0 0 3px rgb(59 130 246); background-color: rgba(59, 130, 246, 0.2);'
 						: hoveredDay === day
@@ -628,9 +663,20 @@
 					<!-- Mobile: Just day number and color -->
 					<div class="flex h-full flex-col md:hidden">
 						<span
-							class="text-xs font-medium text-gray-900
-							{day.isToday ? 'flex h-5 w-5 items-center justify-center rounded-full bg-blue-600 text-white' : ''}
-							{day.isRLD ? 'font-bold text-red-600' : ''}"
+							class="text-xs font-semibold {day.isRLD
+								? 'font-bold text-red-700'
+								: day.liturgicalColor === 'black'
+									? 'text-gray-100 dark:text-gray-100'
+									: 'text-gray-800'} {day.liturgicalColor === 'white'
+								? ''
+								: day.liturgicalColor === 'black'
+									? ''
+									: day.isRLD
+										? 'dark:text-red-300'
+										: 'dark:text-gray-50'}
+							{day.isToday
+								? 'flex h-5 w-5 items-center justify-center rounded-full bg-blue-600 !text-white'
+								: ''}"
 						>
 							{day.dayOfMonth}
 						</span>
@@ -640,26 +686,47 @@
 					<div class="hidden h-full flex-col overflow-hidden md:flex">
 						<div class="mb-1 flex items-center justify-between">
 							<span
-								class="text-sm font-medium text-gray-900
-								{day.isToday ? 'flex h-6 w-6 items-center justify-center rounded-full bg-blue-600 text-white' : ''}
-								{day.isRLD ? 'font-bold text-red-600' : ''}"
+								class="text-sm font-semibold {day.isRLD
+									? 'font-bold text-red-700'
+									: day.liturgicalColor === 'black'
+										? 'text-gray-100 dark:text-gray-100'
+										: 'text-gray-800'} {day.liturgicalColor === 'white'
+									? ''
+									: day.liturgicalColor === 'black'
+										? ''
+										: day.isRLD
+											? 'dark:text-red-300'
+											: 'dark:text-gray-50'}
+								{day.isToday
+									? 'flex h-6 w-6 items-center justify-center rounded-full bg-blue-600 !text-white'
+									: ''}"
 							>
 								{day.dayOfMonth}
 							</span>
 						</div>
-						{#if day.sundayName}
+						{#if day.sundayName || day.holyWeekName}
 							<div
-								class="mt-0 overflow-hidden text-xs leading-tight font-medium text-blue-700"
+								class="mt-0 overflow-hidden text-xs leading-tight font-semibold {day.liturgicalColor ===
+								'black'
+									? 'text-gray-100 dark:text-gray-100'
+									: 'text-blue-800'} {day.liturgicalColor === 'white' ||
+								day.liturgicalColor === 'black'
+									? ''
+									: 'dark:text-blue-200'}"
 								style="word-break: break-word; overflow-wrap: break-word;"
 							>
-								{day.sundayName}
+								{day.sundayName || day.holyWeekName}
 							</div>
 						{/if}
 						{#if day.feastDay}
 							<div
-								class="mt-1 overflow-hidden text-xs leading-tight {day.isRLD
-									? 'font-semibold text-red-700'
-									: 'text-gray-600'}"
+								class="mt-1 overflow-hidden text-xs leading-tight font-semibold {day.isRLD
+									? 'text-red-700'
+									: 'text-gray-800'} {day.liturgicalColor === 'white'
+									? ''
+									: day.isRLD
+										? 'dark:text-red-300'
+										: 'dark:text-gray-200'}"
 								style="word-break: break-word; overflow-wrap: break-word;"
 							>
 								{day.feastDay}

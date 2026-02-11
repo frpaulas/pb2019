@@ -485,6 +485,77 @@ export function getDetailedLiturgicalSeason(date: Date): string {
 }
 
 /**
+ * Get the lectionary key for Holy Week days (Monday-Saturday of Holy Week)
+ * Returns null if not in Holy Week, or the appropriate key like 'holy-week-monday', 'maundy-thursday', etc.
+ *
+ * @param year - Calendar year
+ * @param month - Month (1-12)
+ * @param day - Day of month
+ * @returns Holy Week lectionary key or null if not in Holy Week
+ */
+export function getHolyWeekLectionaryKey(year: number, month: number, day: number): string | null {
+	const date = new Date(year, month - 1, day);
+	const dates = calculateLiturgicalDates(year);
+
+	// Palm Sunday
+	if (isSameDay(date, dates.palmSunday)) {
+		return 'palm-sunday';
+	}
+
+	// Holy Week Monday through Saturday
+	const palmSundayTime = dates.palmSunday.getTime();
+	const easterTime = dates.easterDay.getTime();
+	const dateTime = date.getTime();
+
+	if (dateTime > palmSundayTime && dateTime < easterTime) {
+		const dayOfWeek = date.getDay();
+		switch (dayOfWeek) {
+			case 1:
+				return 'holy-week-monday';
+			case 2:
+				return 'holy-week-tuesday';
+			case 3:
+				return 'holy-week-wednesday';
+			case 4:
+				return 'maundy-thursday';
+			case 5:
+				return 'good-friday';
+			case 6:
+				return 'holy-saturday';
+		}
+	}
+
+	return null;
+}
+
+/**
+ * Get the lectionary key for any date, including Holy Week weekdays
+ * This extends getSundayLectionaryKeyForAnyDate to also return Holy Week keys
+ *
+ * @param year - Calendar year
+ * @param month - Month (1-12)
+ * @param day - Day of month
+ * @returns Lectionary key or null
+ */
+export function getLectionaryKeyForDate(year: number, month: number, day: number): string | null {
+	// Check Holy Week first
+	const holyWeekKey = getHolyWeekLectionaryKey(year, month, day);
+	if (holyWeekKey) {
+		return holyWeekKey;
+	}
+
+	// Check if it's Ash Wednesday
+	const date = new Date(year, month - 1, day);
+	const dates = calculateLiturgicalDates(year);
+	if (isSameDay(date, dates.ashWednesday)) {
+		return 'lent-ash-wednesday';
+	}
+
+	// Fall back to Sunday lectionary
+	return getSundayLectionaryKeyForAnyDate(year, month, day);
+}
+
+/**
  * Get the liturgical color based on the most recent Sunday.
  * On a Sunday, returns that Sunday's color. On weekdays, returns the previous Sunday's color.
  * Special case: Days between Ash Wednesday and the first Sunday of Lent return purple.
