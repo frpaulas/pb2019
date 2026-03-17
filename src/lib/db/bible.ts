@@ -461,6 +461,12 @@ export function parseReference(reference: string): {
 } | null {
 	reference = reference.trim();
 
+	// Normalize em dashes used in lectionary references:
+	// "X:Y—N end" (cross-chapter) → "X:Y-end,N"  e.g. "1:26—2 end" → "1:26-end,2"
+	reference = reference.replace(/(\d+[a-z]?)—(\d+)\s+end/gi, '$1-end,$2');
+	// "X:Y—end" → "X:Y-end"  e.g. "22:34—end" → "22:34-end"
+	reference = reference.replace(/—end/gi, '-end');
+
 	// Extract book name - everything up to first digit or end of string
 	const bookMatch = reference.match(/^([a-z0-9\s]+?)(?:\s+(\d.*))?$/i);
 	if (!bookMatch) return null;
