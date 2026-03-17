@@ -25,6 +25,7 @@ export interface BibleVerse {
 	chapter: number;
 	verse: number;
 	text: string;
+	optional?: boolean;
 }
 
 export interface BiblePassage {
@@ -452,12 +453,59 @@ function parseVerseSegment(
 }
 
 /**
+ * Extract optional verse segments from parenthetical groups in a raw reference string.
+ * e.g. "Luke 2:1-14(15-20)" with bookCode LUK → [{chapter:2, startVerse:15, endVerse:20}]
+ */
+function extractOptionalSegments(
+	reference: string,
+	bookCode: string
+): Array<{ chapter: number; startVerse: number; endVerse: number }> {
+	const optionals: Array<{ chapter: number; startVerse: number; endVerse: number }> = [];
+	const parenRegex = /\(([^)]+)\)/g;
+	let match;
+
+	while ((match = parenRegex.exec(reference)) !== null) {
+		const content = match[1].trim();
+		const beforeParen = reference.substring(0, match.index);
+
+		// Determine chapter context from the last "N:" pattern before this paren
+		const chapterMatches = [...beforeParen.matchAll(/(\d+):/g)];
+		const contextChapter =
+			chapterMatches.length > 0
+				? parseInt(chapterMatches[chapterMatches.length - 1][1])
+				: 1;
+
+		if (/^[a-z]/i.test(content)) {
+			// Content is a full reference like "John 11:1-17" — parse its book + verses
+			const refMatch = content.match(/^([a-z0-9\s]+?)\s+(\d.*)/i);
+			if (refMatch) {
+				const contentBookCode = resolveBookCode(refMatch[1].trim());
+				if (contentBookCode) {
+					refMatch[2]
+						.split(',')
+						.map((s) => parseVerseSegment(s.trim(), contentBookCode, 1))
+						.forEach((seg) => {
+							if (seg) optionals.push(seg);
+						});
+				}
+			}
+		} else {
+			// Content is a verse/chapter spec in the context of the main book
+			const seg = parseVerseSegment(content, bookCode, contextChapter);
+			if (seg) optionals.push(seg);
+		}
+	}
+
+	return optionals;
+}
+
+/**
  * Parse a full reference string like "John 1:29-end" or "Matt 5:1-12,6:9-13"
  */
 export function parseReference(reference: string): {
 	bookCode: string;
 	bookName: string;
-	segments: Array<{ chapter: number; startVerse: number; endVerse: number }>;
+	segments: Array<{ chapter: number; startVerse: number; endVerse: number; optional?: boolean }>;
 } | null {
 	reference = reference.trim();
 
@@ -468,33 +516,24 @@ export function parseReference(reference: string): {
 		reference = reference.substring(0, orIndex).trim();
 	}
 
-	// Strip parenthetical optional verses (BCP lectionary notation):
-	// When a group sits between two digits, replace with "," to preserve continuity
-	// e.g. "4:8-21(22-31)32-37" → "4:8-21,32-37"
-	reference = reference.replace(/(\d)\([^)]+\)(\d)/g, '$1,$2');
-	// Strip any remaining parenthetical groups (optional leading/trailing sections)
-	// e.g. "(John 11:1-17), John 11:18-44" → ", John 11:18-44"
-	reference = reference.replace(/\([^)]+\)/g, '');
-	// Clean up leftover leading commas/spaces and spaces around colons
-	reference = reference.replace(/^[,\s]+/, '').replace(/:\s+/g, ':').trim();
+	// Save original for optional segment extraction (before paren stripping)
+	const originalRef = reference;
 
-	// Normalize em dashes used in lectionary references (most specific patterns first):
-	// "X:Y—N end" (cross-chapter to end) → "X:Y-end,N"  e.g. "1:26—2 end" → "1:26-end,2"
+	// Normalize: strip parens + em dashes to extract book name and required segments
+	reference = reference.replace(/(\d)\([^)]+\)(\d)/g, '$1,$2');
+	reference = reference.replace(/\([^)]+\)/g, '');
+	reference = reference.replace(/^[,\s]+/, '').replace(/:\s+/g, ':').trim();
 	reference = reference.replace(/(\d+[a-z]?)—(\d+)\s+end/gi, '$1-end,$2');
-	// "X:Y—M:W" (cross-chapter range) → "X:Y-end,M:1-W"  e.g. "22:34—23:12" → "22:34-end,23:1-12"
 	reference = reference.replace(/(\d+[a-z]?)—(\d+):(\d+[a-z]?)/gi, '$1-end,$2:1-$3');
-	// "X:Y—end" → "X:Y-end"  e.g. "22:34—end" → "22:34-end"
 	reference = reference.replace(/—end/gi, '-end');
 
-	// Extract book name - everything up to first digit or end of string
+	// Extract book name
 	const bookMatch = reference.match(/^([a-z0-9\s]+?)(?:\s+(\d.*))?$/i);
 	if (!bookMatch) return null;
 
 	let bookName = bookMatch[1].trim();
 	const rest = bookMatch[2] || '';
 
-	// Handle numbered books like "1 John" - the regex might split wrong
-	// Try to match numbered book patterns
 	const numberedBookMatch = reference.match(/^(\d\s*[a-z]+)\s*(.*)/i);
 	if (numberedBookMatch) {
 		bookName = numberedBookMatch[1].trim();
@@ -515,26 +554,35 @@ export function parseReference(reference: string): {
 				segments: [{ chapter: 1, startVerse: 1, endVerse: 999 }]
 			};
 		}
-		// For books with chapters, a bare book name isn't valid for our purposes
 		return null;
 	}
 
-	// Get the part after book name
+	// Parse required segments from normalized spec
 	const verseSpec = numberedBookMatch ? numberedBookMatch[2].trim() : rest.trim();
-
-	// Split by comma to get segments
 	const segmentStrs = verseSpec.split(',').map((s) => s.trim());
-	const segments: Array<{ chapter: number; startVerse: number; endVerse: number }> = [];
+	const requiredSegments: Array<{
+		chapter: number;
+		startVerse: number;
+		endVerse: number;
+		optional?: boolean;
+	}> = [];
 
 	let lastChapter = 1;
 	for (const segStr of segmentStrs) {
 		const seg = parseVerseSegment(segStr, bookCode, lastChapter);
 		if (seg) {
 			lastChapter = seg.chapter;
-			segments.push(seg);
+			requiredSegments.push(seg);
 		}
 	}
 
+	// Extract optional segments from parenthetical groups in the original reference
+	const optionalSegments = extractOptionalSegments(originalRef, bookCode).map((seg) => ({
+		...seg,
+		optional: true as const
+	}));
+
+	const segments = [...requiredSegments, ...optionalSegments];
 	if (segments.length === 0) return null;
 
 	return { bookCode, bookName: book.name, segments };
@@ -547,7 +595,8 @@ function getSegmentVerses(
 	bookCode: string,
 	chapter: number,
 	startVerse: number,
-	endVerse: number
+	endVerse: number,
+	optional?: boolean
 ): BibleVerse[] {
 	const bookData = db.verses[bookCode];
 	if (!bookData) return [];
@@ -570,7 +619,8 @@ function getSegmentVerses(
 				bookCode,
 				chapter,
 				verse: verseNum,
-				text: chapterData[verseNum.toString()]
+				text: chapterData[verseNum.toString()],
+				optional: optional || undefined
 			});
 		}
 	}
@@ -595,15 +645,29 @@ export function getPassage(reference: string): BiblePassage | null {
 			parsed.bookCode,
 			segment.chapter,
 			segment.startVerse,
-			segment.endVerse
+			segment.endVerse,
+			segment.optional
 		);
 		allVerses.push(...verses);
 	}
 
 	if (allVerses.length === 0) return null;
 
+	// Sort by chapter then verse; deduplicate keeping required over optional
+	const seen = new Map<string, BibleVerse>();
+	for (const verse of allVerses) {
+		const key = `${verse.chapter}:${verse.verse}`;
+		const existing = seen.get(key);
+		if (!existing || (!verse.optional && existing.optional)) {
+			seen.set(key, verse);
+		}
+	}
+	const sortedVerses = [...seen.values()].sort((a, b) =>
+		a.chapter !== b.chapter ? a.chapter - b.chapter : a.verse - b.verse
+	);
+
 	// Combine text, preserving paragraph breaks
-	const text = allVerses
+	const text = sortedVerses
 		.map((v) => v.text)
 		.join(' ')
 		.trim();
@@ -611,7 +675,7 @@ export function getPassage(reference: string): BiblePassage | null {
 	return {
 		reference,
 		bookName: parsed.bookName,
-		verses: allVerses,
+		verses: sortedVerses,
 		text
 	};
 }

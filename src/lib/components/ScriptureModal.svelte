@@ -194,8 +194,8 @@
 					<div class="prose prose-lg max-w-none dark:prose-invert">
 						<!-- Render verses, one per line -->
 						{#each passage.verses as verse, i}
-							<div class="verse mb-1">
-								<sup class="mr-1 text-xs text-gray-500 dark:text-gray-400">{verse.verse}</sup
+							<div class="verse mb-1" class:opacity-60={verse.optional}>
+								{#if verse.optional}<span class="mr-1 select-none text-gray-400 dark:text-gray-500">|</span>{/if}<sup class="mr-1 text-xs text-gray-500 dark:text-gray-400">{verse.verse}</sup
 								>{@html formatVerseText(verse.text)}
 							</div>
 						{/each}
