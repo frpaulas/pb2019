@@ -461,6 +461,23 @@ export function parseReference(reference: string): {
 } | null {
 	reference = reference.trim();
 
+	// Handle "or" alternatives — take the first option
+	// e.g. "John 20:1-10(20:11-18) or Matt 28:1-10" → "John 20:1-10(20:11-18)"
+	const orIndex = reference.indexOf(' or ');
+	if (orIndex !== -1) {
+		reference = reference.substring(0, orIndex).trim();
+	}
+
+	// Strip parenthetical optional verses (BCP lectionary notation):
+	// When a group sits between two digits, replace with "," to preserve continuity
+	// e.g. "4:8-21(22-31)32-37" → "4:8-21,32-37"
+	reference = reference.replace(/(\d)\([^)]+\)(\d)/g, '$1,$2');
+	// Strip any remaining parenthetical groups (optional leading/trailing sections)
+	// e.g. "(John 11:1-17), John 11:18-44" → ", John 11:18-44"
+	reference = reference.replace(/\([^)]+\)/g, '');
+	// Clean up leftover leading commas/spaces and spaces around colons
+	reference = reference.replace(/^[,\s]+/, '').replace(/:\s+/g, ':').trim();
+
 	// Normalize em dashes used in lectionary references (most specific patterns first):
 	// "X:Y—N end" (cross-chapter to end) → "X:Y-end,N"  e.g. "1:26—2 end" → "1:26-end,2"
 	reference = reference.replace(/(\d+[a-z]?)—(\d+)\s+end/gi, '$1-end,$2');
