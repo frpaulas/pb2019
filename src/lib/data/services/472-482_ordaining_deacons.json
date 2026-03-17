@@ -255,8 +255,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "jeremiah"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}jeremiah{{/u} 1:4-10"
+								"value": " 1:4-10"
 							}
 						]
 					},

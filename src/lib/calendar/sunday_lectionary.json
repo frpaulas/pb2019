@@ -171,21 +171,21 @@
 		"name": "The First Sunday of Christmas",
 		"season": "christmas",
 		"yearA": {
-			"ot": "Isa 61:10-62:5",
+			"ot": "Isa 61:10-end,62:1-5",
 			"psalm": "Ps 147:12-20v",
-			"epistle": "Gal 3:23-4:7",
+			"epistle": "Gal 3:23-end,4:1-7",
 			"gospel": "John 1:1-18"
 		},
 		"yearB": {
-			"ot": "Isa 61:10-62:5",
+			"ot": "Isa 61:10-end,62:1-5",
 			"psalm": "Ps 147:12-20v",
-			"epistle": "Gal 3:23-4:7",
+			"epistle": "Gal 3:23-end,4:1-7",
 			"gospel": "John 1:1-18"
 		},
 		"yearC": {
-			"ot": "Isa 61:10-62:5",
+			"ot": "Isa 61:10-end,62:1-5",
 			"psalm": "Ps 147:12-20v",
-			"epistle": "Gal 3:23-4:7",
+			"epistle": "Gal 3:23-end,4:1-7",
 			"gospel": "John 1:1-18"
 		},
 		"color": "white",
@@ -321,7 +321,7 @@
 			"gospel": "Matt 4:12-22"
 		},
 		"yearB": {
-			"ot": "Jer 3:19-4:4",
+			"ot": "Jer 3:19-end,4:1-4",
 			"psalm": "Ps 130",
 			"epistle": "1 Cor 7:17-24",
 			"gospel": "Mark 1:14-20"
@@ -435,7 +435,7 @@
 		"name": "The Seventh Sunday of Epiphany",
 		"season": "epiphany",
 		"yearA": {
-			"ot": "Lev 19:1-2,9-18",
+			"ot": "Lev 19:1-2,19:9-18",
 			"psalm": "Ps 71 or 71:11-23v",
 			"epistle": "1 Cor 3:10-23",
 			"gospel": "Matt 5:38-48"
@@ -447,8 +447,8 @@
 			"gospel": "Mark 2:1-12"
 		},
 		"yearC": {
-			"ot": "Gen 45:3-11,21-28",
-			"psalm": "Ps 37:(1-7)8-17v",
+			"ot": "Gen 45:3-11,45:21-28",
+			"psalm": "Ps (37:1-7),37:8-17v",
 			"epistle": "1 Cor 15:35-49",
 			"gospel": "Luke 6:27-38"
 		},
@@ -521,7 +521,7 @@
 		"yearC": {
 			"ot": "Ex 34:29-35",
 			"psalm": "Ps 99",
-			"epistle": "1 Cor 12:27-13:13",
+			"epistle": "1 Cor 12:27-end,13:1-13",
 			"gospel": "Luke 9:28-36"
 		},
 		"color": "white",
@@ -531,22 +531,22 @@
 		"name": "Ash Wednesday",
 		"season": "lent",
 		"yearA": {
-			"ot": "Joel 2:1-2, 12-17 or Isa 58:1-12",
+			"ot": "Joel 2:1-2, 2:12-17 or Isa 58:1-12",
 			"psalm": "Ps 103 or 103:8-14",
-			"epistle": "2 Cor 5:20-6:10",
-			"gospel": "Matt 6:1-6, 16-21"
+			"epistle": "2 Cor 5:20-end,6:1-10",
+			"gospel": "Matt 6:1-6, 6:16-21"
 		},
 		"yearB": {
-			"ot": "Joel 2:1-2, 12-17 or Isa 58:1-12",
+			"ot": "Joel 2:1-2, 2:12-17 or Isa 58:1-12",
 			"psalm": "Ps 103 or 103:8-14",
-			"epistle": "2 Cor 5:20-6:10",
-			"gospel": "Matt 6:1-6, 16-21"
+			"epistle": "2 Cor 5:20-end,6:1-10",
+			"gospel": "Matt 6:1-6, 6:16-21"
 		},
 		"yearC": {
-			"ot": "Joel 2:1-2, 12-17 or Isa 58:1-12",
+			"ot": "Joel 2:1-2, 2:12-17 or Isa 58:1-12",
 			"psalm": "Ps 103 or 103:8-14",
-			"epistle": "2 Cor 5:20-6:10",
-			"gospel": "Matt 6:1-6, 16-21"
+			"epistle": "2 Cor 5:20-end,6:1-10",
+			"gospel": "Matt 6:1-6, 6:16-21"
 		},
 		"color": "purple",
 		"altName": "Ash Wednesday"
@@ -555,7 +555,7 @@
 		"name": "The First Sunday in Lent",
 		"season": "lent",
 		"yearA": {
-			"ot": "Gen 2:4-9, 15-17, 25-3:7",
+			"ot": "Gen 2:4-9, 2:15-17, 2:25-end,3:1-7",
 			"psalm": "Ps 51 or Ps 51:1-12v",
 			"epistle": "Rom 5:12-21",
 			"gospel": "Matt 4:1-11"
@@ -593,7 +593,7 @@
 		"yearC": {
 			"ot": "Gen 15:1-18",
 			"psalm": "Ps 27 or 27:9-17v",
-			"epistle": "Phil 3:17-4:1",
+			"epistle": "Phil 3:17-end,4:1-1",
 			"gospel": "Luke 13:(22-30)31-35"
 		},
 		"color": "purple",
@@ -630,7 +630,7 @@
 			"ot": "1 Sam 16:1-13",
 			"psalm": "Ps 23",
 			"epistle": "Eph 5:1-14",
-			"gospel": "John 9:1-13, 28-38(39-41)"
+			"gospel": "John 9:1-13, 9:28-38(9:39-41)"
 		},
 		"yearB": {
 			"ot": "2 Chr 36:14-23",
@@ -693,22 +693,22 @@
 		"name": "Palm Sunday",
 		"season": "lent",
 		"yearA": {
-			"ot": "Isa 52:13-53:12",
+			"ot": "Isa 52:13-end,53:1-12",
 			"psalm": "Ps 22:1-21v or Ps 22:1-11v",
 			"epistle": "Phil 2:5-11",
-			"gospel": "Matt (26:36-75)27:1-54 (55-66)"
+			"gospel": "Matt (26:36-75)27:1-54 (27:55-66)"
 		},
 		"yearB": {
-			"ot": "Isa 52:13-53:12",
+			"ot": "Isa 52:13-end,53:1-12",
 			"psalm": "Ps 22:1-11v or Ps 22:1-21v",
 			"epistle": "Phil 2:5-11",
-			"gospel": "Mark (14:32-72)15:1-39 (40-47)"
+			"gospel": "Mark (14:32-72)15:1-39 (15:40-47)"
 		},
 		"yearC": {
-			"ot": "Isa 52:13-53:12",
+			"ot": "Isa 52:13-end,53:1-12",
 			"psalm": "Ps 22:1-11v or Ps 22:1-21v",
 			"epistle": "Phil 2:5-11",
-			"gospel": "Luke (22:39-71)23:1-49 (50-56)"
+			"gospel": "Luke (22:39-71)23:1-49 (23:50-56)"
 		},
 		"color": "red",
 		"altName": "Palm Sunday"
@@ -719,19 +719,19 @@
 		"yearA": {
 			"ot": "Isa 42:1-9",
 			"psalm": "Ps 36:5-10",
-			"epistle": "Heb 11:39-12:3",
+			"epistle": "Heb 11:39-end,12:1-3",
 			"gospel": "John 12:1-11 or Mark 14:3-9"
 		},
 		"yearB": {
 			"ot": "Isa 42:1-9",
 			"psalm": "Ps 36:5-10",
-			"epistle": "Heb 11:39-12:3",
+			"epistle": "Heb 11:39-end,12:1-3",
 			"gospel": "John 12:1-11 or Mark 14:3-9"
 		},
 		"yearC": {
 			"ot": "Isa 42:1-9",
 			"psalm": "Ps 36:5-10",
-			"epistle": "Heb 11:39-12:3",
+			"epistle": "Heb 11:39-end,12:1-3",
 			"gospel": "John 12:1-11 or Mark 14:3-9"
 		},
 		"color": "purple",
@@ -744,19 +744,19 @@
 			"ot": "Isa 49:1-6",
 			"psalm": "Ps 71:1-11v",
 			"epistle": "1 Cor 1:18-31",
-			"gospel": "John 12:37-38,42-50 or Mark 11:15-19"
+			"gospel": "John 12:37-38,12:42-50 or Mark 11:15-19"
 		},
 		"yearB": {
 			"ot": "Isa 49:1-6",
 			"psalm": "Ps 71:1-11v",
 			"epistle": "1 Cor 1:18-31",
-			"gospel": "John 12:37-38,42-50 or Mark 11:15-19"
+			"gospel": "John 12:37-38,12:42-50 or Mark 11:15-19"
 		},
 		"yearC": {
 			"ot": "Isa 49:1-6",
 			"psalm": "Ps 71:1-11v",
 			"epistle": "1 Cor 1:18-31",
-			"gospel": "John 12:37-38,42-50 or Mark 11:15-19"
+			"gospel": "John 12:37-38,12:42-50 or Mark 11:15-19"
 		},
 		"color": "purple",
 		"altName": "Holy Tuesday"
@@ -766,21 +766,21 @@
 		"season": "lent",
 		"yearA": {
 			"ot": "Isa 50:4-9",
-			"psalm": "Ps 69:6-14,21-22v",
+			"psalm": "Ps 69:6-14,12:21-22v",
 			"epistle": "Heb 9:11-28",
-			"gospel": "Matt 26:1-5,14-25"
+			"gospel": "Matt 26:1-5,26:14-25"
 		},
 		"yearB": {
 			"ot": "Isa 50:4-9",
-			"psalm": "Ps 69:6-14,21-22v",
+			"psalm": "Ps 69:6-14,69:21-22v",
 			"epistle": "Heb 9:11-28",
-			"gospel": "Matt 26:1-5,14-25"
+			"gospel": "Matt 26:1-5,26:14-25"
 		},
 		"yearC": {
 			"ot": "Isa 50:4-9",
-			"psalm": "Ps 69:6-14,21-22v",
+			"psalm": "Ps 69:6-14,69:21-22v",
 			"epistle": "Heb 9:11-28",
-			"gospel": "Matt 26:1-5,14-25"
+			"gospel": "Matt 26:1-5,26:14-25"
 		},
 		"color": "purple",
 		"altName": "Holy Wednesday"
@@ -791,19 +791,19 @@
 		"yearA": {
 			"ot": "Ex 12:1-14",
 			"psalm": "Ps 78:15-26v",
-			"epistle": "1 Cor 11:23-26(27-34)",
+			"epistle": "1 Cor 11:23-26(11:27-34)",
 			"gospel": "John 13:1-15 or Luke 22:14-30"
 		},
 		"yearB": {
 			"ot": "Ex 12:1-14",
 			"psalm": "Ps 78:15-26v",
-			"epistle": "1 Cor 11:23-26(27-34)",
+			"epistle": "1 Cor 11:23-26(11:27-34)",
 			"gospel": "John 13:1-15 or Luke 22:14-30"
 		},
 		"yearC": {
 			"ot": "Ex 12:1-14",
 			"psalm": "Ps 78:15-26v",
-			"epistle": "1 Cor 11:23-26(27-34)",
+			"epistle": "1 Cor 11:23-26(11:27-34)",
 			"gospel": "John 13:1-15 or Luke 22:14-30"
 		},
 		"color": "white",
@@ -813,20 +813,20 @@
 		"name": "Good Friday",
 		"season": "lent",
 		"yearA": {
-			"ot": "Gen 22:1-18 or Isa 52:13-53:12",
-			"psalm": "Ps 22:1-11(12-21)v or Ps 40:1-16v or Ps 69:1-22v",
+			"ot": "Gen 22:1-18 or Isa 52:13-end,53:1-12",
+			"psalm": "Ps 22:1-11(22:12-21)v or Ps 40:1-16v or Ps 69:1-22v",
 			"epistle": "Heb 10:1-25",
 			"gospel": "John (18:1-40) 19:1-37"
 		},
 		"yearB": {
-			"ot": "Gen 22:1-18 or Isa 52:13-53:12",
-			"psalm": "Ps 22:1-11(12-21)v or Ps 40:1-16v or Ps 69:1-22v",
+			"ot": "Gen 22:1-18 or Isa 52:13-end,53:1-12",
+			"psalm": "Ps 22:1-11(22:12-21)v or Ps 40:1-16v or Ps 69:1-22v",
 			"epistle": "Heb 10:1-25",
 			"gospel": "John (18:1-40) 19:1-37"
 		},
 		"yearC": {
-			"ot": "Gen 22:1-18 or Isa 52:13-53:12",
-			"psalm": "Ps 22:1-11(12-21)v or Ps 40:1-16v or Ps 69:1-22v",
+			"ot": "Gen 22:1-18 or Isa 52:13-end,53:1-12",
+			"psalm": "Ps 22:1-11(22:12-21)v or Ps 40:1-16v or Ps 69:1-22v",
 			"epistle": "Heb 10:1-25",
 			"gospel": "John (18:1-40) 19:1-37"
 		},
@@ -861,17 +861,17 @@
 		"name": "The Great Vigil of Easter",
 		"season": "easter",
 		"yearA": {
-			"ot": "Gen 1:1-2:3, Gen 3, Gen 7:1-5,11-18; 8:6-20; 9:8-13, Gen 22:1-18, Ex 14:10-15:1, Isa 4:2-6, Isa 55:1-11, Ezek 36:24-28, Ezek 37:1-14, Dan 3:1-28, Jonah 1:1-2:10, Zeph 3:12-20",
+			"ot": "Gen 1:1-end,2:1-3, Gen 3, Gen 7:1-5,7:11-18; 8:6-20; 9:8-13, Gen 22:1-18, Ex 14:10-end,15:1-1, Isa 4:2-6, Isa 55:1-11, Ezek 36:24-28, Ezek 37:1-14, Dan 3:1-28, Jonah 1:1-end,2:1-10, Zeph 3:12-20",
 			"epistle": "Rom 6:3-11",
 			"gospel": "Matt 28:1-10"
 		},
 		"yearB": {
-			"ot": "Gen 1:1-2:3, Gen 3, Gen 7:1-5,11-18; 8:6-20; 9:8-13, Gen 22:1-18, Ex 14:10-15:1, Isa 4:2-6, Isa 55:1-11, Ezek 36:24-28, Ezek 37:1-14, Dan 3:1-28, Jonah 1:1-2:10, Zeph 3:12-20",
+			"ot": "Gen 1:1-end,2:1-3, Gen 3, Gen 7:1-5,7:11-18; 8:6-20; 9:8-13, Gen 22:1-18, Ex 14:10-end,15:1-1, Isa 4:2-6, Isa 55:1-11, Ezek 36:24-28, Ezek 37:1-14, Dan 3:1-28, Jonah 1:1-end,2:1-10, Zeph 3:12-20",
 			"epistle": "Rom 6:3-11",
 			"gospel": "Matt 28:1-10"
 		},
 		"yearC": {
-			"ot": "Gen 1:1-2:3, Gen 3, Gen 7:1-5,11-18; 8:6-20; 9:8-13, Gen 22:1-18, Ex 14:10-15:1, Isa 4:2-6, Isa 55:1-11, Ezek 36:24-28, Ezek 37:1-14, Dan 3:1-28, Jonah 1:1-2:10, Zeph 3:12-20",
+			"ot": "Gen 1:1-end,2:1-3, Gen 3, Gen 7:1-5,7:11-18; 8:6-20; 9:8-13, Gen 22:1-18, Ex 14:10-end,15:1-1, Isa 4:2-6, Isa 55:1-11, Ezek 36:24-28, Ezek 37:1-14, Dan 3:1-28, Jonah 1:1-end,2:1-10, Zeph 3:12-20",
 			"epistle": "Rom 6:3-11",
 			"gospel": "Matt 28:1-10"
 		},
@@ -906,20 +906,20 @@
 		"name": "Easter Day: Principal Service",
 		"season": "easter",
 		"yearA": {
-			"ot": "Acts 10:34-43 or Ex 14:10-14,21-31",
-			"psalm": "Ps 118:14-17,22-24",
+			"ot": "Acts 10:34-43 or Ex 14:10-14,14:21-31",
+			"psalm": "Ps 118:14-17,118:22-24",
 			"epistle": "Col 3:1-4 or Acts 10:34-43",
-			"gospel": "John 20:1-10(11-18) or Matt 28:1-10"
+			"gospel": "John 20:1-10(20:11-18) or Matt 28:1-10"
 		},
 		"yearB": {
 			"ot": "Acts 10:34-43 or Isa 25:6-9",
-			"psalm": "Ps 118:14-17,22-24",
+			"psalm": "Ps 118:14-17,118:22-24",
 			"epistle": "Col 3:1-4 or Acts 10:34-43",
 			"gospel": "Mark 16:1-8"
 		},
 		"yearC": {
 			"ot": "Acts 10:34-43 or Isa 51:9-11",
-			"psalm": "Ps 118:14-17,22-24",
+			"psalm": "Ps 118:14-17,118:22-24",
 			"epistle": "Col 3:1-4 or Acts 10:34-43",
 			"gospel": "Luke 24:1-12"
 		},
@@ -954,17 +954,17 @@
 		"name": "Monday of Easter Week",
 		"season": "easter",
 		"yearA": {
-			"ot": "Acts 2:14,22-32",
+			"ot": "Acts 2:14,2:22-32",
 			"psalm": "Ps 16",
 			"gospel": "Matt 28:9-15"
 		},
 		"yearB": {
-			"ot": "Acts 2:14,22-32",
+			"ot": "Acts 2:14,2:22-32",
 			"psalm": "Ps 16",
 			"gospel": "Matt 28:9-15"
 		},
 		"yearC": {
-			"ot": "Acts 2:14,22-32",
+			"ot": "Acts 2:14,2:22-32",
 			"psalm": "Ps 16",
 			"gospel": "Matt 28:9-15"
 		},
@@ -975,17 +975,17 @@
 		"name": "Tuesday of Easter Week",
 		"season": "easter",
 		"yearA": {
-			"ot": "Acts 2:14,36-41",
+			"ot": "Acts 2:14,2:36-41",
 			"psalm": "Ps 33:17-21v",
 			"gospel": "John 20:11-18"
 		},
 		"yearB": {
-			"ot": "Acts 2:14,36-41",
+			"ot": "Acts 2:14,2:36-41",
 			"psalm": "Ps 33:17-21v",
 			"gospel": "John 20:11-18"
 		},
 		"yearC": {
-			"ot": "Acts 2:14,36-41",
+			"ot": "Acts 2:14,2:36-41",
 			"psalm": "Ps 33:17-21v",
 			"gospel": "John 20:11-18"
 		},
@@ -1080,21 +1080,21 @@
 		"name": "The Second Sunday of Easter",
 		"season": "easter",
 		"yearA": {
-			"ot": "Acts 2:14a,22-32 or Gen 8:6-16, 9:8-16",
+			"ot": "Acts 2:14a,2:22-32 or Gen 8:6-16, 9:8-16",
 			"psalm": "Ps. 111",
 			"epistle": "1 Pet 1:3-9",
 			"gospel": "John 20:19-31"
 		},
 		"yearB": {
-			"ot": "Acts 3:12a, 13-15,17-26 or Isa 26:1-9,19",
+			"ot": "Acts 3:12a, 3:13-15,3:17-26 or Isa 26:1-9,26:19",
 			"psalm": "Ps 111",
 			"epistle": "1 John 5:1-5",
 			"gospel": "John 20:19-31"
 		},
 		"yearC": {
-			"ot": "Acts 5:12a, 17-22, 25-29 or Job 42:1-6",
+			"ot": "Acts 5:12a, 5:17-22, 5:25-29 or Job 42:1-6",
 			"psalm": "Ps 111",
-			"epistle": "Rev 1:(1-8)9-19",
+			"epistle": "(Rev 1:1-8), Rev 1:9-19",
 			"gospel": "John 20:19-31"
 		},
 		"color": "white",
@@ -1112,7 +1112,7 @@
 		"yearB": {
 			"ot": "Acts 4:5-14 or Mic 4:1-5",
 			"psalm": "Ps 98 or 98:1-5",
-			"epistle": "1 John 1:1-2:2",
+			"epistle": "1 John 1:1-end,2:1-2",
 			"gospel": "Luke 24:36-49"
 		},
 		"yearC": {
@@ -1128,7 +1128,7 @@
 		"name": "The Fourth Sunday of Easter (Good Shepherd)",
 		"season": "easter",
 		"yearA": {
-			"ot": "Acts 6:1-9, 7:2a,51-60 or Neh 9:(1-3)6-15",
+			"ot": "Acts 6:1-9, 7:2a,6:51-60 or Neh (9:1-3), Neh 9:6-15",
 			"psalm": "Ps 23",
 			"epistle": "1 Pet 2:13-25",
 			"gospel": "John 10:1-10"
@@ -1140,7 +1140,7 @@
 			"gospel": "John 10:11-16"
 		},
 		"yearC": {
-			"ot": "Acts 13:14b-16, 26-39 or Num 27:12-23",
+			"ot": "Acts 13:14b-16, 13:26-39 or Num 27:12-23",
 			"psalm": "Ps 100",
 			"epistle": "Rev 7:9-17",
 			"gospel": "John 10:22-30"
@@ -1164,7 +1164,7 @@
 			"gospel": "John 14:15-21"
 		},
 		"yearC": {
-			"ot": "Acts 13:44-52 or Lev 19:1-2,9-18",
+			"ot": "Acts 13:44-52 or Lev 19:1-2,19:9-18",
 			"psalm": "Ps 145 or 145:1-9v",
 			"epistle": "Rev 19:1-9",
 			"gospel": "John 13:31-35"
@@ -1182,15 +1182,15 @@
 			"gospel": "John 15:1-11"
 		},
 		"yearB": {
-			"ot": "Acts 11:19-30 or Isa 45:11-13,18-19(20-25)",
-			"psalm": "Ps 33 or 33:1-8,18-22v",
+			"ot": "Acts 11:19-30 or Isa 45:11-13,45:18-19(45:20-25)",
+			"psalm": "Ps 33 or 33:1-8,33:18-22v",
 			"epistle": "1 John 4:7-21",
 			"gospel": "John 15:9-17"
 		},
 		"yearC": {
 			"ot": "Acts 14:8-18 or Joel 2:21-27",
 			"psalm": "Ps 67",
-			"epistle": "Rev 21:1-4,22-22:5",
+			"epistle": "Rev 21:1-4,21:22-end,22:1-5",
 			"gospel": "John 14:21-29"
 		},
 		"color": "white",
@@ -1230,8 +1230,8 @@
 			"gospel": "John 17:1-11"
 		},
 		"yearB": {
-			"ot": "Acts 1:15-26 or Ex 28:1-4,9-10,29-30",
-			"psalm": "Ps 68:1-20 or 47",
+			"ot": "Acts 1:15-26 or Ex 28:1-4,28:9-10,28:29-30",
+			"psalm": "Ps 68:1-20 or Ps 47",
 			"epistle": "1 John 5:6-15",
 			"gospel": "John 17:11b-19"
 		},
@@ -1272,7 +1272,7 @@
 		"name": "Trinity Sunday",
 		"season": "pentecost",
 		"yearA": {
-			"ot": "Gen 1:1-2:3",
+			"ot": "Gen 1:1-end,2:1-3",
 			"psalm": "Ps 150",
 			"epistle": "2 Cor 13:5-14",
 			"gospel": "Matt 28:16-20"
@@ -1320,7 +1320,7 @@
 		"name": "Proper 2 (Weekdays following the Sunday from May 15 to May 21)",
 		"season": "pentecost",
 		"yearA": {
-			"ot": "Lev 19:1-2,9-18",
+			"ot": "Lev 19:1-2,19:9-18",
 			"psalm": "Ps 71 or 71:11-23v",
 			"epistle": "1 Cor 3:10-23",
 			"gospel": "Matt 5:38-48"
@@ -1332,8 +1332,8 @@
 			"gospel": "Mark 2:1-12"
 		},
 		"yearC": {
-			"ot": "Gen 45:3-11,21-28",
-			"psalm": "Ps 37:(1-6)7-17v",
+			"ot": "Gen 45:3-11,45:21-28",
+			"psalm": "(Ps 37:1-6), Ps 37:7-17v",
 			"epistle": "1 Cor 15:35-49",
 			"gospel": "Luke 6:27-38"
 		},
@@ -1380,7 +1380,7 @@
 			"gospel": "Mark 2:23-28"
 		},
 		"yearC": {
-			"ot": "1 Kings 8:22-30,41-43",
+			"ot": "1 Kings 8:22-30,8:41-43",
 			"psalm": "Ps 96",
 			"epistle": "Gal 1:1-10",
 			"gospel": "Luke 7:1-10"
@@ -1392,7 +1392,7 @@
 		"name": "Proper 5 (Sunday from June 5 to June 11)",
 		"season": "pentecost",
 		"yearA": {
-			"ot": "Hos 5:15-6:6",
+			"ot": "Hos 5:15-end,6:1-6",
 			"psalm": "Ps 50",
 			"epistle": "Rom 4:13-18",
 			"gospel": "Matt 9:9-13"
@@ -1419,7 +1419,7 @@
 			"ot": "Ex 19:1-8",
 			"psalm": "Ps 100",
 			"epistle": "Rom 5:1-11",
-			"gospel": "Matt 9:35-10:15"
+			"gospel": "Matt 9:35-end,10:1-15"
 		},
 		"yearB": {
 			"ot": "Ezek 31:1-6(7-9)10-14",
@@ -1428,10 +1428,10 @@
 			"gospel": "Mark 4:26-34"
 		},
 		"yearC": {
-			"ot": "2 Sam 11:26-12:15",
-			"psalm": "Ps 32:1-6(7-12)v",
+			"ot": "2 Sam 11:26-end,12:1-15",
+			"psalm": "Ps 32:1-6(32:7-12)v",
 			"epistle": "Gal 2:11-21",
-			"gospel": "Luke 7:36-8:3"
+			"gospel": "Luke 7:36-end,8:1-3"
 		},
 		"color": "green",
 		"altName": "Proper 6"
@@ -1478,7 +1478,7 @@
 		"yearC": {
 			"ot": "1 Kings 19:15-21",
 			"psalm": "Ps 16",
-			"epistle": "Gal 5:1,13-25",
+			"epistle": "Gal 5:1,5:13-25",
 			"gospel": "Luke 9:51-62"
 		},
 		"color": "green",
@@ -1490,7 +1490,7 @@
 		"yearA": {
 			"ot": "Zech 9:9-12",
 			"psalm": "Ps 145:1-13(14-21)v",
-			"epistle": "Rom 7:21-8:6",
+			"epistle": "Rom 7:21-end,8:1-6",
 			"gospel": "Matt 11:25-30"
 		},
 		"yearB": {
@@ -1515,7 +1515,7 @@
 			"ot": "Isa 55",
 			"psalm": "Ps 65",
 			"epistle": "Rom 8:7-17",
-			"gospel": "Matt 13:1-9,18-23"
+			"gospel": "Matt 13:1-9,13:18-23"
 		},
 		"yearB": {
 			"ot": "Amos 7:7-15",
@@ -1536,10 +1536,10 @@
 		"name": "Proper 11 (Sunday from July 17 to July 23)",
 		"season": "pentecost",
 		"yearA": {
-			"ot": "Wisdom 12:13, 16-19",
+			"ot": "Wisdom 12:13, 12:16-19",
 			"psalm": "Ps 86",
 			"epistle": "Rom 8:18-25",
-			"gospel": "Matt 13:24-30,34-43"
+			"gospel": "Matt 13:24-30,13:34-43"
 		},
 		"yearB": {
 			"ot": "Isa 57:14-21",
@@ -1563,7 +1563,7 @@
 			"ot": "1 Kings 3:3-14",
 			"psalm": "Ps 119:121-136",
 			"epistle": "Rom 8:26-34",
-			"gospel": "Matt 13:31-33,44-50"
+			"gospel": "Matt 13:31-33,13:44-50"
 		},
 		"yearB": {
 			"ot": "2 Kings 2:1-15",
@@ -1596,7 +1596,7 @@
 			"gospel": "John 6:24-35"
 		},
 		"yearC": {
-			"ot": "Eccl 1:12-2:11",
+			"ot": "Eccl 1:12-end,2:1-11",
 			"psalm": "Ps 49:1-12(13-21)v",
 			"epistle": "Col 3:5-17",
 			"gospel": "Luke 12:13-21"
@@ -1616,7 +1616,7 @@
 		"yearB": {
 			"ot": "Deut 8:1-10",
 			"psalm": "Ps 34:(1-7)8-15(16-22)",
-			"epistle": "Eph 4:17-5:2",
+			"epistle": "Eph 4:17-end,5:1-2",
 			"gospel": "John 6:37-51"
 		},
 		"yearC": {
@@ -1695,7 +1695,7 @@
 			"ot": "Ecclesiasticus 10:7-18",
 			"psalm": "Ps 112",
 			"epistle": "Heb 13:1-8",
-			"gospel": "Luke 14:1,7-14"
+			"gospel": "Luke 14:1,14:7-14"
 		},
 		"color": "green",
 		"altName": "Proper 17"
@@ -1728,7 +1728,7 @@
 		"name": "Proper 19 (Sunday from September 11 to September 17)",
 		"season": "pentecost",
 		"yearA": {
-			"ot": "Ecclesiasticus 27:30-28:7",
+			"ot": "Ecclesiasticus 27:30-end,28:1-7",
 			"psalm": "Ps 103 or 103:1-14",
 			"epistle": "Rom 14:5-12",
 			"gospel": "Matt 18:21-35"
@@ -1740,7 +1740,7 @@
 			"gospel": "Mark 9:14-29"
 		},
 		"yearC": {
-			"ot": "Ex 32:1,7-14",
+			"ot": "Ex 32:1,32:7-14",
 			"psalm": "Ps 51:1-17v",
 			"epistle": "1 Tim 1:12-17",
 			"gospel": "Luke 15:1-10"
@@ -1752,15 +1752,15 @@
 		"name": "Proper 20 (Sunday from September 18 to September 24)",
 		"season": "pentecost",
 		"yearA": {
-			"ot": "Jonah 3:10-4:11",
+			"ot": "Jonah 3:10-end,4:1-11",
 			"psalm": "Ps 145:(1-13)14-21v",
 			"epistle": "Phil 1:21-27",
 			"gospel": "Matt 20:1-16"
 		},
 		"yearB": {
-			"ot": "Wisdom 1:16-2:1,12-22",
+			"ot": "Wisdom 1:16-end,2:1-1,2:12-22",
 			"psalm": "Ps 54",
-			"epistle": "James 3:16-4:6",
+			"epistle": "James 3:16-end,4:1-6",
 			"gospel": "Mark 9:30-37"
 		},
 		"yearC": {
@@ -1776,15 +1776,15 @@
 		"name": "Proper 21 (Sunday from September 25 to October 1)",
 		"season": "pentecost",
 		"yearA": {
-			"ot": "Ezek 18:1-4,25-32",
-			"psalm": "Ps 25:1-14(15-21)",
+			"ot": "Ezek 18:1-4,18:25-32",
+			"psalm": "Ps 25:1-14(Ps 25:15-21)",
 			"epistle": "Phil 2:1-13",
 			"gospel": "Matt 21:28-32"
 		},
 		"yearB": {
-			"ot": "Num 11:4-6,10-17,24-29",
+			"ot": "Num 11:4-6,11:10-17,11:24-29",
 			"psalm": "Ps 19:(1-6)7-14",
-			"epistle": "James 4:7-12(13-5:6)",
+			"epistle": "James 4:7-12(4:13-end,5:1-6)",
 			"gospel": "Mark 9:38-48"
 		},
 		"yearC": {
@@ -1860,9 +1860,9 @@
 			"gospel": "Mark 10:35-45"
 		},
 		"yearC": {
-			"ot": "Gen 32:3-8,22-30",
+			"ot": "Gen 32:3-8,32:22-30",
 			"psalm": "Ps 121",
-			"epistle": "2 Tim 3:14-4:5",
+			"epistle": "2 Tim 3:14-end,4:1-5",
 			"gospel": "Luke 18:1-8"
 		},
 		"color": "green",
@@ -1880,11 +1880,11 @@
 		"yearB": {
 			"ot": "Isa 59:9-20",
 			"psalm": "Ps 13",
-			"epistle": "Heb 5:11-6:12",
+			"epistle": "Heb 5:11-end,6:1-12",
 			"gospel": "Mark 10:46-52"
 		},
 		"yearC": {
-			"ot": "Jer 14:(1-6)7-10,19-22",
+			"ot": "Jer 14:(1-6)7-10,14:19-22",
 			"psalm": "Ps 84",
 			"epistle": "2 Tim 4:6-18",
 			"gospel": "Luke 18:9-14"
@@ -1958,7 +1958,7 @@
 		"yearC": {
 			"ot": "Job 19:23-27a",
 			"psalm": "Ps 17",
-			"epistle": "2 Thess 2:13-3:5",
+			"epistle": "2 Thess 2:13-end,3:1-5",
 			"gospel": "Luke 20:27-38"
 		},
 		"color": "green",
@@ -1968,7 +1968,7 @@
 		"name": "Proper 28 (Sunday from November 13 to November 19)",
 		"season": "pentecost",
 		"yearA": {
-			"ot": "Zeph 1:7,12-18",
+			"ot": "Zeph 1:7,1:12-18",
 			"psalm": "Ps 90:1-12(13-17)",
 			"epistle": "1 Thess 5:1-10",
 			"gospel": "Matt 25:14-30"
@@ -1980,7 +1980,7 @@
 			"gospel": "Mark 13:14-23"
 		},
 		"yearC": {
-			"ot": "Mal 3:13-4:6",
+			"ot": "Mal 3:13-end,4:1-6",
 			"psalm": "Ps 98",
 			"epistle": "2 Thess 3:6-16",
 			"gospel": "Luke 21:5-19"

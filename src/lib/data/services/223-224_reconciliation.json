@@ -17,12 +17,8 @@
 					},
 					{
 						"type": "section_title",
-						"text": "the rites of healing",
+						"text": "the rites of healing{br}reconciliation of penitents",
 						"size": "xl"
-					},
-					{
-						"type": "section_title",
-						"text": "reconciliation of penitents"
 					},
 					{
 						"type": "rubric",

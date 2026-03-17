@@ -154,8 +154,12 @@
 						"type": "line",
 						"text": [
 							{
+								"type": "u",
+								"value": "psalm 103"
+							},
+							{
 								"type": "text",
-								"value": "{{u}}psalm 103 or 103:8-14"
+								"value": " or 103:8-14"
 							}
 						]
 					},

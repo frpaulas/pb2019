@@ -1,9 +1,7 @@
 pg: 215-221
 pb: 215
 
-st:1: thanksgiving _for the_
-st:1: birth or adoption
-st:1: of a child
+st:1: thanksgiving _for the_{br}birth or adoption{br}of a child
 
 r:The Birth or Adoption of a Child is always an occasion for thanksgiving and
     prayer in family and community. This rite is provided for use in a hospital or
@@ -37,8 +35,7 @@ use:cantical:magnificat:
 r: or this
 
 pb:217
-st: psalm 116
-st:lcL (vv.1-2,3b-5,11-12,16)
+st: psalm 116{br}(vv. 1-2,3b-5,11-12,16)
 use:psalm:116:1:2:b:
 use:psalm:116:3b:5:b:
 use:psalm:116:11:12:b

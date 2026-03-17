@@ -1,9 +1,7 @@
 pg:213-214
 pb:213
 
-st:1:a brief liturgy for the signing
-st:1:of
-st:1:the declaration of intention
+st:1:a brief liturgy for the signing{br}of{br}the declaration of intention
 
 r:This liturgy is intended for public use in the context of a normal Sunday Eucharist
     after the Peace, or at any other public gathering.
@@ -33,6 +31,7 @@ tb: “We, N.N. and N.N., desiring to receive the blessing of
     and to seek God’s help thereto.”
 
 pb:214
+
 r: The Officiant then asks
 v: Is this your intention?
 r: The couple responds

@@ -2,8 +2,7 @@ pg: 139-144
 pb:139
 tp: Additional Directions Concerning Holy Communion
 
-st: additional directions
-st: concerning holy communion
+st: additional directions{br}st: concerning holy communion
 tb: Before the celebration of Holy Communion, the Holy Table should be covered with a clean white cloth.
 l: Rubrics indicating standing or kneeling imply "as able."
 tb: Where the greeting "The Lord be with you" is used, the response "And also with you" may be used in place of "And with your spirit."
@@ -70,9 +69,7 @@ tb: In the absence of a Priest, the Bishop may, at his discretion, authorize a D
     The Deacon then leads the people in the Lord's Prayer. Omitting the breaking of the bread,
     the Deacon proceeds with the rest of the liturgy. There is no blessing at the end of the liturgy.
 
-st: the order of holy communion
-st: according to
-st: the book of common prayer 1662
+st: the order of holy communion{br}according to{br}{{u}}the book of common prayer 1662{{\u}}
 tb: The Anglican Standard Text may be re-arranged to reflect the 1662 ordering as follows:
 l:i: The Lord's Prayer
 l:i: The Collect for Purity
@@ -97,8 +94,7 @@ l:i: The Post Communion Prayer
 l:i: The Gloria in Excelsis
 l:i: The Blessing
 
-st: concerning discipline at
-st: holy communion
+st: concerning discipline at{br}holy communion
 tb: If the Priest knows that a person who is living a notoriously evil life intends to come to Communion,
     the Priest shall privately instruct that person not to come to the Lord's Table until he or she has given
     clear proof of repentance and amendment of life. The Priest shall follow the same procedure with those who
@@ -110,3 +106,4 @@ tb: When the Priest sees that there is enmity between members of the Congregatio
 tb: In all such cases, the Priest is required to notify the Bishop as soon as possible
     (within fourteen days at the most) giving the reasons for refusing Communion.
 pb:144
+blank:

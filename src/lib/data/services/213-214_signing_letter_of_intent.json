@@ -17,17 +17,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "a brief liturgy for the signing",
-						"size": "xl"
-					},
-					{
-						"type": "section_title",
-						"text": "of",
-						"size": "xl"
-					},
-					{
-						"type": "section_title",
-						"text": "the declaration of intention",
+						"text": "a brief liturgy for the signing{br}of{br}the declaration of intention",
 						"size": "xl"
 					},
 					{

@@ -17,11 +17,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "supplemental"
-					},
-					{
-						"type": "section_title",
-						"text": "eucharistic texts"
+						"text": "supplemental{br}eucharistic texts"
 					},
 					{
 						"type": "section_title",
@@ -100,12 +96,12 @@
 						"text": "His mercy endures for ever."
 					},
 					{
-						"page": 146,
-						"type": "page_break"
-					},
-					{
 						"type": "section_title",
 						"text": "for holy week"
+					},
+					{
+						"page": 146,
+						"type": "page_break"
 					},
 					{
 						"type": "versical",

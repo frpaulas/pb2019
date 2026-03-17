@@ -17,17 +17,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "thanksgiving _for the_",
-						"size": "xl"
-					},
-					{
-						"type": "section_title",
-						"text": "birth or adoption",
-						"size": "xl"
-					},
-					{
-						"type": "section_title",
-						"text": "of a child",
+						"text": "thanksgiving _for the_{br}birth or adoption{br}of a child",
 						"size": "xl"
 					},
 					{
@@ -83,11 +73,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "psalm 116"
-					},
-					{
-						"type": "section_title",
-						"text": "lcL (vv.1-2,3b-5,11-12,16)"
+						"text": "psalm 116{br}(vv. 1-2,3b-5,11-12,16)"
 					},
 					{
 						"type": "show_psalm",

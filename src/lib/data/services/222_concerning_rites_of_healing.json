@@ -16,20 +16,8 @@
 					},
 					{
 						"type": "section_title",
-						"text": "concerning the rites of healing",
+						"text": "concerning the rites of healing{br}reconciliation of penitents{br}ministry to the sick{br}communion of the sick",
 						"size": "xl"
-					},
-					{
-						"type": "section_title",
-						"text": "reconciliation of penitents"
-					},
-					{
-						"type": "section_title",
-						"text": "ministry to the sick"
-					},
-					{
-						"type": "section_title",
-						"text": "communion of the sick"
 					},
 					{
 						"type": "text_block",

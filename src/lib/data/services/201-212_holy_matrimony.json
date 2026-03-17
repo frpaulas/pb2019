@@ -166,83 +166,203 @@
 						"text": "One or more of the following passages is read."
 					},
 					{
-						"type": "ref",
-						"text": "genesis 1",
-						"add_on": "26-28: (Male and female he created them)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "genesis"
+							},
+							{
+								"type": "text",
+								"value": " 1:26-28: (Male and female he created them)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "genesis 2",
-						"add_on": "4-9, 15-24: (A man holds fast to his wife and they become one flesh)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "genesis"
+							},
+							{
+								"type": "text",
+								"value": " 2:4-9, 15-24: (A man holds fast to his wife and they become one flesh)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "song of solomon 2",
-						"add_on": "10-13; 8:6-7: (Many waters cannot quench love)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "song of solomon"
+							},
+							{
+								"type": "text",
+								"value": " 2:10-13; 8:6-7: (Many waters cannot quench love)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "tobit 8",
-						"add_on": "5b-8: (That she and I may grow old together)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "tobit"
+							},
+							{
+								"type": "text",
+								"value": " 8:5b-8: (That she and I may grow old together)"
+							}
+						]
 					},
 					{
 						"type": "rubric",
 						"text": "Between the Lessons, a Psalm, hymn, or anthem may be sung or said. Appropriate Psalms are 45, 67, 127, or 128."
 					},
 					{
-						"type": "ref",
-						"text": "1 corinthians 13",
-						"add_on": "1-13: (Love is patient and kind)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "1 corinthians"
+							},
+							{
+								"type": "text",
+								"value": " 13:1-13: (Love is patient and kind)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "ephesians 3",
-						"add_on": "14-19: (The Father from whom every family is named)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "ephesians"
+							},
+							{
+								"type": "text",
+								"value": " 3:14-19: (The Father from whom every family is named)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "ephesians 5",
-						"add_on": "1-2, 21-33: (Walk in love, as Christ loved us)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "ephesians"
+							},
+							{
+								"type": "text",
+								"value": " 5:1-2, 21-33: (Walk in love, as Christ loved us)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "colossians 3",
-						"add_on": "12-17: (Love which binds everything together in harmony)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "colossians"
+							},
+							{
+								"type": "text",
+								"value": " 3:12-17: (Love which binds everything together in harmony)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "1 john 4",
-						"add_on": "7-16: (Let us love one another, for love is of God)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "1 john"
+							},
+							{
+								"type": "text",
+								"value": " 4:7-16: (Let us love one another, for love is of God)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "matthew 5",
-						"add_on": "1-10: (The Beatitudes)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "matthew"
+							},
+							{
+								"type": "text",
+								"value": " 5:1-10: (The Beatitudes)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "matthew 5",
-						"add_on": "13-16: (You are the light . . . Let your light shine)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "matthew"
+							},
+							{
+								"type": "text",
+								"value": " 5:13-16: (You are the light . . . Let your light shine)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "matthew 7",
-						"add_on": "24-29: (Like a wise man who built his house on the rock)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "matthew"
+							},
+							{
+								"type": "text",
+								"value": " 7:24-29: (Like a wise man who built his house on the rock)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "mark 10",
-						"add_on": "6-16: (They are no longer two but one)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "mark"
+							},
+							{
+								"type": "text",
+								"value": " 10:6-16: (They are no longer two but one)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "john 2",
-						"add_on": "1-11: (The wedding at Cana)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "john"
+							},
+							{
+								"type": "text",
+								"value": " 2:1-11: (The wedding at Cana)"
+							}
+						]
 					},
 					{
-						"type": "ref",
-						"text": "john 15",
-						"add_on": "9-12: (Love one another as I have loved you)"
+						"type": "line",
+						"text": [
+							{
+								"type": "u",
+								"value": "john"
+							},
+							{
+								"type": "text",
+								"value": " 15:9-12: (Love one another as I have loved you)"
+							}
+						]
 					},
 					{
 						"type": "rubric",

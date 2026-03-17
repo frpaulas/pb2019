@@ -17,11 +17,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "additional directions"
-					},
-					{
-						"type": "section_title",
-						"text": "concerning holy communion"
+						"text": "additional directions{br}st: concerning holy communion"
 					},
 					{
 						"type": "text_block",
@@ -240,15 +236,12 @@
 					},
 					{
 						"type": "section_title",
-						"text": "the order of holy communion"
-					},
-					{
-						"type": "section_title",
-						"text": "according to"
-					},
-					{
-						"type": "section_title",
-						"text": "the book of common prayer 1662"
+						"text": [
+							{
+								"type": "text",
+								"value": "the order of holy communion{br}according to{br}{{u}}the book of common prayer 1662{{\\u}}"
+							}
+						]
 					},
 					{
 						"type": "text_block",
@@ -360,11 +353,7 @@
 					},
 					{
 						"type": "section_title",
-						"text": "concerning discipline at"
-					},
-					{
-						"type": "section_title",
-						"text": "holy communion"
+						"text": "concerning discipline at{br}holy communion"
 					},
 					{
 						"type": "text_block",
@@ -381,10 +370,14 @@
 					{
 						"type": "page_break",
 						"page": 144
+					},
+					{
+						"type": "blank_page",
+						"page": null
 					}
 				],
-				"pb_page_start": 139,
-				"pb_page_end": 144
+				"pb_page_start": null,
+				"pb_page_end": null
 			}
 		]
 	}

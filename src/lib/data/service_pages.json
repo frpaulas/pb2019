@@ -22,7 +22,20 @@
       },
       {
         "type": "text_block",
-        "text": "The early Christian mission in the British Isles was an encounter with pagan tribes and societies. Converts banded together, and in this context communities of common prayer, learning, and Christ-like service emerged, living under agreed rules. Thus \"monasteries\" became centers of the evangelization of this remote region of the Roman world, and ever more so as the empire disintegrated. Early heroes and heroines leading such communities bore names that are still remembered and celebrated, names like Patrick, Brigid, David, Columba, Cuthbert, and Hilda. Haphazardly, and without a centralized hierarchy or authority, what emerged in Britain, by God's grace, was a Church that saw herself, in each of her local manifestations, as part of the One, Holy, Catholic, and Apostolic Church: culturally attuned and missionally adaptive, but ever committed to and always propagating \"the faith that was once for all delivered to the saints\" (jude 1:3)."
+        "content": [
+          {
+            "type": "text",
+            "value": "The early Christian mission in the British Isles was an encounter with pagan tribes and societies. Converts banded together, and in this context communities of common prayer, learning, and Christ-like service emerged, living under agreed rules. Thus \"monasteries\" became centers of the evangelization of this remote region of the Roman world, and ever more so as the empire disintegrated. Early heroes and heroines leading such communities bore names that are still remembered and celebrated, names like Patrick, Brigid, David, Columba, Cuthbert, and Hilda. Haphazardly, and without a centralized hierarchy or authority, what emerged in Britain, by God's grace, was a Church that saw herself, in each of her local manifestations, as part of the One, Holy, Catholic, and Apostolic Church: culturally attuned and missionally adaptive, but ever committed to and always propagating \"the faith that was once for all delivered to the saints\" ("
+          },
+          {
+            "type": "u",
+            "value": "jude"
+          },
+          {
+            "type": "text",
+            "value": " 1:3)."
+          }
+        ]
       }
     ]
   },
@@ -8461,11 +8474,7 @@
     "content": [
       {
         "type": "section_title",
-        "text": "additional directions"
-      },
-      {
-        "type": "section_title",
-        "text": "concerning holy communion"
+        "text": "additional directions{br}st: concerning holy communion"
       },
       {
         "type": "text_block",
@@ -8704,15 +8713,12 @@
       },
       {
         "type": "section_title",
-        "text": "the order of holy communion"
-      },
-      {
-        "type": "section_title",
-        "text": "according to"
-      },
-      {
-        "type": "section_title",
-        "text": "the book of common prayer 1662"
+        "text": [
+          {
+            "type": "text",
+            "value": "the order of holy communion{br}according to{br}{{u}}the book of common prayer 1662{{\\u}}"
+          }
+        ]
       },
       {
         "type": "text_block",
@@ -8836,11 +8842,7 @@
       },
       {
         "type": "section_title",
-        "text": "concerning discipline at"
-      },
-      {
-        "type": "section_title",
-        "text": "holy communion"
+        "text": "concerning discipline at{br}holy communion"
       },
       {
         "type": "text_block",
@@ -8888,11 +8890,7 @@
     "content": [
       {
         "type": "section_title",
-        "text": "supplemental"
-      },
-      {
-        "type": "section_title",
-        "text": "eucharistic texts"
+        "text": "supplemental{br}eucharistic texts"
       },
       {
         "type": "section_title",
@@ -8969,6 +8967,10 @@
         "type": "versical",
         "people": true,
         "text": "His mercy endures for ever."
+      },
+      {
+        "type": "section_title",
+        "text": "for holy week"
       },
       {
         "type": "section_title",
@@ -9065,10 +9067,6 @@
         "type": "scripture",
         "ref": "matthew 25:40",
         "text": "And the King will answer them, \"Truly, I say to you, as you did it to one of the least of these my brothers, you did it to me.\""
-      },
-      {
-        "type": "section_title",
-        "text": "for holy week"
       },
       {
         "type": "versical",
@@ -9358,6 +9356,50 @@
         "type": "scripture",
         "ref": "psalm 96:8",
         "text": "Ascribe unto the Lord the honor due unto his Name; bring offerings and come into his courts."
+      },
+      {
+        "type": "section_title",
+        "text": "offertory sentences"
+      },
+      {
+        "type": "scripture",
+        "ref": "acts 20:35",
+        "text": "Remember the words of the Lord Jesus, how he himself said, \"It is more blessed to give than to receive.\""
+      },
+      {
+        "type": "scripture",
+        "ref": "matthew 5:16",
+        "text": "Let your light shine before others, so that they may see your good works and give glory to your Father who is in heaven."
+      },
+      {
+        "type": "scripture",
+        "ref": "matthew 6:19-21",
+        "text": "Do not lay up for yourselves treasures on earth, where moth and rust destroy and where thieves break in and steal, but lay up for yourselves treasures in heaven, where neither moth nor rust destroys and where thieves do not break in and steal. For where your treasure is, there your heart will be also."
+      },
+      {
+        "type": "scripture",
+        "ref": "matthew 7:21",
+        "text": "Not everyone who says to me, “Lord, Lord,” will enter the kingdom of heaven, but the one who does the will of my Father who is in heaven."
+      },
+      {
+        "type": "scripture",
+        "ref": "2 corinthians 9:6-7",
+        "text": "Whoever sows sparingly will also reap sparingly, and whoever sows bountifully will also reap bountifully. Each one must give as he has decided in his heart, not reluctantly or under compulsion, for God loves a cheerful giver."
+      },
+      {
+        "type": "scripture",
+        "ref": "galatians 6:10",
+        "text": "As we have opportunity, let us do good to everyone, and especially to those who are of the household of faith."
+      },
+      {
+        "type": "scripture",
+        "ref": "hebrews 6:10",
+        "text": "For God is not unjust so as to overlook your work and the love that you have shown for his name in serving the saints, as you still do."
+      },
+      {
+        "type": "scripture",
+        "ref": "hebrews 13:16",
+        "text": "Do not neglect to do good and to share what you have, for such sacrifices are pleasing to God."
       }
     ]
   },
@@ -9369,6 +9411,46 @@
         "type": "scripture",
         "ref": "1 john 3:17",
         "text": "If anyone has the world’s goods and sees his brother in need, yet closes his heart against him, how does God’s love abide in him?"
+      },
+      {
+        "type": "scripture",
+        "ref": "1 john 3:17",
+        "text": "If anyone has the world’s goods and sees his brother in need, yet closes his heart against him, how does God’s love abide in him?"
+      },
+      {
+        "type": "scripture",
+        "ref": "tobit 4:8-9",
+        "text": "If you have many possessions, make your gift from them in proportion; if few, do not be afraid to give according to the little you have. So you will be laying up a good treasure for yourself against the day of necessity."
+      },
+      {
+        "type": "scripture",
+        "ref": "matthew 25:40",
+        "text": "And the King will answer them, \"Truly, I say to you, as you did it to one of the least of these my brothers, you did it to me.\""
+      },
+      {
+        "type": "scripture",
+        "ref": "romans 10:14-15",
+        "text": ": How then will they call on him in whom they have not believed? And how are they to believe in him of whom they have never heard? And how are they to hear without someone preaching? And how are they to preach unless they are sent?"
+      },
+      {
+        "type": "scripture",
+        "ref": "luke 10:2",
+        "text": ": And Jesus said to them, \"The harvest is plentiful, but the laborers are few. Therefore pray earnestly to the Lord of the harvest to send out laborers into his harvest.\""
+      },
+      {
+        "type": "scripture",
+        "ref": "deuteronomy 16:16-17",
+        "text": ": They shall not appear before the Lord empty-handed. Every man shall give as he is able, according to the blessing of the Lord your God that he has given you."
+      },
+      {
+        "type": "scripture",
+        "ref": "psalm 50:14",
+        "text": "Offer unto God a sacrifice of thanksgiving, and pay your vows unto the Most High."
+      },
+      {
+        "type": "scripture",
+        "ref": "psalm 96:8",
+        "text": "Ascribe unto the Lord the honor due unto his Name; bring offerings and come into his courts."
       }
     ]
   },
@@ -9376,6 +9458,26 @@
     "pageNumber": 151,
     "headerText": "Offertory Sentences",
     "content": [
+      {
+        "type": "scripture",
+        "ref": "ephesians 5:2",
+        "text": "Walk in love, as Christ loved us and gave himself up for us, a fragrant offering and sacrifice to God."
+      },
+      {
+        "type": "scripture",
+        "ref": "romans 12:1",
+        "text": "I appeal to you therefore, brothers and sisters, by the mercies of God, to present your bodies as a living sacrifice, holy and acceptable to God, which is your spiritual worship."
+      },
+      {
+        "type": "scripture",
+        "ref": "2 corinthians 8:9",
+        "text": "For you know the grace of our Lord Jesus Christ, that though he was rich, yet for your sake he became poor, so that you by his poverty might become rich."
+      },
+      {
+        "type": "scripture",
+        "ref": "1 peter 2:9",
+        "text": "You are a chosen race, a royal priesthood, a holy nation, a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light."
+      },
       {
         "type": "scripture",
         "ref": "ephesians 5:2",
@@ -12776,12 +12878,7 @@
     "content": [
       {
         "type": "section_title",
-        "text": "concerning preparation for",
-        "size": "2xl"
-      },
-      {
-        "type": "section_title",
-        "text": "holy matrimony",
+        "text": "concerning preparation for{br}holy matrimony",
         "size": "2xl"
       },
       {
@@ -13032,83 +13129,203 @@
         "text": "One or more of the following passages is read."
       },
       {
-        "type": "ref",
-        "text": "genesis 1",
-        "add_on": "26-28: (Male and female he created them)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "genesis"
+          },
+          {
+            "type": "text",
+            "value": " 1:26-28: (Male and female he created them)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "genesis 2",
-        "add_on": "4-9, 15-24: (A man holds fast to his wife and they become one flesh)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "genesis"
+          },
+          {
+            "type": "text",
+            "value": " 2:4-9, 15-24: (A man holds fast to his wife and they become one flesh)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "song of solomon 2",
-        "add_on": "10-13; 8:6-7: (Many waters cannot quench love)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "song of solomon"
+          },
+          {
+            "type": "text",
+            "value": " 2:10-13; 8:6-7: (Many waters cannot quench love)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "tobit 8",
-        "add_on": "5b-8: (That she and I may grow old together)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "tobit"
+          },
+          {
+            "type": "text",
+            "value": " 8:5b-8: (That she and I may grow old together)"
+          }
+        ]
       },
       {
         "type": "rubric",
         "text": "Between the Lessons, a Psalm, hymn, or anthem may be sung or said. Appropriate Psalms are 45, 67, 127, or 128."
       },
       {
-        "type": "ref",
-        "text": "1 corinthians 13",
-        "add_on": "1-13: (Love is patient and kind)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "1 corinthians"
+          },
+          {
+            "type": "text",
+            "value": " 13:1-13: (Love is patient and kind)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "ephesians 3",
-        "add_on": "14-19: (The Father from whom every family is named)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "ephesians"
+          },
+          {
+            "type": "text",
+            "value": " 3:14-19: (The Father from whom every family is named)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "ephesians 5",
-        "add_on": "1-2, 21-33: (Walk in love, as Christ loved us)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "ephesians"
+          },
+          {
+            "type": "text",
+            "value": " 5:1-2, 21-33: (Walk in love, as Christ loved us)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "colossians 3",
-        "add_on": "12-17: (Love which binds everything together in harmony)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "colossians"
+          },
+          {
+            "type": "text",
+            "value": " 3:12-17: (Love which binds everything together in harmony)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "1 john 4",
-        "add_on": "7-16: (Let us love one another, for love is of God)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "1 john"
+          },
+          {
+            "type": "text",
+            "value": " 4:7-16: (Let us love one another, for love is of God)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "matthew 5",
-        "add_on": "1-10: (The Beatitudes)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "matthew"
+          },
+          {
+            "type": "text",
+            "value": " 5:1-10: (The Beatitudes)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "matthew 5",
-        "add_on": "13-16: (You are the light . . . Let your light shine)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "matthew"
+          },
+          {
+            "type": "text",
+            "value": " 5:13-16: (You are the light . . . Let your light shine)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "matthew 7",
-        "add_on": "24-29: (Like a wise man who built his house on the rock)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "matthew"
+          },
+          {
+            "type": "text",
+            "value": " 7:24-29: (Like a wise man who built his house on the rock)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "mark 10",
-        "add_on": "6-16: (They are no longer two but one)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "mark"
+          },
+          {
+            "type": "text",
+            "value": " 10:6-16: (They are no longer two but one)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "john 2",
-        "add_on": "1-11: (The wedding at Cana)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "john"
+          },
+          {
+            "type": "text",
+            "value": " 2:1-11: (The wedding at Cana)"
+          }
+        ]
       },
       {
-        "type": "ref",
-        "text": "john 15",
-        "add_on": "9-12: (Love one another as I have loved you)"
+        "type": "line",
+        "text": [
+          {
+            "type": "u",
+            "value": "john"
+          },
+          {
+            "type": "text",
+            "value": " 15:9-12: (Love one another as I have loved you)"
+          }
+        ]
       },
       {
         "type": "rubric",
@@ -13604,17 +13821,7 @@
     "content": [
       {
         "type": "section_title",
-        "text": "a brief liturgy for the signing",
-        "size": "xl"
-      },
-      {
-        "type": "section_title",
-        "text": "of",
-        "size": "xl"
-      },
-      {
-        "type": "section_title",
-        "text": "the declaration of intention",
+        "text": "a brief liturgy for the signing{br}of{br}the declaration of intention",
         "size": "xl"
       },
       {
@@ -13716,17 +13923,7 @@
     "content": [
       {
         "type": "section_title",
-        "text": "thanksgiving _for the_",
-        "size": "xl"
-      },
-      {
-        "type": "section_title",
-        "text": "birth or adoption",
-        "size": "xl"
-      },
-      {
-        "type": "section_title",
-        "text": "of a child",
+        "text": "thanksgiving _for the_{br}birth or adoption{br}of a child",
         "size": "xl"
       },
       {
@@ -13786,11 +13983,7 @@
     "content": [
       {
         "type": "section_title",
-        "text": "psalm 116"
-      },
-      {
-        "type": "section_title",
-        "text": "lcL (vv.1-2,3b-5,11-12,16)"
+        "text": "psalm 116{br}(vv. 1-2,3b-5,11-12,16)"
       },
       {
         "type": "show_psalm",
@@ -14024,20 +14217,8 @@
     "content": [
       {
         "type": "section_title",
-        "text": "concerning the rites of healing",
+        "text": "concerning the rites of healing{br}reconciliation of penitents{br}ministry to the sick{br}communion of the sick",
         "size": "xl"
-      },
-      {
-        "type": "section_title",
-        "text": "reconciliation of penitents"
-      },
-      {
-        "type": "section_title",
-        "text": "ministry to the sick"
-      },
-      {
-        "type": "section_title",
-        "text": "communion of the sick"
       },
       {
         "type": "text_block",
@@ -14063,12 +14244,8 @@
     "content": [
       {
         "type": "section_title",
-        "text": "the rites of healing",
+        "text": "the rites of healing{br}reconciliation of penitents",
         "size": "xl"
-      },
-      {
-        "type": "section_title",
-        "text": "reconciliation of penitents"
       },
       {
         "type": "rubric",
@@ -14318,6 +14495,65 @@
         "type": "scripture",
         "ref": "john 3:16 t",
         "text": "God so loved the world, that he gave his only-begotten Son, that whoever believes in him should not perish but have eternal life."
+      },
+      {
+        "type": "section_title",
+        "text": "communion of the sick",
+        "size": "xl"
+      },
+      {
+        "type": "rubric",
+        "text": "This rite is used when the consecrated elements are brought from an earlier celebration of Holy Communion."
+      },
+      {
+        "type": "rubric",
+        "text": "The Minister says"
+      },
+      {
+        "type": "scripture",
+        "ref": "philippians 1:2",
+        "text": "Grace to you and peace from God our Father and the Lord Jesus Christ."
+      },
+      {
+        "type": "rubric",
+        "text": "The Minister continues"
+      },
+      {
+        "type": "text_block",
+        "text": "Almighty God, to you all hearts are open, all desires known, and from you no secrets are hid: Cleanse the thoughts of our hearts by the inspiration of your Holy Spirit, that we may perfectly love you, and worthily magnify your holy Name; through Christ our Lord. **Amen.**"
+      },
+      {
+        "type": "rubric",
+        "text": "A psalm may be prayed. Psalms 23, 62, 103, and 145 are particularly appropriate."
+      },
+      {
+        "type": "button",
+        "text": "Psalm 23",
+        "link": " Psalm 23"
+      },
+      {
+        "type": "button",
+        "text": "Psalm 62",
+        "link": " Psalm 62"
+      },
+      {
+        "type": "button",
+        "text": "Psalm 103",
+        "link": " Psalm 103"
+      },
+      {
+        "type": "button",
+        "text": "Psalm 145",
+        "link": " Psalm 145"
+      },
+      {
+        "type": "rubric",
+        "text": "One of the following Gospel lessons is read, or the readings appropriate to the day."
+      },
+      {
+        "type": "scripture",
+        "ref": "john 3:16 t",
+        "text": "God so loved the world, that he gave his only-begotten Son, that whoever believes in him should not perish but have eternal life."
       }
     ]
   },
@@ -14435,6 +14671,117 @@
       {
         "type": "text_block",
         "text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. **Amen.**"
+      },
+      {
+        "type": "line",
+        "text": "Jesus said, “I am the living bread that came down from"
+      },
+      {
+        "type": "line",
+        "text": "heaven. If anyone eats of this bread, he will live forever."
+      },
+      {
+        "type": "line",
+        "text": "And the bread that I will give for the life of the world is my"
+      },
+      {
+        "type": "line",
+        "text": "flesh. For my flesh is true food, and my blood is true drink."
+      },
+      {
+        "type": "line",
+        "text": "Whoever feeds on my flesh and drinks my blood abides in me,"
+      },
+      {
+        "type": "scripture",
+        "ref": "john 6:51, 55-56",
+        "text": "and I in him.”"
+      },
+      {
+        "type": "rubric",
+        "text": "Reflection on the Lessons may follow. Additional prayers may be offered."
+      },
+      {
+        "type": "rubric",
+        "text": "The Minister may say the Confession, and the sick person joins in as able."
+      },
+      {
+        "type": "line",
+        "text": "Most merciful God,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we confess that we have sinned against you",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "in thought, word and deed,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "by what we have done, and by what we have left undone.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We have not loved you with our whole heart;",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we have not loved our neighbors as ourselves.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "We are truly sorry and we humbly repent.",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "For the sake of your Son Jesus Christ,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "have mercy on us and forgive us;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "that we may delight in your will, and walk in your ways,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "to the glory of your Name. Amen.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "rubric",
+        "text": "A Priest, if present, says"
+      },
+      {
+        "type": "text_block",
+        "text": "Almighty God, our heavenly Father, who in his great mercy has promised forgiveness of sins to all those who sincerely repent and with true faith turn to him, have mercy upon you, pardon and deliver you from all your sins, confirm and strengthen you in all goodness, and bring you to everlasting life; through Jesus Christ our Lord. **Amen.**"
+      },
+      {
+        "type": "rubric",
+        "text": "A Deacon or lay person prays"
+      },
+      {
+        "type": "text_block",
+        "text": "Grant to your faithful people, merciful Lord, pardon and peace; that we may be cleansed from all our sins, and serve you with a quiet mind; through Jesus Christ our Lord. **Amen.**"
       }
     ]
   },
@@ -14442,6 +14789,70 @@
     "pageNumber": 229,
     "headerText": "Untitled Service",
     "content": [
+      {
+        "type": "versical",
+        "minister": true,
+        "text": "The peace of the Lord be always with you."
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "And with your spirit."
+      },
+      {
+        "type": "versical",
+        "minister": true,
+        "text": "Let us pray."
+      },
+      {
+        "type": "rubric",
+        "text": "Minister and People"
+      },
+      {
+        "type": "lords_prayer"
+      },
+      {
+        "type": "rubric",
+        "text": "Then may be said"
+      },
+      {
+        "type": "line",
+        "text": "Lamb of God, you take away the sin of the world;"
+      },
+      {
+        "type": "line",
+        "text": "have mercy on us.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Lamb of God, you take away the sin of the world;"
+      },
+      {
+        "type": "line",
+        "text": "have mercy on us.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "Lamb of God, you take away the sin of the world;"
+      },
+      {
+        "type": "line",
+        "text": "grant us your peace.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "rubric",
+        "text": "The minister may say"
+      },
+      {
+        "type": "text_block",
+        "text": "The Gifts of God for the People of God. Take them in remembrance that Christ died for you, and feed on him in your hearts by faith, with thanksgiving."
+      },
       {
         "type": "versical",
         "minister": true,
@@ -14638,6 +15049,133 @@
       {
         "type": "text_block",
         "text": "The peace of God which passes all understanding keep your hearts and minds in the knowledge and love of God, and of his Son Jesus Christ our Lord; and the blessing of God Almighty, the Father, the Son, and the Holy Spirit, be among you, and remain with you always. **Amen.**"
+      },
+      {
+        "type": "rubric",
+        "text": "The Sacrament is then distributed with the following words"
+      },
+      {
+        "type": "text_block",
+        "text": "The Body of our Lord Jesus Christ, which was given for you, preserve your body and soul to everlasting life."
+      },
+      {
+        "type": "text_block",
+        "text": "The Blood of our Lord Jesus Christ, which was shed for you, preserve your body and soul to everlasting life."
+      },
+      {
+        "type": "rubric",
+        "text": "After Communion, the Minister says"
+      },
+      {
+        "type": "line",
+        "text": "Almighty and everliving God,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "we thank you for feeding us, in these holy mysteries,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "with the spiritual food of the most precious Body and Blood",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "of your Son our Savior Jesus Christ;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and for assuring us, through this Sacrament, of your favor and",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "goodness towards us:",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "that we are true members of the mystical body of your Son,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "the blessed company of all faithful people;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and are also heirs, through hope,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "of your everlasting kingdom.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "And we humbly ask you, heavenly Father,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "to assist us with your grace,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "that we may continue in that holy fellowship,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "and do all the good works that you have prepared for us to",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "walk in;",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "through Jesus Christ our Lord,",
+        "bold": true
+      },
+      {
+        "type": "line",
+        "text": "to whom, with you and the Holy Spirit,",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "line",
+        "text": "be all honor and glory, now and for ever. Amen.",
+        "bold": true,
+        "indent": true
+      },
+      {
+        "type": "rubric",
+        "text": "A Priest gives this blessing"
+      },
+      {
+        "type": "text_block",
+        "text": "The peace of God which passes all understanding keep your hearts and minds in the knowledge and love of God, and of his Son Jesus Christ our Lord; and the blessing of God Almighty, the Father, the Son, and the Holy Spirit, be among you, and remain with you always. **Amen.**"
       }
     ]
   },
@@ -14665,6 +15203,35 @@
         "text": "Thanks be to God."
       },
       {
+        "type": "rubric",
+        "text": "A Deacon or lay person says the following"
+      },
+      {
+        "type": "scripture",
+        "ref": "2 corinthians 13:14 t",
+        "text": "The grace of our Lord Jesus Christ, and the love of God, and the fellowship of the Holy Spirit, be with us all evermore. Amen."
+      },
+      {
+        "type": "versical",
+        "minister": true,
+        "text": "Let us bless the Lord."
+      },
+      {
+        "type": "versical",
+        "people": true,
+        "text": "Thanks be to God."
+      },
+      {
+        "type": "section_title",
+        "text": "additional prayers"
+      },
+      {
+        "type": "for_sick_person"
+      },
+      {
+        "type": "for_recovery"
+      },
+      {
         "type": "for_sick_person"
       },
       {
@@ -14684,6 +15251,15 @@
       },
       {
         "type": "strength_and_confidence"
+      },
+      {
+        "type": "for_sick_child"
+      },
+      {
+        "type": "before_an_operation"
+      },
+      {
+        "type": "strength_and_confidence"
       }
     ]
   },
@@ -14691,6 +15267,18 @@
     "pageNumber": 233,
     "headerText": "Untitled Service",
     "content": [
+      {
+        "type": "sanctification_of_illness"
+      },
+      {
+        "type": "health_of_body_and_soul"
+      },
+      {
+        "type": "thanks_beginning_of_recovery"
+      },
+      {
+        "type": "little_hope_of_recovery"
+      },
       {
         "type": "sanctification_of_illness"
       },
@@ -14722,6 +15310,20 @@
       },
       {
         "type": "when_taking_medicine"
+      },
+      {
+        "type": "section_title",
+        "text": "prayers for use by a sick person",
+        "size": "xl"
+      },
+      {
+        "type": "trust_in_god"
+      },
+      {
+        "type": "in_pain"
+      },
+      {
+        "type": "when_taking_medicine"
       }
     ]
   },
@@ -14729,6 +15331,113 @@
     "pageNumber": 235,
     "headerText": "Untitled Service",
     "content": [
+      {
+        "type": "for_sleep"
+      },
+      {
+        "type": "section_title",
+        "text": "in the morning",
+        "size": "xl"
+      },
+      {
+        "type": "text_block",
+        "text": "O Lord, our heavenly Father, almighty and everlasting God, you have brought us safely to the beginning of this day: Defend us by your mighty power, that we may not fall into sin nor run into any danger; and that, guided by your Spirit, we may do what is righteous in your sight; through Jesus Christ our Lord. **Amen.**"
+      },
+      {
+        "type": "section_title",
+        "text": "Scriptures for use by a sick person",
+        "size": "xl"
+      },
+      {
+        "type": "rubric",
+        "text": "For peseverance in suffering:"
+      },
+      {
+        "type": "button",
+        "text": "isaiah 53:"
+      },
+      {
+        "type": "button",
+        "text": "1 peter 2:21-25:"
+      },
+      {
+        "type": "button",
+        "text": "1 thessalonians 5:16-24:"
+      },
+      {
+        "type": "button",
+        "text": "2 corinthians 12:7-10:"
+      },
+      {
+        "type": "button",
+        "text": "romans 8:18-39:"
+      },
+      {
+        "type": "rubric",
+        "text": "For hope for healing:"
+      },
+      {
+        "type": "button",
+        "text": "2 kings 5:1-14:"
+      },
+      {
+        "type": "button",
+        "text": "james 5:13-20:"
+      },
+      {
+        "type": "button",
+        "text": "luke 5:12-26:"
+      },
+      {
+        "type": "button",
+        "text": "luke 13:10-17:"
+      },
+      {
+        "type": "button",
+        "text": "acts 3:1-10:"
+      },
+      {
+        "type": "rubric",
+        "text": "For the hope of eternity:"
+      },
+      {
+        "type": "button",
+        "text": "luke 2:25-35:"
+      },
+      {
+        "type": "button",
+        "text": "john 14:"
+      },
+      {
+        "type": "button",
+        "text": "1 corinthians 15:42-58:"
+      },
+      {
+        "type": "button",
+        "text": "2 corinthians 4:7-18:"
+      },
+      {
+        "type": "button",
+        "text": "1 thessalonians 4:13-18:"
+      },
+      {
+        "type": "rubric",
+        "content": [
+          {
+            "type": "text",
+            "value": "See also the Selections of Psalms on "
+          },
+          {
+            "type": "page_link",
+            "page": 269,
+            "text": "269"
+          },
+          {
+            "type": "text",
+            "value": "."
+          }
+        ]
+      },
       {
         "type": "for_sleep"
       },
@@ -19054,8 +19763,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "jeremiah"
+          },
+          {
             "type": "text",
-            "value": "{{u}}jeremiah{{/u} 1:4-10"
+            "value": " 1:4-10"
           }
         ]
       },
@@ -23883,8 +24596,12 @@
         "type": "line",
         "text": [
           {
+            "type": "u",
+            "value": "psalm 103"
+          },
+          {
             "type": "text",
-            "value": "{{u}}psalm 103 or 103:8-14"
+            "value": " or 103:8-14"
           }
         ]
       },
