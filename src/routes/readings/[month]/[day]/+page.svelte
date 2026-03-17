@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
-	import dailyLectionaryData from '$lib/calendar/daily_lectionary_partial.json';
+	import dailyLectionaryData from '$lib/calendar/daily_lectionary.json';
 	import rldEucharistData from '$lib/calendar/rld_eucharist.json';
 	import { getFeastDay, isRedLetterDay, getOriginalFeastDateKey } from '$lib/calendar/rlds';
 	import { calendarDateToLdoy, ldoyToCalendarDate } from '$lib/calendar/date_conversion';

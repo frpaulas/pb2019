@@ -3359,7 +3359,7 @@ const aprilToDecemberData = {
 };
 
 // Load existing January-March data
-const existingData = require('../src/lib/calendar/daily_lectionary_partial.json');
+const existingData = require('../src/lib/calendar/daily_lectionary.json');
 
 // Merge all data together (Jan-Dec)
 const allData = { ...existingData, ...aprilToDecemberData };
