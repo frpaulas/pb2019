@@ -461,9 +461,11 @@ export function parseReference(reference: string): {
 } | null {
 	reference = reference.trim();
 
-	// Normalize em dashes used in lectionary references:
-	// "X:Y—N end" (cross-chapter) → "X:Y-end,N"  e.g. "1:26—2 end" → "1:26-end,2"
+	// Normalize em dashes used in lectionary references (most specific patterns first):
+	// "X:Y—N end" (cross-chapter to end) → "X:Y-end,N"  e.g. "1:26—2 end" → "1:26-end,2"
 	reference = reference.replace(/(\d+[a-z]?)—(\d+)\s+end/gi, '$1-end,$2');
+	// "X:Y—M:W" (cross-chapter range) → "X:Y-end,M:1-W"  e.g. "22:34—23:12" → "22:34-end,23:1-12"
+	reference = reference.replace(/(\d+[a-z]?)—(\d+):(\d+[a-z]?)/gi, '$1-end,$2:1-$3');
 	// "X:Y—end" → "X:Y-end"  e.g. "22:34—end" → "22:34-end"
 	reference = reference.replace(/—end/gi, '-end');
 
@@ -507,9 +509,11 @@ export function parseReference(reference: string): {
 	const segmentStrs = verseSpec.split(',').map((s) => s.trim());
 	const segments: Array<{ chapter: number; startVerse: number; endVerse: number }> = [];
 
+	let lastChapter = 1;
 	for (const segStr of segmentStrs) {
-		const seg = parseVerseSegment(segStr, bookCode, 1);
+		const seg = parseVerseSegment(segStr, bookCode, lastChapter);
 		if (seg) {
+			lastChapter = seg.chapter;
 			segments.push(seg);
 		}
 	}
