@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import { base } from '$app/paths';
-	import { getFeastDay, isRedLetterDay, getOriginalFeastDateKey } from '$lib/calendar/rlds';
+import { getFeastDay, isRedLetterDay, getOriginalFeastDateKey } from '$lib/calendar/rlds';
 	import rldEucharistData from '$lib/calendar/rld_eucharist.json';
 	import {
 		getSundayLectionaryKey,
@@ -359,7 +359,9 @@
 	}
 
 	function goToToday() {
-		currentDate = new Date();
+		const today = new Date();
+		currentDate = today;
+		goto(`${base}/readings/${today.getMonth() + 1}/${today.getDate()}`);
 	}
 
 	function goToNextEaster() {
@@ -386,16 +388,28 @@
 	}
 
 	// Touch/hover state for mobile
-	let hoveredDay = $state<CalendarDay | null>(null);
-	let selectedDay = $state<CalendarDay | null>(null);
+	// Use $state.raw to store Date objects without Svelte proxy wrapping,
+	// so date comparisons work correctly.
+	let hoveredDate = $state.raw<Date | null>(null);
+	let selectedDate = $state.raw<Date | null>(null);
 	let isFingerOverGrid = $state(true);
 
+	function sameDay(a: Date | null, b: Date): boolean {
+		return a !== null
+			&& a.getFullYear() === b.getFullYear()
+			&& a.getMonth() === b.getMonth()
+			&& a.getDate() === b.getDate();
+	}
+
 	function handleDayHover(day: CalendarDay) {
-		hoveredDay = day;
+		hoveredDate = day.date;
 	}
 
 	function handleDayLeave() {
-		hoveredDay = null;
+		if (hoveredDate !== null) {
+			selectedDate = hoveredDate;
+		}
+		hoveredDate = null;
 	}
 
 	let touchStartDay = $state<CalendarDay | null>(null);
@@ -452,17 +466,13 @@
 		isFingerOverGrid = true;
 	}
 
-	// Get display info - prioritize hovered, then selected, then today
+	// Get display info - prioritize hovered date, then selected date, then today
 	let displayDay = $derived(
-		hoveredDay || selectedDay || calendarDays.find((d) => d.isToday) || null
+		calendarDays.find((d) => sameDay(hoveredDate, d.date)) ??
+		calendarDays.find((d) => sameDay(selectedDate, d.date)) ??
+		calendarDays.find((d) => d.isToday) ??
+		null
 	);
-
-	// Update selected day when display day changes (for persistence)
-	$effect(() => {
-		if (displayDay && !hoveredDay) {
-			selectedDay = displayDay;
-		}
-	});
 
 	// Calculate the next Sunday from a given date
 	function getNextSunday(date: Date): Date {
@@ -557,7 +567,7 @@
 		</h1>
 
 		<!-- Selected Date Display -->
-		<div class="mt-3 rounded-lg border-2 border-blue-500 bg-blue-50 px-3 py-2 md:mt-4">
+		<div class="mt-3 min-h-36 rounded-lg border-2 border-blue-500 bg-blue-50 px-3 py-2 md:mt-4">
 			{#if displayDay}
 				<div class="text-center text-sm font-semibold text-blue-900">
 					{displayDay.date.toLocaleDateString('en-US', {
@@ -565,22 +575,12 @@
 						month: 'long',
 						day: 'numeric',
 						year: 'numeric'
-					})}
+					})}{#if displayDay.sundayFullName || displayDay.holyWeekName || displayDay.easterWeekName}
+						<span class="ml-1 text-xs font-medium text-blue-700">— {displayDay.sundayFullName || displayDay.holyWeekName || displayDay.easterWeekName}</span>
+					{/if}{#if displayDay.feastDay}
+						<span class="ml-1 text-xs {displayDay.isRLD ? 'font-semibold text-red-700' : 'font-normal text-gray-600'}">— {displayDay.feastDay}</span>
+					{/if}
 				</div>
-				{#if displayDay.sundayFullName || displayDay.holyWeekName || displayDay.easterWeekName}
-					<div class="mt-0.5 text-center text-xs font-medium text-blue-700">
-						{displayDay.sundayFullName || displayDay.holyWeekName || displayDay.easterWeekName}
-					</div>
-				{/if}
-				{#if displayDay.feastDay}
-					<div
-						class="mt-0.5 text-center text-xs {displayDay.isRLD
-							? 'font-semibold text-red-700'
-							: 'text-gray-700'}"
-					>
-						{displayDay.feastDay}
-					</div>
-				{/if}
 
 				<!-- Eucharist Readings -->
 				{#if displayReadings}
@@ -704,12 +704,12 @@
 									? 'bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700'
 									: 'bg-green-50 hover:bg-green-100 dark:bg-green-950 dark:hover:bg-green-900'}
 						{day.isToday ? 'z-10' : ''}
-						{hoveredDay === day ? 'z-10' : ''}"
+						{sameDay(hoveredDate, day.date) ? 'z-10' : ''}"
 					style="border: 1px solid rgb(209 213 219); {day.liturgicalColor === 'white'
 						? 'background-color: #fef3c7;'
 						: ''} {day.isToday
 						? 'box-shadow: inset 0 0 0 3px rgb(59 130 246); background-color: rgba(59, 130, 246, 0.2);'
-						: hoveredDay === day
+						: sameDay(hoveredDate, day.date)
 							? 'box-shadow: inset 0 0 0 3px rgb(37, 99, 235); background-color: rgba(37, 99, 235, 0.3);'
 							: ''}"
 				>

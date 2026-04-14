@@ -25,7 +25,7 @@
 	// Map liturgical colors to CSS background colors (light mode)
 	const colorMapLight: Record<string, { bg: string; text: string }> = {
 		purple: { bg: '#6B21A8', text: 'white' },
-		white: { bg: '#F5F5F4', text: '#1C1917' },
+		white: { bg: '#FEF3C7', text: '#78350F' },
 		green: { bg: '#166534', text: 'white' },
 		red: { bg: '#991B1B', text: 'white' },
 		blue: { bg: '#1E40AF', text: 'white' },
@@ -36,7 +36,7 @@
 	// Muted colors for dark mode
 	const colorMapDark: Record<string, { bg: string; text: string }> = {
 		purple: { bg: '#4c1d95', text: '#e9d5ff' },
-		white: { bg: '#404040', text: '#fafafa' },
+		white: { bg: '#fafad2', text: '#3B3200' },
 		green: { bg: '#14532d', text: '#bbf7d0' },
 		red: { bg: '#7f1d1d', text: '#fecaca' },
 		blue: { bg: '#1e3a5f', text: '#bfdbfe' },
