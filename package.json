@@ -32,7 +32,7 @@
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
 		"@tailwindcss/typography": "^0.5.15",
 		"@tailwindcss/vite": "^4.0.0",
-		"@tauri-apps/cli": "^2.9.1",
+		"@tauri-apps/cli": "^2.11.2",
 		"@vitest/browser": "^3.2.3",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
@@ -55,7 +55,7 @@
 	},
 	"dependencies": {
 		"@storybook/svelte": "^9.1.6",
-		"@tauri-apps/api": "^2.9.0",
-		"@tauri-apps/plugin-shell": "^2.3.1"
+		"@tauri-apps/api": "^2.11.0",
+		"@tauri-apps/plugin-shell": "^2.3.5"
 	}
 }

@@ -10,12 +10,12 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: '404.html',
+			fallback: 'index.html',
 			precompress: false,
 			strict: false
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/pb2019' : ''
+			base: process.env.TAURI_ENV_TARGET_TRIPLE || process.env.NODE_ENV !== 'production' ? '' : '/pb2019'
 		}
 	}
 };

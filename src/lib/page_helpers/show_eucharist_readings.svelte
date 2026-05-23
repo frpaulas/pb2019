@@ -64,7 +64,8 @@
 	}
 
 	function openScripture(reference: string) {
-		scriptureModal.open(reference, null);
+		const parts = reference.split(' or ');
+		scriptureModal.open(parts[0].trim(), parts.length > 1 ? parts[1].trim() : null);
 	}
 </script>
 

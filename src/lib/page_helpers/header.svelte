@@ -188,7 +188,7 @@
 
 <header
 	class="fixed w-full max-w-180 border-b shadow-md"
-	style="background-color: {headerColors.bg};"
+	style="background-color: {headerColors.bg}; padding-top: env(safe-area-inset-top);"
 >
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="flex items-center justify-between py-3">

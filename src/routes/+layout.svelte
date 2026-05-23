@@ -120,7 +120,8 @@
 		<Header />
 	</div>
 	<div
-		class="scrollbar-hidden mt-18 w-full max-w-180 rounded-md border-t-3 border-r-3 border-red-800 bg-neutral-100 font-serif"
+		class="scrollbar-hidden w-full max-w-180 rounded-md border-t-3 border-r-3 border-red-800 bg-neutral-100 font-serif"
+		style="margin-top: calc(4.5rem + env(safe-area-inset-top))"
 	>
 		<div
 			class="border-r-double scrollbar-hidden w-full max-w-178 border-r-3 border-double border-r-green-900"
